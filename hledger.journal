@@ -1,0 +1,16 @@
+;; -*- mode: ledger -*-
+
+include accounts.journal
+include 202400.journal
+include 202404.journal
+include 202405.journal
+include 202406.journal
+include 202407.journal
+include 202408.journal
+include 202409.journal
+include 202410.journal
+include 202411.journal
+include 202412.journal
+include 202501.journal
+include 202502.journal
+; include .202503.journal

@@ -1,0 +1,110 @@
+;; -*- mode: ledger -*-
+
+; Commodity
+commodity EUR 1,000.00
+commodity GBP 1,000.00
+commodity LQQ 1.
+
+; Assets: Things I own (cash, bank account, investments)
+account Assets:FR:BforBank:Compte-Courant         ; type: C
+account Assets:FR:BforBank:LivretA                ; type: C
+account Assets:FR:BoursoBank:Compte-Courant       ; type: C
+account Assets:FR:BourseDirect:Cash               ; type: C
+account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
+account Assets:FR:Cash                            ; type: C
+account Assets:FR:Epsor:PEI                       ; type: A
+account Assets:FR:Epsor:PER                       ; type: A
+account Assets:UK:Revolut:Personal:EUR            ; type: C
+account Assets:UK:Revolut:Personal:GBP            ; type: C
+account Assets:UK:Moneyfarm                       ; type: A
+account Assets:FR:Receivables:Mum                 ; type: A
+account Assets:FR:Receivables:Aurelie             ; type: A
+
+; Liabilities: Money I owe (loans, credit card debt, etc.)
+account Liabilities:FR:Amex:Gold                  ; type: L
+account Liabilities:FR:Mortgage                   ; type: L
+account Liabilities:FR:Loans:Personal             ; type: L
+
+; Equity
+account Equity:Opening-Balances                   ; type: E
+account Equity:Adjustments                        ; type: E
+account Equity:Earnings:Retained                  ; type: E
+account Equity:Earnings:Current                   ; type: E
+
+; Income: Money I earn
+account Income:FR:111Capital:Salary               ; type: R
+account Income:FR:111Capital:AnnualBonus          ; type: R
+account Income:FR:BforBank:LivretA                ; type: R
+account Income:FR:Resale                          ; type: R
+account Income:FR:Resale:Vinted                   ; type: R
+
+; Expenses: Money I spend
+account Expenses:Cigarettes                                ; type: X
+account Expenses:Education                                 ; type: X
+account Expenses:Education:Books                           ; type: X
+account Expenses:Education:Courses                         ; type: X
+account Expenses:Entertainment                             ; type: X
+account Expenses:Entertainment:Digital                     ; type: X
+account Expenses:Entertainment:Events                      ; type: X
+account Expenses:Entertainment:Events:Cinema               ; type: X
+account Expenses:Entertainment:Events:Concerts             ; type: X
+account Expenses:Entertainment:Events:Sports               ; type: X
+account Expenses:Entertainment:Reading:Books               ; type: X
+account Expenses:Entertainment:Reading:Magazines           ; type: X
+account Expenses:Entertainment:Social:Bars                 ; type: X
+account Expenses:Entertainment:Social:Sports               ; type: X
+account Expenses:Fees:Bank                                 ; type: X
+account Expenses:Fees:CreditCard                           ; type: X
+account Expenses:Food:Cafe                                 ; type: X
+account Expenses:Food:Delivery                             ; type: X
+account Expenses:Food:FastFood                             ; type: X
+account Expenses:Food:Groceries                            ; type: X
+account Expenses:Food:OfficeLunch                          ; type: X
+account Expenses:Food:Restaurants                          ; type: X
+account Expenses:Food:Snack                                ; type: X
+account Expenses:GiftsCharity:Charity                      ; type: X
+account Expenses:GiftsCharity:Gifts                        ; type: X
+account Expenses:GiftsCharity                              ; type: X
+account Expenses:Health:Dentist                            ; type: X
+account Expenses:Health:Doctor                             ; type: X
+account Expenses:Health:Gym                                ; type: X
+account Expenses:Health:Pharmacy                           ; type: X
+account Expenses:Health:Sport                              ; type: X
+account Expenses:Health:Supplements                        ; type: X
+account Expenses:Health:Therapy                            ; type: X
+account Expenses:Home                                      ; type: X
+account Expenses:Home:Furniture                            ; type: X
+account Expenses:Home:Maintenance                          ; type: X
+account Expenses:Home:Mortgage                             ; type: X
+account Expenses:Home:Rent                                 ; type: X
+account Expenses:Home:Utilities:Electricity                ; type: X
+account Expenses:Home:Utilities:Internet                   ; type: X
+account Expenses:Home:Utilities:MobilePhone                ; type: X
+account Expenses:Home:Utilities:Water                      ; type: X
+account Expenses:Insurance:Health                          ; type: X
+account Expenses:Insurance:Home                            ; type: X
+account Expenses:Misc                                      ; type: X
+account Expenses:Misc:Unaccounted                          ; type: X
+account Expenses:PersonalCare                              ; type: X
+account Expenses:PersonalCare:Hair                         ; type: X
+account Expenses:PersonalCare:Laundry                      ; type: X
+account Expenses:PersonalCare:Tailoring                    ; type: X
+account Expenses:Resale                                    ; type: X
+account Expenses:Shopping                                  ; type: X
+account Expenses:Shopping:Clothes                          ; type: X
+account Expenses:Shopping:Refunds                          ; type: X
+account Expenses:Shopping:Electronics                      ; type: X
+account Expenses:Shopping:Sport                            ; type: X
+account Expenses:Subscriptions                             ; type: X
+account Expenses:Subscriptions:CloudStorage                ; type: X
+account Expenses:Subscriptions:Software                    ; type: X
+account Expenses:Subscriptions:Streaming                   ; type: X
+account Expenses:Taxes                                     ; type: X
+account Expenses:Transportation:Bikesharing                ; type: X
+account Expenses:Transportation:CarRental                  ; type: X
+account Expenses:Transportation:PublicTransport            ; type: X
+account Expenses:Transportation:Taxi                       ; type: X
+account Expenses:Travel:Flights                            ; type: X
+account Expenses:Travel:Holidays                           ; type: X
+account Expenses:Travel:Holidays:Accommodation             ; type: X
+account Expenses:Travel:Train                              ; type: X

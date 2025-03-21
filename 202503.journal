@@ -197,6 +197,10 @@
     Expenses:Food:Groceries                EUR 5.98
     Assets:FR:BforBank:Compte-Courant
 
+2025-03-21 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant  ; date:2025-03-24
+
 ; Cash expenses
 2025-03-02 * Cafe with Aurélie
     Expenses:Food:Cafe                         EUR 5
@@ -247,6 +251,10 @@
     Assets:FR:Cash
 
 2025-03-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-03-21 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
@@ -363,3 +371,15 @@
 2025-03-16 * Aurelie Hotel Contribution
     Assets:FR:Receivables:Aurelie            EUR 126
     Expenses:Travel:Holidays:Accommodation
+
+2025-03-17 * Dott bike from Nation
+    Expenses:Transportation:Bikesharing     EUR 2.78
+    Liabilities:FR:Amex:Gold
+
+2025-03-21 * Dott bike from padel
+    Expenses:Transportation:Bikesharing     EUR 6.23
+    Liabilities:FR:Amex:Gold
+
+2025-03-21 * Padel gear rental
+    Expenses:Entertainment:Social:Sports    EUR 8.00
+    Liabilities:FR:Amex:Gold

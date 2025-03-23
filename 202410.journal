@@ -80,7 +80,11 @@
 
 2024-10-02 * Investments BourseDirect
     Assets:FR:BourseDirect:Cash               EUR 770
-    Assets:FR:BforBank:Compte-Courant        EUR -770
+    Assets:FR:BforBank:Compte-Courant       EUR -770
+
+2024-10-02 * Investments BourseDirect
+    Assets:FR:BourseDirect:Cash               EUR 70
+    Assets:FR:BforBank:LivretA              EUR -70
 
 2024-10-03 * Cigarettes
     Expenses:Cigarettes                      EUR 12.5

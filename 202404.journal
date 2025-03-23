@@ -350,7 +350,11 @@
     Expenses:PersonalCare:Hair                EUR 200
     Assets:FR:BforBank:Compte-Courant        EUR -200
 
-; opening balances
+; Manual entries
+; Artificially adjust the opening balance of the
+; BforBank compte-courant account so that the balance
+; ends at 1,039.04. This left-over amount will be
+; consumed in the next successive months.
 2024-04-01 * opening balances
     Assets:FR:BforBank:Compte-Courant     EUR -221.92   ; Negative balance
     Equity:Opening-Balances

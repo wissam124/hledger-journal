@@ -42,11 +42,6 @@
     Expenses:Travel:Holidays                 EUR 361
     Assets:FR:BforBank:Compte-Courant
 
-2024-09-01 * Receivable Mum Transavia Flight
-    Assets:FR:Receivables:Mum                EUR 361
-    Expenses:Travel:Holidays
-
-
 2024-09-01 * AMEX - 2024-08-31 - Dott ride
     Expenses:Transportation:Bikesharing        EUR 9.24
     Assets:FR:BforBank:Compte-Courant         EUR -9.24
@@ -388,7 +383,7 @@
     Assets:FR:BforBank:Compte-Courant      EUR -21.37
 
 2024-09-28 * Festival America
-    Expenses:Entertainment:Reading:Books          EUR 25
+    Expenses:Entertainment:Events             EUR 25
     Assets:FR:BforBank:Compte-Courant            EUR -25
 
 2024-09-28 * Therapist
@@ -418,3 +413,8 @@
 2024-09-30 * Unaccounted expenses
     Expenses:Misc                           EUR 28.36
     Assets:FR:BforBank:Compte-Courant      EUR -28.36
+
+; Manual entries
+2024-09-01 * Settle transavia flight mum
+    Liabilities:FR:Payables:Mum              EUR 361
+    Expenses:Travel:Holidays

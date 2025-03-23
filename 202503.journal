@@ -199,7 +199,19 @@
 
 2025-03-21 * Cash withdrawal
     Assets:FR:Cash                            EUR 20
-    Assets:FR:BforBank:Compte-Courant  ; date:2025-03-24
+    Assets:FR:BforBank:Compte-Courant
+
+2025-03-21 * Sale heater on le bon coin
+    Assets:FR:BforBank:Compte-Courant         EUR 50
+    Income:FR:Resale
+
+2025-03-22 Cash withdrawal
+    Assets:FR:Cash                            EUR 70
+    Assets:FR:BforBank:Compte-Courant
+
+2025-03-22 * Hellofresh
+    Expenses:Food:Groceries                EUR 40.94
+    Assets:FR:BforBank:Compte-Courant
 
 ; Cash expenses
 2025-03-02 * Cafe with Aurélie
@@ -256,6 +268,14 @@
 
 2025-03-21 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-03-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-03-22 * Therapy
+    Expenses:Health:Therapy                   EUR 60
     Assets:FR:Cash
 
 ; Revolut expenses
@@ -347,12 +367,28 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
+2025-03-19 * Financier Kayser
+    Expenses:Food:Snack                     EUR 3.60
+    Assets:UK:Revolut:Personal:EUR
+
 2025-03-20 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.60
     Assets:UK:Revolut:Personal:EUR
 
-2025-03-19 * Financier Kayser
-    Expenses:Food:Snack                     EUR 3.60
+2025-03-21 * Waffle Kayser
+    Expenses:Food:Snack                     EUR 3.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-21 * Euromillions
+    Expenses:Entertainment                     EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-21 * Drinks Aligre with Aurelie
+    Expenses:Entertainment:Social:Bars     EUR 18.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-21 * Viennoise chocolat
+    Expenses:Food:Snack                    EUR 3.50
     Assets:UK:Revolut:Personal:EUR
 
 ; Amex expenses
@@ -382,4 +418,16 @@
 
 2025-03-21 * Padel gear rental
     Expenses:Entertainment:Social:Sports    EUR 8.00
+    Liabilities:FR:Amex:Gold
+
+2025-03-21 Restaurant Passerini
+    Expenses:Food:Restaurants              EUR 90.00
+    Liabilities:FR:Amex:Gold
+
+2025-03-21 Sportfield padel booking
+    Expenses:Entertainment:Social:Sports   EUR 50.00
+    Liabilities:FR:Amex:Gold
+
+2025-03-22 Dott bike to optician
+    Expenses:Transportation:Bikesharing     EUR 4.04
     Liabilities:FR:Amex:Gold

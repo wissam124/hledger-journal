@@ -413,11 +413,3 @@
 2024-11-30 * Unaccounted expenses
     Expenses:Misc                           EUR 0.03
     Assets:FR:BforBank:Compte-Courant
-
-2024-11-30 * Transfer Livret A
-    Assets:FR:BforBank:Compte-Courant       EUR 2643
-    Assets:FR:BforBank:LivretA
-
-2024-11-30 * Macbook Pro
-    Expenses:Shopping:Electronics           EUR 2643
-    Assets:FR:BforBank:Compte-Courant

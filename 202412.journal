@@ -402,6 +402,7 @@
     Expenses:Cigarettes                      EUR 12.5
     Assets:FR:BforBank:Compte-Courant       EUR -12.5
 
+; Operations manually added after CSV import
 2024-12-31 * Livret A interest payment
     Assets:FR:BforBank:LivretA      EUR 353.08
     Income:FR:BforBank:LivretA     EUR -353.08
@@ -413,3 +414,11 @@
 2024-12-31 * Transfer Livret
     Assets:FR:BforBank:Compte-Courant     EUR 353.08
     Assets:FR:BforBank:LivretA
+
+2024-12-09 * Transfer Livret A
+    Assets:FR:BforBank:Compte-Courant       EUR 2643
+    Assets:FR:BforBank:LivretA
+
+2024-12-10 * Macbook Pro
+    Expenses:Shopping:Electronics           EUR 2643
+    Assets:FR:BforBank:Compte-Courant

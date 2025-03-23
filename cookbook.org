@@ -1,0 +1,23 @@
+#+title: Personal ledger cookbook
+#+author: Jean Dupin
+
+
+* How to deal with refunds?
+** Refunds
+As a general rule, should be logged as a transaction with a negative
+expense posting.
+#+begin_src ledger
+2024-09-01 * AMEX - 2024-08-30 - Refund Bonne Gueule
+    Assets:FR:BforBank:Compte-Courant         EUR 305
+    Expenses:Shopping:Refunds                EUR -305
+#+end_src
+
+** Medical insurance refunds
+- Best practice is to record the refund as a negative expense against the
+  same account rather than as an income (it is not really an income).
+- Alternative approach: track refunds separately in a dedicated account.
+#+begin_src ledger
+2024-02-20 * Insurance refund for doctor visit
+    Assets:Bank:Checking              80 EUR
+    Expenses:Health:Reimbursements   -80 EUR
+#+end_src

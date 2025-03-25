@@ -1,3 +1,15 @@
-2024-04-01 * Opening balance for Livret A
-    Assets:FR:BforBank:LivretA                 EUR 7772.02
+; Artificially adjust the opening balance of the BforBank compte-courant account
+; such that the account balance at Apr'24 month-end is EUR 1,039.04.
+; This left-over balance will be fully utilised in the period Apr'24-Sep'24.
+2024-04-01 * Opening bal BforBank CC for Apr'24-Sep-24 cash adjustment
+    Assets:FR:BforBank:Compte-Courant     EUR -221.92   ; Negative balance
+    Equity:Opening-Balances
+
+; Set the opening balance for PEA ignoring previous transactions
+; on:
+; - Amundi PEA MSCI Emerging Markets FR0013412020
+; - Amundi PEA EURO COURT TERME UC FR0013346681
+; The cash amount is the result of the sale of the two ETFs above.
+2024-04-01 * Opening balance for PEA
+    Assets:FR:BourseDirect:Cash          EUR 1306.22
     Equity:Opening-Balances

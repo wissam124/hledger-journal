@@ -1,7 +1,7 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
 ; opening balances
-2025-03-01 * opening balances
+2025-03-01 * Opening balances
     Assets:UK:Revolut:Personal:EUR          EUR 0.50
     Assets:FR:BoursoBank:Compte-Courant     EUR 8.09
     Assets:FR:Cash                          EUR 2.30
@@ -221,6 +221,10 @@
     Expenses:Food:Delivery                 EUR 20.79
     Assets:FR:BforBank:Compte-Courant
 
+2025-03-26 * Red by SFR
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
+
 ; Cash expenses
 2025-03-02 * Cafe with Aurélie
     Expenses:Food:Cafe                         EUR 5
@@ -421,6 +425,18 @@
 
 2025-03-25 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-25 * Carrefour food shopping
+    Expenses:Food:Groceries                 EUR 4.89
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-27 * Galya office lunch
+    Expenses:Food:OfficeLunch              EUR 14.60
     Assets:UK:Revolut:Personal:EUR
 
 ; Amex expenses

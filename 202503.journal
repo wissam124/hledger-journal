@@ -435,8 +435,20 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
-2025-03-27 * Galya office lunch
+2025-03-27 * Ilia office lunch
     Expenses:Food:OfficeLunch              EUR 14.60
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-27 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-27 * Durum
+    Expenses:Food:FastFood                    EUR 17
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-28 * Ilia office lunch
+    Expenses:Food:OfficeLunch              EUR 15.10
     Assets:UK:Revolut:Personal:EUR
 
 ; Amex expenses

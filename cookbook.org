@@ -2,10 +2,106 @@
 #+author: Jean Dupin
 
 
+* Formalise transactions and balances
+
+* The fundamental accounting equation
+With signed quantities, the fundamental accounting equation is
+$$A + L + E = 0$$.
+This means that every new transaction must maintain this balance.
+i.e. an increase in assets must be offset by either:
+- a decrease in another asset
+- an increase in liabilities
+- an adjustment in equity.
+
+Examples:
+- I buy a coffee for EUR 5 with my debit card. My assets decrease by EUR 5.
+  This is an expense that decreases my overall net worth, hence an equity
+  decrease (in absolute terms) of EUR 5.
+- I buy a coffee for EUR 5 with my credit card. My assets do not change.
+  However my liabilities increase by 5 EUR and they are matched by a
+  decrease in equity.
+
+* The fundamental rule of double-entry accounting
+The fundamental rule of double-entry accounting requires every debit
+to be matched with a credit of equal value.
+
+Example of a violation of the rule:
+#+begin_src ledger
+2020-02-01 buy ada
+    assets:cc:ada          2000 ADA
+    assets:bank:checking   -$40
+#+end_src ledger
+
+The units ADA and USD are not directly convertible in the system so it
+seems like value is appearing out of nothing/disappearing.
+It is therefore imperative to indicate the implicit unit price or unitcost
+#+begin_src ledger
+2020-02-01 buy ada
+    assets:cc:ada          2000 ADA @@ $40
+    assets:bank:checking   -$40
+#+end_src ledger
+
+To fully enforce the rule of double-entry, it would be preferable to have
+#+begin_src ledger
+2020-02-01 buy ada
+    assets:cc:ada          2000 ADA
+    equity:conversion      -2000 ADA
+    equity:conversion       $40
+    assets:bank:checking   -$40
+#+end_src ledge
+But this general form is not recognised by hledger and reporting @ cost will not
+be possible. Unless the transaction is booked with all postings and unitcost/unitprice.
+
+#+begin_src ledger
+2020-02-01 buy ada
+    assets:cc:ada          2000 ADA @@ $40
+    equity:conversion      -2000 ADA @@ $40
+    equity:conversion       $40
+    assets:bank:checking   -$40
+#+end_src ledge
+
+* How to log 111 company investment plan?
+** Difficulties
+111 cap pays annually into an investment plan as part of the
+participation/interessement scheme.
+The money is managed through EPSOR whereby it is invested in various mutual
+funds.
+Considering the allocation/rebalancing is automated, it would cumbersome to
+track the value of each fund.
+
+** Solutions
+Use a custom commodity to track contributions and value total.
+#+begin_src ledger
+commodity EURPER
+commodity EURPEI
+
+2024-11-19 * Versement defiscalise vers le PER
+     Assets:FR:Epsor:PER:Tax-Deferred        EURPER 2158 @ EUR 1
+     Assets:FR:BforBank:LivretA             EUR -2158
+
+P 2025-01-01 EURPER EUR 1.1
+#+end_src ledger
+This is cumbersome because it requires to calculate a price inferred from
+the valuation of the plan at time t divided by the contributions.
+Additionnally, contributions made at times $t_1$ and $t_{2}$ should not be
+valued with the same price because they have grown with different returns.
+
+For valuation purposes it is easier to use a balance assertion using the
+provider's valuation at a specific date and track the unrealised-pnl into an
+equity account.
+#+begin_src ledger
+2025-02-28 * EPSOR valuation
+    Assets:FR:Epsor:PEI                  = EUR 54248
+    Equity:Unrealised-PnL:EUR
+#+end_src ledger
+
+This requires a regular balance assertion entry, for example monthly.
+
 * How to deal with refunds?
 ** Refunds
 As a general rule, should be logged as a transaction with a negative
-expense posting.
+expense posting. It is not an income, it actually should decrease
+the accumulated balance held in the expense account.
 #+begin_src ledger
 2024-09-01 * AMEX - 2024-08-30 - Refund Bonne Gueule
     Assets:FR:BforBank:Compte-Courant         EUR 305

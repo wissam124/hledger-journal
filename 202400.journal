@@ -5,6 +5,13 @@
     Assets:FR:BforBank:Compte-Courant     EUR -221.92   ; Negative balance
     Equity:Opening-Balances
 
+; Opening balance for livret A calculated as the difference between
+; total value observed end of Feb'25 and contributions/withdrawals
+; done over the period Apr'24-Feb'25
+2024-04-01 * Opening balance for Livret A
+    Assets:FR:BforBank:LivretA          EUR 10000.02
+    Equity:Opening-Balances
+
 ; Set the opening balance for PEA ignoring previous transactions
 ; on:
 ; - Amundi PEA MSCI Emerging Markets FR0013412020
@@ -13,3 +20,25 @@
 2024-04-01 * Opening balance for PEA
     Assets:FR:BourseDirect:Cash          EUR 1306.22
     Equity:Opening-Balances
+
+; Opening balance for PER/PEI
+; All tax-deferred personal contributions before 2024
+2024-04-01 * Opening balance PER Tax deferred
+    Assets:FR:Epsor:PER:Tax-Deferred        EUR 2500
+    Equity:Opening-Balances
+
+; All contributions (personal and company's) to PER before 2024
+2024-04-01 * Opening balance PER
+    Assets:FR:Epsor:PER                EUR 21811.25
+    Equity:Opening-Balances
+
+; All contributions (personal and company's) to PEI before 2024
+2024-04-01 * Opening balance PEI
+    Assets:FR:Epsor:PEI                EUR 43036.02
+    Equity:Opening-Balances
+
+; Moneyfarm opening balances
+; Net contributions
+2024-04-01 * Moneyfarm opening balance
+    Assets:UK:Moneyfarm                GBP 44041.30
+    Equity:Opening-Balances:GBP

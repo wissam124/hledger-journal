@@ -491,3 +491,16 @@
 2025-03-22 * Dott bike to optician
     Expenses:Transportation:Bikesharing     EUR 4.04
     Liabilities:FR:Amex:Gold
+
+; Investment funds valuation
+2025-03-31 * EPSOR valuation
+    Assets:FR:Epsor:PEI                  = EUR 54248
+    Equity:Unrealised-PnL:EUR
+
+2025-03-31 * EPSOR valuation PER
+    Assets:FR:Epsor:PER                ==* EUR 35481
+    Equity:Unrealised-PnL:EUR
+
+2025-03-31 * Moneyfarm valuation
+    Assets:UK:Moneyfarm               = GBP 48788.14
+    Equity:Unrealised-PnL:GBP

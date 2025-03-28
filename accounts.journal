@@ -14,6 +14,7 @@ account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
 account Assets:FR:Cash                            ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
+account Assets:FR:Epsor:PER:Tax-Deferred          ; type: A
 account Assets:UK:Revolut:Personal:EUR            ; type: C
 account Assets:UK:Revolut:Personal:GBP            ; type: C
 account Assets:UK:Moneyfarm                       ; type: A
@@ -28,14 +29,24 @@ account Liabilities:FR:Payables:Mum               ; type: L
 
 ; Equity
 account Equity:Opening-Balances                   ; type: E
+account Equity:Opening-Balances:GBP               ; type: E
+account Equity:Unrealised-PnL                     ; type: E
 account Equity:Adjustments                        ; type: E
 account Equity:Earnings:Retained                  ; type: E
 account Equity:Earnings:Current                   ; type: E
+
+# Equity accounts for trading and the conversion of
+# cash into investments vehicles (e.g. shares, ETFs, etc).
+account Equity:Conversion:BourseDirect:EUR        ; type: E
+account Equity:Conversion:BourseDirect:LQQ        ; type: E
 
 ; Income: Money I earn
 account Income:FR:111Capital:Salary               ; type: R
 account Income:FR:111Capital:AnnualBonus          ; type: R
 account Income:FR:BforBank:LivretA                ; type: R
+account Income:FR:111Capital:Participation        ; type: R
+account Income:FR:111Capital:Interessement        ; type: R
+account Income:FR:111Capital:Abondement           ; type: R
 account Income:FR:Resale                          ; type: R
 account Income:FR:Resale:Vinted                   ; type: R
 

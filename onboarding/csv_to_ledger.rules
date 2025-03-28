@@ -1,0 +1,178 @@
+# separator
+# Define the separator
+separator ,
+
+# skip
+# Skip headers
+skip 1
+
+# date-format
+# Format the date correctly (assuming DD/MM/YYYY format)
+date-format %d/%m/%Y
+
+# decimal-mark
+# Specify decimal mark
+decimal-mark .
+
+# fieds list
+# Define the format of the CSV file
+fields Date, Nature, Amount, DebitCredit, Category, SubCategory
+
+# Field assignment
+date %Date
+currency EUR 
+amount %cur %Amount
+description %Nature
+
+# Set default debit account for all transactions
+account2 Assets:FR:BforBank:Compte-Courant
+
+# Set default cleared
+status *
+
+if
+!%Date 04/2024
+# !%Date 05/2024
+# !%Date 06/2024
+# !%Date 07/2024
+# !%Date 08/2024
+# !%Date 09/2024
+# !%Date 10/2024
+# !%Date 11/2024
+# !%Date 12/2024
+# !%Date 01/2025
+# !%Date 02/2025
+  skip
+
+# Account mapping
+if,account1
+%Category Cigarettes && %SubCategory Cigarettes,Expenses:Cigarettes
+%Category Other && %SubCategory Other,Expenses:Misc
+%Category Education && %SubCategory Other,Expenses:Education
+%Category Entertainment && %SubCategory Arts,Expenses:Entertainment:Events
+%Category Entertainment && %SubCategory Bars,Expenses:Entertainment:Social:Bars
+%Category Entertainment && %SubCategory Books,Expenses:Entertainment:Reading:Books
+%Category Entertainment && %SubCategory Cinema,Expenses:Entertainment:Events:Cinema
+%Category Entertainment && %SubCategory Concerts,Expenses:Entertainment:Events:Concerts
+%Category Entertainment && %SubCategory Holiday,Expenses:Travel:Holidays
+%Category Entertainment && %SubCategory Newspaper,Expenses:Entertainment:Reading:Magazines
+%Category Entertainment && %SubCategory Other,Expenses:Entertainment
+%Category Entertainment && %SubCategory Sports Events,Expenses:Entertainment:Events:Sports
+%Category Food and Dining && %SubCategory Coffee Shops,Expenses:Food:Cafe
+%Category Food and Dining && %SubCategory Food Delivery,Expenses:Food:Delivery
+%Category Food and Dining && %SubCategory Groceries,Expenses:Food:Groceries
+%Category Food and Dining && %SubCategory Office Lunch,Expenses:Food:OfficeLunch
+%Category Food and Dining && %SubCategory Restaurant,Expenses:Food:Restaurants
+%Category Food and Dining && %SubCategory Snack/Fast Food,Expenses:Food:Snack
+%Category Gifts and Donations && %SubCategory Donations,Expenses:GiftsCharity:Charity
+%Category Gifts and Donations && %SubCategory Gifts,Expenses:GiftsCharity:Gifts
+%Category Gifts and Donations && %SubCategory Other,Expenses:GiftsCharity
+%Category Health and Fitness && %SubCategory Doctor,Expenses:Health:Doctor
+%Category Health and Fitness && %SubCategory Gym,Expenses:Health:Gym
+%Category Health and Fitness && %SubCategory Pharmacy,Expenses:Health:Pharmacy
+%Category Health and Fitness && %SubCategory Sports,Expenses:Health:Sport
+%Category Household and Utilities && %SubCategory Electricity/Gas,Expenses:Home:Utilities:Electricity
+%Category Household and Utilities && %SubCategory Furniture,Expenses:Home:Furniture
+%Category Household and Utilities && %SubCategory Home maintenance and repair,Expenses:Home:Maintenance
+%Category Household and Utilities && %SubCategory Internet,Expenses:Home:Utilities:Internet
+%Category Household and Utilities && %SubCategory Mobile Phone,Expenses:Home:Utilities:MobilePhone
+%Category Household and Utilities && %SubCategory Other,Expenses:Home
+%Category Household and Utilities && %SubCategory Rent/Mortgage Payment,Expenses:Home:Rent
+%Category Insurance && %SubCategory Home Insurance,Expenses:Insurance:Home
+%Category Investments && %SubCategory Savings,Assets:FR:BforBank:LivretA
+%Category Personal Care && %SubCategory Hair,Expenses:PersonalCare:Hair
+%Category Personal Care && %SubCategory Other,Expenses:PersonalCare
+%Category Shopping && %SubCategory Clothing,Expenses:Shopping:Clothes
+%Category Shopping && %SubCategory Electronics,Expenses:Shopping:Electronics
+%Category Shopping && %SubCategory Sporting Goods,Expenses:Shopping:Sport
+%Category Shopping && %SubCategory Other,Expenses:Shopping
+%Category TaxesFeesCharges && %SubCategory Bank Fee,Expenses:Fees:Bank
+%Category TaxesFeesCharges && %SubCategory Credit Card Fee,Expenses:Fees:CreditCard
+%Category TaxesFeesCharges && %SubCategory Other,Expenses:Fees
+%Category Travel && %SubCategory Air Travel,Expenses:Travel:Flights
+%Category Travel && %SubCategory Bikesharing,Expenses:Transportation:Bikesharing
+%Category Travel && %SubCategory Car Rental,Expenses:Transportation:CarRental
+%Category Travel && %SubCategory Transport Card,Expenses:Transportation:PublicTransport
+%Category Travel && %SubCategory Taxi,Expenses:Transportation:Taxi
+%Category Travel && %SubCategory Train,Expenses:Travel:Train
+
+
+# Custom rules
+if,account1
+%Nature Nutripure,Expenses:Health:Supplements
+%Nature Therapist,Expenses:Health:Therapy
+%Nature Beeminder fine,Expenses:Subscriptions:Software
+%Nature MacroFactor subscription,Expenses:Subscriptions:Software
+%Nature reveri,Expenses:Subscriptions:Software
+%Nature Padel,Expenses:Entertainment:Social:Sports
+%Nature FO subscription,Expenses:Subscriptions
+%Nature ^Medias,Expenses:Subscriptions
+%Nature Proton VPN,Expenses:Subscriptions:Software
+%Nature Investments BourseDirect,Assets:FR:BourseDirect:Cash
+%Nature Tax residual,Expenses:Taxes
+%Nature Intersport Ski,Expenses:Shopping:Sport
+%Nature ChatGPT credits,Expenses:Subscriptions:Software
+%Nature Vinted boost,Expenses:Resale
+%Nature ^McDonald's,Expenses:Food:FastFood
+%Nature ^Durum,Expenses:Food:FastFood
+%Nature Tailoring,Expenses:PersonalCare:Tailoring
+
+if
+%DebitCredit C
+&& %Category Income
+&& %SubCategory Wages
+&& %Nature 111 Cap wage
+    account1 Assets:FR:BforBank:Compte-Courant
+    account2 Income:FR:111Capital:Salary
+
+
+if
+%DebitCredit C
+&& %Category Income
+&& %SubCategory Investment
+&& %Nature Livret A interest payment
+    account1 Assets:FR:BforBank:LivretA
+    account2 Income:FR:BforBank:LivretA
+
+if
+%DebitCredit C
+&& %Category Income
+&& %SubCategory Other
+&& %Nature Sale
+   account1 Assets:FR:BforBank:Compte-Courant
+   account2 Income:FR:Resale
+
+if
+%DebitCredit C
+&& %Category Income
+&& %SubCategory Other
+&& %Nature Vinted sales
+   account1 Assets:FR:BforBank:Compte-Courant
+   account2 Income:FR:Resale:Vinted
+
+if
+%Nature Carry-over
+%Nature Transfer from savings
+%Nature Virement Aurelie
+%Nature Virement maman vol transavia Valence
+%Nature Aurelie settlement
+&& %DebitCredit C
+&& %Category Income
+&& %SubCategory Other
+   skip
+   
+if
+%SubCategory Refund
+%SubCategory Returned Purchase
+&& %DebitCredit C
+&& %Category Income
+   account1 Assets:FR:BforBank:Compte-Courant
+   account2 Expenses:Shopping:Refunds
+
+if
+%Category Loans
+   account1 Assets:FR:Loans
+
+# if
+# !%Category Cigarettes
+#     skip

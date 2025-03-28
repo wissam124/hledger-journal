@@ -381,3 +381,10 @@
 2024-10-30 * Transfer Livret A
     Assets:FR:BforBank:Compte-Courant        EUR 100
     Assets:FR:BforBank:LivretA
+
+; PEA investments manual entries
+2024-10-02 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @@ EUR 1082.90
+    Equity:Conversion:BourseDirect:LQQ            -1 LQQ @@ EUR 1082.90
+    Equity:Conversion:BourseDirect:EUR   EUR 1082.90
+    Assets:FR:BourseDirect:Cash         EUR -1082.90

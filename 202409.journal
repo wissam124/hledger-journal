@@ -418,3 +418,10 @@
 2024-09-01 * Settle transavia flight mum
     Liabilities:FR:Payables:Mum              EUR 361
     Expenses:Travel:Holidays
+
+; PEA investments manual entries
+2024-09-18 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @@ EUR 1037.90
+    Equity:Conversion:BourseDirect:LQQ            -1 LQQ @@ EUR 1037.90
+    Equity:Conversion:BourseDirect:EUR   EUR 1037.90
+    Assets:FR:BourseDirect:Cash         EUR -1037.90

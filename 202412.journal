@@ -422,3 +422,23 @@
 2024-12-10 * Macbook Pro
     Expenses:Shopping:Electronics           EUR 2643
     Assets:FR:BforBank:Compte-Courant
+
+2024-12-04 * Participation vers le PER collectif
+    Assets:FR:Epsor:PER                  EUR 1551.43
+    Income:FR:111Capital:Participation
+
+2024-12-04 * Abondement vers le PER collectif
+    Assets:FR:Epsor:PER                  EUR 2801.87
+    Income:FR:111Capital:Abondement
+
+2024-12-04 * Abondement vers le PER collectif
+    Assets:FR:Epsor:PER                  EUR 3897.32
+    Income:FR:111Capital:Abondement
+
+2024-12-04 * Participation vers le PEI
+    Assets:FR:Epsor:PEI                  EUR 1854.72
+    Income:FR:111Capital:Participation
+
+2024-12-04 * Abondement vers le PEI
+    Assets:FR:Epsor:PEI                  EUR 3349.62
+    Income:FR:111Capital:Abondement

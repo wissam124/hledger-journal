@@ -225,6 +225,10 @@
     Expenses:Home:Utilities:MobilePhone    EUR 11.99
     Assets:FR:BforBank:Compte-Courant
 
+2025-03-29 Cash withdrawal
+    Assets:FR:Cash                            EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
 ; Cash expenses
 2025-03-02 * Cafe with Aurélie
     Expenses:Food:Cafe                         EUR 5
@@ -287,6 +291,10 @@
     Assets:FR:Cash
 
 2025-03-22 * Therapist
+    Expenses:Health:Therapy                   EUR 60
+    Assets:FR:Cash
+
+2025-03-29 * Therapist
     Expenses:Health:Therapy                   EUR 60
     Assets:FR:Cash
 
@@ -451,6 +459,26 @@
     Expenses:Food:OfficeLunch              EUR 15.10
     Assets:UK:Revolut:Personal:EUR
 
+2025-03-28 * Euromillions
+    Expenses:Entertainment                     EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-28 * Financier Kayser
+    Expenses:Food:Snack                    EUR 3.60
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-28 * Drinks with Aurelie La Boutique
+    Expenses:Entertainment:Social:Bars     EUR 19.90
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-28 * Carrefour food shopping
+    Expenses:Food:Groceries                 EUR 15.62
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-29 * Café et pain au chocolat
+    Expenses:Food:Snack                     EUR 3.30
+    Assets:UK:Revolut:Personal:EUR
+
 ; Amex expenses
 2025-03-05 * R2 Training
     Expenses:Health:Gym                      EUR 179
@@ -490,6 +518,10 @@
 
 2025-03-22 * Dott bike to optician
     Expenses:Transportation:Bikesharing     EUR 4.04
+    Liabilities:FR:Amex:Gold
+
+2025-03-29 E.KLA new glasses
+    Expenses:Health:Eye                          EUR 310
     Liabilities:FR:Amex:Gold
 
 ; Investment funds valuation

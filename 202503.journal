@@ -225,8 +225,12 @@
     Expenses:Home:Utilities:MobilePhone    EUR 11.99
     Assets:FR:BforBank:Compte-Courant
 
-2025-03-29 Cash withdrawal
+2025-03-29 * Cash withdrawal
     Assets:FR:Cash                            EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-03-30 * Baguette and Banana bread
+    Expenses:Food:Groceries                 EUR 6.71
     Assets:FR:BforBank:Compte-Courant
 
 ; Cash expenses
@@ -296,6 +300,18 @@
 
 2025-03-29 * Therapist
     Expenses:Health:Therapy                   EUR 60
+    Assets:FR:Cash
+
+2025-03-30 * Consigne Les Nautes
+    Assets:FR:Cash                             EUR 2
+    Expenses:Entertainment:Social:Bars
+
+2025-03-31 * Charity to homeless man
+    Expenses:GiftsCharity:Charity              EUR 1
+    Assets:FR:Cash
+
+2025-03-31 * Baguette + pain au chocolat
+    Expenses:Food:Snack                     EUR 2.90
     Assets:FR:Cash
 
 ; Revolut expenses
@@ -479,6 +495,18 @@
     Expenses:Food:Snack                     EUR 3.30
     Assets:UK:Revolut:Personal:EUR
 
+2025-03-29 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-30 * Sparkling water & Coke with Aurelie
+    Expenses:Entertainment:Social:Bars      EUR 9.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-03-31 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 ; Amex expenses
 2025-03-05 * R2 Training
     Expenses:Health:Gym                      EUR 179
@@ -512,7 +540,7 @@
     Expenses:Food:Restaurants              EUR 90.00
     Liabilities:FR:Amex:Gold
 
-2025-03-21 Sportfield padel booking
+2025-03-21 * Sportfield padel booking
     Expenses:Entertainment:Social:Sports   EUR 50.00
     Liabilities:FR:Amex:Gold
 
@@ -520,19 +548,35 @@
     Expenses:Transportation:Bikesharing     EUR 4.04
     Liabilities:FR:Amex:Gold
 
-2025-03-29 E.KLA new glasses
-    Expenses:Health:Eye                          EUR 310
+2025-03-29 * E.KLA new glasses
+    Expenses:Health:Eye                      EUR 310
+    Liabilities:FR:Amex:Gold
+
+2025-03-30 * Cafe Gaia Vincennes
+    Expenses:Food:Cafe                         EUR 4
+    Liabilities:FR:Amex:Gold
+
+2025-03-31 * Programme Endurance Flomarrec
+    Expenses:Health:Sport                    EUR 100
+    Liabilities:FR:Amex:Gold
+
+2025-03-31 * Deliveroo Bagnard
+    Expenses:Food:OfficeLunch              EUR 19.25
+    Liabilities:FR:Amex:Gold
+
+2025-03-31 * Deliveroo Pizza Chez Antoine
+    Expenses:Food:Delivery                 EUR 15.84
     Liabilities:FR:Amex:Gold
 
 ; Investment funds valuation
 2025-03-31 * EPSOR valuation
-    Assets:FR:Epsor:PEI                  = EUR 54248
+    Assets:FR:Epsor:PEI                  = EUR 54109
     Equity:Unrealised-PnL:EUR
 
 2025-03-31 * EPSOR valuation PER
-    Assets:FR:Epsor:PER                ==* EUR 35481
+    Assets:FR:Epsor:PER                ==* EUR 35425
     Equity:Unrealised-PnL:EUR
 
 2025-03-31 * Moneyfarm valuation
-    Assets:UK:Moneyfarm               = GBP 48788.14
+    Assets:UK:Moneyfarm               = GBP 48252.11
     Equity:Unrealised-PnL:GBP

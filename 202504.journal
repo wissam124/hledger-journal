@@ -45,7 +45,7 @@
     Expenses:Entertainment:Social:Bars        EUR 14
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-05 Cash withdrawal
+2025-04-05 * Cash withdrawal
     Assets:FR:Cash                           EUR 60
     Assets:FR:BforBank:Compte-Courant
 
@@ -55,6 +55,22 @@
 
 2025-04-05 * Macrofactor
     Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-07 * Viennoiseries
+    Expenses:Food:Snack                     EUR 5.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-07 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-08 * Revolut Transfer
+    Assets:UK:Revolut:Personal:EUR           EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-08 Cigarettes
+    Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut expenses
@@ -98,6 +114,10 @@
     Expenses:Food:Snack                       EUR 17
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-08 * Drinks with Aurelie Vincennes
+    Expenses:Entertainment:Social:Bars        EUR 32
+    Assets:UK:Revolut:Personal:EUR
+
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -113,6 +133,10 @@
 
 2025-04-05 * Pain au chocolat
     Expenses:Food:Snack                     EUR 1.30
+    Assets:FR:Cash
+
+2025-05-08 * Baguette
+    Expenses:Food:Groceries                 EUR 1.30
     Assets:FR:Cash
 
 * Amex Gold expenses
@@ -144,10 +168,18 @@
     Expenses:Health:Gym                      EUR 179
     Liabilities:FR:Amex:Gold
 
-2025-04-06 Eurostar
+2025-04-06 * Eurostar
     Expenses:Travel:Train                    EUR 128
     Liabilities:FR:Amex:Gold
 
-2025-04-06 Joseph Joseph Showroom prive
+2025-04-06 * Joseph Joseph Showroom prive
     Expenses:Home:Furniture               EUR 179.89
+    Liabilities:FR:Amex:Gold
+
+2025-04-06 * Amex subscription
+    Expenses:Fees:CreditCard                  EUR 16
+    Liabilities:FR:Amex:Gold
+
+2025-04-08 Fedex invoice
+    Expense:Home:Maintenance               EUR 61.20
     Liabilities:FR:Amex:Gold

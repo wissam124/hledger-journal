@@ -1,3 +1,5 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
 2025-02-01 * 111 Cap wage
     Assets:FR:BforBank:Compte-Courant     EUR 5013.33
     Income:FR:111Capital:Salary          EUR -5013.33
@@ -462,6 +464,10 @@
 2025-02-10 * Heater
     Expenses:Home:Maintenance             EUR 503.90
     Liabilities:FR:Amex:Gold
+
+2025-02-10 * Heater to be paid by Isky
+    Assets:FR:Receivables:Iskander        EUR 589.45
+    Expenses:Home:Maintenance
 
 2025-02-15 * Zebra pencil
     Expenses:Shopping                      EUR 16.39

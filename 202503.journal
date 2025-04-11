@@ -205,6 +205,10 @@
     Assets:FR:BforBank:Compte-Courant         EUR 50
     Income:FR:Resale
 
+2025-03-21 * Reduce receivables
+    Expenses:Home:Maintenance              EUR 49.45
+    Assets:FR:Receivables:Iskander
+
 2025-03-22 * Cash withdrawal
     Assets:FR:Cash                            EUR 70
     Assets:FR:BforBank:Compte-Courant

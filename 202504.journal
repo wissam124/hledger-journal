@@ -8,6 +8,11 @@
     Assets:FR:BforBank:LivretA           EUR 9565.41
     Assets:FR:BforBank:Compte-Courant
 
+* Boursobank
+2025-04-10 * Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 1.56
+    Assets:FR:BoursoBank:Compte-Courant
+
 * Bforbank
 2025-04-01 * Cash withdrawal
     Assets:FR:Cash                            EUR 20
@@ -69,8 +74,28 @@
     Assets:UK:Revolut:Personal:EUR           EUR 200
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-08 Cigarettes
-    Expenses:Cigarettes                       EUR 13
+2025-04-08 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-11 * Amex settlement
+    Liabilities:FR:Amex:Gold             EUR 1483.46
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-11 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-12 Taxi to padel
+    Expenses:Transportation:Taxi           EUR 10.70
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-12 Lunch Vincennes
+    Expenses:Food:Restaurants              EUR 26.90
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-13 * Hellofresh
+    Expenses:Food:Groceries                EUR 48.94
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut expenses
@@ -118,6 +143,58 @@
     Expenses:Entertainment:Social:Bars        EUR 32
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-09 * Open AI subscription
+    Expenses:Subscriptions:Software        EUR 21.85
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-09 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-09 * Fisherman's Friend
+    Expenses:Food:Snack                        EUR 2.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-09 * Durum
+    Expenses:Food:FastFood                     EUR 9
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-10 * Cafe Nuances et Pain au chocolat
+    Expenses:Food:Cafe                      EUR 6.93
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-11 * Isky heater settlement
+    Assets:UK:Revolut:Personal:EUR           EUR 540
+    Assets:FR:Receivables:Iskander
+
+2025-04-12 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 8.92
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-12 * Cojean breakfast with Arnaud
+    Expenses:Food:Cafe                     EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-12 * Uber to Arnaud
+    Expenses:Transportation:Taxi           EUR 17.90
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-13 * Cafe Gaia Vincennes with Aurelie
+    Expenses:Food:Cafe                         EUR 8
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-14 * Musee Citeco
+    Expenses:Entertainment                    EUR 20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-13 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-13 * Flomarrec PDFs
+    Expenses:Health:Sport                     EUR 10
+    Assets:UK:Revolut:Personal:EUR
+
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -135,8 +212,20 @@
     Expenses:Food:Snack                     EUR 1.30
     Assets:FR:Cash
 
-2025-05-08 * Baguette
+2025-04-08 * Baguette
     Expenses:Food:Groceries                 EUR 1.30
+    Assets:FR:Cash
+
+2025-04-11 * Pain aux raisins
+    Expenses:Food:Snack                     EUR 1.65
+    Assets:FR:Cash
+
+2025-04-11 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-04-12 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
 * Amex Gold expenses
@@ -180,6 +269,18 @@
     Expenses:Fees:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 
-2025-04-08 Fedex invoice
-    Expense:Home:Maintenance               EUR 61.20
+2025-04-08 * Fedex invoice
+    Expenses:Home:Maintenance               EUR 61.20
+    Liabilities:FR:Amex:Gold
+
+2025-04-11 * Padel rental
+    Expenses:Entertainment:Social:Sports  EUR 8
+    Liabilities:FR:Amex:Gold
+
+2025-04-12 Eurostar
+    Expenses:Travel:Train                    EUR 303
+    Liabilities:FR:Amex:Gold
+
+2025-04-13 Deliveroo Chez Antoine
+    Expenses:Food:Delivery                 EUR 15.39
     Liabilities:FR:Amex:Gold

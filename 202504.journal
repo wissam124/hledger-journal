@@ -86,16 +86,24 @@
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-12 Taxi to padel
+2025-04-12 * Taxi to padel
     Expenses:Transportation:Taxi           EUR 10.70
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-12 Lunch Vincennes
+2025-04-12 * Lunch Vincennes
     Expenses:Food:Restaurants              EUR 26.90
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-13 * Hellofresh
     Expenses:Food:Groceries                EUR 48.94
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-14 Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars        EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-15 Cigarettes
+    Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut expenses
@@ -195,6 +203,10 @@
     Expenses:Health:Sport                     EUR 10
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-14 * Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 2.15
+    Assets:UK:Revolut:Personal:EUR
+
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -277,10 +289,10 @@
     Expenses:Entertainment:Social:Sports       EUR 8
     Liabilities:FR:Amex:Gold
 
-2025-04-12 Eurostar
+2025-04-12 * Eurostar
     Expenses:Travel:Train                    EUR 303
     Liabilities:FR:Amex:Gold
 
-2025-04-13 Deliveroo Chez Antoine
+2025-04-13 * Deliveroo Chez Antoine
     Expenses:Food:Delivery                 EUR 15.39
     Liabilities:FR:Amex:Gold

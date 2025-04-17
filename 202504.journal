@@ -86,6 +86,10 @@
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
+2025-04-12 * Hellofresh
+    Expenses:Food:Groceries                EUR 48.94
+    Assets:FR:BforBank:Compte-Courant
+
 2025-04-12 * Taxi to padel
     Expenses:Transportation:Taxi           EUR 10.70
     Assets:FR:BforBank:Compte-Courant
@@ -94,16 +98,24 @@
     Expenses:Food:Restaurants              EUR 26.90
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-13 * Hellofresh
-    Expenses:Food:Groceries                EUR 48.94
-    Assets:FR:BforBank:Compte-Courant
-
-2025-04-14 Drinks with Aurelie
+2025-04-14 * Drinks with Aurelie
     Expenses:Entertainment:Social:Bars        EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-15 Cigarettes
+2025-04-15 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-15 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-15 * Drinks Pause Cafe Bastille
+    Expenses:Entertainment:Social:Bars     EUR 10.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-15 * Durum
+    Expenses:Food:FastFood                    EUR 11
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut expenses
@@ -203,8 +215,32 @@
     Expenses:Health:Sport                     EUR 10
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-14 * Pain au chocolat Auber
+    Expenses:Food:Snack                     EUR 2.15
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-14 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 2025-04-14 * Deliveroo fee
     Expenses:Food:OfficeLunch               EUR 2.15
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-15 * Lebara Mobile
+    Expenses:Home:Utilities:MobilePhone     EUR 5.85
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-15 * Uber to Vincennes with Aurelie
+    Expenses:Transportation:Taxi           EUR 33.96
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-16 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.45
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-16 * Carrefour City
+    Expenses:Food:Groceries                EUR 14.14
     Assets:UK:Revolut:Personal:EUR
 
 * Cash expenses
@@ -238,6 +274,10 @@
 
 2025-04-12 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-04-15 * Hairdresser
+    Expenses:PersonalCare:Hair                EUR 12
     Assets:FR:Cash
 
 * Amex Gold expenses
@@ -295,4 +335,8 @@
 
 2025-04-13 * Deliveroo Chez Antoine
     Expenses:Food:Delivery                 EUR 15.39
+    Liabilities:FR:Amex:Gold
+
+2025-04-16 Car Rental
+    Expenses:Transportation:CarRental        EUR 253
     Liabilities:FR:Amex:Gold

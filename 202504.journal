@@ -118,6 +118,30 @@
     Expenses:Food:FastFood                    EUR 11
     Assets:FR:BforBank:Compte-Courant
 
+2025-04-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-17 Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-17 * Cash withdrawal
+    Assets:FR:Cash                           EUR 120
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-17 * Cash withdrawal
+    Assets:FR:Cash                           EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-18 * EDF subscription
+    Expenses:Home:Utilities:Electricity       EUR 66
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-18 Cash withdrawal
+    Assets:FR:Cash                           EUR 230
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut expenses
 2025-04-02 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 9.32
@@ -243,6 +267,18 @@
     Expenses:Food:Groceries                EUR 14.14
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-17 * Crepe Nutella Saint Antoine
+    Expenses:Food:Snack                        EUR 4
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-18 * Sandwich Paul Eurostar
+    Expenses:Food:Snack                     EUR 9.45
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-18 * Water bottle relay
+    Expenses:Food:Snack                     EUR 2.70
+    Assets:UK:Revolut:Personal:EUR
+
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -278,6 +314,22 @@
 
 2025-04-15 * Hairdresser
     Expenses:PersonalCare:Hair                EUR 12
+    Assets:FR:Cash
+
+2025-04-17 * Therapist
+    Expenses:Health:Therapy                  EUR 120
+    Assets:FR:Cash
+
+2025-04-17 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-04-18 * Fisherman's Friend and sweets
+    Expenses:Food:Snack                     EUR 3.20
+    Assets:FR:Cash
+
+2025-04-18 * MS Therapy
+    Expenses:PersonalCare                    EUR 210
     Assets:FR:Cash
 
 * Amex Gold expenses
@@ -337,6 +389,6 @@
     Expenses:Food:Delivery                 EUR 15.39
     Liabilities:FR:Amex:Gold
 
-2025-04-16 Car Rental
+2025-04-17 * Car Rental
     Expenses:Transportation:CarRental        EUR 253
     Liabilities:FR:Amex:Gold

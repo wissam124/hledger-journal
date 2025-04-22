@@ -8,6 +8,34 @@
     Assets:FR:BforBank:LivretA           EUR 9565.41
     Assets:FR:BforBank:Compte-Courant
 
+
+; Halifax
+2025-04-18 * TFL
+    Expenses:Transportation:PublicTransport  GBP 1.75
+    Liabilities:UK:Halifax:Clarity
+
+2025-04-19 * TFL
+    Expenses:Transportation:PublicTransport  GBP 6.40
+    Liabilities:UK:Halifax:Clarity
+
+2025-04-19 * Toilets Hyde Park
+    Expenses:Misc                           GBP 0.20
+    Liabilities:UK:Halifax:Clarity
+
+2025-04-19 * Cigarettes
+    Expenses:Cigarettes                    GBP 17.76
+    Liabilities:UK:Halifax:Clarity
+
+2025-04-20 * Coffee Watchhouse
+    Expenses:Food:Cafe                         GBP 4
+    Liabilities:UK:Halifax:Clarity
+
+2025-04-20 * TFL
+    Expenses:Transportation:PublicTransport  GBP 7.75
+    Liabilities:UK:Halifax:Clarity
+
+2025-0
+
 * Boursobank
 2025-04-10 * Deliveroo fee
     Expenses:Food:OfficeLunch               EUR 1.56
@@ -138,8 +166,16 @@
     Expenses:Home:Utilities:Electricity       EUR 66
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-18 Cash withdrawal
+2025-04-18 * Cash withdrawal
     Assets:FR:Cash                           EUR 230
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-21 Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-21 Cash withdrawal
+    Assets:FR:Cash
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut expenses
@@ -279,6 +315,22 @@
     Expenses:Food:Snack                     EUR 2.70
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-19 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.45
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-19 * Ice Cream Hyde Park
+    Expenses:Food:Snack                     EUR 9.45
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-20 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.45
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-21 * Lunch Bagnard with Aurelie
+    Expenses:Food:Restaurants                 EUR 35
+    Assets:UK:Revolut:Personal:EUR
+
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -330,6 +382,14 @@
 
 2025-04-18 * MS Therapy
     Expenses:PersonalCare                    EUR 210
+    Assets:FR:Cash
+
+2025-04-21 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-04-21 * MS Therapy
+    Expenses:PersonalCare                    EUR 180
     Assets:FR:Cash
 
 * Amex Gold expenses

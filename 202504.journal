@@ -8,8 +8,7 @@
     Assets:FR:BforBank:LivretA           EUR 9565.41
     Assets:FR:BforBank:Compte-Courant
 
-
-; Halifax
+; Halifax expenses
 2025-04-18 * TFL
     Expenses:Transportation:PublicTransport  GBP 1.75
     Liabilities:UK:Halifax:Clarity
@@ -34,14 +33,12 @@
     Expenses:Transportation:PublicTransport  GBP 7.75
     Liabilities:UK:Halifax:Clarity
 
-2025-0
-
-* Boursobank
+* Boursobank expenses
 2025-04-10 * Deliveroo fee
     Expenses:Food:OfficeLunch               EUR 1.56
     Assets:FR:BoursoBank:Compte-Courant
 
-* Bforbank
+* Bforbank expenses
 2025-04-01 * Cash withdrawal
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
@@ -150,10 +147,6 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-17 Cigarettes
-    Expenses:Cigarettes                       EUR 13
-    Assets:FR:BforBank:Compte-Courant
-
 2025-04-17 * Cash withdrawal
     Assets:FR:Cash                           EUR 120
     Assets:FR:BforBank:Compte-Courant
@@ -170,13 +163,69 @@
     Assets:FR:Cash                           EUR 230
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-21 Cash withdrawal
+2025-04-21 * Cash withdrawal
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-21 Cash withdrawal
-    Assets:FR:Cash
+2025-04-21 * Cash withdrawal
+    Assets:FR:Cash                           EUR 150
+    Assets:FR:BforBank:Compte-Courant  ; date:2025-04-21
+
+2025-04-21 * Velib
+    Expenses:Transportation:Bikesharing        EUR 6
     Assets:FR:BforBank:Compte-Courant
+
+2025-04-24 * Bargalia Cafe Gordes
+    Expenses:Food:Cafe                         EUR 4
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-24 * Bargalia Cafe Gordes Receivable
+    Assets:FR:Receivables:Aurelie              EUR 2
+    Expenses:Food:Cafe
+
+2025-04-24 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-24 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-24 * Gordes Castle
+    Expenses:Entertainment:Events             EUR 12
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-24 * Gordes Castle Receivable
+    Assets:FR:Receivables:Aurelie              EUR 6
+    Expenses:Entertainment:Events
+
+2025-04-25 * Ice Cream Rousillon
+    Expenses:Food:Snack                    EUR 17.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-26 * SFR subscription
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-26 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-26 * Car Rental cleaning
+    Expenses:Transportation:CarRental          EUR 6
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-26 * Car Rental cleaning receivable
+    Assets:FR:Receivables:Aurelie              EUR 3
+    Expenses:Transportation:CarRental
+
+2025-04-26 Car Rental fuel
+    Expenses:Transportation:CarRental      EUR 47.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-04-26 * Car Rental fuel receivable
+    Assets:FR:Receivables:Aurelie          EUR 23.75
+    Expenses:Transportation:CarRental
 
 * Revolut expenses
 2025-04-02 * Beeminder fine
@@ -276,7 +325,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-14 * Pain au chocolat Auber
-    Expenses:Food:Snack                     EUR 2.15
+    Expenses:Food:Snack                     EUR 2.30
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-14 * Cigarettes
@@ -329,6 +378,54 @@
 
 2025-04-21 * Lunch Bagnard with Aurelie
     Expenses:Food:Restaurants                 EUR 35
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-23 * Water Bottle
+    Expenses:Food:Snack                     EUR 3.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-23 * Water Bottle receivable
+    Assets:FR:Receivables:Aurelie           EUR 1.75
+    Expenses:Food:Snack
+
+2025-04-23 * Coffee Brioche Train
+    Expenses:Food:Snack                     EUR 7.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-23 * Coffee Brioche Train receivable
+    Assets:FR:Receivables:Aurelie           EUR 3.65
+    Expenses:Food:Snack
+
+2025-04-23 * Toilets Avignon Train Station
+    Expenses:PersonalCare                      EUR 1
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-25 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-27 * Cafe Kayser Avignon Station
+    Expenses:Food:Cafe                      EUR 6.90
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-27 * Cafe Kayser Avignon Station
+    Assets:FR:Receivables:Aurelie           EUR 3.45
+    Expenses:Food:Cafe
+
+2025-04-27 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-27 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.47
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-27 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.47
     Assets:UK:Revolut:Personal:EUR
 
 * Cash expenses
@@ -452,3 +549,39 @@
 2025-04-17 * Car Rental
     Expenses:Transportation:CarRental        EUR 253
     Liabilities:FR:Amex:Gold
+
+2025-04-23 * Super U groceries
+    Expenses:Food:Groceries                EUR 51.13
+    Liabilities:FR:Amex:Gold
+
+2025-04-23 * Super U groceries receivables
+    Assets:FR:Receivables:Aurelie          EUR 25.57
+    Expenses:Food:Groceries
+
+2025-04-23 * Butcher La Provencale
+    Expenses:Food:Groceries                EUR 39.07
+    Liabilities:FR:Amex:Gold
+
+2025-04-23 * Butcher La Provencale Receivables
+    Assets:FR:Receivables:Aurelie          EUR 19.54
+    Expenses:Food:Groceries
+
+2025-04-26 Hameau des Baux restaurant and drinks
+    Expenses:Travel:Holidays              EUR 155.48
+    Liabilities:FR:Amex:Gold
+
+2025-04-27 Car Rental cleaning bill
+    Expenses:Transportation:CarRental         EUR 35
+    Liabilities:FR:Amex:Gold
+
+2025-04-27 * Car Rental cleaning bill receivable
+    Assets:FR:Receivables:Aurelie          EUR 17.50
+    Expenses:Transportation:CarRental
+
+2025-04-27 * Holidays payables
+    Expenses:Travel:Holidays                EUR 31.5
+    Liabilities:FR:Payables:Aurelie
+
+2025-04-27 * Settlement payables
+    Liabilities:FR:Payables:Aurelie         EUR 31.5
+    Assets:FR:Receivables:Aurelie

@@ -219,7 +219,7 @@
     Assets:FR:Receivables:Aurelie              EUR 3
     Expenses:Transportation:CarRental
 
-2025-04-26 Car Rental fuel
+2025-04-26 * Car Rental fuel
     Expenses:Transportation:CarRental      EUR 47.50
     Assets:FR:BforBank:Compte-Courant
 
@@ -428,6 +428,14 @@
     Expenses:Subscriptions:Software         EUR 4.47
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-28 * Kayser Office Lunch
+    Expenses:Food:OfficeLunch              EUR 13.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-28 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -566,11 +574,11 @@
     Assets:FR:Receivables:Aurelie          EUR 19.54
     Expenses:Food:Groceries
 
-2025-04-26 Hameau des Baux restaurant and drinks
+2025-04-26 * Hameau des Baux restaurant and drinks
     Expenses:Travel:Holidays              EUR 155.48
     Liabilities:FR:Amex:Gold
 
-2025-04-27 Car Rental cleaning bill
+2025-04-27 * Car Rental cleaning bill
     Expenses:Transportation:CarRental         EUR 35
     Liabilities:FR:Amex:Gold
 

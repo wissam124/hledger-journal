@@ -594,13 +594,9 @@
     Expenses:Travel:Holidays              EUR 155.48
     Liabilities:FR:Amex:Gold
 
-2025-04-27 * Car Rental cleaning bill
-    Expenses:Transportation:CarRental         EUR 35
+2025-04-23 * Car Rental damages fine
+    Expenses:Transportation:CarRental        EUR 285
     Liabilities:FR:Amex:Gold
-
-2025-04-27 * Car Rental cleaning bill receivable
-    Assets:FR:Receivables:Aurelie          EUR 17.50
-    Expenses:Transportation:CarRental
 
 2025-04-29 * Deliveroo Amorino
     Expenses:Food:Delivery                 EUR 29.49

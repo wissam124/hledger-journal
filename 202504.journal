@@ -227,6 +227,10 @@
     Assets:FR:Receivables:Aurelie          EUR 23.75
     Expenses:Transportation:CarRental
 
+2025-04-30 Durum with Aurelie
+    Expenses:Food:FastFood                    EUR 17
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut expenses
 2025-04-02 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 9.32
@@ -436,6 +440,18 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-29 * Le Petit Panda
+    Expenses:Food:OfficeLunch                 EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-30 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.41
+    Assets:UK:Revolut:Personal:EUR
+
+2025-04-30 * Ilya
+    Expenses:Food:OfficeLunch              EUR 14.60
+    Assets:UK:Revolut:Personal:EUR
+
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -586,6 +602,11 @@
     Assets:FR:Receivables:Aurelie          EUR 17.50
     Expenses:Transportation:CarRental
 
+2025-04-29 * Deliveroo Amorino
+    Expenses:Food:Delivery                 EUR 29.49
+    Liabilities:FR:Amex:Gold
+
+* Payables
 2025-04-27 * Holidays payables
     Expenses:Travel:Holidays                EUR 31.5
     Liabilities:FR:Payables:Aurelie

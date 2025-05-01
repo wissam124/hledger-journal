@@ -1,0 +1,12 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+* Bforbank expenses
+2025-04-11 * 111 Wage
+    Assets:FR:Bforbank:Compte-Courant  EUR 6519.34
+    Income:FR:111Capital:Salary
+
+
+* Revolut expenses
+2025-05-01 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:UK:Revolut:Personal:EUR

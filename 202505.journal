@@ -24,6 +24,10 @@
     Assets:FR:BforBank:Compte-Courant
 
 * Amex Gold expenses
-2025-05-01 Car Rental damages fine outstanding
+2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
+    Liabilities:FR:Amex:Gold
+
+2025-05-02 * Taxi to Maison de la radio
+    Expenses:Transportation:Taxi           EUR 11.10
     Liabilities:FR:Amex:Gold

@@ -227,7 +227,7 @@
     Assets:FR:Receivables:Aurelie          EUR 23.75
     Expenses:Transportation:CarRental
 
-2025-04-30 Durum with Aurelie
+2025-04-30 * Durum with Aurelie
     Expenses:Food:FastFood                    EUR 17
     Assets:FR:BforBank:Compte-Courant
 

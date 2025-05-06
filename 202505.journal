@@ -9,10 +9,50 @@
     Expenses:Home:rent                      EUR 1330
     Assets:FR:BforBank:Compte-Courant
 
+2025-05-03 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-04 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-04 * Transfer to Revolut
+    Assets:UK:Revolut:Personal:EUR           EUR 200
+    Assets:FR:BforBank:Compte-Courant  ; date:2025-05-06
+
+2025-05-05 * ChatGPT subscription for mum
+    Expenses:GiftsCharity:Gifts            EUR 21.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-05 * MacroFactor subscription
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut expenses
 2025-05-01 * Navigo
     Expenses:Transportation:PublicTransport  EUR 88.80
     Assets:UK:Revolut:Personal:EUR
+
+2025-05-03 * Carrefour City
+    Expenses:Food:Groceries                EUR 12.61
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-04 * Drinks with Robin
+    Expenses:Entertainment:Social:Bars     EUR 11.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-05 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-04 * Buy GBP with Revolut
+    Assets:UK:Revolut:Personal:GBP         GBP 37.86 @@ EUR 44.59
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-05 * Transfer GBP to Halifax Current Account
+    Assets:UK:Halifax:Current-Account      GBP 37.86
+    Assets:UK:Revolut:Personal:GBP
 
 * Boursobank expenses
 2025-05-01 * Deliveroo fee
@@ -23,6 +63,19 @@
     Assets:FR:BoursoBank:Compte-Courant       EUR 10
     Assets:FR:BforBank:Compte-Courant
 
+* Cash expenses
+2025-05-03 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-05-04 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-05-05 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
 * Amex Gold expenses
 2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
@@ -31,3 +84,36 @@
 2025-05-02 * Taxi to Maison de la radio
     Expenses:Transportation:Taxi           EUR 11.10
     Liabilities:FR:Amex:Gold
+
+2025-05-04 * Brunch Maison Victoria
+    Expenses:Food:Restaurants                 EUR 41
+    Liabilities:FR:Amex:Gold
+
+2025-05-04 * PRP Chicheportiche
+    Expenses:PersonalCare:Hair              EUR 200
+    Liabilities:FR:Amex:Gold
+
+2025-05-05 * R2 Training
+    Expenses:Health:Gym                      EUR 179
+    Liabilities:FR:Amex:Gold
+
+; Other liabilities
+2025-05-05 * Luberon dinners paid by Glenn
+    Expenses:Food:Restaurants                EUR 345
+    Liabilities:FR:Payables:Glenn
+
+2025-05-05 * Settle payables with Glenn
+    Liabilities:FR:Payables:Glenn            EUR 345
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-05 * Luberon dinners receivables
+    Assets:FR:Receivables:Aurelie            EUR 120
+    Expenses:Food:Restaurants
+
+2025-05-05 * Settlement receivables Aurelie
+    Assets:FR:BforBank:Compte-Courant     EUR 303.20
+    Assets:FR:Receivables:Aurelie
+
+2025-05-06 * Settlement Halifax Clarity
+    Liabilities:UK:Halifax:Clarity         GBP 37.86
+    Assets:UK:Halifax:Current-Account

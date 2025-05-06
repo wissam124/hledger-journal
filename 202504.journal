@@ -448,6 +448,10 @@
     Expenses:Subscriptions:Software         EUR 4.41
     Assets:UK:Revolut:Personal:EUR
 
+2025-04-30 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 2025-04-30 * Ilya
     Expenses:Food:OfficeLunch              EUR 14.60
     Assets:UK:Revolut:Personal:EUR
@@ -583,11 +587,11 @@
     Expenses:Food:Groceries
 
 2025-04-23 * Butcher La Provencale
-    Expenses:Food:Groceries                EUR 39.07
+    Expenses:Food:Groceries                EUR 39.06
     Liabilities:FR:Amex:Gold
 
 2025-04-23 * Butcher La Provencale Receivables
-    Assets:FR:Receivables:Aurelie          EUR 19.54
+    Assets:FR:Receivables:Aurelie          EUR 19.53
     Expenses:Food:Groceries
 
 2025-04-26 * Hameau des Baux restaurant and drinks

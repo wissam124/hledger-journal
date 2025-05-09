@@ -33,6 +33,18 @@
     Expenses:Transportation:Bikesharing       EUR 12
     Assets:FR:BforBank:Compte-Courant
 
+2025-05-07 * Drinks with Symeon
+    Expenses:Entertainment:Social:Bars        EUR 14
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-07 * Drinks with Symeon/Alexandre
+    Expenses:Entertainment:Social:Bars        EUR 27
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-07 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut expenses
 2025-05-01 * Navigo
     Expenses:Transportation:PublicTransport  EUR 88.80
@@ -82,6 +94,14 @@
     Expenses:Subscriptions:Software         EUR 4.43
     Assets:UK:Revolut:Personal:EUR
 
+2025-05-08 * Lunch Boulangerie Ounissi
+    Expenses:Food:Snack                    EUR 21.91
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-09 * Drinks Rosa Bonheur with Aurelie
+    Expenses:Entertainment:Social:Bars     EUR 12.50
+    Assets:UK:Revolut:Personal:EUR
+
 * Boursobank expenses
 2025-05-01 * Deliveroo fee
     Expenses:Food:Delivery                  EUR 2.39
@@ -102,6 +122,10 @@
 
 2025-05-05 * Baguette
     Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-05-09 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
 * Amex Gold expenses
@@ -131,6 +155,14 @@
 
 2025-05-06 * Deliveroo Five Guys
     Expenses:Food:OfficeLunch              EUR 28.69
+    Liabilities:FR:Amex:Gold
+
+2025-05-08 Uber
+    Expenses:Transportation:Taxi           EUR 17.95
+    Liabilities:FR:Amex:Gold
+
+2025-05-09 Deliveroo
+    Expenses:Food:Delivery                 EUR 20.99
     Liabilities:FR:Amex:Gold
 
 ; Other liabilities

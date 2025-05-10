@@ -45,6 +45,18 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
+2025-05-09 * Minoxidil
+    Expenses:Health:Pharmacy               EUR 23.17
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-10 Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-10 Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.50
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut expenses
 2025-05-01 * Navigo
     Expenses:Transportation:PublicTransport  EUR 88.80
@@ -102,6 +114,10 @@
     Expenses:Entertainment:Social:Bars     EUR 12.50
     Assets:UK:Revolut:Personal:EUR
 
+2025-05-10 * GP appointment
+    Expenses:Health:Doctor                     EUR 9
+    Assets:UK:Revolut:Personal:EUR
+
 * Boursobank expenses
 2025-05-01 * Deliveroo fee
     Expenses:Food:Delivery                  EUR 2.39
@@ -157,9 +173,17 @@
     Expenses:Food:OfficeLunch              EUR 28.69
     Liabilities:FR:Amex:Gold
 
-2025-05-08 Uber
+2025-05-08 * Uber
     Expenses:Transportation:Taxi           EUR 17.95
     Liabilities:FR:Amex:Gold
+
+2025-05-07 * Prime subscription
+    Expenses:Subscriptions                 EUR 69.90
+    Liabilities:FR:Amex:Gold
+
+2025-05-08 * Amex refund prime subscription
+    Liabilities:FR:Amex:Gold               EUR 69.90
+    Expenses:Subscriptions
 
 2025-05-09 Deliveroo
     Expenses:Food:Delivery                 EUR 20.99

@@ -45,16 +45,32 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
+2025-05-08 * Car rental insurance claim
+    Assets:FR:BforBank:Compte-Courant        EUR 175
+    Expenses:Transportation:CarRental
+
 2025-05-09 * Minoxidil
     Expenses:Health:Pharmacy               EUR 23.17
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-10 Cigarettes
+2025-05-10 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-10 Fisherman's Friend
+2025-05-10 * Fisherman's Friend
     Expenses:Food:Snack                     EUR 2.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-10 * Restaurant Gambetta
+    Expenses:Food:Restaurants              EUR 83.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-13 Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-14 * Amex settlement
+    Liabilities:FR:Amex:Gold             EUR 1867.75
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut expenses
@@ -118,6 +134,22 @@
     Expenses:Health:Doctor                     EUR 9
     Assets:UK:Revolut:Personal:EUR
 
+2025-05-10 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars     EUR 23.80
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-11 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-12 * Doowap Carrefour
+    Expenses:Food:Snack                     EUR 3.24
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-14 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.70
+    Assets:UK:Revolut:Personal:EUR
+
 * Boursobank expenses
 2025-05-01 * Deliveroo fee
     Expenses:Food:Delivery                  EUR 2.39
@@ -142,6 +174,18 @@
 
 2025-05-09 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-05-10 * Tips waiter
+    Expenses:Food:Restaurants               EUR 1.50
+    Assets:FR:Cash
+
+2025-05-12 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-05-13 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
     Assets:FR:Cash
 
 * Amex Gold expenses
@@ -185,8 +229,16 @@
     Liabilities:FR:Amex:Gold               EUR 69.90
     Expenses:Subscriptions
 
-2025-05-09 Deliveroo
+2025-05-09 * Deliveroo
     Expenses:Food:Delivery                 EUR 20.99
+    Liabilities:FR:Amex:Gold
+
+2025-05-13 * Uber eats fees
+    Expenses:Food:OfficeLunch               EUR 2.85
+    Liabilities:FR:Amex:Gold
+
+2025-05-13 * Hyrox
+    Expenses:Entertainment:Events:Sports  EUR 131.44
     Liabilities:FR:Amex:Gold
 
 ; Other liabilities
@@ -209,3 +261,16 @@
 2025-05-06 * Settlement Halifax Clarity
     Liabilities:UK:Halifax:Clarity         GBP 37.86
     Assets:UK:Halifax:Current-Account
+
+; Investment funds valuation
+2025-05-12 * EPSOR PEI valuation
+    Assets:FR:Epsor:PEI                  = EUR 51932
+    Equity:Unrealised-PnL:EUR
+
+2025-05-12 * EPSOR PER valuation
+    Assets:FR:Epsor:PER  ==* EUR 34231
+    Equity:Unrealised-PnL:EUR
+
+2025-05-12 * Monferyfarm valuation
+    Assets:UK:Moneyfarm                  = GBP 48191
+    Equity:Unrealised-PnL:GBP

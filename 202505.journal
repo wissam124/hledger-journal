@@ -6,7 +6,7 @@
 
 * Bforbank expenses
 2025-05-01 * Rent Citeaux
-    Expenses:Home:rent                      EUR 1330
+    Expenses:Home:Rent                      EUR 1330
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-03 * Cash withdrawal
@@ -175,7 +175,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-05-15 * Lebara mobile
-    Expenses:Home:Utilities:Electricity     EUR 5.97
+    Expenses:Home:Utilities:MobilePhone     EUR 5.97
     Assets:UK:Revolut:Personal:EUR
 
 2025-05-16 * Padel rental London

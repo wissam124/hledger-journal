@@ -4,7 +4,44 @@
     Assets:FR:BforBank:Compte-Courant  EUR 6519.34
     Income:FR:111Capital:Salary
 
-* Bforbank expenses
+* Cash transactions
+2025-05-03 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-05-04 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-05-05 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-05-09 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-05-10 * Tips waiter
+    Expenses:Food:Restaurants               EUR 1.50
+    Assets:FR:Cash
+
+2025-05-12 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-05-13 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-05-15 * Hairdresser
+    Expenses:PersonalCare:Hair                EUR 22
+    Assets:FR:Cash
+
+2025-05-15 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+* Bforbank transactions
 2025-05-01 * Rent Citeaux
     Expenses:Home:Rent                      EUR 1330
     Assets:FR:BforBank:Compte-Courant
@@ -88,6 +125,23 @@
 2025-05-16 * EDF subscription
     Expenses:Home:Utilities:Electricity       EUR 66
     Assets:FR:BforBank:Compte-Courant
+
+2025-05-17 * HelloFresh
+    Expenses:Food:Groceries                EUR 32.54
+    Assets:FR:BforBank:Compte-Courant
+
+* Boursobank transactions
+2025-05-01 * Deliveroo fee
+    Expenses:Food:Delivery                  EUR 2.39
+    Assets:FR:BoursoBank:Compte-Courant
+
+2025-05-01 * Transfer to BoursoBank
+    Assets:FR:BoursoBank:Compte-Courant       EUR 10
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-13 * Delivero fee
+    Expenses:Food:Delivery                  EUR 1.60
+    Assets:FR:BoursoBank:Compte-Courant
 
 * Revolut expenses
 2025-05-01 * Navigo
@@ -198,55 +252,9 @@
     Expenses:GiftsCharity:Gifts             EUR 5.92
     Assets:UK:Revolut:Personal:EUR
 
-* Boursobank expenses
-2025-05-01 * Deliveroo fee
-    Expenses:Food:Delivery                  EUR 2.39
-    Assets:FR:BoursoBank:Compte-Courant
-
-2025-05-01 * Transfer to BoursoBank
-    Assets:FR:BoursoBank:Compte-Courant       EUR 10
-    Assets:FR:BforBank:Compte-Courant
-
-2025-05-13 * Delivero fee
-    Expenses:Food:Delivery                  EUR 1.60
-    Assets:FR:BoursoBank:Compte-Courant
-
-* Cash expenses
-2025-05-03 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
-    Assets:FR:Cash
-
-2025-05-04 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
-    Assets:FR:Cash
-
-2025-05-05 * Baguette
-    Expenses:Food:Groceries                 EUR 1.35
-    Assets:FR:Cash
-
-2025-05-09 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
-    Assets:FR:Cash
-
-2025-05-10 * Tips waiter
-    Expenses:Food:Restaurants               EUR 1.50
-    Assets:FR:Cash
-
-2025-05-12 * Baguette
-    Expenses:Food:Groceries                 EUR 1.35
-    Assets:FR:Cash
-
-2025-05-13 * Baguette
-    Expenses:Food:Groceries                 EUR 1.35
-    Assets:FR:Cash
-
-2025-05-15 * Hairdresser
-    Expenses:PersonalCare:Hair                EUR 22
-    Assets:FR:Cash
-
-2025-05-15 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
-    Assets:FR:Cash
+2025-05-18 * ClassPass
+    Expenses:Health:Gym                    EUR 18.09
+    Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold expenses
 2025-05-01 * Car Rental damages fine outstanding
@@ -321,7 +329,11 @@
     Expenses:Transportation:Taxi           EUR 15.96
     Liabilities:FR:Amex:Gold
 
-; Other liabilities
+2025-05-17 * Wahl Beard Trimmer
+    Expenses:Shopping:Electronics         EUR 147.74
+    Liabilities:FR:Amex:Gold
+
+; Accounts receivable/payable
 2025-05-05 * Luberon dinners paid by Glenn
     Expenses:Food:Restaurants                EUR 345
     Liabilities:FR:Payables:Glenn
@@ -374,4 +386,24 @@
 
 2025-05-16 * TFL
     Expenses:Transportation:PublicTransport  GBP 0.10
+    Liabilities:UK:Halifax:Clarity
+
+2025-05-17 * Sainsbury's Groceries shopping
+    Expenses:Food:Groceries                GBP 35.95
+    Liabilities:UK:Halifax:Clarity
+
+2025-05-17 * Drinks The Miller Pub
+    Expenses:Entertainment:Social:Bars     GBP 24.20
+    Liabilities:UK:Halifax:Clarity
+
+2025-05-18 * Cigarettes
+    Expenses:Cigarettes                    GBP 17.90
+    Liabilities:UK:Halifax:Clarity
+
+2025-05-18 * Golden Grill and Fish with Isky
+    Expenses:Food:FastFood                 GBP 23.90
+    Liabilities:UK:Halifax:Clarity
+
+2025-05-18 * Coffee WatchHouse
+    Expenses:Food:Cafe                     GBP 11.75
     Liabilities:UK:Halifax:Clarity

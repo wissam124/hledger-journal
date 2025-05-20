@@ -377,6 +377,10 @@
     Expenses:Shopping:Electronics         EUR 147.74
     Liabilities:FR:Amex:Gold
 
+2025-05-19 * Deliveroo
+    Expenses:Food:Delivery                 EUR 23.39
+    Liabilities:FR:Amex:Gold
+
 ; Accounts receivable/payable
 2025-05-05 * Luberon dinners paid by Glenn
     Expenses:Food:Restaurants                EUR 345

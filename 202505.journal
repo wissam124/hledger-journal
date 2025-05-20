@@ -280,6 +280,26 @@
     Assets:UK:Halifax:Current-Account      GBP 169.75
     Assets:UK:Revolut:Personal:GBP
 
+2025-05-20 * Buy GBP with Revolut
+    Assets:UK:Revolut:Personal:GBP         GBP 79.30 @@ EUR 94.58
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-17 * Refund from Brera (drinks)
+    Assets:UK:Revolut:Personal:GBP          GBP 7.50
+    Expenses:Entertainment:Social:Bars
+
+2025-05-17 * TFL
+    Expenses:Transportation:PublicTransport  GBP 5.80
+    Assets:UK:Revolut:Personal:GBP
+
+2025-05-18 * Classpass fee
+    Expenses:Health:Gym                        GBP 1
+    Assets:UK:Revolut:Personal:GBP
+
+2025-05-20 * Settlement padel
+    Liabilities:UK:Payables:Iskander          GBP 80
+    Assets:UK:Revolut:Personal:GBP
+
 * Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
@@ -373,6 +393,10 @@
 2025-05-05 * Settlement receivables Aurelie
     Assets:FR:BforBank:Compte-Courant     EUR 303.20
     Assets:FR:Receivables:Aurelie
+
+2025-05-16 * Padel Canary Wharf
+    Expenses:Entertainment:Social:Sports      GBP 80
+    Liabilities:UK:Payables:Iskander
 
 ; Investment funds valuation
 2025-05-12 * EPSOR PEI valuation

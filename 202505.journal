@@ -130,6 +130,10 @@
     Expenses:Food:Groceries                EUR 32.54
     Assets:FR:BforBank:Compte-Courant
 
+2025-05-20 Transfer to Revolut
+    Assets:UK:Revolut:Personal:EUR           EUR 300
+    Assets:FR:BforBank:Compte-Courant
+
 * Boursobank transactions
 2025-05-01 * Deliveroo fee
     Expenses:Food:Delivery                  EUR 2.39
@@ -143,7 +147,7 @@
     Expenses:Food:Delivery                  EUR 1.60
     Assets:FR:BoursoBank:Compte-Courant
 
-* Revolut expenses
+* Revolut transactions
 2025-05-01 * Navigo
     Expenses:Transportation:PublicTransport  EUR 88.80
     Assets:UK:Revolut:Personal:EUR
@@ -256,7 +260,27 @@
     Expenses:Health:Gym                    EUR 18.09
     Assets:UK:Revolut:Personal:EUR
 
-* Amex Gold expenses
+2025-05-18 * TFL
+    Expenses:Transportation:PublicTransport  EUR 7.94
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-19 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars        EUR 20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-20 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-20 * Buy GBP with Revolut
+    Assets:UK:Revolut:Personal:GBP        GBP 169.75 @@ EUR 202.42
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-20 * Transfer GBP to Halifax Current Account
+    Assets:UK:Halifax:Current-Account      GBP 169.75
+    Assets:UK:Revolut:Personal:GBP
+
+* Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
     Liabilities:FR:Amex:Gold
@@ -350,10 +374,6 @@
     Assets:FR:BforBank:Compte-Courant     EUR 303.20
     Assets:FR:Receivables:Aurelie
 
-2025-05-06 * Settlement Halifax Clarity
-    Liabilities:UK:Halifax:Clarity         GBP 37.86
-    Assets:UK:Halifax:Current-Account
-
 ; Investment funds valuation
 2025-05-12 * EPSOR PEI valuation
     Assets:FR:Epsor:PEI                  = EUR 51932
@@ -367,7 +387,11 @@
     Assets:UK:Moneyfarm                  = GBP 48191
     Equity:Unrealised-PnL:GBP
 
-; Halifax expenses
+; Halifax transactions
+2025-05-06 * Settlement Halifax Clarity
+    Liabilities:UK:Halifax:Clarity         GBP 37.86
+    Assets:UK:Halifax:Current-Account
+
 2025-05-16 * Cigarettes
     Expenses:Cigarettes                    GBP 17.30
     Liabilities:UK:Halifax:Clarity
@@ -376,16 +400,16 @@
     Expenses:Food:Snack                        GBP 5
     Liabilities:UK:Halifax:Clarity
 
-2025-05-16 * Coffee
-    Expenses:Food:Cafe                         GBP 4
-    Liabilities:UK:Halifax:Clarity
-
 2025-05-16 * Cigarettes
     Expenses:Cigarettes                    GBP 17.30
     Liabilities:UK:Halifax:Clarity
 
+2025-05-16 * Coffee
+    Expenses:Food:Cafe                         GBP 4
+    Liabilities:UK:Halifax:Clarity
+
 2025-05-16 * TFL
-    Expenses:Transportation:PublicTransport  GBP 0.10
+    Expenses:Transportation:PublicTransport  GBP 6.65
     Liabilities:UK:Halifax:Clarity
 
 2025-05-17 * Sainsbury's Groceries shopping
@@ -396,14 +420,22 @@
     Expenses:Entertainment:Social:Bars     GBP 24.20
     Liabilities:UK:Halifax:Clarity
 
+2025-05-17 * TFL
+    Expenses:Transportation:PublicTransport  GBP 5.80
+    Liabilities:UK:Halifax:Clarity
+
 2025-05-18 * Cigarettes
     Expenses:Cigarettes                    GBP 17.90
+    Liabilities:UK:Halifax:Clarity
+
+2025-05-18 * Coffee WatchHouse
+    Expenses:Food:Cafe                     GBP 11.75
     Liabilities:UK:Halifax:Clarity
 
 2025-05-18 * Golden Grill and Fish with Isky
     Expenses:Food:FastFood                 GBP 23.90
     Liabilities:UK:Halifax:Clarity
 
-2025-05-18 * Coffee WatchHouse
-    Expenses:Food:Cafe                     GBP 11.75
-    Liabilities:UK:Halifax:Clarity
+2025-05-20 * Settlement Halifax Clarity
+    Liabilities:UK:Halifax:Clarity        GBP 169.75
+    Assets:UK:Halifax:Current-Account

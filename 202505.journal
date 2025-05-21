@@ -130,6 +130,10 @@
     Expenses:Food:Groceries                EUR 32.54
     Assets:FR:BforBank:Compte-Courant
 
+2025-05-18 * Taxi from Gare du Nord
+    Expenses:Transportation:Taxi           EUR 20.60
+    Assets:FR:BforBank:Compte-Courant
+
 2025-05-20 Transfer to Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 300
     Assets:FR:BforBank:Compte-Courant
@@ -299,6 +303,10 @@
 2025-05-20 * Settlement padel
     Liabilities:UK:Payables:Iskander          GBP 80
     Assets:UK:Revolut:Personal:GBP
+
+2025-05-20 * Durum
+    Expenses:Food:FastFood                   EUR 15
+    Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding

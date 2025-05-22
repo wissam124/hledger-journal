@@ -41,6 +41,10 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
+2025-05-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
 * Bforbank transactions
 2025-05-01 * Rent Citeaux
     Expenses:Home:Rent                      EUR 1330
@@ -134,8 +138,12 @@
     Expenses:Transportation:Taxi           EUR 20.60
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-20 Transfer to Revolut
+2025-05-20 * Transfer to Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 300
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-22 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions

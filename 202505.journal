@@ -45,6 +45,34 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
+2025-05-22 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 1.70
+    Assets:FR:Cash
+
+2025-05-22 * MS Therapy
+    Expenses:PersonalCare                    EUR 250
+    Assets:FR:Cash
+
+2025-05-22 * Financier Kayser
+    Expenses:Food:Snack                     EUR 3.60
+    Assets:FR:Cash
+
+2025-05-24 * Therapy
+    Expenses:Health:Doctor                   EUR 120
+    Assets:FR:Cash
+
+2025-05-24 * Croissant
+    Expenses:Food:Snack                     EUR 1.30
+    Assets:FR:Cash
+
+2025-05-24 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-05-25 * Unaccounted cash expenses
+    Expenses:Misc:Unaccounted               EUR 1.60
+    Assets:FR:Cash
+
 * Bforbank transactions
 2025-05-01 * Rent Citeaux
     Expenses:Home:Rent                      EUR 1330
@@ -144,6 +172,30 @@
 
 2025-05-22 * Cash withdrawal
     Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-22 Cash withdrawal
+    Assets:FR:Cash                            EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-22 * Cash withdrawal
+    Assets:FR:Cash                            EUR 50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-23 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars     EUR 17.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-23 Cash withdrawal
+    Assets:FR:Cash                           EUR 120
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-23 Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-23 * SFR mobile phone
+    Expenses:Home:Utilities:MobilePhone    EUR 12.06
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -316,6 +368,38 @@
     Expenses:Food:FastFood                   EUR 15
     Assets:UK:Revolut:Personal:EUR
 
+2025-05-21 * Carrefour City groceries
+    Expenses:Food:Groceries                 EUR 5.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-22 * Burrito Saint-Maur
+    Expenses:Food:Groceries                 EUR 8.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-24 * Ticket RER
+    Expenses:Transportation:PublicTransport  EUR 2.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-24 * Ticket for stranger
+    Expenses:Transportation:PublicTransport    EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-24 * Stranger's ticket receivable
+    Assets:FR:Receivables                      EUR 5
+    Expenses:Transportation:PublicTransport
+
+2025-05-24 * Stranger's ticket receivable settlement
+    Assets:FR:Cash                             EUR 5
+    Assets:FR:Receivables
+
+2025-05-25 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.46
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-25 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.42
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
@@ -395,6 +479,22 @@
 
 2025-05-19 * Deliveroo
     Expenses:Food:Delivery                 EUR 23.39
+    Liabilities:FR:Amex:Gold
+
+2025-05-22 * Amazon order
+    Expenses:Shopping                      EUR 21.85
+    Liabilities:FR:Amex:Gold
+
+2025-05-23 * Delivero fee
+    Expenses:Food:OfficeLunch               EUR 2.22
+    Liabilities:FR:Amex:Gold
+
+2025-05-23 Anybuddy Padel booking
+    Expenses:Entertainment:Social:Sports  EUR 50
+    Liabilities:FR:Amex:Gold
+
+2025-05-25 Uber
+    Expenses:Transportation:Taxi           EUR 12.65
     Liabilities:FR:Amex:Gold
 
 ; Accounts receivable/payable

@@ -174,7 +174,7 @@
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-22 Cash withdrawal
+2025-05-22 * Cash withdrawal
     Assets:FR:Cash                            EUR 200
     Assets:FR:BforBank:Compte-Courant
 
@@ -186,16 +186,28 @@
     Expenses:Entertainment:Social:Bars     EUR 17.50
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-23 Cash withdrawal
+2025-05-23 * Cash withdrawal
     Assets:FR:Cash                           EUR 120
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-23 Cash withdrawal
+2025-05-23 * Cash withdrawal
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-23 * SFR mobile phone
     Expenses:Home:Utilities:MobilePhone    EUR 12.06
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-24 * Ticket RER
+    Expenses:Transportation:PublicTransport  EUR 2.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-26 Cafe Nuances
+    Expenses:Food:Cafe                         EUR 5
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-27 Cafe Nuances pain au chocolat
+    Expenses:Food:Cafe                      EUR 6.93
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions

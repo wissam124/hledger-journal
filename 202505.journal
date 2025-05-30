@@ -246,6 +246,10 @@
     Expenses:Food:Groceries                 EUR 8.19
     Assets:FR:BforBank:Compte-Courant
 
+2025-05-29 Book Patrice Jean
+    Expenses:Entertainment:Reading:Books    EUR 8.90
+    Assets:FR:BforBank:Compte-Courant
+
 2025-05-30 Transfer to Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 100
     Assets:FR:BforBank:Compte-Courant
@@ -460,6 +464,14 @@
     Expenses:Subscriptions:Software         EUR 4.43
     Assets:UK:Revolut:Personal:EUR
 
+2025-05-30 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-30 * McDonald's
+    Expenses:Food:FastFood                 EUR 14.95
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
@@ -579,6 +591,10 @@
 
 2025-05-29 Dott bike
     Expenses:Transportation:Bikesharing    EUR 10.85
+    Liabilities:FR:Amex:Gold
+
+2025-05-30 Adidas shoes
+    Expenses:Shopping:Clothes                EUR 140
     Liabilities:FR:Amex:Gold
 
 ; Accounts receivable/payable

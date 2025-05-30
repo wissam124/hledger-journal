@@ -73,6 +73,14 @@
     Expenses:Misc:Unaccounted               EUR 1.60
     Assets:FR:Cash
 
+2025-05-26 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-05-30 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.50
+    Assets:FR:Cash
+
 * Bforbank transactions
 2025-05-01 * Rent Citeaux
     Expenses:Home:Rent                      EUR 1330
@@ -202,12 +210,44 @@
     Expenses:Transportation:PublicTransport  EUR 2.50
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-26 Cafe Nuances
+2025-05-25 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-26 * Cafe Nuances
     Expenses:Food:Cafe                         EUR 5
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-27 Cafe Nuances pain au chocolat
+2025-05-26 * Kayser lunch
+    Expenses:Food:OfficeLunch                 EUR 16
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-27 * Cafe Nuances pain au chocolat
     Expenses:Food:Cafe                      EUR 6.93
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-27 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-27 * Google Play Bomber
+    Expenses:Subscriptions:Software         EUR 4.49
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-28 * Cafe Nuances
+    Expenses:Food:Cafe                         EUR 9
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-29 Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-29 Carrefour City
+    Expenses:Food:Groceries                 EUR 8.19
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-30 Transfer to Revolut
+    Assets:UK:Revolut:Personal:EUR           EUR 100
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -412,6 +452,14 @@
     Expenses:Subscriptions:Software         EUR 4.42
     Assets:UK:Revolut:Personal:EUR
 
+2025-05-30 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.43
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-30 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.43
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
@@ -501,12 +549,36 @@
     Expenses:Food:OfficeLunch               EUR 2.22
     Liabilities:FR:Amex:Gold
 
-2025-05-23 Anybuddy Padel booking
-    Expenses:Entertainment:Social:Sports  EUR 50
+2025-05-23 * Anybuddy Padel booking
+    Expenses:Entertainment:Social:Sports      EUR 50
     Liabilities:FR:Amex:Gold
 
-2025-05-25 Uber
+2025-05-25 * Uber
     Expenses:Transportation:Taxi           EUR 12.65
+    Liabilities:FR:Amex:Gold
+
+2025-05-27 * Deliveroo Cut
+    Expenses:Food:OfficeLunch               EUR 7.13
+    Liabilities:FR:Amex:Gold
+
+2025-05-27 * Hockney Louis Vuitton
+    Expenses:Entertainment:Events             EUR 32
+    Liabilities:FR:Amex:Gold
+
+2025-05-28 * Deliveroo Chlew
+    Expenses:Food:OfficeLunch              EUR 17.60
+    Liabilities:FR:Amex:Gold
+
+2025-05-28 * Vans
+    Expenses:Shopping:Clothes              EUR 71.95
+    Liabilities:FR:Amex:Gold
+
+2025-05-29 * Cafe Gaia
+    Expenses:Food:Cafe                         EUR 8
+    Liabilities:FR:Amex:Gold
+
+2025-05-29 Dott bike
+    Expenses:Transportation:Bikesharing    EUR 10.85
     Liabilities:FR:Amex:Gold
 
 ; Accounts receivable/payable

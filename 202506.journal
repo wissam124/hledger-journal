@@ -1,0 +1,18 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+
+* Cash transactions
+
+* BforBank transactions
+2025-06-01 * Rent Citeaux
+    Expenses:Home:Rent                      EUR 1330
+    Assets:FR:BforBank:Compte-Courant
+
+* Revolut transactions
+2025-06-01 * Cafe Plage Touquet
+    Expenses:Food:Cafe                      EUR 5.60
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-01 * Rental Padel
+    Expenses:Entertainment:Social:Sports   EUR 18.50
+    Assets:UK:Revolut:Personal:EUR

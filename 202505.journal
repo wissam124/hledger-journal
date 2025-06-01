@@ -238,20 +238,32 @@
     Expenses:Food:Cafe                         EUR 9
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-29 Cigarettes
+2025-05-29 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-29 Carrefour City
+2025-05-29 * Carrefour City
     Expenses:Food:Groceries                 EUR 8.19
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-29 Book Patrice Jean
+2025-05-29 * Book Patrice Jean
     Expenses:Entertainment:Reading:Books    EUR 8.90
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-30 Transfer to Revolut
+2025-05-29 * Restaurant with Aurelie
+    Expenses:Food:Restaurants              EUR 55.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-30 * Transfer to Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-30 Taxi
+    Expenses:Transportation:Taxi           EUR 17.10
+    Assets:FR:BforBank:Compte-Courant
+
+2025-05-31 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -472,6 +484,14 @@
     Expenses:Food:FastFood                 EUR 14.95
     Assets:UK:Revolut:Personal:EUR
 
+2025-05-30 * Euromillions
+    Expenses:Entertainment                    EUR 10
+    Assets:UK:Revolut:Personal:EUR
+
+2025-05-31 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.47
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding
     Expenses:Transportation:CarRental         EUR 40
@@ -589,11 +609,11 @@
     Expenses:Food:Cafe                         EUR 8
     Liabilities:FR:Amex:Gold
 
-2025-05-29 Dott bike
+2025-05-29 * Dott bike
     Expenses:Transportation:Bikesharing    EUR 10.85
     Liabilities:FR:Amex:Gold
 
-2025-05-30 Adidas shoes
+2025-05-30 * Adidas shoes
     Expenses:Shopping:Clothes                EUR 140
     Liabilities:FR:Amex:Gold
 

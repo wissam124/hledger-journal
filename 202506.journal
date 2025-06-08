@@ -1,11 +1,58 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
+2025-06-03 * 111 Wage
+    Assets:FR:BforBank:Compte-Courant    EUR 6667.11
+    Income:FR:111Capital:Salary
 
 * Cash transactions
+2025-06-07 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.30
+    Assets:FR:Cash
 
 * BforBank transactions
 2025-06-01 * Rent Citeaux
     Expenses:Home:Rent                      EUR 1330
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-02 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-02 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-03 * Drinks with Aurelie La Place
+    Expenses:Entertainment:Social:Bars     EUR 32.10
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-04 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-05 * MacroFactor subscription
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-05 * ChatGPT for mum
+    Expenses:GiftsCharity:Gifts            EUR 21.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-06 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-07 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-07 * Carrefour City
+    Expenses:Food:Groceries                 EUR 3.24
+    Assets:FR:BforBank:Compte-Courant
+
+* Boursorama transactions
+2025-06-08 Transfer
+    Assets:FR:BoursoBank:Compte-Courant       EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut transactions
@@ -16,3 +63,48 @@
 2025-06-01 * Rental Padel
     Expenses:Entertainment:Social:Sports   EUR 18.50
     Assets:UK:Revolut:Personal:EUR
+
+2025-06-02 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-03 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.70
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-03 * Financier Kayser
+    Expenses:Food:Snack                     EUR 3.60
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-03 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.45
+    Assets:UK:Revolut:Personal:EUR
+
+* Amex Gold transactions
+2025-06-04 * Deliveroo Gourou
+    Expenses:Food:Delivery                 EUR 34.99
+    Liabilities:FR:Amex:Gold
+
+2025-06-04 * Deliveroo fees
+    Expenses:Food:OfficeLunch               EUR 1.90
+    Liabilities:FR:Amex:Gold
+
+2025-06-05 * Restaurant Le Petit Verdot
+    Expenses:Food:Restaurants              EUR 98.34
+    Liabilities:FR:Amex:Gold
+
+2025-06-05 * R2 Training
+    Expenses:Health:Gym                      EUR 179
+    Liabilities:FR:Amex:Gold
+
+2025-06-05 Uber from Le Petit Verdot
+    Expenses:Transportation:Taxi           EUR 25.94
+    Liabilities:FR:Amex:Gold
+
+2025-06-06 * Amex subscription
+    Expenses:Fees:CreditCard                  EUR 16
+    Liabilities:FR:Amex:Gold
+
+2025-06-06 Gift Henri Tour d'Ivoire
+    Expenses:GiftsCharity:Gifts            EUR 11.90
+    Liabilities:FR:Amex:Gold

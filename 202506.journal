@@ -50,8 +50,12 @@
     Expenses:Food:Groceries                 EUR 3.24
     Assets:FR:BforBank:Compte-Courant
 
+2025-06-08 * Bomber game google play
+    Expenses:Entertainment:Digital         EUR 14.99
+    Assets:FR:BforBank:Compte-Courant
+
 * Boursorama transactions
-2025-06-08 Transfer
+2025-06-08 * Transfer
     Assets:FR:BoursoBank:Compte-Courant       EUR 20
     Assets:FR:BforBank:Compte-Courant
 
@@ -97,7 +101,7 @@
     Expenses:Health:Gym                      EUR 179
     Liabilities:FR:Amex:Gold
 
-2025-06-05 Uber from Le Petit Verdot
+2025-06-05 * Uber from Le Petit Verdot
     Expenses:Transportation:Taxi           EUR 25.94
     Liabilities:FR:Amex:Gold
 
@@ -107,4 +111,16 @@
 
 2025-06-06 Gift Henri Tour d'Ivoire
     Expenses:GiftsCharity:Gifts            EUR 11.90
+    Liabilities:FR:Amex:Gold
+
+2025-06-08 * Padel booking
+    Expenses:Entertainment:Social:Sports      EUR 50
+    Liabilities:FR:Amex:Gold
+
+2025-06-08 Jardin d'Acclimation
+    Expenses:Entertainment                    EUR 18
+    Liabilities:FR:Amex:Gold
+
+2025-06-09 Deliveroo water bottles
+    Expenses:Food:Groceries                EUR 10.27
     Liabilities:FR:Amex:Gold

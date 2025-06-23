@@ -4,7 +4,6 @@
     Assets:FR:BforBank:Compte-Courant    EUR 6667.11
     Income:FR:111Capital:Salary
 
-
 * Cash transactions
 2025-06-04 * Charity
     Expenses:GiftsCharity:Charity           EUR 0.35
@@ -20,6 +19,22 @@
 
 2025-06-09 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-06-14 * Therapy
+    Expenses:Health:Doctor                    EUR 60
+    Assets:FR:Cash
+
+2025-06-16 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-06-22 * Hairdresser
+    Expenses:PersonalCare:Hair                EUR 15
+    Assets:FR:Cash
+
+2025-06-22 * Ice Cream
+    Expenses:Food:Snack                     EUR 4.50
     Assets:FR:Cash
 
 * BforBank transactions
@@ -75,7 +90,7 @@
     Assets:FR:BoursoBank:Compte-Courant       EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-08 * Cigarettes
+2025-06-09 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
@@ -123,14 +138,6 @@
     Expenses:Food:Cafe                         EUR 9
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-13 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
-    Assets:FR:BforBank:Compte-Courant
-
-2025-06-14 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
-    Assets:FR:BforBank:Compte-Courant
-
 2025-06-14 * Hellofresh
     Expenses:Food:Groceries                EUR 48.94
     Assets:FR:BforBank:Compte-Courant
@@ -139,9 +146,66 @@
     Assets:FR:BforBank:Compte-Courant      EUR 48.94
     Expenses:Food:Groceries
 
+2025-06-14 * Cash withdrawal
+    Assets:FR:Cash                            EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-15 * Velib
+    Expenses:Transportation:Bikesharing        EUR 4
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-16 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 6.75
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-17 * Vinted sales
+    Assets:FR:BforBank:Compte-Courant      EUR 77.25
+    Income:FR:Resale:Vinted
+
+2025-06-18 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-19 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-20 * Game play store
+    Expenses:Entertainment:Digital          EUR 7.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-20 Taxi G7 to Padel
+    Expenses:Transportation:Taxi           EUR 11.40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-21 * Brunch Titi Palacio with Aurelie
+    Expenses:Food:Restaurants                 EUR 76
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-21 Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-23 Revolut transfer
+    Assets:UK:Revolut:Personal:EUR           EUR 100
+    Assets:FR:BforBank:Compte-Courant
 
 * Boursorama transactions
-
+2025-06-20 * Deliveroo fees
+    Expenses:Food:OfficeLunch               EUR 1.60
+    Assets:FR:BoursoBank:Compte-Courant
 
 * Revolut transactions
 2025-06-01 * Cafe Plage Touquet
@@ -192,6 +256,38 @@
     Expenses:Entertainment:Social:Bars     EUR 15.50
     Assets:UK:Revolut:Personal:EUR
 
+2025-06-16 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.34
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-19 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars        EUR 33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-20 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-21 * Water bottles Carrefour City
+    Expenses:Food:Groceries                    EUR 4
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-22 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-23 * Beeminder fine
+    Expenses:Subscriptions:Software        EUR 13.14
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-23 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-23 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 6.75
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-06-04 * Deliveroo Gourou
     Expenses:Food:Delivery                 EUR 34.99
@@ -239,4 +335,28 @@
 
 2025-06-13 * Deliveroo Ice Cream
     Expenses:GiftsCharity:Gifts            EUR 30.49
+    Liabilities:FR:Amex:Gold
+
+2025-06-15 * Deliveroo Chez Antoine
+    Expenses:Food:Delivery                 EUR 18.81
+    Liabilities:FR:Amex:Gold
+
+2025-06-17 * Dott bike to Vincennes
+    Expenses:Transportation:Bikesharing    EUR 12.20
+    Liabilities:FR:Amex:Gold
+
+2025-06-20 * Padel racket rental
+    Expenses:Entertainment:Social:Sports       EUR 8
+    Liabilities:FR:Amex:Gold
+
+2025-06-20 * Deliveroo Five Guys
+    Expenses:Food:OfficeLunch              EUR 11.48
+    Liabilities:FR:Amex:Gold
+
+2025-06-20 * Exercise balls for Mum
+    Expenses:GiftsCharity:Gifts            EUR 21.99
+    Liabilities:FR:Amex:Gold
+
+2025-06-21 * Dott bike pass
+    Expenses:Transportation:Bikesharing     EUR 4.99
     Liabilities:FR:Amex:Gold

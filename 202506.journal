@@ -29,12 +29,40 @@
     Expenses:Food:Groceries                 EUR 1.35
     Assets:FR:Cash
 
+2025-06-21 * Therapy
+    Expenses:Health:Doctor                    EUR 60
+    Assets:FR:Cash
+
+2025-06-21 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-06-21 * Charity
+    Expenses:GiftsCharity:Charity           EUR 0.20
+    Assets:FR:Cash
+
+2025-06-21 * Cafe
+    Expenses:Food:Cafe                      EUR 1.40
+    Assets:FR:Cash
+
+2025-06-23 * Unaccounted cash expenses
+    Expenses:Misc:Unaccounted               EUR 0.33
+    Assets:FR:Cash
+
 2025-06-22 * Hairdresser
     Expenses:PersonalCare:Hair                EUR 15
     Assets:FR:Cash
 
 2025-06-22 * Ice Cream
     Expenses:Food:Snack                     EUR 4.50
+    Assets:FR:Cash
+
+2025-06-23 * Charity
+    Expenses:GiftsCharity:Charity           EUR 0.50
+    Assets:FR:Cash
+
+2025-06-25 * Baguette and pain au chocolat
+    Expenses:Food:Snack                     EUR 2.75
     Assets:FR:Cash
 
 * BforBank transactions
@@ -78,24 +106,24 @@
     Expenses:Food:Groceries                 EUR 3.24
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-07 * Cash withdrawal
-    Assets:FR:Cash                           EUR 120
+2025-06-08 * Transfer
+    Assets:FR:BoursoBank:Compte-Courant       EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-08 * Bomber game google play
     Expenses:Entertainment:Digital         EUR 14.99
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-08 * Transfer
-    Assets:FR:BoursoBank:Compte-Courant       EUR 20
-    Assets:FR:BforBank:Compte-Courant
-
-2025-06-09 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
+2025-06-07 * Cash withdrawal
+    Assets:FR:Cash                           EUR 120
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-09 * Hellofresh
     Expenses:Food:Groceries                EUR 48.94
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-09 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-09 * Cigarettes
@@ -146,10 +174,6 @@
     Assets:FR:BforBank:Compte-Courant      EUR 48.94
     Expenses:Food:Groceries
 
-2025-06-14 * Cash withdrawal
-    Assets:FR:Cash                            EUR 60
-    Assets:FR:BforBank:Compte-Courant
-
 2025-06-15 * Velib
     Expenses:Transportation:Bikesharing        EUR 4
     Assets:FR:BforBank:Compte-Courant
@@ -160,6 +184,10 @@
 
 2025-06-16 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-16 * Cash withdrawal
+    Assets:FR:Cash                            EUR 60
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-16 * Cafe Nuances
@@ -182,24 +210,72 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-20 * Game play store
+2025-06-20 * Game play store Head 2 Ball
     Expenses:Entertainment:Digital          EUR 7.99
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-20 Taxi G7 to Padel
-    Expenses:Transportation:Taxi           EUR 11.40
-    Assets:FR:BforBank:Compte-Courant
-
-2025-06-21 * Brunch Titi Palacio with Aurelie
+2025-06-22 * Brunch Titi Palacio with Aurelie
     Expenses:Food:Restaurants                 EUR 76
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-21 Cash withdrawal
+2025-06-23 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-23 * Cash withdrawal
+    Assets:FR:Cash                            EUR 80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-23 * Taxi G7 to Padel
+    Expenses:Transportation:Taxi           EUR 11.40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-22 * Chalet du Lac
+    Expenses:Entertainment:Events             EUR 70
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-24 * Lunch Mister Garden
+    Expenses:Food:OfficeLunch              EUR 15.10
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-24 * Revolut transfer
+    Assets:UK:Revolut:Personal:EUR           EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-24 * Cash withdrawal
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-06-23 Revolut transfer
-    Assets:UK:Revolut:Personal:EUR           EUR 100
+2025-06-25 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-25 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.70
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-25 * Game play store
+    Expenses:Entertainment:Digital          EUR 0.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-26 * SFR subscription
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-26 * Ifly Ulysse
+    Expenses:GiftsCharity:Gifts           EUR 119.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-26 * Lunch Kayser
+    Expenses:Food:OfficeLunch                 EUR 16
     Assets:FR:BforBank:Compte-Courant
 
 * Boursorama transactions
@@ -286,6 +362,26 @@
 
 2025-06-23 * Cafe Nuances
     Expenses:Food:Cafe                      EUR 6.75
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-23 * Coin wallet Delfonics
+    Expenses:Shopping                         EUR 16
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-23 * Drinks with Isky
+    Expenses:Entertainment:Social:Bars        EUR 18
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-24 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.34
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-24 * Petit panda office lunch
+    Expenses:Food:OfficeLunch                 EUR 11
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-27 * Doowap Carrefour
+    Expenses:Food:Snack                     EUR 3.24
     Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions

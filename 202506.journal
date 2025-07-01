@@ -1,6 +1,6 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
-2025-06-03 * 111 Wage
+2025-06-03 * 111 wage
     Assets:FR:BforBank:Compte-Courant    EUR 6667.11
     Income:FR:111Capital:Salary
 
@@ -14,7 +14,7 @@
     Assets:FR:Cash
 
 2025-06-07 * Therapy
-    Expenses:Health:Doctor                   EUR 120
+    Expenses:Health:Therapy                   EUR 120
     Assets:FR:Cash
 
 2025-06-09 * Cigarettes
@@ -22,7 +22,7 @@
     Assets:FR:Cash
 
 2025-06-14 * Therapy
-    Expenses:Health:Doctor                    EUR 60
+    Expenses:Health:Therapy                    EUR 60
     Assets:FR:Cash
 
 2025-06-16 * Baguette
@@ -30,7 +30,7 @@
     Assets:FR:Cash
 
 2025-06-21 * Therapy
-    Expenses:Health:Doctor                    EUR 60
+    Expenses:Health:Therapy                    EUR 60
     Assets:FR:Cash
 
 2025-06-21 * Cigarettes
@@ -63,6 +63,14 @@
 
 2025-06-25 * Baguette and pain au chocolat
     Expenses:Food:Snack                     EUR 2.75
+    Assets:FR:Cash
+
+2025-06-28 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-06-28 * Paname Comedy Club tickets
+    Expenses:Entertainment:Events             EUR 30
     Assets:FR:Cash
 
 * BforBank transactions
@@ -278,6 +286,66 @@
     Expenses:Food:OfficeLunch                 EUR 16
     Assets:FR:BforBank:Compte-Courant
 
+2025-06-27 * Lunch Kayser
+    Expenses:Food:OfficeLunch                 EUR 16
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-27 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Add-on game Head 2 Ball
+    Expenses:Entertainment:Digital          EUR 9.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Cafe Nuances
+    Expenses:Food:Cafe                     EUR 12.40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Carrefour city
+    Expenses:Food:Groceries                EUR 14.15
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Cash withdrawal
+    Assets:FR:Cash                            EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * The Gate VR
+    Expenses:Entertainment:Events          EUR 69.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Eat the Road burger Vilette
+    Expenses:Food:FastFood                 EUR 26.89
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Paname Comedy drinks
+    Expenses:Entertainment:Social:Bars     EUR 12.60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Water VR
+    Expenses:Food:Snack                     EUR 2.90
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Paname Comedy drinks
+    Expenses:Entertainment:Social:Bars      EUR 1.40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-28 * Pingwoo cafe vilette
+    Expenses:Food:Cafe                      EUR 4.00
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-30 * Hellofresh
+    Expenses:Food:Groceries                EUR 33.94
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-30 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-06-30 * Carrefour City
+    Expenses:Food:Groceries                 EUR 6.91
+    Assets:FR:BforBank:Compte-Courant
+
 * Boursorama transactions
 2025-06-20 * Deliveroo fees
     Expenses:Food:OfficeLunch               EUR 1.60
@@ -384,6 +452,18 @@
     Expenses:Food:Snack                     EUR 3.24
     Assets:UK:Revolut:Personal:EUR
 
+2025-06-28 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-29 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.29
+    Assets:UK:Revolut:Personal:EUR
+
+2025-06-29 * Carrefour City
+    Expenses:Food:Groceries                 EUR 5.75
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-06-04 * Deliveroo Gourou
     Expenses:Food:Delivery                 EUR 34.99
@@ -455,4 +535,40 @@
 
 2025-06-21 * Dott bike pass
     Expenses:Transportation:Bikesharing     EUR 4.99
+    Liabilities:FR:Amex:Gold
+
+2025-06-27 * Dott bike rental
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-06-27 * Deliveroo
+    Expenses:Food:FastFood                 EUR 22.66
+    Liabilities:FR:Amex:Gold
+
+2025-06-28 * Lime bike rental
+    Expenses:Transportation:Bikesharing    EUR 12.48
+    Liabilities:FR:Amex:Gold
+
+2025-06-28 * Lime bike rental
+    Expenses:Transportation:Bikesharing    EUR 6.32
+    Liabilities:FR:Amex:Gold
+
+2025-06-28 * Dott bike rental
+    Expenses:Transportation:Bikesharing    EUR 13.07
+    Liabilities:FR:Amex:Gold
+
+2025-06-28 * Dott bike rental
+    Expenses:Transportation:Bikesharing     EUR 3.99
+    Liabilities:FR:Amex:Gold
+
+2025-06-28 * Dott bike rental
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2026-06-28 * Water and snacks Relay GDL
+    Expenses:Food:Snack                     EUR 6.20
+    Liabilities:FR:Amex:Gold
+
+2026-06-28 * Car rental virtuo
+    Expenses:Transportation:CarRental        EUR 282
     Liabilities:FR:Amex:Gold

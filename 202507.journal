@@ -1,0 +1,23 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+2025-07-01 * 111 Capital wage
+    Assets:FR:BforBank:Compte-Courant    EUR 6371.58
+    Income:FR:111Capital:Salary
+
+* BforBank transactions
+2025-07-01 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-01 Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-01 Flat purchase sollicitor
+    Expenses:Fees                            EUR 550
+    Assets:FR:BforBank:Compte-Courant
+
+* Revolut transactions
+2025-06-29 * Carrefour City
+    Expenses:Food:Groceries                 EUR 2.77
+    Assets:UK:Revolut:Personal:EUR

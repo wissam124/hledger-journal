@@ -30,7 +30,7 @@
     Assets:FR:Cash
 
 2025-06-21 * Therapy
-    Expenses:Health:Therapy                    EUR 60
+    Expenses:Health:Therapy                   EUR 60
     Assets:FR:Cash
 
 2025-06-21 * Cigarettes
@@ -569,6 +569,6 @@
     Expenses:Food:Snack                     EUR 6.20
     Liabilities:FR:Amex:Gold
 
-2026-06-28 * Car rental virtuo
+2026-06-29 * Car rental virtuo
     Expenses:Transportation:CarRental        EUR 282
     Liabilities:FR:Amex:Gold

@@ -4,20 +4,125 @@
     Assets:FR:BforBank:Compte-Courant    EUR 6371.58
     Income:FR:111Capital:Salary
 
+* Cash transactions
+2025-07-06 * Cigarettes
+    Expenses:Cigarettes                    EUR 10.80
+    Assets:FR:Cash
+
+2025-07-04 * Therapy
+    Expenses:Health:Therapy                  EUR 120
+    Assets:FR:Cash
+
+2025-07-04 * Charity
+    Expenses:GiftsCharity:Charity           EUR 0.50
+    Assets:FR:Cash
+
+2025-07-04 * MS Therapy
+    Expenses:PersonalCare                    EUR 200
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-07-01 * Navigo
     Expenses:Transportation:PublicTransport  EUR 88.80
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-01 Cigarettes
+2025-07-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-01 Flat purchase sollicitor
+2025-07-01 * Flat purchase sollicitor
     Expenses:Fees                            EUR 550
     Assets:FR:BforBank:Compte-Courant
 
+2025-07-02 * Transfer Revolut
+    Assets:UK:Revolut:Personal:EUR           EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-02 * Rent Citeaux
+    Expenses:Home:Rent                      EUR 1330
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-03 * ChatGPT for mum
+    Expenses:GiftsCharity:Gifts            EUR 21.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-05 * Cash withdrawal
+    Assets:FR:Cash                           EUR 150
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-05 * Durum
+    Expenses:Food:FastFood                    EUR 11
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-05 * MacroFactor
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-05 * Cash withdrawal
+    Assets:FR:Cash                            EUR 50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-05 * Cash withdrawal
+    Assets:FR:Cash                           EUR 120
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-05 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-06 Fuel car rental
+    Expenses:Transportation:CarRental      EUR 43.37
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut transactions
-2025-06-29 * Carrefour City
+2025-07-01 * Carrefour City
     Expenses:Food:Groceries                 EUR 2.77
     Assets:UK:Revolut:Personal:EUR
+
+2025-07-02 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 8.28
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-02 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-03 * Blend burger
+    Expenses:Food:OfficeLunch              EUR 13.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-03 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars    EUR 17.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-03 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-05 * Kayser gare de lyon
+    Expenses:Food:Snack                     EUR 10.60
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-06 * Coca Chateau De la Borde
+    Expenses:Food:Snack                        EUR 6
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-06 * Snack shell petrol station
+    Expenses:Food:Snack                    EUR 10.80
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-05 * R2 Training
+    Expenses:Health:Gym                      EUR 179
+    Liabilities:FR:Amex:Gold
+
+2025-07-06 Virtuo fuel fine
+    Expenses:Transportation:CarRental      EUR 47.35
+    Liabilities:FR:Amex:Gold
+
+2025-07-06 Deliveroo Chez Antoine
+    Expenses:Food:Delivery                 EUR 26.89
+    Liabilities:FR:Amex:Gold
+
+2025-07-06 * Florent share Virtuo
+    Assets:FR:Receivables                    EUR 102
+    Expenses:Transportation:CarRental

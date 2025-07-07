@@ -111,11 +111,18 @@
     Expenses:Food:Snack                    EUR 10.80
     Assets:UK:Revolut:Personal:EUR
 
+
+* Amex gold transactions
 2025-07-05 * R2 Training
     Expenses:Health:Gym                      EUR 179
     Liabilities:FR:Amex:Gold
 
-2025-07-06 Virtuo fuel fine
+2025-07-06 * Amex gold subscription
+    Expenses:Fees:CreditCard                  EUR 16
+    Liabilities:FR:Amex:Gold
+
+
+2025-07-06 * Virtuo fuel fine
     Expenses:Transportation:CarRental      EUR 47.35
     Liabilities:FR:Amex:Gold
 
@@ -126,3 +133,7 @@
 2025-07-06 * Florent share Virtuo
     Assets:FR:Receivables                    EUR 102
     Expenses:Transportation:CarRental
+
+2025-07-06 * Florent settlement
+    Assets:FR:BforBank:Compte-Courant        EUR 102
+    Assets:FR:Receivables

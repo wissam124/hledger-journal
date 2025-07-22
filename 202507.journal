@@ -33,8 +33,12 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
-2025-07-19 Cafe pain au chocolat
+2025-07-19 * Cafe pain au chocolat
     Expenses:Food:Snack                     EUR 2.80
+    Assets:FR:Cash
+
+2025-07-21 * Baguette Vincennes
+    Expenses:Food:Groceries                 EUR 1.35
     Assets:FR:Cash
 
 * BforBank transactions
@@ -158,16 +162,24 @@
     Expenses:Food:Snack                       EUR 1
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-20 Cigarettes
+2025-07-20 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-19 Cash withdrawal
+2025-07-19 * Cash withdrawal
     Assets:FR:Cash                            EUR 70
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-19 Cash withdrawal
+2025-07-19 * Cash withdrawal
     Assets:FR:Cash                            EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-21 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-21 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-21 * Transfer Livret A
@@ -338,6 +350,14 @@
 
 2025-07-21 * Carrefour City Doowap
     Expenses:Food:Snack                     EUR 3.13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-22 * Cafe Nuances
+    Expenses:Food:Cafe                         EUR 5
     Assets:UK:Revolut:Personal:EUR
 
 * Amex gold transactions

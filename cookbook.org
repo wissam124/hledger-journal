@@ -3,12 +3,47 @@
 
 
 * Formalise transactions and balances
+** Transactions
+Let's note $N$ the total number of accounts. In practice, the number of accounts
+may depend on time $t$ but for simplicity, let's ignore that dependence and set
+$N$ to  $$\underset{u \leq t}{\sup N(t)}$$
+
+At a given time $t$, a transaction $j$ is defined as $(\Delta^j_{i,t})_{1 \leq i \leq N}$
+where $\Delta^j_{i,t}$ is the i-th posting against account $i$ of the
+transaction $j$ at time $t$.
+The fundamental accounting equation requires that the transaction is balanced i.e.:
+$$\forall j \sum_{i=1}^N\Delta^j_{i,t} = 0$$
+
+At a given time $t$, there can be ($n$) multiple transactions. For simplicity, let's
+roll all postings to the same account $i$ into a single posting at time $t$:
+$$\Delta_{i,t} = \sum_{j=1}^n\Delta^j_{i,t}$$
+
+Trivally, we have $\sum_{i=1}^{N}\Delta_{i,t} = 0$
+
+** Trial balance
+The trial balance of an account $i$ at time $t$ is defined as:
+$$B_{i,t} = \sum_{u \leq t}\Delta_{i,u}$$
+
+By construction, we have:
+
+$\sum_{i=1}^N B_{i,t} = \sum_{i=1}^{N}\sum_{u \leq t}\Delta_{i,u} = \sum_{u \leq t}\sum_{i=1}^{N}\Delta_{i,u} = 0$
+
+*At any time, the sum of balances across all accounts must be 0.*
+
+** Clearing income
+Let's note $IN$ the set of all income accounts. The income $I$ over a period t1, t2 is defined as
+$$I_{\]t_1, t_2\]} = \sum_{i \in IN}\sum_{t_{1}\leq t \leq t_{2}}\Delta_{i,t}$$
+Let's roll all postings to income accounts at time $t$ into a single posting $\Delta_{I,t}$
+where $\Delta_{I,t} = \sum_{i \in IN}\Delta_{i, t}$
+
+$\sum_{t_{1} \leq t \leq t_{2}}\Delta_{I,t} = \sum_{t \leq t_{2}}$
+
 
 * The fundamental accounting equation
 With signed quantities, the fundamental accounting equation is
 $$A + L + E = 0$$.
 This means that every new transaction must maintain this balance.
-i.e. an increase in assets must be offset by either:
+For example, an increase in assets must be offset by either:
 - a decrease in another asset
 - an increase in liabilities
 - an adjustment in equity.

@@ -7,6 +7,7 @@ commodity GBP 1,000.00  ;yahoo_ticker:GBPEUR=X
 commodity LQQ 1.  ;yahoo_ticker:LQQ.PA
 
 ; Assets: things I own (cash, bank account, investments)
+account Assets:Home                               ; type: A
 account Assets:FR:BforBank:Compte-Courant         ; type: C
 account Assets:FR:BforBank:LivretA                ; type: C
 account Assets:FR:BourseDirect:Cash               ; type: C
@@ -16,7 +17,7 @@ account Assets:FR:Cash                            ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
 account Assets:FR:Epsor:PER:Tax-Deferred          ; type: A
-account Assets:FR:Receivables
+account Assets:FR:Receivables                     ; type: A
 account Assets:FR:Receivables:Aurelie             ; type: A
 account Assets:FR:Receivables:Iskander            ; type: A
 account Assets:FR:Receivables:Mum                 ; type: A

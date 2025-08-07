@@ -37,8 +37,36 @@
     Expenses:Food:Snack                     EUR 2.80
     Assets:FR:Cash
 
+2025-07-19 * Therapy
+    Expenses:Health:Therapy                  EUR 120
+    Assets:FR:Cash
+
+2025-07-21 * Hairdresser
+    Expenses:PersonalCare:Hair                EUR 22
+    Assets:FR:Cash
+
 2025-07-21 * Baguette Vincennes
     Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-07-25 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-07-25 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.30
+    Assets:FR:Cash
+
+2025-07-25 * Cash unaccounted expenses
+    Expenses:Misc:Unaccounted               EUR 0.43
+    Assets:FR:Cash
+
+2025-07-29 * MS Therapy
+    Expenses:PersonalCare                    EUR 250
+    Assets:FR:Cash
+
+2025-07-29 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
 * BforBank transactions
@@ -53,6 +81,10 @@
 2025-07-01 * Flat purchase sollicitor
     Expenses:Fees                            EUR 550
     Assets:FR:BforBank:Compte-Courant
+
+2025-07-1 * Flat purchose sollicitor Aurelie share
+    Assets:FR:Receivables:Aurelie            EUR 225
+    Expenses:Fees
 
 2025-07-02 * Transfer Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 200
@@ -106,7 +138,7 @@
     Liabilities:FR:Amex:Gold              EUR 818.86
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-10 * Game play store Head 2 Ball
+2025-07-10 * Google Play Head 2 Ball
     Expenses:Entertainment:Digital          EUR 1.99
     Assets:FR:BforBank:Compte-Courant
 
@@ -147,11 +179,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-19 * Drinks with Aurelie
-    Expenses:Entertainment:Social:Bars     EUR 19.50
+    Expenses:Entertainment:Social:Bars     EUR 19.50  ; 2025-07-18
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-19 * Drinks with Aurelie
-    Expenses:Entertainment:Social:Bars     EUR 12.00
+    Expenses:Entertainment:Social:Bars     EUR 12.00  ; 2025-07-18
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-20 * Cigarettes
@@ -185,6 +217,50 @@
 2025-07-21 * Transfer Livret A
     Assets:FR:BforBank:Compte-Courant      EUR 22940
     Assets:FR:BforBank:LivretA
+
+2025-07-21 * Deposit flat purchase
+    Assets:Home                            EUR 32500
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-22 * Cash witdrawal
+    Assets:FR:Cash                            EUR 30
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-25 * SFR
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-26 * Drinks Le Drapeau Vincennes
+    Expenses:Entertainment:Social:Bars     EUR 40.40  ; 2025-07-25
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-29 * Cash withdrawal
+    Assets:FR:Cash                           EUR 250
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-30 * Google Play Head 2 Ball
+    Expenses:Entertainment:Digital          EUR 1.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-30 * Lunch Kayser
+    Expenses:Food:OfficeLunch              EUR 15.90
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-31 * Dessert Cojean
+    Expenses:Food:OfficeLunch               EUR 5.30
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-31 * Bistropolis Office Lunch
+    Expenses:Food:OfficeLunch              EUR 15.90
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-31 * Google Play Head 2 Ball
+    Expenses:Entertainment:Digital          EUR 6.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-07-31 * Google Play Head 2 Ball
+    Expenses:Entertainment:Digital          EUR 5.99
+    Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
 2025-07-03 * Deliveroo Fee
@@ -360,6 +436,52 @@
     Expenses:Food:Cafe                         EUR 5
     Assets:UK:Revolut:Personal:EUR
 
+2025-07-23 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-24 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-25 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-25 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-26 * Le Voltigeur Aurelie Isky
+    Expenses:Entertainment:Social:Bars     EUR 50.60
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-27 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-27 * Bar Florent
+    Expenses:Entertainment:Social:Bars     EUR 20.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-28 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-29 * Transfer
+    Assets:FR:BforBank:Compte-Courant       EUR 1100
+    Assets:UK:Revolut:Personal:EUR
+
+2025-07-31 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.40
+    Assets:UK:Revolut:Personal:EUR
+
+
+
 * Amex gold transactions
 2025-07-05 * R2 Training
     Expenses:Health:Gym                      EUR 179
@@ -420,3 +542,19 @@
 2025-07-19 * Deliveroo Pizzou Aurelie settlt
     Assets:FR:BforBank:Compte-Courant         EUR 27
     Assets:FR:Receivables:Aurelie
+
+2025-07-23 * Dott pass
+    Expenses:Transportation:Bikesharing     EUR 4.99
+    Liabilities:FR:Amex:Gold
+
+2025-07-23 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-07-23 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-07-31 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold

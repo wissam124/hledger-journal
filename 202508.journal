@@ -1,0 +1,215 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+2025-08-01 * 111 Capital wage
+    Assets:FR:BforBank:Compte-Courant    EUR 6371.58
+    Income:FR:111Capital:Salary
+
+* Cash transactions
+2025-08-05 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-08-05 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+* BforBank transactions
+2025-08-01 * Restaurant Le Griffonnier Arnaud
+    Expenses:Food:Restaurants                EUR 113
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-01 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-02 * Rent Citeaux
+    Expenses:Home:Rent                      EUR 1330
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-02 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-02 * Cafe
+    Expenses:Food:Cafe                      EUR 2.10
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-02 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-02 * Cafe Gaia
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-03 * Clinique Drouot Consultation
+    Expenses:Health:Doctor                   EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-03 * Cafe Montreuil and Banana bread
+    Expenses:Food:Cafe                     EUR 16.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-03 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-04 * Ice Cream Creme Vincennes
+    Expenses:Food:Snack                        EUR 4
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-04 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-04 * Urban Bakery Vincennes
+    Expenses:Food:Groceries                 EUR 4.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-04 * Cafe Vincennes Le Marigny
+    Expenses:Food:Cafe                         EUR 5
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-04 * Tennis court booking
+    Expenses:Entertainment:Social:Sports      EUR 12
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-05 * MacroFactor subscription
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-05 * ChatGPT subscription
+    Expenses:Subscriptions:Software        EUR 21.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-05 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-05 * MRI Knee
+    Expenses:Health:Doctor                   EUR 225
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-06 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-06 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 6.93
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-06 * Revolut transfer
+    Assets:UK:Revolut:Personal:EUR           EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-06 * GP consultation
+    Expenses:Health:Doctor                     EUR 9
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-07 * Refund MRI Knee Private Health Insurance
+    Assets:FR:BforBank:Compte-Courant     EUR 181.72
+    Expenses:Health:Doctor
+
+* Revolut transactions
+2025-08-03 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-04 * Trousers Dry-Cleaning
+    Expenses:PersonalCare:Laundry              EUR 8
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-05 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars        EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-06 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-07 * Beeminder
+    Expenses:Subscriptions:Software         EUR 4.31
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-07 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-08 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.31
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-08 * ChatGPT subscription for Mum
+    Expenses:GiftsCharity:Gifts            EUR 19.17
+    Assets:UK:Revolut:Personal:EUR
+
+* Amex Gold transactions
+2025-08-02 * Velib annual subscription
+    Expenses:Transportation:Bikesharing     EUR 37.20
+    Liabilities:FR:Amex:Gold
+
+2025-08-02 * Paoloa restaurant Vincennes
+    Expenses:Transportation:Bikesharing       EUR 42
+    Liabilities:FR:Amex:Gold
+
+2025-08-03 * Flights Athens
+    Expenses:Travel:Flights                 EUR 1148
+    Liabilities:FR:Amex:Gold
+
+2025-08-03 * Flights Athens Aurelie's share
+    Assets:FR:Receivables:Aurelie            EUR 574
+    Expenses:Travel:Flights
+
+2025-08-03 * Car rental Greece
+    Expenses:Transportation:CarRental     EUR 168.49
+    Liabilities:FR:Amex:Gold
+
+2025-08-03 * Car rental Greece Aurelie's share
+    Assets:FR:Receivables:Aurelie         EUR 84.245
+    Expenses:Transportation:CarRental
+
+2025-08-03 * Ferries Greece
+    Expenses:Travel:Holidays              EUR 387.10
+    Liabilities:FR:Amex:Gold
+
+2025-08-03 * Ferries Greece Aurelie's share
+    Assets:FR:Receivables:Aurelie         EUR 193.55
+    Expenses:Travel:Holidays
+
+2025-08-03 * Franprix
+    Expenses:Food:Groceries                 EUR 9.62
+    Liabilities:FR:Amex:Gold
+
+2025-08-04 * Airbnb Greece
+    Expenses:Travel:Holidays:Accommodation    EUR 420
+    Liabilities:FR:Amex:Gold
+
+2025-08-04 * Airbnb Greece Aurelie's share
+    Assets:FR:Receivables:Aurelie            EUR 210
+    Expenses:Travel:Holidays:Accommodation
+
+2025-08-05 * R2 Training
+    Expenses:Health:Gym                      EUR 179
+    Liabilities:FR:Amex:Gold
+
+2025-08-06 * Amex Gold subscription
+    Expenses:Fees:CreditCard                  EUR 16
+    Liabilities:FR:Amex:Gold
+
+* Other liabilities
+2025-08-03 * Hotel Skiatos
+    Expenses:Travel:Holidays:Accommodation  EUR 141.80
+    Liabilities:FR:Payables:Aurelie
+
+2025-08-03 * Refund Aurelie
+    Assets:FR:BforBank:Compte-Courant       EUR 1145.00
+    Assets:FR:Receivables:Aurelie
+
+2025-08-03 * Settlement with Aurelie
+    Liabilities:FR:Payables:Aurelie       EUR 141.80
+    Assets:FR:Receivables:Aurelie
+
+* Investment funds valuation
+2025-08-07 * Moneyfarm valuation  ;; net left after liquidating portfolio
+    Assets:UK:Moneyfarm               = GBP 50415.54
+    Equity:Unrealised-PnL:GBP

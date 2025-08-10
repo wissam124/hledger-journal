@@ -138,6 +138,14 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
+2025-08-09 Cafe Touquet Plage
+    Expenses:Food:Cafe                     EUR 12.30
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-10 Tennis court booking Touquet
+    Expenses:Entertainment:Social:Sports      EUR 28
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut transactions
 2025-08-03 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.40

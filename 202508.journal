@@ -301,6 +301,18 @@
     Liabilities:FR:Payables:Aurelie       EUR 141.79
     Assets:FR:Receivables:Aurelie
 
+2025-08-11 * Hotel Athens arrival
+    Expenses:Travel:Holidays:Accommodation  EUR 53.38
+    Liabilities:FR:Payables:Aurelie
+
+2025-08-11 * Hotel wedding
+    Expenses:Travel:Holidays:Accommodation    EUR 69
+    Liabilities:FR:Payables:Aurelie
+
+2025-08-11 * Hotel Spata
+    Expenses:Travel:Holidays:Accommodation  EUR 44.86
+    Liabilities:FR:Payables:Aurelie
+
 * Investment funds valuation
 2025-08-07 * Moneyfarm valuation  ;; net left after liquidating portfolio
     Assets:UK:Moneyfarm               = GBP 50415.54

@@ -154,6 +154,10 @@
     Assets:UK:Revolut:Personal:EUR           EUR 100
     Assets:FR:BforBank:Compte-Courant
 
+2025-08-12 * Amex gold Jul'25 settlement
+    Liabilities:FR:Amex:Gold             EUR 4027.51
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut transactions
 2025-08-03 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.40
@@ -209,6 +213,34 @@
 
 2025-08-12 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-12 * Lebara mobile
+    Expenses:Home:Utilities:MobilePhone     EUR 5.82
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-13 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.31
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-13 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.31
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-13 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.31
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-13 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-13 * Doowap HiPro Auchan
+    Expenses:Food:Snack                     EUR 6.80
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-13 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 5.85
     Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions

@@ -158,6 +158,10 @@
     Liabilities:FR:Amex:Gold             EUR 4027.51
     Assets:FR:BforBank:Compte-Courant
 
+2025-08-12 * Mister Garden
+    Expenses:Food:OfficeLunch              EUR 18.60
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut transactions
 2025-08-03 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.40

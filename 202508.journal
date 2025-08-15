@@ -21,6 +21,10 @@
     Expenses:Food:Groceries                 EUR 1.35
     Assets:FR:Cash
 
+2025-08-14 * Charity
+    Expenses:GiftsCharity:Charity           EUR 1.20
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-08-01 * Restaurant Le Griffonnier Arnaud
     Expenses:Food:Restaurants                EUR 113
@@ -247,6 +251,14 @@
     Expenses:Food:Cafe                      EUR 5.85
     Assets:UK:Revolut:Personal:EUR
 
+2025-08-14 * Euromillions
+    Expenses:Entertainment                    EUR 15
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-14 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-08-02 * Velib annual subscription
     Expenses:Transportation:Bikesharing     EUR 37.20
@@ -322,6 +334,30 @@
 
 2025-08-10 * Deliveroo Chez Antoine
     Expenses:Food:Delivery                 EUR 19.36
+    Liabilities:FR:Amex:Gold
+
+2025-08-11 * Ferries Greece
+    Expenses:Travel:Holidays              EUR 432.10
+    Liabilities:FR:Amex:Gold
+
+2025-08-12 * Deliveroo Grom
+    Expenses:GiftsCharity:Gifts            EUR 30.49
+    Liabilities:FR:Amex:Gold
+
+2025-08-12 * Ferries refund
+    Liabilities:FR:Amex:Gold              EUR 373.30
+    Expenses:Travel:Holidays
+
+2025-08-13 * Ferries refund
+    Liabilities:FR:Amex:Gold                EUR 7.80
+    Expenses:Travel:Holidays
+
+2025-08-13 Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 2.22
+    Liabilities:FR:Amex:Gold
+
+2025-08-14 Restaurant Lagano
+    Expenses:Food:Restaurants                 EUR 40
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

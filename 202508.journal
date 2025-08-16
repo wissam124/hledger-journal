@@ -25,6 +25,14 @@
     Expenses:GiftsCharity:Charity           EUR 1.20
     Assets:FR:Cash
 
+2025-08-15 * MS Therapy
+    Expenses:PersonalCare                    EUR 150
+    Assets:FR:Cash
+
+2025-08-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-08-01 * Restaurant Le Griffonnier Arnaud
     Expenses:Food:Restaurants                EUR 113
@@ -164,6 +172,38 @@
 
 2025-08-12 * Mister Garden
     Expenses:Food:OfficeLunch              EUR 18.60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-15 * Cojean
+    Expenses:Food:OfficeLunch              EUR 10.60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-15 Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-15 Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.30
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-15 Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars        EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-15 Intermarche
+    Expenses:Food:Groceries                EUR 18.62
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-15 Cash withdrawal
+    Assets:FR:Cash                           EUR 150
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-16 * EDF subscription
+    Expenses:Home:Utilities:Electricity    EUR 52.69
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-16 Cash withdrawal
+    Assets:FR:Cash                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut transactions
@@ -352,12 +392,24 @@
     Liabilities:FR:Amex:Gold                EUR 7.80
     Expenses:Travel:Holidays
 
-2025-08-13 Deliveroo fee
+2025-08-13 * Deliveroo fee
     Expenses:Food:OfficeLunch               EUR 2.22
     Liabilities:FR:Amex:Gold
 
-2025-08-14 Restaurant Lagano
+2025-08-14 * Restaurant Lagano
     Expenses:Food:Restaurants                 EUR 40
+    Liabilities:FR:Amex:Gold
+
+20250-08-16 Anker charger
+    Expenses:Shopping:Electronics          EUR 65.87
+    Liabilities:FR:Amex:Gold
+
+2025-08-16 Anker cables
+    Expenses:Shopping:Electronics          EUR 10.99
+    Liabilities:FR:Amex:Gold
+
+2025-08-16 Anker charger for mum
+    Expenses:GiftsCharity:Gifts            EUR 11.99
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

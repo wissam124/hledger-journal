@@ -57,10 +57,6 @@
     Expenses:Food:Snack                     EUR 1.30
     Assets:FR:Cash
 
-2025-07-25 * Cash unaccounted expenses
-    Expenses:Misc:Unaccounted               EUR 0.43
-    Assets:FR:Cash
-
 2025-07-29 * MS Therapy
     Expenses:PersonalCare                    EUR 250
     Assets:FR:Cash

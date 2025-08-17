@@ -178,23 +178,23 @@
     Expenses:Food:OfficeLunch              EUR 10.60
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-15 Cigarettes
+2025-08-15 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-15 Fisherman's Friend
+2025-08-15 * Fisherman's Friend
     Expenses:Food:Snack                     EUR 2.30
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-15 Drinks with Aurelie
+2025-08-15 * Drinks with Aurelie
     Expenses:Entertainment:Social:Bars        EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-15 Intermarche
-    Expenses:Food:Groceries                EUR 18.62
+2025-08-15 * Intermarche
+    Expenses:Food:Groceries                 EUR 8.89
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-15 Cash withdrawal
+2025-08-15 * Cash withdrawal
     Assets:FR:Cash                           EUR 150
     Assets:FR:BforBank:Compte-Courant
 
@@ -206,7 +206,11 @@
     Assets:FR:Cash                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-* Revolut transactions
+2025-08-16 Window store replacement
+    Expenses:Home:Maintenance                EUR 380
+    Assets:FR:BforBank:Compte-Courant
+
+* Revolut transactionsp
 2025-08-03 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.40
     Assets:UK:Revolut:Personal:EUR
@@ -297,6 +301,10 @@
 
 2025-08-14 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-16 * Tennis court
+    Expenses:Entertainment:Social:Sports      EUR 12
     Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions
@@ -410,6 +418,18 @@
 
 2025-08-16 Anker charger for mum
     Expenses:GiftsCharity:Gifts            EUR 11.99
+    Liabilities:FR:Amex:Gold
+
+2025-08-16 Cable clips
+    Expenses:Home:Maintenance               EUR 9.99
+    Liabilities:FR:Amex:Gold
+
+2025-08-16 Kpro moth bands
+    Expenses:Home:Maintenance              EUR 19.98
+    Liabilities:FR:Amex:Gold
+
+2025-08-16 Panasonic body groomer blade
+    Expenses:PersonalCare                  EUR 32.75
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

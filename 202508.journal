@@ -178,6 +178,10 @@
     Expenses:Food:OfficeLunch              EUR 10.60
     Assets:FR:BforBank:Compte-Courant
 
+2025-08-15 * Intermarche
+    Expenses:Food:Groceries                 EUR 8.89
+    Assets:FR:BforBank:Compte-Courant
+
 2025-08-15 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
@@ -188,10 +192,6 @@
 
 2025-08-15 * Drinks with Aurelie
     Expenses:Entertainment:Social:Bars        EUR 20
-    Assets:FR:BforBank:Compte-Courant
-
-2025-08-15 * Intermarche
-    Expenses:Food:Groceries                 EUR 8.89
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-15 * Cash withdrawal
@@ -206,8 +206,12 @@
     Assets:FR:Cash                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-16 Window store replacement
+2025-08-16 * Window store replacement
     Expenses:Home:Maintenance                EUR 380
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-17 Revolut transfer
+    Assets:UK:Revolut:Personal:EUR           EUR 200
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut transactionsp
@@ -305,6 +309,14 @@
 
 2025-08-16 * Tennis court
     Expenses:Entertainment:Social:Sports      EUR 12
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-17 * Hotel Mahfouf cafe
+    Expenses:Food:Cafe                        EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-18 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions
@@ -408,15 +420,15 @@
     Expenses:Food:Restaurants                 EUR 40
     Liabilities:FR:Amex:Gold
 
-20250-08-16 Anker charger
+20250-08-16 * Anker charger
     Expenses:Shopping:Electronics          EUR 65.87
     Liabilities:FR:Amex:Gold
 
-2025-08-16 Anker cables
+2025-08-16 * Anker cables
     Expenses:Shopping:Electronics          EUR 10.99
     Liabilities:FR:Amex:Gold
 
-2025-08-16 Anker charger for mum
+2025-08-16 * Anker charger for mum
     Expenses:GiftsCharity:Gifts            EUR 11.99
     Liabilities:FR:Amex:Gold
 

@@ -202,7 +202,7 @@
     Expenses:Home:Utilities:Electricity    EUR 52.69
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-16 Cash withdrawal
+2025-08-16 * Cash withdrawal
     Assets:FR:Cash                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
@@ -210,11 +210,15 @@
     Expenses:Home:Maintenance                EUR 380
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-17 Revolut transfer
+2025-08-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-17 * Revolut transfer
     Assets:UK:Revolut:Personal:EUR           EUR 200
     Assets:FR:BforBank:Compte-Courant
 
-* Revolut transactionsp
+* Revolut transactions
 2025-08-03 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.40
     Assets:UK:Revolut:Personal:EUR
@@ -317,6 +321,30 @@
 
 2025-08-18 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-18 * Carrefour
+    Expenses:Food:Groceries                EUR 10.29
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-18 * Point Virgule stand-up
+    Expenses:Entertainment:Events             EUR 42
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-19 * Cafe Nuances
+    Expenses:Food:Cafe                         EUR 9
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-19 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-19 * Carrefour
+    Expenses:Food:Groceries                EUR 10.28
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-20 * Cafe Nuances
+    Expenses:Food:Cafe                         EUR 4.50
     Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions
@@ -442,6 +470,10 @@
 
 2025-08-16 Panasonic body groomer blade
     Expenses:PersonalCare                  EUR 32.75
+    Liabilities:FR:Amex:Gold
+
+2025-08-19 * Valencia Tennis Academy
+    Expenses:Travel:Holidays                 EUR 105
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

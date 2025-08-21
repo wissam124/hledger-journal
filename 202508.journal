@@ -33,6 +33,15 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
+2025-08-21 * Hairdresser
+    Expenses:PersonalCare:Hair                EUR 22
+    Assets:FR:Cash
+
+* Boursobank transactions
+2025-08-21 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BoursoBank:Compte-Courant
+
 * BforBank transactions
 2025-08-01 * Restaurant Le Griffonnier Arnaud
     Expenses:Food:Restaurants                EUR 113
@@ -218,6 +227,14 @@
     Assets:UK:Revolut:Personal:EUR           EUR 200
     Assets:FR:BforBank:Compte-Courant
 
+2025-08-20 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant  ; date:2025-08-21
+
+2025-08-21 Window store replacement balance
+    Expenses:Home:Maintenance                EUR 577
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut transactions
 2025-08-03 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.40
@@ -344,7 +361,15 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-08-20 * Cafe Nuances
-    Expenses:Food:Cafe                         EUR 4.50
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-21 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 6.93
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-21 * GP consultation
+    Expenses:Health:Doctor                     EUR 9
     Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions
@@ -460,20 +485,24 @@
     Expenses:GiftsCharity:Gifts            EUR 11.99
     Liabilities:FR:Amex:Gold
 
-2025-08-16 Cable clips
+2025-08-16 * Cable clips
     Expenses:Home:Maintenance               EUR 9.99
     Liabilities:FR:Amex:Gold
 
-2025-08-16 Kpro moth bands
+2025-08-16 * Kpro moth bands
     Expenses:Home:Maintenance              EUR 19.98
     Liabilities:FR:Amex:Gold
 
-2025-08-16 Panasonic body groomer blade
+2025-08-16 * Panasonic body groomer blade
     Expenses:PersonalCare                  EUR 32.75
     Liabilities:FR:Amex:Gold
 
 2025-08-19 * Valencia Tennis Academy
     Expenses:Travel:Holidays                 EUR 105
+    Liabilities:FR:Amex:Gold
+
+2025-08-20 Chaussures Tennis
+    Expenses:Shopping:Sport                EUR 70.20
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

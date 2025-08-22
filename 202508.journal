@@ -234,6 +234,10 @@
     Expenses:Home:Maintenance                EUR 577
     Assets:FR:BforBank:Compte-Courant
 
+2025-08-22 Bagnard
+    Expenses:Food:OfficeLunch                 EUR 19
+    Assets:FR:BforBank:Compte-Courant
+
 * Revolut transactions
 2025-08-03 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.40

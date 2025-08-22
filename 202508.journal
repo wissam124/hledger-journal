@@ -1,5 +1,4 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
-
 2025-08-01 * 111 Capital wage
     Assets:FR:BforBank:Compte-Courant    EUR 6371.58
     Income:FR:111Capital:Salary
@@ -372,6 +371,10 @@
     Expenses:Health:Doctor                     EUR 9
     Assets:UK:Revolut:Personal:EUR
 
+2025-08-22 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-08-02 * Velib annual subscription
     Expenses:Transportation:Bikesharing     EUR 37.20
@@ -501,8 +504,16 @@
     Expenses:Travel:Holidays                 EUR 105
     Liabilities:FR:Amex:Gold
 
-2025-08-20 Chaussures Tennis
+2025-08-22 * Chaussures Tennis
     Expenses:Shopping:Sport                EUR 70.20
+    Liabilities:FR:Amex:Gold
+
+2025-08-21 Anker cables
+    Expenses:Shopping:Electronics          EUR 11.79
+    Liabilities:FR:Amex:Gold
+
+2025-08-22 Tennis shoes and racket sleeve
+    Expenses:Shopping:Sport                EUR 92.75
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

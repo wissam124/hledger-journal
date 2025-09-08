@@ -102,6 +102,7 @@ account Expenses:Home                                      ; type: X
 account Expenses:Home:Furniture                            ; type: X
 account Expenses:Home:Maintenance                          ; type: X
 account Expenses:Home:Mortgage                             ; type: X
+account Expenses:Home:Purchase:NotaryFees                  ; type: X
 account Expenses:Home:Rent                                 ; type: X
 account Expenses:Home:Utilities:Electricity                ; type: X
 account Expenses:Home:Utilities:Internet                   ; type: X

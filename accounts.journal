@@ -77,6 +77,7 @@ account Expenses:Entertainment:Reading:Magazines           ; type: X
 account Expenses:Entertainment:Social:Bars                 ; type: X
 account Expenses:Entertainment:Social:Sports               ; type: X
 account Expenses:Fees                                      ; type: X
+account Expenses:Fees:ATM                                  ; type: X
 account Expenses:Fees:Bank                                 ; type: X
 account Expenses:Fees:CreditCard                           ; type: X
 account Expenses:Food:Cafe                                 ; type: X
@@ -129,6 +130,7 @@ account Expenses:Transportation:Bikesharing                ; type: X
 account Expenses:Transportation:CarRental                  ; type: X
 account Expenses:Transportation:PublicTransport            ; type: X
 account Expenses:Transportation:Taxi                       ; type: X
+account Expenses:Transportation:Toll                       ; type: X
 account Expenses:Travel:Flights                            ; type: X
 account Expenses:Travel:Holidays                           ; type: X
 account Expenses:Travel:Holidays:Accommodation             ; type: X

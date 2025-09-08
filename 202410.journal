@@ -147,7 +147,7 @@
     Assets:FR:BforBank:Compte-Courant       EUR -12.5
 
 2024-10-08 * MS personal care
-    Expenses:PersonalCare                     EUR 150
+    Expenses:PersonalCare:Discretionary                     EUR 150
     Assets:FR:BforBank:Compte-Courant        EUR -150
 
 2024-10-08 * Pain au chocolat

@@ -215,7 +215,7 @@
     Assets:FR:BforBank:Compte-Courant          EUR -5
 
 2025-01-08 * MS personal care
-    Expenses:PersonalCare                     EUR 200
+    Expenses:PersonalCare:Discretionary                     EUR 200
     Assets:FR:BforBank:Compte-Courant        EUR -200
 
 2025-01-09 * Vinted sales

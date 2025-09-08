@@ -434,8 +434,8 @@
     Expenses:GiftsCharity:Charity               EUR 2
     Assets:FR:BforBank:Compte-Courant          EUR -2
 
-2024-08-29 * Physical therapy
-    Expenses:PersonalCare                     EUR 130
+2024-08-29 * MS Therapy
+    Expenses:PersonalCare:Discretionary      EUR 130
     Assets:FR:BforBank:Compte-Courant        EUR -130
 
 2024-08-30 * Cigarettes

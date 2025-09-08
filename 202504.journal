@@ -405,7 +405,7 @@
     Expenses:Food:Snack
 
 2025-04-23 * Toilets Avignon Train Station
-    Expenses:PersonalCare                      EUR 1
+    Expenses:Misc                              EUR 1
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-25 * Cigarettes
@@ -462,7 +462,7 @@
     Assets:FR:Cash
 
 2025-04-03 * MS Therapy
-    Expenses:PersonalCare                    EUR 150
+    Expenses:PersonalCare:Discretionary                    EUR 150
     Assets:FR:Cash
 
 2025-04-05 * Therapy
@@ -506,7 +506,7 @@
     Assets:FR:Cash
 
 2025-04-18 * MS Therapy
-    Expenses:PersonalCare                    EUR 210
+    Expenses:PersonalCare:Discretionary                    EUR 210
     Assets:FR:Cash
 
 2025-04-21 * Cigarettes
@@ -514,7 +514,7 @@
     Assets:FR:Cash
 
 2025-04-21 * MS Therapy
-    Expenses:PersonalCare                    EUR 180
+    Expenses:PersonalCare:Discretionary                    EUR 180
     Assets:FR:Cash
 
 * Amex Gold expenses

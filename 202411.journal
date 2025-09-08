@@ -199,7 +199,7 @@
     Assets:FR:BforBank:Compte-Courant      EUR -17.25
 
 2024-11-14 * MS personal care
-    Expenses:PersonalCare                     EUR 150
+    Expenses:PersonalCare:Discretionary                     EUR 150
     Assets:FR:BforBank:Compte-Courant        EUR -150
 
 2024-11-15 * Boulangerie

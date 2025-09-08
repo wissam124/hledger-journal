@@ -51,7 +51,7 @@
     Assets:FR:BforBank:Compte-Courant        EUR -114
 
 2024-06-01 * MS personal care
-    Expenses:PersonalCare                     EUR 200
+    Expenses:PersonalCare:Discretionary                     EUR 200
     Assets:FR:BforBank:Compte-Courant        EUR -200
 
 2024-06-01 * Navigo Jun'24

@@ -25,7 +25,7 @@
     Assets:FR:Cash
 
 2025-08-15 * MS Therapy
-    Expenses:PersonalCare                    EUR 150
+    Expenses:PersonalCare:Discretionary                    EUR 150
     Assets:FR:Cash
 
 2025-08-16 * Cigarettes
@@ -681,7 +681,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-08-19 * Panasonic body groomer blade
-    Expenses:PersonalCare                  EUR 32.75
+    Expenses:Shopping                      EUR 32.75
     Liabilities:FR:Amex:Gold
 
 2025-08-19 * Kpro moth bands

@@ -203,7 +203,7 @@
     Assets:FR:BforBank:Compte-Courant        EUR -4.5
 
 2024-07-18 * MS personal care
-    Expenses:PersonalCare                     EUR 200
+    Expenses:PersonalCare:Discretionary                     EUR 200
     Assets:FR:BforBank:Compte-Courant        EUR -200
 
 2024-07-19 * Cigarettes

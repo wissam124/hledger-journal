@@ -18,7 +18,7 @@
     Assets:FR:Cash
 
 2025-07-04 * MS Therapy
-    Expenses:PersonalCare                    EUR 200
+    Expenses:PersonalCare:Discretionary                    EUR 200
     Assets:FR:Cash
 
 2025-07-13 * Lighter
@@ -58,7 +58,7 @@
     Assets:FR:Cash
 
 2025-07-29 * MS Therapy
-    Expenses:PersonalCare                    EUR 250
+    Expenses:PersonalCare:Discretionary                    EUR 250
     Assets:FR:Cash
 
 2025-07-29 * Cigarettes

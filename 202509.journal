@@ -8,8 +8,8 @@
     Expenses:Shopping:Clothes               EUR 5.95
     Assets:FR:Cash
 
-2025-09-01 * HValencia
-    Expenses:PersonalCare                    EUR 120
+2025-09-01 * MS Therapy
+    Expenses:PersonalCare:Discretionary                    EUR 120
     Assets:FR:Cash
 
 2025-09-01 * Racquet rental
@@ -20,8 +20,8 @@
     Expenses:Health:Sport                      EUR 5
     Assets:FR:Cash
 
-2025-09-04 * HValencia
-    Expenses:PersonalCare                    EUR 120
+2025-09-04 * MS Therapy
+    Expenses:PersonalCare:Discretionary                    EUR 120
     Assets:FR:Cash
 
 2025-09-05 * Praia beach bar Valencia

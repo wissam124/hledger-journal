@@ -75,7 +75,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-01 * Flat purchase sollicitor
-    Expenses:Fees                            EUR 550
+    Expenses:Home:Purchase:NotaryFees        EUR 550
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-1 * Flat purchase sollicitor Aurelie share

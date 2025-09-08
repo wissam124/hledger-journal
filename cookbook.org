@@ -1,7 +1,6 @@
 #+title: Personal ledger cookbook
 #+author: Jean Dupin
 
-
 * Formalise transactions and balances
 ** Transactions
 Let's note $N$ the total number of accounts. In practice, the number of accounts
@@ -37,7 +36,6 @@ Let's roll all postings to income accounts at time $t$ into a single posting $\D
 where $\Delta_{I,t} = \sum_{i \in IN}\Delta_{i, t}$
 
 $\sum_{t_{1} \leq t \leq t_{2}}\Delta_{I,t} = \sum_{t \leq t_{2}}$
-
 
 * The fundamental accounting equation
 With signed quantities, the fundamental accounting equation is

@@ -1,0 +1,270 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+2025-09-01 * 111 Capital wage
+    Assets:FR:BforBank:Compte-Courant    EUR 6371.58
+    Income:FR:111Capital:Salary
+
+* Cash transactions
+2025-09-01 * Sandals for mum
+    Expenses:Shopping:Clothes               EUR 5.95
+    Assets:FR:Cash
+
+2025-09-01 * HValencia
+    Expenses:PersonalCare                    EUR 120
+    Assets:FR:Cash
+
+2025-09-01 * Racquet rental
+    Expenses:Health:Sport                      EUR 5
+    Assets:FR:Cash
+
+2025-09-02 * Racket rental afternoon
+    Expenses:Health:Sport                      EUR 5
+    Assets:FR:Cash
+
+2025-09-04 * HValencia
+    Expenses:PersonalCare                    EUR 120
+    Assets:FR:Cash
+
+2025-09-05 * Praia beach bar Valencia
+    Expenses:Entertainment:Social:Bars        EUR 12
+    Assets:FR:Cash
+
+2025-09-06 * Estimated Cigarettes in Valencia
+    Expenses:Cigarettes                       EUR 30
+    Assets:FR:Cash
+
+2025-09-06 * Estimated cafes paid in cash
+    Expenses:Food:Cafe                      EUR 3.60
+    Assets:FR:Cash
+
+2025-09-06 * Unaccounted holidays cash expenses
+    Expenses:Travel:Holidays               EUR 64.44
+    Assets:FR:Cash
+
+* BforBank transactions
+2025-09-01 * Taxi Valencia
+    Expenses:Transportation:Taxi           EUR 39.85
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-01 * Car rental damage
+    Expenses:Transportation:CarRental        EUR 350
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-01 * Snack Orly airport
+    Expenses:Food:Snack                        EUR 8
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-01 * Kosiavas Koyzio
+    Expenses:Misc:Unaccounted               EUR 4.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-02 * Rent Citeaux
+    Expenses:Home:Rent                      EUR 1330
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-02 * Mercadona Valencia
+    Expenses:Food:Groceries                EUR 62.52
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-02 * 121006187
+    Expenses:Misc:Unaccounted              EUR 22.95
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-05 * ChatGPT subscription
+    Expenses:Subscriptions:Software        EUR 21.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-05 * MacroFactor subscription
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-06 * Cash witdrawal
+    Assets:FR:Cash                           EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-06 * Cash withdrawal fee
+    Expenses:Fees:ATM                       EUR 2.90
+    Assets:FR:BforBank:Compte-Courant
+
+* Boursobank transactions
+2025-09-06 * Transfer to BforBank
+    Assets:FR:BforBank:Compte-Courant        EUR 800
+    Assets:FR:BoursoBank:Compte-Courant
+
+* Revolut transactions
+2025-09-01 * Valencia Tennis Center - Latte
+    Expenses:Food:Cafe                      EUR 1.60
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-01 * Empresa Municipal Transport
+    Expenses:Transportation:PublicTransport    EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-01 * Valencia Tennis Academy
+    Expenses:Health:Sport                      EUR 55
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-01 * Consum - groceries shopping
+    Expenses:Food:Groceries                EUR 19.13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-02 * Valencia Tennis Academy
+    Expenses:Health:Sport                    EUR 165
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-02 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-02 * Valencia Tennis Center racquet
+    Expenses:Health:Sport                      EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-02 * Mercadona
+    Expenses:Food:Groceries                 EUR 4.53
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-03 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-03 * Valencia Tennis Center racquet
+    Expenses:Health:Sport                      EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-03 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-03 * Casa Miralles
+    Expenses:Food:Restaurants                 EUR 27
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-03 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-04 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-04 * Valencia Tennis Center racquet
+    Expenses:Health:Sport                      EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-04 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-04 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-04 * Mercadona
+    Expenses:Food:Groceries                 EUR 14.21
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-05 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-05 * Valencia Tennis Center racquet
+    Expenses:Health:Sport                      EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-05 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-05 * Valencia Tennis Center Cafe
+    Expenses:Food:Cafe                      EUR 1.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-06 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-06 * Umbracle drink
+    Expenses:Entertainment:Social:Bars        EUR 14
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-05 * Mercadona
+    Expenses:Food:Groceries                 EUR 3.11
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-05 * Souvenirs Center
+    Expenses:GiftsCharity:Gifts                EUR 8
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-06 * Starbucks airport
+    Expenses:Food:Snack                    EUR 12.75
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-06 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-06 * McDonald's
+    Expenses:Food:FastFood                 EUR 11.85
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-06 * McDonald's
+    Expenses:Food:FastFood                  EUR 2.75
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-06 * Le Berlioz
+    Expenses:Entertainment:Social:Bars        EUR 16
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-08 * ChatGPT subscription for Mum
+    Expenses:GiftsCharity:Gifts            EUR 19.17
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-08 * Transavia coke
+    Expenses:GiftsCharity:Gifts             EUR 3.50
+    Assets:UK:Revolut:Personal:EUR
+
+* Amex transactions
+2025-09-03 * Refund Tennis Compagnie
+    Liabilities:FR:Amex:Gold                EUR 70.20
+    Expenses:Shopping:Sport
+
+2025-09-03 * Velib
+    Expenses:Transportation:Bikesharing        EUR 8
+    Liabilities:FR:Amex:Gold
+
+2025-09-05 * Taxi Umbracle
+    Expenses:Transportation:Taxi           EUR 18.50
+    Liabilities:FR:Amex:Gold
+
+2025-09-05 * Taxi Umbracle
+    Expenses:Transportation:Taxi           EUR 15.25
+    Liabilities:FR:Amex:Gold
+
+2025-09-05 * Umbracle ticket
+    Expenses:Entertainment:Events             EUR 21
+    Liabilities:FR:Amex:Gold
+
+2025-09-05 * R2 Training
+    Expenses:Health:Gym                      EUR 179
+    Liabilities:FR:Amex:Gold
+
+2025-09-06 * Amex subscription
+    Expenses:Fees:CreditCard                  EUR 16
+    Liabilities:FR:Amex:Gold
+
+2025-09-06 * Transavia checked luggage for mum
+    Expenses:Travel:Flights                   EUR 36
+    Liabilities:FR:Amex:Gold
+
+* Other liabilities
+2025-09-08 * Match tricount balance for settlement
+    Liabilities:FR:Payables:Aurelie        EUR 84.24
+    Expenses:Travel:Holidays
+
+2025-09-08 * Buy GBP with Revolut
+    Assets:UK:Revolut:Personal:GBP         GBP 12.22 @@ EUR 14.15
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-08 * Pay back Halifax Credit Card
+    Liabilities:UK:Halifax:Clarity         GBP 12.22
+    Assets:UK:Revolut:Personal:GBP

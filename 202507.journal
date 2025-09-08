@@ -476,14 +476,12 @@
     Expenses:Subscriptions:Software         EUR 4.40
     Assets:UK:Revolut:Personal:EUR
 
-
-
 * Amex gold transactions
 2025-07-05 * R2 Training
     Expenses:Health:Gym                      EUR 179
     Liabilities:FR:Amex:Gold
 
-2025-07-06 * Amex gold subscription
+2025-07-06 * Amex subscription
     Expenses:Fees:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 

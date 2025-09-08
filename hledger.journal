@@ -1,7 +1,6 @@
 ;; -*- mode: ledger -*-
 #+hledger-lots avg_cost:false, check:true
 #+hledger-lots no_desc:
-
 include accounts.journal
 include PGBP.journal
 include PLQQ.journal
@@ -23,3 +22,4 @@ include 202505.journal
 include 202506.journal
 include 202507.journal
 include 202508.journal
+include 202509.journal

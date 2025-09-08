@@ -36,6 +36,58 @@
     Expenses:PersonalCare:Hair                EUR 22
     Assets:FR:Cash
 
+2025-08-23 * Restaurant Athens
+    Expenses:Food:Restaurants                 EUR 45
+    Assets:FR:Cash
+
+2025-08-23 * Cigarettes
+    Expenses:Cigarettes                     EUR 4.80
+    Assets:FR:Cash
+
+2025-08-23 * Cocktails Athens
+    Expenses:Entertainment:Social:Bars        EUR 24
+    Assets:FR:Cash
+
+2025-08-24 * Acropole Athens
+    Expenses:Travel:Holidays                  EUR 40
+    Assets:FR:Cash
+
+2025-08-25 * Restaurant Lo & La Skiathos
+    Expenses:Food:Restaurants                 EUR 50
+    Assets:FR:Cash
+
+2025-08-25 * Cigarettes
+    Expenses:Cigarettes                     EUR 4.80
+    Assets:FR:Cash
+
+2025-08-25 * Water bottle
+    Expenses:Food:Snack                        EUR 1
+    Assets:FR:Cash
+
+2025-08-26 * Drinks Vrolominos
+    Expenses:Entertainment:Social:Bars        EUR 10
+    Assets:FR:Cash
+
+2025-08-26 * Snacks
+    Expenses:Food:Snack                        EUR 6
+    Assets:FR:Cash
+
+2025-08-28 * Cigarettes
+    Expenses:Cigarettes                        EUR 5
+    Assets:FR:Cash
+
+2025-08-29 * Cigarettes
+    Expenses:Cigarettes                     EUR 4.80
+    Assets:FR:Cash
+
+2025-08-29 * Sweets
+    Expenses:Food:Snack                     EUR 1.10
+    Assets:FR:Cash
+
+2025-08-29 * Water bottle
+    Expenses:Food:Snack                        EUR 1
+    Assets:FR:Cash
+
 * Boursobank transactions
 2025-08-21 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -214,7 +266,7 @@
     Assets:FR:Cash                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-16 * Window store replacement
+2025-08-16 * Window blind replacement
     Expenses:Home:Maintenance                EUR 380
     Assets:FR:BforBank:Compte-Courant
 
@@ -230,12 +282,56 @@
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant  ; date:2025-08-21
 
-2025-08-21 Window store replacement balance
+2025-08-21 * Window blind replacement balance
     Expenses:Home:Maintenance                EUR 577
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-22 Bagnard
+2025-08-21 * Window blind Iskander liability
+    Assets:FR:Receivables:Iskander           EUR 957
+    Expenses:Home:Maintenance
+
+2025-08-22 * Bagnard
     Expenses:Food:OfficeLunch                 EUR 19
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-23 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars     EUR 19.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-24 * Toll Greece
+    Expenses:Transportation:Toll            EUR 2.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-25 * Breakfast Athens
+    Expenses:Food:Restaurants              EUR 27.90
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-26 * SFR
+    Expenses:Home:Utilities:MobilePhone    EUR 13.56
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-26 * Car rental balance
+    Expenses:Transportation:CarRental         EUR 40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-26 * Cash withdrawal
+    Assets:FR:Cash                           EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-26 * Cash withdrawal fee
+    Expenses:Fees:ATM                       EUR 1.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-26 * GP consultation refund
+    Assets:FR:BforBank:Compte-Courant          EUR 9
+    Expenses:Health:Doctor
+
+2025-08-27 * Cash witdrawal
+    Assets:FR:Cash                           EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-08-30 * Boursobank transfer
+    Assets:FR:BoursoBank:Compte-Courant      EUR 800
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut transactions
@@ -379,6 +475,90 @@
     Expenses:Subscriptions:Software         EUR 4.33
     Assets:UK:Revolut:Personal:EUR
 
+2025-08-23 * Selecta coffee Orly airport
+    Expenses:Food:Cafe                         EUR 2
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-23 * Selecta coffee Orly airport
+    Expenses:Food:Cafe                      EUR 2.80
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-24 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-25 * Window blind Iskander's settlement
+    Assets:UK:Revolut:Personal:EUR           EUR 957
+    Assets:FR:Receivables:Iskander
+
+2025-08-26 * Coffee Vrolominos
+    Expenses:Food:Cafe                        EUR 22
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-26 * Mam Souvlaki - Lunch Skiathos Old Town
+    Expenses:Food:Restaurants              EUR 16.10
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-26 * Euronet Car Hire - Bicycle rental
+    Expenses:Travel:Holidays                  EUR 40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-26 * Skiathos Palace Hotel - Sunbeds
+    Expenses:Travel:Holidays                  EUR 30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-26 * Skiathos Palace Hotel - Drinks
+    Expenses:Entertainment:Social:Bars     EUR 19.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-26 * Miliore E.e.
+    Expenses:Food:Restaurants              EUR 48.70
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-26 * The Grocery Store - Ice Cream
+    Expenses:Food:Snack                        EUR 8
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-27 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-27 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 8.63
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-27 * Coffee Vrolominos
+    Expenses:Food:Cafe                        EUR 22
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-27 * Anatoli - Padel
+    Expenses:Entertainment:Social:Sports      EUR 30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-27 * Stafylos - Dinner Skopelos
+    Expenses:Food:Restaurants              EUR 60.90
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-28 * Karavia Cafe
+    Expenses:Food:Restaurants              EUR 23.80
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-28 * Pension Sir Kotos - Drinks Kastani Beach Club
+    Expenses:Entertainment:Social:Bars        EUR 23
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-30 * Mercurious Cocktail Bar - Glysteri Beach Club
+    Expenses:Entertainment:Social:Bars        EUR 61
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-30 * Olympus Plaza Catering - Snack Ferry
+    Expenses:Food:Snack                    EUR 13.90
+    Assets:UK:Revolut:Personal:EUR
+
+2025-08-31 * Veneti - Snack airport
+    Expenses:Food:Snack                    EUR 13.40
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex Gold transactions
 2025-08-02 * Velib annual subscription
     Expenses:Transportation:Bikesharing     EUR 37.20
@@ -401,7 +581,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-08-03 * Car rental Greece Aurelie's share
-    Assets:FR:Receivables:Aurelie         EUR 84.245
+    Assets:FR:Receivables:Aurelie         EUR 84.25
     Expenses:Transportation:CarRental
 
 2025-08-03 * Ferries Greece
@@ -428,7 +608,7 @@
     Expenses:Health:Gym                      EUR 179
     Liabilities:FR:Amex:Gold
 
-2025-08-06 * Amex Gold subscription
+2025-08-06 * Amex subscription
     Expenses:Fees:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 
@@ -480,7 +660,7 @@
     Expenses:Food:Restaurants                 EUR 40
     Liabilities:FR:Amex:Gold
 
-20250-08-16 * Anker charger
+2025-08-16 * Anker charger
     Expenses:Shopping:Electronics          EUR 65.87
     Liabilities:FR:Amex:Gold
 
@@ -492,32 +672,56 @@
     Expenses:GiftsCharity:Gifts            EUR 11.99
     Liabilities:FR:Amex:Gold
 
-2025-08-16 * Cable clips
-    Expenses:Home:Maintenance               EUR 9.99
-    Liabilities:FR:Amex:Gold
-
-2025-08-16 * Kpro moth bands
-    Expenses:Home:Maintenance              EUR 19.98
-    Liabilities:FR:Amex:Gold
-
-2025-08-16 * Panasonic body groomer blade
-    Expenses:PersonalCare                  EUR 32.75
-    Liabilities:FR:Amex:Gold
-
 2025-08-19 * Valencia Tennis Academy
     Expenses:Travel:Holidays                 EUR 105
     Liabilities:FR:Amex:Gold
 
-2025-08-22 * Chaussures Tennis
+2025-08-16 * Cable clips
+    Expenses:Home:Maintenance               EUR 9.99
+    Liabilities:FR:Amex:Gold
+
+2025-08-19 * Panasonic body groomer blade
+    Expenses:PersonalCare                  EUR 32.75
+    Liabilities:FR:Amex:Gold
+
+2025-08-19 * Kpro moth bands
+    Expenses:Home:Maintenance              EUR 19.98
+    Liabilities:FR:Amex:Gold
+
+2025-08-20 * Chaussures Tennis
     Expenses:Shopping:Sport                EUR 70.20
     Liabilities:FR:Amex:Gold
 
-2025-08-21 Anker cables
+2025-08-22 * Transvia Flights Valencia
+    Expenses:Travel:Flights                  EUR 254
+    Liabilities:FR:Amex:Gold
+
+2025-08-22 * Tennis shoes and racket sleeve
+    Expenses:Shopping:Sport                EUR 92.75
+    Liabilities:FR:Amex:Gold
+
+2025-08-22 * Deliveroo
+    Expenses:Food:Delivery                 EUR 16.88
+    Liabilities:FR:Amex:Gold
+
+2025-08-22 * Anker cables
     Expenses:Shopping:Electronics          EUR 11.79
     Liabilities:FR:Amex:Gold
 
-2025-08-22 Tennis shoes and racket sleeve
-    Expenses:Shopping:Sport                EUR 92.75
+2025-08-22 * AirBnB Valencia
+    Expenses:Travel:Holidays:Accommodation  EUR 1201.70
+    Liabilities:FR:Amex:Gold
+
+2025-08-24 * Nike cap
+    Expenses:Shopping:Sport                EUR 29.99
+    Liabilities:FR:Amex:Gold
+
+2025-08-30 * Valencia Tennis Academy
+    Expenses:Health:Sport                    EUR 245
+    Liabilities:FR:Amex:Gold
+
+2025-08-31 * Taxi Orly
+    Expenses:Transportation:Taxi              EUR 45
     Liabilities:FR:Amex:Gold
 
 * Other liabilities
@@ -530,7 +734,7 @@
     Assets:FR:Receivables:Aurelie
 
 2025-08-05 * Settlement with Aurelie
-    Liabilities:FR:Payables:Aurelie       EUR 141.79
+    Liabilities:FR:Payables:Aurelie       EUR 141.80
     Assets:FR:Receivables:Aurelie
 
 2025-08-11 * Hotel Athens arrival
@@ -544,6 +748,18 @@
 2025-08-11 * Hotel Spata
     Expenses:Travel:Holidays:Accommodation  EUR 44.86
     Liabilities:FR:Payables:Aurelie
+
+2025-08-07 * Cafe Nuances
+    Expenses:Food:Cafe                      GBP 7.86
+    Liabilities:UK:Halifax:Clarity
+
+2025-08-06 * RATP
+    Expenses:Transportation:PublicTransport  GBP 2.18
+    Liabilities:UK:Halifax:Clarity
+
+2025-08-07 * RATP
+    Expenses:Transportation:PublicTransport  GBP 2.18
+    Liabilities:UK:Halifax:Clarity
 
 * Investment funds valuation
 2025-08-07 * Moneyfarm valuation  ;; net left after liquidating portfolio

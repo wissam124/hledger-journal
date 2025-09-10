@@ -712,6 +712,10 @@
     Expenses:Travel:Holidays:Accommodation  EUR 1201.70
     Liabilities:FR:Amex:Gold
 
+2025-08-22 * AirBnB Valencia Mum's share
+    Assets:FR:Receivables:Mum                EUR 300
+    Expenses:Travel:Holidays:Accommodation
+
 2025-08-24 * Nike cap
     Expenses:Shopping:Sport                EUR 29.99
     Liabilities:FR:Amex:Gold

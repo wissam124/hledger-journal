@@ -40,6 +40,18 @@
     Expenses:Travel:Holidays               EUR 64.44
     Assets:FR:Cash
 
+2025-09-08 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.50
+    Assets:FR:Cash
+
+2025-09-08 * Cigarettes and matches
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-09-10 * Baguette
+    Expenses:Food:Groceries                 EUR 1.25
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-09-01 * Taxi Valencia
     Expenses:Transportation:Taxi           EUR 39.85
@@ -83,6 +95,38 @@
 
 2025-09-06 * Cash withdrawal fee
     Expenses:Fees:ATM                       EUR 2.90
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-08 * Valencia underground
+    Expenses:Transportation:PublicTransport    EUR 7
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-08 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-09 * AirBnB Valencia Mum's share settlement
+    Assets:FR:BforBank:Compte-Courant        EUR 300
+    Assets:FR:Receivables:Mum
+
+2025-09-09 * Mum refunds ticket
+    Assets:FR:BforBank:Compte-Courant        EUR 200
+    Liabilities:FR:Payables:Iskander
+
+2025-09-09 * Transavia checked luggage mum's settlement
+    Assets:FR:BforBank:Compte-Courant         EUR 36
+    Assets:FR:Receivables:Mum
+
+2025-09-09 * Google Play Head 2 Ball
+    Expenses:Entertainment:Digital          EUR 9.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-09 * Valencia bus
+    Expenses:Transportation:PublicTransport    EUR 2
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-10 Revolut Transfer
+    Assets:UK:Revolut:Personal:EUR           EUR 200
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -223,6 +267,34 @@
     Expenses:GiftsCharity:Gifts             EUR 3.50
     Assets:UK:Revolut:Personal:EUR
 
+2025-09-09 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.27
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-09 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.27
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-09 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-09 * Frog Hop House with Isky
+    Expenses:Entertainment:Social:Bars        EUR 14
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-10 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 6.93
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-10 * Carrefour
+    Expenses:Food:Groceries                EUR 19.47
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-10 * Pay back Isky for mum's ticket
+    Liabilities:FR:Payables:Iskander         EUR 200
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-09-03 * Refund Tennis Compagnie
     Liabilities:FR:Amex:Gold                EUR 70.20
@@ -254,6 +326,18 @@
 
 2025-09-06 * Transavia checked luggage for mum
     Expenses:Travel:Flights                   EUR 36
+    Liabilities:FR:Amex:Gold
+
+2025-09-06 * Checked luggage mum's receivable
+    Assets:FR:Receivables:Mum                 EUR 36
+    Expenses:Travel:Flights
+
+2025-09-08 Refund Hyrox
+    Liabilities:FR:Amex:Gold                 EUR 108
+    Expenses:Entertainment:Events:Sports
+
+2025-09-10 Cake Couvreur office
+    Expenses:GiftsCharity:Gifts            EUR 61.98
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

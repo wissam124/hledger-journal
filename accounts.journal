@@ -34,6 +34,7 @@ account Liabilities:FR:Payables                   ; type: L
 account Liabilities:FR:Payables:Aurelie           ; type: L
 account Liabilities:FR:Payables:Glenn             ; type: L
 account Liabilities:FR:Payables:Mum               ; type: L
+account Liabilities:FR:Payables:Iskander          ; type: L
 account Liabilities:UK:Halifax:Clarity            ; type: L
 account Liabilities:UK:Payables:Iskander          ; type: L
 

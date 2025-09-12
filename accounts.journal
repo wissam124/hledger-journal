@@ -122,7 +122,6 @@ account Expenses:Resale                                    ; type: X
 account Expenses:Shopping                                  ; type: X
 account Expenses:Shopping:Clothes                          ; type: X
 account Expenses:Shopping:Electronics                      ; type: X
-account Expenses:Shopping:Refunds                          ; type: X
 account Expenses:Shopping:Sport                            ; type: X
 account Expenses:Subscriptions                             ; type: X
 account Expenses:Subscriptions:CloudStorage                ; type: X

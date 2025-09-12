@@ -9,7 +9,7 @@
     Assets:FR:Cash
 
 2025-09-01 * MS Therapy
-    Expenses:PersonalCare:Discretionary                    EUR 120
+    Expenses:PersonalCare:Discretionary      EUR 120
     Assets:FR:Cash
 
 2025-09-01 * Racquet rental
@@ -21,7 +21,7 @@
     Assets:FR:Cash
 
 2025-09-04 * MS Therapy
-    Expenses:PersonalCare:Discretionary                    EUR 120
+    Expenses:PersonalCare:Discretionary      EUR 120
     Assets:FR:Cash
 
 2025-09-05 * Praia beach bar Valencia
@@ -125,8 +125,12 @@
     Expenses:Transportation:PublicTransport    EUR 2
     Assets:FR:BforBank:Compte-Courant
 
-2025-09-10 Revolut Transfer
+2025-09-10 * Revolut Transfer
     Assets:UK:Revolut:Personal:EUR           EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-11 * Amex gold settlement
+    Liabilities:FR:Amex:Gold             EUR 2752.75
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -332,11 +336,11 @@
     Assets:FR:Receivables:Mum                 EUR 36
     Expenses:Travel:Flights
 
-2025-09-08 Refund Hyrox
-    Liabilities:FR:Amex:Gold                 EUR 108
+2025-09-08 * Refund Hyrox
+    Liabilities:FR:Amex:Gold                 EUR 109
     Expenses:Entertainment:Events:Sports
 
-2025-09-10 Cake Couvreur office
+2025-09-10 * Cake Couvreur office
     Expenses:GiftsCharity:Gifts            EUR 61.98
     Liabilities:FR:Amex:Gold
 

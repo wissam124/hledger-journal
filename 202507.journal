@@ -80,7 +80,7 @@
 
 2025-07-1 * Flat purchase sollicitor Aurelie share
     Assets:FR:Receivables:Aurelie            EUR 225
-    Expenses:Fees
+    Expenses:Home:Purchase:NotaryFees
 
 2025-07-02 * Transfer Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 200

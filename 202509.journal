@@ -52,6 +52,10 @@
     Expenses:Food:Groceries                 EUR 1.25
     Assets:FR:Cash
 
+2025-09-13 * Therapy
+    Expenses:Health:Therapy                   EUR 60
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-09-01 * Taxi Valencia
     Expenses:Transportation:Taxi           EUR 39.85
@@ -131,6 +135,38 @@
 
 2025-09-11 * Amex gold settlement
     Liabilities:FR:Amex:Gold             EUR 2752.75
+    Assets:FR:BforBank:Compte-Courant
+
+2024-09-14 * Cinema MK2 Valeurs Sentimentales
+    Expenses:Entertainment:Events:Cinema   EUR 31.60
+    Assets:FR:BforBank:Compte-Courant
+
+2024-09-14 * Water bottle MK2
+    Expenses:Food:Snack                     EUR 2.10
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-15 * Revolut transfer
+    Assets:UK:Revolut:Personal:EUR           EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-15 * Cash withdrawal therapy
+    Assets:FR:Cash                            EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-15 * Google Play Head 2 Ball
+    Expenses:Entertainment:Digital          EUR 14.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-15 * Wild & The Moon with Isky
+    Expenses:Food:Snack                       EUR 23
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-15 * Mikate Cinema MK2
+    Expenses:Food:Snack                        EUR 6
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-15 * Physiotherapy
+    Expenses:Health:Doctor                    EUR 85
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -299,6 +335,70 @@
     Liabilities:FR:Payables:Iskander         EUR 200
     Assets:UK:Revolut:Personal:EUR
 
+2025-09-11 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 8.59
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-11 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-11 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-11 * Lebara mobile
+    Expenses:Home:Utilities:MobilePhone     EUR 5.81
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-12 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-12 * Poke Go
+    Expenses:Food:OfficeLunch              EUR 12.90
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-13 * Pain au chocolat and cafe
+    Expenses:Food:Snack                     EUR 3.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-14 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 8.66
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-14 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-14 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-15 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-15 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars     EUR 26.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-15 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.27
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-16 * Cafe Nuances
+    Expenses:Food:Cafe                         EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-16 * Cigarettes
+    Expenses:Food:Cafe                        EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-17 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-09-03 * Refund Tennis Compagnie
     Liabilities:FR:Amex:Gold                EUR 70.20
@@ -342,6 +442,30 @@
 
 2025-09-10 * Cake Couvreur office
     Expenses:GiftsCharity:Gifts            EUR 61.98
+    Liabilities:FR:Amex:Gold
+
+2025-09-12 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Liabilities:FR:Amex:Gold
+
+2025-09-12 * HelloFresh Amex refund
+    Liabilities:FR:Amex:Gold                  EUR 10
+    Expenses:Food:Groceries
+
+2025-09-14 * Lunch Marigny
+    Expenses:Food:Restaurants              EUR 54.50
+    Liabilities:FR:Amex:Gold
+
+2025-09-15 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 6.24
+    Liabilities:FR:Amex:Gold
+
+2025-09-15 * Deliveroo Chez Antoine
+    Expenses:Food:Delivery                 EUR 30.29
+    Liabilities:FR:Amex:Gold
+
+2025-09-16 * Racquette TennisPro
+    Expenses:Shopping:Sport                  EUR 217
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

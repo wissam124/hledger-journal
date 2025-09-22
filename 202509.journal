@@ -56,6 +56,18 @@
     Expenses:Health:Therapy                   EUR 60
     Assets:FR:Cash
 
+2025-09-13 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-09-20 * Charity
+    Expenses:GiftsCharity:Charity              EUR 1
+    Assets:FR:Cash
+
+2025-09-21 * Crepe
+    Expenses:Food:Snack                        EUR 4
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-09-01 * Taxi Valencia
     Expenses:Transportation:Taxi           EUR 39.85
@@ -157,16 +169,42 @@
     Expenses:Entertainment:Digital          EUR 14.99
     Assets:FR:BforBank:Compte-Courant
 
-2025-09-15 * Wild & The Moon with Isky
-    Expenses:Food:Snack                       EUR 23
-    Assets:FR:BforBank:Compte-Courant
-
 2025-09-15 * Mikate Cinema MK2
     Expenses:Food:Snack                        EUR 6
     Assets:FR:BforBank:Compte-Courant
 
+2025-09-15 * Wild & The Moon with Isky
+    Expenses:Food:Snack                       EUR 23
+    Assets:FR:BforBank:Compte-Courant
+
 2025-09-15 * Physiotherapy
     Expenses:Health:Doctor                    EUR 85
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-18 * EDF subscription
+    Expenses:Home:Utilities:Electricity    EUR 52.69
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-18 * De La Ville Cafe
+    Expenses:Entertainment:Social:Bars     EUR 39.60
+    Assets:FR:BforBank:Compte-Courant    EUR - 39.60
+    Assets:FR:Receivables:Arnaud              EUR 10
+    Expenses:Entertainment:Social:Bars       EUR -10
+
+2025-09-18 * Reimbursement from Arnaud (20 cash, 10 change)
+    Assets:FR:Cash                            EUR 10
+    Assets:FR:Receivables:Arnaud
+
+2025-09-18 * Crepe Creme De Paris
+    Expenses:Food:Snack                     EUR 3.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-19 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-20 Transfer to Revolut
+    Assets:UK:Revolut:Personal:EUR           EUR 500
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -399,6 +437,26 @@
     Expenses:Food:Cafe                      EUR 4.50
     Assets:UK:Revolut:Personal:EUR
 
+2025-09-18 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-20 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-20 * Pain au chocolat and cafe
+    Expenses:Food:Snack                     EUR 3.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-20 * Crepe
+    Expenses:Food:Snack                     EUR 4
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-22 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 7.70
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-09-03 * Refund Tennis Compagnie
     Liabilities:FR:Amex:Gold                EUR 70.20
@@ -464,8 +522,32 @@
     Expenses:Food:Delivery                 EUR 30.29
     Liabilities:FR:Amex:Gold
 
-2025-09-16 Racquette TennisPro
+2025-09-16 * Racquette TennisPro
     Expenses:Shopping:Sport                  EUR 217
+    Liabilities:FR:Amex:Gold
+
+2025-09-18 * French Bastards breakfast
+    Expenses:Food:Delivery                 EUR 26.65
+    Liabilities:FR:Amex:Gold
+
+2025-09-19 * HelloFresh Amex refund
+    Liabilities:FR:Amex:Gold                  EUR 10
+    Expenses:Food:Groceries
+
+2025-09-19 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Liabilities:FR:Amex:Gold
+
+2025-09-21 Dott pass
+    Expenses:Transportation:Bikesharing     EUR 5.99
+    Liabilities:FR:Amex:Gold
+
+2025-09-21 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-09-22 * Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 2.15
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

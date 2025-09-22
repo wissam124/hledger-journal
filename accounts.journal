@@ -19,6 +19,7 @@ account Assets:FR:Epsor:PER                       ; type: A
 account Assets:FR:Epsor:PER:Tax-Deferred          ; type: A
 account Assets:FR:Receivables                     ; type: A
 account Assets:FR:Receivables:Aurelie             ; type: A
+account Assets:FR:Receivables:Arnaud              ; type: A
 account Assets:FR:Receivables:Iskander            ; type: A
 account Assets:FR:Receivables:Mum                 ; type: A
 account Assets:UK:Moneyfarm                       ; type: A

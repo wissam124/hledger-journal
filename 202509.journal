@@ -64,6 +64,10 @@
     Expenses:GiftsCharity:Charity              EUR 1
     Assets:FR:Cash
 
+2025-09-20 * Therapy
+    Expenses:Health:Therapy                   EUR 60
+    Assets:FR:Cash
+
 2025-09-21 * Crepe
     Expenses:Food:Snack                        EUR 4
     Assets:FR:Cash
@@ -203,9 +207,37 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-09-20 Transfer to Revolut
+2025-09-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-22 * Fitness Park
+    Expenses:Health:Gym                       EUR 78
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-22 * Transfer to Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 500
     Assets:FR:BforBank:Compte-Courant
+
+2025-09-22 * Cash withdrawal
+    Assets:FR:Cash                            EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-22 * Refund Alan
+    Assets:FR:BforBank:Compte-Courant       EUR 8.39
+    Expenses:Health:Doctor
+
+2025-09-22 * Refund Alan
+    Assets:FR:BforBank:Compte-Courant      EUR 17.85
+    Expenses:Health:Doctor
 
 * Boursobank transactions
 2025-09-06 * Transfer to BforBank
@@ -457,6 +489,14 @@
     Expenses:Food:Cafe                      EUR 7.70
     Assets:UK:Revolut:Personal:EUR
 
+2025-09-22 * McDonald's
+    Expenses:Food:FastFood                  EUR 5.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-23 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-09-03 * Refund Tennis Compagnie
     Liabilities:FR:Amex:Gold                EUR 70.20
@@ -538,7 +578,7 @@
     Expenses:Food:Groceries                EUR 48.94
     Liabilities:FR:Amex:Gold
 
-2025-09-21 Dott pass
+2025-09-21 * Dott pass
     Expenses:Transportation:Bikesharing     EUR 5.99
     Liabilities:FR:Amex:Gold
 
@@ -546,8 +586,12 @@
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
-2025-09-22 * Deliveroo fee
+2025-09-22 Deliveroo fee
     Expenses:Food:OfficeLunch               EUR 2.15
+    Liabilities:FR:Amex:Gold
+
+2025-09-22 Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

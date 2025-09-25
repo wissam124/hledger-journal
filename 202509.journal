@@ -239,6 +239,26 @@
     Assets:FR:BforBank:Compte-Courant      EUR 17.85
     Expenses:Health:Doctor
 
+2025-09-23 * Refund Alan
+    Assets:FR:BforBank:Compte-Courant      EUR 26.35
+    Expenses:Health:Doctor
+
+2025-09-23 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-23 * Paris Tennis court booking
+    Expenses:Entertainment:Social:Sports      EUR 12
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-24 * Pepins restaurant
+    Expenses:Food:Restaurants              EUR 39.88
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-25 * Tax residual 2024
+    Expenses:Taxes                           EUR 228
+    Assets:FR:BforBank:Compte-Courant
+
 * Boursobank transactions
 2025-09-06 * Transfer to BforBank
     Assets:FR:BforBank:Compte-Courant        EUR 800
@@ -497,6 +517,22 @@
     Expenses:Food:Cafe                      EUR 5
     Assets:UK:Revolut:Personal:EUR
 
+2025-09-23 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-24 * Crepe Creme de Paris
+    Expenses:Food:Snack                        EUR 5
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-24 * Ground Control
+    Expenses:Entertainment:Social:Bars         EUR 9
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-24 * Durum with Isky
+    Expenses:Food:FastFood                    EUR 18
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-09-03 * Refund Tennis Compagnie
     Liabilities:FR:Amex:Gold                EUR 70.20
@@ -586,11 +622,11 @@
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
-2025-09-22 Deliveroo fee
+2025-09-22 * Deliveroo fee
     Expenses:Food:OfficeLunch               EUR 2.15
     Liabilities:FR:Amex:Gold
 
-2025-09-22 Dott ride
+2025-09-22 * Dott ride
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 

@@ -72,6 +72,14 @@
     Expenses:Food:Snack                        EUR 4
     Assets:FR:Cash
 
+2025-09-25 * Baguette and Pain au chocolat
+    Expenses:Food:Groceries                 EUR 2.60
+    Assets:FR:Cash
+
+2025-09-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-09-01 * Taxi Valencia
     Expenses:Transportation:Taxi           EUR 39.85
@@ -255,6 +263,22 @@
 
 2025-09-25 * Tax residual 2024
     Expenses:Taxes                           EUR 228
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-25 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-25 * Car Rental Insurance
+    Assets:FR:BforBank:Compte-Courant        EUR 200
+    Expenses:Transportation:CarRental
+
+2025-09-26 * SFR
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-26 * Ticket PSG
+    Expenses:Entertainment:Events:Sports     EUR 295
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -531,6 +555,10 @@
     Expenses:Food:FastFood                    EUR 18
     Assets:UK:Revolut:Personal:EUR
 
+2025-09-25 * Poke Go
+    Expenses:Food:OfficeLunch              EUR 15.90
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-09-03 * Refund Tennis Compagnie
     Liabilities:FR:Amex:Gold                EUR 70.20
@@ -624,6 +652,14 @@
 
 2025-09-22 * Dott ride
     Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-09-25 * HelloFresh
+    Expenses:Food:Groceries                EUR 40.94
+    Liabilities:FR:Amex:Gold
+
+2025-09-25 * HelloFresh
+    Expenses:Food:Groceries                    EUR 5
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

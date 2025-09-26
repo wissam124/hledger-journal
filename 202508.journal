@@ -586,23 +586,20 @@
 
 2025-08-03 * Ferries Greece
     Expenses:Travel:Holidays              EUR 387.10
-    Liabilities:FR:Amex:Gold
-
-2025-08-03 * Ferries Greece Aurelie's share
+    Liabilities:FR:Amex:Gold             EUR -387.10
     Assets:FR:Receivables:Aurelie         EUR 193.55
-    Expenses:Travel:Holidays
+    Expenses:Travel:Holidays             EUR -193.55
+
 
 2025-08-03 * Franprix
     Expenses:Food:Groceries                 EUR 9.62
     Liabilities:FR:Amex:Gold
 
 2025-08-04 * Airbnb Greece
-    Expenses:Travel:Holidays:Accommodation    EUR 420
-    Liabilities:FR:Amex:Gold
-
-2025-08-04 * Airbnb Greece Aurelie's share
+    Expenses:Travel:Holidays:Accommodation   EUR 420
+    Liabilities:FR:Amex:Gold                EUR -420
     Assets:FR:Receivables:Aurelie            EUR 210
-    Expenses:Travel:Holidays:Accommodation
+    Expenses:Travel:Holidays:Accommodation  EUR -210
 
 2025-08-05 * R2 Training
     Expenses:Health:Gym                      EUR 179
@@ -710,11 +707,9 @@
 
 2025-08-22 * AirBnB Valencia
     Expenses:Travel:Holidays:Accommodation  EUR 1201.70
-    Liabilities:FR:Amex:Gold
-
-2025-08-22 * AirBnB Valencia Mum's share
+    Liabilities:FR:Amex:Gold            EUR -1201.70
     Assets:FR:Receivables:Mum                EUR 300
-    Expenses:Travel:Holidays:Accommodation
+    Expenses:Travel:Holidays:Accommodation  EUR -300
 
 2025-08-24 * Nike cap
     Expenses:Shopping:Sport                EUR 29.99

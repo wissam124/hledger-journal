@@ -1,0 +1,64 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+
+* Revolut transactions
+2025-10-01 * Cafe Nuances
+    Expenses:Food:Cafe                     EUR 11.43
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-02 * Crepe Mama Mia
+    Expenses:Food:Snack                        EUR 4
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-03 * Hotel La Bourdonnais Cocktail
+    Expenses:Entertainment:Social:Bars        EUR 15
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-04 * Cafe painchoc and croissant
+    Expenses:Food:Snack                     EUR 6.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-04 * Javey Bistrot drinks with Aurelie
+    Expenses:Entertainment:Social:Bars      EUR 9.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-04 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-05 * Brunch with Glenn
+    Expenses:Food:Restaurants                 EUR 30
+    Assets:UK:Revolut:Personal:EUR
+
+* Amex transactions
+2025-10-03 * Velib
+    Expenses:Transportation:Bikesharing       EUR 2
+    Liabilities:FR:Amex:Gold
+
+2025-10-03 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Liabilities:FR:Amex:Gold
+
+2025-10-03 * Dott
+    Expenses:Transportation:Bikesharing     EUR 8.14
+    Liabilities:FR:Amex:Gold
+
+2025-10-03 * Dott
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-09-18 * Deliveroo Five Guys
+    Expenses:Food:OfficeLunch              EUR 19.20
+    Liabilities:FR:Amex:Gold
+
+2025-10-04 R2 Training
+    Expenses:Health:Gym                      EUR 179
+    Liabilities:FR:Amex:Gold
+
+2025-10-05 Dott
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-10-05 Dott
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold

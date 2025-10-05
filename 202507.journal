@@ -76,9 +76,9 @@
 
 2025-07-01 * Flat purchase sollicitor
     Expenses:Home:Purchase:NotaryFees        EUR 550
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:BforBank:Compte-Courant        EUR -550
     Assets:FR:Receivables:Aurelie            EUR 225
-    Expenses:Home:Purchase:NotaryFees
+    Expenses:Home:Purchase:NotaryFees        EUR -225
 
 2025-07-02 * Transfer Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 200
@@ -525,9 +525,9 @@
 
 2025-07-19 * Deliveroo Pizzou
     Expenses:Food:Delivery                 EUR 27.39
-    Liabilities:FR:Amex:Gold
+    Liabilities:FR:Amex:Gold               EUR -27.39
     Assets:FR:Receivables:Aurelie             EUR 27
-    Expenses:Food:Delivery
+    Expenses:Food:Delivery                   EUR -27
 
 2025-07-19 * Deliveroo Pizzou Aurelie settlt
     Assets:FR:BforBank:Compte-Courant         EUR 27

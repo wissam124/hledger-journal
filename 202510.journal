@@ -1,5 +1,65 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
+2025-10-01 * 111 Capital wage
+    Assets:FR:BforBank:Compte-Courant    EUR 6371.58
+    Income:FR:111Capital:Salary
 
+* Cash expenses
+2025-10-02 * Gave cash to mum
+    Expenses:GiftsCharity:Gifts                EUR 2
+    Assets:FR:Cash
+
+2025-10-04 * Crepe
+    Expenses:Food:Snack                        EUR 4
+    Assets:FR:Cash
+
+2025-10-04 * Charity
+    Expenses:GiftsCharity:Charity           EUR 0.50
+    Assets:FR:Cash
+
+2025-10-04 * Hairdresser
+    Expenses:PersonalCare:Hair                EUR 12
+    Assets:FR:Cash
+
+* BforBank transactions
+2025-10-01 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-01 * Fisherman's Friend
+    Expenses:Food:Snack                        EUR 2
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-01 * Paris Tennis court booking
+    Expenses:Entertainment:Social:Sports      EUR 12
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-02 * Rent Citeaux
+    Expenses:Home:Rent                      EUR 1330
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-02 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-02 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-04 * Ls Milagro Restaurant
+    Expenses:Food:Restaurants                 EUR 75
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-05 * ChatGPT subscription
+    Expenses:Subscriptions:Software        EUR 21.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-05 * MacroFactor subscription
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-05 * Settle liability with Aurelie
+    Liabilities:FR:Payables:Aurelie            EUR 8
+    Assets:FR:BforBank:Compte-Courant
 
 * Revolut transactions
 2025-10-01 * Cafe Nuances

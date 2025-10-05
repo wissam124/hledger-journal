@@ -559,6 +559,58 @@
     Expenses:Food:OfficeLunch              EUR 15.90
     Assets:UK:Revolut:Personal:EUR
 
+2025-09-27 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.34
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-27 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.34
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-27 * Cafe and pain au chocolat
+    Expenses:Food:Snack                        EUR 3
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-28 * Alma Cafe with Aurelie
+    Expenses:Food:Cafe                      EUR 9.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-28 * Ice Cream
+    Expenses:Food:Snack                        EUR 4
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-28 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-28 * Drinks Le Drapeau
+    Expenses:Entertainment:Social:Bars      EUR 9.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-29 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-29 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-29 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-29 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-30 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-09-30 * Drinks Cafe de la Place with Aurelie
+    Expenses:Entertainment:Social:Bars        EUR 30
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-09-03 * Refund Tennis Compagnie
     Liabilities:FR:Amex:Gold                EUR 70.20
@@ -660,6 +712,26 @@
 
 2025-09-25 * HelloFresh
     Expenses:Food:Groceries                    EUR 5
+    Liabilities:FR:Amex:Gold
+
+2025-09-26 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-09-27 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-09-28 * Nido restaurant
+    Expenses:Food:Restaurants                 EUR 60
+    Liabilities:FR:Amex:Gold
+
+2025-09-29 * Tennis racket gift
+    Expenses:GiftsCharity:Gifts           EUR 179.77
+    Liabilities:FR:Amex:Gold
+
+2025-09-30 * Velib
+    Expenses:Transportation:Bikesharing       EUR 10
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

@@ -80,6 +80,14 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:Cash
 
+2025-09-26 * MS Terapy
+    Expenses:PersonalCare:Discretionary      EUR 200
+    Assets:FR:Cash
+
+2025-09-27 * Scouts Calendar
+    Expenses:GiftsCharity:Charity              EUR 5
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-09-01 * Taxi Valencia
     Expenses:Transportation:Taxi           EUR 39.85
@@ -271,7 +279,9 @@
 
 2025-09-25 * Car Rental Insurance
     Assets:FR:BforBank:Compte-Courant        EUR 200
-    Expenses:Transportation:CarRental
+    Expenses:Transportation:CarRental       EUR -200
+    Liabilities:FR:Payables:Aurelie           EUR 75
+    Expenses:Transportation:CarRental        EUR -75
 
 2025-09-26 * SFR
     Expenses:Home:Utilities:MobilePhone    EUR 11.99
@@ -280,6 +290,18 @@
 2025-09-26 * Ticket PSG
     Expenses:Entertainment:Events:Sports     EUR 295
     Assets:FR:BforBank:Compte-Courant
+
+2025-09-29 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-29 * Cash withdrawal
+    Assets:FR:Cash                           EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-09-29 * Swile ex-lunchr credit
+    Assets:FR:BforBank:Compte-Courant       EUR 0.30
+    Expenses:Food:OfficeLunch
 
 * Boursobank transactions
 2025-09-06 * Transfer to BforBank

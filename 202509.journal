@@ -88,6 +88,10 @@
     Expenses:GiftsCharity:Charity              EUR 5
     Assets:FR:Cash
 
+2025-09-30 * Unaccounted cash expenses
+    Expenses:Misc:Unaccounted              EUR 25.60
+    Assets:FR:Cash
+
 * BforBank transactions
 2025-09-01 * Taxi Valencia
     Expenses:Transportation:Taxi           EUR 39.85

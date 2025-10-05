@@ -12,6 +12,10 @@
     Expenses:Food:Snack                        EUR 4
     Assets:FR:Cash
 
+2025-10-04 * Therapy
+    Expenses:Health:Therapy                   EUR 120
+    Assets:FR:Cash
+
 2025-10-04 * Charity
     Expenses:GiftsCharity:Charity           EUR 0.50
     Assets:FR:Cash
@@ -59,6 +63,10 @@
 
 2025-10-05 * Settle liability with Aurelie
     Liabilities:FR:Payables:Aurelie            EUR 8
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-04 * Cash withdrawal
+    Assets:FR:Cash                           EUR 140
     Assets:FR:BforBank:Compte-Courant
 
 * Revolut transactions

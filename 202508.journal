@@ -578,11 +578,9 @@
 
 2025-08-03 * Car rental Greece
     Expenses:Transportation:CarRental     EUR 168.49
-    Liabilities:FR:Amex:Gold
-
-2025-08-03 * Car rental Greece Aurelie's share
-    Assets:FR:Receivables:Aurelie         EUR 84.25
-    Expenses:Transportation:CarRental
+    Liabilities:FR:Amex:Gold              EUR -168.49
+    Assets:FR:Receivables:Aurelie          EUR 84.25
+    Expenses:Transportation:CarRental      EUR -84.25
 
 2025-08-03 * Ferries Greece
     Expenses:Travel:Holidays              EUR 387.10

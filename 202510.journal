@@ -24,6 +24,11 @@
     Expenses:PersonalCare:Hair                EUR 12
     Assets:FR:Cash
 
+* Bimpli meal card
+2025-10-07 * Lunch
+    Expenses:Food:OfficeLunch                 EUR 11
+    Assets:FR:Bimpli
+
 * BforBank transactions
 2025-10-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -82,6 +87,15 @@
     Expenses:Fees:Bank                      EUR 2.40
     Assets:FR:CCF:Compte-Joint
 
+* HSBC transactions
+2025-10-07 * Transfer to Revolut
+    Assets:UK:Revolut:Personal:GBP           GBP 100
+    Assets:UK:HSBC:Current-Account
+
+2025-10-07 * Transfer to Revolut
+    Assets:UK:Revolut:Personal:GBP         GBP 17200
+    Assets:UK:HSBC:Current-Account
+
 * Revolut transactions
 2025-10-01 * Cafe Nuances
     Expenses:Food:Cafe                     EUR 11.43
@@ -123,6 +137,26 @@
     Expenses:Food:Cafe                      EUR 8.55
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-07 * Buy EUR with GBP
+    Assets:UK:Revolut:Personal:EUR      EUR 19898.42 @@ GBP 17300
+    Assets:UK:Revolut:Personal:GBP
+
+2025-10-07 * Transfer to CCF
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-07 * Transfer to CCF
+    Assets:FR:CCF:Compte-Joint             EUR 17900
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-07 * Post office letter for AW
+    Expenses:Misc                           EUR 7.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-07 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -160,7 +194,7 @@
     Expenses:Food:OfficeLunch               EUR 2.15
     Liabilities:FR:Amex:Gold
 
-2025-10-06 Deposit wooden floors
+2025-10-06 Deposit wooden floors  ; flat-vincennes:
     Expenses:Home:Furniture                 EUR 1000
     Liabilities:FR:Amex:Gold               EUR -1000
     Assets:FR:Receivables:Aurelie            EUR 500

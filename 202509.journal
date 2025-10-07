@@ -96,6 +96,19 @@
     Expenses:Misc:Unaccounted              EUR 24.25
     Assets:FR:Cash
 
+* Bimpli meal card
+2025-09-19 * Lunch
+    Expenses:Food:OfficeLunch              EUR 12.90
+    Assets:FR:Bimpli
+
+2025-09-29 * Lunch
+    Expenses:Food:OfficeLunch                 EUR 16
+    Assets:FR:Bimpli
+
+2025-09-30 * Lunch
+    Expenses:Food:OfficeLunch                 EUR 11
+    Assets:FR:Bimpli
+
 * BforBank transactions
 2025-09-01 * Taxi Valencia
     Expenses:Transportation:Taxi           EUR 39.85
@@ -315,6 +328,11 @@
 2025-09-06 * Transfer to BforBank
     Assets:FR:BforBank:Compte-Courant        EUR 800
     Assets:FR:BoursoBank:Compte-Courant
+
+* HSBC transactions
+2025-09-22 * Buy AW Bimpli card credit
+    Assets:FR:Bimpli                      EUR 490.18 @@ GBP 425
+    Assets:UK:HSBC:Current-Account
 
 * Revolut transactions
 2025-09-01 * Valencia Tennis Center - Latte

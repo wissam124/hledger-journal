@@ -573,12 +573,14 @@
     Liabilities:FR:Amex:Gold
 
 ; Investment funds valuation
-2025-03-31 * EPSOR valuation
-    Assets:FR:Epsor:PEI                  = EUR 54109
+
+; Official valuation from EPSOR as of 2024-12-31
+2024-12-31 * EPSOR PEI valuation
+    Assets:FR:Epsor:PEI               = EUR 54886.46
     Equity:Unrealised-PnL:EUR
 
-2025-03-31 * EPSOR valuation PER
-    Assets:FR:Epsor:PER                ==* EUR 35425
+2024-12-31 * EPSOR PER valuation
+    Assets:FR:Epsor:PER               = EUR 35962.29
     Equity:Unrealised-PnL:EUR
 
 2025-03-31 * Moneyfarm valuation

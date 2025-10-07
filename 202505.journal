@@ -639,14 +639,6 @@
     Liabilities:UK:Payables:Iskander
 
 ; Investment funds valuation
-2025-05-12 * EPSOR PEI valuation
-    Assets:FR:Epsor:PEI                  = EUR 51932
-    Equity:Unrealised-PnL:EUR
-
-2025-05-12 * EPSOR PER valuation
-    Assets:FR:Epsor:PER  ==* EUR 34231
-    Equity:Unrealised-PnL:EUR
-
 2025-05-12 * Monferyfarm valuation
     Assets:UK:Moneyfarm                  = GBP 48191
     Equity:Unrealised-PnL:GBP

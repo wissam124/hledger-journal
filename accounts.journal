@@ -7,26 +7,29 @@ commodity GBP 1,000.00  ;yahoo_ticker:GBPEUR=X
 commodity LQQ 1.  ;yahoo_ticker:LQQ.PA
 
 ; Assets: things I own (cash, bank account, investments)
-account Assets:Home                               ; type: A
 account Assets:FR:BforBank:Compte-Courant         ; type: C
 account Assets:FR:BforBank:LivretA                ; type: C
+account Assets:FR:Bimpli                          ; type: C
 account Assets:FR:BourseDirect:Cash               ; type: C
 account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
 account Assets:FR:BoursoBank:Compte-Courant       ; type: C
-account Assets:FR:Cash                            ; type: C
-account Assets:FR:CCF:Compte-Joint                ; type: C
 account Assets:FR:CCF:Compte-Courant              ; type: C
+account Assets:FR:CCF:Compte-Joint                ; type: C
+account Assets:FR:Cash                            ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
+account Assets:Home                               ; type: A
+account Assets:UK:HSBC:Current-Account            ; type: C
+account Assets:UK:Halifax:Current-Account         ; type: C
+account Assets:UK:Moneyfarm                       ; type: A
+account Assets:UK:Revolut:Personal:EUR            ; type: C
+account Assets:UK:Revolut:Personal:GBP            ; type: C
+
 account Assets:FR:Receivables                     ; type: A
 account Assets:FR:Receivables:Aurelie             ; type: A
 account Assets:FR:Receivables:Arnaud              ; type: A
 account Assets:FR:Receivables:Iskander            ; type: A
 account Assets:FR:Receivables:Mum                 ; type: A
-account Assets:UK:Moneyfarm                       ; type: A
-account Assets:UK:Revolut:Personal:EUR            ; type: C
-account Assets:UK:Revolut:Personal:GBP            ; type: C
-account Assets:UK:Halifax:Current-Account         ; type: C
 
 ; Liabilities: money I owe (loans, credit card debt, etc.)
 account Liabilities:FR:Amex:Gold                  ; type: L
@@ -63,6 +66,7 @@ account Income:FR:BforBank:LivretA                ; type: R
 account Income:FR:Resale                          ; type: R
 account Income:FR:Resale:Vinted                   ; type: R
 account Income:FR:Insurance:Amex                  ; type: R
+account Income:CapitalGains:Realised:GBP          ; type: R
 
 ; Expenses: Money I spend
 account Expenses:Cigarettes                                ; type: X

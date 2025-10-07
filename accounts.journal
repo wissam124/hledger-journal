@@ -27,7 +27,7 @@ account Assets:FR:Receivables:Mum                 ; type: A
 account Assets:UK:Moneyfarm                       ; type: A
 account Assets:UK:Revolut:Personal:EUR            ; type: C
 account Assets:UK:Revolut:Personal:GBP            ; type: C
-account Assets:UK:Halifax:Current-Account         ; type: A
+account Assets:UK:Halifax:Current-Account         ; type: C
 
 ; Liabilities: money I owe (loans, credit card debt, etc.)
 account Liabilities:FR:Amex:Gold                  ; type: L

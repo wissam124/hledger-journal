@@ -88,8 +88,12 @@
     Expenses:GiftsCharity:Charity              EUR 5
     Assets:FR:Cash
 
+2025-09-29 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
 2025-09-30 * Unaccounted cash expenses
-    Expenses:Misc:Unaccounted              EUR 25.60
+    Expenses:Misc:Unaccounted              EUR 24.25
     Assets:FR:Cash
 
 * BforBank transactions

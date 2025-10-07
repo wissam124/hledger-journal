@@ -26,8 +26,8 @@
 
 ; Opening balance for PER/PEI
 ; All tax-deferred personal contributions before 2024
-2024-03-31 * Opening balance PER Tax deferred
-    Assets:FR:Epsor:PER:Tax-Deferred        EUR 2500
+2024-03-31 * Opening balance PER Tax deferred  ; per-tax-deferred:
+    Assets:FR:Epsor:PER        EUR 2500
     Equity:Opening-Balances
 
 ; All contributions (personal and company's) to PER before 2024

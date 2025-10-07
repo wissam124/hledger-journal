@@ -415,7 +415,6 @@
     Assets:FR:BforBank:Compte-Courant
 
 ; ; Manual entries
-2024-11-19 * Versement defiscalise vers le PER
-    Assets:FR:Epsor:PER:Tax-Deferred       EUR 2158
+2024-11-19 * Versement defiscalise vers le PER  ; per-tax-deferred:
+    Assets:FR:Epsor:PER                     EUR 2158
     Assets:FR:BforBank:LivretA             EUR -2158
-

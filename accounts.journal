@@ -18,7 +18,6 @@ account Assets:FR:CCF:Compte-Joint                ; type: C
 account Assets:FR:CCF:Compte-Courant              ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
-account Assets:FR:Epsor:PER:Tax-Deferred          ; type: A
 account Assets:FR:Receivables                     ; type: A
 account Assets:FR:Receivables:Aurelie             ; type: A
 account Assets:FR:Receivables:Arnaud              ; type: A

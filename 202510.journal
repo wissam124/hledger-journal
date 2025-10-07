@@ -69,6 +69,19 @@
     Assets:FR:Cash                           EUR 140
     Assets:FR:BforBank:Compte-Courant
 
+2025-10-06 * Transfer to CCF compte-joint
+    Assets:FR:CCF:Compte-Joint                 EUR 2.40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-06 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+* CCF transactions
+2025-10-02 * Frais tenue de compte
+    Expenses:Fees:Bank                      EUR 2.40
+    Assets:FR:CCF:Compte-Joint
+
 * Revolut transactions
 2025-10-01 * Cafe Nuances
     Expenses:Food:Cafe                     EUR 11.43
@@ -98,6 +111,18 @@
     Expenses:Food:Restaurants                 EUR 30
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-06 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.29
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-06 * Drinks with Auguste
+    Expenses:Entertainment:Social:Bars        EUR 12
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-07 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 8.55
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -119,14 +144,30 @@
     Expenses:Food:OfficeLunch              EUR 19.20
     Liabilities:FR:Amex:Gold
 
-2025-10-04 R2 Training
+2025-10-04 * R2 Training
     Expenses:Health:Gym                      EUR 179
     Liabilities:FR:Amex:Gold
 
-2025-10-05 Dott
+2025-10-05 * Dott
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
-2025-10-05 Dott
+2025-10-05 * Dott
     Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-10-06 Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 2.15
+    Liabilities:FR:Amex:Gold
+
+2025-10-06 Deposit wooden floors
+    Expenses:Home:Furniture                 EUR 1000
+    Liabilities:FR:Amex:Gold               EUR -1000
+    Assets:FR:Receivables:Aurelie            EUR 500
+    Expenses:Home:Furniture                 EUR -500
+    Assets:FR:BforBank:Compte-Courant        EUR 500
+    Assets:FR:Receivables:Aurelie           EUR -500
+
+2025-10-07 Toothpaste
+    Expenses:Health:Pharmacy                EUR 7.65
     Liabilities:FR:Amex:Gold

@@ -14,6 +14,8 @@ account Assets:FR:BourseDirect:Cash               ; type: C
 account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
 account Assets:FR:BoursoBank:Compte-Courant       ; type: C
 account Assets:FR:Cash                            ; type: C
+account Assets:FR:CCF:Compte-Joint                ; type: C
+account Assets:FR:CCF:Compte-Courant              ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
 account Assets:FR:Epsor:PER:Tax-Deferred          ; type: A

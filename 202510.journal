@@ -82,6 +82,10 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
+2025-10-07 * Kine Boetie
+    Expenses:Health:Doctor                   EUR 110
+    Assets:FR:BforBank:Compte-Courant
+
 * CCF transactions
 2025-10-02 * Frais tenue de compte
     Expenses:Fees:Bank                      EUR 2.40
@@ -190,11 +194,19 @@
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
-2025-10-06 Deliveroo fee
+2025-10-06 * Amex gold subscription
+    Expenses:Fees:CreditCard                  EUR 16
+    Liabilities:FR:Amex:Gold
+
+2025-10-05 * Dott
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-10-06 * Deliveroo fee
     Expenses:Food:OfficeLunch               EUR 2.15
     Liabilities:FR:Amex:Gold
 
-2025-10-06 Deposit wooden floors  ; flat-vincennes:
+2025-10-06 * Deposit wooden floors  ; flat-vincennes:
     Expenses:Home:Furniture                 EUR 1000
     Liabilities:FR:Amex:Gold               EUR -1000
     Assets:FR:Receivables:Aurelie            EUR 500

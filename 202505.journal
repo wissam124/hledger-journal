@@ -639,7 +639,7 @@
     Liabilities:UK:Payables:Iskander
 
 ; Investment funds valuation
-2025-05-12 * Monferyfarm valuation
+2025-05-12 * Moneyfarm valuation
     Assets:UK:Moneyfarm                  = GBP 48191
     Equity:Unrealised-PnL:GBP
 

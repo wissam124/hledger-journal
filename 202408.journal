@@ -1,3 +1,5 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
 2024-08-01 * 111 Cap wage
     Assets:FR:BforBank:Compte-Courant     EUR 4783.99
     Income:FR:111Capital:Salary         EUR -4783.99

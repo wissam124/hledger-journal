@@ -1,3 +1,5 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
 2024-04-01 * Hairdresser
     Expenses:PersonalCare:Hair                 EUR 22
     Assets:FR:BforBank:Compte-Courant         EUR -22

@@ -86,6 +86,14 @@
     Expenses:Health:Doctor                   EUR 110
     Assets:FR:BforBank:Compte-Courant
 
+2025-10-08 * Cigarettes + Briquet
+    Expenses:Cigarettes                       EUR 15
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-09 * Flowers for Aurelie
+    Expenses:GiftsCharity:Gifts               EUR 40
+    Assets:FR:BforBank:Compte-Courant
+
 * CCF transactions
 2025-10-02 * Frais tenue de compte
     Expenses:Fees:Bank                      EUR 2.40
@@ -161,6 +169,14 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-08 * ChatGPT for Mum
+    Expenses:GiftsCharity:Gifts            EUR 19.17
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-09 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -214,10 +230,18 @@
     Assets:FR:BforBank:Compte-Courant        EUR 500
     Assets:FR:Receivables:Aurelie           EUR -500
 
-2025-10-07 Toothpaste
+2025-10-07 * Toothpaste
     Expenses:Health:Pharmacy                EUR 7.65
     Liabilities:FR:Amex:Gold
 
-2025-10-08 DIY class Leroy-Merlin
+2025-10-08 * DIY class Leroy-Merlin
     Expenses:Home:Maintenance                 EUR 25
+    Liabilities:FR:Amex:Gold
+
+2025-10-09 * Restaurant Bar Le Shack  ; aurelie:
+    Expenses:Food:Restaurants              EUR 80
+    Liabilities:FR:Amex:Gold
+
+2025-10-09 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
     Liabilities:FR:Amex:Gold

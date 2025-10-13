@@ -94,6 +94,14 @@
     Expenses:GiftsCharity:Gifts               EUR 40
     Assets:FR:BforBank:Compte-Courant
 
+2025-10-10 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-10 * Grok subscription
+    Expenses:Subscriptions:Software        EUR 33.99
+    Assets:FR:BforBank:Compte-Courant
+
 * CCF transactions
 2025-10-02 * Frais tenue de compte
     Expenses:Fees:Bank                      EUR 2.40
@@ -173,7 +181,31 @@
     Expenses:GiftsCharity:Gifts            EUR 19.17
     Assets:UK:Revolut:Personal:EUR
 
-2025-10-09 * Cigarettes
+2025-10-08 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-10 * Carrefour
+    Expenses:Food:Groceries                EUR 23.03
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-11 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-11 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.33
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-11 * Lebara mobile
+    Expenses:Home:Utilities:MobilePhone     EUR 5.77
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-11 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-12 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
@@ -242,6 +274,22 @@
     Expenses:Food:Restaurants              EUR 80
     Liabilities:FR:Amex:Gold
 
-2025-10-09 * HelloFresh
+2025-10-10 * Amex gold settlement
+    Liabilities:FR:Amex:Gold              EUR 958.82
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-10 * Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 2.22
+    Liabilities:FR:Amex:Gold
+
+2025-10-10 * HelloFresh
     Expenses:Food:Groceries                EUR 48.94
+    Liabilities:FR:Amex:Gold
+
+2025-10-11 * Pan Bar
+    Expenses:Entertainment:Events             EUR 60
+    Liabilities:FR:Amex:Gold
+
+2025-10-11 * Pan Bar drinks and food
+    Expenses:Entertainment:Social:Bars        EUR 54
     Liabilities:FR:Amex:Gold

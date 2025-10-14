@@ -29,6 +29,14 @@
     Expenses:Food:OfficeLunch                 EUR 11
     Assets:FR:Bimpli
 
+2025-10-13 * Lunch Kayser
+    Expenses:Food:OfficeLunch                 EUR 16
+    Assets:FR:Bimpli
+
+2025-10-14 * Lunch becchi
+    Expenses:Food:OfficeLunch              EUR 21.30
+    Assets:FR:Bimpli
+
 * BforBank transactions
 2025-10-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -101,6 +109,26 @@
 2025-10-10 * Grok subscription
     Expenses:Subscriptions:Software        EUR 33.99
     Assets:FR:BforBank:Compte-Courant
+
+2025-10-13 * Paris Tennis court booking
+    Expenses:Entertainment:Social:Sports      EUR 12
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-13 * Charles consultation
+    Expenses:Health:Doctor                    EUR 35
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-13 * Tennis classes Match Point
+    Expenses:Health:Sport                    EUR 785
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-14 * Refund Alan physiotherapy
+    Assets:FR:BforBank:Compte-Courant      EUR 42.42
+    Expenses:Health:Doctor
+
+2025-10-14 * Refund Alan physiotherapy
+    Assets:FR:BforBank:Compte-Courant      EUR 42.42
+    Expenses:Health:Doctor
 
 * CCF transactions
 2025-10-02 * Frais tenue de compte
@@ -209,6 +237,22 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-13 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-14 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-14 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-14 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.70
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -292,4 +336,8 @@
 
 2025-10-11 * Pan Bar drinks and food
     Expenses:Entertainment:Social:Bars        EUR 54
+    Liabilities:FR:Amex:Gold
+
+2025-10-14 Charles prescription
+    Expenses:Health:Pharmacy                  EUR 95
     Liabilities:FR:Amex:Gold

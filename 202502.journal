@@ -140,7 +140,7 @@
     Expenses:Cigarettes                        EUR 13
     Assets:FR:BforBank:Compte-Courant         EUR -13
 
-2025-02-07 * Opthalmologist Opéra
+2025-02-07 * Opthalmologist Opera
     Expenses:Health:Doctor                    EUR 100
     Assets:FR:BforBank:Compte-Courant        EUR -100
 
@@ -212,7 +212,7 @@
     Expenses:Food:Groceries                  EUR 7.86
     Assets:FR:BforBank:Compte-Courant       EUR -7.86
 
-2025-02-11 * Opthalmologist Opéra Alan Refund
+2025-02-11 * Opthalmologist Opera Alan Refund
     Expenses:Health:Doctor                 EUR -72.37
     Assets:FR:BforBank:Compte-Courant       EUR 72.37
 

@@ -37,6 +37,10 @@
     Expenses:Food:OfficeLunch              EUR 21.30
     Assets:FR:Bimpli
 
+2025-10-15 * Lunch Mister Garden
+    Expenses:Food:OfficeLunch              EUR 18.80
+    Assets:FR:Bimpli
+
 * BforBank transactions
 2025-10-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -129,6 +133,14 @@
 2025-10-14 * Refund Alan physiotherapy
     Assets:FR:BforBank:Compte-Courant      EUR 42.42
     Expenses:Health:Doctor
+
+2025-10-15 * Refund CPAM
+    Assets:FR:BforBank:Compte-Courant      EUR 21.16
+    Expenses:Health:Doctor
+
+2025-10-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
 
 * CCF transactions
 2025-10-02 * Frais tenue de compte
@@ -253,6 +265,34 @@
     Expenses:Food:Snack                     EUR 2.70
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-15 * SNCF Haut-de-France TER card
+    Expenses:Travel:Train                     EUR 30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-15 * Le Rubis - Drinks with Isky
+    Expenses:Entertainment:Social:Bars     EUR 13.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-16 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-16 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-16 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-16 * Carrefour
+    Expenses:Food:Groceries                 EUR 3.70
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-17 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -338,6 +378,10 @@
     Expenses:Entertainment:Social:Bars        EUR 54
     Liabilities:FR:Amex:Gold
 
-2025-10-14 Charles prescription
+2025-10-14 * Charles prescription
     Expenses:Health:Pharmacy                  EUR 95
+    Liabilities:FR:Amex:Gold
+
+2025-10-16 Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold

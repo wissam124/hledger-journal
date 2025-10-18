@@ -24,6 +24,26 @@
     Expenses:PersonalCare:Hair                EUR 12
     Assets:FR:Cash
 
+2025-10-13 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:FR:Cash
+
+2025-10-16 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-10-16 * Therapy
+    Expenses:Health:Therapy                  EUR 120
+    Assets:FR:Cash
+
+2025-10-16 * Beer
+    Expenses:Entertainment:Social:Bars         EUR 5
+    Assets:FR:Cash
+
+2025-10-17 * Tennis lesson Joris
+    Expenses:Health:Sport                      EUR 40
+    Assets:FR:Cash
+
 * Bimpli meal card
 2025-10-07 * Lunch
     Expenses:Food:OfficeLunch                 EUR 11
@@ -146,9 +166,39 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
+2025-10-16 * Cash withdrawal
+    Assets:FR:Cash                           EUR 160
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-17 * Touquet tennis court booking
+    Expenses:Entertainment:Social:Sports      EUR 35
+    Liabilities:FR:Payables:Aurelie          EUR -35
+    Liabilities:FR:Payables:Aurelie           EUR 35
+    Assets:FR:BforBank:Compte-Courant        EUR -35
+
+2025-10-17 * Fft
+    Expenses:Health:Sport                     EUR 44
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-18 * Fitness Park
+    Expenses:Health:Gym                       EUR 60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-18 * EDF
+    Expenses:Home:Utilities:Electricity    EUR 52.69
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-17 Cash witdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
 * CCF transactions
 2025-10-02 * Frais tenue de compte
     Expenses:Fees:Bank                      EUR 2.40
+    Assets:FR:CCF:Compte-Joint
+
+2025-10-14 * Transfer to LDDS
+    Assets:FR:CCF:LDDS                        EUR 10
     Assets:FR:CCF:Compte-Joint
 
 * HSBC transactions
@@ -297,6 +347,22 @@
     Expenses:Food:Cafe                      EUR 4.50
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-17 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-17 * Water bottle
+    Expenses:Food:Snack                        EUR 2
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-17 * Sandwich train Touquet  ; aurelie:
+    Expenses:Food:Snack                     EUR 13.55
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-18 * Lola et Smith cafe  ; aurelie:
+    Expenses:Food:Cafe                         EUR 8
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -386,6 +452,10 @@
     Expenses:Health:Pharmacy                  EUR 95
     Liabilities:FR:Amex:Gold
 
-2025-10-16 Dott ride
+2025-10-16 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-10-17 * Dott ride
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold

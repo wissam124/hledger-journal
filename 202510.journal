@@ -363,6 +363,14 @@
     Expenses:Food:Cafe                         EUR 8
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-18 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-18 * Waikiki drinks
+    Expenses:Entertainment:Social:Bars      EUR 8.50
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2

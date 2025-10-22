@@ -356,7 +356,7 @@
     Expenses:Food:Cafe                      EUR 5.60
     Assets:UK:Revolut:Personal:EUR
 
-2025-06-01 * Rental Padel
+2025-06-01 * Padel rackets & balls rental
     Expenses:Entertainment:Social:Sports   EUR 18.50
     Assets:UK:Revolut:Personal:EUR
 
@@ -493,7 +493,7 @@
     Expenses:GiftsCharity:Gifts            EUR 11.90
     Liabilities:FR:Amex:Gold
 
-2025-06-08 * Padel booking
+2025-06-08 * Padel court booking Sportfield
     Expenses:Entertainment:Social:Sports      EUR 50
     Liabilities:FR:Amex:Gold
 
@@ -521,7 +521,7 @@
     Expenses:Transportation:Bikesharing    EUR 12.20
     Liabilities:FR:Amex:Gold
 
-2025-06-20 * Padel racket rental
+2025-06-20 * Padel rackets & balls rental
     Expenses:Entertainment:Social:Sports       EUR 8
     Liabilities:FR:Amex:Gold
 

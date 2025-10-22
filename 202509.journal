@@ -28,7 +28,7 @@
     Expenses:Entertainment:Social:Bars        EUR 12
     Assets:FR:Cash
 
-2025-09-06 * Estimated Cigarettes in Valencia
+2025-09-06 * Estimated cigarettes in Valencia
     Expenses:Cigarettes                       EUR 30
     Assets:FR:Cash
 
@@ -282,7 +282,7 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-09-23 * Paris Tennis court booking
+2025-09-23 * Tennis court booking Paris Tennis with Arnaud
     Expenses:Entertainment:Social:Sports      EUR 12
     Assets:FR:BforBank:Compte-Courant
 
@@ -335,7 +335,7 @@
     Assets:UK:HSBC:Current-Account
 
 * Revolut transactions
-2025-09-01 * Valencia Tennis Center - Latte
+2025-09-01 * Valencia Tennis Center latte
     Expenses:Food:Cafe                      EUR 1.60
     Assets:UK:Revolut:Personal:EUR
 
@@ -343,23 +343,23 @@
     Expenses:Transportation:PublicTransport    EUR 5
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-01 * Valencia Tennis Academy
-    Expenses:Health:Sport                      EUR 55
+2025-09-01 * Valencia Tennis Academy 1-to-1 coach
+    Expenses:Health:Sport:Tennis              EUR 55
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-01 * Consum - groceries shopping
     Expenses:Food:Groceries                EUR 19.13
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-02 * Valencia Tennis Academy
-    Expenses:Health:Sport                    EUR 165
+2025-09-02 * Valencia Tennis Academy 1-to-1 coach
+    Expenses:Health:Sport:Tennis             EUR 165
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-02 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.40
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-02 * Valencia Tennis Center racquet
+2025-09-02 * Valencia Tennis Center racket rental
     Expenses:Health:Sport                      EUR 5
     Assets:UK:Revolut:Personal:EUR
 
@@ -367,15 +367,15 @@
     Expenses:Food:Groceries                 EUR 4.53
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-03 * Valencia Tennis Center Cafe
+2025-09-03 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-03 * Valencia Tennis Center racquet
+2025-09-03 * Valencia Tennis Center racket rental
     Expenses:Health:Sport                      EUR 5
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-03 * Valencia Tennis Center Cafe
+2025-09-03 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
@@ -383,23 +383,23 @@
     Expenses:Food:Restaurants                 EUR 27
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-03 * Valencia Tennis Center Cafe
+2025-09-03 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-04 * Valencia Tennis Center Cafe
+2025-09-04 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-04 * Valencia Tennis Center racquet
+2025-09-04 * Valencia Tennis Center racket rental
     Expenses:Health:Sport                      EUR 5
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-04 * Valencia Tennis Center Cafe
+2025-09-04 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-04 * Valencia Tennis Center Cafe
+2025-09-04 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
@@ -407,19 +407,19 @@
     Expenses:Food:Groceries                 EUR 14.21
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-05 * Valencia Tennis Center Cafe
+2025-09-05 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-05 * Valencia Tennis Center racquet
+2025-09-05 * Valencia Tennis Center racket rental
     Expenses:Health:Sport                      EUR 5
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-05 * Valencia Tennis Center Cafe
+2025-09-05 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-05 * Valencia Tennis Center Cafe
+2025-09-05 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.20
     Assets:UK:Revolut:Personal:EUR
 

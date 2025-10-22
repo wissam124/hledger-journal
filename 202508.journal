@@ -150,7 +150,7 @@
     Expenses:Food:Cafe                         EUR 5
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-04 * Tennis court booking
+2025-08-04 * Tennis court booking Paris Tennis
     Expenses:Entertainment:Social:Sports      EUR 12
     Assets:FR:BforBank:Compte-Courant
 
@@ -218,7 +218,7 @@
     Expenses:Food:Cafe                     EUR 12.30
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-10 * Tennis court booking Touquet
+2025-08-10 * Tennis court booking Touquet Tennis Club
     Expenses:Entertainment:Social:Sports      EUR 28
     Assets:FR:BforBank:Compte-Courant
 
@@ -427,7 +427,7 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-16 * Tennis court
+2025-08-16 * Tennis court booking Paris Tennis
     Expenses:Entertainment:Social:Sports      EUR 12
     Assets:UK:Revolut:Personal:EUR
 
@@ -531,7 +531,7 @@
     Expenses:Food:Cafe                        EUR 22
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-27 * Anatoli - Padel
+2025-08-27 * Padel court booking Anatoli Skiathos
     Expenses:Entertainment:Social:Sports      EUR 30
     Assets:UK:Revolut:Personal:EUR
 
@@ -667,7 +667,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-08-19 * Valencia Tennis Academy
-    Expenses:Travel:Holidays                 EUR 105
+    Expenses:Health:Sport:Tennis             EUR 105
     Liabilities:FR:Amex:Gold
 
 2025-08-16 * Cable clips
@@ -686,7 +686,7 @@
     Expenses:Shopping:Sport                EUR 70.20
     Liabilities:FR:Amex:Gold
 
-2025-08-22 * Transvia Flights Valencia
+2025-08-22 * Transavia Flights Valencia
     Expenses:Travel:Flights                  EUR 254
     Liabilities:FR:Amex:Gold
 
@@ -713,7 +713,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-08-30 * Valencia Tennis Academy
-    Expenses:Health:Sport                    EUR 245
+    Expenses:Health:Sport:Tennis             EUR 245
     Liabilities:FR:Amex:Gold
 
 2025-08-31 * Taxi Orly

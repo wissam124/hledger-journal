@@ -82,7 +82,7 @@
     Expenses:Food:Snack                        EUR 2
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-01 * Paris Tennis court booking
+2025-10-01 * Tennis court booking Paris Tennis with Aurelie
     Expenses:Entertainment:Social:Sports      EUR 12
     Assets:FR:BforBank:Compte-Courant
 
@@ -146,8 +146,8 @@
     Expenses:Subscriptions:Software        EUR 33.99
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-13 * Paris Tennis court booking
-    Expenses:Entertainment:Social:Sports      EUR 12
+2025-10-13 * Tennis court booking lesson with Joris
+    Expenses:Health:Sport:Tennis              EUR 12
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-13 * Charles consultation
@@ -155,7 +155,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-13 * Tennis classes Match Point
-    Expenses:Health:Sport                    EUR 785
+    Expenses:Health:Sport:Tennis                    EUR 785
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-14 * Refund Alan physiotherapy
@@ -178,8 +178,8 @@
     Assets:FR:Cash                           EUR 160
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-17 * Touquet tennis court booking
-    Expenses:Entertainment:Social:Sports      EUR 35
+2025-10-17 * Tennis lesson Touquet Tennis Club
+    Expenses:Health:Sport:Tennis              EUR 35
     Liabilities:FR:Payables:Aurelie          EUR -35
     Liabilities:FR:Payables:Aurelie           EUR 35
     Assets:FR:BforBank:Compte-Courant        EUR -35
@@ -200,7 +200,7 @@
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-21 * Paris Tennis court booking
+2025-10-21 * Tennis court booking Paris Tennis
     Expenses:Health:Sport:Tennis              EUR 87
     Assets:FR:BforBank:Compte-Courant
 

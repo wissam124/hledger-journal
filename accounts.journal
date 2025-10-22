@@ -104,6 +104,7 @@ account Expenses:Health:Eye                                ; type: X
 account Expenses:Health:Gym                                ; type: X
 account Expenses:Health:Pharmacy                           ; type: X
 account Expenses:Health:Sport                              ; type: X
+account Expenses:Health:Sport:Tennis                       ; type: X
 account Expenses:Health:Supplements                        ; type: X
 account Expenses:Health:Therapy                            ; type: X
 account Expenses:Home                                      ; type: X

@@ -40,8 +40,8 @@
     Expenses:Entertainment:Social:Bars         EUR 5
     Assets:FR:Cash
 
-2025-10-17 * Tennis lesson Joris
-    Expenses:Health:Sport                      EUR 40
+2025-10-17 * Tennis lesson with Joris
+    Expenses:Health:Sport:Tennis              EUR 40
     Assets:FR:Cash
 
 * Bimpli meal card
@@ -83,7 +83,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-01 * Tennis court booking Paris Tennis with Aurelie
-    Expenses:Entertainment:Social:Sports      EUR 12
+    Expenses:Health:Sport:Tennis              EUR 12
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-02 * Rent Citeaux
@@ -146,7 +146,7 @@
     Expenses:Subscriptions:Software        EUR 33.99
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-13 * Tennis court booking lesson with Joris
+2025-10-13 * Tennis court booking Paris Tennis for lesson
     Expenses:Health:Sport:Tennis              EUR 12
     Assets:FR:BforBank:Compte-Courant
 
@@ -200,7 +200,7 @@
     Assets:FR:Cash                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-21 * Tennis court booking Paris Tennis
+2025-10-21 * Tennis court booking Paris Tennis 10-hour package
     Expenses:Health:Sport:Tennis              EUR 87
     Assets:FR:BforBank:Compte-Courant
 

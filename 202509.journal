@@ -13,11 +13,11 @@
     Assets:FR:Cash
 
 2025-09-01 * Valencia Tennis Center racket rental
-    Expenses:Health:Sport                      EUR 5
+    Expenses:Health:Sport:Tennis               EUR 5
     Assets:FR:Cash
 
-2025-09-02 * Racket rental afternoon
-    Expenses:Health:Sport                      EUR 5
+2025-09-02 * Valencia Tennis Center racket rental
+    Expenses:Health:Sport:Tennis               EUR 5
     Assets:FR:Cash
 
 2025-09-04 * MS Therapy
@@ -283,7 +283,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-23 * Tennis court booking Paris Tennis with Arnaud
-    Expenses:Entertainment:Social:Sports      EUR 12
+    Expenses:Health:Sport:Tennis              EUR 12
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-24 * Pepins restaurant
@@ -360,7 +360,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-02 * Valencia Tennis Center racket rental
-    Expenses:Health:Sport                      EUR 5
+    Expenses:Health:Sport:Tennis               EUR 5
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-02 * Mercadona
@@ -372,7 +372,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-03 * Valencia Tennis Center racket rental
-    Expenses:Health:Sport                      EUR 5
+    Expenses:Health:Sport:Tennis               EUR 5
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-03 * Valencia Tennis Center cafe
@@ -392,7 +392,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-04 * Valencia Tennis Center racket rental
-    Expenses:Health:Sport                      EUR 5
+    Expenses:Health:Sport:Tennis               EUR 5
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-04 * Valencia Tennis Center cafe
@@ -412,7 +412,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-05 * Valencia Tennis Center racket rental
-    Expenses:Health:Sport                      EUR 5
+    Expenses:Health:Sport:Tennis               EUR 5
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-05 * Valencia Tennis Center cafe

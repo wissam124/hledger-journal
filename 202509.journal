@@ -12,7 +12,7 @@
     Expenses:PersonalCare:Discretionary      EUR 120
     Assets:FR:Cash
 
-2025-09-01 * Racquet rental
+2025-09-01 * Valencia Tennis Center racket rental
     Expenses:Health:Sport                      EUR 5
     Assets:FR:Cash
 
@@ -355,7 +355,7 @@
     Expenses:Health:Sport                    EUR 165
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-02 * Valencia Tennis Center Cafe
+2025-09-02 * Valencia Tennis Center cafe
     Expenses:Food:Cafe                      EUR 1.40
     Assets:UK:Revolut:Personal:EUR
 

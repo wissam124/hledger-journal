@@ -65,6 +65,14 @@
     Expenses:Food:OfficeLunch              EUR 12.90
     Assets:FR:Bimpli
 
+2025-10-20 * Lunch Bistropolitain
+    Expenses:Food:OfficeLunch              EUR 12.90
+    Assets:FR:Bimpli
+
+2025-10-21 * Lunch Petit Panda
+    Expenses:Food:OfficeLunch                 EUR 11
+    Assets:FR:Bimpli
+
 * BforBank transactions
 2025-10-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -110,8 +118,8 @@
     Assets:FR:Cash                           EUR 140
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-06 * Transfer to CCF compte-joint
-    Assets:FR:CCF:Compte-Joint                 EUR 2.40
+2025-10-06 * Transfer to CCF
+    Assets:FR:CCF:Compte-Joint              EUR 2.40
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-06 * Cigarettes
@@ -176,8 +184,8 @@
     Liabilities:FR:Payables:Aurelie           EUR 35
     Assets:FR:BforBank:Compte-Courant        EUR -35
 
-2025-10-17 * Fft
-    Expenses:Health:Sport                     EUR 44
+2025-10-17 * Tickets Paris Masters 2025
+    Expenses:Entertainment:Events:Sports      EUR 44
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-18 * Fitness Park
@@ -188,8 +196,12 @@
     Expenses:Home:Utilities:Electricity    EUR 52.69
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-17 Cash witdrawal
+2025-10-17 * Cash witdrawal
     Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-21 * Paris Tennis court booking
+    Expenses:Health:Sport:Tennis              EUR 87
     Assets:FR:BforBank:Compte-Courant
 
 * CCF transactions
@@ -208,6 +220,10 @@
 
 2025-10-07 * Transfer to Revolut
     Assets:UK:Revolut:Personal:GBP         GBP 17200
+    Assets:UK:HSBC:Current-Account
+
+2025-10-21 * Transfer to Revolut
+    Assets:UK:Revolut:Personal:GBP      GBP 32690.54
     Assets:UK:HSBC:Current-Account
 
 * Revolut transactions
@@ -369,6 +385,38 @@
 
 2025-10-18 * Waikiki drinks
     Expenses:Entertainment:Social:Bars      EUR 8.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-20 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.32
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-20 * Cigarettes
+    Expenses:Cigarettes                       EUR 15
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-20 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 9.45
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-20 * On Your Whey - Protein drink
+    Expenses:Food:Snack                     EUR 2.80
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-20 * cojean - yoghurt dessert
+    Expenses:Food:OfficeLunch               EUR 5.30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-21 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-21 * Buy EUR with GBP
+    Assets:UK:Revolut:Personal:EUR      EUR 34098.53 @@ GBP 29632.18
+    Assets:UK:Revolut:Personal:GBP
+
+2025-10-21 * Transfer to CCF
+    Assets:FR:CCF:Compte-Joint          EUR 34098.53
     Assets:UK:Revolut:Personal:EUR
 
 * Amex transactions

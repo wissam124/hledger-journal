@@ -239,7 +239,7 @@
 2025-10-22 * Luko assurance  ; flat-vincennes:
     Expenses:Insurance:Home               EUR 160.44
     Assets:FR:BforBank:Compte-Courant    EUR -160.44
-    Assets:FR:Receivables:Aurelie          EUR 80.22
+    Assets:Receivables:Aurelie          EUR 80.22
     Expenses:Insurance:Home               EUR -80.22
 
 2025-10-23 * Transfer to CCF
@@ -594,10 +594,10 @@
 2025-10-06 * Deposit wooden floors  ; flat-vincennes:
     Expenses:Home:Furniture                 EUR 1000
     Liabilities:FR:Amex:Gold               EUR -1000
-    Assets:FR:Receivables:Aurelie            EUR 500
+    Assets:Receivables:Aurelie            EUR 500
     Expenses:Home:Furniture                 EUR -500
     Assets:FR:BforBank:Compte-Courant        EUR 500
-    Assets:FR:Receivables:Aurelie           EUR -500
+    Assets:Receivables:Aurelie           EUR -500
 
 2025-10-07 * Toothpaste
     Expenses:Health:Pharmacy                EUR 7.65
@@ -662,7 +662,7 @@
 2025-10-25 Vente Unique bed  ; flat-vincennes:
     Expenses:Home:Furniture               EUR 639.99
     Liabilities:FR:Amex:Gold             EUR -639.99
-    Assets:FR:Receivables:Aurelie            EUR 320
+    Assets:Receivables:Aurelie            EUR 320
     Expenses:Home:Furniture                 EUR -320
 
 2025-10-26 * Dott ride

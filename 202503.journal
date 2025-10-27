@@ -205,9 +205,9 @@
     Assets:FR:BforBank:Compte-Courant         EUR 50
     Income:FR:Resale
 
-2025-03-21 * Reduce receivables
+2025-03-21 * Reduce receivables thanks to heater cash sale
     Expenses:Home:Maintenance              EUR 49.45
-    Assets:FR:Receivables:Iskander
+    Assets:Receivables:Iskander
 
 2025-03-22 * Cash withdrawal
     Assets:FR:Cash                            EUR 70
@@ -521,12 +521,10 @@
     Liabilities:FR:Amex:Gold
 
 2025-03-16 * AMEX - Les Petites Maisons Hotel Alpilles
-    Expenses:Travel:Holidays:Accommodation    EUR 252
-    Liabilities:FR:Amex:Gold
-
-2025-03-16 * Aurelie Hotel Contribution
-    Assets:FR:Receivables:Aurelie            EUR 126
-    Expenses:Travel:Holidays:Accommodation
+    Expenses:Travel:Holidays:Accommodation   EUR 252
+    Liabilities:FR:Amex:Gold                EUR -252
+    Assets:Receivables:Aurelie               EUR 126
+    Expenses:Travel:Holidays:Accommodation  EUR -126
 
 2025-03-17 * Dott bike from Nation
     Expenses:Transportation:Bikesharing     EUR 2.78

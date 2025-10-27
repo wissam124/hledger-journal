@@ -466,7 +466,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-02-10 * Heater to be paid by Isky
-    Assets:FR:Receivables:Iskander        EUR 589.45
+    Assets:Receivables:Iskander        EUR 589.45
     Expenses:Home:Maintenance
 
 2025-02-15 * Zebra pencil

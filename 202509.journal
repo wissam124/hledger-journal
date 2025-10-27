@@ -164,15 +164,18 @@
 
 2025-09-09 * AirBnB Valencia Mum's share settlement
     Assets:FR:BforBank:Compte-Courant        EUR 300
-    Assets:FR:Receivables:Mum
+    Assets:Receivables:Mum
 
 2025-09-09 * Mum refunds ticket
     Assets:FR:BforBank:Compte-Courant        EUR 200
-    Liabilities:FR:Payables:Iskander
+    Liabilities:FR:Payables:Mum             EUR -200
+    Liabilities:FR:Payables:Mum              EUR 200
+    Liabiliites:FR:Payables:Iskander        EUR -200
+
 
 2025-09-09 * Transavia checked luggage mum's settlement
     Assets:FR:BforBank:Compte-Courant         EUR 36
-    Assets:FR:Receivables:Mum
+    Assets:Receivables:Mum
 
 2025-09-09 * Google Play Head 2 Ball
     Expenses:Entertainment:Digital          EUR 9.99
@@ -229,10 +232,10 @@
 2025-09-18 * De La Ville Cafe
     Expenses:Entertainment:Social:Bars     EUR 39.60
     Assets:FR:BforBank:Compte-Courant    EUR - 39.60
-    Assets:FR:Receivables:Arnaud              EUR 10
+    Assets:Receivables:Arnaud              EUR 10
     Expenses:Entertainment:Social:Bars       EUR -10
     Assets:FR:Cash                            EUR 10
-    Assets:FR:Receivables:Arnaud             EUR -10
+    Assets:Receivables:Arnaud             EUR -10
 
 2025-09-18 * Crepe Creme De Paris
     Expenses:Food:Snack                     EUR 3.50
@@ -691,7 +694,7 @@
 2025-09-06 * Transavia checked luggage for mum
     Expenses:Travel:Flights                   EUR 36
     Liabilities:FR:Amex:Gold                 EUR -36
-    Assets:FR:Receivables:Mum                 EUR 36
+    Assets:Receivables:Mum                    EUR 36
     Expenses:Travel:Flights                  EUR -36
 
 2025-09-08 * Refund Hyrox

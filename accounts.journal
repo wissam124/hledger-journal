@@ -24,18 +24,21 @@ account Assets:FR:CCF:LDDS                        ; type: C
 account Assets:FR:Cash                            ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
-account Assets:Home                               ; type: A
+account Assets:Home:Vincennes                     ; type: A
+account Assets:Home:Vincennes:Acquisition:Price   ; type: A
+account Assets:Home:Vincennes:Acquisition:Fees    ; type: A
+account Assets:Home:Vincennes:Improvements        ; type: A
 account Assets:UK:HSBC:Current-Account            ; type: C
 account Assets:UK:Halifax:Current-Account         ; type: C
 account Assets:UK:Moneyfarm                       ; type: A
 account Assets:UK:Revolut:Personal:EUR            ; type: C
 account Assets:UK:Revolut:Personal:GBP            ; type: C
 
-account Assets:FR:Receivables                     ; type: A
-account Assets:FR:Receivables:Aurelie             ; type: A
-account Assets:FR:Receivables:Arnaud              ; type: A
-account Assets:FR:Receivables:Iskander            ; type: A
-account Assets:FR:Receivables:Mum                 ; type: A
+account Assets:Receivables                     ; type: A
+account Assets:Receivables:Aurelie             ; type: A
+account Assets:Receivables:Arnaud              ; type: A
+account Assets:Receivables:Iskander            ; type: A
+account Assets:Receivables:Mum                 ; type: A
 
 ; Liabilities: money I owe (loans, credit card debt, etc.)
 account Liabilities:FR:Amex:Gold                  ; type: L

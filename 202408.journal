@@ -465,13 +465,11 @@
     Assets:FR:BforBank:Compte-Courant     EUR -294.26
 
 ; Manual entries
-2024-08-31 * Receivable holidays Brittany
-    Assets:FR:Receivables:Aurelie            EUR 487
-    Expenses:Travel:Holidays
-
 2024-08-31 * Settlement Aurelie holidays Brittany
+    Assets:Receivables:Aurelie               EUR 487
+    Expenses:Travel:Holidays                EUR -487
     Assets:FR:BforBank:Compte-Courant        EUR 487
-    Assets:FR:Receivables:Aurelie
+    Assets:Receivables:Aurelie              EUR -487
 
 2024-08-01 * Mum's advance for Transavia Payment
     Assets:FR:BforBank:Compte-Courant        EUR 361

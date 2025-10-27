@@ -77,7 +77,7 @@
 2025-07-01 * Flat purchase sollicitor
     Expenses:Home:Purchase:NotaryFees        EUR 550
     Assets:FR:BforBank:Compte-Courant        EUR -550
-    Assets:FR:Receivables:Aurelie            EUR 225
+    Assets:Receivables:Aurelie            EUR 225
     Expenses:Home:Purchase:NotaryFees        EUR -225
 
 2025-07-02 * Transfer Revolut
@@ -348,7 +348,7 @@
 
 2025-07-10 * Isky's settlement for cooking hob
     Assets:UK:Revolut:Personal:EUR              EUR 1412
-    Assets:FR:Receivables:Iskander
+    Assets:Receivables:Iskander
 
 2025-07-10 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -492,20 +492,16 @@
     Liabilities:FR:Amex:Gold
 
 2025-07-06 * Florent share Virtuo
-    Assets:FR:Receivables                    EUR 102
-    Expenses:Transportation:CarRental
-
-2025-07-06 * Florent settlement
+    Assets:Receivables                       EUR 102
+    Expenses:Transportation:CarRental       EUR -102
     Assets:FR:BforBank:Compte-Courant        EUR 102
-    Assets:FR:Receivables
+    Assets:Receivables                      EUR -102
 
 2025-07-09 * Cooking hob for mum
-    Expenses:Home:Furniture                 EUR 1412.12
-    Liabilities:FR:Amex:Gold
-
-2025-07-09 * Isky's expected repayment cooking hob
-    Assets:FR:Receivables:Iskander          EUR 1412
-    Expenses:Home:Furniture
+    Expenses:Home:Furniture              EUR 1412.12
+    Liabilities:FR:Amex:Gold            EUR -1412.12
+    Assets:Receivables:Iskander          EUR 1412.12
+    Expenses:Home:Furniture             EUR -1412.12
 
 2025-07-11 * Uber to Gare du Nord
     Expenses:Transportation:Taxi            EUR 18.97
@@ -525,13 +521,11 @@
 
 2025-07-19 * Deliveroo Pizzou
     Expenses:Food:Delivery                 EUR 27.39
-    Liabilities:FR:Amex:Gold               EUR -27.39
-    Assets:FR:Receivables:Aurelie             EUR 27
+    Liabilities:FR:Amex:Gold              EUR -27.39
+    Assets:Receivables:Aurelie                EUR 27
     Expenses:Food:Delivery                   EUR -27
-
-2025-07-19 * Deliveroo Pizzou Aurelie settlt
     Assets:FR:BforBank:Compte-Courant         EUR 27
-    Assets:FR:Receivables:Aurelie
+    Assets:Receivables:Aurelie               EUR -27
 
 2025-07-23 * Dott pass
     Expenses:Transportation:Bikesharing     EUR 4.99

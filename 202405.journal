@@ -432,10 +432,8 @@
     Expenses:Food:OfficeLunch                EUR 1.49
     Assets:FR:BforBank:Compte-Courant       EUR -1.49
 
-2024-05-30 * Receivable holidays Madeira
-    Assets:FR:Receivables:Aurelie            EUR 563
-    Expenses:Travel:Holidays
-
 2024-05-30 * Settlement Aurelie holidays Madeira
+    Assets:Receivables:Aurelie               EUR 563
+    Expenses:Travel:Holidays                EUR -563
     Assets:FR:BforBank:Compte-Courant        EUR 563
-    Assets:FR:Receivables:Aurelie
+    Assets:Receivables:Aurelie              EUR -563

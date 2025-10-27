@@ -180,7 +180,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-24 * Bargalia Cafe Gordes Receivable
-    Assets:FR:Receivables:Aurelie              EUR 2
+    Assets:Receivables:Aurelie              EUR 2
     Expenses:Food:Cafe
 
 2025-04-24 * Cigarettes
@@ -196,7 +196,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-24 * Gordes Castle Receivable
-    Assets:FR:Receivables:Aurelie              EUR 6
+    Assets:Receivables:Aurelie              EUR 6
     Expenses:Entertainment:Events
 
 2025-04-25 * Ice Cream Rousillon
@@ -216,7 +216,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-26 * Car Rental cleaning receivable
-    Assets:FR:Receivables:Aurelie              EUR 3
+    Assets:Receivables:Aurelie              EUR 3
     Expenses:Transportation:CarRental
 
 2025-04-26 * Car Rental fuel
@@ -224,7 +224,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-26 * Car Rental fuel receivable
-    Assets:FR:Receivables:Aurelie          EUR 23.75
+    Assets:Receivables:Aurelie          EUR 23.75
     Expenses:Transportation:CarRental
 
 2025-04-30 * Durum with Aurelie
@@ -298,7 +298,7 @@
 
 2025-04-11 * Isky heater settlement
     Assets:UK:Revolut:Personal:EUR           EUR 540
-    Assets:FR:Receivables:Iskander
+    Assets:Receivables:Iskander
 
 2025-04-12 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 8.92
@@ -393,7 +393,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-23 * Water Bottle receivable
-    Assets:FR:Receivables:Aurelie           EUR 1.75
+    Assets:Receivables:Aurelie           EUR 1.75
     Expenses:Food:Snack
 
 2025-04-23 * Coffee Brioche Train
@@ -401,7 +401,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-23 * Coffee Brioche Train receivable
-    Assets:FR:Receivables:Aurelie           EUR 3.65
+    Assets:Receivables:Aurelie           EUR 3.65
     Expenses:Food:Snack
 
 2025-04-23 * Toilets Avignon Train Station
@@ -417,7 +417,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-27 * Cafe Kayser Avignon Station
-    Assets:FR:Receivables:Aurelie           EUR 3.45
+    Assets:Receivables:Aurelie           EUR 3.45
     Expenses:Food:Cafe
 
 2025-04-27 * Cigarettes
@@ -583,7 +583,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-04-23 * Super U groceries receivables
-    Assets:FR:Receivables:Aurelie          EUR 25.57
+    Assets:Receivables:Aurelie          EUR 25.57
     Expenses:Food:Groceries
 
 2025-04-23 * Butcher La Provencale
@@ -591,7 +591,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-04-23 * Butcher La Provencale Receivables
-    Assets:FR:Receivables:Aurelie          EUR 19.53
+    Assets:Receivables:Aurelie          EUR 19.53
     Expenses:Food:Groceries
 
 2025-04-26 * Hameau des Baux restaurant and drinks
@@ -613,4 +613,4 @@
 
 2025-04-27 * Settlement payables
     Liabilities:FR:Payables:Aurelie         EUR 31.5
-    Assets:FR:Receivables:Aurelie
+    Assets:Receivables:Aurelie

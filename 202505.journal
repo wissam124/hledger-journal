@@ -448,17 +448,13 @@
     Expenses:Transportation:PublicTransport  EUR 2.50
     Assets:UK:Revolut:Personal:EUR
 
-2025-05-24 * Ticket for stranger
+2025-05-24 * Paid a ticket for a stranger
     Expenses:Transportation:PublicTransport    EUR 5
-    Assets:UK:Revolut:Personal:EUR
-
-2025-05-24 * Stranger's ticket receivable
-    Assets:FR:Receivables                      EUR 5
-    Expenses:Transportation:PublicTransport
-
-2025-05-24 * Stranger's ticket receivable settlement
+    Assets:UK:Revolut:Personal:EUR            EUR -5
+    Assets:Receivables                         EUR 5
+    Expenses:Transportation:PublicTransport   EUR -5
     Assets:FR:Cash                             EUR 5
-    Assets:FR:Receivables
+    Assets:Receivables                        EUR -5
 
 2025-05-25 * Beeminder fine
     Expenses:Subscriptions:Software         EUR 4.46
@@ -551,15 +547,11 @@
 
 2025-05-15 * Restaurant Hugo & Co with Richard
     Expenses:Food:Restaurants             EUR 104.50
-    Liabilities:FR:Amex:Gold
-
-2025-05-15 * Restaurant Hugo & Co receivables
-    Assets:FR:Receivables:Aurelie             EUR 55
-    Expenses:Food:Restaurants
-
-2025-05-15 * Settlement receivables
+    Liabilities:FR:Amex:Gold             EUR -104.50
+    Assets:Receivables:Aurelie                EUR 55
+    Expenses:Food:Restaurants                EUR -55
     Assets:FR:BforBank:Compte-Courant         EUR 55
-    Assets:FR:Receivables:Aurelie
+    Assets:Receivables:Aurelie               EUR -55
 
 2025-05-16 * Uber Trip to Gare du Nord
     Expenses:Transportation:Taxi           EUR 15.96
@@ -620,19 +612,17 @@
 ; Accounts receivable/payable
 2025-05-05 * Luberon dinners paid by Glenn
     Expenses:Food:Restaurants                EUR 345
-    Liabilities:FR:Payables:Glenn
-
-2025-05-05 * Settle payables with Glenn
+    Liabilities:FR:Payables:Glenn           EUR -345
     Liabilities:FR:Payables:Glenn            EUR 345
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:BforBank:Compte-Courant       EUR -345
 
 2025-05-05 * Luberon dinners receivables
-    Assets:FR:Receivables:Aurelie            EUR 120
+    Assets:Receivables:Aurelie            EUR 120
     Expenses:Food:Restaurants
 
 2025-05-05 * Settlement receivables Aurelie
     Assets:FR:BforBank:Compte-Courant     EUR 303.20
-    Assets:FR:Receivables:Aurelie
+    Assets:Receivables:Aurelie
 
 2025-05-16 * Padel court booking Canary Wharf
     Expenses:Entertainment:Social:Sports      GBP 80

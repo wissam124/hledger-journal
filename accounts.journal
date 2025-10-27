@@ -42,7 +42,6 @@ account Assets:Receivables:Mum                 ; type: A
 
 ; Liabilities: money I owe (loans, credit card debt, etc.)
 account Liabilities:FR:Amex:Gold                  ; type: L
-account Liabilities:FR:Loans:Personal             ; type: L
 account Liabilities:FR:Mortgage                   ; type: L
 account Liabilities:FR:Payables                   ; type: L
 account Liabilities:FR:Payables:Aurelie           ; type: L

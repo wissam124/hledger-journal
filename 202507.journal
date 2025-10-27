@@ -213,7 +213,7 @@
     Assets:FR:BforBank:LivretA
 
 2025-07-21 * Deposit flat purchase
-    Assets:Home                            EUR 32500
+    Assets:Home:Vincennes                  EUR 32500
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-22 * Cash witdrawal

@@ -4,8 +4,9 @@
 ; so that the account balance at Apr'24 month-end is EUR 1,039.04 as observed
 ; in spreadsheet tracking.
 ; This left-over balance will be fully utilised in the period Apr'24-Sep'24.
-2024-03-31 * Opening bal BforBank CC for Apr'24-Sep-24 cash adjustment
-    Assets:FR:BforBank:Compte-Courant     EUR -221.92   ; Negative balance
+2024-03-31 * Opening balance BforBank Compte-Courant
+    ; Set to match Apr'24-Sep-24 cumulated leftover cash
+    Assets:FR:BforBank:Compte-Courant     EUR -221.92   ; negative balance
     Equity:Opening-Balances
 
 ; Opening balance for livret A calculated as the difference between
@@ -26,16 +27,16 @@
 
 ; Opening balance for PER/PEI
 ; All tax-deferred personal contributions before 2024
-2024-03-31 * Opening balance PER Tax deferred  ; per-tax-deferred:
+2024-03-31 * Opening balance PER tax deferred  ; per-tax-deferred:
     Assets:FR:Epsor:PER        EUR 2500
     Equity:Opening-Balances
 
-; All contributions (personal and company's) to PER before 2024
+; All contributions (personal and company) to PER before 2024
 2024-03-31 * Opening balance PER
     Assets:FR:Epsor:PER                EUR 21811.25
     Equity:Opening-Balances
 
-; All contributions (personal and company's) to PEI before 2024
+; All contributions (personal and company) to PEI before 2024
 2024-03-31 * Opening balance PEI
     Assets:FR:Epsor:PEI                EUR 43036.02
     Equity:Opening-Balances

@@ -143,7 +143,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-05 * Settle liability with Aurelie
-    Liabilities:FR:Payables:Aurelie            EUR 8
+    Liabilities:Payables:Aurelie            EUR 8
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-04 * Cash withdrawal
@@ -212,8 +212,8 @@
 
 2025-10-17 * Tennis lesson Touquet Tennis Club
     Expenses:Health:Sport:Tennis              EUR 35
-    Liabilities:FR:Payables:Aurelie          EUR -35
-    Liabilities:FR:Payables:Aurelie           EUR 35
+    Liabilities:Payables:Aurelie          EUR -35
+    Liabilities:Payables:Aurelie           EUR 35
     Assets:FR:BforBank:Compte-Courant        EUR -35
 
 2025-10-17 * Tickets Paris Masters 2025  ; aurelie:
@@ -259,11 +259,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-26 * Repay loan from Isky
-    Liabilities:FR:Payables:Iskander         EUR 100
+    Liabilities:Payables:Iskander         EUR 100
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-27 * Repay loan from Isky
-    Liabilities:FR:Payables:Iskander       EUR 24900
+    Liabilities:Payables:Iskander       EUR 24900
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-26 Cash withdrawal
@@ -285,7 +285,7 @@
     Assets:FR:CCF:Compte-Joint
 
 2025-10-26 * Repay loan from Mum
-    Liabilities:FR:Payables:Mum              EUR 100
+    Liabilities:Payables:Mum              EUR 100
     Assets:FR:CCF:Compte-Joint
 
 * HSBC transactions
@@ -690,20 +690,20 @@
 * Liabilities
 2025-10-22 * Loan from Mum
     Assets:FR:CCF:Compte-Joint               EUR 100
-    Liabilities:FR:Payables:Mum
+    Liabilities:Payables:Mum
 
 2025-10-22 * Loan from Isky
     Assets:FR:CCF:Compte-Joint               EUR 100
-    Liabilities:FR:Payables:Iskander
+    Liabilities:Payables:Iskander
 
 2025-10-22 * Loan from Isky
     Assets:FR:CCF:Compte-Joint              EUR 9900
-    Liabilities:FR:Payables:Iskander
+    Liabilities:Payables:Iskander
 
 2025-10-23 * Loan from Isky
     Assets:FR:CCF:Compte-Joint             EUR 15000
-    Liabilities:FR:Payables:Iskander
+    Liabilities:Payables:Iskander
 
 2025-10-24 * Loan from Mum
     Assets:FR:CCF:Compte-Joint             EUR 29900
-    Liabilities:FR:Payables:Mum
+    Liabilities:Payables:Mum

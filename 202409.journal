@@ -418,7 +418,7 @@
 
 ; Manual entries
 2024-09-01 * Settle transavia flight mum
-    Liabilities:FR:Payables:Mum              EUR 361
+    Liabilities:Payables:Mum              EUR 361
     Expenses:Travel:Holidays
 
 ; PEA investments manual entries

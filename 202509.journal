@@ -168,9 +168,9 @@
 
 2025-09-09 * Mum refunds ticket
     Assets:FR:BforBank:Compte-Courant        EUR 200
-    Liabilities:FR:Payables:Mum             EUR -200
-    Liabilities:FR:Payables:Mum              EUR 200
-    Liabilities:FR:Payables:Iskander        EUR -200
+    Liabilities:Payables:Mum             EUR -200
+    Liabilities:Payables:Mum              EUR 200
+    Liabilities:Payables:Iskander        EUR -200
 
 2025-09-09 * Transavia checked luggage mum's settlement
     Assets:FR:BforBank:Compte-Courant         EUR 36
@@ -303,7 +303,7 @@
 2025-09-25 * Car Rental Insurance
     Assets:FR:BforBank:Compte-Courant        EUR 200
     Expenses:Transportation:CarRental       EUR -200
-    Liabilities:FR:Payables:Aurelie           EUR 75
+    Liabilities:Payables:Aurelie           EUR 75
     Expenses:Transportation:CarRental        EUR -75
 
 2025-09-26 * SFR
@@ -494,7 +494,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-10 * Pay back Isky for mum's ticket
-    Liabilities:FR:Payables:Iskander         EUR 200
+    Liabilities:Payables:Iskander         EUR 200
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-11 * Beeminder fine
@@ -786,7 +786,7 @@
 
 * Other liabilities
 2025-09-08 * Match tricount balance for settlement
-    Liabilities:FR:Payables:Aurelie        EUR 84.24
+    Liabilities:Payables:Aurelie        EUR 84.24
     Expenses:Travel:Holidays
 
 2025-09-08 * Buy GBP with Revolut

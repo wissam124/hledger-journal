@@ -429,7 +429,7 @@
     Assets:UK:Revolut:Personal:GBP
 
 2025-05-20 * Settlement padel
-    Liabilities:UK:Payables:Iskander          GBP 80
+    Liabilities:Payables:Iskander          GBP 80
     Assets:UK:Revolut:Personal:GBP
 
 2025-05-20 * Durum
@@ -612,8 +612,8 @@
 ; Accounts receivable/payable
 2025-05-05 * Luberon dinners paid by Glenn
     Expenses:Food:Restaurants                EUR 345
-    Liabilities:FR:Payables:Glenn           EUR -345
-    Liabilities:FR:Payables:Glenn            EUR 345
+    Liabilities:Payables:Glenn           EUR -345
+    Liabilities:Payables:Glenn            EUR 345
     Assets:FR:BforBank:Compte-Courant       EUR -345
 
 2025-05-05 * Luberon dinners receivables
@@ -626,7 +626,7 @@
 
 2025-05-16 * Padel court booking Canary Wharf
     Expenses:Entertainment:Social:Sports      GBP 80
-    Liabilities:UK:Payables:Iskander
+    Liabilities:Payables:Iskander
 
 ; Investment funds valuation
 2025-05-12 * Moneyfarm valuation

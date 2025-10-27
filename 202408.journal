@@ -473,4 +473,4 @@
 
 2024-08-01 * Mum's advance for Transavia Payment
     Assets:FR:BforBank:Compte-Courant        EUR 361
-    Liabilities:FR:Payables:Mum
+    Liabilities:Payables:Mum

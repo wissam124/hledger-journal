@@ -609,8 +609,8 @@
 * Payables
 2025-04-27 * Holidays payables
     Expenses:Travel:Holidays                EUR 31.5
-    Liabilities:FR:Payables:Aurelie
+    Liabilities:Payables:Aurelie
 
 2025-04-27 * Settlement payables
-    Liabilities:FR:Payables:Aurelie         EUR 31.5
+    Liabilities:Payables:Aurelie         EUR 31.5
     Assets:Receivables:Aurelie

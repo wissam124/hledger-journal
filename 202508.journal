@@ -721,27 +721,27 @@
 * Other liabilities
 2025-08-03 * Hotel Skiatos
     Expenses:Travel:Holidays:Accommodation  EUR 141.80
-    Liabilities:FR:Payables:Aurelie
+    Liabilities:Payables:Aurelie
 
 2025-08-03 * Refund Aurelie
     Assets:FR:BforBank:Compte-Courant       EUR 1145
     Assets:Receivables:Aurelie
 
 2025-08-05 * Settlement with Aurelie
-    Liabilities:FR:Payables:Aurelie       EUR 141.80
+    Liabilities:Payables:Aurelie       EUR 141.80
     Assets:Receivables:Aurelie
 
 2025-08-11 * Hotel Athens arrival
     Expenses:Travel:Holidays:Accommodation  EUR 53.38
-    Liabilities:FR:Payables:Aurelie
+    Liabilities:Payables:Aurelie
 
 2025-08-11 * Hotel wedding
     Expenses:Travel:Holidays:Accommodation    EUR 69
-    Liabilities:FR:Payables:Aurelie
+    Liabilities:Payables:Aurelie
 
 2025-08-11 * Hotel Spata
     Expenses:Travel:Holidays:Accommodation  EUR 44.86
-    Liabilities:FR:Payables:Aurelie
+    Liabilities:Payables:Aurelie
 
 2025-08-07 * Cafe Nuances
     Expenses:Food:Cafe                      GBP 7.86

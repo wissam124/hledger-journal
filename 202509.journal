@@ -170,8 +170,7 @@
     Assets:FR:BforBank:Compte-Courant        EUR 200
     Liabilities:FR:Payables:Mum             EUR -200
     Liabilities:FR:Payables:Mum              EUR 200
-    Liabiliites:FR:Payables:Iskander        EUR -200
-
+    Liabilities:FR:Payables:Iskander        EUR -200
 
 2025-09-09 * Transavia checked luggage mum's settlement
     Assets:FR:BforBank:Compte-Courant         EUR 36

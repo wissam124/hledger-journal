@@ -151,7 +151,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-06 * Cash withdrawal fee
-    Expenses:Fees:ATM                       EUR 2.90
+    Expenses:Finance:ATM                       EUR 2.90
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-08 * Valencia underground
@@ -685,7 +685,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-09-06 * Amex subscription
-    Expenses:Fees:CreditCard                  EUR 16
+    Expenses:Finance:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 
 2025-09-06 * Transavia checked luggage for mum

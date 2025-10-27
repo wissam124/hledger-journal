@@ -25,7 +25,7 @@
     Assets:FR:BforBank:Compte-Courant        EUR -200
 
 2025-02-01 * AMEX - 2025-01-20 - AMEX subscription
-    Expenses:Fees:CreditCard                   EUR 15
+    Expenses:Finance:CreditCard                   EUR 15
     Assets:FR:BforBank:Compte-Courant         EUR -15
 
 2025-02-01 * AMEX - 2025-01-21 - Padel with Florent & Henri
@@ -249,7 +249,7 @@
     Assets:FR:BforBank:Compte-Courant       EUR -73.4
 
 2025-02-14 * Boursobank fees
-    Expenses:Fees:Bank                          EUR 9
+    Expenses:Finance:Bank                          EUR 9
     Assets:FR:BforBank:Compte-Courant          EUR -9
 
 2025-02-14 * Lebara phone plan
@@ -474,7 +474,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-02-20 * Amex subscription
-    Expenses:Fees:CreditCard                  EUR 15
+    Expenses:Finance:CreditCard                  EUR 15
     Liabilities:FR:Amex:Gold
 
 2025-02-20 * Officine Générale trousers

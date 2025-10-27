@@ -486,7 +486,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-06-06 * Amex subscription
-    Expenses:Fees:CreditCard                  EUR 16
+    Expenses:Finance:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 
 2025-06-06 * Gift Henri Tour d'Ivoire

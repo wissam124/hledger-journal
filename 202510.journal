@@ -277,7 +277,7 @@
 
 * CCF transactions
 2025-10-02 * Frais tenue de compte
-    Expenses:Fees:Bank                      EUR 2.40
+    Expenses:Finance:Bank                      EUR 2.40
     Assets:FR:CCF:Compte-Joint
 
 2025-10-14 * Transfer to LDDS
@@ -579,8 +579,8 @@
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
-2025-10-06 * Amex gold subscription
-    Expenses:Fees:CreditCard                  EUR 16
+2025-10-06 * Amex subscription
+    Expenses:Finance:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 
 2025-10-05 * Dott

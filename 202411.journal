@@ -21,7 +21,7 @@
     Assets:FR:BforBank:Compte-Courant      EUR -53.49
 
 2024-11-01 * AMEX - 2024-10-20 - AMEX subscription
-    Expenses:Fees:CreditCard                   EUR 15
+    Expenses:Finance:CreditCard                   EUR 15
     Assets:FR:BforBank:Compte-Courant         EUR -15
 
 2024-11-01 * AMEX - 2024-11-03 - SNCF Carte Avantage
@@ -185,7 +185,7 @@
     Income:FR:Resale:Vinted                   EUR -45
 
 2024-11-14 * Boursobank fees
-    Expenses:Fees:Bank                          EUR 9
+    Expenses:Finance:Bank                          EUR 9
     Assets:FR:BforBank:Compte-Courant          EUR -9
 
 2024-11-14 * Drinks with Glenn Denfert

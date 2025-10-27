@@ -21,7 +21,7 @@
     Assets:FR:BforBank:Compte-Courant      EUR -15.99
 
 2024-12-01 * AMEX - 2024-11-20 - AMEX subscription
-    Expenses:Fees:CreditCard                   EUR 15
+    Expenses:Finance:CreditCard                   EUR 15
     Assets:FR:BforBank:Compte-Courant         EUR -15
 
 2024-12-01 * AMEX - 2024-11-22 - Dott ride
@@ -69,7 +69,7 @@
     Assets:FR:BforBank:Compte-Courant             EUR -86.4
 
 2024-12-01 * Overdraft fees
-    Expenses:Fees:Bank                       EUR 0.01
+    Expenses:Finance:Bank                       EUR 0.01
     Assets:FR:BforBank:Compte-Courant       EUR -0.01
 
 2024-12-01 * Sweets
@@ -297,7 +297,7 @@
     Assets:FR:BforBank:Compte-Courant        EUR -1.2
 
 2024-12-20 * Boursobank fees
-    Expenses:Fees:Bank                          EUR 9
+    Expenses:Finance:Bank                          EUR 9
     Assets:FR:BforBank:Compte-Courant          EUR -9
 
 2024-12-20 * Deliveroo fees

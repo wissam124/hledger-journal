@@ -90,10 +90,10 @@ account Expenses:Entertainment:Reading:Books               ; type: X
 account Expenses:Entertainment:Reading:Magazines           ; type: X
 account Expenses:Entertainment:Social:Bars                 ; type: X
 account Expenses:Entertainment:Social:Sports               ; type: X
-account Expenses:Fees                                      ; type: X
-account Expenses:Fees:ATM                                  ; type: X
-account Expenses:Fees:Bank                                 ; type: X
-account Expenses:Fees:CreditCard                           ; type: X
+account Expenses:Finance:ATM                               ; type: X
+account Expenses:Finance:Bank                              ; type: X
+account Expenses:Finance:CreditCard                        ; type: X
+account Expenses:Finance:MortgageInterest                  ; type: X
 account Expenses:Food:Cafe                                 ; type: X
 account Expenses:Food:Delivery                             ; type: X
 account Expenses:Food:FastFood                             ; type: X

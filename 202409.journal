@@ -25,7 +25,7 @@
     Assets:FR:BforBank:Compte-Courant          EUR -1
 
 2024-09-01 * AMEX - 2024-08-20 - AMEX subscription
-    Expenses:Fees:CreditCard                   EUR 15
+    Expenses:Finance:CreditCard                   EUR 15
     Assets:FR:BforBank:Compte-Courant         EUR -15
 
 2024-09-01 * AMEX - 2024-08-24 - Hôtel Sainte Barbe

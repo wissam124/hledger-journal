@@ -319,7 +319,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-26 * Cash withdrawal fee
-    Expenses:Fees:ATM                       EUR 1.80
+    Expenses:Finance:ATM                       EUR 1.80
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-26 * GP consultation refund
@@ -603,7 +603,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-08-06 * Amex subscription
-    Expenses:Fees:CreditCard                  EUR 16
+    Expenses:Finance:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 
 2025-08-08 * Books Amazon

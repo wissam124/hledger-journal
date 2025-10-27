@@ -555,7 +555,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-04-06 * Amex subscription
-    Expenses:Fees:CreditCard                  EUR 16
+    Expenses:Finance:CreditCard                  EUR 16
     Liabilities:FR:Amex:Gold
 
 2025-04-08 * Fedex invoice

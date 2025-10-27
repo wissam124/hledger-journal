@@ -44,6 +44,22 @@
     Expenses:Health:Sport:Tennis              EUR 40
     Assets:FR:Cash
 
+2025-10-23 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-10-25 * Unaccounted cash expenses
+    Expenses:Misc:Unaccounted               EUR 8.10
+    Assets:FR:Cash
+
+2025-10-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
+2025-10-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:Cash
+
 * Bimpli meal card
 2025-10-07 * Lunch
     Expenses:Food:OfficeLunch                 EUR 11
@@ -72,6 +88,22 @@
 2025-10-21 * Lunch Petit Panda
     Expenses:Food:OfficeLunch                 EUR 11
     Assets:FR:Bimpli
+
+2025-10-23 * Lunch Mister Garden
+    Expenses:Food:OfficeLunch              EUR 15.30
+    Assets:FR:Bimpli
+
+2025-10-24 * Durum Saint-Michel
+    Expenses:Food:FastFood                  EUR 8.90
+    Assets:FR:Bimpli
+
+2025-10-27 * Lunch Bagnard
+    Expenses:Food:OfficeLunch                 EUR 18
+    Assets:FR:Bimpli
+
+2025-10-27 * Assert balance as seen on receipt from Bagnard
+    Assets:FR:Bimpli  == EUR 301.08
+    Expenses:Food:OfficeLunch
 
 * BforBank transactions
 2025-10-01 * Cigarettes
@@ -155,7 +187,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-13 * Tennis classes Match Point
-    Expenses:Health:Sport:Tennis                    EUR 785
+    Expenses:Health:Sport:Tennis             EUR 785
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-14 * Refund Alan physiotherapy
@@ -184,7 +216,7 @@
     Liabilities:FR:Payables:Aurelie           EUR 35
     Assets:FR:BforBank:Compte-Courant        EUR -35
 
-2025-10-17 * Tickets Paris Masters 2025
+2025-10-17 * Tickets Paris Masters 2025  ; aurelie:
     Expenses:Entertainment:Events:Sports      EUR 44
     Assets:FR:BforBank:Compte-Courant
 
@@ -204,6 +236,45 @@
     Expenses:Health:Sport:Tennis              EUR 87
     Assets:FR:BforBank:Compte-Courant
 
+2025-10-22 * Luko assurance  ; flat-vincennes:
+    Expenses:Insurance:Home               EUR 160.44
+    Assets:FR:BforBank:Compte-Courant    EUR -160.44
+    Assets:FR:Receivables:Aurelie          EUR 80.22
+    Expenses:Insurance:Home               EUR -80.22
+
+2025-10-23 * Transfer to CCF
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-23 * Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-24 * Transfer to CCF
+    Assets:FR:CCF:Compte-Joint             EUR 29900
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-24 * SFR
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-26 * Repay loan from Isky
+    Liabilities:FR:Payables:Iskander         EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-27 * Repay loan from Isky
+    Liabilities:FR:Payables:Iskander       EUR 24900
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-26 Cash withdrawal
+    Assets:FR:Cash                            EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+* boursobank transactions
+2025-10-21 * Kayser
+    Expenses:Food:Snack                     EUR 2.40
+    Assets:FR:BoursoBank:Compte-Courant
+
 * CCF transactions
 2025-10-02 * Frais tenue de compte
     Expenses:Fees:Bank                      EUR 2.40
@@ -211,6 +282,10 @@
 
 2025-10-14 * Transfer to LDDS
     Assets:FR:CCF:LDDS                        EUR 10
+    Assets:FR:CCF:Compte-Joint
+
+2025-10-26 * Repay loan from Mum
+    Liabilities:FR:Payables:Mum              EUR 100
     Assets:FR:CCF:Compte-Joint
 
 * HSBC transactions
@@ -419,6 +494,58 @@
     Assets:FR:CCF:Compte-Joint          EUR 34098.53
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-22 * Lunch at Bagnard with Anne
+    Expenses:Food:OfficeLunch                 EUR 30
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-22 * Beeminder fines bundled
+    Expenses:Subscriptions:Software        GBP 26.31
+    Assets:UK:Revolut:Personal:GBP
+
+2025-10-25 * Beeminder fines bundled
+    Expenses:Subscriptions:Software        GBP 15.08
+    Assets:UK:Revolut:Personal:GBP
+
+2025-10-23 * Cafe Nuances
+    Expenses:Food:Cafe                         EUR 9
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-24 * Kayser
+    Expenses:Food:Snack                     EUR 2.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-24 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-24 * The Highlander Scottish Pub
+    Expenses:Entertainment:Social:Bars        EUR 27
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-25 * Cafe and pain au chocolat
+    Expenses:Food:Cafe                      EUR 5.20
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-25 * Toilets Westfield La Defense
+    Expenses:Misc                              EUR 1
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-25 * Starbucks
+    Expenses:Food:Cafe                      EUR 5.70
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-25 * McDonald's
+    Expenses:Food:FastFood                  EUR 5.90
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-25 * Carrefour
+    Expenses:Food:Groceries                EUR 14.70
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -481,7 +608,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-10-09 * Restaurant Bar Le Shack  ; aurelie:
-    Expenses:Food:Restaurants              EUR 80
+    Expenses:Food:Restaurants                 EUR 80
     Liabilities:FR:Amex:Gold
 
 2025-10-10 * Amex gold settlement
@@ -515,3 +642,68 @@
 2025-10-17 * Dott ride
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
+
+2025-10-24 * Dott pass
+    Expenses:Transportation:Bikesharing     EUR 5.99
+    Liabilities:FR:Amex:Gold
+
+2025-10-24 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 2.44
+    Liabilities:FR:Amex:Gold
+
+2025-10-24 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-10-24 * Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 2.22
+    Liabilities:FR:Amex:Gold
+
+2025-10-25 Vente Unique bed  ; flat-vincennes:
+    Expenses:Home:Furniture               EUR 639.99
+    Liabilities:FR:Amex:Gold             EUR -639.99
+    Assets:FR:Receivables:Aurelie            EUR 320
+    Expenses:Home:Furniture                 EUR -320
+
+2025-10-26 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+; EPSOR valuation following portfolio unwinding
+2025-10-21 * EPSOR PEI Valuation
+    Assets:FR:Epsor:PEI               = EUR 56994.57
+    Equity:Unrealised-PnL:EUR
+
+2025-10-21 * EPSOR PER valuation
+    Assets:FR:Epsor:PER               = EUR 37356.04
+    Equity:Unrealised-PnL:EUR
+
+2025-10-21 * Withdrawal EPSOR
+    Assets:FR:BforBank:Compte-Courant   EUR 92095.56
+    Assets:FR:Epsor:PEI                EUR -56994.57
+    Assets:FR:Epsor:PER                EUR -37356.04
+    Expenses:Taxes                       EUR 2255.05
+    Equity:Unrealised-PnL:EUR            EUR 8754.21
+    Equity:Unrealised-PnL:EUR            EUR 2637.17
+    Income:CapitalGains:Realised:EUR   EUR -11391.38
+
+* Liabilities
+2025-10-22 * Loan from Mum
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Liabilities:FR:Payables:Mum
+
+2025-10-22 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Liabilities:FR:Payables:Iskander
+
+2025-10-22 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint              EUR 9900
+    Liabilities:FR:Payables:Iskander
+
+2025-10-23 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint             EUR 15000
+    Liabilities:FR:Payables:Iskander
+
+2025-10-24 * Loan from Mum
+    Assets:FR:CCF:Compte-Joint             EUR 29900
+    Liabilities:FR:Payables:Mum

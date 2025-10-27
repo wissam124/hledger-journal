@@ -6,6 +6,11 @@ commodity EUR 1,000.00
 commodity GBP 1,000.00  ;yahoo_ticker:GBPEUR=X
 commodity LQQ 1.  ;yahoo_ticker:LQQ.PA
 
+; Tags
+tag aurelie
+tag flat-vincennes
+tag per-tax-deferred
+
 ; Assets: things I own (cash, bank account, investments)
 account Assets:FR:BforBank:Compte-Courant         ; type: C
 account Assets:FR:BforBank:LivretA                ; type: C

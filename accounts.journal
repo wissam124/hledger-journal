@@ -73,8 +73,8 @@ account Income:FR:BforBank:LivretA                ; type: R
 account Income:FR:Resale                          ; type: R
 account Income:FR:Resale:Vinted                   ; type: R
 account Income:FR:Insurance:Amex                  ; type: R
-account Income:CapitalGains:Realised:EUR          ; type: R
-account Income:CapitalGains:Realised:GBP          ; type: R
+account Income:CapitalGains:Realised:Epsor:PEI    ; type: R
+account Income:CapitalGains:Realised:Epsor:PER    ; type: R
 account Income:CapitalGains:Realised:Moneyfarm    ; type: R
 
 ; Expenses: Money I spend

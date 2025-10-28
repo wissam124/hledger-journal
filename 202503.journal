@@ -5,7 +5,7 @@
     Assets:UK:Revolut:Personal:EUR          EUR 0.50
     Assets:FR:BoursoBank:Compte-Courant     EUR 8.09
     Assets:Cash:EUR                          EUR 2.30
-    Equity:Opening-Balances
+    Equity:Opening-Balances:EUR
 
 2025-03-01 * BforBank adjustment
     Expenses:Misc:Unaccounted               EUR 7.52

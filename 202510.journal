@@ -105,6 +105,10 @@
     Assets:FR:Bimpli  == EUR 301.08
     Expenses:Food:OfficeLunch
 
+2025-10-28 * Lunch Petit Panda
+    Expenses:Food:OfficeLunch                 EUR 11
+    Assets:FR:Bimpli
+
 * BforBank transactions
 2025-10-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -548,6 +552,10 @@
 
 2025-10-25 * Carrefour
     Expenses:Food:Groceries                EUR 14.70
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-27 * Crepe
+    Expenses:Food:Snack                        EUR 4
     Assets:UK:Revolut:Personal:EUR
 
 * Amex transactions

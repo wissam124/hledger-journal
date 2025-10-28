@@ -12,6 +12,7 @@ tag flat-vincennes
 tag per-tax-deferred
 
 ; Assets: things I own (cash, bank account, investments)
+account Assets:Cash:EUR                           ; type: C
 account Assets:FR:BforBank:Compte-Courant         ; type: C
 account Assets:FR:BforBank:LivretA                ; type: C
 account Assets:FR:Bimpli                          ; type: C
@@ -21,7 +22,6 @@ account Assets:FR:BoursoBank:Compte-Courant       ; type: C
 account Assets:FR:CCF:Compte-Courant              ; type: C
 account Assets:FR:CCF:Compte-Joint                ; type: C
 account Assets:FR:CCF:LDDS                        ; type: C
-account Assets:FR:Cash                            ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
 account Assets:Home:Vincennes                     ; type: A

@@ -52,7 +52,7 @@ account Liabilities:UK:Halifax:Clarity            ; type: L
 ; Equity
 account Equity:Earnings:Current                   ; type: E
 account Equity:Earnings:Retained                  ; type: E
-account Equity:Opening-Balances                   ; type: E
+account Equity:Opening-Balances:EUR               ; type: E
 account Equity:Opening-Balances:GBP               ; type: E
 account Equity:Unrealised-PnL:EUR                 ; type: E
 account Equity:Unrealised-PnL:GBP                 ; type: E

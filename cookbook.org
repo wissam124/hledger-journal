@@ -177,3 +177,9 @@ the accumulated balance held in the expense account.
     Assets:Bank:Checking              80 EUR
     Expenses:Health:Reimbursements   -80 EUR
 #+end_src
+
+* Country prefix
+- For receivables and payables, what matters is the counterpary, not the
+  country. A receivable is a receivable, regardless of whether your mother is in
+  France or you repay a friend in London.
+  *-> no need for a country prefix here* does not add semantic value.

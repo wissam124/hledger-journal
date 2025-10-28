@@ -128,7 +128,34 @@ equity account.
     Equity:Unrealised-PnL:EUR
 #+end_src ledger
 
-This requires a regular balance assertion entry, for example monthly.
+This requires a regular balance assertion entry.
+For audit purposes, it is preferable to use a balance assertion based on an
+official valuation statement from the investment provider.
+
+** How to track the unrealised PnL?
+Whenever a balance assertion is entered, it will automatically adjust the
+corresponding equity account to match valuation changes.
+It is then easy to track the PnL looking at the register of the equity account.
+To facilitate granular tracking of a specific investment account, use a
+corresponding equity account as below.
+
+#+begin_src ledger
+2024-12-31 * EPSOR PEI valuation
+    Assets:FR:Epsor:PEI               = EUR 54886.46
+    Equity:CapitalGains:Unrealised:Epsor:PEI
+#+end_src ledger
+
+** How to materialse capital gains?
+The unrealised capital gains (or losses!) will accumulate in a chosen equity
+account.
+Capital gains are materialised by moving amounts from the equity account to
+an income account.
+
+#+begin_src ledger
+2025-10-21 * Withdrawal EPSOR
+    Equity:CapitalGains:Unrealised:Epsor:PEI  EUR 8754.21
+    Income:CapitalGains:Realised:Epsor:PEI  EUR -8754.21
+#+end_src ledger
 
 * How to deal with refunds?
 ** Refunds

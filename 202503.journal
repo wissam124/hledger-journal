@@ -573,4 +573,4 @@
 ; Valuation using value on screen
 2025-03-31 * Moneyfarm valuation
     Assets:UK:Moneyfarm               = GBP 48252.11
-    Equity:Unrealised-PnL:GBP
+    Equity:CapitalGains:Unrealised:Moneyfarm

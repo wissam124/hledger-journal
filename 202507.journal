@@ -500,8 +500,8 @@
 2025-07-09 * Cooking hob for mum
     Expenses:Home:Furniture              EUR 1412.12
     Liabilities:FR:Amex:Gold            EUR -1412.12
-    Assets:Receivables:Iskander          EUR 1412.12
-    Expenses:Home:Furniture             EUR -1412.12
+    Assets:Receivables:Iskander          EUR 1412
+    Expenses:Home:Furniture             EUR -1412
 
 2025-07-11 * Uber to Gare du Nord
     Expenses:Transportation:Taxi            EUR 18.97

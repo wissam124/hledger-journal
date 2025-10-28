@@ -54,8 +54,9 @@ account Equity:Earnings:Current                   ; type: E
 account Equity:Earnings:Retained                  ; type: E
 account Equity:Opening-Balances:EUR               ; type: E
 account Equity:Opening-Balances:GBP               ; type: E
-account Equity:Unrealised-PnL:EUR                 ; type: E
 account Equity:Unrealised-PnL:GBP                 ; type: E
+account Equity:CapitalGains:Unrealised:Epsor:PEI  ; type: E
+account Equity:CapitalGains:Unrealised:Epsor:PER  ; type: E
 
 # Equity accounts for trading and the conversion of
 # cash into investments vehicles (e.g. shares, ETFs, etc).

@@ -266,7 +266,7 @@
     Liabilities:Payables:Iskander       EUR 24900
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-26 Cash withdrawal
+2025-10-26 * Cash withdrawal
     Assets:Cash:EUR                            EUR 20
     Assets:FR:BforBank:Compte-Courant
 
@@ -286,6 +286,10 @@
 
 2025-10-26 * Repay loan from Mum
     Liabilities:Payables:Mum              EUR 100
+    Assets:FR:CCF:Compte-Joint
+
+2025-10-28 * Repay loan from Mum
+    Liabilities:Payables:Mum              EUR 29,900
     Assets:FR:CCF:Compte-Joint
 
 * HSBC transactions
@@ -659,11 +663,15 @@
     Expenses:Food:OfficeLunch               EUR 2.22
     Liabilities:FR:Amex:Gold
 
-2025-10-25 Vente Unique bed  ; flat-vincennes:
-    Expenses:Home:Furniture               EUR 639.99
-    Liabilities:FR:Amex:Gold             EUR -639.99
-    Assets:Receivables:Aurelie            EUR 320
-    Expenses:Home:Furniture                 EUR -320
+2025-10-25 * Vente Unique bed  ; flat-vincennes:
+    Expenses:Home:Furniture               EUR 635.99
+    Liabilities:FR:Amex:Gold             EUR -635.99
+    Assets:Receivables:Aurelie               EUR 318
+    Expenses:Home:Furniture                 EUR -318
+
+2025-10-26 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
 
 2025-10-26 * Dott ride
     Expenses:Transportation:Bikesharing     EUR 1.75

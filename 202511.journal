@@ -1,0 +1,105 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+* Cash expenses
+2025-11-01 * MS Therapy
+    Expenses:PersonalCare:Discretionary      EUR 220
+    Assets:Cash:EUR
+
+2025-11-01 * Cafe
+    Expenses:Food:Cafe                         EUR 2
+    Assets:Cash:EUR
+
+2025-11-01 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:Cash:EUR
+
+* BforBank transactions
+2025-11-01 * Cash withdrawal
+    Assets:Cash:EUR                           EUR 40
+    Assets:FR:BforBank:Compte-Courant
+
+2025-11-01 * Cash withdrawal
+    Assets:Cash:EUR                           EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-11-02 Cash withdrawal
+    Assets:Cash:EUR                           EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-11-03 * Rent Citeaux
+    Expenses:Home:Rent                      EUR 1050
+    Assets:FR:BforBank:Compte-Courant
+
+* Bimpli transactions
+2025-11-03 * Lunch Mister Garden
+    Expenses:Food:OfficeLunch              EUR 17.60
+    Assets:FR:Bimpli
+
+2025-11-04 * Lunch Lebanese
+    Expenses:Food:OfficeLunch              EUR 15.95
+    Assets:FR:Bimpli
+
+* Boursobank transactions
+
+* CCF transactions
+2025-11-03 * 111 Capital wage
+    Assets:FR:CCF:Compte-Courant         EUR 6371.58
+    Income:FR:111Capital:Salary
+
+2025-11-03 * Fees CCF
+    Expenses:Finance:Bank                   EUR 8.75
+    Assets:FR:CCF:Compte-Courant
+
+* Revolut transactions
+2025-11-01 * Gaia Torrefacteur
+    Expenses:Food:Cafe                         EUR 8
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-02 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-03 * Cong Ca Phe
+    Expenses:Food:Cafe                      EUR 6.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-03 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+* Amex transactions
+2025-11-01 * Leroy Merlin peinture  ; flat-vincennes:
+    Expenses:Home:Maintenance             EUR 119.91
+    Liabilities:FR:Amex:Gold             EUR -119.91
+    Liabilities:Payables:Aurelie           EUR 59.95
+    ; Assets:Receivables:Aurelie             EUR 59.95
+    Expenses:Home:Maintenance             EUR -59.95
+
+2025-11-01 * Leroy Melin brush  ; flat-vincennes:
+    Expenses:Home:Maintenance               EUR 3.59
+    Liabilities:FR:Amex:Gold
+
+2025-11-01 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-11-01 * Deliveroo
+    Expenses:Food:Delivery                 EUR 17.65
+    Liabilities:FR:Amex:Gold
+
+2025-11-02 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-11-03 * Velib
+    Expenses:Transportation:Bikesharing        EUR 8
+    Liabilities:FR:Amex:Gold
+
+2025-11-03 * Deliveroo Chez Antoine
+    Expenses:Food:Delivery                 EUR 30.29
+    Liabilities:FR:Amex:Gold
+
+* Liabilities
+2025-11-02 * Leroy Merlin paint and door handles
+    Expenses:Home:Maintenance              EUR 53.51
+    Liabilities:Payables:Aurelie

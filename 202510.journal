@@ -13,7 +13,7 @@
     Assets:Cash:EUR
 
 2025-10-04 * Therapy
-    Expenses:Health:Therapy                   EUR 120
+    Expenses:Health:Therapy                  EUR 120
     Assets:Cash:EUR
 
 2025-10-04 * Charity
@@ -57,6 +57,18 @@
     Assets:Cash:EUR
 
 2025-10-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:Cash:EUR
+
+2025-10-31 * Therapy
+    Expenses:Health:Therapy                  EUR 120
+    Assets:Cash:EUR
+
+2025-10-31 * Pain au chocolat
+    Expenses:Food:Snack                     EUR 1.30
+    Assets:Cash:EUR
+
+2025-10-31 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:Cash:EUR
 
@@ -108,6 +120,14 @@
 2025-10-28 * Lunch Petit Panda
     Expenses:Food:OfficeLunch                 EUR 11
     Assets:FR:Bimpli
+
+2025-10-30 * Lunch Mister Garden
+    Expenses:Food:OfficeLunch              EUR 20.30
+    Assets:FR:Bimpli
+
+2025-10-30 * Assert balance as seen on receipt from Mister Garden
+    Assets:FR:Bimpli  == EUR 267.38
+    Expenses:Food:OfficeLunch
 
 * BforBank transactions
 2025-10-01 * Cigarettes
@@ -211,13 +231,13 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-16 * Cash withdrawal
-    Assets:Cash:EUR                           EUR 160
+    Assets:Cash:EUR                          EUR 160
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-17 * Tennis lesson Touquet Tennis Club
     Expenses:Health:Sport:Tennis              EUR 35
-    Liabilities:Payables:Aurelie          EUR -35
-    Liabilities:Payables:Aurelie           EUR 35
+    Liabilities:Payables:Aurelie             EUR -35
+    Liabilities:Payables:Aurelie              EUR 35
     Assets:FR:BforBank:Compte-Courant        EUR -35
 
 2025-10-17 * Tickets Paris Masters 2025  ; aurelie:
@@ -233,7 +253,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-17 * Cash witdrawal
-    Assets:Cash:EUR                            EUR 20
+    Assets:Cash:EUR                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-21 * Tennis court booking Paris Tennis 10-hour package
@@ -243,7 +263,7 @@
 2025-10-22 * Luko assurance  ; flat-vincennes:
     Expenses:Insurance:Home               EUR 160.44
     Assets:FR:BforBank:Compte-Courant    EUR -160.44
-    Assets:Receivables:Aurelie          EUR 80.22
+    Assets:Receivables:Aurelie             EUR 80.22
     Expenses:Insurance:Home               EUR -80.22
 
 2025-10-23 * Transfer to CCF
@@ -251,7 +271,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-23 * Cash withdrawal
-    Assets:Cash:EUR                            EUR 20
+    Assets:Cash:EUR                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-24 * Transfer to CCF
@@ -263,15 +283,47 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-26 * Repay loan from Isky
-    Liabilities:Payables:Iskander         EUR 100
+    Liabilities:Payables:Iskander            EUR 100
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-27 * Repay loan from Isky
-    Liabilities:Payables:Iskander       EUR 24900
+    Liabilities:Payables:Iskander          EUR 24900
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-26 * Cash withdrawal
-    Assets:Cash:EUR                            EUR 20
+    Assets:Cash:EUR                           EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-29 * Cash withdrawal
+    Assets:Cash:EUR                           EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-29 * Sandwich Saint Mande
+    Expenses:Food:Snack                     EUR 8.90
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-29 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-29 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.50
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-29 * Cafe Ounissi  ; aurelie:
+    Expenses:Food:Cafe                      EUR 6.20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-31 * Dr Jomaah
+    Expenses:Health:Doctor                   EUR 200
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-31 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:FR:BforBank:Compte-Courant
+
+2025-10-31 * Cash withdrawal
+    Assets:Cash:EUR                          EUR 300
     Assets:FR:BforBank:Compte-Courant
 
 * boursobank transactions
@@ -558,6 +610,30 @@
     Expenses:Food:Snack                        EUR 4
     Assets:UK:Revolut:Personal:EUR
 
+2025-10-29 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-29 * Drinks
+    Expenses:Entertainment:Social:Bars     EUR 18.80
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-29 * Carrefour
+    Expenses:Food:Groceries                 EUR 1.95
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-30 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-30 * Carrefour
+    Expenses:Food:Groceries                EUR 15.17
+    Assets:UK:Revolut:Personal:EUR
+
+2025-10-31 * Cafe Nuances with Symeon
+    Expenses:Food:Cafe                      EUR 9.45
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-10-03 * Velib
     Expenses:Transportation:Bikesharing       EUR 2
@@ -606,10 +682,10 @@
 2025-10-06 * Deposit wooden floors  ; flat-vincennes:
     Expenses:Home:Furniture                 EUR 1000
     Liabilities:FR:Amex:Gold               EUR -1000
-    Assets:Receivables:Aurelie            EUR 500
+    Assets:Receivables:Aurelie               EUR 500
     Expenses:Home:Furniture                 EUR -500
     Assets:FR:BforBank:Compte-Courant        EUR 500
-    Assets:Receivables:Aurelie           EUR -500
+    Assets:Receivables:Aurelie              EUR -500
 
 2025-10-07 * Toothpaste
     Expenses:Health:Pharmacy                EUR 7.65
@@ -685,6 +761,30 @@
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
+2025-10-28 * Deliveroo  ; aurelie:
+    Expenses:Food:Delivery                 EUR 29.69
+    Liabilities:FR:Amex:Gold
+
+2025-10-29 * As de Carreaux  ; flat-vincennes:
+    Expenses:Home:Furniture               EUR 341.63
+    Liabilities:FR:Amex:Gold             EUR -341.63
+    Assets:Receivables:Aurelie            EUR 170.82
+    Expenses:Home:Furniture              EUR -170.82
+
+2025-10-29 * Sofa  ; flat-vincennes:
+    Expenses:Home:Furniture               EUR 578.45
+    Liabilities:FR:Amex:Gold             EUR -578.45
+    Assets:Receivables:Aurelie            EUR 289.22
+    Expenses:Home:Furniture              EUR -289.22
+
+2025-10-31 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Liabilities:FR:Amex:Gold
+
+2025-10-31 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
 ; EPSOR valuation following portfolio unwinding
 2025-10-21 * EPSOR PEI Valuation
     Assets:FR:Epsor:PEI               = EUR 56994.57
@@ -695,14 +795,25 @@
     Equity:CapitalGains:Unrealised:Epsor:PER
 
 2025-10-21 * Withdrawal EPSOR
-    Assets:FR:BforBank:Compte-Courant   EUR 92095.56  ; amount received from Epsor after tax
-    Assets:FR:Epsor:PEI                EUR -56994.57  ; liquidate PEI full balance
-    Assets:FR:Epsor:PER                EUR -37356.04  ; liquidate PER full balance
-    Expenses:Taxes                       EUR 2255.05  ; taxes paid = 56994.57 + 37356.04 - 92095.56
+    Assets:FR:BforBank:Compte-Courant   EUR 92095.56       ; amount received from Epsor after tax
+    Assets:FR:Epsor:PEI                EUR -56994.57       ; liquidate PEI full balance
+    Assets:FR:Epsor:PER                EUR -37356.04       ; liquidate PER full balance
+    Expenses:Taxes                       EUR 2255.05       ; taxes paid = 56994.57 + 37356.04 - 92095.56
     Equity:CapitalGains:Unrealised:Epsor:PEI  EUR 8754.21  ; capital gains on Epsor PEI
     Equity:CapitalGains:Unrealised:Epsor:PER  EUR 2636.17  ; capital gains on Epsor PER
-    Income:CapitalGains:Realised:Epsor:PEI  EUR -8754.21  ; materialise capital gains on Epsor PEI
-    Income:CapitalGains:Realised:Epsor:PER  EUR -2636.17  ; materialise capital gains on Epsor PER
+    Income:CapitalGains:Realised:Epsor:PEI  EUR -8754.21   ; materialise capital gains on Epsor PEI
+    Income:CapitalGains:Realised:Epsor:PER  EUR -2636.17   ; materialise capital gains on Epsor PER
+
+* Receivables
+2025-10-29 * Settlement
+    Assets:FR:BforBank:Compte-Courant     EUR 868.26
+    Assets:Receivables:Aurelie           EUR -868.26
+    Assets:Receivables:Aurelie                EUR 10  ; paid too much -> transfer to liabilities
+    Liabilities:Payables:Aurelie             EUR -10
+
+2025-10-29 * Pay back Aurelie for incorrect settlement
+    Liabilities:Payables:Aurelie              EUR 10
+    Assets:FR:BforBank:Compte-Courant
 
 * Liabilities
 2025-10-22 * Loan from Mum
@@ -724,3 +835,8 @@
 2025-10-24 * Loan from Mum
     Assets:FR:CCF:Compte-Joint             EUR 29900
     Liabilities:Payables:Mum
+
+* Vincennes flat
+2025-10-31 * Outstanding Decoplus wooden floors  ; flat-vincennes:
+    Expenses:Home:Furniture              EUR 1637.48
+    Liabilities:Payables:Aurelie

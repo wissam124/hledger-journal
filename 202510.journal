@@ -158,8 +158,8 @@
     Expenses:Food:Restaurants                 EUR 75
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-05 * ChatGPT subscription
-    Expenses:Subscriptions:Software        EUR 21.99
+2025-10-05 * ChatGPT subscription for mum
+    Expenses:GiftsCharity:Gifts            EUR 21.99
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-05 * MacroFactor subscription
@@ -414,7 +414,7 @@
     Assets:FR:CCF:Compte-Joint             EUR 17900
     Assets:UK:Revolut:Personal:EUR
 
-2025-10-07 * Post office letter for AW
+2025-10-07 * Stamp letter for AW
     Expenses:Misc                           EUR 7.30
     Assets:UK:Revolut:Personal:EUR
 
@@ -422,8 +422,8 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
-2025-10-08 * ChatGPT for Mum
-    Expenses:GiftsCharity:Gifts            EUR 19.17
+2025-10-08 * ChatGPT subscription
+    Expenses:Subscriptions:Software        EUR 19.17
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-08 * Cigarettes

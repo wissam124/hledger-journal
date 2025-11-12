@@ -138,8 +138,8 @@
     Expenses:Misc:Unaccounted              EUR 22.95
     Assets:FR:BforBank:Compte-Courant
 
-2025-09-05 * ChatGPT subscription
-    Expenses:Subscriptions:Software        EUR 21.99
+2025-09-05 * ChatGPT subscription for mum
+    Expenses:GiftsCharity:Gifts            EUR 21.99
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-05 * MacroFactor subscription
@@ -461,8 +461,8 @@
     Expenses:Entertainment:Social:Bars        EUR 16
     Assets:UK:Revolut:Personal:EUR
 
-2025-09-08 * ChatGPT subscription for Mum
-    Expenses:GiftsCharity:Gifts            EUR 19.17
+2025-09-08 * ChatGPT subscription
+    Expenses:Subscriptions:Software        EUR 19.17
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-08 * Transavia coke

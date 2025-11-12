@@ -208,8 +208,8 @@
     Expenses:Food:Snack                       EUR 2.5
     Assets:FR:BforBank:Compte-Courant        EUR -2.5
 
-2024-05-13 * Post Office Letter for Annabel
-    Expenses:Home                            EUR 1.96
+2024-05-13 * Stamp letter for Annabel
+    Expenses:Misc                            EUR 1.96
     Assets:FR:BforBank:Compte-Courant       EUR -1.96
 
 2024-05-14 * Cigarettes

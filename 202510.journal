@@ -788,21 +788,21 @@
 ; EPSOR valuation following portfolio unwinding
 2025-10-21 * EPSOR PEI Valuation
     Assets:FR:Epsor:PEI               = EUR 56994.57
-    Equity:CapitalGains:Unrealised:Epsor:PEI
+    Equity:UnrealisedCapitalGains:Epsor:PEI
 
 2025-10-21 * EPSOR PER valuation
     Assets:FR:Epsor:PER               = EUR 37356.04
-    Equity:CapitalGains:Unrealised:Epsor:PER
+    Equity:UnrealisedCapitalGains:Epsor:PER
 
 2025-10-21 * Withdrawal EPSOR
     Assets:FR:BforBank:Compte-Courant   EUR 92095.56       ; amount received from Epsor after tax
     Assets:FR:Epsor:PEI                EUR -56994.57       ; liquidate PEI full balance
     Assets:FR:Epsor:PER                EUR -37356.04       ; liquidate PER full balance
     Expenses:Taxes                       EUR 2255.05       ; taxes paid = 56994.57 + 37356.04 - 92095.56
-    Equity:CapitalGains:Unrealised:Epsor:PEI  EUR 8754.21  ; capital gains on Epsor PEI
-    Equity:CapitalGains:Unrealised:Epsor:PER  EUR 2636.17  ; capital gains on Epsor PER
-    Income:CapitalGains:Realised:Epsor:PEI  EUR -8754.21   ; materialise capital gains on Epsor PEI
-    Income:CapitalGains:Realised:Epsor:PER  EUR -2636.17   ; materialise capital gains on Epsor PER
+    Equity:UnrealisedCapitalGains:Epsor:PEI  EUR 8754.21  ; capital gains on Epsor PEI
+    Equity:UnrealisedCapitalGains:Epsor:PER  EUR 2636.17  ; capital gains on Epsor PER
+    Income:CapitalGains:Epsor:PEI  EUR -8754.21   ; materialise capital gains on Epsor PEI
+    Income:CapitalGains:Epsor:PER  EUR -2636.17   ; materialise capital gains on Epsor PER
 
 * Receivables
 2025-10-29 * Settlement

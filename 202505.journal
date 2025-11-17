@@ -631,7 +631,7 @@
 ; Investment funds valuation
 2025-05-12 * Moneyfarm valuation
     Assets:UK:Moneyfarm                  = GBP 48191
-    Equity:CapitalGains:Unrealised:Moneyfarm
+    Equity:UnrealisedCapitalGains:Moneyfarm
 
 ; Halifax transactions
 2025-05-06 * Settlement Halifax Clarity

@@ -758,11 +758,11 @@
 * Investment funds valuation
 2025-08-07 * Moneyfarm valuation  ;; net left after liquidating portfolio
     Assets:UK:Moneyfarm               = GBP 50417.36
-    Equity:CapitalGains:Unrealised:Moneyfarm
+    Equity:UnrealisedCapitalGains:Moneyfarm
 
 2025-08-07 * Liquidation of Moneyfarm portfolio
-    Equity:CapitalGains:Unrealised:Moneyfarm  GBP 6376.06
-    Income:CapitalGains:Realised:Moneyfarm
+    Equity:UnrealisedCapitalGains:Moneyfarm  GBP 6376.06
+    Income:CapitalGains:Moneyfarm
 
 2025-08-07 * Transfer Moneyfarm -> HSBC
 

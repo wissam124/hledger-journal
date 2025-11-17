@@ -1,5 +1,4 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
-
 * Cash expenses
 2025-11-01 * MS Therapy
     Expenses:PersonalCare:Discretionary      EUR 220
@@ -209,9 +208,17 @@
     Expenses:Finance:Bank                   EUR 8.75
     Assets:FR:CCF:Compte-Courant
 
+2025-11-04 * Flat Vincennes frais de courtier
+    Expenses:Finance:Mortgage               EUR 1500
+    Assets:FR:CCF:Compte-Joint
+
 2025-11-06 * Cash withdrawal
     Assets:Cash:EUR                          EUR 500
     Assets:FR:CCF:Compte-Courant
+
+2025-11-17 * Refund proratas fees
+    Assets:FR:CCF:Compte-Joint            EUR 594.75
+    Income:Home:Vincennes
 
 * Revolut transactions
 2025-11-01 * Gaia Torrefacteur

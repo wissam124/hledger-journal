@@ -75,9 +75,9 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-01 * Promesse de vente
-    Equity:Vincennes:Home                    EUR 550
+    Assets:Home:Vincennes                    EUR 550
     Assets:FR:BforBank:Compte-Courant       EUR -550
-    Equity:Vincennes:Home                   EUR -225
+    Assets:Home:Vincennes                   EUR -225
     Assets:Receivables:Aurelie               EUR 225
 
 2025-07-02 * Transfer Revolut
@@ -213,7 +213,7 @@
     Assets:FR:BforBank:LivretA
 
 2025-07-21 * Deposit flat Vincennes
-    Equity:Vincennes:Home                  EUR 32500
+    Assets:Home:Vincennes                  EUR 32500
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-22 * Cash witdrawal

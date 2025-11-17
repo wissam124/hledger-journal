@@ -1,0 +1,180 @@
+ ; -*- mode: ledger -*-
+
+commodity EUR 1,000.00
+
+account Assets:FR:CCF:Compte-Joint                    ; type: C
+account Assets:Home                                   ; type: A
+
+account Income:Misc                                   ; type: R
+
+account Liabilities:FR:CCF:Mortgage                   ; type: L
+
+account Expenses:Finance:Bank                         ; type: X
+account Expenses:Finance:Mortgage                     ; type: X
+
+account Equity:Jean:Assets:Home                       ; type: E
+account Equity:Jean:Assets:FR:CCF:Compte-Joint        ; type: E
+account Equity:Jean:Expenses:Finance:Bank             ; type: E
+account Equity:Jean:Expenses:Finance:Mortgage         ; type: E
+
+account Equity:Aurelie:Assets:Home                    ; type: E
+account Equity:Aurelie:Assets:FR:CCF:Compte-Joint     ; type: E
+account Equity:Aurelie:Expenses:Finance:Bank          ; type: E
+account Equity:Aurelie:Expenses:Finance:Mortgage      ; type: E
+
+
+
+2025-07-21 * Deposit flat Vincennes
+    Assets:Home                           EUR 32,500
+    Equity:Jean:Assets:Home
+
+2025-10-06 * Transfer to CCF joint-account
+    Assets:FR:CCF:Compte-Joint              EUR 2.40
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-23 * Transfer to CCF joint-account
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-24 * Transfer to CCF joint-account
+    Assets:FR:CCF:Compte-Joint             EUR 29900
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-14 * Transfer to LDDS
+    Assets:FR:CCF:Compte-Joint               EUR -10
+    Equity:Jean:Assets:FR:CCF:Compte-Joint           EUR 10
+
+2025-10-26 * Repay loan from mum
+    Assets:FR:CCF:Compte-Joint              EUR -100
+    Equity:Jean:Assets:FR:CCF:Compte-Joint          EUR 100
+
+2025-10-28 * Repay loan from Mum
+    Assets:FR:CCF:Compte-Joint            EUR 29,900
+    Equity:Jean:Assets:FR:CCF:Compte-Joint      EUR -29,900
+
+2025-10-07 * Transfer to CCF joint-account
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-07 * Transfer to CCF joint-account
+    Assets:FR:CCF:Compte-Joint             EUR 17900
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-21 * Transfer to CCF joint-account
+    Assets:FR:CCF:Compte-Joint          EUR 34098.53
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-22 * Loan from mum
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-22 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint               EUR 100
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-22 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint               EUR 9900
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-23 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint               EUR 15000
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-24 * Repay loan from mum
+    Assets:FR:CCF:Compte-Joint             EUR -29900
+    Equity:Jean:Assets:FR:CCF:Compte-Joint
+
+2025-10-06 * Frais tenue de compte
+    Expenses:Finance:Bank                   EUR 2.40
+    Assets:FR:CCF:Compte-Joint             EUR -2.40
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 2.40
+    Equity:Jean:Expenses:Finance:Bank      EUR -2.40
+
+2025-07-01 * Frais de promesse
+    Assets:Home                              EUR 550
+    Equity:Aurelie:Assets:Home               EUR -225
+    Equity:Jean:Assets:Home                 EUR -325
+
+2025-10-10 * Versement Aurelie CCF
+    Assets:FR:CCF:Compte-Joint            EUR 10,000
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint
+
+2025-10-13 * Versement Aurelie CCF
+    Assets:FR:CCF:Compte-Joint            EUR 23,600
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint
+
+2025-10-14 * Versement Aurelie CCF
+    Assets:FR:CCF:Compte-Joint            EUR 15,400
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint
+
+2025-10-14 * Ouverture Livret LDDS Aurelie
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint     EUR 10
+    Assets:FR:CCF:Compte-Joint
+
+2025-10-14 * Virement Aurelie
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 2493
+    Assets:FR:CCF:Compte-Joint
+
+2025-10-23 * Virement Aurelie
+    Assets:FR:CCF:Compte-Joint           EUR 2320.35
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint
+
+2025-10-24 * Flat Vincennes Credit Logement
+    Assets:FR:CCF:Compte-Joint          EUR -5734.70
+    Expenses:Finance:Mortgage           EUR 5734.70
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 2867.35
+    Equity:Aurelie:Expenses:Finance:Mortgage  EUR -2867.35
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 2867.35
+    Equity:Jean:Expenses:Finance:Mortgage    EUR -2867.35
+
+2025-10-25 * Flat Vincennes frais de dossier
+    Assets:FR:CCF:Compte-Joint             EUR -1000
+    Expenses:Finance:Mortgage               EUR 1000
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 500
+    Equity:Aurelie:Expenses:Finance:Mortgage  EUR -500
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 500
+    Equity:Jean:Expenses:Finance:Mortgage   EUR -500
+
+2025-04-11 * Frais de courtier
+    Assets:FR:CCF:Compte-Joint             EUR -3000
+    Expenses:Finance:Mortgage               EUR 3000
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 1500
+    Equity:Jean:Expenses:Finance:Mortgage  EUR -1500
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 1500
+    Equity:Aurelie:Expenses:Finance:Mortgage  EUR -1500
+
+2025-10-28 * Flat acquisition
+    Assets:Home                          EUR 617,500    ; vincennes-acquisition-price:
+    Assets:Home                           EUR 46,750    ; vincennes-acquisition-fees:
+    Assets:Home                             EUR 2500    ; vincennes-acquisition-fees:
+    Liabilities:FR:CCF:Mortgage         EUR -523,000
+    Assets:FR:CCF:Compte-Joint          EUR -143,750
+
+2025-10-28 * Reclass equity stake Aurelie
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 43,950
+    Equity:Aurelie:Assets:Home           EUR -43,950
+
+2025-10-28 * Reclass equity stake Jean
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 99800
+    Equity:Jean:Assets:Home
+
+2025-10-28 * Paid part of Aurelie's full amount
+    Equity:Jean:Assets:Home                   EUR 25
+    Equity:Aurelie:Assets:Home               EUR -25
+
+2025-10-28 * Balance prorata frais
+    Assets:FR:CCF:Compte-Joint               EUR 793
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR -198.25
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR -594.75
+
+2025-11-05 * Funding Aurelie Nov'25
+    Assets:FR:CCF:Compte-Joint               EUR 425
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint
+
+2025-11-04 * Monthly mortage repayment
+    Liabilities:FR:CCF:Mortgage          EUR 1691.02
+    Assets:FR:CCF:Compte-Joint          EUR -1691.02
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 423
+    Equity:Aurelie:Assets:Home              EUR -423
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 1268.02
+    Equity:Jean:Assets:Home             EUR -1268.02

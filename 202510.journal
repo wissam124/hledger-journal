@@ -679,11 +679,11 @@
     Expenses:Food:OfficeLunch               EUR 2.15
     Liabilities:FR:Amex:Gold
 
-2025-10-06 * Deposit wooden floors  ; flat-vincennes:
-    Expenses:Home:Furniture                 EUR 1000
+2025-10-06 * Wooden floors deposit  ; flat-vincennes:
+    Expenses:Home:Improvements              EUR 1000
     Liabilities:FR:Amex:Gold               EUR -1000
     Assets:Receivables:Aurelie               EUR 500
-    Expenses:Home:Furniture                 EUR -500
+    Expenses:Home:Improvements              EUR -500
     Assets:FR:BforBank:Compte-Courant        EUR 500
     Assets:Receivables:Aurelie              EUR -500
 
@@ -837,6 +837,6 @@
     Liabilities:Payables:Mum
 
 * Vincennes flat
-2025-10-31 * Outstanding Decoplus wooden floors  ; flat-vincennes:
-    Expenses:Home:Furniture              EUR 1637.48
+2025-10-31 * Wooden floors outstanding  ; flat-vincennes:
+    Expenses:Home:Improvements           EUR 1637.48
     Liabilities:Payables:Aurelie

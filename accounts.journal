@@ -25,9 +25,6 @@ account Assets:FR:CCF:LDDS                        ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
 account Assets:Home:Vincennes                     ; type: A
-account Assets:Home:Vincennes:Acquisition:Price   ; type: A
-account Assets:Home:Vincennes:Acquisition:Fees    ; type: A
-account Assets:Home:Vincennes:Improvements        ; type: A
 account Assets:UK:HSBC:Current-Account            ; type: C
 account Assets:UK:Halifax:Current-Account         ; type: C
 account Assets:UK:Moneyfarm                       ; type: A
@@ -42,7 +39,6 @@ account Assets:Receivables:Mum                    ; type: A
 
 ; Liabilities: money I owe (loans, credit card debt, etc.)
 account Liabilities:FR:Amex:Gold                  ; type: L
-account Liabilities:FR:Mortgage:Vincennes         ; type: L
 account Liabilities:Payables:Aurelie              ; type: L
 account Liabilities:Payables:Glenn                ; type: L
 account Liabilities:Payables:Iskander             ; type: L
@@ -50,13 +46,15 @@ account Liabilities:Payables:Mum                  ; type: L
 account Liabilities:UK:Halifax:Clarity            ; type: L
 
 ; Equity
-account Equity:Earnings:Current                   ; type: E
-account Equity:Earnings:Retained                  ; type: E
-account Equity:Opening-Balances:EUR               ; type: E
-account Equity:Opening-Balances:GBP               ; type: E
+account Equity:Earnings:Current                                 ; type: E
+account Equity:Earnings:Retained                                ; type: E
+account Equity:Opening-Balances:EUR                             ; type: E
+account Equity:Opening-Balances:GBP                             ; type: E
 account Equity:UnrealisedCapitalGains:Epsor:PEI                 ; type: E
 account Equity:UnrealisedCapitalGains:Epsor:PER                 ; type: E
 account Equity:UnrealisedCapitalGains:Moneyfarm                 ; type: E
+account Equity:Vincennes:Assets:FR:CCF:Compte-Joint             ; type: E
+account Equity:Vincennes:Home                                   ; type: E
 
 # Equity accounts for trading and the conversion of
 # cash into investments vehicles (e.g. shares, ETFs, etc).
@@ -72,7 +70,6 @@ account Income:FR:111Capital:Salary               ; type: R
 account Income:FR:BforBank:LivretA                ; type: R
 account Income:FR:Resale                          ; type: R
 account Income:FR:Resale:Vinted                   ; type: R
-account Income:FR:Insurance:Amex                  ; type: R
 account Income:CapitalGains:Epsor:PEI             ; type: R
 account Income:CapitalGains:Epsor:PER             ; type: R
 account Income:CapitalGains:Moneyfarm             ; type: R
@@ -95,7 +92,6 @@ account Expenses:Entertainment:Social:Sports               ; type: X
 account Expenses:Finance:ATM                               ; type: X
 account Expenses:Finance:Bank                              ; type: X
 account Expenses:Finance:CreditCard                        ; type: X
-account Expenses:Finance:MortgageInterest                  ; type: X
 account Expenses:Food:Cafe                                 ; type: X
 account Expenses:Food:Delivery                             ; type: X
 account Expenses:Food:FastFood                             ; type: X
@@ -118,9 +114,8 @@ account Expenses:Health:Therapy                            ; type: X
 account Expenses:Home                                      ; type: X
 account Expenses:Home:Furniture                            ; type: X
 account Expenses:Home:Maintenance                          ; type: X
-account Expenses:Home:Mortgage                             ; type: X
-account Expenses:Home:Purchase:NotaryFees                  ; type: X
 account Expenses:Home:Rent                                 ; type: X
+account Expenses:Home:Improvements                         ; type: X
 account Expenses:Home:Utilities:Electricity                ; type: X
 account Expenses:Home:Utilities:Internet                   ; type: X
 account Expenses:Home:Utilities:MobilePhone                ; type: X

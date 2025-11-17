@@ -438,3 +438,11 @@
 2025-11-07 * Chairs
     Expenses:Home:Furniture               EUR 137.47
     Liabilities:Payables:Aurelie
+
+2025-11-07 * Meuble tv
+    Expenses:Home:Furniture                   EUR 45
+    Liabilities:Payables:Aurelie
+
+2025-11-07 * Table d'appoint
+    Expenses:Home:Furniture                EUR 66.47
+    Liabilities:Payables:Aurelie

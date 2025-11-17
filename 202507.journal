@@ -74,11 +74,11 @@
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-01 * Flat purchase sollicitor
-    Expenses:Home:Purchase:NotaryFees        EUR 550
-    Assets:FR:BforBank:Compte-Courant        EUR -550
-    Assets:Receivables:Aurelie            EUR 225
-    Expenses:Home:Purchase:NotaryFees        EUR -225
+2025-07-01 * Promesse de vente
+    Equity:Vincennes:Home                    EUR 550
+    Assets:FR:BforBank:Compte-Courant       EUR -550
+    Equity:Vincennes:Home                   EUR -225
+    Assets:Receivables:Aurelie               EUR 225
 
 2025-07-02 * Transfer Revolut
     Assets:UK:Revolut:Personal:EUR           EUR 200
@@ -212,8 +212,8 @@
     Assets:FR:BforBank:Compte-Courant      EUR 22940
     Assets:FR:BforBank:LivretA
 
-2025-07-21 * Deposit flat purchase
-    Assets:Home:Vincennes                  EUR 32500
+2025-07-21 * Deposit flat Vincennes
+    Equity:Vincennes:Home                  EUR 32500
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-22 * Cash witdrawal

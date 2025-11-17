@@ -174,8 +174,8 @@
     Assets:Cash:EUR                           EUR 140
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-06 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint              EUR 2.40
+2025-10-06 * Transfer to CCF joint-account
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint            EUR 2.40
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-06 * Cigarettes
@@ -266,16 +266,16 @@
     Assets:Receivables:Aurelie             EUR 80.22
     Expenses:Insurance:Home               EUR -80.22
 
-2025-10-23 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint               EUR 100
+2025-10-23 * Transfer to CCF joint-account
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint     EUR 100
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-23 * Cash withdrawal
     Assets:Cash:EUR                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-24 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint             EUR 29900
+2025-10-24 * Transfer to CCF joint-account
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint   EUR 29900
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-24 * SFR
@@ -331,22 +331,17 @@
     Expenses:Food:Snack                     EUR 2.40
     Assets:FR:BoursoBank:Compte-Courant
 
-* CCF transactions
-2025-10-02 * Frais tenue de compte
-    Expenses:Finance:Bank                      EUR 2.40
-    Assets:FR:CCF:Compte-Joint
-
 2025-10-14 * Transfer to LDDS
     Assets:FR:CCF:LDDS                        EUR 10
-    Assets:FR:CCF:Compte-Joint
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint
 
 2025-10-26 * Repay loan from Mum
     Liabilities:Payables:Mum              EUR 100
-    Assets:FR:CCF:Compte-Joint
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint
 
 2025-10-28 * Repay loan from Mum
     Liabilities:Payables:Mum              EUR 29,900
-    Assets:FR:CCF:Compte-Joint
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint
 
 * HSBC transactions
 2025-10-07 * Transfer to Revolut
@@ -406,12 +401,12 @@
     Assets:UK:Revolut:Personal:EUR      EUR 19898.42 @@ GBP 17300
     Assets:UK:Revolut:Personal:GBP
 
-2025-10-07 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint               EUR 100
+2025-10-07 * Transfer to CCF joint-account
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint     EUR 100
     Assets:UK:Revolut:Personal:EUR
 
-2025-10-07 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint             EUR 17900
+2025-10-07 * Transfer to CCF joint-account
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint   EUR 17900
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-07 * Stamp letter for AW
@@ -551,7 +546,7 @@
     Assets:UK:Revolut:Personal:GBP
 
 2025-10-21 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint          EUR 34098.53
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint  EUR 34098.53
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-22 * Lunch at Bagnard with Anne
@@ -815,25 +810,24 @@
     Liabilities:Payables:Aurelie              EUR 10
     Assets:FR:BforBank:Compte-Courant
 
-* Liabilities
 2025-10-22 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint               EUR 100
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint     EUR 100
     Liabilities:Payables:Mum
 
 2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint               EUR 100
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint     EUR 100
     Liabilities:Payables:Iskander
 
 2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint              EUR 9900
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint    EUR 9900
     Liabilities:Payables:Iskander
 
 2025-10-23 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint             EUR 15000
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint   EUR 15000
     Liabilities:Payables:Iskander
 
 2025-10-24 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint             EUR 29900
+    Equity:Vincennes:Assets:FR:CCF:Compte-Joint   EUR 29900
     Liabilities:Payables:Mum
 
 * Vincennes flat

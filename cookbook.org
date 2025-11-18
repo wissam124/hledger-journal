@@ -93,6 +93,36 @@ be possible. Unless the transaction is booked with all postings and unitcost/uni
     assets:bank:checking   -$40
 #+end_src ledge
 
+* Equity accounts
+- Equity represents what's left for the owner after substracting liabilities
+  from assets. It is the *net worth*.
+- Equity is what funds the business, it is the business's obligation to the
+  owner (a liability on the other hand is an obligation to a creditor). It
+  represents an ownership's stake.
+- Simple illustration: my financial life is the entity/business that is funded
+  by the equity. So it "owes" money to the owner whose stake is materialised
+  in the equity account.
+- A positive equity means the owner owes the creditors of the entity.
+- This is well illustrated with a shared asset because the value that is owned
+  by the co-owner will be directly represented by the co-owner's equity.
+
+* Shared assets and expenses in household ledger
+** How do I represent a shared expense?
+1. Record the full cash movement from the joint account to an expense account.
+2. Reallocate each contributor's share to a specific equity account.
+   No cash is moved - this is just an accounting trick to isolate the amount
+   in a specific account.
+
+#+begin_src ledger
+2025-04-11 * Frais de courtier
+    Assets:FR:CCF:Compte-Joint             EUR -3000
+    Expenses:Finance:Mortgage               EUR 3000
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 1500
+    Equity:Jean:Expenses:Finance:Mortgage  EUR -1500
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 1500
+    Equity:Aurelie:Expenses:Finance:Mortgage  EUR -1500
+#+end_src ledger
+
 * How to log 111 company investment plan?
 ** Difficulties
 111 cap pays annually into an investment plan as part of the
@@ -120,8 +150,8 @@ Additionnally, contributions made at times $t_1$ and $t_{2}$ should not be
 valued with the same price because they have grown with different returns.
 
 For valuation purposes it is easier to use a balance assertion using the
-provider's valuation at a specific date and track the unrealised-pnl into an
-equity account.
+provider's valuation at a specific date and track the unrealised-pnl into a
+specific equity account.
 #+begin_src ledger
 2025-02-28 * EPSOR valuation
     Assets:FR:Epsor:PEI                  = EUR 54248

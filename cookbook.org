@@ -216,3 +216,7 @@ the accumulated balance held in the expense account.
   France or you repay a friend in London.
   *-> no need for a country prefix here* does not add semantic value.
 * Useful queries
+** Closing and retaining earnings
+#+begin_src sh
+hledger -f vincennes.journal close --retain --close-acct=Equity:Earnings:Retained
+#+end_src

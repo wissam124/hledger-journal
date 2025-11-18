@@ -172,19 +172,21 @@ corresponding equity account as below.
 #+begin_src ledger
 2024-12-31 * EPSOR PEI valuation
     Assets:FR:Epsor:PEI               = EUR 54886.46
-    Equity:CapitalGains:Unrealised:Epsor:PEI
+    Equity:UnrealisedCapitalGains:Epsor:PEI
 #+end_src ledger
 
-** How to materialse capital gains?
+>> hledger -f hledger.journal reg equity:unrealised.*epsor:pei  --width=150
+
+** How to materialise the unrealised PnL?
 The unrealised capital gains (or losses!) will accumulate in a chosen equity
 account.
 Capital gains are materialised by moving amounts from the equity account to
 an income account.
 
 #+begin_src ledger
-2025-10-21 * Withdrawal EPSOR
-    Equity:CapitalGains:Unrealised:Epsor:PEI  EUR 8754.21
-    Income:CapitalGains:Realised:Epsor:PEI  EUR -8754.21
+2025-10-21 * Withdrawal
+    Equity:UnrealisedCapitalGains:Epsor:PEI  EUR 8754.21
+    Income:CapitalGains:Epsor:PEI  EUR -8754.21
 #+end_src ledger
 
 * How to deal with refunds?
@@ -213,3 +215,4 @@ the accumulated balance held in the expense account.
   country. A receivable is a receivable, regardless of whether your mother is in
   France or you repay a friend in London.
   *-> no need for a country prefix here* does not add semantic value.
+* Useful queries

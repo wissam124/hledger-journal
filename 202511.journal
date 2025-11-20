@@ -89,6 +89,10 @@
     Expenses:Food:OfficeLunch               EUR 2.40
     Assets:Cash:EUR
 
+2025-11-20 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:Cash:EUR
+
 * BforBank transactions
 2025-11-03 * Rent Citeaux
     Expenses:Home:Rent                      EUR 1050
@@ -180,6 +184,10 @@
 
 2025-11-18 * EDF
     Expenses:Home:Utilities:Electricity    EUR 52.69
+    Assets:FR:BforBank:Compte-Courant
+
+2025-11-20 Cash withdrawal BNP
+    Assets:Cash:EUR                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
 * Bimpli transactions

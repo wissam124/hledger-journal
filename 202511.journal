@@ -1,4 +1,5 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
+
 * Cash expenses
 2025-11-01 * MS Therapy
     Expenses:PersonalCare:Discretionary      EUR 220
@@ -78,6 +79,14 @@
 
 2025-11-16 * Unaccounted cash expenses
     Expenses:Misc:Unaccounted              EUR 14.40
+    Assets:Cash:EUR
+
+2025-11-19 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:Cash:EUR
+
+2025-11-19 * Lunck Petit Panda fruits
+    Expenses:Food:OfficeLunch               EUR 2.40
     Assets:Cash:EUR
 
 * BforBank transactions
@@ -161,12 +170,16 @@
     Expenses:Health:Gym                       EUR 60
     Assets:FR:BforBank:Compte-Courant
 
-2025-11-15 Cash withdrawal La Banque Postale
+2025-11-15 * Cash withdrawal La Banque Postale
     Assets:Cash:EUR                          EUR 160
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:BforBank:Compte-Courant  ;date: 2025-11-18
 
-2025-11-16 Cash withdrawal Bnp
+2025-11-16 * Cash withdrawal Bnp
     Assets:Cash:EUR                           EUR 40
+    Assets:FR:BforBank:Compte-Courant  ;date: 2025-11-18
+
+2025-11-18 * EDF
+    Expenses:Home:Utilities:Electricity    EUR 52.69
     Assets:FR:BforBank:Compte-Courant
 
 * Bimpli transactions
@@ -193,6 +206,14 @@
 2025-11-13 * Balance assertion from Kayser receipt
     Assets:FR:Bimpli                       == EUR 171.83
     Expenses:Food:OfficeLunch
+
+2025-11-17 * Lunch Bistropolitain
+    Expenses:Food:OfficeLunch              EUR 15.90
+    Assets:FR:Bimpli
+
+2025-11-18 * Lunch Kayser
+    Expenses:Food:OfficeLunch              EUR 15.70
+    Assets:FR:Bimpli
 
 * Boursobank transactions
 2025-11-06 * Cash withdrawal
@@ -329,6 +350,22 @@
     Expenses:Cigarettes                       EUR 13
     Assets:UK:Revolut:Personal:EUR
 
+2025-11-17 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-17 * Monoprix
+    Expenses:Food:Groceries                 EUR 3.94
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-18 * Cafe De La Place drinks with Aurelie  ; aurelie:
+    Expenses:Entertainment:Social:Bars     EUR 17.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-19 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-11-01 * Leroy Merlin paint  ; flat-vincennes:
     Expenses:Home:Maintenance             EUR 119.91
@@ -425,7 +462,7 @@
     Expenses:Food:Cafe                         EUR 8
     Liabilities:FR:Amex:Gold
 
-2025-11-15 Postbox label  ; flat-vincennes:
+2025-11-15 * Postbox label  ; flat-vincennes:
     Expenses:Home:Maintenance               EUR 4.99
     Liabilities:FR:Amex:Gold
 
@@ -453,3 +490,30 @@
 2025-11-07 * Table d'appoint
     Expenses:Home:Furniture                EUR 66.47
     Liabilities:Payables:Aurelie
+
+* Mortgage
+2025-11-07 * Monthly mortgage repayment
+    Assets:FR:CCF:Compte-Joint          EUR -1268.27
+    Liabilities:FR:CCF:Mortgage           EUR 849.15
+    Expenses:Finance:Mortgage:Interest    EUR 419.12
+
+* Epsor
+2025-11-19 * Particiption vers le PEI
+    Assets:FR:Epsor:PEI                  EUR 5817.50
+    Income:FR:111Capital:Participation
+
+2025-11-19 * Interessement vers le PEI
+    Assets:FR:Epsor:PEI                EUR 20,034.10
+    Income:FR:111Capital:Interessement
+
+2025-11-19 * Abondement vers le PEI
+    Assets:FR:Epsor:PEI                  EUR 3405.50
+    Income:FR:111Capital:Abondement
+
+2025-11-19 * Interessement vers le PER
+    Assets:FR:Epsor:PER                     EUR 2512
+    Income:FR:111Capital:Interessement
+
+2025-11-19 * Abondement vers le PER
+    Assets:FR:Epsor:PER                  EUR 6805.01
+    Income:FR:111Capital:Abondement

@@ -1,4 +1,4 @@
- ; -*- mode: ledger -*-
+;; -*- mode: ledger; coding: utf-8 -*-
 
 commodity EUR 1,000.00
 
@@ -23,6 +23,7 @@ account Equity:Aurelie:Expenses:Finance:Bank                   ; type: E
 account Equity:Aurelie:Expenses:Finance:Mortgage               ; type: E
 account Equity:Aurelie:Expenses:Finance:Mortgage:Interest      ; type: E
 
+account Equity:Earnings:Retained                               ; type: E
 
 2025-07-21 * Deposit flat Vincennes
     Assets:Home                           EUR 32,500
@@ -171,10 +172,13 @@ account Equity:Aurelie:Expenses:Finance:Mortgage:Interest      ; type: E
     Assets:FR:CCF:Compte-Joint               EUR 425
     Equity:Aurelie:Assets:FR:CCF:Compte-Joint
 
-2025-11-04 * Monthly mortage repayment
-    Liabilities:FR:CCF:Mortgage          EUR 1691.02
+2025-11-04 * Monthly mortgage repayment
     Assets:FR:CCF:Compte-Joint          EUR -1691.02
-    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 423
-    Equity:Aurelie:Assets:Home              EUR -423
-    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 1268.02
-    Equity:Jean:Assets:Home             EUR -1268.02
+    Liabilities:FR:CCF:Mortgage          EUR 1132.20
+    Expenses:Finance:MortgageInterest     EUR 558.82
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 422.76
+    Equity:Aurelie:Assets:Home           EUR -283.05
+    Equity:Aurelie:Expenses:Finance:Mortgage:Interest  EUR -139.71
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 1268.27
+    Equity:Jean:Assets:Home              EUR -849.15
+    Equity:Aurelie:Expenses:Finance:Mortgage:Interest  EUR -419.12

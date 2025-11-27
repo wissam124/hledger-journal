@@ -10,18 +10,21 @@ account Liabilities:FR:CCF:Mortgage                            ; type: L
 account Expenses:Finance:Bank                                  ; type: X
 account Expenses:Finance:Mortgage                              ; type: X
 account Expenses:Finance:MortgageInterest                      ; type: X
+account Expenses:Home:Utilities:Electricity                    ; type: X
 
 account Equity:Jean:Assets:Home                                ; type: E
 account Equity:Jean:Assets:FR:CCF:Compte-Joint                 ; type: E
 account Equity:Jean:Expenses:Finance:Bank                      ; type: E
 account Equity:Jean:Expenses:Finance:Mortgage                  ; type: E
 account Equity:Jean:Expenses:Finance:Mortgage:Interest         ; type: E
+account Equity:Jean:Expenses:Home:Utilities:Electricity        ; type: E
 
 account Equity:Aurelie:Assets:Home                             ; type: E
 account Equity:Aurelie:Assets:FR:CCF:Compte-Joint              ; type: E
 account Equity:Aurelie:Expenses:Finance:Bank                   ; type: E
 account Equity:Aurelie:Expenses:Finance:Mortgage               ; type: E
 account Equity:Aurelie:Expenses:Finance:Mortgage:Interest      ; type: E
+account Equity:Aurelie:Expenses:Home:Utilities:Electricity     ; type: E
 
 account Equity:Earnings:Retained                               ; type: E
 

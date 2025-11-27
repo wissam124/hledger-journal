@@ -66,7 +66,7 @@
     Assets:Cash:EUR
 
 2025-11-14 * Tennis lesson
-    Expenses:Health:Sport:Tennis              EUR 50
+    Expenses:Health:Sport:Tennis              EUR 40
     Assets:Cash:EUR
 
 2025-11-15 * Cigarettes
@@ -91,6 +91,14 @@
 
 2025-11-20 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:Cash:EUR
+
+2025-11-21 * Tennis lesson
+    Expenses:Health:Sport:Tennis              EUR 40
+    Assets:Cash:EUR
+
+2025-11-23 * Charity
+    Expenses:GiftsCharity:Charity              EUR 1
     Assets:Cash:EUR
 
 * BforBank transactions
@@ -186,9 +194,32 @@
     Expenses:Home:Utilities:Electricity    EUR 52.69
     Assets:FR:BforBank:Compte-Courant
 
-2025-11-20 Cash withdrawal BNP
+2025-11-20 * Cash withdrawal BNP
     Assets:Cash:EUR                           EUR 20
     Assets:FR:BforBank:Compte-Courant
+
+2025-11-21 * Cash withdrawal La Banque Postale
+    Assets:Cash:EUR                           EUR 40
+    Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-24
+
+2025-11-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-24
+
+2025-11-23 * Vers Jean Dupin
+    Assets:FR:BoursoBank:Compte-Courant     EUR 1000
+    Assets:FR:BforBank:Compte-Courant
+
+2025-11-22 * Unisport
+    Expenses:Shopping:Clothes              EUR 71.95
+    Assets:FR:BforBank:Compte-Courant
+
+2025-11-26 * SFR
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+
+2025-11-26 * Refund Alan
+    Assets:FR:BforBank:Compte-Courant         EUR 58
+    Expenses:Health:Doctor
 
 * Bimpli transactions
 2025-11-03 * Lunch Mister Garden
@@ -223,9 +254,21 @@
     Expenses:Food:OfficeLunch              EUR 15.70
     Assets:FR:Bimpli
 
+2025-11-25 * Lunch Mister Garden
+    Expenses:Food:OfficeLunch              EUR 18.60
+    Assets:FR:Bimpli
+
+2025-11-26 * Lunch Kayser
+    Expenses:Food:OfficeLunch              EUR 17.30
+    Assets:FR:Bimpli
+
 * Boursobank transactions
 2025-11-06 * Cash withdrawal
     Assets:Cash:EUR                         EUR 1000
+    Assets:FR:BoursoBank:Compte-Courant
+
+2025-11-21 * Deliveroo fee
+    Expenses:Food:OfficeLunch               EUR 2.15
     Assets:FR:BoursoBank:Compte-Courant
 
 * CCF transactions
@@ -374,6 +417,30 @@
     Expenses:Food:Cafe                      EUR 4.50
     Assets:UK:Revolut:Personal:EUR
 
+2025-11-20 * Carrefour
+    Expenses:Food:Groceries                EUR 10.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-21 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-21 * Carrefour
+    Expenses:Food:Groceries                EUR 23.07
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-22 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-25 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-26 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-11-01 * Leroy Merlin paint  ; flat-vincennes:
     Expenses:Home:Maintenance             EUR 119.91
@@ -474,8 +541,52 @@
     Expenses:Home:Maintenance               EUR 4.99
     Liabilities:FR:Amex:Gold
 
+2025-11-20 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Liabilities:FR:Amex:Gold
+
+2025-11-21 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 3.14
+    Liabilities:FR:Amex:Gold
+
+2025-11-21 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-11-22 * Gaia Torrefacteur
+    Expenses:Food:Cafe                         EUR 8
+    Liabilities:FR:Amex:Gold
+
+2025-11-22 * Leroy Merlin Paris Daum  ; flat-vincennes:
+    Expenses:Home:Improvements             EUR 60.69
+    Liabilities:FR:Amex:Gold              EUR -60.69
+    Expenses:Home:Improvements            EUR -30.34
+    Liabilities:Payables:Aurelie           EUR 30.34
+
+2025-11-22 * Deliveroo  ; aurelie:
+    Expenses:Food:Delivery                 EUR 25.59
+    Liabilities:FR:Amex:Gold
+
+2025-11-23 * Tennis-Compagnie Bag
+    Expenses:Shopping:Sport                EUR 72.60
+    Liabilities:FR:Amex:Gold
+
+2025-11-23 * Nike Retail BV
+    Expenses:Shopping:Clothes             EUR 178.95
+    Liabilities:FR:Amex:Gold
+
+2025-11-23 * Leroy Merlin Paris Daum  ; flat-vincennes:
+    Expenses:Home:Improvements             EUR 23.89
+    Liabilities:FR:Amex:Gold              EUR -23.89
+    Expenses:Home:Improvements            EUR -11.94
+    Liabilities:Payables:Aurelie           EUR 11.94
+
+2025-11-23 * Velib
+    Expenses:Transportation:Bikesharing       EUR 10
+    Liabilities:FR:Amex:Gold
+
 * Liabilities
-2025-11-02 * Leroy Merlin paint and door handles
+2025-11-02 * Leroy Merlin paint and door handles  ; flat-vincennes:
     Expenses:Home:Maintenance              EUR 53.51
     Liabilities:Payables:Aurelie
 
@@ -497,6 +608,10 @@
 
 2025-11-07 * Table d'appoint
     Expenses:Home:Furniture                EUR 66.47
+    Liabilities:Payables:Aurelie
+
+2025-11-21 * Work
+    Expenses:Home:Improvements               EUR 750  ; half of 1500
     Liabilities:Payables:Aurelie
 
 * Mortgage

@@ -184,4 +184,13 @@ account Equity:Earnings:Retained                               ; type: E
     Equity:Aurelie:Expenses:Finance:Mortgage:Interest  EUR -139.71
     Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 1268.27
     Equity:Jean:Assets:Home              EUR -849.15
-    Equity:Aurelie:Expenses:Finance:Mortgage:Interest  EUR -419.12
+    Equity:Jean:Expenses:Finance:Mortgage:Interest  EUR -419.12
+
+
+2025-11-20 * EDF electricity bill
+    Assets:FR:CCF:Compte-Joint            EUR -29.21
+    Expenses:Home:Utilities:Electricity    EUR 29.21
+    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 14.61
+    Equity:Aurelie:Expenses:Home:Utilities:Electricity  EUR -14.61
+    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 14.60
+    Equity:Jean:Expenses:Home:Utilities:Electricity  -EUR 14.60

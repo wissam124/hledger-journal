@@ -101,6 +101,22 @@
     Expenses:GiftsCharity:Charity              EUR 1
     Assets:Cash:EUR
 
+2025-11-26 * Crepes
+    Expenses:Food:Snack                        EUR 6
+    Assets:Cash:EUR
+
+2025-11-29 * Cafe and pain aux raisins
+    Expenses:Food:Cafe                      EUR 3.70
+    Assets:Cash:EUR
+
+2025-11-29 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:Cash:EUR
+
+2025-11-29 * Therapy
+    Expenses:Health:Therapy                  EUR 120
+    Assets:Cash:EUR
+
 * BforBank transactions
 2025-11-03 * Rent Citeaux
     Expenses:Home:Rent                      EUR 1050
@@ -212,13 +228,18 @@
 
 2025-11-22 * Unisport
     Expenses:Shopping:Clothes              EUR 71.95
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-26
 
 2025-11-26 * SFR
     Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
 
 2025-11-26 * Refund Alan
     Assets:FR:BforBank:Compte-Courant         EUR 58
+    Expenses:Health:Doctor
+
+2025-11-27 * Refund CPAM
+    Assets:FR:BforBank:Compte-Courant         EUR 40
     Expenses:Health:Doctor
 
 * Bimpli transactions
@@ -271,6 +292,14 @@
     Expenses:Food:OfficeLunch               EUR 2.15
     Assets:FR:BoursoBank:Compte-Courant
 
+2025-11-28 * Boursobank fees
+    Expenses:Finance:Bank                      EUR 9
+    Assets:FR:BoursoBank:Compte-Courant
+
+2025-11-28 * Cash withdrawal
+    Assets:Cash:EUR                          EUR 900
+    Assets:FR:BoursoBank:Compte-Courant
+
 * CCF transactions
 2025-11-03 * 111 Capital wage
     Assets:FR:CCF:Compte-Courant         EUR 6371.58
@@ -291,6 +320,10 @@
 2025-11-17 * Refund proratas fees
     Assets:FR:CCF:Compte-Joint            EUR 594.75
     Income:Home:Vincennes
+
+2025-11-29 Cash withdrawal
+    Assets:Cash:EUR                          EUR 100
+    Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
 2025-11-01 * Gaia Torrefacteur
@@ -360,6 +393,10 @@
 2025-11-10 * Cafe Nuances
     Expenses:Food:Cafe                         EUR 5
     Assets:UK:Revolut:Personal:EUR
+
+2025-11-10 * Lebara
+    Expenses:Home:Utilities:MobilePhone        GBP 5
+    Assets:UK:Revolut:Personal:GBP
 
 2025-11-11 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -439,6 +476,34 @@
 
 2025-11-26 * Cigarettes
     Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-27 * Carrefour
+    Expenses:Food:Groceries                EUR 10.86
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-28 * Cafe Nuances with Symeon
+    Expenses:Food:Cafe                      EUR 9.45
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-28 * Cafe Nuances pain au chocolat
+    Expenses:Food:Cafe                      EUR 2.43
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-28 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-28 * La Boutique  ; aurelie:
+    Expenses:Entertainment:Social:Bars     EUR 34.70
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-29 * RATP
+    Expenses:Transportation:PublicTransport  EUR 2.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-11-29 * McDonald's
+    Expenses:Food:FastFood                 EUR 26.52
     Assets:UK:Revolut:Personal:EUR
 
 * Amex transactions
@@ -583,6 +648,22 @@
 
 2025-11-23 * Velib
     Expenses:Transportation:Bikesharing       EUR 10
+    Liabilities:FR:Amex:Gold
+
+2025-11-27 * Leroy Merlin cardboard boxes
+    Expenses:Misc                          EUR 19.90
+    Liabilities:FR:Amex:Gold
+
+2025-11-28 * Tennis Warehouse
+    Expenses:Shopping:Sport               EUR 208.28
+    Liabilities:FR:Amex:Gold
+
+2025-11-28 Extreme Tennis
+    Expenses:Shopping:Sport                EUR 75.48
+    Liabilities:FR:Amex:Gold
+
+2025-11-28 Shoes bag
+    Expenses:Shopping:Sport                EUR 12.99
     Liabilities:FR:Amex:Gold
 
 * Liabilities

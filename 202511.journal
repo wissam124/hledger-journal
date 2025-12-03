@@ -242,6 +242,11 @@
     Assets:FR:BforBank:Compte-Courant         EUR 40
     Expenses:Health:Doctor
 
+2025-11-29 * Carrefour City
+    Expenses:Food:Groceries                 EUR 6.90
+    Expenses:GiftsCharity:Charity           EUR 3.75
+    Assets:FR:BforBank:Compte-Courant     EUR -10.65
+
 * Bimpli transactions
 2025-11-03 * Lunch Mister Garden
     Expenses:Food:OfficeLunch              EUR 17.60
@@ -321,7 +326,11 @@
     Assets:FR:CCF:Compte-Joint            EUR 594.75
     Income:Home:Vincennes
 
-2025-11-29 Cash withdrawal
+2025-11-20 * EDF Vincennes bill
+    Expenses:Home:Utilities:Electricity    EUR 14.60
+    Assets:FR:CCF:Compte-Joint
+
+2025-11-29 * Cash withdrawal
     Assets:Cash:EUR                          EUR 100
     Assets:FR:CCF:Compte-Courant
 
@@ -506,6 +515,10 @@
     Expenses:Food:FastFood                 EUR 26.52
     Assets:UK:Revolut:Personal:EUR
 
+2025-11-30 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
 * Amex transactions
 2025-11-01 * Leroy Merlin paint  ; flat-vincennes:
     Expenses:Home:Maintenance             EUR 119.91
@@ -658,12 +671,30 @@
     Expenses:Shopping:Sport               EUR 208.28
     Liabilities:FR:Amex:Gold
 
-2025-11-28 Extreme Tennis
+2025-11-28 * Extreme Tennis
     Expenses:Shopping:Sport                EUR 75.48
     Liabilities:FR:Amex:Gold
 
 2025-11-28 Shoes bag
     Expenses:Shopping:Sport                EUR 12.99
+    Liabilities:FR:Amex:Gold
+
+2025-11-30 * Leroy Merlin lamps
+    Expenses:Home:Furniture                EUR 67.69
+    Liabilities:FR:Amex:Gold              EUR -67.69
+    Expenses:Home:Furniture               EUR -33.84
+    Liabilities:Payables:Aurelie           EUR 33.84
+
+2025-11-30 * Leroy Merlin cardboard boxes
+    Expenses:Misc                          EUR 23.94
+    Liabilities:FR:Amex:Gold
+
+2025-11-30 * Leroy Merlin bubble wrap
+    Expenses:Misc                          EUR 13.90
+    Liabilities:FR:Amex:Gold
+
+2025-11-30 * Franprix
+    Expenses:Food:Groceries                EUR 24.78
     Liabilities:FR:Amex:Gold
 
 * Liabilities

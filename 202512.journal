@@ -1,0 +1,81 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+* BforBank transactions
+2025-12-02 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 88.80
+    Assets:FR:BforBank:Compte-Courant
+
+* Bimpli transactions
+
+* Boursobank transactions
+2025-12-02 * Transfer to BforBank
+    Assets:FR:BforBank:Compte-Courant      EUR 79.19
+    Assets:FR:BoursoBank:Compte-Courant
+
+2025-12-02 * Deliveroo fees
+    Expenses:Food:OfficeLunch               EUR 1.74
+    Assets:FR:BoursoBank:Compte-Courant
+
+* Cash expenses
+2025-12-02 * Charity
+    Expenses:GiftsCharity:Charity              EUR 1
+    Assets:Cash:EUR
+
+* CCF transactions
+2025-12-01 * Fees CCF
+    Expenses:Finance:Bank                   EUR 8.75
+    Assets:FR:CCF:Compte-Courant
+
+2025-12-01 * Transfer to joint-account
+    Assets:FR:CCF:Compte-Joint            EUR 304.14
+    Assets:FR:CCF:Compte-Courant
+
+2025-12-03 * 111 Cap wages
+    Assets:FR:CCF:Compte-Courant         EUR 6371.58
+    Income:FR:111Capital:Salary
+
+* Revolut transactions
+2025-12-01 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-01 * Cafe
+    Expenses:Food:Cafe                      EUR 1.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-02 * Transfer to mum
+    Assets:Receivables:Mum                   EUR 100
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-02 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-02 * Monoprix
+    Expenses:Food:Groceries                 EUR 2.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-02 * La Parisienne
+    Expenses:Food:FastFood                    EUR 17
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-03 * Carrefour
+    Expenses:Food:Groceries                 EUR 3.34
+    Assets:UK:Revolut:Personal:EUR
+
+* Amex transactions
+2025-12-01 * Gaia Torrefacteur
+    Expenses:Food:Cafe                         EUR 4
+    Liabilities:FR:Amex:Gold
+
+2025-12-01 * Joseph Joseph  ; flat-vincennes:
+    Expenses:Home:Furniture               EUR 134.40
+    Liabilities:FR:Amex:Gold
+
+2025-12-01 * YooJo moving hire
+    Expenses:Home                             EUR 96
+    Liabilities:FR:Amex:Gold
+
+2025-12-02 WWW.VELIB-METROPOLE.FR
+    Expenses:Transportation:Bikesharing        EUR 4
+    Liabilities:FR:Amex:Gold

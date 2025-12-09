@@ -5,14 +5,39 @@
     Expenses:Transportation:PublicTransport  EUR 88.80
     Assets:FR:BforBank:Compte-Courant
 
+2025-12-04 * Cash withdrawal
+    Assets:Cash:EUR                           EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-12-05 * MacroFactor subscription
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2025-12-05 * Taxi
+    Expenses:Transportation:Taxi           EUR 17.20
+    Assets:FR:BforBank:Compte-Courant
+
+2025-12-05 * Shiva  ; claim-tax:
+    Expenses:Home:Maintenance             EUR 249.60
+    Assets:FR:BforBank:Compte-Courant
+
+2025-12-08 * Cash withdrawal
+    Assets:Cash:EUR                          EUR 600
+    Assets:FR:BforBank:Compte-Courant
+
+2025-12-08 * Franprix
+    Expenses:Food:Groceries                 EUR 6.23
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
+
 
 * Boursobank transactions
 2025-12-02 * Transfer to BforBank
     Assets:FR:BforBank:Compte-Courant      EUR 79.19
     Assets:FR:BoursoBank:Compte-Courant
 
-2025-12-02 * Deliveroo fees
+2025-12-03 * Deliveroo fees
     Expenses:Food:OfficeLunch               EUR 1.74
     Assets:FR:BoursoBank:Compte-Courant
 
@@ -20,6 +45,36 @@
 2025-12-02 * Charity
     Expenses:GiftsCharity:Charity              EUR 1
     Assets:Cash:EUR
+
+2025-12-04 * Charity
+    Expenses:GiftsCharity:Charity              EUR 2
+    Assets:Cash:EUR
+
+2025-12-07 * Cash
+    Expenses:Home:Improvements              EUR 1400
+    Assets:Cash:EUR                        EUR -1400
+    Expenses:Home:Improvements              EUR -700
+    Liabilities:Payables:Aurelie             EUR 700
+
+2025-12-07 * Van hire Nadir
+    Expenses:Home                             EUR 75
+    Assets:Cash:EUR
+
+2025-12-07 * Sold TV
+    Assets:Cash:EUR                          EUR 250
+    Income:FR:Resale
+
+2025-12-07 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:Cash:EUR
+
+2025-12-08 * Treatment
+    Expenses:PersonalCare:Discretionary      EUR 180
+    Assets:Cash:EUR
+
+2025-12-08 * Yoojo cartons
+    Expenses:Home                             EUR 10
+    Assets:Cash:EUR                          EUR -10
 
 * CCF transactions
 2025-12-01 * Fees CCF
@@ -63,11 +118,51 @@
     Expenses:Food:Groceries                 EUR 3.34
     Assets:UK:Revolut:Personal:EUR
 
-* Amex transactions
-2025-12-01 * Gaia Torrefacteur
-    Expenses:Food:Cafe                         EUR 4
-    Liabilities:FR:Amex:Gold
+2024-12-03 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
 
+2025-12-05 * Casa Cafe
+    Expenses:Food:Cafe                      EUR 8.40
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-05 * Transfer to mum
+    Assets:Receivables:Mum                   EUR 150
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-05 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-06 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-06 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-06 * Franprix
+    Expenses:Food:Groceries                EUR 12.68
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-07 * Franprix
+    Expenses:Food:Groceries                EUR 28.51
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-07 * OpenAI
+    Expenses:Subscriptions:Software        EUR 19.17
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-08 * Cafe Nuances
+    Expenses:Food:Cafe                      EUR 4.50
+    Assets:UK:Revolut:Personal:EUR
+
+2025-12-09 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:UK:Revolut:Personal:EUR
+
+* Amex transactions
 2025-12-01 * Joseph Joseph  ; flat-vincennes:
     Expenses:Home:Furniture               EUR 134.40
     Liabilities:FR:Amex:Gold
@@ -76,6 +171,79 @@
     Expenses:Home                             EUR 96
     Liabilities:FR:Amex:Gold
 
-2025-12-02 WWW.VELIB-METROPOLE.FR
+2025-12-01 * Gaia Torrefacteur
+    Expenses:Food:Cafe                         EUR 4
+    Liabilities:FR:Amex:Gold
+
+2025-12-02 * Adidas shoes bag
+    Expenses:Shopping:Sport                EUR 12.99
+    Liabilities:FR:Amex:Gold
+
+2025-12-02 * WWW.VELIB-METROPOLE.FR
     Expenses:Transportation:Bikesharing        EUR 4
     Liabilities:FR:Amex:Gold
+
+2025-12-03 * Restaurant Trader's
+    Expenses:Entertainment:Social:Bars       EUR 300
+    Liabilities:FR:Amex:Gold
+
+2025-12-05 * Uber
+    Expenses:Transportation:Taxi           EUR 16.95
+    Liabilities:FR:Amex:Gold              EUR -16.95
+    Expenses:Transportation:Taxi           EUR -8.48
+    Liabilities:Payables:Aurelie            EUR 8.48
+
+2025-12-05 * Uber
+    Expenses:Transportation:Taxi           EUR 12.94
+    Liabilities:FR:Amex:Gold              EUR -12.94
+    Expenses:Transportation:Taxi           EUR -6.47
+    Liabilities:Payables:Aurelie            EUR 6.47
+
+2025-12-05 * Deliveroo
+    Expenses:Food:Delivery                  EUR 6.69
+    Liabilities:FR:Amex:Gold
+
+2025-12-05 * R2 Training
+    Expenses:Health:Gym                      EUR 179
+    Liabilities:FR:Amex:Gold
+
+2025-12-06 * Amex subscription
+    Expenses:Finance:CreditCard               EUR 16
+    Liabilities:FR:Amex:Gold
+
+2025-12-06 * Nike Retail BV Paris
+    Liabilities:FR:Amex:Gold              EUR 102.98
+    Expenses:Shopping:Clothes
+
+2025-12-06 * Leroy-Merlin cleaning products  ; flat-vincennes:
+    Expenses:Home:Maintenance              EUR 38.94
+    Liabilities:FR:Amex:Gold              EUR -38.94
+    Expenses:Home:Maintenance             EUR -19.47
+    Liabilities:Payables:Aurelie           EUR 19.47
+
+2025-12-06 * Deliveroo
+    Expenses:Food:FastFood                 EUR 26.84
+    Liabilities:FR:Amex:Gold
+
+2025-12-06 * Franprix cleaning products
+    Expenses:Home:Maintenance              EUR 13.20
+    Liabilities:FR:Amex:Gold
+
+2025-12-07 * Leroy Merlin  ; flat-vincennes
+    Expenses:Home:Furniture               EUR 114.37
+    Liabilities:FR:Amex:Gold             EUR -114.37
+    Expenses:Home:Furniture               EUR -57.20
+    Liabilities:Payables:Aurelie           EUR 57.20
+
+* Other liabilities
+2025-12-05 * Decoplus additional order
+    Expenses:Home:Furniture               EUR 205.12
+    Liabilities:Payables:Aurelie
+
+2025-12-08 * Yoojo cartons
+    Expenses:Home                            EUR 24
+    Liabilities:Payables:Aurelie
+
+2025-12-09 * Justine Christmas Gift
+    Expenses:GiftsCharity:Gifts               EUR 80
+    Liabilities:Payables:Aurelie

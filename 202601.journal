@@ -129,9 +129,21 @@
     Liabilities:Payables:Aurelie          EUR 506.71
     Assets:FR:BforBank:Compte-Courant
 
+2026-01-23 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-23 * Fisherman's Friend
+    Expenses:Food:Snack                        EUR 2
+    Assets:FR:BforBank:Compte-Courant
+
 * Cash transactions
 2026-01-01 * Cigarettes
     Expenses:Cigarettes                    EUR 13.50
+    Assets:Cash:EUR
+
+2026-01-10 * Therapy
+    Expenses:Health:Therapy                   EUR 120
     Assets:Cash:EUR
 
 2026-01-16 * Tennis lesson with Joris
@@ -139,12 +151,16 @@
     Assets:Cash:EUR
 
 2026-01-16 * Therapy
-    Expenses:Health:Therapy                  EUR 120
+    Expenses:Health:Therapy                  EUR 60
     Assets:Cash:EUR
 
 2026-01-16 * Treatment
     Expenses:PersonalCare:Discretionary      EUR 200
     Assets:Cash:EUR
+
+2026-01-23 * Cash balance assertion
+    Assets:Cash:EUR                         == EUR 12.11
+    Expenses:Misc:Unaccounted
 
 * Revolut EUR transactions
 2026-01-03 * Franprix
@@ -421,6 +437,10 @@
 
 2026-01-23 Deliveroo fee
     Expenses:Food:Delivery                  EUR 1.58
+    Liabilities:FR:Amex:Gold
+
+2026-01-23 Tennis shoes Yonex
+    Expenses:Shopping:Sport                EUR 74.95
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

@@ -1,0 +1,265 @@
+;; -*- mode: ledger; coding: utf-8 -*-
+
+* BforBank transactions
+2026-01-01 * Cigarettes
+    Expenses:Cigarettes                       EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-02 * Ratp
+    Expenses:Transportation:PublicTransport  EUR 5.10
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-05 * Navigo
+    Expenses:Transportation:PublicTransport  EUR 90.80
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-05 * MacroFactor subscription
+    Expenses:Subscriptions:Software        EUR 13.99
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-07 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-07 * Carrefour City
+    Expenses:Food:Groceries                EUR 14.98
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-08 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-08 * Le Cerf
+    Expenses:Entertainment:Social:Bars     EUR 22.80
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-09 * Kine Boetie
+    Expenses:Health:Doctor                   EUR 110
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-09 * G20
+    Expenses:Food:Groceries                EUR 52.40
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-09 * Le 164
+    Expenses:Entertainment:Social:Bars         EUR 8
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-12 * Bnf
+    Expenses:Education                        EUR 24
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-13 * Refund CPAM
+    Assets:FR:BforBank:Compte-Courant      EUR 23.16
+    Expenses:Health:Doctor
+
+2026-01-13 * Cash withdrawal
+    Assets:Cash:EUR                          EUR 120
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-14 * Fitness Park
+    Expenses:Health:Gym                    EUR 23.96
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-15 * Tax advance
+    Assets:FR:BforBank:Compte-Courant         EUR 40
+    Expenses:Taxes
+
+2026-01-16 * Cash withdrawal
+    Assets:Cash:EUR                          EUR 300
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-16 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-17 * Le 164
+    Expenses:Entertainment:Social:Bars        EUR 13
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-17 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-17 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 2.60
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-19 * Carrefour City sweets
+    Expenses:Food:Snack                        EUR 2
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-19 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-19 * Sept Couleurs  ; aurelie:
+    Expenses:Entertainment:Social:Bars     EUR 17.80
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-19 * Le Drapeau  ; aurelie:
+    Expenses:Entertainment:Social:Bars      EUR 9.30
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-20 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-20 * Carrefour City
+    Expenses:Food:Groceries                EUR 13.23
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-21 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-22 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-23 * Franprix
+    Expenses:Food:Groceries                 EUR 10.23
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-23 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR           EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+* Cash transactions
+2026-01-01 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:Cash:EUR
+
+2026-01-16 * Tennis lesson with Joris
+    Expenses:Health:Sport:Tennis              EUR 40
+    Assets:Cash:EUR
+
+2026-01-16 * Therapy
+    Expenses:Health:Therapy                  EUR 120
+    Assets:Cash:EUR
+
+2026-01-16 * Treatment
+    Expenses:PersonalCare:Discretionary      EUR 200
+    Assets:Cash:EUR
+
+* Revolut EUR transactions
+2026-01-03 * Franprix
+    Expenses:Food:Snack                     EUR 2.90
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-03 * Carrefour
+    Expenses:Food:Groceries                   EUR 15
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-03 * La Banquette  ; aurelie:
+    Expenses:Food:Restaurants              EUR 34.80
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-03 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-03 * Fisherman's Friend
+    Expenses:Food:Snack                     EUR 1.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-03 * Le Vincennes  ; aurelie:
+    Expenses:Entertainment:Events:Cinema      EUR 19
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-04 * Cigarettes
+    Expenses:Cigarettes                       EUR 26
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-04 * RealDebrid
+    Expenses:Subscriptions:Streaming           EUR 3
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-05 * Sohana Punjab
+    Expenses:Food:Restaurants                 EUR 21
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-07 * OpenAI
+    Expenses:Subscriptions:Software        EUR 19.17
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-08 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-10 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-10 * Maison B&b
+    Expenses:Food:Cafe                      EUR 3.70
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-11 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-12 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-12 * G20
+    Expenses:Food:Groceries                EUR 11.84
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-13 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-13 * Carrefour
+    Expenses:Food:Groceries                EUR 11.51
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-14 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-15 * Franprix
+    Expenses:Food:Snack                     EUR 2.90
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-17 * Cafe
+    Expenses:Food:Cafe                      EUR 0.70
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-17 * Cafe
+    Expenses:Food:Cafe                      EUR 0.80
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-17 * Cafe
+    Expenses:Food:Cafe                      EUR 0.80
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-17 * Cafe
+    Expenses:Food:Cafe                      EUR 0.80
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-22 * Transfer Revolut EUR balance
+    Assets:FR:BforBank:Compte-Courant       EUR 5.51
+    Assets:UK:Revolut:Personal:EUR
+
+2026-01-23 * Card delivery fee
+    Expenses:Finance:Bank                   EUR 7.99
+    Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-01-09 * Lebara mobile
+    Expenses:Home:Utilities:MobilePhone        GBP 5
+    Assets:UK:Revolut:Personal:GBP
+
+2026-01-17 * Le Berlioz
+    Expenses:Entertainment:Social:Bars     GBP 22.62
+    Assets:UK:Revolut:Personal:GBP
+
+2026-01-22 * Transfer Revolut GBP balance
+    Assets:UK:HSBC:Current-Account       GBP 2963.83
+    Assets:UK:Revolut:Personal:GBP
+
+2026-01-23 * Transfer GBP back to new Revolut GBP account
+    Assets:FR:Revolut:Personal:GBP       GBP 2963.83
+    Assets:UK:HSBC:Current-Account

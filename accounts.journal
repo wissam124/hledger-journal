@@ -24,6 +24,8 @@ account Assets:FR:CCF:Compte-Joint                ; type: C
 account Assets:FR:CCF:LDDS                        ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
+account Assets:FR:Revolut:Personal:EUR            ; type: C
+account Assets:FR:Revolut:Personal:GBP            ; type: C
 account Assets:Home:Vincennes                     ; type: A
 account Assets:UK:HSBC:Current-Account            ; type: C
 account Assets:UK:Halifax:Current-Account         ; type: C

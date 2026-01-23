@@ -125,6 +125,10 @@
     Assets:FR:Revolut:Personal:EUR           EUR 100
     Assets:FR:BforBank:Compte-Courant
 
+2026-01-23 * Settlement payables
+    Liabilities:Payables:Aurelie          EUR 506.71
+    Assets:FR:BforBank:Compte-Courant
+
 * Cash transactions
 2026-01-01 * Cigarettes
     Expenses:Cigarettes                    EUR 13.50
@@ -263,3 +267,164 @@
 2026-01-23 * Transfer GBP back to new Revolut GBP account
     Assets:FR:Revolut:Personal:GBP       GBP 2963.83
     Assets:UK:HSBC:Current-Account
+
+* Amex Gold transactions
+2026-01-01 * Uber
+    Expenses:Transportation:Taxi           EUR 41.49
+    Liabilities:FR:Amex:Gold
+
+2026-01-02 * Sncf Carte Avantage
+    Expenses:Travel:Train                     EUR 49
+    Liabilities:FR:Amex:Gold
+
+2026-01-02 * Train tickets Bourg-Saint-Maurice
+    Expenses:Travel:Train                    EUR 328
+    Liabilities:FR:Amex:Gold
+
+2026-01-02 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.94
+    Liabilities:FR:Amex:Gold
+
+2026-01-03 * Uniqlo
+    Expenses:Shopping:Clothes              EUR 74.60
+    Liabilities:FR:Amex:Gold
+
+2026-01-04 * Plantstraws
+    Expenses:GiftsCharity:Gifts            EUR 62.90
+    Liabilities:FR:Amex:Gold
+
+2026-01-04 * Decathlon bike accessories
+    Expenses:Shopping:Sport                EUR 58.96
+    Liabilities:FR:Amex:Gold
+
+2026-01-03 * Velib
+    Expenses:Transportation:Bikesharing        EUR 6
+    Liabilities:FR:Amex:Gold
+
+2026-01-03 * Cocolis  ; flat-vincennes:
+    Expenses:Home:Furniture                   EUR 38
+    Liabilities:FR:Amex:Gold
+
+2026-01-03 * Cles du guidon
+    Expenses:Education                       EUR 229
+    Liabilities:FR:Amex:Gold
+
+2026-01-04 * Ikea  ; flat-vincennes:
+    Expenses:Home:Furniture               EUR 269.86
+    Liabilities:FR:Amex:Gold             EUR -269.86
+
+2026-01-05 * R2 Training
+    Expenses:Health:Gym                    EUR 23.87
+    Liabilities:FR:Amex:Gold
+
+2026-01-05 * ScreenBar Halo 2
+    Expenses:Shopping:Electronics         EUR 179.20
+    Liabilities:FR:Amex:Gold
+
+2026-01-05 * Sechoir Joseph Joseph
+    Expenses:Home                          EUR 17.99
+    Liabilities:FR:Amex:Gold              EUR -17.99
+    Expenses:Home                             EUR -9
+    Liabilities:Payables:Aurelie               EUR 9
+
+2026-01-06 * Amex subscription
+    Expenses:Finance:CreditCard               EUR 16
+    Liabilities:FR:Amex:Gold
+
+2026-01-06 * Refund Extreme Tennis
+    Liabilities:FR:Amex:Gold               EUR 67.47
+    Expenses:Shopping:Sport
+
+2026-01-06 * Lapdesk for Aurelie  ; aurelie:
+    Expenses:GiftsCharity:Gifts            EUR 56.99
+    Liabilities:FR:Amex:Gold
+
+2026-01-06 * Home ladder  ; flat-vincennes:
+    Expenses:Home                          EUR 49.99
+    Liabilities:FR:Amex:Gold
+
+2026-01-07 * Leroy Merlin
+    Expenses:Home:Maintenance               EUR 5.99
+    Liabilities:FR:Amex:Gold
+
+2026-01-08 * Refund Tennis Warehouse
+    Expenses:Shopping:Sport               EUR -52.43
+    Liabilities:FR:Amex:Gold
+
+2026-01-10 * Deliveroo fee
+    Expenses:Food:Delivery                  EUR 1.59
+    Liabilities:FR:Amex:Gold
+
+2026-01-10 * Fluocaril
+    Expenses:Health:Pharmacy                EUR 9.38
+    Liabilities:FR:Amex:Gold
+
+2026-01-12 * Amex settlement
+    Liabilities:FR:Amex:Gold             EUR 5569.46
+    Assets:FR:CCF:Compte-Courant
+
+2026-01-12 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.98
+    Liabilities:FR:Amex:Gold
+
+2026-01-13 * Ikea
+    Expenses:Home:Furniture               EUR 268.99
+    Liabilities:FR:Amex:Gold             EUR -268.99
+    Expenses:Home:Furniture              EUR -134.50
+    Liabilities:Payables:Aurelie          EUR 134.50
+
+2026-01-16 * Ikea refund and expense sharing
+    Liabilities:FR:Amex:Gold               EUR 51.98
+    Expenses:Home:Furniture               EUR -51.98
+    Expenses:Home:Furniture              EUR -108.94
+    Liabilities:Payables:Aurelie          EUR 108.94
+
+2026-01-16 * Dott pass
+    Expenses:Transportation:Bikesharing     EUR 5.99
+    Liabilities:FR:Amex:Gold
+
+2026-01-16 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 2.45
+    Liabilities:FR:Amex:Gold
+
+2026-01-16 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2026-01-16 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2026-01-17 * Deliveroo
+    Expenses:Food:Delivery                 EUR 28.44
+    Liabilities:FR:Amex:Gold
+
+2026-01-17 * Nido Vincennes
+    Expenses:Food:Restaurants                 EUR 83
+    Liabilities:FR:Amex:Gold
+
+2026-01-17 * Deliveroo
+    Expenses:Food:Groceries                 EUR 7.60
+    Liabilities:FR:Amex:Gold
+
+2026-01-19 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.98
+    Liabilities:FR:Amex:Gold
+
+2026-01-20 * Refund train tickets ski
+    Expenses:Travel:Train                   EUR -290
+    Liabilities:FR:Amex:Gold
+
+2026-01-22 * Deliveroo fee
+    Expenses:Food:Delivery                  EUR 3.13
+    Liabilities:FR:Amex:Gold
+
+2026-01-23 Deliveroo fee
+    Expenses:Food:Delivery                  EUR 1.58
+    Liabilities:FR:Amex:Gold
+
+* Other liabilities
+2025-12-20 * Applique murale chambre  ; flat-vincennes:
+    Expenses:Home                          EUR 61.40
+    Expenses:Home                          EUR -30.70
+    Liabilities:Payables:Aurelie

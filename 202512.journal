@@ -107,6 +107,14 @@
     Expenses:Food:OfficeLunch               EUR 1.74
     Assets:FR:BoursoBank:Compte-Courant
 
+2025-12-07 * SC-AJC CONC.AUT
+    Expenses:Misc:Unaccounted               EUR 1.30
+    Assets:FR:BoursoBank:Compte-Courant
+
+2025-12-07 * SC-AJC CONC.AUT
+    Expenses:Misc:Unaccounted               EUR 1.30
+    Assets:FR:BoursoBank:Compte-Courant
+
 * Cash expenses
 2025-12-02 * Charity
     Expenses:GiftsCharity:Charity              EUR 1
@@ -322,7 +330,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-12-20 * Maison B&B
-    Expenses:Food:Cafe                 EUR 3.70
+    Expenses:Food:Cafe                      EUR 3.70
     Assets:UK:Revolut:Personal:EUR
 
 2025-12-20 * Boulanger Magali
@@ -408,6 +416,10 @@
 
 2025-12-10 * Lebara mobile
     Expenses:Home:Utilities:MobilePhone        GBP 5
+    Assets:UK:Revolut:Personal:GBP
+
+2025-12-15 * Beeminder fine
+    Expenses:Subscriptions:Software         GBP 3.76
     Assets:UK:Revolut:Personal:GBP
 
 * Amex transactions
@@ -525,35 +537,114 @@
     Expenses:Transportation:Bikesharing     EUR 1.75
     Liabilities:FR:Amex:Gold
 
-2025-12-14 Washing machine filter  ; flat-vincennes:
+2025-12-16 * H Kitchen
+    Expenses:Food:Restaurants                 EUR 80
+    Liabilities:FR:Amex:Gold
+
+2025-12-16 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2025-12-16 * Anti-vibration pads  ; flat-vincennes:
+    Expenses:Home:Maintenance              EUR 10.98
+    Liabilities:FR:Amex:Gold              EUR -10.98
+    Expenses:Home:Maintenance              EUR -5.49
+    Liabilities:Payables:Aurelie            EUR 5.49
+
+2025-12-16 * Washing machine filter  ; flat-vincennes:
     Expenses:Home:Maintenance              EUR 19.97
     Liabilities:FR:Amex:Gold              EUR -19.97
     Expenses:Home:Maintenance              EUR -9.98
     Liabilities:Payables:Aurelie            EUR 9.98
 
+2025-12-18 * Deliveroo fee
+    Expenses:Food:Delivery                  EUR 1.98
+    Liabilities:FR:Amex:Gold
 
+2025-12-19 * Carrefour
+    Expenses:Food:Groceries                EUR 24.79
+    Liabilities:FR:Amex:Gold
 
-2025-12-15 * Beeminder fine
-    Expenses:Subscriptions:Software         GBP 3.76
-    Assets:UK:Revolut:Personal:GBP
+2025-12-19 * Uber trip to work
+    Expenses:Transportation:Taxi           EUR 22.94
+    Liabilities:FR:Amex:Gold
+
+2025-12-19 * Leroy Merlin  ; flat-vincennes:
+    Expenses:Home:Maintenance              EUR 66.87
+    Liabilities:FR:Amex:Gold              EUR -66.87
+    Expenses:Home:Maintenance             EUR -33.44
+    Liabilities:Payables:Aurelie           EUR 33.44
+
+2025-12-20 * Champagne tasting
+    Expenses:Entertainment:Social:Bars       EUR 100
+    Liabilities:FR:Amex:Gold
+
+2025-12-23 * Decathlon gifts
+    ; racket for Arnaud and racket bag for Aurelie
+    Expenses:GiftsCharity:Gifts            EUR 68.98
+    Liabilities:FR:Amex:Gold
+
+2025-12-23 * Leroy Merlin  ; flat-vincennes:
+    Expenses:Home:Maintenance              EUR 35.52
+    Liabilities:FR:Amex:Gold              EUR -35.52
+    Expenses:Home:Maintenance             EUR -17.76
+    Liabilities:Payables:Aurelie           EUR 17.76
+
+2025-12-23 * Deliveroo
+    Expenses:Food:Delivery                 EUR 33.64
+    Liabilities:FR:Amex:Gold
+
+2025-12-24 * Decathlon xmas gift
+    Expenses:GiftsCharity:Gifts              EUR -10
+    Liabilities:FR:Amex:Gold                  EUR 10
+
+2025-12-26 * Bathroom sink organisers
+    Expenses:Home                          EUR 88.98
+    Liabilities:FR:Amex:Gold              EUR -88.98
+    Expenses:Home                         EUR -44.49
+    Liabilities:Payables:Aurelie           EUR 44.49
+
+2025-12-29 * Deliveroo
+    Expenses:Food:Delivery                 EUR 32.79
+    Liabilities:FR:Amex:Gold
+
+2025-12-29 * Kitchen sink organiser
+    Expenses:Home                          EUR 59.99
+    Liabilities:FR:Amex:Gold              EUR -59.99
+    Expenses:Home                            EUR -30
+    Liabilities:Payables:Aurelie              EUR 30
+
+2025-12-30 * Deliveroo
+    Expenses:Food:Delivery                 EUR 19.03
+    Liabilities:FR:Amex:Gold
+
 
 * Other liabilities
-2025-12-05 * Decoplus additional order
-    Expenses:Home:Furniture               EUR 205.12
+2025-12-05 * Decoplus additional order  ; flat-vincennes:
+    Expenses:Home:Improvements            EUR 410.24
+    Expenses:Home:Improvements            EUR -205.12
     Liabilities:Payables:Aurelie
 
-2025-12-08 * Yoojo cartons
-    Expenses:Home                            EUR 24
+2025-12-08 * Yoojo cartons  ; flat-vincennes:
+    Expenses:Home                             EUR 48
+    Expenses:Home                            EUR -24
     Liabilities:Payables:Aurelie
 
 2025-12-09 * Justine Christmas Gift
     Expenses:GiftsCharity:Gifts               EUR 80
     Liabilities:Payables:Aurelie
 
-2025-12-12 * Bathroom cupboard  ; flat-vincennes:
-    Expenses:Home:Furniture               EUR 102.08
+2025-12-12 * Applique mural sdb  ; flat-vincennes:
+    Expenses:Home:Furniture               EUR 204.15
+    Expenses:Home:Furniture              EUR -102.09
     Liabilities:Payables:Aurelie
 
-2025-12-12 * Leroy Merlin misc  ; flat-vincennes:
-    Expenses:Home:Maintenance              EUR 61.50
-    Liabilities:Payables:Aurelie
+2025-12-12 * Leroy Merlin stores poignees ampoules vis  ; flat-vincennes:
+    Expenses:Home:Maintenance                EUR 123
+    Expenses:Home:Maintenance             EUR -61.47
+    Liabilities:Payables:Aurelie          EUR -61.53
+
+2025-12-20 * Credence adhesive cuisine  ; flat-vincennes:
+    Expenses:Home                            EUR 100
+    Expenses:Home                            EUR -50
+    Liabilities:Payables:Aurelie             EUR -50

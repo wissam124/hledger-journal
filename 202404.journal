@@ -186,7 +186,7 @@
 
 2024-04-17 * Sale Ikea shelves
     Assets:FR:BforBank:Compte-Courant          EUR 35
-    Income:FR:Resale                          EUR -35
+    Income:Resale                          EUR -35
 
 2024-04-18 * Deliveroo
     Expenses:Food:Delivery                  EUR 15.84
@@ -218,7 +218,7 @@
 
 2024-04-20 * Sale Ikea bedside table
     Assets:FR:BforBank:Compte-Courant          EUR 30
-    Income:FR:Resale                          EUR -30
+    Income:Resale                          EUR -30
 
 2024-04-22 * Cigarettes
     Expenses:Cigarettes                      EUR 12.5
@@ -302,7 +302,7 @@
 
 2024-04-26 * Sale PNP T-Shirts
     Assets:FR:BforBank:Compte-Courant       EUR 50.28
-    Income:FR:Resale                       EUR -50.28
+    Income:Resale                       EUR -50.28
 
 2024-04-27 * Cigarettes
     Expenses:Cigarettes                      EUR 18.7

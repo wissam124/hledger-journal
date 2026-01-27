@@ -168,7 +168,7 @@
 
 2026-01-26 * Sale ironing board
     Assets:FR:BforBank:Compte-Courant         EUR 55
-    Income:FR:Resale
+    Income:Resale
 
 2026-01-26 Cigarettes
     Expenses:Cigarettes                    EUR 13.50
@@ -226,7 +226,7 @@
 
 2026-01-24 * Sale stepladder
     Assets:Cash:EUR                           EUR 30
-    Income:FR:Resale
+    Income:Resale
 
 * Revolut EUR transactions
 2026-01-03 * Franprix

@@ -274,7 +274,7 @@
 
 2024-09-19 * Vinted sales
     Assets:FR:BforBank:Compte-Courant       EUR 93.25
-    Income:FR:Resale:Vinted                EUR -93.25
+    Income:Resale:Vinted                EUR -93.25
 
 2024-09-19 * Cash transfer mom for house maintenance
     Expenses:Home:Maintenance                  EUR 10

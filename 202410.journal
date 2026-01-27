@@ -350,7 +350,7 @@
 
 2024-10-29 * Vinted sales
     Assets:FR:BforBank:Compte-Courant          EUR 50
-    Income:FR:Resale:Vinted                   EUR -50
+    Income:Resale:Vinted                   EUR -50
 
 2024-10-29 * Cigarettes
     Expenses:Cigarettes                      EUR 12.5

@@ -222,7 +222,7 @@
 
 2025-01-09 * Vinted sales
     Assets:FR:BforBank:Compte-Courant          EUR 85
-    Income:FR:Resale:Vinted                   EUR -85
+    Income:Resale:Vinted                   EUR -85
 
 2025-01-09 * Baguette
     Expenses:Food:Groceries                  EUR 1.25

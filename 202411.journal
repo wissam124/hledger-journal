@@ -182,7 +182,7 @@
 
 2024-11-14 * Vinted sales
     Assets:FR:BforBank:Compte-Courant          EUR 45
-    Income:FR:Resale:Vinted                   EUR -45
+    Income:Resale:Vinted                   EUR -45
 
 2024-11-14 * Boursobank fees
     Expenses:Finance:Bank                          EUR 9
@@ -350,7 +350,7 @@
 
 2024-11-26 * Vinted sales
     Assets:FR:BforBank:Compte-Courant          EUR 20
-    Income:FR:Resale:Vinted                   EUR -20
+    Income:Resale:Vinted                   EUR -20
 
 2024-11-26 * Cigarettes
     Expenses:Cigarettes                      EUR 12.5

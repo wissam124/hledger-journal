@@ -182,7 +182,7 @@
 
 2024-12-10 * Vinted sales
     Assets:FR:BforBank:Compte-Courant          EUR 30
-    Income:FR:Resale:Vinted                   EUR -30
+    Income:Resale:Vinted                   EUR -30
 
 2024-12-10 * Beeminder fine
     Expenses:Subscriptions:Software          EUR 4.76

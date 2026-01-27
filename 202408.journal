@@ -402,7 +402,7 @@
 
 2024-08-27 * Sale Ikea desk
     Assets:FR:BforBank:Compte-Courant          EUR 90
-    Income:FR:Resale                          EUR -90
+    Income:Resale                          EUR -90
 
 2024-08-27 * Cigarettes
     Expenses:Cigarettes                      EUR 12.5

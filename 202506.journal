@@ -208,7 +208,7 @@
 
 2025-06-17 * Vinted sales
     Assets:FR:BforBank:Compte-Courant      EUR 77.25
-    Income:FR:Resale:Vinted
+    Income:Resale:Vinted
 
 2025-06-18 * Cigarettes
     Expenses:Cigarettes                       EUR 13

@@ -1,5 +1,14 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
+* BforBank Livret A
+2026-01-01 * Interest income
+    Assets:FR:BforBank:LivretA            EUR 232.08
+    Income:FR:BforBank:LivretA
+
+2026-01-24 * Interest income closing
+    Assets:FR:BforBank:LivretA              EUR 0.17
+    Income:FR:BforBank:LivretA
+
 * BforBank transactions
 2026-01-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -117,12 +126,8 @@
     Expenses:Cigarettes                    EUR 13.50
     Assets:FR:BforBank:Compte-Courant
 
-2026-01-23 * Franprix
-    Expenses:Food:Groceries                 EUR 10.23
-    Assets:FR:BforBank:Compte-Courant
-
-2026-01-23 * Transfer to Revolut
-    Assets:FR:Revolut:Personal:EUR           EUR 100
+2026-01-22 * Franprix
+    Expenses:Food:Groceries                EUR 10.23
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-23 * Settlement payables
@@ -133,9 +138,54 @@
     Expenses:Cigarettes                    EUR 13.50
     Assets:FR:BforBank:Compte-Courant
 
-2026-01-23 * Fisherman's Friend
+2026-01-24 * Transfer Livret A to Compte-Courant
+    Assets:FR:BforBank:Compte-Courant     EUR 242.25
+    Assets:FR:BforBank:LivretA
+
+2026-01-24 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR           EUR 100
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-24 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-24 * Fisherman's Friend
     Expenses:Food:Snack                        EUR 2
     Assets:FR:BforBank:Compte-Courant
+
+2026-01-24 * Le Paris Cafe
+    Expenses:Entertainment:Social:Bars     EUR 16.70
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-25 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-25 * Cash withdrawal
+    Assets:Cash:EUR                           EUR 20
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-26 * Sale ironing board
+    Assets:FR:BforBank:Compte-Courant         EUR 55
+    Income:FR:Resale
+
+2026-01-26 Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-26 G20
+    Expenses:Food:Groceries                EUR 64.19
+    Assets:FR:BforBank:Compte-Courant
+
+2021-01-27 * SFR
+    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Assets:FR:BforBank:Compte-Courant
+
+* Boursobank transactions
+2026-01-26 * Deliveroo fee
+    Expenses:Food:Delivery                  EUR 2.88
+    Assets:FR:BoursoBank:Compte-Courant
 
 * Cash transactions
 2026-01-01 * Cigarettes
@@ -161,6 +211,22 @@
 2026-01-23 * Cash balance assertion
     Assets:Cash:EUR                         == EUR 12.11
     Expenses:Misc:Unaccounted
+
+2026-01-24 * Cafe
+    Expenses:Food:Cafe                      EUR 2.30
+    Assets:Cash:EUR
+
+2026-01-24 * Baguette
+    Expenses:Food:Groceries                 EUR 1.35
+    Assets:Cash:EUR
+
+2026-01-24 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:Cash:EUR
+
+2026-01-24 * Sale stepladder
+    Assets:Cash:EUR                           EUR 30
+    Income:FR:Resale
 
 * Revolut EUR transactions
 2026-01-03 * Franprix
@@ -265,6 +331,26 @@
 
 2026-01-23 * Card delivery fee
     Expenses:Finance:Bank                   EUR 7.99
+    Assets:FR:Revolut:Personal:EUR
+
+2026-01-23 * Franprix
+    Expenses:Food:Groceries                EUR 11.40
+    Assets:FR:Revolut:Personal:EUR
+
+2026-01-23 * Yonex shoes bag
+    Expenses:Shopping:Sport                EUR 16.45
+    Assets:FR:Revolut:Personal:EUR
+
+2026-01-25 * Beeminder fine
+    Expenses:Subscriptions:Software         EUR 4.29
+    Assets:FR:Revolut:Personal:EUR
+
+2026-01-25 * TorBox
+    Expenses:Subscriptions:Streaming        EUR 4.30
+    Assets:FR:Revolut:Personal:EUR
+
+2026-01-26 * Cafe Gaia
+    Expenses:Food:Cafe                         EUR 4
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions
@@ -435,16 +521,64 @@
     Expenses:Food:Delivery                  EUR 3.13
     Liabilities:FR:Amex:Gold
 
-2026-01-23 Deliveroo fee
+2026-01-23 * Deliveroo fee
     Expenses:Food:Delivery                  EUR 1.58
     Liabilities:FR:Amex:Gold
 
-2026-01-23 Tennis shoes Yonex
+2026-01-23 * Tennis shoes Yonex
     Expenses:Shopping:Sport                EUR 74.95
     Liabilities:FR:Amex:Gold
 
+2026-01-24 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2026-01-24 * Maison B&b
+    Expenses:Food:Cafe                      EUR 3.20
+    Liabilities:FR:Amex:Gold
+
+2026-01-25 Amazon order
+    Expenses:Home:Maintenance              EUR 10.99  ; kit nettoyage clavier
+    Expenses:Shopping                      EUR 18.80  ; uni kurutoga advanced upgrade
+    Expenses:Home:Maintenance               EUR 9.99  ; pierre d'argile
+    Expenses:Home:Maintenance              EUR 54.99  ; vileda h2pro
+    Expenses:Food:Groceries                EUR 11.99  ; nutritional yeast
+    Expenses:Shopping:Sport                EUR 17.63  ; sac a chaussures head
+    Expenses:Home:Maintenance               EUR 8.49  ; pochon tissu
+    Expenses:Home:Maintenance               EUR 5.99  ; air duster
+    Liabilities:FR:Amex:Gold             EUR -138.87
+
+2026-01-25 Vileda expense sharing
+    Expenses:Home:Maintenance             EUR -27.50
+    Liabilities:Payables:Aurelie
+
+2026-01-26 * HelloFresh
+    Expenses:Food:Groceries                EUR 48.98
+    Liabilities:FR:Amex:Gold
+
+2026-01-26 ABUS Quickstore
+    Expenses:Shopping                      EUR 19.01
+    Liabilities:FR:Amex:Gold
+
+2026-01-26 Nike shoe bag
+    Expenses:Shopping                      EUR 14.95
+    Liabilities:FR:Amex:Gold
+
+2026-01-26 Daisy chain dip belt
+    Expenses:Shopping:Sport                EUR 17.90
+    Liabilities:FR:Amex:Gold
+
 * Other liabilities
-2025-12-20 * Applique murale chambre  ; flat-vincennes:
+2026-12-20 * Applique murale chambre  ; flat-vincennes:
     Expenses:Home                          EUR 61.40
     Expenses:Home                          EUR -30.70
     Liabilities:Payables:Aurelie
+
+2026-12-25 * Tapis salon ; flat-vincennes:
+    Expenses:Home                          EUR 62.48
+    Expenses:Home                         EUR -31.24
+    Liabilities:Payables:Aurelie
+
+2026-12-25 * Tables chevet
+    Expenses:Home                         EUR 103.99
+    Expenses:Home                             EUR 52

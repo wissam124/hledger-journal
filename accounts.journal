@@ -69,8 +69,8 @@ account Income:FR:111Capital:Interessement        ; type: R
 account Income:FR:111Capital:Participation        ; type: R
 account Income:FR:111Capital:Salary               ; type: R
 account Income:FR:BforBank:LivretA                ; type: R
-account Income:FR:Resale                          ; type: R
-account Income:FR:Resale:Vinted                   ; type: R
+account Income:Resale                             ; type: R
+account Income:Resale:Vinted                      ; type: R
 account Income:CapitalGains:Epsor:PEI             ; type: R
 account Income:CapitalGains:Epsor:PER             ; type: R
 account Income:CapitalGains:Moneyfarm             ; type: R

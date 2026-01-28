@@ -188,6 +188,7 @@
 
 2026-01-27 * Gift Julien
     Expenses:GiftsCharity:Gifts               EUR 50
+    Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
 2026-01-26 * Deliveroo fee
@@ -236,7 +237,7 @@
     Income:Resale
 
 2026-01-27 * Hairdresser
-    Expenses:PersonalCare:Hairdresser         EUR 13
+    Expenses:PersonalCare:Hair                EUR 13
     Assets:Cash:EUR
 
 * Revolut EUR transactions
@@ -608,4 +609,5 @@
 
 2026-12-25 * Tables chevet
     Expenses:Home                         EUR 103.99
-    Expenses:Home                             EUR 52
+    Expenses:Home                            EUR -52
+    Liabilities:Payables:Aurelie

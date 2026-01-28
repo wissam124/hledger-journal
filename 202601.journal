@@ -170,17 +170,24 @@
     Assets:FR:BforBank:Compte-Courant         EUR 55
     Income:Resale
 
-2026-01-26 Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
-    Assets:FR:BforBank:Compte-Courant
-
-2026-01-26 G20
-    Expenses:Food:Groceries                EUR 64.19
-    Assets:FR:BforBank:Compte-Courant
-
 2021-01-27 * SFR
     Expenses:Home:Utilities:MobilePhone    EUR 11.99
     Assets:FR:BforBank:Compte-Courant
+
+2026-01-27 * G20
+    Expenses:Food:Groceries                EUR 64.19
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-27 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-27 * Sale trousers vinted
+    Assets:FR:BforBank:Compte-Courant         EUR 20
+    Income:Resale
+
+2026-01-27 * Gift Julien
+    Expenses:GiftsCharity:Gifts               EUR 50
 
 * Boursobank transactions
 2026-01-26 * Deliveroo fee
@@ -227,6 +234,10 @@
 2026-01-24 * Sale stepladder
     Assets:Cash:EUR                           EUR 30
     Income:Resale
+
+2026-01-27 * Hairdresser
+    Expenses:PersonalCare:Hairdresser         EUR 13
+    Assets:Cash:EUR
 
 * Revolut EUR transactions
 2026-01-03 * Franprix
@@ -351,6 +362,14 @@
 
 2026-01-26 * Cafe Gaia
     Expenses:Food:Cafe                         EUR 4
+    Assets:FR:Revolut:Personal:EUR
+
+2026-01-27 * McDonald's
+    Expenses:Food:Delivery                 EUR 29.18
+    Assets:FR:Revolut:Personal:EUR
+
+2026-01-28 * Carrefour City
+    Expenses:Food:Groceries                 EUR 8.39
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions
@@ -537,7 +556,7 @@
     Expenses:Food:Cafe                      EUR 3.20
     Liabilities:FR:Amex:Gold
 
-2026-01-25 Amazon order
+2026-01-25 * Amazon order
     Expenses:Home:Maintenance              EUR 10.99  ; kit nettoyage clavier
     Expenses:Shopping                      EUR 18.80  ; uni kurutoga advanced upgrade
     Expenses:Home:Maintenance               EUR 9.99  ; pierre d'argile
@@ -548,7 +567,7 @@
     Expenses:Home:Maintenance               EUR 5.99  ; air duster
     Liabilities:FR:Amex:Gold             EUR -138.87
 
-2026-01-25 Vileda expense sharing
+2026-01-25 * Vileda expense sharing
     Expenses:Home:Maintenance             EUR -27.50
     Liabilities:Payables:Aurelie
 
@@ -566,6 +585,14 @@
 
 2026-01-26 Daisy chain dip belt
     Expenses:Shopping:Sport                EUR 17.90
+    Liabilities:FR:Amex:Gold
+
+2026-01-27 Uniqlo
+    Expenses:Shopping:Clothes             EUR 104.70
+    Liabilities:FR:Amex:Gold
+
+2026-01-2 * Label maker and zipped bags
+    Expenses:Home                          EUR 44.38
     Liabilities:FR:Amex:Gold
 
 * Other liabilities

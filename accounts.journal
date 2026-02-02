@@ -8,6 +8,7 @@ commodity LQQ 1.  ;yahoo_ticker:LQQ.PA
 
 ; Tags
 tag aurelie
+tag claim-tax
 tag flat-vincennes
 tag per-tax-deferred
 
@@ -117,13 +118,14 @@ account Expenses:Health:Supplements                        ; type: X
 account Expenses:Health:Therapy                            ; type: X
 account Expenses:Home                                      ; type: X
 account Expenses:Home:Furniture                            ; type: X
+account Expenses:Home:Improvements                         ; type: X
 account Expenses:Home:Maintenance                          ; type: X
 account Expenses:Home:Rent                                 ; type: X
-account Expenses:Home:Improvements                         ; type: X
 account Expenses:Home:Utilities:Electricity                ; type: X
 account Expenses:Home:Utilities:Internet                   ; type: X
 account Expenses:Home:Utilities:MobilePhone                ; type: X
 account Expenses:Home:Utilities:Water                      ; type: X
+account Expenses:Home:Vincennes:ServiceCharges             ; type: X
 account Expenses:Insurance:Health                          ; type: X
 account Expenses:Insurance:Home                            ; type: X
 account Expenses:Misc                                      ; type: X

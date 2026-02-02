@@ -193,6 +193,14 @@
     Assets:FR:CCF:Compte-Courant         EUR 6371.58
     Income:FR:111Capital:Salary
 
+2025-12-09 * Transfer to joint-account
+    Assets:FR:CCF:Compte-Joint                EUR 50
+    Assets:FR:CCF:Compte-Courant
+
+2025-12-16 * EDF
+    Expenses:Home:Utilities:Electricity    EUR 34.89
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut EUR transactions
 2025-12-01 * Cigarettes
     Expenses:Cigarettes                       EUR 13

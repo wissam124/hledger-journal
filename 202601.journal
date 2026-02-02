@@ -166,6 +166,12 @@
     Assets:Cash:EUR                           EUR 20
     Assets:FR:BforBank:Compte-Courant
 
+2026-01-26 * Services charges Q1'26
+    Expenses:Home:Vincennes:ServiceCharges  EUR 1730.03
+    Assets:FR:BforBank:Compte-Courant   EUR -1730.03
+    Expenses:Home:Vincennes:ServiceCharges  EUR -865.02
+    Liabilities:Payables:Aurelie          EUR 865.02
+
 2026-01-26 * Sale ironing board
     Assets:FR:BforBank:Compte-Courant         EUR 55
     Income:Resale
@@ -186,8 +192,44 @@
     Assets:FR:BforBank:Compte-Courant         EUR 20
     Income:Resale
 
-2026-01-27 * Gift Julien
+2026-01-28 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-28 * ID pictures
+    Expenses:Misc                             EUR 25
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-29 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-29 * Gift Julien
     Expenses:GiftsCharity:Gifts               EUR 50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-30 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-30 * Dryer for bed linen
+    Expenses:Home:Maintenance               EUR 1.30
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-30 * Dryer for bed linen
+    Expenses:Home:Maintenance               EUR 1.30
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-31 * Magali Saint Mande
+    Expenses:Food:Groceries                EUR 23.20
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-31 * Cigarettes
+    Expenses:Cigarettes                    EUR 13.50
+    Assets:FR:BforBank:Compte-Courant
+
+2026-01-31 Cash withdrawal
+    Assets:Cash:EUR                          EUR 120
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -239,6 +281,29 @@
 2026-01-27 * Hairdresser
     Expenses:PersonalCare:Hair                EUR 13
     Assets:Cash:EUR
+
+2026-01-30 * Cali class with Kevin
+    Expenses:Health:Gym                       EUR 15
+    Expenses:GiftsCharity:Gifts               EUR 15  ; aurelie:
+    Assets:Cash:EUR
+
+2026-01-31 * Therapy
+    Expenses:Health:Therapy                  EUR 120
+    Assets:Cash:EUR
+
+* ccf transactions
+2026-01-03 * Transfer CCF Compte-Courant to CCF Compte-Joint
+    Assets:FR:CCF:Compte-Joint           EUR 2257.50
+    Assets:FR:CCF:Compte-Courant
+
+2026-01-03 * Fees CCF
+    Expenses:Finance:Bank                   EUR 8.75
+    Assets:FR:CCF:Compte-Courant
+
+* Moneyfarm transactions
+2026-01-28 * Account close
+    Assets:UK:HSBC:Current-Account           GBP 1.82
+    Assets:UK:Moneyfarm
 
 * Revolut EUR transactions
 2026-01-03 * Franprix
@@ -549,15 +614,15 @@
     Expenses:Shopping:Sport                EUR 74.95
     Liabilities:FR:Amex:Gold
 
-2026-01-24 * Dott ride
-    Expenses:Transportation:Bikesharing     EUR 1.75
-    Liabilities:FR:Amex:Gold
-
 2026-01-24 * Maison B&b
     Expenses:Food:Cafe                      EUR 3.20
     Liabilities:FR:Amex:Gold
 
-2026-01-25 * Amazon order
+2026-01-24 * Dott ride
+    Expenses:Transportation:Bikesharing     EUR 1.75
+    Liabilities:FR:Amex:Gold
+
+2026-01-26 * Amazon order
     Expenses:Home:Maintenance              EUR 10.99  ; kit nettoyage clavier
     Expenses:Shopping                      EUR 18.80  ; uni kurutoga advanced upgrade
     Expenses:Home:Maintenance               EUR 9.99  ; pierre d'argile
@@ -568,7 +633,7 @@
     Expenses:Home:Maintenance               EUR 5.99  ; air duster
     Liabilities:FR:Amex:Gold             EUR -138.87
 
-2026-01-25 * Vileda expense sharing
+2026-01-26 * Vileda expense sharing
     Expenses:Home:Maintenance             EUR -27.50
     Liabilities:Payables:Aurelie
 
@@ -576,24 +641,32 @@
     Expenses:Food:Groceries                EUR 48.98
     Liabilities:FR:Amex:Gold
 
-2026-01-26 ABUS Quickstore
-    Expenses:Shopping                      EUR 19.01
-    Liabilities:FR:Amex:Gold
-
-2026-01-26 Nike shoe bag
-    Expenses:Shopping                      EUR 14.95
-    Liabilities:FR:Amex:Gold
-
-2026-01-26 Daisy chain dip belt
-    Expenses:Shopping:Sport                EUR 17.90
-    Liabilities:FR:Amex:Gold
-
-2026-01-27 Uniqlo
+2026-01-27 * Uniqlo
     Expenses:Shopping:Clothes             EUR 104.70
     Liabilities:FR:Amex:Gold
 
-2026-01-2 * Label maker and zipped bags
+2026-01-28 * Nike shoe bag
+    Expenses:Shopping:Sport                EUR 16.98
+    Liabilities:FR:Amex:Gold
+
+2026-01-29 * Label maker and zipped bags
     Expenses:Home                          EUR 44.38
+    Liabilities:FR:Amex:Gold
+
+2026-01-29 * Daisy chain dip belt
+    Expenses:Shopping:Sport                EUR 17.90
+    Liabilities:FR:Amex:Gold
+
+2026-01-29 * ABUS Quickstore
+    Expenses:Shopping                      EUR 19.01
+    Liabilities:FR:Amex:Gold
+
+2026-01-31 * Franprix
+    Expenses:Food:Groceries                EUR 18.20
+    Liabilities:FR:Amex:Gold
+
+2026-01-31 * Maison B&B Paris
+    Expenses:Food:Cafe                      EUR 3.70
     Liabilities:FR:Amex:Gold
 
 * Other liabilities
@@ -602,12 +675,12 @@
     Expenses:Home                          EUR -30.70
     Liabilities:Payables:Aurelie
 
-2026-12-25 * Tapis salon ; flat-vincennes:
+2026-12-25 * Tapis salon  ; flat-vincennes:
     Expenses:Home                          EUR 62.48
     Expenses:Home                         EUR -31.24
     Liabilities:Payables:Aurelie
 
-2026-12-25 * Tables chevet
+2026-12-25 * Tables chevet  ; flat-vincennes:
     Expenses:Home                         EUR 103.99
     Expenses:Home                            EUR -52
     Liabilities:Payables:Aurelie

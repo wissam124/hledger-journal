@@ -104,12 +104,12 @@
     Expenses:Food:OfficeLunch               EUR 1.74
     Assets:FR:BoursoBank:Compte-Courant
 
-2025-12-07 * SC-AJC CONC.AUT
-    Expenses:Misc:Unaccounted               EUR 1.30
+2025-12-07 * Dryer for bed linen
+    Expenses:Home:Maintenance               EUR 1.30
     Assets:FR:BoursoBank:Compte-Courant
 
-2025-12-07 * SC-AJC CONC.AUT
-    Expenses:Misc:Unaccounted               EUR 1.30
+2025-12-07 * Dryer for bed linen
+    Expenses:Home:Maintenance               EUR 1.30
     Assets:FR:BoursoBank:Compte-Courant
 
 * Cash expenses
@@ -334,8 +334,8 @@
     Expenses:Food:Groceries                 EUR 7.66
     Assets:UK:Revolut:Personal:EUR
 
-2025-12-21 * ajc Conc.aut
-    Expenses:Misc:Unaccounted               EUR 4.50
+2025-12-21 * Laundry for bed linen
+    Expenses:Home:Maintenance               EUR 4.50
     Assets:UK:Revolut:Personal:EUR
 
 2025-12-21 * Cigarettes
@@ -346,12 +346,12 @@
     Expenses:Food:Snack                     EUR 2.50
     Assets:UK:Revolut:Personal:EUR
 
-2025-12-21 * ajc Conc.aut
-    Expenses:Misc:Unaccounted               EUR 1.30
+2025-12-21 * Dryer for bed linen
+    Expenses:Home:Maintenance               EUR 1.30
     Assets:UK:Revolut:Personal:EUR
 
-2025-12-21 * ajc Conc.aut
-    Expenses:Misc:Unaccounted               EUR 1.30
+2025-12-21 * Dryer for bed linen
+    Expenses:Home:Maintenance               EUR 1.30
     Assets:UK:Revolut:Personal:EUR
 
 2025-12-22 * Carrefour

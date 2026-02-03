@@ -316,19 +316,19 @@
 
 2025-11-04 * Flat Vincennes frais de courtier
     Expenses:Finance:Mortgage               EUR 1500
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 2025-11-06 * Cash withdrawal
     Assets:Cash:EUR                          EUR 500
     Assets:FR:CCF:Compte-Courant
 
 2025-11-17 * Refund proratas fees
-    Assets:FR:CCF:Compte-Joint            EUR 594.75
+    Assets:FR:CCF:Compte-Joint:Jean            EUR 594.75
     Income:Home:Vincennes
 
 2025-11-20 * EDF Vincennes bill
     Expenses:Home:Utilities:Electricity    EUR 14.60
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 2025-11-29 * Cash withdrawal
     Assets:Cash:EUR                          EUR 100
@@ -724,7 +724,7 @@
 
 * Mortgage
 2025-11-04 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint          EUR -1268.26
+    Assets:FR:CCF:Compte-Joint:Jean          EUR -1268.26
     Liabilities:FR:CCF:Mortgage           EUR 849.15
     Expenses:Finance:Mortgage:Interest    EUR 419.11
 

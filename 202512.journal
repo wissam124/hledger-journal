@@ -186,7 +186,7 @@
     Assets:FR:CCF:Compte-Courant
 
 2025-12-01 * Transfer to joint-account
-    Assets:FR:CCF:Compte-Joint            EUR 304.14
+    Assets:FR:CCF:Compte-Joint:Jean            EUR 304.14
     Assets:FR:CCF:Compte-Courant
 
 2025-12-03 * 111 Cap wages
@@ -194,7 +194,7 @@
     Income:FR:111Capital:Salary
 
 2025-12-09 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint                EUR 50
+    Assets:FR:CCF:Compte-Joint:Jean                EUR 50
     Assets:FR:CCF:Compte-Courant
 
 2025-12-16 * EDF Citeaux contract closure
@@ -203,7 +203,7 @@
 
 2025-12-08 * EDF Huchon
     Expenses:Home:Utilities:Electricity    EUR 24.50
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 * Revolut EUR transactions
 2025-12-01 * Cigarettes
@@ -659,7 +659,7 @@
 
 * Mortgage
 2025-12-04 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint          EUR -2037.19
+    Assets:FR:CCF:Compte-Joint:Jean          EUR -2037.19
     Liabilities:FR:CCF:Mortgage           EUR 851.45
     Expenses:Finance:Mortgage:Interest    EUR 1060.04
     Expenses:Finance:Mortgage:Insurance    EUR 125.70

@@ -175,12 +175,12 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-06 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint              EUR 2.40
+    Assets:FR:CCF:Compte-Joint:Jean              EUR 2.40
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-06 * Frais tenue de compte
     Expenses:Finance:Bank                   EUR 2.40
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 2025-10-06 * Cigarettes
     Expenses:Cigarettes                       EUR 13
@@ -271,7 +271,7 @@
     Expenses:Insurance:Home               EUR -80.22
 
 2025-10-23 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint     EUR 100
+    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-23 * Cash withdrawal
@@ -279,7 +279,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-24 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint   EUR 29900
+    Assets:FR:CCF:Compte-Joint:Jean   EUR 29900
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-24 * SFR
@@ -337,15 +337,15 @@
 
 2025-10-14 * Transfer to LDDS
     Assets:FR:CCF:LDDS                        EUR 10
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 2025-10-26 * Repay loan from Mum
     Liabilities:Payables:Mum              EUR 100
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 2025-10-28 * Repay loan from Mum
     Liabilities:Payables:Mum              EUR 29,900
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 * HSBC transactions
 2025-10-07 * Transfer to Revolut
@@ -406,11 +406,11 @@
     Assets:UK:Revolut:Personal:GBP
 
 2025-10-07 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint     EUR 100
+    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-07 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint   EUR 17900
+    Assets:FR:CCF:Compte-Joint:Jean   EUR 17900
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-07 * Stamp letter for AW
@@ -550,7 +550,7 @@
     Assets:UK:Revolut:Personal:GBP
 
 2025-10-21 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint  EUR 34098.53
+    Assets:FR:CCF:Compte-Joint:Jean  EUR 34098.53
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-22 * Lunch at Bagnard with Anne
@@ -815,23 +815,23 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-22 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint     EUR 100
+    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
     Liabilities:Payables:Mum
 
 2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint     EUR 100
+    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
     Liabilities:Payables:Iskander
 
 2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint    EUR 9900
+    Assets:FR:CCF:Compte-Joint:Jean    EUR 9900
     Liabilities:Payables:Iskander
 
 2025-10-23 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint   EUR 15000
+    Assets:FR:CCF:Compte-Joint:Jean   EUR 15000
     Liabilities:Payables:Iskander
 
 2025-10-24 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint   EUR 29900
+    Assets:FR:CCF:Compte-Joint:Jean   EUR 29900
     Liabilities:Payables:Mum
 
 * Vincennes flat
@@ -842,14 +842,14 @@
 * Vincennes home purchase
 2025-10-24 * Flat Vincennes Credit Logement
     Expenses:Finance:Mortgage             EUR 2867.35
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 2025-10-25 * Flat Vincennes frais de dossier
     Expenses:Finance:Mortgage                EUR 500
-    Assets:FR:CCF:Compte-Joint
+    Assets:FR:CCF:Compte-Joint:Jean
 
 2025-10-28 * Flat acquisition
     Assets:Home:Vincennes                EUR 492,025
     Expenses:GiftsCharity:Gifts               EUR 25
-    Assets:FR:CCF:Compte-Joint           EUR -99,800
+    Assets:FR:CCF:Compte-Joint:Jean           EUR -99,800
     Liabilities:FR:CCF:Mortgage         EUR -392,250

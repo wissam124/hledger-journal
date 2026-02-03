@@ -13,6 +13,11 @@
     Assets:Cash:EUR                          EUR 180
     Assets:FR:BforBank:Compte-Courant
 
+* Boursobank transactions
+2026-02-02 * Deliveroo fee
+    Expenses:Food:Delivery                  EUR 2.88
+    Assets:FR:BoursoBank:Compte-Courant
+
 * Cash transactions
 2026-02-02 * Treatment
     Expenses:PersonalCare:Discretionary      EUR 130
@@ -22,11 +27,35 @@
     Expenses:Cigarettes                    EUR 13.50
     Assets:Cash:EUR
 
-* Amex Gold transactions
-2026-02-01 Carrefour City
-    Expenses:Food:Groceries                 EUR 7.23
-    Assets:FR:BforBank:Compte-Courant
+* CCF transactions
+2026-02-02 * Transfer to CCF joint-account
+    Assets:FR:CCF:Compte-Joint           EUR 2032.74
+    Assets:FR:CCF:Compte-Courant
 
-2026-02-01 HelloFresh
+2026-02-02 * Fees CCF
+    Expenses:Finance:Bank                   EUR 8.75
+    Assets:FR:CCF:Compte-Courant
+
+* Amex Gold transactions
+2026-02-01 * Carrefour City
+    Expenses:Food:Groceries                 EUR 7.23
+    Liabilities:FR:Amex:Gold
+
+2026-02-01 * SYD 5075 Paris
+    Expenses:Misc:Unaccounted              EUR 14.63
+    Liabilities:FR:Amex:Gold
+
+2026-02-02 * HelloFresh
     Expenses:Food:Groceries                EUR 48.98
-    Assets:FR:BforBank:Compte-Courant
+    Liabilities:FR:Amex:Gold
+
+2026-02-02 Velib
+    Expenses:Transportation:Bikesharing        EUR 2
+    Liabilities:FR:Amex:Gold
+
+* Mortgage
+2026-02-03 * Monthly mortgage repayment
+    Assets:FR:CCF:Compte-Joint          EUR -2032.73
+    Liabilities:FR:CCF:Mortgage           EUR 856.07
+    Expenses:Finance:Mortgage:Interest   EUR 1055.42
+    Expenses:Finance:Mortgage:Insurance   EUR 121.24

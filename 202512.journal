@@ -197,9 +197,13 @@
     Assets:FR:CCF:Compte-Joint                EUR 50
     Assets:FR:CCF:Compte-Courant
 
-2025-12-16 * EDF
+2025-12-16 * EDF Citeaux contract closure
     Expenses:Home:Utilities:Electricity    EUR 34.89
     Assets:FR:CCF:Compte-Courant
+
+2025-12-08 * EDF Huchon
+    Expenses:Home:Utilities:Electricity    EUR 24.50
+    Assets:FR:CCF:Compte-Joint
 
 * Revolut EUR transactions
 2025-12-01 * Cigarettes

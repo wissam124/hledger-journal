@@ -300,6 +300,14 @@
     Expenses:Finance:Bank                   EUR 8.75
     Assets:FR:CCF:Compte-Courant
 
+2026-01-06 * EDF
+    Expenses:Home:Utilities:Electricity    EUR 24.50
+    Assets:FR:CCF:Compte-Joint
+
+2026-01-14 * Frais d'intervention
+    Expenses:Finance:Bank                      EUR 4
+    Assets:FR:CCF:Compte-Joint
+
 * Moneyfarm transactions
 2026-01-28 * Account close
     Assets:UK:HSBC:Current-Account           GBP 1.82

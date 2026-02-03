@@ -687,7 +687,7 @@
 
 * Mortgage
 2026-01-03 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint          EUR -2033.00
+    Assets:FR:CCF:Compte-Joint          EUR -2032.99
     Liabilities:FR:CCF:Mortgage          EUR 853.75
     Expenses:Finance:Mortgage:Interest    EUR 1057.74
-    Expenses:Finance:Mortgage:Insurance   EUR 121.51
+    Expenses:Finance:Mortgage:Insurance   EUR 121.50

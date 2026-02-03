@@ -655,7 +655,7 @@
 
 * Mortgage
 2025-12-04 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint          EUR -2037.20
+    Assets:FR:CCF:Compte-Joint          EUR -2037.19
     Liabilities:FR:CCF:Mortgage           EUR 851.45
     Expenses:Finance:Mortgage:Interest    EUR 1060.04
-    Expenses:Finance:Mortgage:Insurance    EUR 125.71
+    Expenses:Finance:Mortgage:Insurance    EUR 125.70

@@ -193,7 +193,7 @@
     Assets:FR:CCF:Compte-Courant         EUR 6371.58
     Income:FR:111Capital:Salary
 
-2025-12-09 * Transfer to joint-account
+2025-12-09 * Transfer to CCF joint-account
     Assets:FR:CCF:Compte-Joint                EUR 50
     Assets:FR:CCF:Compte-Courant
 
@@ -622,7 +622,6 @@
 2025-12-30 * Deliveroo
     Expenses:Food:Delivery                 EUR 19.03
     Liabilities:FR:Amex:Gold
-
 
 * Other liabilities
 2025-12-05 * Decoplus additional order  ; flat-vincennes:

@@ -233,7 +233,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
-2026-01-26 * Deliveroo fee
+2026-01-27 * Deliveroo fee
     Expenses:Food:Delivery                  EUR 2.88
     Assets:FR:BoursoBank:Compte-Courant
 
@@ -291,8 +291,8 @@
     Expenses:Health:Therapy                  EUR 120
     Assets:Cash:EUR
 
-* ccf transactions
-2026-01-03 * Transfer CCF Compte-Courant to CCF Compte-Joint
+* CCF transactions
+2026-01-03 * Transfer to CCF joint-account
     Assets:FR:CCF:Compte-Joint           EUR 2257.50
     Assets:FR:CCF:Compte-Courant
 
@@ -670,17 +670,17 @@
     Liabilities:FR:Amex:Gold
 
 * Other liabilities
-2026-12-20 * Applique murale chambre  ; flat-vincennes:
+2026-01-21 * Applique murale chambre  ; flat-vincennes:
     Expenses:Home                          EUR 61.40
     Expenses:Home                          EUR -30.70
     Liabilities:Payables:Aurelie
 
-2026-12-25 * Tapis salon  ; flat-vincennes:
+2026-01-25 * Tapis salon  ; flat-vincennes:
     Expenses:Home                          EUR 62.48
     Expenses:Home                         EUR -31.24
     Liabilities:Payables:Aurelie
 
-2026-12-25 * Tables chevet  ; flat-vincennes:
+2026-01-25 * Tables chevet  ; flat-vincennes:
     Expenses:Home                         EUR 103.99
     Expenses:Home                            EUR -52
     Liabilities:Payables:Aurelie

@@ -97,6 +97,7 @@ account Expenses:Finance:Bank                              ; type: X
 account Expenses:Finance:CreditCard                        ; type: X
 account Expenses:Finance:Mortgage                          ; type: X
 account Expenses:Finance:Mortgage:Interest                 ; type: X
+account Expenses:Finance:Mortgage:Insurance                ; type: X
 account Expenses:Food:Cafe                                 ; type: X
 account Expenses:Food:Delivery                             ; type: X
 account Expenses:Food:FastFood                             ; type: X

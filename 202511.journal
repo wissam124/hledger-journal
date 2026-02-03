@@ -723,10 +723,10 @@
     Liabilities:Payables:Aurelie
 
 * Mortgage
-2025-11-07 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint          EUR -1268.27
+2025-11-04 * Monthly mortgage repayment
+    Assets:FR:CCF:Compte-Joint          EUR -1268.26
     Liabilities:FR:CCF:Mortgage           EUR 849.15
-    Expenses:Finance:Mortgage:Interest    EUR 419.12
+    Expenses:Finance:Mortgage:Interest    EUR 419.11
 
 * Epsor
 2025-11-19 * Particiption vers le PEI

@@ -220,3 +220,36 @@ the accumulated balance held in the expense account.
 #+begin_src sh
 hledger -f vincennes.journal close --retain --close-acct=Equity:Earnings:Retained
 #+end_src
+
+* Tracking property in Vincennes
+** Design choices
+- Use child accounts for each partner for assets, liabilities and expenses
+  e.g. Liabilities:FR:CCF:Mortgage:Jean
+- Use balanced virtual postings to track the property as a single asset
+  regardless of ownership.
+  This allows easy matching with bank statements for monthly transactions.
+- The use of child accounts allows accurate reporting of what belongs to whom
+  in joint-account. However, joint-account should be considered as a common pool
+  of money and not something that is subdivided.
+  The child division makes it easier to report on split of property-related
+  expenses such as service charges, interest payments, etc.
+
+** Compute total equity accumulated
+#+begin_src sh
+  hledger -f huchon.journal bal ^assets:property:jean ^liabilities.*jean
+#+end_src
+
+** Compute total mortgage repayment for principal
+#+begin_src sh
+  hledger -f huchon.journal bal liabilities.*jean not:desc:signature
+#+end_src
+
+** Compute running interest/service charges paid for each
+#+begin_src sh
+  hledger -f huchon.journal bal exp.*interest:jean
+#+end_src
+
+** Compute total capital contributed
+#+begin_src sh
+  hledger -f huchon.journal bal equity.*jean
+#+end_src

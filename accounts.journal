@@ -39,6 +39,7 @@ account Assets:Receivables:Arnaud                 ; type: A
 account Assets:Receivables:Aurelie                ; type: A
 account Assets:Receivables:Iskander               ; type: A
 account Assets:Receivables:Mum                    ; type: A
+account Assets:Receivables:Florent                ; type: A
 
 ; Liabilities: money I owe (loans, credit card debt, etc.)
 account Liabilities:FR:Amex:Gold                  ; type: L

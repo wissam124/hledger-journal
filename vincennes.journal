@@ -291,10 +291,12 @@ account Equity:Earnings:Retained                               ; type: E
     Assets:FR:CCF:Compte-Joint               EUR 760
     Equity:Aurelie:Assets:FR:CCF:Compte-Joint
 
-2026-02-02 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint          EUR -242.48
-    Expenses:Finance:Mortgage:Insurance   EUR 242.48
-    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 121.24
-    Equity:Aurelie:Expenses:Finance:Mortgage:Insurance  EUR -121.24
-    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 121.24
-    Equity:Jean:Expenses:Finance:Mortgage:Insurance  EUR -121.24
+; 2026-02-02 * Monthly mortgage repayment
+;     Assets:FR:CCF:Compte-Joint          EUR -2548.66
+;     Liabilities:FR:CCF:Mortgage  EUR
+;     Assets:FR:CCF:Compte-Joint           EUR -242.48
+;     Expenses:Finance:Mortgage:Insurance   EUR 242.48
+;     Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 121.24
+;     Equity:Aurelie:Expenses:Finance:Mortgage:Insurance  EUR -121.24
+;     Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 121.24
+;     Equity:Jean:Expenses:Finance:Mortgage:Insurance  EUR -121.24

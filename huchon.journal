@@ -37,7 +37,6 @@ account Expenses:Finance:Mortgage:Insurance:Aurelie                    ; type: X
 account Expenses:Home:Utilities:Electricity:Aurelie                    ; type: X
 account Expenses:Property:ServiceCharges:Aurelie                       ; type: X
 
-
 account Equity:Capital:Jean                                            ; type: E
 account Equity:Capital:Aurelie                                         ; type: E
 
@@ -47,8 +46,8 @@ account Income:External                                                ; type: R
 2025-01-01 * Promesse de vente
     [Stats:Assets:Property]                  EUR 550
     [Stats:Funding]                         EUR -550
-    Assets:Property:Jean                  EUR 412.50
-    Assets:Property:Aurelie               EUR 137.50
+    Assets:Property:Jean                     EUR 325
+    Assets:Property:Aurelie                  EUR 225
     Equity:Capital:Jean                     EUR -550
 
 2025-07-21 * Apport initial
@@ -64,158 +63,164 @@ account Income:External                                                ; type: R
     Equity:Capital:Jean                    EUR -2.40
 
 2025-10-06 * Frais tenue de compte
+    [Stats:Expenses:Finance:Bank]           EUR 2.40
+    [Stats:Assets:FR:CCF:Compte-Joint]     EUR -2.40
     Expenses:Finance:Bank:Jean              EUR 1.20
     Expenses:Finance:Bank:Aurelie           EUR 1.20
     Assets:FR:CCF:Compte-Joint:Jean        EUR -1.20
     Assets:FR:CCF:Compte-Joint:Aurelie     EUR -1.20
-    [Stats:Expenses:Finance:Bank]           EUR 2.40
-    [Stats:Assets:FR:CCF:Compte-Joint]     EUR -2.40
 
 2025-10-07 * Virement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean          EUR 100
-    Equity:Capital:Jean                     EUR -100
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR 100
     [Stats:Funding]                         EUR -100
+    Assets:FR:CCF:Compte-Joint:Jean          EUR 100
+    Equity:Capital:Jean                     EUR -100
 
 2025-10-07 * Virement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean        EUR 17900
-    Equity:Capital:Jean                   EUR -17900
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR 17900
     [Stats:Funding]                       EUR -17900
+    Assets:FR:CCF:Compte-Joint:Jean        EUR 17900
+    Equity:Capital:Jean                   EUR -17900
 
 2025-10-10 * Virement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie     EUR 10000
-    Equity:Capital:Aurelie                EUR -10000
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR 10000
     [Stats:Funding]                       EUR -10000
+    Assets:FR:CCF:Compte-Joint:Aurelie     EUR 10000
+    Equity:Capital:Aurelie                EUR -10000
 
 2025-10-13 * Virement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie     EUR 23600
-    Equity:Capital:Aurelie                EUR -23600
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR 23600
     [Stats:Funding]                       EUR -23600
+    Assets:FR:CCF:Compte-Joint:Aurelie     EUR 23600
+    Equity:Capital:Aurelie                EUR -23600
 
 2025-10-14 * Virement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie     EUR 15400
-    Equity:Capital:Aurelie                EUR -15400
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR 15400
     [Stats:Funding]                       EUR -15400
+    Assets:FR:CCF:Compte-Joint:Aurelie     EUR 15400
+    Equity:Capital:Aurelie                EUR -15400
 
 2025-10-14 * Ouverture Livret LDDS
+    [Stats:Assets:FR:CCF:Compte-Joint]       EUR -10
+    [Stats:Funding]                           EUR 10
     Assets:FR:CCF:Compte-Joint:Jean          EUR -10
     Equity:Capital:Jean                       EUR 10
-    [Stats:Assets:FR:CCF:Compte-Joint]       EUR -10
-    [Stats:Funding]                           EUR 10
 
 2025-10-14 * Versement LDDS Aurelie
-    Assets:FR:CCF:Compte-Joint:Aurelie       EUR -10
-    Equity:Capital:Aurelie                    EUR 10
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR -10
     [Stats:Funding]                           EUR 10
+    Assets:FR:CCF:Compte-Joint:Aurelie       EUR -10
+    Equity:Capital:Aurelie                    EUR 10
 
 2025-10-20 * Ajustement Aurelie (trop paye)
-    Assets:FR:CCF:Compte-Joint:Aurelie     EUR -2493
-    Equity:Capital:Aurelie                  EUR 2493
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR -2493
     [Stats:Funding]                         EUR 2493
+    Assets:FR:CCF:Compte-Joint:Aurelie     EUR -2493
+    Equity:Capital:Aurelie                  EUR 2493
 
 2025-10-21 * Versement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean     EUR 34098.53
-    Equity:Capital:Jean                EUR -34098.53
     [Stats:Assets:FR:CCF:Compte-Joint]  EUR 34098.53
     [Stats:Funding]                     EUR -34098.53
+    Assets:FR:CCF:Compte-Joint:Jean     EUR 34098.53
+    Equity:Capital:Jean                EUR -34098.53
 
 2025-10-22 * Pret Amaria
-    Assets:FR:CCF:Compte-Joint:Jean          EUR 100
-    Equity:Capital:Jean                     EUR -100
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR 100
     [Stats:Funding]                         EUR -100
-
-2025-10-22 * Pret Iskander
     Assets:FR:CCF:Compte-Joint:Jean          EUR 100
     Equity:Capital:Jean                     EUR -100
-    [Stats:Assets:FR:CCF:Compte-Joint]       EUR 100
-    [Stats:Funding]                         EUR -100
 
 2025-10-22 * Pret Iskander
-    Assets:FR:CCF:Compte-Joint:Jean         EUR 9900
-    Equity:Capital:Jean                    EUR -9900
+    [Stats:Assets:FR:CCF:Compte-Joint]       EUR 100
+    [Stats:Funding]                         EUR -100
+    Assets:FR:CCF:Compte-Joint:Jean          EUR 100
+    Equity:Capital:Jean                     EUR -100
+
+2025-10-22 * Pret Iskander
     [Stats:Assets:FR:CCF:Compte-Joint]      EUR 9900
     [Stats:Funding]                        EUR -9900
+    Assets:FR:CCF:Compte-Joint:Jean         EUR 9900
+    Equity:Capital:Jean                    EUR -9900
 
 2025-10-23 * Pret Iskander
-    Assets:FR:CCF:Compte-Joint:Jean        EUR 15000
-    Equity:Capital:Jean                   EUR -15000
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR 15000
     [Stats:Funding]                       EUR -15000
+    Assets:FR:CCF:Compte-Joint:Jean        EUR 15000
+    Equity:Capital:Jean                   EUR -15000
 
 2025-10-23 * Versement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean          EUR 100
-    Equity:Capital:Jean                     EUR -100
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR 100
     [Stats:Funding]                         EUR -100
+    Assets:FR:CCF:Compte-Joint:Jean          EUR 100
+    Equity:Capital:Jean                     EUR -100
 
 2025-10-23 * Versement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie   EUR 2320.35
-    Equity:Capital:Aurelie              EUR -2320.35
     [Stats:Assets:FR:CCF:Compte-Joint]   EUR 2320.35
     [Stats:Funding]                     EUR -2320.35
+    Assets:FR:CCF:Compte-Joint:Aurelie   EUR 2320.35
+    Equity:Capital:Aurelie              EUR -2320.35
 
 2025-10-24 * Versement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean        EUR 29900
-    Equity:Capital:Jean                   EUR -29900
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR 29900
     [Stats:Funding]                        EUR -29900
-
-2025-10-24 * Pret Amaria
     Assets:FR:CCF:Compte-Joint:Jean        EUR 29900
     Equity:Capital:Jean                   EUR -29900
+
+2025-10-24 * Pret Amaria
     [Stats:Assets:FR:CCF:Compte-Joint]     EUR 29900
     [Stats:Funding]                       EUR -29900
+    Assets:FR:CCF:Compte-Joint:Jean        EUR 29900
+    Equity:Capital:Jean                   EUR -29900
 
 2025-10-24 * Credit Logement
+    [Stats:Assets:FR:CCF:Compte-Joint]  EUR -5734.70
+    [Stats:Expenses:Finance:Mortgage]  EUR 5734.70
     Assets:FR:CCF:Compte-Joint:Jean  EUR -2867.35
     Assets:FR:CCF:Compte-Joint:Aurelie  EUR -2867.35
     Expenses:Finance:Mortgage:Jean       EUR 2867.35
     Expenses:Finance:Mortgage:Aurelie    EUR 2867.35
-    [Stats:Assets:FR:CCF:Compte-Joint]  EUR -5734.70
-    [Stats:Expenses:Finance:Mortgage]  EUR 5734.70
 
 2025-10-25 * Frais de dossier pret
+    [Stats:Assets:FR:CCF:Compte-Joint]     EUR -1000
+    [Stats:Expenses:Finance:Mortgage]       EUR 1000
     Assets:FR:CCF:Compte-Joint:Jean         EUR -500
     Assets:FR:CCF:Compte-Joint:Aurelie      EUR -500
     Expenses:Finance:Mortgage:Jean           EUR 500
     Expenses:Finance:Mortgage:Aurelie        EUR 500
-    [Stats:Assets:FR:CCF:Compte-Joint]     EUR -1000
-    [Stats:Expenses:Finance:Mortgage]       EUR 1000
-
 
 2025-10-26 * Pret Amaria remboursement
-    Assets:FR:CCF:Compte-Joint:Jean         EUR -100
-    Equity:Capital:Jean                      EUR 100
     [Stats:Assets:FR:CCF:Compte-Joint]      EUR -100
     [Stats:Funding]                          EUR 100
+    Assets:FR:CCF:Compte-Joint:Jean         EUR -100
+    Equity:Capital:Jean                      EUR 100
 
 2025-10-27 * Signature achat appartemment
     [Stats:Assets:Property]              EUR 617,500  ; huchon-acquisition-price:
     [Stats:Assets:Property]               EUR 46,750  ; huchon-frais-de-notaire:
-    [Stats:Assets:Property]                 EUR 2500  ; huchon-charges-prorata:
+    [Stats:Assets:Property]                EUR 2,500  ; huchon-charges-prorata:
     [Stats:Assets:FR:CCF:Compte-Joint]  EUR -143,750
     [Stats:Liabilities:FR:CCF:Mortgage]  EUR -523,000
-    Assets:Property:Aurelie            EUR 44,062.50  ; apport aurelie - 25/100 * 550 (frais promesse deja payes)
-    Assets:Property:Jean               EUR 99,687.50  ; apport jean - 75/100 * 550 (frais promesse deja payes)
-    Assets:FR:CCF:Compte-Joint:Aurelie  EUR -44,062.50
-    Assets:FR:CCF:Compte-Joint:Jean   EUR -99,687.50
-    Assets:Property:Aurelie              EUR 130,750
-    Assets:Property:Jean                 EUR 392,250
+    Assets:Property:Aurelie               EUR 44,200  ; 25% * apport total
+    Assets:Property:Aurelie                 EUR -225  ; deja paye avec frais promesse de vente
+    Assets:Property:Jean                 EUR 132,600  ; 75% * apport total
+    Assets:Property:Jean                    EUR -325  ; deja paye avec frais promesse de vente
+    Assets:Property:Jean                 EUR -32,500  ; deja paye avec depot de garantie
+    Assets:FR:CCF:Compte-Joint:Aurelie   EUR -43,975  ; = 44,200 - 225
+    Assets:FR:CCF:Compte-Joint:Jean      EUR -99,775  ; = 132,600 - 325 - 32,500
+    Assets:Property:Aurelie              EUR 130,750  ; 25% of total liability 523,000
+    Assets:Property:Jean                 EUR 392,250  ; 75% of total liability 523,000
     Liabilities:FR:CCF:Mortgage:Aurelie  EUR -130,750
     Liabilities:FR:CCF:Mortgage:Jean    EUR -392,250
 
+2025-10-29 * Fix equity promesse de vente
+    Equity:Capital:Jean                    EUR 137.5
+    Equity:Capital:Aurelie
+
 2025-10-28 * Pret Amaria remboursement
-    Assets:FR:CCF:Compte-Joint:Jean       EUR -29900
-    Equity:Capital:Jean                    EUR 29900
     [Stats:Assets:FR:CCF:Compte-Joint]    EUR -29900
     [Stats:Funding]                        EUR 29900
+    Assets:FR:CCF:Compte-Joint:Jean       EUR -29900
+    Equity:Capital:Jean                    EUR 29900
 
 2025-10-31 * Remboursement prorata charges par notaire
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR 793
@@ -244,10 +249,10 @@ account Income:External                                                ; type: R
     Expenses:Finance:Mortgage:Interest:Aurelie  EUR 139.71
 
 2025-11-05 * Virement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie       EUR 425
-    Equity:Capital:Aurelie                  EUR -425
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR 425
     [Stats:Funding]                         EUR -425
+    Assets:FR:CCF:Compte-Joint:Aurelie       EUR 425
+    Equity:Capital:Aurelie                  EUR -425
 
 2025-11-20 * Facture EDF
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR -29.21
@@ -258,16 +263,16 @@ account Income:External                                                ; type: R
     Assets:FR:CCF:Compte-Joint:Jean        EUR -14.60
 
 2025-11-30 * Virement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie    EUR 623.16
-    Equity:Capital:Aurelie               EUR -623.16
     [Stats:Assets:FR:CCF:Compte-Joint]    EUR 623.16
     [Stats:Funding]                      EUR -623.16
+    Assets:FR:CCF:Compte-Joint:Aurelie    EUR 623.16
+    Equity:Capital:Aurelie               EUR -623.16
 
 2025-12-01 * Virement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean       EUR 304.14
-    Equity:Capital:Jean                  EUR -304.14
     [Stats:Assets:FR:CCF:Compte-Joint]    EUR 304.14
     [Stats:Funding]                      EUR -304.14
+    Assets:FR:CCF:Compte-Joint:Jean       EUR 304.14
+    Equity:Capital:Jean                  EUR -304.14
 
 2025-12-04 * Echeancier pret Dec'25
     [Stats:Assets:FR:CCF:Compte-Joint]  EUR -2548.66
@@ -293,23 +298,22 @@ account Income:External                                                ; type: R
     Assets:FR:CCF:Compte-Joint:Jean        EUR -24.50
 
 2025-12-09 * Virement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean           EUR 50
-    Equity:Capital:Jean                      EUR -50
     [Stats:Assets:FR:CCF:Compte-Joint]        EUR 50
     [Stats:Funding]                          EUR -50
-
+    Assets:FR:CCF:Compte-Joint:Jean           EUR 50
+    Equity:Capital:Jean                      EUR -50
 
 2026-01-03 * Virement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean           EUR 2257.50
-    Equity:Capital:Jean                      EUR -2257.50
     [Stats:Assets:FR:CCF:Compte-Joint]        EUR 2257.50
     [Stats:Funding]                     EUR -2257.50
+    Assets:FR:CCF:Compte-Joint:Jean           EUR 2257.50
+    Equity:Capital:Jean                      EUR -2257.50
 
 2026-01-03 * Virement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie    EUR 983.17
-    Equity:Capital:Aurelie               EUR -983.17
     [Stats:Assets:FR:CCF:Compte-Joint]    EUR 983.17
     [Stats:Funding]                      EUR -983.17
+    Assets:FR:CCF:Compte-Joint:Aurelie    EUR 983.17
+    Equity:Capital:Aurelie               EUR -983.17
 
 2026-01-03 * Echeancier pret Jan'26
     [Stats:Assets:FR:CCF:Compte-Joint]  EUR -2548.66
@@ -343,10 +347,10 @@ account Income:External                                                ; type: R
     Expenses:Finance:Bank:Aurelie              EUR 4
 
 2026-01-26 * Virement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean           EUR 1730.03
-    Equity:Capital:Jean                      EUR -1730.03
     [Stats:Assets:FR:CCF:Compte-Joint]        EUR 1730.03
     [Stats:Funding]                     EUR -1730.03
+    Assets:FR:CCF:Compte-Joint:Jean           EUR 1730.03
+    Equity:Capital:Jean                      EUR -1730.03
 
 2026-01-26 * Charges de copropriete
     [Stats:Assets:FR:CCF:Compte-Joint]  EUR -1730.03
@@ -355,16 +359,16 @@ account Income:External                                                ; type: R
     Assets:FR:CCF:Compte-Joint:Jean      EUR -1730.03
 
 2026-02-02 * Virement Jean CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Jean           EUR 2032.74
-    Equity:Capital:Jean                      EUR -2032.74
     [Stats:Assets:FR:CCF:Compte-Joint]        EUR 2032.74
     [Stats:Funding]                     EUR -2032.74
+    Assets:FR:CCF:Compte-Joint:Jean           EUR 2032.74
+    Equity:Capital:Jean                      EUR -2032.74
 
 2026-02-02 * Virement Aurelie CCF compte-joint
-    Assets:FR:CCF:Compte-Joint:Aurelie       EUR 760
-    Equity:Capital:Aurelie                  EUR -760
     [Stats:Assets:FR:CCF:Compte-Joint]       EUR 760
     [Stats:Funding]                         EUR -760
+    Assets:FR:CCF:Compte-Joint:Aurelie       EUR 760
+    Equity:Capital:Aurelie                  EUR -760
 
 2026-02-04 * Echeancier pret Feb'26
     [Stats:Assets:FR:CCF:Compte-Joint]  EUR -2548.66

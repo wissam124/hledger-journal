@@ -228,9 +228,9 @@
     Expenses:Cigarettes                    EUR 13.50
     Assets:FR:BforBank:Compte-Courant
 
-2026-01-31 Cash withdrawal
+2026-01-31 * Cash withdrawal
     Assets:Cash:EUR                          EUR 120
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:BforBank:Compte-Courant  ; date: 2026-01-03
 
 * Boursobank transactions
 2026-01-27 * Deliveroo fee

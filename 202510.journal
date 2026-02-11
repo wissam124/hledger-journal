@@ -178,10 +178,6 @@
     Assets:FR:CCF:Compte-Joint:Jean              EUR 2.40
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-06 * Frais tenue de compte
-    Expenses:Finance:Bank                   EUR 2.40
-    Assets:FR:CCF:Compte-Joint:Jean
-
 2025-10-06 * Cigarettes
     Expenses:Cigarettes                       EUR 13
     Assets:FR:BforBank:Compte-Courant
@@ -330,14 +326,39 @@
     Assets:Cash:EUR                          EUR 300
     Assets:FR:BforBank:Compte-Courant
 
-* boursobank transactions
+* Boursobank transactions
 2025-10-21 * Kayser
     Expenses:Food:Snack                     EUR 2.40
     Assets:FR:BoursoBank:Compte-Courant
 
+* CCF transactions
+2025-10-06 * Frais tenue de compte
+    Expenses:Finance:Bank                   EUR 1.20
+    Assets:FR:CCF:Compte-Joint:Jean
+
 2025-10-14 * Transfer to LDDS
     Assets:FR:CCF:LDDS                        EUR 10
     Assets:FR:CCF:Compte-Joint:Jean
+
+2025-10-22 * Loan from Mum
+    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
+    Liabilities:Payables:Mum
+
+2025-10-22 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
+    Liabilities:Payables:Iskander
+
+2025-10-22 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint:Jean    EUR 9900
+    Liabilities:Payables:Iskander
+
+2025-10-23 * Loan from Isky
+    Assets:FR:CCF:Compte-Joint:Jean   EUR 15000
+    Liabilities:Payables:Iskander
+
+2025-10-24 * Loan from Mum
+    Assets:FR:CCF:Compte-Joint:Jean   EUR 29900
+    Liabilities:Payables:Mum
 
 2025-10-26 * Repay loan from Mum
     Liabilities:Payables:Mum              EUR 100
@@ -814,26 +835,6 @@
     Liabilities:Payables:Aurelie              EUR 10
     Assets:FR:BforBank:Compte-Courant
 
-2025-10-22 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
-    Liabilities:Payables:Mum
-
-2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint:Jean     EUR 100
-    Liabilities:Payables:Iskander
-
-2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint:Jean    EUR 9900
-    Liabilities:Payables:Iskander
-
-2025-10-23 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint:Jean   EUR 15000
-    Liabilities:Payables:Iskander
-
-2025-10-24 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint:Jean   EUR 29900
-    Liabilities:Payables:Mum
-
 * Vincennes flat
 2025-10-31 * Wooden floors outstanding  ; flat-vincennes:
     Expenses:Home:Improvements           EUR 1637.48
@@ -848,8 +849,7 @@
     Expenses:Finance:Mortgage                EUR 500
     Assets:FR:CCF:Compte-Joint:Jean
 
-2025-10-28 * Flat acquisition
+2025-10-27 * Flat acquisition
     Assets:Home:Vincennes                EUR 492,025
-    Expenses:GiftsCharity:Gifts               EUR 25
-    Assets:FR:CCF:Compte-Joint:Jean           EUR -99,800
+    Assets:FR:CCF:Compte-Joint:Jean      EUR -99,775
     Liabilities:FR:CCF:Mortgage         EUR -392,250

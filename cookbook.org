@@ -129,7 +129,7 @@ be possible. Unless the transaction is booked with all postings and unitcost/uni
 participation/interessement scheme.
 The money is managed through EPSOR whereby it is invested in various mutual
 funds.
-Considering the allocation/rebalancing is automated, it would cumbersome to
+Considering the allocation/rebalancing is automated, it would be cumbersome to
 track the value of each fund.
 
 ** Solutions
@@ -145,7 +145,7 @@ commodity EURPEI
 P 2025-01-01 EURPER EUR 1.1
 #+end_src ledger
 This is cumbersome because it requires to calculate a price inferred from
-the valuation of the plan at time t divided by the contributions.
+the valuation of the plan at time $t$ divided by the contributions.
 Additionnally, contributions made at times $t_1$ and $t_{2}$ should not be
 valued with the same price because they have grown with different returns.
 

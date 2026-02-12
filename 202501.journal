@@ -1,397 +1,397 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
 2025-01-01 * 111 Cap wage
-    Assets:FR:BforBank:Compte-Courant     EUR 4752.65
-    Income:FR:111Capital:Salary          EUR -4752.65
+    Assets:FR:BforBank:Compte-Courant     4752.65 EUR
+    Income:FR:111Capital:Salary          -4752.65 EUR
 
 2025-01-01 * AMEX - 2024-12-14 - Sandisk external drive
-    Expenses:Shopping:Electronics          EUR 145.98
-    Assets:FR:BforBank:Compte-Courant     EUR -145.98
+    Expenses:Shopping:Electronics          145.98 EUR
+    Assets:FR:BforBank:Compte-Courant     -145.98 EUR
 
 2025-01-01 * AMEX - 2024-12-17 - Flights Paris - Dakhla
-    Expenses:Travel:Flights                   EUR 508
-    Assets:FR:BforBank:Compte-Courant        EUR -508
+    Expenses:Travel:Flights                   508 EUR
+    Assets:FR:BforBank:Compte-Courant        -508 EUR
 
 2025-01-01 * AMEX - 2024-12-20 - AMEX subscription
-    Expenses:Finance:CreditCard                   EUR 15
-    Assets:FR:BforBank:Compte-Courant         EUR -15
+    Expenses:Finance:CreditCard                   15 EUR
+    Assets:FR:BforBank:Compte-Courant         -15 EUR
 
 2025-01-01 * AMEX - 2024-12-20 - Hair cosmetics for mum
-    Expenses:GiftsCharity:Gifts              EUR 33.6
-    Assets:FR:BforBank:Compte-Courant       EUR -33.6
+    Expenses:GiftsCharity:Gifts              33.6 EUR
+    Assets:FR:BforBank:Compte-Courant       -33.6 EUR
 
 2025-01-01 * AMEX - 2024-12-25 - Amazon Dryer
-    Expenses:Home:Furniture                 EUR 59.99
-    Assets:FR:BforBank:Compte-Courant      EUR -59.99
+    Expenses:Home:Furniture                 59.99 EUR
+    Assets:FR:BforBank:Compte-Courant      -59.99 EUR
 
 2025-01-01 * AMEX - 2024-12-28 - Toothpaste
-    Expenses:Health:Pharmacy                 EUR 25.5
-    Assets:FR:BforBank:Compte-Courant       EUR -25.5
+    Expenses:Health:Pharmacy                 25.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -25.5 EUR
 
 2025-01-01 * AMEX - 2024-12-29 - Breizh Café
-    Expenses:Food:Restaurants               EUR 55.02
-    Assets:FR:BforBank:Compte-Courant      EUR -55.02
+    Expenses:Food:Restaurants               55.02 EUR
+    Assets:FR:BforBank:Compte-Courant      -55.02 EUR
 
 2025-01-01 * AMEX - 2024-12-29 - Hair cosmetics for mum
-    Expenses:GiftsCharity:Gifts              EUR 33.6
-    Assets:FR:BforBank:Compte-Courant       EUR -33.6
+    Expenses:GiftsCharity:Gifts              33.6 EUR
+    Assets:FR:BforBank:Compte-Courant       -33.6 EUR
 
 2025-01-01 * AMEX - 2024-12-30 - Bradery NN07
-    Expenses:Shopping:Clothes              EUR 101.75
-    Assets:FR:BforBank:Compte-Courant     EUR -101.75
+    Expenses:Shopping:Clothes              101.75 EUR
+    Assets:FR:BforBank:Compte-Courant     -101.75 EUR
 
 2025-01-01 * AMEX - 2024-12-30 - Franprix groceries
-    Expenses:Food:Groceries                  EUR 8.05
-    Assets:FR:BforBank:Compte-Courant       EUR -8.05
+    Expenses:Food:Groceries                  8.05 EUR
+    Assets:FR:BforBank:Compte-Courant       -8.05 EUR
 
 2025-01-01 * AMEX - 2024-12-30 - Frog Hop House
-    Expenses:Entertainment:Social:Bars          EUR 13
-    Assets:FR:BforBank:Compte-Courant          EUR -13
+    Expenses:Entertainment:Social:Bars          13 EUR
+    Assets:FR:BforBank:Compte-Courant          -13 EUR
 
 2025-01-01 * AMEX - 2024-12-31 - Amazon Wool Laundry
-    Expenses:Home:Maintenance               EUR 13.44
-    Assets:FR:BforBank:Compte-Courant      EUR -13.44
+    Expenses:Home:Maintenance               13.44 EUR
+    Assets:FR:BforBank:Compte-Courant      -13.44 EUR
 
 2025-01-01 * AMEX - 2025-01-04 - Café Gaia
-    Expenses:Food:Cafe                          EUR 8
-    Assets:FR:BforBank:Compte-Courant          EUR -8
+    Expenses:Food:Cafe                          8 EUR
+    Assets:FR:BforBank:Compte-Courant          -8 EUR
 
 2025-01-01 * AMEX - 2025-01-05 - R2 Training
-    Expenses:Health:Gym                       EUR 179
-    Assets:FR:BforBank:Compte-Courant        EUR -179
+    Expenses:Health:Gym                       179 EUR
+    Assets:FR:BforBank:Compte-Courant        -179 EUR
 
 2025-01-01 * Café Bistrot
-    Expenses:Food:Cafe                        EUR 8.2
-    Assets:FR:BforBank:Compte-Courant        EUR -8.2
+    Expenses:Food:Cafe                        8.2 EUR
+    Assets:FR:BforBank:Compte-Courant        -8.2 EUR
 
 2025-01-01 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-01 * Kevin calisthenics class
-    Expenses:Health:Gym                        EUR 40
-    Assets:FR:BforBank:Compte-Courant         EUR -40
+    Expenses:Health:Gym                        40 EUR
+    Assets:FR:BforBank:Compte-Courant         -40 EUR
 
 2025-01-01 * Navigo Jan'25
-    Expenses:Transportation:PublicTransport        EUR 88.8
-    Assets:FR:BforBank:Compte-Courant             EUR -88.8
+    Expenses:Transportation:PublicTransport        88.8 EUR
+    Assets:FR:BforBank:Compte-Courant             -88.8 EUR
 
 2025-01-01 * Savings Livret A
-    Assets:FR:BforBank:LivretA                EUR 300
-    Assets:FR:BforBank:Compte-Courant        EUR -300
+    Assets:FR:BforBank:LivretA                300 EUR
+    Assets:FR:BforBank:Compte-Courant        -300 EUR
 
 2025-01-01 * Tea Paris Mosque
-    Expenses:Food:Cafe                          EUR 4
-    Assets:FR:BforBank:Compte-Courant          EUR -4
+    Expenses:Food:Cafe                          4 EUR
+    Assets:FR:BforBank:Compte-Courant          -4 EUR
 
 2025-01-02 * Baguette
-    Expenses:Food:Groceries                   EUR 1.3
-    Assets:FR:BforBank:Compte-Courant        EUR -1.3
+    Expenses:Food:Groceries                   1.3 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.3 EUR
 
 2025-01-02 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 4.86
-    Assets:FR:BforBank:Compte-Courant       EUR -4.86
+    Expenses:Subscriptions:Software          4.86 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.86 EUR
 
 2025-01-02 * Café Nuances
-    Expenses:Food:Cafe                        EUR 4.5
-    Assets:FR:BforBank:Compte-Courant        EUR -4.5
+    Expenses:Food:Cafe                        4.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -4.5 EUR
 
 2025-01-02 * Pain au chocolat
-    Expenses:Food:Snack                       EUR 1.6
-    Assets:FR:BforBank:Compte-Courant        EUR -1.6
+    Expenses:Food:Snack                       1.6 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.6 EUR
 
 2025-01-02 * Rent Citeaux
-    Expenses:Home:Rent                       EUR 1330
-    Assets:FR:BforBank:Compte-Courant       EUR -1330
+    Expenses:Home:Rent                       1330 EUR
+    Assets:FR:BforBank:Compte-Courant       -1330 EUR
 
 2025-01-02 * Sweater drying rack + clothes covers
-    Expenses:Home:Furniture                 EUR 31.98
-    Assets:FR:BforBank:Compte-Courant      EUR -31.98
+    Expenses:Home:Furniture                 31.98 EUR
+    Assets:FR:BforBank:Compte-Courant      -31.98 EUR
 
 2025-01-03 * Café
-    Expenses:Food:Cafe                        EUR 1.5
-    Assets:FR:BforBank:Compte-Courant        EUR -1.5
+    Expenses:Food:Cafe                        1.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.5 EUR
 
 2025-01-03 * ChatGPT credits
-    Expenses:Subscriptions:Software          EUR 5.86
-    Assets:FR:BforBank:Compte-Courant       EUR -5.86
+    Expenses:Subscriptions:Software          5.86 EUR
+    Assets:FR:BforBank:Compte-Courant       -5.86 EUR
 
 2025-01-03 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-03 * Drinks with Aurélie
-    Expenses:Entertainment:Social:Bars          EUR 10
-    Assets:FR:BforBank:Compte-Courant          EUR -10
+    Expenses:Entertainment:Social:Bars          10 EUR
+    Assets:FR:BforBank:Compte-Courant          -10 EUR
 
 2025-01-03 * Fisherman's Friend
-    Expenses:Food:Snack                         EUR 2
-    Assets:FR:BforBank:Compte-Courant          EUR -2
+    Expenses:Food:Snack                         2 EUR
+    Assets:FR:BforBank:Compte-Courant          -2 EUR
 
 2025-01-03 * MacroFactor subscription
-    Expenses:Subscriptions:Software         EUR 13.99
-    Assets:FR:BforBank:Compte-Courant      EUR -13.99
+    Expenses:Subscriptions:Software         13.99 EUR
+    Assets:FR:BforBank:Compte-Courant      -13.99 EUR
 
 2025-01-03 * Matches
-    Expenses:Misc                             EUR 0.3
-    Assets:FR:BforBank:Compte-Courant        EUR -0.3
+    Expenses:Misc                             0.3 EUR
+    Assets:FR:BforBank:Compte-Courant        -0.3 EUR
 
 2025-01-04 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 4.92
-    Assets:FR:BforBank:Compte-Courant       EUR -4.92
+    Expenses:Subscriptions:Software          4.92 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.92 EUR
 
 2025-01-04 * Café Vincennes with Aurélie
-    Expenses:Food:Cafe                          EUR 6
-    Assets:FR:BforBank:Compte-Courant          EUR -6
+    Expenses:Food:Cafe                          6 EUR
+    Assets:FR:BforBank:Compte-Courant          -6 EUR
 
 2025-01-04 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-04 * Galette with Arnaud
-    Expenses:GiftsCharity:Gifts                EUR 33
-    Assets:FR:BforBank:Compte-Courant         EUR -33
+    Expenses:GiftsCharity:Gifts                33 EUR
+    Assets:FR:BforBank:Compte-Courant         -33 EUR
 
 2025-01-04 * Hairdresser
-    Expenses:PersonalCare:Hair                 EUR 12
-    Assets:FR:BforBank:Compte-Courant         EUR -12
+    Expenses:PersonalCare:Hair                 12 EUR
+    Assets:FR:BforBank:Compte-Courant         -12 EUR
 
 2025-01-04 * Pharmacy
-    Expenses:Health:Pharmacy                 EUR 8.99
-    Assets:FR:BforBank:Compte-Courant       EUR -8.99
+    Expenses:Health:Pharmacy                 8.99 EUR
+    Assets:FR:BforBank:Compte-Courant       -8.99 EUR
 
 2025-01-05 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 4.92
-    Assets:FR:BforBank:Compte-Courant       EUR -4.92
+    Expenses:Subscriptions:Software          4.92 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.92 EUR
 
 2025-01-05 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-05 * McDonald's
-    Expenses:Food:FastFood                     EUR 16
-    Assets:FR:BforBank:Compte-Courant         EUR -16
+    Expenses:Food:FastFood                     16 EUR
+    Assets:FR:BforBank:Compte-Courant         -16 EUR
 
 2025-01-05 * Medias IR
-    Expenses:Subscriptions                  EUR 11.99
-    Assets:FR:BforBank:Compte-Courant      EUR -11.99
+    Expenses:Subscriptions                  11.99 EUR
+    Assets:FR:BforBank:Compte-Courant      -11.99 EUR
 
 2025-01-05 * Plug extender
-    Expenses:Home:Maintenance                EUR 3.59
-    Assets:FR:BforBank:Compte-Courant       EUR -3.59
+    Expenses:Home:Maintenance                3.59 EUR
+    Assets:FR:BforBank:Compte-Courant       -3.59 EUR
 
 2025-01-05 * Sweets
-    Expenses:Food:Snack                       EUR 1.5
-    Assets:FR:BforBank:Compte-Courant        EUR -1.5
+    Expenses:Food:Snack                       1.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.5 EUR
 
 2025-01-06 * Baguette
-    Expenses:Food:Groceries                   EUR 1.1
-    Assets:FR:BforBank:Compte-Courant        EUR -1.1
+    Expenses:Food:Groceries                   1.1 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.1 EUR
 
 2025-01-06 * Café Nuances
-    Expenses:Food:Cafe                        EUR 4.5
-    Assets:FR:BforBank:Compte-Courant        EUR -4.5
+    Expenses:Food:Cafe                        4.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -4.5 EUR
 
 2025-01-06 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-06 * Pain au chocolat
-    Expenses:Food:Snack                         EUR 3
-    Assets:FR:BforBank:Compte-Courant          EUR -3
+    Expenses:Food:Snack                         3 EUR
+    Assets:FR:BforBank:Compte-Courant          -3 EUR
 
 2025-01-07 * Franprix groceries
-    Expenses:Food:Groceries                 EUR 14.74
-    Assets:FR:BforBank:Compte-Courant      EUR -14.74
+    Expenses:Food:Groceries                 14.74 EUR
+    Assets:FR:BforBank:Compte-Courant      -14.74 EUR
 
 2025-01-08 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 9.72
-    Assets:FR:BforBank:Compte-Courant       EUR -9.72
+    Expenses:Subscriptions:Software          9.72 EUR
+    Assets:FR:BforBank:Compte-Courant       -9.72 EUR
 
 2025-01-08 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-08 * Ibuprofen
-    Expenses:Health:Pharmacy                    EUR 5
-    Assets:FR:BforBank:Compte-Courant          EUR -5
+    Expenses:Health:Pharmacy                    5 EUR
+    Assets:FR:BforBank:Compte-Courant          -5 EUR
 
 2025-01-08 * MS personal care
-    Expenses:PersonalCare:Discretionary                     EUR 200
-    Assets:FR:BforBank:Compte-Courant        EUR -200
+    Expenses:PersonalCare:Discretionary                     200 EUR
+    Assets:FR:BforBank:Compte-Courant        -200 EUR
 
 2025-01-09 * Vinted sales
-    Assets:FR:BforBank:Compte-Courant          EUR 85
-    Income:Resale:Vinted                   EUR -85
+    Assets:FR:BforBank:Compte-Courant          85 EUR
+    Income:Resale:Vinted                   -85 EUR
 
 2025-01-09 * Baguette
-    Expenses:Food:Groceries                  EUR 1.25
-    Assets:FR:BforBank:Compte-Courant       EUR -1.25
+    Expenses:Food:Groceries                  1.25 EUR
+    Assets:FR:BforBank:Compte-Courant       -1.25 EUR
 
 2025-01-09 * Carrefour City groceries
-    Expenses:Food:Groceries                  EUR 2.11
-    Assets:FR:BforBank:Compte-Courant       EUR -2.11
+    Expenses:Food:Groceries                  2.11 EUR
+    Assets:FR:BforBank:Compte-Courant       -2.11 EUR
 
 2025-01-09 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-09 * Pain au chocolat
-    Expenses:Food:Snack                       EUR 1.3
-    Assets:FR:BforBank:Compte-Courant        EUR -1.3
+    Expenses:Food:Snack                       1.3 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.3 EUR
 
 2025-01-09 * Sunscreen
-    Expenses:Travel:Holidays                 EUR 14.5
-    Assets:FR:BforBank:Compte-Courant       EUR -14.5
+    Expenses:Travel:Holidays                 14.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -14.5 EUR
 
 2025-01-11 * Transavia checked bagage supplement
-    Expenses:Travel:Flights                     EUR 3
-    Assets:FR:BforBank:Compte-Courant          EUR -3
+    Expenses:Travel:Flights                     3 EUR
+    Assets:FR:BforBank:Compte-Courant          -3 EUR
 
 2025-01-13 * Cash withdrawal Dakhla
-    Expenses:Travel:Holidays                EUR 412.3
-    Assets:FR:BforBank:Compte-Courant      EUR -412.3
+    Expenses:Travel:Holidays                412.3 EUR
+    Assets:FR:BforBank:Compte-Courant      -412.3 EUR
 
 2025-01-14 * Velib monthly fees
-    Expenses:Transportation:Bikesharing           EUR 4
-    Assets:FR:BforBank:Compte-Courant            EUR -4
+    Expenses:Transportation:Bikesharing           4 EUR
+    Assets:FR:BforBank:Compte-Courant            -4 EUR
 
 2025-01-15 * Lebara phone plan
-    Expenses:Home:Utilities:MobilePhone        EUR 5.96
-    Assets:FR:BforBank:Compte-Courant         EUR -5.96
+    Expenses:Home:Utilities:MobilePhone        5.96 EUR
+    Assets:FR:BforBank:Compte-Courant         -5.96 EUR
 
 2025-01-16 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 4.88
-    Assets:FR:BforBank:Compte-Courant       EUR -4.88
+    Expenses:Subscriptions:Software          4.88 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.88 EUR
 
 2025-01-18 * Café + Pain au chocolat
-    Expenses:Food:Snack                       EUR 3.3
-    Assets:FR:BforBank:Compte-Courant        EUR -3.3
+    Expenses:Food:Snack                       3.3 EUR
+    Assets:FR:BforBank:Compte-Courant        -3.3 EUR
 
 2025-01-18 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-18 * Therapist
-    Expenses:Health:Therapy                    EUR 60
-    Assets:FR:BforBank:Compte-Courant         EUR -60
+    Expenses:Health:Therapy                    60 EUR
+    Assets:FR:BforBank:Compte-Courant         -60 EUR
 
 2025-01-19 * Balance settlement Dakhla expenses Aurélie
-    Expenses:Travel:Holidays                  EUR 100
-    Assets:FR:BforBank:Compte-Courant        EUR -100
+    Expenses:Travel:Holidays                  100 EUR
+    Assets:FR:BforBank:Compte-Courant        -100 EUR
 
 2025-01-20 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-20 * EDF subscription
-    Expenses:Home:Utilities:Electricity       EUR 75.19
-    Assets:FR:BforBank:Compte-Courant        EUR -75.19
+    Expenses:Home:Utilities:Electricity       75.19 EUR
+    Assets:FR:BforBank:Compte-Courant        -75.19 EUR
 
 2025-01-20 * HelloFresh
-    Expenses:Food:Groceries                 EUR 48.94
-    Assets:FR:BforBank:Compte-Courant      EUR -48.94
+    Expenses:Food:Groceries                 48.94 EUR
+    Assets:FR:BforBank:Compte-Courant      -48.94 EUR
 
 2025-01-20 * Restaurant Villa Dakhla
-    Expenses:Travel:Holidays                EUR 51.53
-    Assets:FR:BforBank:Compte-Courant      EUR -51.53
+    Expenses:Travel:Holidays                51.53 EUR
+    Assets:FR:BforBank:Compte-Courant      -51.53 EUR
 
 2025-01-20 * Vinted boost
-    Expenses:Resale                          EUR 4.33
-    Assets:FR:BforBank:Compte-Courant       EUR -4.33
+    Expenses:Resale                          4.33 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.33 EUR
 
 2025-01-20 * Wingfoil lessons Dakhla
-    Expenses:Travel:Holidays               EUR 245.87
-    Assets:FR:BforBank:Compte-Courant     EUR -245.87
+    Expenses:Travel:Holidays               245.87 EUR
+    Assets:FR:BforBank:Compte-Courant     -245.87 EUR
 
 2025-01-22 * Baguette
-    Expenses:Food:Groceries                   EUR 1.2
-    Assets:FR:BforBank:Compte-Courant        EUR -1.2
+    Expenses:Food:Groceries                   1.2 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.2 EUR
 
 2025-01-22 * Carrefour City groceries
-    Expenses:Food:Groceries                 EUR 17.45
-    Assets:FR:BforBank:Compte-Courant      EUR -17.45
+    Expenses:Food:Groceries                 17.45 EUR
+    Assets:FR:BforBank:Compte-Courant      -17.45 EUR
 
 2025-01-22 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-24 * Relay Gare de Lyon bonbons eau
-    Expenses:Food:Snack                       EUR 5.2
-    Assets:FR:BforBank:Compte-Courant        EUR -5.2
+    Expenses:Food:Snack                       5.2 EUR
+    Assets:FR:BforBank:Compte-Courant        -5.2 EUR
 
 2025-01-25 * Bar babyfoot Val d'Isère
-    Expenses:Entertainment:Social:Bars        EUR 17.6
-    Assets:FR:BforBank:Compte-Courant        EUR -17.6
+    Expenses:Entertainment:Social:Bars        17.6 EUR
+    Assets:FR:BforBank:Compte-Courant        -17.6 EUR
 
 2025-01-25 * Beer Val d'Isère Folie Douce
-    Expenses:Entertainment:Social:Bars           EUR 8
-    Assets:FR:BforBank:Compte-Courant           EUR -8
+    Expenses:Entertainment:Social:Bars           8 EUR
+    Assets:FR:BforBank:Compte-Courant           -8 EUR
 
 2025-01-25 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-26 * Boulangerie Val d'Isère sandwich
-    Expenses:Food:Snack                      EUR 15.7
-    Assets:FR:BforBank:Compte-Courant       EUR -15.7
+    Expenses:Food:Snack                      15.7 EUR
+    Assets:FR:BforBank:Compte-Courant       -15.7 EUR
 
 2025-01-26 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-26 * Crêpe + Café Val d'Isère
-    Expenses:Food:Snack                       EUR 8.2
-    Assets:FR:BforBank:Compte-Courant        EUR -8.2
+    Expenses:Food:Snack                       8.2 EUR
+    Assets:FR:BforBank:Compte-Courant        -8.2 EUR
 
 2025-01-26 * Relay Bourg St Maurice bonbons eau
-    Expenses:Food:Snack                       EUR 5.4
-    Assets:FR:BforBank:Compte-Courant        EUR -5.4
+    Expenses:Food:Snack                       5.4 EUR
+    Assets:FR:BforBank:Compte-Courant        -5.4 EUR
 
 2025-01-27 * Baguette
-    Expenses:Food:Groceries                   EUR 1.2
-    Assets:FR:BforBank:Compte-Courant        EUR -1.2
+    Expenses:Food:Groceries                   1.2 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.2 EUR
 
 2025-01-27 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 4.81
-    Assets:FR:BforBank:Compte-Courant       EUR -4.81
+    Expenses:Subscriptions:Software          4.81 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.81 EUR
 
 2025-01-27 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-27 * HelloFresh
-    Expenses:Food:Groceries                 EUR 48.94
-    Assets:FR:BforBank:Compte-Courant      EUR -48.94
+    Expenses:Food:Groceries                 48.94 EUR
+    Assets:FR:BforBank:Compte-Courant      -48.94 EUR
 
 2025-01-27 * Red by SFR
-    Expenses:Home:Utilities:MobilePhone       EUR 19.17
-    Assets:FR:BforBank:Compte-Courant        EUR -19.17
+    Expenses:Home:Utilities:MobilePhone       19.17 EUR
+    Assets:FR:BforBank:Compte-Courant        -19.17 EUR
 
 2025-01-29 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 9.64
-    Assets:FR:BforBank:Compte-Courant       EUR -9.64
+    Expenses:Subscriptions:Software          9.64 EUR
+    Assets:FR:BforBank:Compte-Courant       -9.64 EUR
 
 2025-01-29 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-29 * Pain au chocolat
-    Expenses:Food:Snack                       EUR 1.5
-    Assets:FR:BforBank:Compte-Courant        EUR -1.5
+    Expenses:Food:Snack                       1.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.5 EUR
 
 2025-01-30 * Cigarettes
-    Expenses:Cigarettes                        EUR 13
-    Assets:FR:BforBank:Compte-Courant         EUR -13
+    Expenses:Cigarettes                        13 EUR
+    Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-01-31 * Drinks Barracuda with Aurélie
-    Expenses:Entertainment:Social:Bars          EUR 10
-    Assets:FR:BforBank:Compte-Courant          EUR -10
+    Expenses:Entertainment:Social:Bars          10 EUR
+    Assets:FR:BforBank:Compte-Courant          -10 EUR
 
 2025-01-31 * Extra savings from monthly balance
-    Assets:FR:BforBank:LivretA              EUR 16.81
-    Assets:FR:BforBank:Compte-Courant      EUR -16.81
+    Assets:FR:BforBank:LivretA              16.81 EUR
+    Assets:FR:BforBank:Compte-Courant      -16.81 EUR
 
 2025-01-31 * Unaccounted expenses
-    Expenses:Misc                           EUR 23.58
-    Assets:FR:BforBank:Compte-Courant      EUR -23.58
+    Expenses:Misc                           23.58 EUR
+    Assets:FR:BforBank:Compte-Courant      -23.58 EUR

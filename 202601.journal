@@ -2,700 +2,700 @@
 
 * BforBank Livret A
 2026-01-01 * Interest income
-    Assets:FR:BforBank:LivretA            EUR 232.08
+    Assets:FR:BforBank:LivretA            232.08 EUR
     Income:FR:BforBank:LivretA
 
 2026-01-24 * Interest income closing
-    Assets:FR:BforBank:LivretA              EUR 0.17
+    Assets:FR:BforBank:LivretA              0.17 EUR
     Income:FR:BforBank:LivretA
 
 * BforBank transactions
 2026-01-01 * Cigarettes
-    Expenses:Cigarettes                       EUR 13
+    Expenses:Cigarettes                       13 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-02 * Ratp
-    Expenses:Transportation:PublicTransport  EUR 5.10
+    Expenses:Transportation:PublicTransport  5.10 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-05 * Navigo
-    Expenses:Transportation:PublicTransport  EUR 90.80
+    Expenses:Transportation:PublicTransport  90.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-05 * MacroFactor subscription
-    Expenses:Subscriptions:Software        EUR 13.99
+    Expenses:Subscriptions:Software        13.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-07 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-07 * Carrefour City
-    Expenses:Food:Groceries                EUR 14.98
+    Expenses:Food:Groceries                14.98 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-08 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-08 * Le Cerf
-    Expenses:Entertainment:Social:Bars     EUR 22.80
+    Expenses:Entertainment:Social:Bars     22.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-09 * Kine Boetie
-    Expenses:Health:Doctor                   EUR 110
+    Expenses:Health:Doctor                   110 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-09 * G20
-    Expenses:Food:Groceries                EUR 52.40
+    Expenses:Food:Groceries                52.40 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-09 * Le 164
-    Expenses:Entertainment:Social:Bars         EUR 8
+    Expenses:Entertainment:Social:Bars         8 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-12 * Bnf
-    Expenses:Education                        EUR 24
+    Expenses:Education                        24 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-13 * Refund CPAM
-    Assets:FR:BforBank:Compte-Courant      EUR 23.16
+    Assets:FR:BforBank:Compte-Courant      23.16 EUR
     Expenses:Health:Doctor
 
 2026-01-13 * Cash withdrawal
-    Assets:Cash:EUR                          EUR 120
+    Assets:Cash:EUR                          120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-14 * Fitness Park
-    Expenses:Health:Gym                    EUR 23.96
+    Expenses:Health:Gym                    23.96 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-15 * Tax advance
-    Assets:FR:BforBank:Compte-Courant         EUR 40
+    Assets:FR:BforBank:Compte-Courant         40 EUR
     Expenses:Taxes
 
 2026-01-16 * Cash withdrawal
-    Assets:Cash:EUR                          EUR 300
+    Assets:Cash:EUR                          300 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-16 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-17 * Le 164
-    Expenses:Entertainment:Social:Bars        EUR 13
+    Expenses:Entertainment:Social:Bars        13 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-17 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-17 * Fisherman's Friend
-    Expenses:Food:Snack                     EUR 2.60
+    Expenses:Food:Snack                     2.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-19 * Carrefour City sweets
-    Expenses:Food:Snack                        EUR 2
+    Expenses:Food:Snack                        2 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-19 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-19 * Sept Couleurs  ; aurelie:
-    Expenses:Entertainment:Social:Bars     EUR 17.80
+    Expenses:Entertainment:Social:Bars     17.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-19 * Le Drapeau  ; aurelie:
-    Expenses:Entertainment:Social:Bars      EUR 9.30
+    Expenses:Entertainment:Social:Bars      9.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-20 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-20 * Carrefour City
-    Expenses:Food:Groceries                EUR 13.23
+    Expenses:Food:Groceries                13.23 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-21 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-22 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-22 * Franprix
-    Expenses:Food:Groceries                EUR 10.23
+    Expenses:Food:Groceries                10.23 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-23 * Settlement payables
-    Liabilities:Payables:Aurelie          EUR 506.71
+    Liabilities:Payables:Aurelie          506.71 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-23 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-24 * Transfer Livret A to Compte-Courant
-    Assets:FR:BforBank:Compte-Courant     EUR 242.25
+    Assets:FR:BforBank:Compte-Courant     242.25 EUR
     Assets:FR:BforBank:LivretA
 
 2026-01-24 * Transfer to Revolut
-    Assets:FR:Revolut:Personal:EUR           EUR 100
+    Assets:FR:Revolut:Personal:EUR           100 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-24 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-24 * Fisherman's Friend
-    Expenses:Food:Snack                        EUR 2
+    Expenses:Food:Snack                        2 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-24 * Le Paris Cafe
-    Expenses:Entertainment:Social:Bars     EUR 16.70
+    Expenses:Entertainment:Social:Bars     16.70 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-25 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-25 * Cash withdrawal
-    Assets:Cash:EUR                           EUR 20
+    Assets:Cash:EUR                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-26 * Services charges Q1'26
-    Expenses:Home:Vincennes:ServiceCharges  EUR 1730.03
-    Assets:FR:BforBank:Compte-Courant   EUR -1730.03
-    Expenses:Home:Vincennes:ServiceCharges  EUR -865.02
-    Liabilities:Payables:Aurelie          EUR 865.02
+    Expenses:Home:Vincennes:ServiceCharges  1730.03 EUR
+    Assets:FR:BforBank:Compte-Courant   -1730.03 EUR
+    Expenses:Home:Vincennes:ServiceCharges  -865.02 EUR
+    Liabilities:Payables:Aurelie          865.02 EUR
 
 2026-01-26 * Sale ironing board
-    Assets:FR:BforBank:Compte-Courant         EUR 55
+    Assets:FR:BforBank:Compte-Courant         55 EUR
     Income:Resale
 
 2021-01-27 * SFR
-    Expenses:Home:Utilities:MobilePhone    EUR 11.99
+    Expenses:Home:Utilities:MobilePhone    11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-27 * G20
-    Expenses:Food:Groceries                EUR 64.19
+    Expenses:Food:Groceries                64.19 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-27 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-27 * Sale trousers vinted
-    Assets:FR:BforBank:Compte-Courant         EUR 20
+    Assets:FR:BforBank:Compte-Courant         20 EUR
     Income:Resale
 
 2026-01-28 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-28 * ID pictures
-    Expenses:Misc                             EUR 25
+    Expenses:Misc                             25 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-29 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-29 * Gift Julien
-    Expenses:GiftsCharity:Gifts               EUR 50
+    Expenses:GiftsCharity:Gifts               50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-30 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-30 * Dryer for bed linen
-    Expenses:Home:Maintenance               EUR 1.30
+    Expenses:Home:Maintenance               1.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-30 * Dryer for bed linen
-    Expenses:Home:Maintenance               EUR 1.30
+    Expenses:Home:Maintenance               1.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-31 * Magali Saint Mande
-    Expenses:Food:Groceries                EUR 23.20
+    Expenses:Food:Groceries                23.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-31 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-31 * Cash withdrawal
-    Assets:Cash:EUR                          EUR 120
+    Assets:Cash:EUR                          120 EUR
     Assets:FR:BforBank:Compte-Courant  ; date: 2026-01-03
 
 * Boursobank transactions
 2026-01-27 * Deliveroo fee
-    Expenses:Food:Delivery                  EUR 2.88
+    Expenses:Food:Delivery                  2.88 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Cash transactions
 2026-01-01 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:Cash:EUR
 
 2026-01-10 * Therapy
-    Expenses:Health:Therapy                   EUR 120
+    Expenses:Health:Therapy                   120 EUR
     Assets:Cash:EUR
 
 2026-01-16 * Tennis lesson with Joris
-    Expenses:Health:Sport:Tennis              EUR 40
+    Expenses:Health:Sport:Tennis              40 EUR
     Assets:Cash:EUR
 
 2026-01-16 * Therapy
-    Expenses:Health:Therapy                  EUR 60
+    Expenses:Health:Therapy                  60 EUR
     Assets:Cash:EUR
 
 2026-01-16 * Treatment
-    Expenses:PersonalCare:Discretionary      EUR 200
+    Expenses:PersonalCare:Discretionary      200 EUR
     Assets:Cash:EUR
 
 2026-01-23 * Cash balance assertion
-    Assets:Cash:EUR                         == EUR 12.11
+    Assets:Cash:EUR                         == 12.11 EUR
     Expenses:Misc:Unaccounted
 
 2026-01-24 * Cafe
-    Expenses:Food:Cafe                      EUR 2.30
+    Expenses:Food:Cafe                      2.30 EUR
     Assets:Cash:EUR
 
 2026-01-24 * Baguette
-    Expenses:Food:Groceries                 EUR 1.35
+    Expenses:Food:Groceries                 1.35 EUR
     Assets:Cash:EUR
 
 2026-01-24 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:Cash:EUR
 
 2026-01-24 * Sale stepladder
-    Assets:Cash:EUR                           EUR 30
+    Assets:Cash:EUR                           30 EUR
     Income:Resale
 
 2026-01-27 * Hairdresser
-    Expenses:PersonalCare:Hair                EUR 13
+    Expenses:PersonalCare:Hair                13 EUR
     Assets:Cash:EUR
 
 2026-01-30 * Cali class with Kevin
-    Expenses:Health:Gym                       EUR 15
-    Expenses:GiftsCharity:Gifts               EUR 15  ; aurelie:
+    Expenses:Health:Gym                       15 EUR
+    Expenses:GiftsCharity:Gifts               15 EUR  ; aurelie:
     Assets:Cash:EUR
 
 2026-01-31 * Therapy
-    Expenses:Health:Therapy                  EUR 120
+    Expenses:Health:Therapy                  120 EUR
     Assets:Cash:EUR
 
 * CCF transactions
 2026-01-03 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean           EUR 2257.50
+    Assets:FR:CCF:Compte-Joint:Jean           2257.50 EUR
     Assets:FR:CCF:Compte-Courant
 
 2026-01-03 * Fees CCF
-    Expenses:Finance:Bank                   EUR 8.75
+    Expenses:Finance:Bank                   8.75 EUR
     Assets:FR:CCF:Compte-Courant
 
 2026-01-06 * EDF
-    Expenses:Home:Utilities:Electricity    EUR 24.50
+    Expenses:Home:Utilities:Electricity    24.50 EUR
     Assets:FR:CCF:Compte-Joint:Jean
 
 2026-01-14 * Frais d'intervention
-    Expenses:Finance:Bank                      EUR 4
+    Expenses:Finance:Bank                      4 EUR
     Assets:FR:CCF:Compte-Joint:Jean
 
 * Moneyfarm transactions
 2026-01-28 * Account close
-    Assets:UK:HSBC:Current-Account           GBP 1.82
+    Assets:UK:HSBC:Current-Account           1.82 GBP
     Assets:UK:Moneyfarm
 
 * Revolut EUR transactions
 2026-01-03 * Franprix
-    Expenses:Food:Snack                     EUR 2.90
+    Expenses:Food:Snack                     2.90 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-03 * Carrefour
-    Expenses:Food:Groceries                   EUR 15
+    Expenses:Food:Groceries                   15 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-03 * La Banquette  ; aurelie:
-    Expenses:Food:Restaurants              EUR 34.80
+    Expenses:Food:Restaurants              34.80 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-03 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-03 * Fisherman's Friend
-    Expenses:Food:Snack                     EUR 1.50
+    Expenses:Food:Snack                     1.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-03 * Le Vincennes  ; aurelie:
-    Expenses:Entertainment:Events:Cinema      EUR 19
+    Expenses:Entertainment:Events:Cinema      19 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-04 * Cigarettes
-    Expenses:Cigarettes                       EUR 26
+    Expenses:Cigarettes                       26 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-04 * RealDebrid
-    Expenses:Subscriptions:Streaming           EUR 3
+    Expenses:Subscriptions:Streaming           3 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-05 * Sohana Punjab
-    Expenses:Food:Restaurants                 EUR 21
+    Expenses:Food:Restaurants                 21 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-07 * OpenAI
-    Expenses:Subscriptions:Software        EUR 19.17
+    Expenses:Subscriptions:Software        19.17 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-08 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-10 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-10 * Maison B&b
-    Expenses:Food:Cafe                      EUR 3.70
+    Expenses:Food:Cafe                      3.70 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-11 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-12 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-12 * G20
-    Expenses:Food:Groceries                EUR 11.84
+    Expenses:Food:Groceries                11.84 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-13 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-13 * Carrefour
-    Expenses:Food:Groceries                EUR 11.51
+    Expenses:Food:Groceries                11.51 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-14 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-15 * Franprix
-    Expenses:Food:Snack                     EUR 2.90
+    Expenses:Food:Snack                     2.90 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-17 * Cafe
-    Expenses:Food:Cafe                      EUR 0.70
+    Expenses:Food:Cafe                      0.70 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-17 * Cafe
-    Expenses:Food:Cafe                      EUR 0.80
+    Expenses:Food:Cafe                      0.80 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-17 * Cafe
-    Expenses:Food:Cafe                      EUR 0.80
+    Expenses:Food:Cafe                      0.80 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-17 * Cafe
-    Expenses:Food:Cafe                      EUR 0.80
+    Expenses:Food:Cafe                      0.80 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-22 * Transfer Revolut EUR balance
-    Assets:FR:BforBank:Compte-Courant       EUR 5.51
+    Assets:FR:BforBank:Compte-Courant       5.51 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2026-01-23 * Card delivery fee
-    Expenses:Finance:Bank                   EUR 7.99
+    Expenses:Finance:Bank                   7.99 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-01-23 * Franprix
-    Expenses:Food:Groceries                EUR 11.40
+    Expenses:Food:Groceries                11.40 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-01-23 * Yonex shoes bag
-    Expenses:Shopping:Sport                EUR 16.45
+    Expenses:Shopping:Sport                16.45 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-01-25 * Beeminder fine
-    Expenses:Subscriptions:Software         EUR 4.29
+    Expenses:Subscriptions:Software         4.29 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-01-25 * TorBox
-    Expenses:Subscriptions:Streaming        EUR 4.30
+    Expenses:Subscriptions:Streaming        4.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-01-26 * Cafe Gaia
-    Expenses:Food:Cafe                         EUR 4
+    Expenses:Food:Cafe                         4 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-01-27 * McDonald's
-    Expenses:Food:Delivery                 EUR 29.18
+    Expenses:Food:Delivery                 29.18 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-01-28 * Carrefour City
-    Expenses:Food:Groceries                 EUR 8.39
+    Expenses:Food:Groceries                 8.39 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions
 2026-01-09 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone        GBP 5
+    Expenses:Home:Utilities:MobilePhone        5 GBP
     Assets:UK:Revolut:Personal:GBP
 
 2026-01-17 * Le Berlioz
-    Expenses:Entertainment:Social:Bars     GBP 22.62
+    Expenses:Entertainment:Social:Bars     22.62 GBP
     Assets:UK:Revolut:Personal:GBP
 
 2026-01-22 * Transfer Revolut GBP balance
-    Assets:UK:HSBC:Current-Account       GBP 2963.83
+    Assets:UK:HSBC:Current-Account       2963.83 GBP
     Assets:UK:Revolut:Personal:GBP
 
 2026-01-23 * Transfer GBP back to new Revolut GBP account
-    Assets:FR:Revolut:Personal:GBP       GBP 2963.83
+    Assets:FR:Revolut:Personal:GBP       2963.83 GBP
     Assets:UK:HSBC:Current-Account
 
 * Amex Gold transactions
 2026-01-01 * Uber
-    Expenses:Transportation:Taxi           EUR 41.49
+    Expenses:Transportation:Taxi           41.49 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-02 * Sncf Carte Avantage
-    Expenses:Travel:Train                     EUR 49
+    Expenses:Travel:Train                     49 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-02 * Train tickets Bourg-Saint-Maurice
-    Expenses:Travel:Train                    EUR 328
+    Expenses:Travel:Train                    328 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-02 * HelloFresh
-    Expenses:Food:Groceries                EUR 48.94
+    Expenses:Food:Groceries                48.94 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-03 * Uniqlo
-    Expenses:Shopping:Clothes              EUR 74.60
+    Expenses:Shopping:Clothes              74.60 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-04 * Plantstraws
-    Expenses:GiftsCharity:Gifts            EUR 62.90
+    Expenses:GiftsCharity:Gifts            62.90 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-04 * Decathlon bike accessories
-    Expenses:Shopping:Sport                EUR 58.96
+    Expenses:Shopping:Sport                58.96 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-03 * Velib
-    Expenses:Transportation:Bikesharing        EUR 6
+    Expenses:Transportation:Bikesharing        6 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-03 * Cocolis  ; flat-vincennes:
-    Expenses:Home:Furniture                   EUR 38
+    Expenses:Home:Furniture                   38 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-03 * Cles du guidon
-    Expenses:Education                       EUR 229
+    Expenses:Education                       229 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-04 * Ikea  ; flat-vincennes:
-    Expenses:Home:Furniture               EUR 269.86
-    Liabilities:FR:Amex:Gold             EUR -269.86
+    Expenses:Home:Furniture               269.86 EUR
+    Liabilities:FR:Amex:Gold             -269.86 EUR
 
 2026-01-05 * R2 Training
-    Expenses:Health:Gym                    EUR 23.87
+    Expenses:Health:Gym                    23.87 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-05 * ScreenBar Halo 2
-    Expenses:Shopping:Electronics         EUR 179.20
+    Expenses:Shopping:Electronics         179.20 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-05 * Sechoir Joseph Joseph
-    Expenses:Home                          EUR 17.99
-    Liabilities:FR:Amex:Gold              EUR -17.99
-    Expenses:Home                             EUR -9
-    Liabilities:Payables:Aurelie               EUR 9
+    Expenses:Home                          17.99 EUR
+    Liabilities:FR:Amex:Gold              -17.99 EUR
+    Expenses:Home                             -9 EUR
+    Liabilities:Payables:Aurelie               9 EUR
 
 2026-01-06 * Amex subscription
-    Expenses:Finance:CreditCard               EUR 16
+    Expenses:Finance:CreditCard               16 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-06 * Refund Extreme Tennis
-    Liabilities:FR:Amex:Gold               EUR 67.47
+    Liabilities:FR:Amex:Gold               67.47 EUR
     Expenses:Shopping:Sport
 
 2026-01-06 * Lapdesk for Aurelie  ; aurelie:
-    Expenses:GiftsCharity:Gifts            EUR 56.99
+    Expenses:GiftsCharity:Gifts            56.99 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-06 * Home ladder  ; flat-vincennes:
-    Expenses:Home                          EUR 49.99
+    Expenses:Home                          49.99 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-07 * Leroy Merlin
-    Expenses:Home:Maintenance               EUR 5.99
+    Expenses:Home:Maintenance               5.99 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-08 * Refund Tennis Warehouse
-    Expenses:Shopping:Sport               EUR -52.43
+    Expenses:Shopping:Sport               -52.43 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-10 * Deliveroo fee
-    Expenses:Food:Delivery                  EUR 1.59
+    Expenses:Food:Delivery                  1.59 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-10 * Fluocaril
-    Expenses:Health:Pharmacy                EUR 9.38
+    Expenses:Health:Pharmacy                9.38 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-12 * Amex settlement
-    Liabilities:FR:Amex:Gold             EUR 5569.46
+    Liabilities:FR:Amex:Gold             5569.46 EUR
     Assets:FR:CCF:Compte-Courant
 
 2026-01-12 * HelloFresh
-    Expenses:Food:Groceries                EUR 48.98
+    Expenses:Food:Groceries                48.98 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-13 * Ikea
-    Expenses:Home:Furniture               EUR 268.99
-    Liabilities:FR:Amex:Gold             EUR -268.99
-    Expenses:Home:Furniture              EUR -134.50
-    Liabilities:Payables:Aurelie          EUR 134.50
+    Expenses:Home:Furniture               268.99 EUR
+    Liabilities:FR:Amex:Gold             -268.99 EUR
+    Expenses:Home:Furniture              -134.50 EUR
+    Liabilities:Payables:Aurelie          134.50 EUR
 
 2026-01-16 * Ikea refund and expense sharing
-    Liabilities:FR:Amex:Gold               EUR 51.98
-    Expenses:Home:Furniture               EUR -51.98
-    Expenses:Home:Furniture              EUR -108.94
-    Liabilities:Payables:Aurelie          EUR 108.94
+    Liabilities:FR:Amex:Gold               51.98 EUR
+    Expenses:Home:Furniture               -51.98 EUR
+    Expenses:Home:Furniture              -108.94 EUR
+    Liabilities:Payables:Aurelie          108.94 EUR
 
 2026-01-16 * Dott pass
-    Expenses:Transportation:Bikesharing     EUR 5.99
+    Expenses:Transportation:Bikesharing     5.99 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-16 * Dott ride
-    Expenses:Transportation:Bikesharing     EUR 2.45
+    Expenses:Transportation:Bikesharing     2.45 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-16 * Dott ride
-    Expenses:Transportation:Bikesharing     EUR 1.75
+    Expenses:Transportation:Bikesharing     1.75 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-16 * Dott ride
-    Expenses:Transportation:Bikesharing     EUR 1.75
+    Expenses:Transportation:Bikesharing     1.75 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-17 * Deliveroo
-    Expenses:Food:Delivery                 EUR 28.44
+    Expenses:Food:Delivery                 28.44 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-17 * Nido Vincennes
-    Expenses:Food:Restaurants                 EUR 83
+    Expenses:Food:Restaurants                 83 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-17 * Deliveroo
-    Expenses:Food:Groceries                 EUR 7.60
+    Expenses:Food:Groceries                 7.60 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-19 * HelloFresh
-    Expenses:Food:Groceries                EUR 48.98
+    Expenses:Food:Groceries                48.98 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-20 * Refund train tickets ski
-    Expenses:Travel:Train                   EUR -290
+    Expenses:Travel:Train                   -290 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-22 * Deliveroo fee
-    Expenses:Food:Delivery                  EUR 3.13
+    Expenses:Food:Delivery                  3.13 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-23 * Deliveroo fee
-    Expenses:Food:Delivery                  EUR 1.58
+    Expenses:Food:Delivery                  1.58 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-23 * Tennis shoes Yonex
-    Expenses:Shopping:Sport                EUR 74.95
+    Expenses:Shopping:Sport                74.95 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-24 * Maison B&b
-    Expenses:Food:Cafe                      EUR 3.20
+    Expenses:Food:Cafe                      3.20 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-24 * Dott ride
-    Expenses:Transportation:Bikesharing     EUR 1.75
+    Expenses:Transportation:Bikesharing     1.75 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-26 * Amazon order
-    Expenses:Home:Maintenance              EUR 10.99  ; kit nettoyage clavier
-    Expenses:Shopping                      EUR 18.80  ; uni kurutoga advanced upgrade
-    Expenses:Home:Maintenance               EUR 9.99  ; pierre d'argile
-    Expenses:Home:Maintenance              EUR 54.99  ; vileda h2pro
-    Expenses:Food:Groceries                EUR 11.99  ; nutritional yeast
-    Expenses:Shopping:Sport                EUR 17.63  ; sac a chaussures head
-    Expenses:Home:Maintenance               EUR 8.49  ; pochon tissu
-    Expenses:Home:Maintenance               EUR 5.99  ; air duster
-    Liabilities:FR:Amex:Gold             EUR -138.87
+    Expenses:Home:Maintenance              10.99 EUR  ; kit nettoyage clavier
+    Expenses:Shopping                      18.80 EUR  ; uni kurutoga advanced upgrade
+    Expenses:Home:Maintenance               9.99 EUR  ; pierre d'argile
+    Expenses:Home:Maintenance              54.99 EUR  ; vileda h2pro
+    Expenses:Food:Groceries                11.99 EUR  ; nutritional yeast
+    Expenses:Shopping:Sport                17.63 EUR  ; sac a chaussures head
+    Expenses:Home:Maintenance               8.49 EUR  ; pochon tissu
+    Expenses:Home:Maintenance               5.99 EUR  ; air duster
+    Liabilities:FR:Amex:Gold             -138.87 EUR
 
 2026-01-26 * Vileda expense sharing
-    Expenses:Home:Maintenance             EUR -27.50
+    Expenses:Home:Maintenance             -27.50 EUR
     Liabilities:Payables:Aurelie
 
 2026-01-26 * HelloFresh
-    Expenses:Food:Groceries                EUR 48.98
+    Expenses:Food:Groceries                48.98 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-27 * Uniqlo
-    Expenses:Shopping:Clothes             EUR 104.70
+    Expenses:Shopping:Clothes             104.70 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-28 * Nike shoe bag
-    Expenses:Shopping:Sport                EUR 16.98
+    Expenses:Shopping:Sport                16.98 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-29 * Label maker and zipped bags
-    Expenses:Home                          EUR 44.38
+    Expenses:Home                          44.38 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-29 * Daisy chain dip belt
-    Expenses:Shopping:Sport                EUR 17.90
+    Expenses:Shopping:Sport                17.90 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-29 * ABUS Quickstore
-    Expenses:Shopping                      EUR 19.01
+    Expenses:Shopping                      19.01 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-31 * Franprix
-    Expenses:Food:Groceries                EUR 18.20
+    Expenses:Food:Groceries                18.20 EUR
     Liabilities:FR:Amex:Gold
 
 2026-01-31 * Maison B&B Paris
-    Expenses:Food:Cafe                      EUR 3.70
+    Expenses:Food:Cafe                      3.70 EUR
     Liabilities:FR:Amex:Gold
 
 * Other liabilities
 2026-01-21 * Applique murale chambre  ; flat-vincennes:
-    Expenses:Home                          EUR 61.40
-    Expenses:Home                          EUR -30.70
+    Expenses:Home                          61.40 EUR
+    Expenses:Home                          -30.70 EUR
     Liabilities:Payables:Aurelie
 
 2026-01-25 * Tapis salon  ; flat-vincennes:
-    Expenses:Home                          EUR 62.48
-    Expenses:Home                         EUR -31.24
+    Expenses:Home                          62.48 EUR
+    Expenses:Home                         -31.24 EUR
     Liabilities:Payables:Aurelie
 
 2026-01-25 * Tables chevet  ; flat-vincennes:
-    Expenses:Home                         EUR 103.99
-    Expenses:Home                            EUR -52
+    Expenses:Home                         103.99 EUR
+    Expenses:Home                            -52 EUR
     Liabilities:Payables:Aurelie
 
 * Mortgage
 2026-01-03 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint:Jean          EUR -2032.99
-    Liabilities:FR:CCF:Mortgage          EUR 853.75
-    Expenses:Finance:Mortgage:Interest    EUR 1057.74
-    Expenses:Finance:Mortgage:Insurance   EUR 121.50
+    Assets:FR:CCF:Compte-Joint:Jean          -2032.99 EUR
+    Liabilities:FR:CCF:Mortgage          853.75 EUR
+    Expenses:Finance:Mortgage:Interest    1057.74 EUR
+    Expenses:Finance:Mortgage:Insurance   121.50 EUR

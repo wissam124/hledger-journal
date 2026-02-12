@@ -1,19 +1,19 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
 ; Set the opening balance of the BforBank compte-courant account
-; so that the account balance at Apr'24 month-end is EUR 1,039.04 as observed
+; so that the account balance at Apr'24 month-end is 1,039.04 EUR as observed
 ; in spreadsheet tracking.
 ; This left-over balance will be fully utilised in the period Apr'24-Sep'24.
 2024-03-31 * Opening balance BforBank Compte-Courant
     ; Set to match Apr'24-Sep-24 cumulated leftover cash
-    Assets:FR:BforBank:Compte-Courant     EUR -221.92   ; negative balance
+    Assets:FR:BforBank:Compte-Courant     -221.92 EUR   ; negative balance
     Equity:Opening-Balances:EUR
 
 ; Opening balance for livret A calculated as the difference between
 ; balance observed end of Feb'25 and contributions/withdrawals
 ; done over the period Apr'24-Feb'25
 2024-03-31 * Opening balance Livret A
-    Assets:FR:BforBank:LivretA          EUR 10000.02
+    Assets:FR:BforBank:LivretA          10000.02 EUR
     Equity:Opening-Balances:EUR
 
 ; Set the opening balance for PEA ignoring previous transactions
@@ -22,27 +22,27 @@
 ; - Amundi PEA EURO COURT TERME UC FR0013346681
 ; The cash amount is the result of the sale of the two ETFs above.
 2024-03-31 * Opening balance PEA
-    Assets:FR:BourseDirect:Cash          EUR 1306.22
+    Assets:FR:BourseDirect:Cash          1306.22 EUR
     Equity:Opening-Balances:EUR
 
 ; Opening balance for PER/PEI
 ; All tax-deferred personal contributions before 2024
 2024-03-31 * Opening balance PER tax deferred  ; per-tax-deferred:
-    Assets:FR:Epsor:PER        EUR 2500
+    Assets:FR:Epsor:PER        2500 EUR
     Equity:Opening-Balances:EUR
 
 ; All contributions (personal and company) to PER before 2024
 2024-03-31 * Opening balance PER
-    Assets:FR:Epsor:PER                EUR 21811.25
+    Assets:FR:Epsor:PER                21811.25 EUR
     Equity:Opening-Balances:EUR
 
 ; All contributions (personal and company) to PEI before 2024
 2024-03-31 * Opening balance PEI
-    Assets:FR:Epsor:PEI                EUR 43036.02
+    Assets:FR:Epsor:PEI                43036.02 EUR
     Equity:Opening-Balances:EUR
 
 ; Moneyfarm opening balances
 ; Net contributions
 2024-03-31 * Moneyfarm opening balance
-    Assets:UK:Moneyfarm                GBP 44041.30
+    Assets:UK:Moneyfarm                44041.30 GBP
     Equity:Opening-Balances:GBP

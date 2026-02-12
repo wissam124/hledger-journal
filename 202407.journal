@@ -1,357 +1,357 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
 2024-07-01 * 111 Cap wage
-    Assets:FR:BforBank:Compte-Courant     EUR 5371.44
-    Income:FR:111Capital:Salary          EUR -5371.44
+    Assets:FR:BforBank:Compte-Courant     5371.44 EUR
+    Income:FR:111Capital:Salary          -5371.44 EUR
 
 2024-07-01 * AMEX - 2024-06-09 - Lunch jardin d'acclimatation
-    Expenses:Food:Snack                      EUR 32.1
-    Assets:FR:BforBank:Compte-Courant       EUR -32.1
+    Expenses:Food:Snack                      32.1 EUR
+    Assets:FR:BforBank:Compte-Courant       -32.1 EUR
 
 2024-07-01 * AMEX - 2024-06-12 - Drinks on Madeira plane
-    Expenses:Food:Snack                      EUR 10.1
-    Assets:FR:BforBank:Compte-Courant       EUR -10.1
+    Expenses:Food:Snack                      10.1 EUR
+    Assets:FR:BforBank:Compte-Courant       -10.1 EUR
 
 2024-07-01 * AMEX - 2024-06-14 - Madeira car rental
-    Expenses:Transportation:CarRental      EUR 577.01
-    Assets:FR:BforBank:Compte-Courant     EUR -577.01
+    Expenses:Transportation:CarRental      577.01 EUR
+    Assets:FR:BforBank:Compte-Courant     -577.01 EUR
 
 2024-07-01 * AMEX - 2024-06-17 - Savoy resort Madeira
-    Expenses:Travel:Holidays                   EUR 55
-    Assets:FR:BforBank:Compte-Courant         EUR -55
+    Expenses:Travel:Holidays                   55 EUR
+    Assets:FR:BforBank:Compte-Courant         -55 EUR
 
 2024-07-01 * AMEX - 2024-06-20 - AMEX subscription
-    Expenses:Finance:CreditCard                   EUR 15
-    Assets:FR:BforBank:Compte-Courant         EUR -15
+    Expenses:Finance:CreditCard                   15 EUR
+    Assets:FR:BforBank:Compte-Courant         -15 EUR
 
 2024-07-01 * AMEX - 2024-06-29 - Deliveroo Cake Justine
-    Expenses:GiftsCharity:Gifts             EUR 42.69
-    Assets:FR:BforBank:Compte-Courant      EUR -42.69
+    Expenses:GiftsCharity:Gifts             42.69 EUR
+    Assets:FR:BforBank:Compte-Courant      -42.69 EUR
 
 2024-07-01 * AMEX - 2024-06-30 - Car rental Agadir
-    Expenses:Transportation:CarRental      EUR 166.77
-    Assets:FR:BforBank:Compte-Courant     EUR -166.77
+    Expenses:Transportation:CarRental      166.77 EUR
+    Assets:FR:BforBank:Compte-Courant     -166.77 EUR
 
 2024-07-01 * AMEX - 2024-06-30 - Hyatt Regency
-    Expenses:Travel:Holidays               EUR 617.45
-    Assets:FR:BforBank:Compte-Courant     EUR -617.45
+    Expenses:Travel:Holidays               617.45 EUR
+    Assets:FR:BforBank:Compte-Courant     -617.45 EUR
 
 2024-07-01 * AMEX - 2024-06-30 - Hyatt Regency expenses
-    Expenses:Travel:Holidays               EUR 127.46
-    Assets:FR:BforBank:Compte-Courant     EUR -127.46
+    Expenses:Travel:Holidays               127.46 EUR
+    Assets:FR:BforBank:Compte-Courant     -127.46 EUR
 
 2024-07-01 * AMEX - 2024-06-30 - Snack Agadir flight
-    Expenses:Food:Snack                       EUR 2.9
-    Assets:FR:BforBank:Compte-Courant        EUR -2.9
+    Expenses:Food:Snack                       2.9 EUR
+    Assets:FR:BforBank:Compte-Courant        -2.9 EUR
 
 2024-07-01 * AMEX - 2024-06-30 - Uber to Orly airport
-    Expenses:Transportation:Taxi            EUR 39.65
-    Assets:FR:BforBank:Compte-Courant      EUR -39.65
+    Expenses:Transportation:Taxi            39.65 EUR
+    Assets:FR:BforBank:Compte-Courant      -39.65 EUR
 
 2024-07-01 * Rent Citeaux
-    Expenses:Home:Rent                       EUR 1330
-    Assets:FR:BforBank:Compte-Courant       EUR -1330
+    Expenses:Home:Rent                       1330 EUR
+    Assets:FR:BforBank:Compte-Courant       -1330 EUR
 
 2024-07-01 * Savings Livret A
-    Assets:FR:BforBank:LivretA               EUR 1000
-    Assets:FR:BforBank:Compte-Courant       EUR -1000
+    Assets:FR:BforBank:LivretA               1000 EUR
+    Assets:FR:BforBank:Compte-Courant       -1000 EUR
 
 2024-07-03 * Gas Agadir
-    Expenses:Travel:Holidays                EUR 36.83
-    Assets:FR:BforBank:Compte-Courant      EUR -36.83
+    Expenses:Travel:Holidays                36.83 EUR
+    Assets:FR:BforBank:Compte-Courant      -36.83 EUR
 
 2024-07-04 * HelloFresh
-    Expenses:Food:Groceries                 EUR 48.94
-    Assets:FR:BforBank:Compte-Courant      EUR -48.94
+    Expenses:Food:Groceries                 48.94 EUR
+    Assets:FR:BforBank:Compte-Courant      -48.94 EUR
 
 2024-07-05 * AMEX - 2024-07-05 - R2 Training
-    Expenses:Health:Gym                       EUR 179
-    Assets:FR:BforBank:Compte-Courant        EUR -179
+    Expenses:Health:Gym                       179 EUR
+    Assets:FR:BforBank:Compte-Courant        -179 EUR
 
 2024-07-05 * MacroFactor subscription
-    Expenses:Subscriptions:Software         EUR 13.99
-    Assets:FR:BforBank:Compte-Courant      EUR -13.99
+    Expenses:Subscriptions:Software         13.99 EUR
+    Assets:FR:BforBank:Compte-Courant      -13.99 EUR
 
 2024-07-05 * Navigo Jul'24
-    Expenses:Transportation:PublicTransport        EUR 86.4
-    Assets:FR:BforBank:Compte-Courant             EUR -86.4
+    Expenses:Transportation:PublicTransport        86.4 EUR
+    Assets:FR:BforBank:Compte-Courant             -86.4 EUR
 
 2024-07-07 * Breakfast Agadir airport
-    Expenses:Food:Snack                        EUR 11
-    Assets:FR:BforBank:Compte-Courant         EUR -11
+    Expenses:Food:Snack                        11 EUR
+    Assets:FR:BforBank:Compte-Courant         -11 EUR
 
 2024-07-07 * Duty-free cigarettes
-    Expenses:Cigarettes                        EUR 36
-    Assets:FR:BforBank:Compte-Courant         EUR -36
+    Expenses:Cigarettes                        36 EUR
+    Assets:FR:BforBank:Compte-Courant         -36 EUR
 
 2024-07-07 * In-flight café Agadir->Paris
-    Expenses:Food:Snack                       EUR 2.9
-    Assets:FR:BforBank:Compte-Courant        EUR -2.9
+    Expenses:Food:Snack                       2.9 EUR
+    Assets:FR:BforBank:Compte-Courant        -2.9 EUR
 
 2024-07-07 * Pizza Chez Antoine
-    Expenses:Food:Restaurants                  EUR 21
-    Assets:FR:BforBank:Compte-Courant         EUR -21
+    Expenses:Food:Restaurants                  21 EUR
+    Assets:FR:BforBank:Compte-Courant         -21 EUR
 
 2024-07-07 * Snack Agadir airport
-    Expenses:Food:Snack                         EUR 4
-    Assets:FR:BforBank:Compte-Courant          EUR -4
+    Expenses:Food:Snack                         4 EUR
+    Assets:FR:BforBank:Compte-Courant          -4 EUR
 
 2024-07-08 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-08 * Drinks with Aurélie
-    Expenses:Entertainment:Social:Bars        EUR 13.5
-    Assets:FR:BforBank:Compte-Courant        EUR -13.5
+    Expenses:Entertainment:Social:Bars        13.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -13.5 EUR
 
 2024-07-09 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-09 * Fisherman's Friend
-    Expenses:Food:Snack                         EUR 2
-    Assets:FR:BforBank:Compte-Courant          EUR -2
+    Expenses:Food:Snack                         2 EUR
+    Assets:FR:BforBank:Compte-Courant          -2 EUR
 
 2024-07-09 * McDonald's
-    Expenses:Food:FastFood                  EUR 21.79
-    Assets:FR:BforBank:Compte-Courant      EUR -21.79
+    Expenses:Food:FastFood                  21.79 EUR
+    Assets:FR:BforBank:Compte-Courant      -21.79 EUR
 
 2024-07-10 * Office lunch - Onigiri
-    Expenses:Food:OfficeLunch                   EUR 9
-    Assets:FR:BforBank:Compte-Courant          EUR -9
+    Expenses:Food:OfficeLunch                   9 EUR
+    Assets:FR:BforBank:Compte-Courant          -9 EUR
 
 2024-07-11 * Beeminder fine
-    Expenses:Subscriptions:Software         EUR 27.78
-    Assets:FR:BforBank:Compte-Courant      EUR -27.78
+    Expenses:Subscriptions:Software         27.78 EUR
+    Assets:FR:BforBank:Compte-Courant      -27.78 EUR
 
 2024-07-11 * Boulangerie
-    Expenses:Food:Snack                      EUR 1.65
-    Assets:FR:BforBank:Compte-Courant       EUR -1.65
+    Expenses:Food:Snack                      1.65 EUR
+    Assets:FR:BforBank:Compte-Courant       -1.65 EUR
 
 2024-07-11 * HelloFresh
-    Expenses:Food:Groceries                 EUR 46.99
-    Assets:FR:BforBank:Compte-Courant      EUR -46.99
+    Expenses:Food:Groceries                 46.99 EUR
+    Assets:FR:BforBank:Compte-Courant      -46.99 EUR
 
 2024-07-12 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-13 * Crêperie Gigi
-    Expenses:Food:Restaurants                  EUR 46
-    Assets:FR:BforBank:Compte-Courant         EUR -46
+    Expenses:Food:Restaurants                  46 EUR
+    Assets:FR:BforBank:Compte-Courant         -46 EUR
 
 2024-07-13 * Durum
-    Expenses:Food:FastFood                      EUR 9
-    Assets:FR:BforBank:Compte-Courant          EUR -9
+    Expenses:Food:FastFood                      9 EUR
+    Assets:FR:BforBank:Compte-Courant          -9 EUR
 
 2024-07-13 * Settle balance witk Iskander holiday
-    Expenses:Travel:Holidays                EUR 44.26
-    Assets:FR:BforBank:Compte-Courant      EUR -44.26
+    Expenses:Travel:Holidays                44.26 EUR
+    Assets:FR:BforBank:Compte-Courant      -44.26 EUR
 
 2024-07-13 * Therapist
-    Expenses:Health:Therapy                    EUR 60
-    Assets:FR:BforBank:Compte-Courant         EUR -60
+    Expenses:Health:Therapy                    60 EUR
+    Assets:FR:BforBank:Compte-Courant         -60 EUR
 
 2024-07-14 * Beeminder fine
-    Expenses:Subscriptions:Software          EUR 18.6
-    Assets:FR:BforBank:Compte-Courant       EUR -18.6
+    Expenses:Subscriptions:Software          18.6 EUR
+    Assets:FR:BforBank:Compte-Courant       -18.6 EUR
 
 2024-07-14 * Drinks with Arnaud
-    Expenses:Entertainment:Social:Bars          EUR 19
-    Assets:FR:BforBank:Compte-Courant          EUR -19
+    Expenses:Entertainment:Social:Bars          19 EUR
+    Assets:FR:BforBank:Compte-Courant          -19 EUR
 
 2024-07-14 * Pizza Chez Antoine
-    Expenses:Food:Snack                      EUR 11.5
-    Assets:FR:BforBank:Compte-Courant       EUR -11.5
+    Expenses:Food:Snack                      11.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -11.5 EUR
 
 2024-07-14 * Tool skate Leroy-Merlin
-    Expenses:Shopping:Sport                   EUR 2.9
-    Assets:FR:BforBank:Compte-Courant        EUR -2.9
+    Expenses:Shopping:Sport                   2.9 EUR
+    Assets:FR:BforBank:Compte-Courant        -2.9 EUR
 
 2024-07-15 * Carrefour City groceries
-    Expenses:Food:Groceries                 EUR 18.09
-    Assets:FR:BforBank:Compte-Courant      EUR -18.09
+    Expenses:Food:Groceries                 18.09 EUR
+    Assets:FR:BforBank:Compte-Courant      -18.09 EUR
 
 2024-07-15 * Drinks with Aurélie
-    Expenses:Entertainment:Social:Bars         EUR 7.5
-    Assets:FR:BforBank:Compte-Courant         EUR -7.5
+    Expenses:Entertainment:Social:Bars         7.5 EUR
+    Assets:FR:BforBank:Compte-Courant         -7.5 EUR
 
 2024-07-15 * Velib monthly fees
-    Expenses:Transportation:Bikesharing           EUR 2
-    Assets:FR:BforBank:Compte-Courant            EUR -2
+    Expenses:Transportation:Bikesharing           2 EUR
+    Assets:FR:BforBank:Compte-Courant            -2 EUR
 
 2024-07-16 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-16 * Financier Kayser
-    Expenses:Food:Snack                       EUR 3.6
-    Assets:FR:BforBank:Compte-Courant        EUR -3.6
+    Expenses:Food:Snack                       3.6 EUR
+    Assets:FR:BforBank:Compte-Courant        -3.6 EUR
 
 2024-07-18 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-18 * Dinner with Henri & Florent
-    Expenses:Food:Restaurants                  EUR 60
-    Assets:FR:BforBank:Compte-Courant         EUR -60
+    Expenses:Food:Restaurants                  60 EUR
+    Assets:FR:BforBank:Compte-Courant         -60 EUR
 
 2024-07-18 * EDF subscription
-    Expenses:Home:Utilities:Electricity       EUR 75.18
-    Assets:FR:BforBank:Compte-Courant        EUR -75.18
+    Expenses:Home:Utilities:Electricity       75.18 EUR
+    Assets:FR:BforBank:Compte-Courant        -75.18 EUR
 
 2024-07-18 * Franprix breakfast
-    Expenses:Food:Groceries                   EUR 4.5
-    Assets:FR:BforBank:Compte-Courant        EUR -4.5
+    Expenses:Food:Groceries                   4.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -4.5 EUR
 
 2024-07-18 * MS personal care
-    Expenses:PersonalCare:Discretionary                     EUR 200
-    Assets:FR:BforBank:Compte-Courant        EUR -200
+    Expenses:PersonalCare:Discretionary                     200 EUR
+    Assets:FR:BforBank:Compte-Courant        -200 EUR
 
 2024-07-19 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-19 * Drinks Frog Hop House with Alexandre
-    Expenses:Entertainment:Social:Bars          EUR 13
-    Assets:FR:BforBank:Compte-Courant          EUR -13
+    Expenses:Entertainment:Social:Bars          13 EUR
+    Assets:FR:BforBank:Compte-Courant          -13 EUR
 
 2024-07-20 * Bakery Vincennes
-    Expenses:Food:Groceries                   EUR 7.5
-    Assets:FR:BforBank:Compte-Courant        EUR -7.5
+    Expenses:Food:Groceries                   7.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -7.5 EUR
 
 2024-07-20 * Therapist
-    Expenses:Health:Therapy                    EUR 60
-    Assets:FR:BforBank:Compte-Courant         EUR -60
+    Expenses:Health:Therapy                    60 EUR
+    Assets:FR:BforBank:Compte-Courant         -60 EUR
 
 2024-07-21 * Brioche
-    Expenses:Food:Groceries                   EUR 3.8
-    Assets:FR:BforBank:Compte-Courant        EUR -3.8
+    Expenses:Food:Groceries                   3.8 EUR
+    Assets:FR:BforBank:Compte-Courant        -3.8 EUR
 
 2024-07-21 * Flowers for Aurélie
-    Expenses:GiftsCharity:Gifts                EUR 40
-    Assets:FR:BforBank:Compte-Courant         EUR -40
+    Expenses:GiftsCharity:Gifts                40 EUR
+    Assets:FR:BforBank:Compte-Courant         -40 EUR
 
 2024-07-21 * Ice Cream Monoprix
-    Expenses:Food:Groceries                 EUR 16.99
-    Assets:FR:BforBank:Compte-Courant      EUR -16.99
+    Expenses:Food:Groceries                 16.99 EUR
+    Assets:FR:BforBank:Compte-Courant      -16.99 EUR
 
 2024-07-21 * Raspberries
-    Expenses:Food:Groceries                   EUR 2.5
-    Assets:FR:BforBank:Compte-Courant        EUR -2.5
+    Expenses:Food:Groceries                   2.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -2.5 EUR
 
 2024-07-22 * Cat litter for Aurélie
-    Expenses:GiftsCharity                    EUR 11.1
-    Assets:FR:BforBank:Compte-Courant       EUR -11.1
+    Expenses:GiftsCharity                    11.1 EUR
+    Assets:FR:BforBank:Compte-Courant       -11.1 EUR
 
 2024-07-22 * Pizza
-    Expenses:Food:Snack                      EUR 11.5
-    Assets:FR:BforBank:Compte-Courant       EUR -11.5
+    Expenses:Food:Snack                      11.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -11.5 EUR
 
 2024-07-23 * Deliveroo - McDonald's
-    Expenses:Food:Delivery                  EUR 17.05
-    Assets:FR:BforBank:Compte-Courant      EUR -17.05
+    Expenses:Food:Delivery                  17.05 EUR
+    Assets:FR:BforBank:Compte-Courant      -17.05 EUR
 
 2024-07-23 * Sprite office drinks
-    Expenses:Entertainment:Social:Bars         EUR 4.5
-    Assets:FR:BforBank:Compte-Courant         EUR -4.5
+    Expenses:Entertainment:Social:Bars         4.5 EUR
+    Assets:FR:BforBank:Compte-Courant         -4.5 EUR
 
 2024-07-24 * Boulangerie
-    Expenses:Food:Snack                      EUR 2.95
-    Assets:FR:BforBank:Compte-Courant       EUR -2.95
+    Expenses:Food:Snack                      2.95 EUR
+    Assets:FR:BforBank:Compte-Courant       -2.95 EUR
 
 2024-07-24 * Lunch with Amélie
-    Expenses:Food:Snack                       EUR 6.2
-    Assets:FR:BforBank:Compte-Courant        EUR -6.2
+    Expenses:Food:Snack                       6.2 EUR
+    Assets:FR:BforBank:Compte-Courant        -6.2 EUR
 
 2024-07-25 * Carrefour City groceries
-    Expenses:Food:Groceries                  EUR 9.42
-    Assets:FR:BforBank:Compte-Courant       EUR -9.42
+    Expenses:Food:Groceries                  9.42 EUR
+    Assets:FR:BforBank:Compte-Courant       -9.42 EUR
 
 2024-07-25 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-25 * Pharmacy Doliprane Opéra
-    Expenses:Health:Pharmacy                 EUR 4.36
-    Assets:FR:BforBank:Compte-Courant       EUR -4.36
+    Expenses:Health:Pharmacy                 4.36 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.36 EUR
 
 2024-07-25 * Pharmacy Doliprane Vincennes
-    Expenses:Health:Pharmacy                 EUR 4.56
-    Assets:FR:BforBank:Compte-Courant       EUR -4.56
+    Expenses:Health:Pharmacy                 4.56 EUR
+    Assets:FR:BforBank:Compte-Courant       -4.56 EUR
 
 2024-07-26 * Boulangerie
-    Expenses:Food:Snack                      EUR 1.65
-    Assets:FR:BforBank:Compte-Courant       EUR -1.65
+    Expenses:Food:Snack                      1.65 EUR
+    Assets:FR:BforBank:Compte-Courant       -1.65 EUR
 
 2024-07-26 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-26 * HelloFresh
-    Expenses:Food:Groceries                 EUR 61.75
-    Assets:FR:BforBank:Compte-Courant      EUR -61.75
+    Expenses:Food:Groceries                 61.75 EUR
+    Assets:FR:BforBank:Compte-Courant      -61.75 EUR
 
 2024-07-26 * Red by SFR
-    Expenses:Home:Utilities:MobilePhone        EUR 18.2
-    Assets:FR:BforBank:Compte-Courant         EUR -18.2
+    Expenses:Home:Utilities:MobilePhone        18.2 EUR
+    Assets:FR:BforBank:Compte-Courant         -18.2 EUR
 
 2024-07-26 * Relay snacks Gare du Nord
-    Expenses:Food:Snack                       EUR 6.1
-    Assets:FR:BforBank:Compte-Courant        EUR -6.1
+    Expenses:Food:Snack                       6.1 EUR
+    Assets:FR:BforBank:Compte-Courant        -6.1 EUR
 
 2024-07-27 * Café La Petite Voile Touquet
-    Expenses:Food:Cafe                          EUR 6
-    Assets:FR:BforBank:Compte-Courant          EUR -6
+    Expenses:Food:Cafe                          6 EUR
+    Assets:FR:BforBank:Compte-Courant          -6 EUR
 
 2024-07-27 * Mignardises Touquet
-    Expenses:Food:Snack                         EUR 6
-    Assets:FR:BforBank:Compte-Courant          EUR -6
+    Expenses:Food:Snack                         6 EUR
+    Assets:FR:BforBank:Compte-Courant          -6 EUR
 
 2024-07-28 * Café La Petite Voile Touquet
-    Expenses:Food:Cafe                        EUR 2.5
-    Assets:FR:BforBank:Compte-Courant        EUR -2.5
+    Expenses:Food:Cafe                        2.5 EUR
+    Assets:FR:BforBank:Compte-Courant        -2.5 EUR
 
 2024-07-28 * Café La Petite Voile Touquet
-    Expenses:Food:Cafe                         EUR 10
-    Assets:FR:BforBank:Compte-Courant         EUR -10
+    Expenses:Food:Cafe                         10 EUR
+    Assets:FR:BforBank:Compte-Courant         -10 EUR
 
 2024-07-28 * Chat Bleu Touquet
-    Expenses:GiftsCharity:Gifts              EUR 16.8
-    Assets:FR:BforBank:Compte-Courant       EUR -16.8
+    Expenses:GiftsCharity:Gifts              16.8 EUR
+    Assets:FR:BforBank:Compte-Courant       -16.8 EUR
 
 2024-07-28 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-29 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-29 * Drinks with Aurélie
-    Expenses:Entertainment:Social:Bars          EUR 12
-    Assets:FR:BforBank:Compte-Courant          EUR -12
+    Expenses:Entertainment:Social:Bars          12 EUR
+    Assets:FR:BforBank:Compte-Courant          -12 EUR
 
 2024-07-29 * Hairdresser
-    Expenses:PersonalCare:Hair                 EUR 22
-    Assets:FR:BforBank:Compte-Courant         EUR -22
+    Expenses:PersonalCare:Hair                 22 EUR
+    Assets:FR:BforBank:Compte-Courant         -22 EUR
 
 2024-07-29 * Office lunch - Ilia
-    Expenses:Food:OfficeLunch                EUR 14.8
-    Assets:FR:BforBank:Compte-Courant       EUR -14.8
+    Expenses:Food:OfficeLunch                14.8 EUR
+    Assets:FR:BforBank:Compte-Courant       -14.8 EUR
 
 2024-07-31 * Baguette
-    Expenses:Food:Groceries                   EUR 1.3
-    Assets:FR:BforBank:Compte-Courant        EUR -1.3
+    Expenses:Food:Groceries                   1.3 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.3 EUR
 
 2024-07-31 * Boulangerie
-    Expenses:Food:Snack                       EUR 1.3
-    Assets:FR:BforBank:Compte-Courant        EUR -1.3
+    Expenses:Food:Snack                       1.3 EUR
+    Assets:FR:BforBank:Compte-Courant        -1.3 EUR
 
 2024-07-31 * Cigarettes
-    Expenses:Cigarettes                      EUR 12.5
-    Assets:FR:BforBank:Compte-Courant       EUR -12.5
+    Expenses:Cigarettes                      12.5 EUR
+    Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-07-31 * Fisherman's Friend
-    Expenses:Food:Snack                         EUR 2
-    Assets:FR:BforBank:Compte-Courant          EUR -2
+    Expenses:Food:Snack                         2 EUR
+    Assets:FR:BforBank:Compte-Courant          -2 EUR

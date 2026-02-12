@@ -2,9 +2,9 @@
 
 ; Commodity
 ; TODO: work on automatic retrieval of prices for GBP/LQQ/other assets
-commodity EUR 1,000.00
-commodity GBP 1,000.00  ;yahoo_ticker:GBPEUR=X
-commodity LQQ 1.  ;yahoo_ticker:LQQ.PA
+commodity 1,000.00 EUR
+commodity 1,000.00 GBP  ;yahoo_ticker:GBPEUR=X
+commodity 1. LQQ  ;yahoo_ticker:LQQ.PA
 
 ; Tags
 tag aurelie

@@ -2,190 +2,190 @@
 
 * BforBank transactions
 2026-02-02 * Le Mathurin  ; aurelie:
-    Expenses:Entertainment:Social:Bars     EUR 14.20
+    Expenses:Entertainment:Social:Bars     14.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-02 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-02 * Cash withdrawal
-    Assets:Cash:EUR                          EUR 180  ; date: 2026-02-03
+    Assets:Cash:EUR                          180 EUR  ; date: 2026-02-03
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-04 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-04 * Sweets G20
-    Expenses:Food:Snack                     EUR 2.60
+    Expenses:Food:Snack                     2.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-05 * Macrofactor subscription
-    Expenses:Subscriptions:Software        EUR 13.99
+    Expenses:Subscriptions:Software        13.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-05 * Restaurant with Arnaud
-    Expenses:Food:Restaurants              EUR 58.50
+    Expenses:Food:Restaurants              58.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-06 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-07 * Cash withdrawal
-    Assets:Cash:EUR                           EUR 60
+    Assets:Cash:EUR                           60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-08 * Transfer to CCF current account
-    Assets:FR:CCF:Compte-Courant          EUR 800
+    Assets:FR:CCF:Compte-Courant          800 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-08 * Loan to Florent
-    Assets:Receivables:Florent               EUR 100
+    Assets:Receivables:Florent               100 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-08 * Cigarettes
-    Expenses:Cigarettes                    EUR 15.50  ; lighter 2 EUR
+    Expenses:Cigarettes                    15.50 EUR  ; lighter 2 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-08 * Restaurant  ; aurelie:
-    Expenses:Food:Restaurants              EUR 87.50
+    Expenses:Food:Restaurants              87.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-09 * Loan to Florent
-    Assets:Receivables:Florent              EUR 9900
+    Assets:Receivables:Florent              9900 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-09 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-09 * Castorama
-    Expenses:Home:Maintenance              EUR 20.50
-    Assets:FR:BforBank:Compte-Courant     EUR -20.50
-    Expenses:Home:Maintenance             EUR -10.25
-    Liabilities:Payables:Aurelie           EUR 10.25
+    Expenses:Home:Maintenance              20.50 EUR
+    Assets:FR:BforBank:Compte-Courant     -20.50 EUR
+    Expenses:Home:Maintenance             -10.25 EUR
+    Liabilities:Payables:Aurelie           10.25 EUR
 
 2026-02-11 * Fitness Park
-    Expenses:Health:Gym                    EUR 43.96
+    Expenses:Health:Gym                    43.96 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Bimpli transactions
 2026-02-04 * Monoprix
-    Expenses:Food:Groceries                EUR 17.32
+    Expenses:Food:Groceries                17.32 EUR
     Assets:FR:Bimpli
 
 2026-02-04 * Balance assertion bimpli
-    Assets:FR:Bimpli  = EUR 60.31
+    Assets:FR:Bimpli  = 60.31 EUR
     Expenses:Food:OfficeLunch
 
 * Boursobank transactions
 2026-02-02 * Deliveroo fee
-    Expenses:Food:Delivery                  EUR 2.88
+    Expenses:Food:Delivery                  2.88 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Cash transactions
 2026-02-02 * Treatment
-    Expenses:PersonalCare:Discretionary      EUR 130
+    Expenses:PersonalCare:Discretionary      130 EUR
     Assets:Cash:EUR
 
 2026-02-02 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:Cash:EUR
 
 2026-02-03 * Baguette
-    Expenses:Food:Groceries                 EUR 1.30
+    Expenses:Food:Groceries                 1.30 EUR
     Assets:Cash:EUR
 
 2026-02-04 * Cigarettes
-    Expenses:Cigarettes                    EUR 13.50
+    Expenses:Cigarettes                    13.50 EUR
     Assets:Cash:EUR
 
 2026-02-07 * Therapy
-    Expenses:Health:Therapy                   EUR 60
+    Expenses:Health:Therapy                   60 EUR
     Assets:Cash:EUR
 
 * CCF transactions
 2026-02-02 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean           EUR 2032.74
+    Assets:FR:CCF:Compte-Joint:Jean           2032.74 EUR
     Assets:FR:CCF:Compte-Courant
 
 2026-02-02 * Fees CCF
-    Expenses:Finance:Bank                   EUR 8.75
+    Expenses:Finance:Bank                   8.75 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
 2026-02-10 * G20
-    Expenses:Food:Groceries                 EUR 6.21
+    Expenses:Food:Groceries                 6.21 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Amex Gold transactions
 2026-02-01 * Carrefour City
-    Expenses:Food:Groceries                 EUR 7.23
+    Expenses:Food:Groceries                 7.23 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-01 * SYD 5075 Paris
-    Expenses:Misc:Unaccounted              EUR 14.63
+    Expenses:Misc:Unaccounted              14.63 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-02 * HelloFresh
-    Expenses:Food:Groceries                EUR 48.98
+    Expenses:Food:Groceries                48.98 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-03 * Velib
-    Expenses:Transportation:Bikesharing        EUR 2
+    Expenses:Transportation:Bikesharing        2 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-05 * Franprix
-    Expenses:Food:Groceries                 EUR 5.04
+    Expenses:Food:Groceries                 5.04 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-06 * Amex subscription
-    Expenses:Finance:CreditCard               EUR 16
+    Expenses:Finance:CreditCard               16 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-06 * Deliveroo fee
-    Expenses:Food:Delivery                  EUR 1.58
+    Expenses:Food:Delivery                  1.58 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-06 * Restaurant Auberge Bressane
-    Expenses:Food:Restaurants                EUR 108
+    Expenses:Food:Restaurants                108 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-07 * Cafe Caramel Vincennes
-    Expenses:Food:Cafe                        EUR 13
+    Expenses:Food:Cafe                        13 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-07 * OpenAI
-    Expenses:Subscriptions:Software           EUR 23
+    Expenses:Subscriptions:Software           23 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-07 * Maison B&B
-    Expenses:Food:Cafe                      EUR 2.80
+    Expenses:Food:Cafe                      2.80 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-08 * Tikamoon
-    Expenses:Home:Furniture                  EUR 289
-    Liabilities:FR:Amex:Gold                EUR -289
-    Expenses:Home:Furniture              EUR -144.50
-    Liabilities:Payables:Aurelie          EUR 144.50
+    Expenses:Home:Furniture                  289 EUR
+    Liabilities:FR:Amex:Gold                -289 EUR
+    Expenses:Home:Furniture              -144.50 EUR
+    Liabilities:Payables:Aurelie          144.50 EUR
 
 2026-02-09 * HelloFresh
-    Expenses:Food:Groceries                EUR 34.98
+    Expenses:Food:Groceries                34.98 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-10 Amex settlement
-    Liabilities:FR:Amex:Gold              EUR 751.20
+    Liabilities:FR:Amex:Gold              751.20 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Huchon
 2026-02-03 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint:Jean     EUR -2032.73
-    Liabilities:FR:CCF:Mortgage           EUR 856.07
-    Expenses:Finance:Mortgage:Interest   EUR 1055.42
-    Expenses:Finance:Mortgage:Insurance   EUR 121.24
+    Assets:FR:CCF:Compte-Joint:Jean     -2032.73 EUR
+    Liabilities:FR:CCF:Mortgage           856.07 EUR
+    Expenses:Finance:Mortgage:Interest   1055.42 EUR
+    Expenses:Finance:Mortgage:Insurance   121.24 EUR
 
 2026-02-06 * EDF
-    Assets:FR:CCF:Compte-Joint:Jean       EUR -24.50
+    Assets:FR:CCF:Compte-Joint:Jean       -24.50 EUR
     Expenses:Home:Utilities:Electricity

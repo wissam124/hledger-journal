@@ -167,10 +167,10 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-26 * Services charges Q1'26
-    Expenses:Home:Vincennes:ServiceCharges  1730.03 EUR
-    Assets:FR:BforBank:Compte-Courant   -1730.03 EUR
-    Expenses:Home:Vincennes:ServiceCharges  -865.02 EUR
-    Liabilities:Payables:Aurelie          865.02 EUR
+    Equity:Capital:Huchon:Jean               1730.03 EUR
+    Assets:FR:BforBank:Compte-Courant       -1730.03 EUR
+    Equity:Capital:Huchon:Jean               -865.02 EUR
+    Liabilities:Payables:Aurelie              865.02 EUR
 
 2026-01-26 * Sale ironing board
     Assets:FR:BforBank:Compte-Courant         55 EUR
@@ -293,20 +293,12 @@
 
 * CCF transactions
 2026-01-03 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean           2257.50 EUR
+    Equity:Capital:Huchon:Jean               2257.50 EUR
     Assets:FR:CCF:Compte-Courant
 
 2026-01-03 * Fees CCF
     Expenses:Finance:Bank                   8.75 EUR
     Assets:FR:CCF:Compte-Courant
-
-2026-01-06 * EDF
-    Expenses:Home:Utilities:Electricity    24.50 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
-
-2026-01-14 * Frais d'intervention
-    Expenses:Finance:Bank                      4 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
 
 * Moneyfarm transactions
 2026-01-28 * Account close
@@ -692,10 +684,3 @@
     Expenses:Home                         103.99 EUR
     Expenses:Home                            -52 EUR
     Liabilities:Payables:Aurelie
-
-* Mortgage
-2026-01-03 * Monthly mortgage repayment
-    Assets:FR:CCF:Compte-Joint:Jean          -2032.99 EUR
-    Liabilities:FR:CCF:Mortgage          853.75 EUR
-    Expenses:Finance:Mortgage:Interest    1057.74 EUR
-    Expenses:Finance:Mortgage:Insurance   121.50 EUR

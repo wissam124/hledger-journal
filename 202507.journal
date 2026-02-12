@@ -75,10 +75,10 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-01 * Promesse de vente
-    Assets:Home:Vincennes                    550 EUR
-    Assets:FR:BforBank:Compte-Courant       -550 EUR
-    Assets:Home:Vincennes                   -225 EUR
-    Assets:Receivables:Aurelie               225 EUR
+    Equity:Capital:Huchon:Jean                   550 EUR
+    Assets:FR:BforBank:Compte-Courant           -550 EUR
+    Equity:Capital:Huchon:Jean                  -225 EUR
+    Assets:Receivables:Aurelie                   225 EUR
 
 2025-07-02 * Transfer Revolut
     Assets:UK:Revolut:Personal:EUR           200 EUR
@@ -213,7 +213,7 @@
     Assets:FR:BforBank:LivretA
 
 2025-07-21 * Deposit flat Vincennes
-    Assets:Home:Vincennes                  32500 EUR
+    Equity:Capital:Huchon:Jean                  32500 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-22 * Cash witdrawal

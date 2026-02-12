@@ -175,7 +175,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-06 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean              2.40 EUR
+    Equity:Capital:Huchon:Jean              2.40 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-06 * Cigarettes
@@ -267,7 +267,7 @@
     Expenses:Insurance:Home               -80.22 EUR
 
 2025-10-23 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean     100 EUR
+    Equity:Capital:Huchon:Jean                   100 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-23 * Cash withdrawal
@@ -275,7 +275,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-24 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean   29900 EUR
+    Equity:Capital:Huchon:Jean                 29900 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-24 * SFR
@@ -332,41 +332,37 @@
     Assets:FR:BoursoBank:Compte-Courant
 
 * CCF transactions
-2025-10-06 * Frais tenue de compte
-    Expenses:Finance:Bank                   1.20 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
-
 2025-10-14 * Transfer to LDDS
     Assets:FR:CCF:LDDS                        10 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
+    Equity:Capital:Huchon:Jean
 
 2025-10-22 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint:Jean     100 EUR
+    Equity:Capital:Huchon:Jean                   100 EUR
     Liabilities:Payables:Mum
 
 2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint:Jean     100 EUR
+    Equity:Capital:Huchon:Jean                   100 EUR
     Liabilities:Payables:Iskander
 
 2025-10-22 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint:Jean    9900 EUR
+    Equity:Capital:Huchon:Jean                  9900 EUR
     Liabilities:Payables:Iskander
 
 2025-10-23 * Loan from Isky
-    Assets:FR:CCF:Compte-Joint:Jean   15000 EUR
+    Equity:Capital:Huchon:Jean                 15000 EUR
     Liabilities:Payables:Iskander
 
 2025-10-24 * Loan from Mum
-    Assets:FR:CCF:Compte-Joint:Jean   29900 EUR
+    Equity:Capital:Huchon:Jean                 29900 EUR
     Liabilities:Payables:Mum
 
 2025-10-26 * Repay loan from Mum
-    Liabilities:Payables:Mum              100 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
+    Liabilities:Payables:Mum                     100 EUR
+    Equity:Capital:Huchon:Jean
 
 2025-10-28 * Repay loan from Mum
-    Liabilities:Payables:Mum              29,900 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
+    Liabilities:Payables:Mum                   29900 EUR
+    Equity:Capital:Huchon:Jean
 
 * HSBC transactions
 2025-10-07 * Transfer to Revolut
@@ -427,11 +423,11 @@
     Assets:UK:Revolut:Personal:GBP
 
 2025-10-07 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean     100 EUR
+    Equity:Capital:Huchon:Jean                   100 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-07 * Transfer to CCF joint-account
-    Assets:FR:CCF:Compte-Joint:Jean   17900 EUR
+    Equity:Capital:Huchon:Jean                 17900 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-07 * Stamp letter for AW
@@ -571,7 +567,7 @@
     Assets:UK:Revolut:Personal:GBP
 
 2025-10-21 * Transfer to CCF
-    Assets:FR:CCF:Compte-Joint:Jean  34098.53 EUR
+    Equity:Capital:Huchon:Jean              34098.53 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-22 * Lunch at Bagnard with Anne
@@ -839,17 +835,3 @@
 2025-10-31 * Wooden floors outstanding  ; flat-vincennes:
     Expenses:Home:Improvements           1637.48 EUR
     Liabilities:Payables:Aurelie
-
-* Vincennes home purchase
-2025-10-24 * Flat Vincennes Credit Logement
-    Expenses:Finance:Mortgage             2867.35 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
-
-2025-10-25 * Flat Vincennes frais de dossier
-    Expenses:Finance:Mortgage                500 EUR
-    Assets:FR:CCF:Compte-Joint:Jean
-
-2025-10-27 * Flat acquisition
-    Assets:Home:Vincennes                492,025 EUR
-    Assets:FR:CCF:Compte-Joint:Jean      -99,775 EUR
-    Liabilities:FR:CCF:Mortgage         -392,250 EUR

@@ -71,6 +71,10 @@
     Expenses:Health:Gym                    43.96 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-02-11 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-02-04 * Monoprix
     Expenses:Food:Groceries                17.32 EUR
@@ -106,6 +110,10 @@
     Expenses:Health:Therapy                   60 EUR
     Assets:Cash:EUR
 
+2026-02-11 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-02-02 * Transfer to CCF joint-account
     Assets:FR:CCF:Compte-Joint:Jean           2032.74 EUR
@@ -113,6 +121,10 @@
 
 2026-02-02 * Fees CCF
     Expenses:Finance:Bank                   8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-02-10 Amex settlement
+    Liabilities:FR:Amex:Gold              751.20 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
@@ -175,9 +187,9 @@
     Expenses:Food:Groceries                34.98 EUR
     Liabilities:FR:Amex:Gold
 
-2026-02-10 Amex settlement
-    Liabilities:FR:Amex:Gold              751.20 EUR
-    Assets:FR:CCF:Compte-Courant
+2026-02-11 Deliveroo
+    Expenses:Food:Delivery                     17.11  EUR
+    Liabilities:FR:Amex:Gold
 
 * Huchon
 2026-02-03 * Monthly mortgage repayment

@@ -3,8 +3,8 @@
 ; Commodity
 ; TODO: work on automatic retrieval of prices for GBP/LQQ/other assets
 commodity 1,000.00 EUR
-commodity 1,000.00 GBP  ;yahoo_ticker:GBPEUR=X
-commodity 1. LQQ  ;yahoo_ticker:LQQ.PA
+commodity 1,000.00 GBP     ;yahoo_ticker:GBPEUR=X
+commodity 1. LQQ           ;yahoo_ticker:LQQ.PA
 
 ; Tags
 tag aurelie
@@ -60,11 +60,6 @@ account Equity:UnrealisedCapitalGains:Epsor:PER   ; type: E
 account Equity:UnrealisedCapitalGains:Moneyfarm   ; type: E
 account Equity:Capital:Huchon:Jean                ; type: E
 
-# Equity accounts for trading and the conversion of
-# cash into investments vehicles (e.g. shares, ETFs, etc).
-account Equity:Conversion:BourseDirect:EUR        ; type: E
-account Equity:Conversion:BourseDirect:LQQ        ; type: E
-
 ; Income: Money I earn
 account Income:FR:111Capital:Abondement           ; type: R
 account Income:FR:111Capital:AnnualBonus          ; type: R
@@ -77,6 +72,7 @@ account Income:Resale:Vinted                      ; type: R
 account Income:CapitalGains:Epsor:PEI             ; type: R
 account Income:CapitalGains:Epsor:PER             ; type: R
 account Income:CapitalGains:Moneyfarm             ; type: R
+account Income:CapitalGains:BourseDirect          ; type: R
 account Income:Home:Vincennes                     ; type: R
 
 ; Expenses: Money I spend
@@ -100,6 +96,7 @@ account Expenses:Finance:CreditCard                        ; type: X
 account Expenses:Finance:Mortgage                          ; type: X
 account Expenses:Finance:Mortgage:Interest                 ; type: X
 account Expenses:Finance:Mortgage:Insurance                ; type: X
+account Expenses:Finance:Brokerage                         ; type: X
 account Expenses:Food:Cafe                                 ; type: X
 account Expenses:Food:Delivery                             ; type: X
 account Expenses:Food:FastFood                             ; type: X

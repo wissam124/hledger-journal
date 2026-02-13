@@ -421,9 +421,6 @@
     Liabilities:Payables:Mum              361 EUR
     Expenses:Travel:Holidays
 
-; PEA investments manual entries
 2024-09-18 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
-    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @@ 1037.90 EUR
-    Equity:Conversion:BourseDirect:LQQ            -1 LQQ @@ 1037.90 EUR
-    Equity:Conversion:BourseDirect:EUR   1037.90 EUR
-    Assets:FR:BourseDirect:Cash         -1037.90 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1037.90 EUR
+    Assets:FR:BourseDirect:Cash             -1037.90 EUR

@@ -3,6 +3,12 @@
     Assets:FR:BforBank:Compte-Courant    6371.58 EUR
     Income:FR:111Capital:Salary
 
+* BourseDirect
+2025-10-31 * Buy LQQ ETF
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1594.90 EUR
+    Assets:FR:BourseDirect:Cash             -1597.70 EUR
+    Expenses:Finance:Brokerage
+
 * Cash expenses
 2025-10-02 * Gave cash to mum
     Expenses:GiftsCharity:Gifts                2 EUR

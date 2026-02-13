@@ -4,8 +4,8 @@
 * Formalise transactions and balances
 ** Transactions
 Let's note $N$ the total number of accounts. In practice, the number of accounts
-may depend on time $t$ but for simplicity, let's ignore that dependence and set
-$N$ to  $$\underset{u \leq t}{\sup N(t)}$$
+may depend on time $t$ but for simplicity, let's ignore the time dependence and
+set $N$ to $$\underset{u \leq t}{\sup N(t)}$$
 
 At a given time $t$, a transaction $j$ is defined as $(\Delta^j_{i,t})_{1 \leq i \leq N}$
 where $\Delta^j_{i,t}$ is the i-th posting against account $i$ of the
@@ -123,7 +123,7 @@ be possible. Unless the transaction is booked with all postings and unitcost/uni
     Equity:Aurelie:Expenses:Finance:Mortgage  EUR -1500
 #+end_src ledger
 
-* How to log 111 company investment plan?
+* Track 111 company investment plan
 ** Difficulties
 111 cap pays annually into an investment plan as part of the
 participation/interessement scheme.
@@ -189,7 +189,69 @@ an income account.
     Income:CapitalGains:Epsor:PEI  EUR -8754.21
 #+end_src ledger
 
+* Track ETF trading
+** Conversion accounts and multi-commodity balancing
+Equity conversion accounts is the rigorous way to handle multi-commodity
+transactions (e.g. buying a stock with cash).
+It ensures that books are rigorously balanced (i.e. sum of the postings = 0)
+across different units, not just in value.
+
+Suppose we use this representation:
+#+begin_src ledger
+2024-09-18 * Buy LQQ
+      Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ
+      Assets:FR:BourseDirect:Cash             -1037.90 EUR
+#+end_src
+In a standard double-entry transaction, the total sum of the transaction must be
+zero.  If you buy LQQ with EUR you are effectively adding 1 LQQ and removing X
+EUR.
+The sum of the postings above is 1 LQQ + (-X EUR) which technically does
+not add up to 0 -> the books do not balance!  It looks like 1 LQQ was created
+out of thin air while X EUR were destroyed.
+
+Suppose we now use this representation:
+#+begin_src ledger
+2024-10-02 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @@ 1082.90 EUR
+    Equity:Conversion:BourseDirect:LQQ            -1 LQQ @@ 1082.90 EUR
+    Equity:Conversion:BourseDirect:EUR   1082.90 EUR
+    Assets:FR:BourseDirect:Cash         -1082.90 EUR
+#+end_src
+This treats the transaction as a physical swap where every unit is accounted
+for. X EUR are moved into a "conversion box" and LQQ are taken out of that
+"box".
+
+Indeed, with the representation below, the conversion accounts act as a "bridge"
+so that the sum of postings sums to 0 independently for each commodity.  In
+particular, the conversion account balance (converted to the base currency) must
+be zero. This allows for strict checks.
+
+Using conversion accounts forces the balancing to be explicit for each
+commodity.  This enforces a strict accounting style where books must balance not
+only in value but in every specific commodity involved in a transaction.
+
+** Cost-basis method
+The most important thing is not just the record of the purchase (resp. sale) but
+the price paid (resp. received).
+
+#+begin_src ledger
+2024-09-18 * Buy LQQ ETF
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ EUR 1037.90
+    Assets:FR:BourseDirect:Cash                 EUR -1037.90
+#+end_src
+
+Recoding the sale is easy
+#+begin_src ledger
+2025-02-12 * Sell LQQ ETF
+    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1200 EUR
+    Assets:FR:BourseDirect:Cash              1197.50 EUR
+    Expenses:Finance:Fees                       2.50 EUR
+    Income:CapitalGains                      -162.10 EUR
+#+end_src
+
+
 * How to deal with refunds?
+
 ** Refunds
 As a general rule, should be logged as a transaction with a negative
 expense posting. It is not an income, it actually should decrease
@@ -211,14 +273,14 @@ the accumulated balance held in the expense account.
 #+end_src
 
 * Country prefix
-- For receivables and payables, what matters is the counterpary, not the
+- For receivables and payables, what matters is the counterparty, not the
   country. A receivable is a receivable, regardless of whether your mother is in
   France or you repay a friend in London.
-  *-> no need for a country prefix here* does not add semantic value.
+  -> no need for a country prefix here - it does not add semantic value.
 * Useful queries
 ** Closing and retaining earnings
 #+begin_src sh
-hledger -f vincennes.journal close --retain --close-acct=Equity:Earnings:Retained
+hledger -f personal.journal close --retain --close-acct=Equity:Earnings:Retained
 #+end_src
 
 * Tracking property in Vincennes
@@ -251,5 +313,5 @@ hledger -f vincennes.journal close --retain --close-acct=Equity:Earnings:Retaine
 
 ** Compute total capital contributed
 #+begin_src sh
-  hledger -f huchon.journal bal equity.*jean
+  hledger -f huchon.journal bal equity:.
 #+end_src

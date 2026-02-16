@@ -191,12 +191,8 @@ an income account.
 
 * Track ETF trading
 ** Conversion accounts and multi-commodity balancing
-Equity conversion accounts is the rigorous way to handle multi-commodity
-transactions (e.g. buying a stock with cash).
-It ensures that books are rigorously balanced (i.e. sum of the postings = 0)
-across different units, not just in value.
-
-Suppose we use this representation:
+Suppose we use the below to represent the purchase of 1 LQQ ETF contract with
+euros.
 #+begin_src ledger
 2024-09-18 * Buy LQQ
       Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ
@@ -208,6 +204,11 @@ EUR.
 The sum of the postings above is 1 LQQ + (-X EUR) which technically does
 not add up to 0 -> the books do not balance!  It looks like 1 LQQ was created
 out of thin air while X EUR were destroyed.
+
+Equity conversion accounts is the rigorous way to handle multi-commodity
+transactions (e.g. buying a stock with cash).
+It ensures that books are rigorously balanced (i.e. sum of the postings = 0)
+across different units, not just in value.
 
 Suppose we now use this representation:
 #+begin_src ledger
@@ -221,10 +222,10 @@ This treats the transaction as a physical swap where every unit is accounted
 for. X EUR are moved into a "conversion box" and LQQ are taken out of that
 "box".
 
-Indeed, with the representation below, the conversion accounts act as a "bridge"
-so that the sum of postings sums to 0 independently for each commodity.  In
-particular, the conversion account balance (converted to the base currency) must
-be zero. This allows for strict checks.
+The conversion accounts act here as as a "bridge" so that the sum of postings
+sums to 0 independently for each commodity.  In particular, the conversion
+account balance (converted to the base currency) must be zero. This allows for
+strict checks.
 
 Using conversion accounts forces the balancing to be explicit for each
 commodity.  This enforces a strict accounting style where books must balance not
@@ -249,13 +250,15 @@ Recoding the sale is easy
     Income:CapitalGains                      -162.10 EUR
 #+end_src
 
+** Ressources
+http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/
 
 * How to deal with refunds?
-
 ** Refunds
-As a general rule, should be logged as a transaction with a negative
-expense posting. It is not an income, it actually should decrease
-the accumulated balance held in the expense account.
+As a general rule, should be logged as a transaction with a negative expense
+posting. It is not an income, it actually should decrease the accumulated
+balance held in the expense account.
+
 #+begin_src ledger
 2024-09-01 * AMEX - 2024-08-30 - Refund Bonne Gueule
     Assets:FR:BforBank:Compte-Courant         EUR 305
@@ -263,8 +266,8 @@ the accumulated balance held in the expense account.
 #+end_src
 
 ** Medical insurance refunds
-- Best practice is to record the refund as a negative expense against the
-  same account rather than as an income (it is not really an income).
+- Best practice is to record the refund as a negative expense against the same
+  account rather than as an income (it is not really an income).
 - Alternative approach: track refunds separately in a dedicated account.
 #+begin_src ledger
 2024-02-20 * Insurance refund for doctor visit
@@ -275,15 +278,15 @@ the accumulated balance held in the expense account.
 * Country prefix
 - For receivables and payables, what matters is the counterparty, not the
   country. A receivable is a receivable, regardless of whether your mother is in
-  France or you repay a friend in London.
-  -> no need for a country prefix here - it does not add semantic value.
+  France or you repay a friend in London.  -> no need for a country prefix
+  here - it does not add semantic value.
 * Useful queries
 ** Closing and retaining earnings
 #+begin_src sh
 hledger -f personal.journal close --retain --close-acct=Equity:Earnings:Retained
 #+end_src
 
-* Tracking property in Vincennes
+* Tracking property Vincennes
 ** Design choices
 - Use child accounts for each partner for assets, liabilities and expenses
   e.g. Liabilities:FR:CCF:Mortgage:Jean
@@ -295,8 +298,8 @@ hledger -f personal.journal close --retain --close-acct=Equity:Earnings:Retained
   of money and not something that is subdivided.
   The child division makes it easier to report on split of property-related
   expenses such as service charges, interest payments, etc.
-
-** Compute total equity accumulated
+** Compute total
+equity accumulated
 #+begin_src sh
   hledger -f huchon.journal bal ^assets:property:jean ^liabilities.*jean
 #+end_src
@@ -306,12 +309,14 @@ hledger -f personal.journal close --retain --close-acct=Equity:Earnings:Retained
   hledger -f huchon.journal bal liabilities.*jean not:desc:signature
 #+end_src
 
-** Compute running interest/service charges paid for each
+** Compute running interest/service charges
 #+begin_src sh
-  hledger -f huchon.journal bal exp.*interest:jean
+hledger -f huchon.journal bal exp.*interest:jean
 #+end_src
-
 ** Compute total capital contributed
 #+begin_src sh
   hledger -f huchon.journal bal equity:.
 #+end_src
+
+* General ressources
+[[https://lalitm.com/post/one-number-i-trust/][One Number I Trust: Plain-Text Accounting for Multi-Currency Household]]

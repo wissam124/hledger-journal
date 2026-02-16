@@ -75,6 +75,38 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-02-12 * Highlander
+    Expenses:Entertainment:Social:Bars         15.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-12 * Highlander
+    Expenses:Entertainment:Social:Bars            27 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-13 * Big Black Group
+    Expenses:Food:Restaurants                  23.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-13 * Kh Montreuil
+    Expenses:Food:Groceries                    14.32 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-13 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-13 * Carrefour City
+    Expenses:Food:Groceries                     9.90 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-14 * Tradition Gourmande
+    Expenses:Food:Groceries                    22.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-15 * Cigarettes
+    Expenses:Cigarettes                        15.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-02-04 * Monoprix
     Expenses:Food:Groceries                17.32 EUR
@@ -123,13 +155,25 @@
     Expenses:Finance:Bank                   8.75 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-02-10 Amex settlement
+2026-02-10 * Amex settlement
     Liabilities:FR:Amex:Gold              751.20 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
 2026-02-10 * G20
     Expenses:Food:Groceries                 6.21 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-14 * Maison B&b
+    Expenses:Food:Cafe                          3.20 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-15 * Ajc Conc.aut  ; dryer for bed linen
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-15 * Ajc Conc.aut  ; dryer for bed linen
+    Expenses:Home:Maintenance                   1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Amex Gold transactions
@@ -187,6 +231,14 @@
     Expenses:Food:Groceries                34.98 EUR
     Liabilities:FR:Amex:Gold
 
-2026-02-11 Deliveroo
+2026-02-11 * Deliveroo
     Expenses:Food:Delivery                     17.11  EUR
+    Liabilities:FR:Amex:Gold
+
+2026-02-15 Deliveroo
+    Expenses:Food:Delivery                     30.29 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-02-15 HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
     Liabilities:FR:Amex:Gold

@@ -22,6 +22,7 @@ account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
 account Assets:FR:BoursoBank:Compte-Courant       ; type: C
 account Assets:FR:CCF:Compte-Courant              ; type: C
 account Assets:FR:CCF:Compte-Joint:Jean           ; type: C
+account Assets:FR:CCF:LivretA                     ; type: C
 account Assets:FR:CCF:LDDS                        ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A

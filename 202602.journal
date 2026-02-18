@@ -246,6 +246,10 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:Cash:EUR
 
+2026-02-17 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-02-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.74 EUR

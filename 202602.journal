@@ -212,7 +212,7 @@
     Expenses:Food:Groceries                    17.32 EUR
     Assets:FR:Bimpli
 
-2026-02-04 * Balance assertion bimpli
+2026-02-04 * Balance assignment
     Assets:FR:Bimpli                         = 60.31 EUR
     Expenses:Food:OfficeLunch
 

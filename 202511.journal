@@ -268,8 +268,8 @@
     Expenses:Food:OfficeLunch                 16 EUR
     Assets:FR:Bimpli
 
-2025-11-13 * Balance assertion from Kayser receipt
-    Assets:FR:Bimpli                       == 171.83 EUR
+2025-11-13 * Balance assignment from Kayser receipt
+    Assets:FR:Bimpli                       = 171.83 EUR
     Expenses:Food:OfficeLunch
 
 2025-11-17 * Lunch Bistropolitain

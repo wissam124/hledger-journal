@@ -119,8 +119,8 @@
     Expenses:Food:OfficeLunch                 18 EUR
     Assets:FR:Bimpli
 
-2025-10-27 * Assert balance as seen on receipt from Bagnard
-    Assets:FR:Bimpli  == 301.08 EUR
+2025-10-27 * Balance assignment as seen on receipt from Bagnard
+    Assets:FR:Bimpli  = 301.08 EUR
     Expenses:Food:OfficeLunch
 
 2025-10-28 * Lunch Petit Panda
@@ -131,8 +131,8 @@
     Expenses:Food:OfficeLunch              20.30 EUR
     Assets:FR:Bimpli
 
-2025-10-30 * Assert balance as seen on receipt from Mister Garden
-    Assets:FR:Bimpli  == 267.38 EUR
+2025-10-30 * Balance assignment as seen on receipt from Mister Garden
+    Assets:FR:Bimpli  = 267.38 EUR
     Expenses:Food:OfficeLunch
 
 * BforBank transactions

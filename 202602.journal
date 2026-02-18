@@ -226,37 +226,37 @@
     Liabilities:FR:Amex:Gold
 
 2026-02-06 * Deliveroo fee
-    Expenses:Food:Delivery                  1.58 EUR
+    Expenses:Food:Delivery                      1.58 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-06 * Restaurant Auberge Bressane
-    Expenses:Food:Restaurants                108 EUR
+    Expenses:Food:Restaurants                    108 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-07 * Cafe Caramel Vincennes
-    Expenses:Food:Cafe                        13 EUR
+    Expenses:Food:Cafe                            13 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-07 * OpenAI
-    Expenses:Subscriptions:Software           23 EUR
+    Expenses:Subscriptions:Software               23 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-07 * Maison B&B
-    Expenses:Food:Cafe                      2.80 EUR
+    Expenses:Food:Cafe                          2.80 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-08 * Tikamoon
-    Expenses:Home:Furniture                  289 EUR
-    Liabilities:FR:Amex:Gold                -289 EUR
-    Expenses:Home:Furniture              -144.50 EUR
-    Liabilities:Payables:Aurelie          144.50 EUR
+    Expenses:Home:Furniture                      289 EUR
+    Liabilities:FR:Amex:Gold                    -289 EUR
+    Expenses:Home:Furniture                  -144.50 EUR
+    Liabilities:Payables:Aurelie              144.50 EUR
 
 2026-02-09 * HelloFresh
-    Expenses:Food:Groceries                34.98 EUR
+    Expenses:Food:Groceries                    34.98 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-11 * Deliveroo
-    Expenses:Food:Delivery                     17.11  EUR
+    Expenses:Food:Delivery                     17.11 EUR
     Liabilities:FR:Amex:Gold
 
 2026-02-15 * Deliveroo
@@ -269,4 +269,9 @@
 
 2026-02-17 Deliveroo fees
     Expenses:Food:Delivery                      2.49 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-02-18 Amer Sports France
+    ; Wilson duffel bag
+    Expenses:Shopping:Sport                       88 EUR
     Liabilities:FR:Amex:Gold

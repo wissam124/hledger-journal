@@ -46,7 +46,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-08 * Cigarettes
-    Expenses:Cigarettes                    15.50 EUR  ; lighter 2 EUR
+    Expenses:Cigarettes                    15.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-08 * Restaurant  ; aurelie:
@@ -107,6 +107,26 @@
     Expenses:Cigarettes                        15.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-02-16 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-16 * Franprix
+    Expenses:Food:Groceries                    12.75 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-17 * Loan Florent
+    Assets:Receivables:Florent                 10000 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-17 * Cash withdrawal
+    Assets:Cash:EUR                              320 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-18 * Loan repayment
+    Assets:FR:BforBank:Compte-Courant          10000 EUR
+    Assets:Receivables:Florent
+
 * Bimpli transactions
 2026-02-04 * Monoprix
     Expenses:Food:Groceries                17.32 EUR
@@ -156,7 +176,11 @@
     Assets:FR:CCF:Compte-Courant
 
 2026-02-10 * Amex settlement
-    Liabilities:FR:Amex:Gold              751.20 EUR
+    Liabilities:FR:Amex:Gold                  751.20 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-02-18 * Livret A CCF first deposit
+    Assets:FR:CCF:LivretA                         10 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
@@ -235,10 +259,14 @@
     Expenses:Food:Delivery                     17.11  EUR
     Liabilities:FR:Amex:Gold
 
-2026-02-15 Deliveroo
+2026-02-15 * Deliveroo
     Expenses:Food:Delivery                     30.29 EUR
     Liabilities:FR:Amex:Gold
 
-2026-02-15 HelloFresh
+2026-02-15 * HelloFresh
     Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-02-17 Deliveroo fees
+    Expenses:Food:Delivery                      2.49 EUR
     Liabilities:FR:Amex:Gold

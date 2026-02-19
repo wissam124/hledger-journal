@@ -772,5 +772,5 @@
     Income:CapitalGains:Moneyfarm
 
 2025-08-07 * Liquidation of Moneyfarm portfolio
-    Assets:UK:Moneyfarm                          = 0 GBP
-    Assets:UK:HSBC:Current-Account
+    Assets:UK:HSBC:Current-Account          50415.54 GBP
+    Assets:UK:Moneyfarm

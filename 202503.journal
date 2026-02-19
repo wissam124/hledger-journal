@@ -571,6 +571,6 @@
     Liabilities:FR:Amex:Gold
 
 ; Valuation using value on screen
-2025-03-31=2025-04-14 * Moneyfarm valuation
+2025-03-31 * Moneyfarm valuation
     Assets:UK:Moneyfarm                   = 48225.26 GBP
     Equity:UnrealisedCapitalGains:Moneyfarm

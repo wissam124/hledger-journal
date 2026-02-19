@@ -365,6 +365,6 @@
     Assets:FR:BforBank:Compte-Courant          -4.45 EUR
 
 * Moneyfarm valuation
-2024-06-30=2024-07-16 * Moneyfarm valuation
+2024-06-30 * Moneyfarm valuation
     Assets:UK:Moneyfarm                   = 47279.14 GBP
     Equity:UnrealisedCapitalGains:Moneyfarm

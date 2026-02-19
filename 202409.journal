@@ -426,6 +426,6 @@
     Assets:FR:BourseDirect:Cash             -1037.90 EUR
 
 * Moneyfarm valuation
-2024-09-30=2024-10-15 * Moneyfarm valuation
+2024-09-30 * Moneyfarm valuation
     Assets:UK:Moneyfarm                   = 47815.61 GBP
     Equity:UnrealisedCapitalGains:Moneyfarm

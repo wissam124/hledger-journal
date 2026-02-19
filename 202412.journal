@@ -457,6 +457,6 @@
     Equity:UnrealisedCapitalGains:Epsor:PER
 
 * Moneyfarm valuation
-2024-12-31=2025-01-15 * Moneyfarm valuation
+2024-12-31 * Moneyfarm valuation
     Assets:UK:Moneyfarm                   = 48795.22 GBP
     Equity:UnrealisedCapitalGains:Moneyfarm

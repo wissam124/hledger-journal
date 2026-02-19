@@ -511,9 +511,8 @@
 2025-11-01 * Leroy Merlin paint  ; flat-vincennes:
     Expenses:Home:Maintenance             119.91 EUR
     Liabilities:FR:Amex:Gold             -119.91 EUR
-    Liabilities:Payables:Aurelie           59.95 EUR
-    ; Assets:Receivables:Aurelie             59.95 EUR
     Expenses:Home:Maintenance             -59.95 EUR
+    Liabilities:Payables:Aurelie           59.95 EUR
 
 2025-11-01 * Leroy Melin brush  ; flat-vincennes:
     Expenses:Home:Maintenance               3.59 EUR

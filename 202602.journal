@@ -67,11 +67,11 @@
     Expenses:Food:Groceries                    48.98 EUR
     Liabilities:FR:Amex:Gold
 
-2026-02-17 Deliveroo fees
+2026-02-17 * Deliveroo fees
     Expenses:Food:Delivery                      2.49 EUR
     Liabilities:FR:Amex:Gold
 
-2026-02-18 Amer Sports France
+2026-02-18 * Amer Sports France
     ; Wilson duffel bag
     Expenses:Shopping:Sport                       88 EUR
     Liabilities:FR:Amex:Gold
@@ -205,6 +205,10 @@
 
 2026-02-18 * Transfer to Revolut
     Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-18 * Ca Crepite Au Bout Des Doigts
+    Expenses:Food:FastFood                     17.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Bimpli transactions

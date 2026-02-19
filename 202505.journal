@@ -628,11 +628,6 @@
     Expenses:Entertainment:Social:Sports      80 GBP
     Liabilities:Payables:Iskander
 
-; Investment funds valuation
-2025-05-12 * Moneyfarm valuation
-    Assets:UK:Moneyfarm                  = 48191 GBP
-    Equity:UnrealisedCapitalGains:Moneyfarm
-
 ; Halifax transactions
 2025-05-06 * Settlement Halifax Clarity
     Liabilities:UK:Halifax:Clarity         37.86 GBP

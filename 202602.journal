@@ -65,7 +65,9 @@
 
 2026-02-15 * HelloFresh
     Expenses:Food:Groceries                    48.98 EUR
-    Liabilities:FR:Amex:Gold
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
 
 2026-02-17 * Deliveroo fees
     Expenses:Food:Delivery                      2.49 EUR
@@ -75,6 +77,16 @@
     ; Wilson duffel bag
     Expenses:Shopping:Sport                       88 EUR
     Liabilities:FR:Amex:Gold
+
+2026-02-19 * Amazon  ; Assassin's apprentice
+    Expenses:Entertainment:Reading:Books       15.09 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-02-20 * Leroy Merlin
+    Expenses:Home:Furniture                    15.90 EUR
+    Expenses:Home:Furniture                    -7.95 EUR
+    Liabilities:FR:Amex:Gold                   15.90 EUR
+    Liabilities:Payables:Aurelie                7.95 EUR
 
 * BforBank transactions
 2026-02-02 * Le Mathurin  ; aurelie:
@@ -211,6 +223,26 @@
     Expenses:Food:FastFood                     17.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-02-19 * Carrefour City
+    Expenses:Food:Groceries                    22.78 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-20 * Cablemod
+    Expenses:Shopping:Electronics              65.90 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-20 * Cash withdrawal
+    Assets:Cash:EUR                              100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-20 * Cash withdrawal
+    Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-20 * Fdj
+    Expenses:Entertainment                        10 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-02-04 * Monoprix
     Expenses:Food:Groceries                    17.32 EUR
@@ -258,6 +290,26 @@
     Expenses:Cigarettes                        11.50 EUR
     Assets:Cash:EUR
 
+2026-02-20 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-02-20 * Charity
+    Expenses:GiftsCharity:Gifts                 0.50 EUR
+    Assets:Cash:EUR
+
+2026-02-20 * Tennis lesson with Joris
+    Expenses:Health:Sport:Tennis                  80 EUR
+    Assets:Cash:EUR
+
+2026-02-21 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-02-21 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-02-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.74 EUR
@@ -290,4 +342,64 @@
 
 2026-02-15 * Ajc Conc.aut  ; dryer for bed linen
     Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-19 * McDonald's
+    Expenses:Food:FastFood                     20.33 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; laundry for duvet
+    Expenses:Home:Maintenance                     10 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for duvet
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for duvet
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; laundy for bed linen
+    Expenses:Home:Maintenance                   6.60 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for duvet
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for duvet
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for duvet
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for duvet
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for duvet
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for bed linen
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Ajc Conc.aut  ; dryer for bed linen
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Share laundry expenses
+    Expenses:Home:Maintenance             EUR -14.15
+    Liabilities:Payables:Aurelie
+
+2026-02-20 * Lbds  ; aurelie:
+    Expenses:Entertainment:Social:Bars            30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-20 * Carrefour
+    Expenses:Food:Groceries                     5.37 EUR
     Assets:FR:Revolut:Personal:EUR

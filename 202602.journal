@@ -85,7 +85,7 @@
 2026-02-20 * Leroy Merlin
     Expenses:Home:Furniture                    15.90 EUR
     Expenses:Home:Furniture                    -7.95 EUR
-    Liabilities:FR:Amex:Gold                   15.90 EUR
+    Liabilities:FR:Amex:Gold                  -15.90 EUR
     Liabilities:Payables:Aurelie                7.95 EUR
 
 * BforBank transactions
@@ -393,7 +393,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Share laundry expenses
-    Expenses:Home:Maintenance             EUR -14.15
+    Expenses:Home:Maintenance                 -14.15 EUR
     Liabilities:Payables:Aurelie
 
 2026-02-20 * Lbds  ; aurelie:

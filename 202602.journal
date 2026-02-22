@@ -290,6 +290,10 @@
     Expenses:Cigarettes                        11.50 EUR
     Assets:Cash:EUR
 
+2026-02-19 * Tennis classes Match Point
+    Expenses:Health:Sport:Tennis                 200 EUR
+    Assets:Cash:EUR
+
 2026-02-20 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:Cash:EUR
@@ -308,6 +312,10 @@
 
 2026-02-21 * Therapy
     Expenses:Health:Therapy                      120 EUR
+    Assets:Cash:EUR
+
+2026-02-22 * Baguette
+    Expenses:Food:Groceries                     1.05 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -402,4 +410,16 @@
 
 2026-02-20 * Carrefour
     Expenses:Food:Groceries                     5.37 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-22 * Ajc Conc.aut  ; laundry uniqlo down jacket
+    Expenses:Home:Maintenance                   6.60 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket
+    Expenses:Home:Maintenance                   1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket
+    Expenses:Home:Maintenance                   1.30 EUR
     Assets:FR:Revolut:Personal:EUR

@@ -3,95 +3,62 @@
 
 * Formalise transactions and balances
 ** Transactions
-Let's note $N$ the total number of accounts. In practice, the number of accounts
-may depend on time $t$ but for simplicity, let's ignore the time dependence and
-set $N$ to $$\underset{u \leq t}{\sup N(t)}$$
+Let's note $N(t)$ the total number of accounts at time $t$. For simplicity let's
+drop the time dependence and set $N$ to $$\underset{u \leq t}{\sup N(u)}$$.
 
-At a given time $t$, a transaction $j$ is defined as $(\Delta^j_{i,t})_{1 \leq i \leq N}$
-where $\Delta^j_{i,t}$ is the i-th posting against account $i$ of the
-transaction $j$ at time $t$.
-The fundamental accounting equation requires that the transaction is balanced i.e.:
-$$\forall j \sum_{i=1}^N\Delta^j_{i,t} = 0$$
+At a given time $t$, a transaction $j$ is defined as $\Delta_{j,t} =
+(\Delta^i_{j,t})_{1 \leq i \leq N}$ where $\Delta^i_{j,t}$ is the
+transaction's posting against account $i$ at time $t$.  The fundamental
+accounting equation requires that the transaction is balanced i.e.: $$\forall j
+\sum_{i=1}^N\Delta^i_{j,t} = 0$$
 
-At a given time $t$, there can be ($n$) multiple transactions. For simplicity, let's
-roll all postings to the same account $i$ into a single posting at time $t$:
-$$\Delta_{i,t} = \sum_{j=1}^n\Delta^j_{i,t}$$
+At a given time $t$, there can be $n$ multiple transactions. For simplicity,
+let's roll all postings to the same account $i$ at time $t$ into a single
+posting $$\Delta^i_t = \sum_{j=1}^n\Delta^i_{j,t}$$
 
-Trivally, we have $\sum_{i=1}^{N}\Delta_{i,t} = 0$
+Trivally, we have $\sum_{i=1}^{N}\Delta^{i}_{t} = 0$
 
 ** Trial balance
-The trial balance of an account $i$ at time $t$ is defined as:
-$$B_{i,t} = \sum_{u \leq t}\Delta_{i,u}$$
-
+The trial balance of an account $i$ at time $t$ is defined as: $$B_{i,t} =
+\sum_{u \leq t}\Delta^{i}_{u}$$
 By construction, we have:
 
-$\sum_{i=1}^N B_{i,t} = \sum_{i=1}^{N}\sum_{u \leq t}\Delta_{i,u} = \sum_{u \leq t}\sum_{i=1}^{N}\Delta_{i,u} = 0$
+$\sum_{i=1}^N B_{i,t} = \sum_{i=1}^{N}\sum_{u \leq t}\Delta^i_u = \sum_{u \leq
+t}\sum_{i=1}^{N}\Delta^i_u = 0$
 
 *At any time, the sum of balances across all accounts must be 0.*
-
-** Clearing income
-Let's note $IN$ the set of all income accounts. The income $I$ over a period t1, t2 is defined as
-$$I_{\]t_1, t_2\]} = \sum_{i \in IN}\sum_{t_{1}\leq t \leq t_{2}}\Delta_{i,t}$$
-Let's roll all postings to income accounts at time $t$ into a single posting $\Delta_{I,t}$
-where $\Delta_{I,t} = \sum_{i \in IN}\Delta_{i, t}$
-
-$\sum_{t_{1} \leq t \leq t_{2}}\Delta_{I,t} = \sum_{t \leq t_{2}}$
-
 * The fundamental accounting equation
-With signed quantities, the fundamental accounting equation is
-$$A + L + E = 0$$.
-This means that every new transaction must maintain this balance.
-For example, an increase in assets must be offset by either:
+** The fundamental accounting equation
+The fundamental rule of double-entry accounting requires every debit to be
+matched with a credit of equal value.
+
+With signed quantities, the fundamental accounting equation is $$A + L + E =
+0$$.
+
+This means that every new transaction must maintain this balance.  For example,
+an increase in assets must be offset by either:
 - a decrease in another asset
-- an increase in liabilities
-- an adjustment in equity.
+- an increase in liabilities in absolute terms
+- an increase in equity in absolute terms
 
 Examples:
-- I buy a coffee for EUR 5 with my debit card. My assets decrease by EUR 5.
+- I buy a coffee for 5 EUR with my credit card. My assets do not change.
+  However my liabilities increase by 5 EUR and they are matched by a decrease in
+  net worth, i.e. a decrease in equity in absolute terms.
+- I buy a coffee for 5 EUR with my debit card. My assets decrease by EUR 5.
   This is an expense that decreases my overall net worth, hence an equity
-  decrease (in absolute terms) of EUR 5.
-- I buy a coffee for EUR 5 with my credit card. My assets do not change.
-  However my liabilities increase by 5 EUR and they are matched by a
-  decrease in equity.
+  decrease in absolute terms of 5 EUR.
 
-* The fundamental rule of double-entry accounting
-The fundamental rule of double-entry accounting requires every debit
-to be matched with a credit of equal value.
+** Clearing income/expenses
+Revenues and expenses are technically part of equity.  They are categorised
+separately for reporting purposes but in traditional accounting, business
+consolidate them into equity at the end of the reporting period.
 
-Example of a violation of the rule:
-#+begin_src ledger
-2020-02-01 buy ada
-    assets:cc:ada          2000 ADA
-    assets:bank:checking   -$40
-#+end_src ledger
+This is done by creating a transaction that will move the balance held in
+income and expenses accounts into an equity account (traditionally called
+retained earnings).
 
-The units ADA and USD are not directly convertible in the system so it
-seems like value is appearing out of nothing/disappearing.
-It is therefore imperative to indicate the implicit unit price or unitcost
-#+begin_src ledger
-2020-02-01 buy ada
-    assets:cc:ada          2000 ADA @@ $40
-    assets:bank:checking   -$40
-#+end_src ledger
-
-To fully enforce the rule of double-entry, it would be preferable to have
-#+begin_src ledger
-2020-02-01 buy ada
-    assets:cc:ada          2000 ADA
-    equity:conversion      -2000 ADA
-    equity:conversion       $40
-    assets:bank:checking   -$40
-#+end_src ledge
-But this general form is not recognised by hledger and reporting @ cost will not
-be possible. Unless the transaction is booked with all postings and unitcost/unitprice.
-
-#+begin_src ledger
-2020-02-01 buy ada
-    assets:cc:ada          2000 ADA @@ $40
-    equity:conversion      -2000 ADA @@ $40
-    equity:conversion       $40
-    assets:bank:checking   -$40
-#+end_src ledge
+This ensures that the fundamental accounting equation is verified.
 
 * Equity accounts
 - Equity represents what's left for the owner after substracting liabilities
@@ -100,38 +67,18 @@ be possible. Unless the transaction is booked with all postings and unitcost/uni
   owner (a liability on the other hand is an obligation to a creditor). It
   represents an ownership's stake.
 - Simple illustration: my financial life is the entity/business that is funded
-  by the equity. So it "owes" money to the owner whose stake is materialised
-  in the equity account.
+  by the equity. So it "owes" money to the owner whose stake is materialised in
+  the equity account.
 - A positive equity means the owner owes the creditors of the entity.
 - This is well illustrated with a shared asset because the value that is owned
   by the co-owner will be directly represented by the co-owner's equity.
 
-* Shared assets and expenses in household ledger
-** How do I represent a shared expense?
-1. Record the full cash movement from the joint account to an expense account.
-2. Reallocate each contributor's share to a specific equity account.
-   No cash is moved - this is just an accounting trick to isolate the amount
-   in a specific account.
-
-#+begin_src ledger
-2025-04-11 * Frais de courtier
-    Assets:FR:CCF:Compte-Joint             EUR -3000
-    Expenses:Finance:Mortgage               EUR 3000
-    Equity:Jean:Assets:FR:CCF:Compte-Joint  EUR 1500
-    Equity:Jean:Expenses:Finance:Mortgage  EUR -1500
-    Equity:Aurelie:Assets:FR:CCF:Compte-Joint  EUR 1500
-    Equity:Aurelie:Expenses:Finance:Mortgage  EUR -1500
-#+end_src ledger
-
 * Track 111 company investment plan
 ** Difficulties
 111 cap pays annually into an investment plan as part of the
-participation/interessement scheme.
-The money is managed through EPSOR whereby it is invested in various mutual
-funds.
-Considering the allocation/rebalancing is automated, it would be cumbersome to
-track the value of each fund.
-
+participation/interessement scheme.  The money is managed through EPSOR whereby
+it is invested in various mutual funds.  Considering the allocation/rebalancing
+is automated, it would be cumbersome to track the value of each fund.
 ** Solutions
 Use a custom commodity to track contributions and value total.
 #+begin_src ledger
@@ -139,55 +86,64 @@ commodity EURPER
 commodity EURPEI
 
 2024-11-19 * Versement defiscalise vers le PER
-     Assets:FR:Epsor:PER:Tax-Deferred        EURPER 2158 @ EUR 1
-     Assets:FR:BforBank:LivretA             EUR -2158
+    Assets:FR:Epsor:PER:Tax-Deferred            2158 EURPER @ 1 EUR
+    Assets:FR:BforBank:LivretA                 -2158 EUR
 
 P 2025-01-01 EURPER EUR 1.1
-#+end_src ledger
-This is cumbersome because it requires to calculate a price inferred from
-the valuation of the plan at time $t$ divided by the contributions.
-Additionnally, contributions made at times $t_1$ and $t_{2}$ should not be
-valued with the same price because they have grown with different returns.
+#+end_src
 
-For valuation purposes it is easier to use a balance assertion using the
+This is cumbersome because it requires to calculate a price inferred from the
+valuation of the plan at time $t$ divided by the contributions.  Additionnally,
+contributions made at times $t_1$ and $t_{2}$ should not be valued with the same
+price because they have grown with different returns.
+
+For valuation purposes it is easier to use a balance assignment using the
 provider's valuation at a specific date and track the unrealised-pnl into a
 specific equity account.
 #+begin_src ledger
 2025-02-28 * EPSOR valuation
-    Assets:FR:Epsor:PEI                  = EUR 54248
+    Assets:FR:Epsor:PEI                      = 54248 EUR
     Equity:Unrealised-PnL:EUR
-#+end_src ledger
+#+end_src
 
-This requires a regular balance assertion entry.
-For audit purposes, it is preferable to use a balance assertion based on an
-official valuation statement from the investment provider.
+This requires a regular balance assignment entry.  For audit purposes, it is
+preferable to use a balance assertion based on an official valuation statement
+from the investment provider.
 
 ** How to track the unrealised PnL?
-Whenever a balance assertion is entered, it will automatically adjust the
-corresponding equity account to match valuation changes.
-It is then easy to track the PnL looking at the register of the equity account.
-To facilitate granular tracking of a specific investment account, use a
-corresponding equity account as below.
+Whenever a balance assignment is entered, it will automatically adjust the
+corresponding equity account to match valuation changes.  It is then easy to
+track the PnL looking at the register of the equity account.  To facilitate
+granular tracking of a specific investment account, use a corresponding equity
+account as below.
 
 #+begin_src ledger
 2024-12-31 * EPSOR PEI valuation
-    Assets:FR:Epsor:PEI               = EUR 54886.46
+    Assets:FR:Epsor:PEI                   = 54886.46 EUR
     Equity:UnrealisedCapitalGains:Epsor:PEI
-#+end_src ledger
+#+end_src
 
->> hledger -f hledger.journal reg equity:unrealised.*epsor:pei  --width=150
+#+begin_src sh
+hledger -f hledger.journal reg equity:unrealised.*epsor:pei  --width=150
+#+end_src
 
 ** How to materialise the unrealised PnL?
 The unrealised capital gains (or losses!) will accumulate in a chosen equity
-account.
-Capital gains are materialised by moving amounts from the equity account to
-an income account.
+account.  Capital gains are materialised by moving amounts from the equity
+account to an income account.
 
 #+begin_src ledger
 2025-10-21 * Withdrawal
-    Equity:UnrealisedCapitalGains:Epsor:PEI  EUR 8754.21
-    Income:CapitalGains:Epsor:PEI  EUR -8754.21
-#+end_src ledger
+    Equity:UnrealisedCapitalGains:Epsor:PEI  8754.21 EUR
+    Income:CapitalGains:Epsor:PEI           -8754.21 EUR
+#+end_src
+
+Even easier with a balance assignment:
+#+begin_src ledger
+2025-10-21 * Withdrawal
+    Equity:UnrealisedCapitalGains:Epsor:PEI      = 0 EUR
+    Income:Capitalgains:Epsor:PEI
+#+end_src
 
 * Track ETF trading
 ** Conversion accounts and multi-commodity balancing
@@ -195,28 +151,27 @@ Suppose we use the below to represent the purchase of 1 LQQ ETF contract with
 euros.
 #+begin_src ledger
 2024-09-18 * Buy LQQ
-      Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ
-      Assets:FR:BourseDirect:Cash             -1037.90 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ
+    Assets:FR:BourseDirect:Cash             -1037.90 EUR
 #+end_src
 In a standard double-entry transaction, the total sum of the transaction must be
 zero.  If you buy LQQ with EUR you are effectively adding 1 LQQ and removing X
-EUR.
-The sum of the postings above is 1 LQQ + (-X EUR) which technically does
+EUR.  The sum of the postings above is 1 LQQ + (-X EUR) which technically does
 not add up to 0 -> the books do not balance!  It looks like 1 LQQ was created
 out of thin air while X EUR were destroyed.
 
 Equity conversion accounts is the rigorous way to handle multi-commodity
-transactions (e.g. buying a stock with cash).
-It ensures that books are rigorously balanced (i.e. sum of the postings = 0)
-across different units, not just in value.
+transactions (e.g. buying a stock with cash).  It ensures that books are
+rigorously balanced (i.e. sum of the postings = 0) across different units, not
+just in value.
 
 Suppose we now use this representation:
 #+begin_src ledger
 2024-10-02 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
     Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @@ 1082.90 EUR
     Equity:Conversion:BourseDirect:LQQ            -1 LQQ @@ 1082.90 EUR
-    Equity:Conversion:BourseDirect:EUR   1082.90 EUR
-    Assets:FR:BourseDirect:Cash         -1082.90 EUR
+    Equity:Conversion:BourseDirect:EUR       1082.90 EUR
+    Assets:FR:BourseDirect:Cash             -1082.90 EUR
 #+end_src
 This treats the transaction as a physical swap where every unit is accounted
 for. X EUR are moved into a "conversion box" and LQQ are taken out of that
@@ -231,24 +186,63 @@ Using conversion accounts forces the balancing to be explicit for each
 commodity.  This enforces a strict accounting style where books must balance not
 only in value but in every specific commodity involved in a transaction.
 
-** Cost-basis method
+** Recording a purchase/sale with cost
 The most important thing is not just the record of the purchase (resp. sale) but
 the price paid (resp. received).
 
 #+begin_src ledger
 2024-09-18 * Buy LQQ ETF
-    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ EUR 1037.90
-    Assets:FR:BourseDirect:Cash                 EUR -1037.90
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1037.90 EUR
+    Assets:FR:BourseDirect:Cash             -1037.90 EUR
 #+end_src
 
-Recoding the sale is easy
+hledger has no notion of lots or attached cost-basis.  The sale must be recorded
+using the original cost price and manually calculating the capital gains
+recorded as a revenue.
+
 #+begin_src ledger
 2025-02-12 * Sell LQQ ETF
-    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1200 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1037.90 EUR
     Assets:FR:BourseDirect:Cash              1197.50 EUR
     Expenses:Finance:Fees                       2.50 EUR
     Income:CapitalGains                      -162.10 EUR
 #+end_src
+
+** Lot-tracking
+hledger does not support lot tracking. The obvious solution is to use
+subaccounts, for example with the date of the transaction (and a sequence if
+multiple transactions within the same day).
+
+To avoid having the balance sheet cluttered with many investments accounts, we
+can use balanced virtual postings to move them into a central account.
+
+#+begin_src ledger
+2024-09-18 * Buy LQQ ETF
+    Assets:FR:BourseDirect:PEA:ETF:LQQ:20240918    2 LQQ @ 1037.90 EUR
+    [Assets:FR:BourseDirect:PEA:ETF:LQQ:20240918]  -2 LQQ
+    [Assets:FR:BourseDirect:PEA:ETF:LQQ]           2 LQQ
+    Assets:FR:BourseDirect:Cash             -1037.90 EUR
+#+end_src
+
+#+begin_src ledger
+2025-02-12 * Sell LQQ ETF
+    [Assets:FR:BourseDirect:PEA:ETF:LQQ]           -1 LQQ
+    [Assets:FR:BourseDirect:PEA:ETF:LQQ:20240918]  +1 LQQ
+    Assets:FR:BourseDirect:PEA:ETF:LQQ:20240918    -1 LQQ @ 1037.90 EUR
+    Assets:FR:BourseDirect:Cash              1197.50 EUR
+    Income:CapitalGains
+#+end_src
+
+** Calculate realised gains
+For average-cost-basis, see example at [[https://hledger.org/gain.html]]
+
+The option --gain tells hledger to display the difference between what was paid
+(indicated by the @ in the transaction) and the latest market value available.
+
+#+begin_src sh
+hledger bal --gain
+#+end_src
+
 
 ** Ressources
 http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/
@@ -261,8 +255,8 @@ balance held in the expense account.
 
 #+begin_src ledger
 2024-09-01 * AMEX - 2024-08-30 - Refund Bonne Gueule
-    Assets:FR:BforBank:Compte-Courant         EUR 305
-    Expenses:Shopping:Refunds                EUR -305
+    Assets:FR:BforBank:Compte-Courant        EUR 305
+    Expenses:Shopping:Refunds               EUR -305
 #+end_src
 
 ** Medical insurance refunds
@@ -271,8 +265,8 @@ balance held in the expense account.
 - Alternative approach: track refunds separately in a dedicated account.
 #+begin_src ledger
 2024-02-20 * Insurance refund for doctor visit
-    Assets:Bank:Checking              80 EUR
-    Expenses:Health:Reimbursements   -80 EUR
+    Assets:Bank:Checking                          80 EUR
+    Expenses:Health:Reimbursements               -80 EUR
 #+end_src
 
 * Country prefix
@@ -291,22 +285,22 @@ hledger -f personal.journal close --retain --close-acct=Equity:Earnings:Retained
 - Use child accounts for each partner for assets, liabilities and expenses
   e.g. Liabilities:FR:CCF:Mortgage:Jean
 - Use balanced virtual postings to track the property as a single asset
-  regardless of ownership.
-  This allows easy matching with bank statements for monthly transactions.
-- The use of child accounts allows accurate reporting of what belongs to whom
-  in joint-account. However, joint-account should be considered as a common pool
-  of money and not something that is subdivided.
-  The child division makes it easier to report on split of property-related
-  expenses such as service charges, interest payments, etc.
-** Compute total
-equity accumulated
+  regardless of ownership.  This allows easy matching with bank statements for
+  monthly transactions.
+- The use of child accounts allows accurate reporting of what belongs to whom in
+  joint-account. However, joint-account should be considered as a common pool of
+  money and not something that is subdivided.  The child division makes it
+  easier to report on split of property-related expenses such as service
+  charges, interest payments, etc.
+
+** Compute total equity accumulated
 #+begin_src sh
-  hledger -f huchon.journal bal ^assets:property:jean ^liabilities.*jean
+hledger -f huchon.journal bal ^assets:property:jean ^liabilities.*jean
 #+end_src
 
 ** Compute total mortgage repayment for principal
 #+begin_src sh
-  hledger -f huchon.journal bal liabilities.*jean not:desc:signature
+hledger -f huchon.journal bal liabilities.*jean not:desc:signature
 #+end_src
 
 ** Compute running interest/service charges
@@ -315,7 +309,7 @@ hledger -f huchon.journal bal exp.*interest:jean
 #+end_src
 ** Compute total capital contributed
 #+begin_src sh
-  hledger -f huchon.journal bal equity:.
+hledger -f huchon.journal bal equity:.
 #+end_src
 
 * General ressources

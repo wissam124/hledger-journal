@@ -243,6 +243,18 @@
     Expenses:Entertainment                        10 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-02-23 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-24 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-24 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant                 100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-02-04 * Monoprix
     Expenses:Food:Groceries                    17.32 EUR
@@ -412,6 +424,10 @@
     Expenses:Food:Groceries                     5.37 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-02-22 * Franprix
+    Expenses:Food:Groceries                     8.79 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 2026-02-22 * Ajc Conc.aut  ; laundry uniqlo down jacket
     Expenses:Home:Maintenance                   6.60 EUR
     Assets:FR:Revolut:Personal:EUR
@@ -423,3 +439,25 @@
 2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket
     Expenses:Home:Maintenance                   1.30 EUR
     Assets:FR:Revolut:Personal:EUR
+
+2026-02-24 * Globe
+    Expenses:Food:Cafe                          1.80 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-02-22 * Lebara Mobile
+    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket
+    Expenses:Home:Maintenance                   1.16 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+* Liabilities Aurelie
+2026-02-24 * Leroy Merlin
+    Expenses:Home                              12.50 EUR
+    Liabilities:Payables:Aurelie
+
+2026-02-24 * Pot de fleur grande plante
+    Expenses:Home:Furniture                    22.95 EUR
+    Liabilities:Payables:Aurelie

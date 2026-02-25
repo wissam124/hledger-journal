@@ -70,8 +70,6 @@ This ensures that the fundamental accounting equation is verified.
   by the equity. So it "owes" money to the owner whose stake is materialised in
   the equity account.
 - A positive equity means the owner owes the creditors of the entity.
-- This is well illustrated with a shared asset because the value that is owned
-  by the co-owner will be directly represented by the co-owner's equity.
 
 * Track 111 company investment plan
 ** Difficulties
@@ -147,7 +145,7 @@ Even easier with a balance assignment:
 
 * Track ETF trading
 ** Conversion accounts and multi-commodity balancing
-Suppose we use the below to represent the purchase of 1 LQQ ETF contract with
+Suppose we use the below representation to record the purchase of 1 LQQ ETF with
 euros.
 #+begin_src ledger
 2024-09-18 * Buy LQQ
@@ -169,7 +167,7 @@ Suppose we now use this representation:
 #+begin_src ledger
 2024-10-02 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
     Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @@ 1082.90 EUR
-    Equity:Conversion:BourseDirect:LQQ            -1 LQQ @@ 1082.90 EUR
+    Equity:Conversion:BourseDirect:LQQ            -1 LQQ
     Equity:Conversion:BourseDirect:EUR       1082.90 EUR
     Assets:FR:BourseDirect:Cash             -1082.90 EUR
 #+end_src
@@ -179,8 +177,8 @@ for. X EUR are moved into a "conversion box" and LQQ are taken out of that
 
 The conversion accounts act here as as a "bridge" so that the sum of postings
 sums to 0 independently for each commodity.  In particular, the conversion
-account balance (converted to the base currency) must be zero. This allows for
-strict checks.
+account balance (converted at cost to the base currency) must be zero. This
+allows for strict checks.
 
 Using conversion accounts forces the balancing to be explicit for each
 commodity.  This enforces a strict accounting style where books must balance not
@@ -190,6 +188,8 @@ only in value but in every specific commodity involved in a transaction.
 The most important thing is not just the record of the purchase (resp. sale) but
 the price paid (resp. received).
 
+It is preferable to use the  @ UNITCOST notation rather than @@ TOTALCOST.
+
 #+begin_src ledger
 2024-09-18 * Buy LQQ ETF
     Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1037.90 EUR
@@ -197,15 +197,16 @@ the price paid (resp. received).
 #+end_src
 
 hledger has no notion of lots or attached cost-basis.  The sale must be recorded
-using the original cost price and manually calculating the capital gains
-recorded as a revenue.
+as follows:
+- use the original cost price.
+- manually calculate the capital gains recorded as a revenue.
 
 #+begin_src ledger
 2025-02-12 * Sell LQQ ETF
-    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1037.90 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1037.90 EUR  ; the original cost
     Assets:FR:BourseDirect:Cash              1197.50 EUR
     Expenses:Finance:Fees                       2.50 EUR
-    Income:CapitalGains                      -162.10 EUR
+    Income:CapitalGains                      -162.10 EUR  ; the capitain gain from the sale
 #+end_src
 
 ** Lot-tracking
@@ -247,7 +248,7 @@ hledger bal --gain
 ** Ressources
 http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/
 
-* How to deal with refunds?
+* Record refunds
 ** Refunds
 As a general rule, should be logged as a transaction with a negative expense
 posting. It is not an income, it actually should decrease the accumulated
@@ -274,10 +275,10 @@ balance held in the expense account.
   country. A receivable is a receivable, regardless of whether your mother is in
   France or you repay a friend in London.  -> no need for a country prefix
   here - it does not add semantic value.
-* Useful queries
+* Useful commands
 ** Closing and retaining earnings
 #+begin_src sh
-hledger -f personal.journal close --retain --close-acct=Equity:Earnings:Retained
+hledger close --retain --close-acct=Equity:Earnings:Retained
 #+end_src
 
 * Tracking property Vincennes

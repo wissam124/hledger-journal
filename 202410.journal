@@ -386,4 +386,6 @@
 
 2024-10-02 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
     Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1082.90 EUR
+    Equity:Conversion:EUR-LQQ:LQQ                 -1 LQQ
+    Equity:Conversion:EUR-LQQ:EUR            1082.90 EUR
     Assets:FR:BourseDirect:Cash             -1082.90 EUR

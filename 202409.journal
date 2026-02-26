@@ -422,8 +422,10 @@
     Expenses:Travel:Holidays
 
 2024-09-18 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
-    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1037.90 EUR
-    Assets:FR:BourseDirect:Cash             -1037.90 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ    1 LQQ @ 1037.90 EUR
+    Equity:Conversion:EUR-LQQ:LQQ                      -1 LQQ
+    Equity:Conversion:EUR-LQQ:EUR                 1037.90 EUR
+    Assets:FR:BourseDirect:Cash                  -1037.90 EUR
 
 * Moneyfarm valuation
 2024-09-30 * Moneyfarm valuation

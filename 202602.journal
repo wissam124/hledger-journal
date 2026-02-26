@@ -99,8 +99,8 @@
 2026-02-23 * HelloFresh
     Expenses:Food:Groceries                    48.98 EUR
     Expenses:Food:Groceries                   -24.49 EUR
-    Liabilities:Payables:Aurelie              -24.49 EUR
-
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Liabilities:Payables:Aurelie
 
 * BforBank transactions
 2026-02-02 * Le Mathurin  ; aurelie:
@@ -401,10 +401,6 @@
     Assets:FR:CCF:LivretA                      22940 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-02-25 * Transfer to CCF Livret A
-    Assets:FR:CCF:LivretA                      22940 EUR
-    Assets:FR:CCF:Compte-Courant
-
 2026-02-26 * Transfer to CCF LDDS
     Assets:FR:CCF:LDDS                      11989.96 EUR
     Assets:FR:CCF:Compte-Courant
@@ -517,11 +513,13 @@
 
 * Liabilities Aurelie
 2026-02-21 * Leroy Merlin
-    Expenses:Home                              12.50 EUR
+    Expenses:Home                                 25 EUR
+    Expenses:Home                              -12.50 EUR
     Liabilities:Payables:Aurelie
 
 2026-02-22 * Pot de fleur grande plante
-    Expenses:Home:Furniture                    22.95 EUR
+    Expenses:Home:Furniture                    45.90 EUR
+    Expenses:Home:Furniture                    -22.95 EUR
     Liabilities:Payables:Aurelie
 
 2026-02-22 * Pot fleur
@@ -544,7 +542,7 @@
     Expenses:Home:Furniture                   -19.95 EUR
     Liabilities:Payables:Aurelie
 
-2026-02-22 * Couvret lit
+2026-02-22 * Couvre lit
     Expenses:Home:Furniture                    40.94 EUR
     Expenses:Home:Furniture                   -20.47 EUR
     Liabilities:Payables:Aurelie

@@ -377,7 +377,7 @@
     Assets:FR:BforBank:Compte-Courant      -38.75 EUR
 
 2024-10-30 * Unaccounted expenses
-    Expenses:Misc                              0.04 EUR
+    Expenses:Misc:Unaccounted                   0.04 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2024-10-30 * Transfer Livret A

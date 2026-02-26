@@ -37,7 +37,7 @@
     Assets:FR:BforBank:Compte-Courant           -140 EUR
 
 2024-12-01 * AMEX - 2024-12-01 - Bonsoirs pillowcases
-    Expenses:Home:Furniture                     59.9 EUR
+    Expenses:Home                               59.9 EUR
     Assets:FR:BforBank:Compte-Courant          -59.9 EUR
 
 2024-12-01 * AMEX - 2024-12-03 - Box apéro
@@ -410,7 +410,7 @@
     Income:FR:BforBank:LivretA               -353.08 EUR
 
 2024-12-31 * Unaccounted expenses
-    Expenses:Misc                              54.49 EUR
+    Expenses:Misc:Unaccounted                  54.49 EUR
     Assets:FR:BforBank:Compte-Courant         -54.49 EUR
 
 2024-12-31 * Transfer Livret

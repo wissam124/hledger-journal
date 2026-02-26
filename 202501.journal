@@ -177,8 +177,8 @@
     Assets:FR:BforBank:Compte-Courant      -11.99 EUR
 
 2025-01-05 * Plug extender
-    Expenses:Home:Maintenance                3.59 EUR
-    Assets:FR:BforBank:Compte-Courant       -3.59 EUR
+    Expenses:Home                               3.59 EUR
+    Assets:FR:BforBank:Compte-Courant          -3.59 EUR
 
 2025-01-05 * Sweets
     Expenses:Food:Snack                       1.5 EUR
@@ -393,5 +393,5 @@
     Assets:FR:BforBank:Compte-Courant      -16.81 EUR
 
 2025-01-31 * Unaccounted expenses
-    Expenses:Misc                           23.58 EUR
+    Expenses:Misc:Unaccounted                  23.58 EUR
     Assets:FR:BforBank:Compte-Courant      -23.58 EUR

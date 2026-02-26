@@ -88,6 +88,20 @@
     Liabilities:FR:Amex:Gold                  -15.90 EUR
     Liabilities:Payables:Aurelie                7.95 EUR
 
+2026-02-22 * Ikea Raskog
+    Expenses:Home:Furniture                    31.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-02-22 * Deliveroo
+    Expenses:Food:Delivery                     31.29 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-02-23 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie              -24.49 EUR
+
+
 * BforBank transactions
 2026-02-02 * Le Mathurin  ; aurelie:
     Expenses:Entertainment:Social:Bars         14.20 EUR
@@ -255,6 +269,42 @@
     Assets:FR:CCF:Compte-Courant                 100 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-02-24 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-24 * Fisherman's Friend
+    Expenses:Food:Snack                         2.80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-24 * Cash withdrawal
+    Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-25 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant               22840 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-25 * Treatment
+    Expenses:PersonalCare:Discretionary           50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-25 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-26 * SFR
+    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-26 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant               11990 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-26 * Treatment
+    Expenses:PersonalCare:Discretionary           80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-02-04 * Monoprix
     Expenses:Food:Groceries                    17.32 EUR
@@ -347,6 +397,18 @@
     Assets:FR:CCF:LivretA                         10 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-02-25 * Transfer to livret A
+    Assets:FR:CCF:LivretA                      22940 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-02-25 * Transfer to CCF Livret A
+    Assets:FR:CCF:LivretA                      22940 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-02-26 * Transfer to CCF LDDS
+    Assets:FR:CCF:LDDS                      11989.96
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut transactions
 2026-02-10 * G20
     Expenses:Food:Groceries                     6.21 EUR
@@ -369,51 +431,51 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; laundry for duvet
-    Expenses:Home:Maintenance                     10 EUR
+    Expenses:Home:Laundry                         10 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for duvet
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for duvet
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; laundy for bed linen
-    Expenses:Home:Maintenance                   6.60 EUR
+    Expenses:Home:Laundry                       6.60 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for duvet
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for duvet
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for duvet
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for duvet
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for duvet
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for bed linen
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Ajc Conc.aut  ; dryer for bed linen
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-20 * Share laundry expenses
-    Expenses:Home:Maintenance                 -14.15 EUR
+    Expenses:Home:Laundry                     -14.15 EUR
     Liabilities:Payables:Aurelie
 
 2026-02-20 * Lbds  ; aurelie:
@@ -429,15 +491,15 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-22 * Ajc Conc.aut  ; laundry uniqlo down jacket
-    Expenses:Home:Maintenance                   6.60 EUR
+    Expenses:PersonalCare:Laundry               6.60 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:PersonalCare:Laundry               1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket
-    Expenses:Home:Maintenance                   1.30 EUR
+    Expenses:PersonalCare:Laundry               1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-02-24 * Globe
@@ -450,14 +512,39 @@
     Assets:FR:Revolut:Personal:GBP
 
 2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket
-    Expenses:Home:Maintenance                   1.16 GBP
+    Expenses:PersonalCare:Laundry               1.16 GBP
     Assets:FR:Revolut:Personal:GBP
 
 * Liabilities Aurelie
-2026-02-24 * Leroy Merlin
+2026-02-21 * Leroy Merlin
     Expenses:Home                              12.50 EUR
     Liabilities:Payables:Aurelie
 
-2026-02-24 * Pot de fleur grande plante
+2026-02-22 * Pot de fleur grande plante
     Expenses:Home:Furniture                    22.95 EUR
+    Liabilities:Payables:Aurelie
+
+2026-02-22 * Pot fleur
+    Expenses:Home:Furniture                    27.89 EUR
+    Expenses:Home:Furniture                   -13.94 EUR
+    Liabilities:Payables:Aurelie
+
+2026-02-22 * Pot fleur
+    Expenses:Home:Furniture                    32.88 EUR
+    Expenses:Home:Furniture                   -16.44 EUR
+    Liabilities:Payables:Aurelie
+
+2026-02-22 * Suspensions macrame
+    Expenses:Home:Furniture                       29 EUR
+    Expenses:Home:Furniture                   -14.50 EUR
+    Liabilities:Payables:Aurelie
+
+2026-02-22 * Applique murale
+    Expenses:Home:Furniture                    39.90 EUR
+    Expenses:Home:Furniture                   -19.95 EUR
+    Liabilities:Payables:Aurelie
+
+2026-02-22 * Couvret lit
+    Expenses:Home:Furniture                    40.94 EUR
+    Expenses:Home:Furniture                   -20.47 EUR
     Liabilities:Payables:Aurelie

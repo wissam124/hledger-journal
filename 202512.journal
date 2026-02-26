@@ -105,11 +105,11 @@
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-12-07 * Dryer for bed linen
-    Expenses:Home:Maintenance               1.30 EUR
+    Expenses:Home:Laundry               1.30 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-12-07 * Dryer for bed linen
-    Expenses:Home:Maintenance               1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Cash expenses
@@ -197,9 +197,17 @@
     Equity:Capital:Huchon:Jean                    50 EUR
     Assets:FR:CCF:Compte-Courant
 
+2025-12-10 * Amex settlement
+    Liabilities:FR:Amex:Gold             1771.15 EUR
+    Assets:FR:CCF:Compte-Courant
+
 2025-12-16 * EDF Citeaux contract closure
     Expenses:Home:Utilities:Electricity    34.89 EUR
     Assets:FR:CCF:Compte-Courant
+
+2025-12-31 * Interest income LDDS
+    Assets:FR:CCF:LDDS                          0.04 EUR
+    Income:FR:CCF:LivretA
 
 * Revolut EUR transactions
 2025-12-01 * Cigarettes
@@ -355,11 +363,11 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-12-21 * Dryer for bed linen
-    Expenses:Home:Maintenance               1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-12-21 * Dryer for bed linen
-    Expenses:Home:Maintenance               1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-12-22 * Carrefour
@@ -503,10 +511,6 @@
 2025-12-09 * Deliveroo
     Expenses:Food:Delivery                 19.35 EUR
     Liabilities:FR:Amex:Gold
-
-2025-12-10 * Amex settlement
-    Liabilities:FR:Amex:Gold             1771.15 EUR
-    Assets:FR:CCF:Compte-Courant
 
 2025-12-11 * Orel Service  ; flat-vincennes:
     Expenses:Home:Maintenance            2209.90 EUR

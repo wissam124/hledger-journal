@@ -181,8 +181,8 @@
     Assets:FR:BforBank:Compte-Courant         -20 EUR
 
 2024-09-10 * Timbre procuration Algérie
-    Expenses:Home                              5 EUR
-    Assets:FR:BforBank:Compte-Courant         -5 EUR
+    Expenses:Misc                                  5 EUR
+    Assets:FR:BforBank:Compte-Courant             -5 EUR
 
 2024-09-11 * Lunch
     Expenses:Food:OfficeLunch                13.5 EUR
@@ -253,8 +253,8 @@
     Assets:FR:BforBank:Compte-Courant      -57.95 EUR
 
 2024-09-17 * Timbre procuration Algérie
-    Expenses:Home                               5 EUR
-    Assets:FR:BforBank:Compte-Courant          -5 EUR
+    Expenses:Misc                                  5 EUR
+    Assets:FR:BforBank:Compte-Courant             -5 EUR
 
 2024-09-18 * Cigarettes
     Expenses:Cigarettes                      12.5 EUR
@@ -413,8 +413,8 @@
     Assets:FR:BforBank:Compte-Courant          -17 EUR
 
 2024-09-30 * Unaccounted expenses
-    Expenses:Misc                           28.36 EUR
-    Assets:FR:BforBank:Compte-Courant      -28.36 EUR
+    Expenses:Misc:Unaccounted                  28.36 EUR
+    Assets:FR:BforBank:Compte-Courant         -28.36 EUR
 
 ; Manual entries
 2024-09-01 * Settle transavia flight mum

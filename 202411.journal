@@ -405,7 +405,7 @@
     Assets:FR:BforBank:Compte-Courant         -60 EUR
 
 2024-11-30 * Unaccounted expenses
-    Expenses:Misc                             9.8 EUR
+    Expenses:Misc:Unaccounted                    9.8 EUR
     Assets:FR:BforBank:Compte-Courant        -9.8 EUR
 
 2024-11-30 * Vinted boost
@@ -413,7 +413,7 @@
     Assets:FR:BforBank:Compte-Courant       -11.8 EUR
 
 2024-11-30 * Unaccounted expenses
-    Expenses:Misc                           0.03 EUR
+    Expenses:Misc:Unaccounted                   0.03 EUR
     Assets:FR:BforBank:Compte-Courant
 
 ; ; Manual entries

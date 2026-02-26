@@ -5,8 +5,8 @@
     Income:FR:111Capital:Salary          -5013.33 EUR
 
 2025-02-01 * AMEX - 2024-01-07 - Amazon Homeasy
-    Expenses:Home:Maintenance               43.22 EUR
-    Assets:FR:BforBank:Compte-Courant      -43.22 EUR
+    Expenses:Home                              43.22 EUR
+    Assets:FR:BforBank:Compte-Courant         -43.22 EUR
 
 2025-02-01 * AMEX - 2025-01-10 - Transavia checked luggage
     Expenses:Travel:Flights                    60 EUR
@@ -133,8 +133,8 @@
     Assets:FR:BforBank:Compte-Courant        -6.1 EUR
 
 2025-02-07 * Cat litter for Aurélie
-    Expenses:GiftsCharity:Gifts               7.3 EUR
-    Assets:FR:BforBank:Compte-Courant        -7.3 EUR
+    Expenses:Home:Maintenance                    7.3 EUR
+    Assets:FR:BforBank:Compte-Courant           -7.3 EUR
 
 2025-02-07 * Cigarettes
     Expenses:Cigarettes                        13 EUR
@@ -453,8 +453,8 @@
     Assets:FR:BforBank:Compte-Courant        -150 EUR
 
 2025-02-28 * Unaccounted expenses
-    Expenses:Misc                           23.27 EUR
-    Assets:FR:BforBank:Compte-Courant      -23.27 EUR
+    Expenses:Misc:Unaccounted                  23.27 EUR
+    Assets:FR:BforBank:Compte-Courant         -23.27 EUR
 
 ; Amex expenses
 2025-02-09 * Wifi router for heater

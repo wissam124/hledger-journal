@@ -20,7 +20,6 @@ account Assets:FR:BourseDirect:Cash               ; type: C
 account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
 account Assets:FR:BoursoBank:Compte-Courant       ; type: C
 account Assets:FR:CCF:Compte-Courant              ; type: C
-account Assets:FR:CCF:Compte-Joint:Jean           ; type: C
 account Assets:FR:CCF:LivretA                     ; type: C
 account Assets:FR:CCF:LDDS                        ; type: C
 account Assets:FR:Epsor:PEI                       ; type: A
@@ -51,10 +50,11 @@ account Liabilities:Payables:Mum                  ; type: L
 account Liabilities:UK:Halifax:Clarity            ; type: L
 
 ; Equity
-account Equity:Earnings:Current                   ; type: E
-account Equity:Earnings:Retained                  ; type: E
-account Equity:Opening-Balances:EUR               ; type: E
-account Equity:Opening-Balances:GBP               ; type: E
+account Equity:Retained-Earnings                  ; type: E
+account Equity:Opening-Balances                   ; type: E
+account Equity:Closing-Balances                   ; type: E
+account Equity:Conversion:EUR-LQQ:EUR             ; type: E
+account Equity:Conversion:EUR-LQQ:LQQ             ; type: E
 account Equity:UnrealisedCapitalGains:Epsor:PEI   ; type: E
 account Equity:UnrealisedCapitalGains:Epsor:PER   ; type: E
 account Equity:UnrealisedCapitalGains:Moneyfarm   ; type: E
@@ -67,6 +67,7 @@ account Income:FR:111Capital:Interessement        ; type: R
 account Income:FR:111Capital:Participation        ; type: R
 account Income:FR:111Capital:Salary               ; type: R
 account Income:FR:BforBank:LivretA                ; type: R
+account Income:FR:CCF:LivretA                     ; type: R
 account Income:Resale                             ; type: R
 account Income:Resale:Vinted                      ; type: R
 account Income:CapitalGains:Epsor:PEI             ; type: R
@@ -119,6 +120,7 @@ account Expenses:Health:Therapy                            ; type: X
 account Expenses:Home                                      ; type: X
 account Expenses:Home:Furniture                            ; type: X
 account Expenses:Home:Improvements                         ; type: X
+account Expenses:Home:Laundry                              ; type: X
 account Expenses:Home:Maintenance                          ; type: X
 account Expenses:Home:Rent                                 ; type: X
 account Expenses:Home:Utilities:Electricity                ; type: X

@@ -71,6 +71,39 @@ This ensures that the fundamental accounting equation is verified.
   the equity account.
 - A positive equity means the owner owes the creditors of the entity.
 
+* Closing yearly journals
+Check first that the sum of all balances is equal to zero.
+#+begin_src
+hledger -f 2024.journal bal -V
+#+end_src
+
+If not, most likely it is due to missing equity postings.
+To identify missing equity postings, use:
+#+begin_src sh
+hledger -f 2024.journal bal --gain
+#+end_src
+
+To ensure the accounting equation is verified, income and expenses must be
+consolidated into equity (retaining earnings).
+#+begin_src sh
+hledger -f 2024.journal close --retain --close-acct=Equity:Retained-Earnings -e 2025 -x
+#+end_src
+
+Check the net is zero
+#+begin_src sh
+hledger -f 2024.journal bse --layout=tall
+#+end_src
+
+Close the year
+#+begin_src
+hledger -f 2024.journal close --close type:ALE --close-acct=Equity:Closing-Balances -e 2025 -x --show-costs
+#+end_src
+
+Open the next year
+#+begin_src sh
+hledger -f 2024.journal close --open type:ALE --close-acct=Equity:Closing-Balances -e 2025 -x --show-costs
+#+end_src
+
 * Track 111 company investment plan
 ** Difficulties
 111 cap pays annually into an investment plan as part of the

@@ -305,6 +305,34 @@
     Expenses:PersonalCare:Discretionary           80 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-02-26 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-26 * Fisherman's Friend
+    Expenses:Food:Snack                         2.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-27 * Cash withdrawal
+    Assets:Cash:EUR                               80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-27 * G20
+    Expenses:Food:Groceries                    27.08 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-28 * Drinks Le Trouville  ; aurelie:
+    Expenses:Entertainment:Social:Bars            19 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-02-28 * Cash withdrawal
+    Assets:Cash:EUR                              170 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-02-04 * Monoprix
     Expenses:Food:Groceries                    17.32 EUR
@@ -378,6 +406,26 @@
 
 2026-02-22 * Baguette
     Expenses:Food:Groceries                     1.05 EUR
+    Assets:Cash:EUR
+
+2026-02-27 * Treatment
+    Expenses:PersonalCare:Discretionary          200 EUR
+    Assets:Cash:EUR
+
+2026-02-28 * Maison B&b
+    Expenses:Food:Cafe                          3.10 EUR
+    Assets:Cash:EUR
+
+2026-02-28 * Therapy
+    Expenses:Health:Therapy                       60 EUR
+    Assets:Cash:EUR
+
+2026-02-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-02-28 * Cafe
+    Expenses:Food:Cafe                          0.40 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -500,6 +548,18 @@
 
 2026-02-24 * Globe
     Expenses:Food:Cafe                          1.80 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-25 * Carrefour
+    Expenses:Food:Groceries                    15.19 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-25 * Torbox
+    Expenses:Subscriptions:Streaming            4.26 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-02-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

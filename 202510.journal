@@ -5,11 +5,10 @@
 
 * BourseDirect
 2025-10-31 * Buy LQQ ETF
-    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1594.90 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1597.70 EUR
     Equity:Conversion:EUR-LQQ:LQQ                 -1 LQQ
     Equity:Conversion:EUR-LQQ:EUR            1597.70 EUR
     Assets:FR:BourseDirect:Cash             -1597.70 EUR
-    Expenses:Finance:Brokerage
 
 * Cash expenses
 2025-10-02 * Gave cash to mum

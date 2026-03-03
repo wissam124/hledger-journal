@@ -30,6 +30,11 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+* CCF transactions
+2026-03-02 * Frais cotisation
+    Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut transactions
 2026-03-03 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR

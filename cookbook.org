@@ -96,12 +96,12 @@ hledger -f 2024.journal bse --layout=tall
 
 Close the year
 #+begin_src
-hledger -f 2024.journal close --close type:ALE --close-acct=Equity:Closing-Balances -e 2025 -x --show-costs
+hledger -f 2025-closed.journal close --close type:ALEV --close-acct=Equity:Opening-Balances -e 2026 -x --show-costs
 #+end_src
 
 Open the next year
 #+begin_src sh
-hledger -f 2024.journal close --open type:ALE --close-acct=Equity:Closing-Balances -e 2025 -x --show-costs
+hledger -f 2025-closed.journal close --open type:ALEV --close-acct=Equity:Opening-Balances -e 2026 -x --show-costs
 #+end_src
 
 * Track 111 company investment plan

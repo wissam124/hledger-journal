@@ -1,0 +1,44 @@
+include ../accounts.journal
+include PLQQ25.journal
+include PGBP25.journal
+
+2025-01-01 * opening balances  ; clopen:2025-closed
+    Assets:FR:BforBank:LivretA                         12,017.78 EUR = 12,017.78 EUR
+    Equity:Opening-Balances                           -12,017.78 EUR
+    Assets:FR:BourseDirect:Cash                            25.42 EUR = 25.42 EUR
+    Equity:Opening-Balances                               -25.42 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ          1 LQQ @ 1,037.90 EUR
+    Equity:Opening-Balances                    -1 LQQ @ 1,037.90 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ          1 LQQ @ 1,082.90 EUR = 2 LQQ
+    Equity:Opening-Balances                    -1 LQQ @ 1,082.90 EUR
+    Assets:FR:Epsor:PEI                                54,886.46 EUR = 54,886.46 EUR
+    Equity:Opening-Balances                           -54,886.46 EUR
+    Assets:FR:Epsor:PER                                35,962.29 EUR = 35,962.29 EUR
+    Equity:Opening-Balances                           -35,962.29 EUR
+    Assets:UK:Moneyfarm                                48,795.22 GBP = 48,795.22 GBP
+    Equity:Opening-Balances                           -48,795.22 GBP
+    Equity:Retained-Earnings                          -18,692.64 EUR = -18,692.64 EUR
+    Equity:Opening-Balances                            18,692.64 EUR
+    Equity:Conversion:EUR-LQQ:EUR                       2,120.80 EUR = 2,120.80 EUR
+    Equity:Opening-Balances                            -2,120.80 EUR
+    Equity:Conversion:EUR-LQQ:LQQ                             -2 LQQ = -2 LQQ
+    Equity:Opening-Balances                                    2 LQQ
+    Equity:UnrealisedCapitalGains:Moneyfarm            -4,753.92 GBP = -4,753.92 GBP
+    Equity:Opening-Balances                             4,753.92 GBP
+    Equity:UnrealisedCapitalGains:Epsor:PEI            -6,646.10 EUR = -6,646.10 EUR
+    Equity:Opening-Balances                             6,646.10 EUR
+    Equity:UnrealisedCapitalGains:Epsor:PER            -1,242.42 EUR = -1,242.42 EUR
+    Equity:Opening-Balances                             1,242.42 EUR
+
+include 202501.journal
+include 202502.journal
+include 202503.journal
+include 202504.journal
+include 202505.journal
+include 202506.journal
+include 202507.journal
+include 202508.journal
+include 202509.journal
+include 202510.journal
+include 202511.journal
+include 202512.journal

@@ -53,8 +53,11 @@ account Liabilities:UK:Halifax:Clarity            ; type: L
 account Equity:Retained-Earnings                  ; type: E
 account Equity:Opening-Balances                   ; type: E
 account Equity:Closing-Balances                   ; type: E
+account Equity:Conversion                         ; type: V
 account Equity:Conversion:EUR-LQQ:EUR             ; type: V
 account Equity:Conversion:EUR-LQQ:LQQ             ; type: V
+account Equity:Conversion:EUR-GBP:EUR             ; type: V
+account Equity:Conversion:EUR-GBP:GBP             ; type: V
 account Equity:UnrealisedCapitalGains:Epsor:PEI   ; type: E
 account Equity:UnrealisedCapitalGains:Epsor:PER   ; type: E
 account Equity:UnrealisedCapitalGains:Moneyfarm   ; type: E

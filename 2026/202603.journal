@@ -1,13 +1,21 @@
 * Amex transactions
-2026-03-02 Velib
+2026-03-03 * Velib
     Expenses:Transportation:Bikesharing            8 EUR
     Liabilities:FR:Amex:Gold
 
-2026-03-02 Tap Air Portugal
+2026-03-03 * Tap Air Portugal
     Expenses:Travel:Flights                   504.38 EUR
     Expenses:Travel:Flights                  -252.19 EUR
     Liabilities:FR:Amex:Gold                 -504.38 EUR
     Assets:Receivables                        252.19 EUR
+
+2026-03-03 * Fileholder
+    Expenses:Home                              31.14 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-03 * Deliveroo
+    Expenses:Food:Delivery                     11.02 EUR
+    Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
 2026-03-02 * Transfer to CCF joint-account
@@ -30,6 +38,10 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-03 * Cash witdrawal
+    Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * CCF transactions
 2026-03-02 * Frais cotisation
     Expenses:Finance:Bank                       8.75 EUR
@@ -39,3 +51,8 @@
 2026-03-03 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
+
+* Liabilities/Receivables
+2026-03-03 * Jacques settlement
+    Assets:FR:BforBank:Compte-Courant         252.19 EUR
+    Assets:Receivables

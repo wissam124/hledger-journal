@@ -303,6 +303,29 @@ balance held in the expense account.
     Expenses:Health:Reimbursements               -80 EUR
 #+end_src
 
+* Receivables
+** Loans
+Suppose I lent money to someone and expect a refund later. This amount lent
+should be held in an receivables account.
+
+#+begin_src ledger
+2026-02-08 * Loan to Florent
+    Assets:Receivables:Florent                   100 EUR
+    Assets:FR:BforBank:Compte-Courant
+#+end_src
+
+** Shared expense
+Suppose I pay the full amount for an expense but part of is shared with someone
+else.
+
+#+begin_src ledger
+2026-03-03 * Tap Air Portugal
+    Expenses:Travel:Flights                   504.38 EUR
+    Expenses:Travel:Flights                  -252.19 EUR
+    Liabilities:FR:Amex:Gold                 -504.38 EUR
+    Assets:Receivables                        252.19 EUR
+#+end_src
+
 * Country prefix
 - For receivables and payables, what matters is the counterparty, not the
   country. A receivable is a receivable, regardless of whether your mother is in

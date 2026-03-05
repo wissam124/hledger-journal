@@ -277,10 +277,16 @@ The option --gain tells hledger to display the difference between what was paid
 hledger bal --gain
 #+end_src
 
-
 ** Ressources
 http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/
 
+* Currency exchange
+Suppose I buy EURs with GBPs.
+#+begin_src ledger
+2025-10-07 * Buy EUR with GBP
+    Assets:Revolut:EUR      20000 EUR @@ 17300 GBP
+    Assets:Revolut:GBP
+#+end_src
 * Record refunds
 ** Refunds
 As a general rule, should be logged as a transaction with a negative expense
@@ -331,12 +337,6 @@ else.
   country. A receivable is a receivable, regardless of whether your mother is in
   France or you repay a friend in London.  -> no need for a country prefix
   here - it does not add semantic value.
-* Useful commands
-** Closing and retaining earnings
-#+begin_src sh
-hledger close --retain --close-acct=Equity:Earnings:Retained
-#+end_src
-
 * Tracking property Vincennes
 ** Design choices
 - Use child accounts for each partner for assets, liabilities and expenses

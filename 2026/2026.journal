@@ -1,8 +1,9 @@
 include ../accounts.journal
-
+include PLQQ26.journal
+include PGBP26.journal
 
 ; Opening balances from 2025
-2026-01-01 opening balances  ; clopen:2026-closed
+2026-01-01 * opening balances  ; clopen:2026-closed
     Assets:Cash:EUR                              58.70 EUR = 58.70 EUR
     Equity:Opening-Balances                     -58.70 EUR
     Assets:FR:Bimpli                            104.33 EUR = 104.33 EUR

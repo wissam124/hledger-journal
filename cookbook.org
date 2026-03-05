@@ -311,7 +311,7 @@ balance held in the expense account.
 
 * Receivables
 ** Loans
-Suppose I lent money to someone and expect a refund later. This amount lent
+Suppose I lend money to someone and expect a refund later. The amount lent
 should be held in an receivables account.
 
 #+begin_src ledger

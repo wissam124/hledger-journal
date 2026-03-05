@@ -58,15 +58,19 @@
 * Revolut transactions
 2026-03-03 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:Revolut:Personal:EUR
 
 2026-03-03 * Transfer Alex sardine fest
     Expenses:Travel:Holidays                      10 EUR
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:Revolut:Personal:EUR
 
 2026-03-04 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:FR:BforBank:Compte-Courant
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-05 * La Poste
+    Expenses:Misc                               9.33 EUR
+    Assets:FR:Revolut:Personal:EUR
 
 * Liabilities/Receivables
 2026-03-03 * Jacques settlement

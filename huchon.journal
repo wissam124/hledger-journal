@@ -395,6 +395,19 @@ account Income:Notary                                                  ; type: R
     Assets:FR:CCF:Compte-Joint:Aurelie        -24.50 EUR
     Assets:FR:CCF:Compte-Joint:Jean           -24.50 EUR
 
+2026-03-02 * Virement Jean CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]       2032.46 EUR
+    [Stats:Funding]                         -2032.46 EUR
+    Assets:FR:CCF:Compte-Joint:Jean          2032.46 EUR
+    Equity:Capital:Huchon:Jean              -2032.46 EUR
+
+2026-02-28 * Virement Aurelie CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]        783.15 EUR
+    [Stats:Funding]                          -783.15 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie        783.15 EUR
+    Equity:Capital:Aurelie                   -783.15 EUR
+
+
 2026-03-04 * Virement notaire
     [Stats:Assets:FR:CCF:Compte-Joint]        490.38 EUR
     [Stats:Funding:External]                 -490.38 EUR

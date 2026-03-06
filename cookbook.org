@@ -369,5 +369,11 @@ hledger -f huchon.journal bal exp.*interest:jean
 hledger -f huchon.journal bal equity:.
 #+end_src
 
+* Useful commands
+** Report balance sheet with earnings retained on the fly
+#+begin_src sh
+hledger -f all.journal close --retain --clost-acct=Equity:Retained-Earnings | hledger -f all.journal -f - bse -I --layout=tall
+#+end_src
+
 * General ressources
 [[https://lalitm.com/post/one-number-i-trust/][One Number I Trust: Plain-Text Accounting for Multi-Currency Household]]

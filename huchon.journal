@@ -357,7 +357,8 @@ account Income:Notary                                                  ; type: R
 2026-01-26 * Charges de copropriete
     [Stats:Assets:FR:CCF:Compte-Joint]      -1730.03 EUR
     [Stats:Expenses:Property:ServiceCharges]  1730.03 EUR
-    Expenses:Property:ServiceCharges:Jean    1730.03 EUR
+    Expenses:Property:ServiceCharges:Jean     865.01 EUR
+    Expenses:Property:ServiceCharges:Aurelie  865.02 EUR
     Assets:FR:CCF:Compte-Joint:Jean         -1730.03 EUR
 
 2026-02-02 * Virement Jean CCF compte-joint

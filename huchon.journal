@@ -9,17 +9,17 @@ account Assets:FR:CCF:Compte-Joint:Aurelie                             ; type: C
 account Assets:Property:Aurelie                                        ; type: A
 account Assets:Property:Jean                                           ; type: A
 
-account Stats:Assets:Property
-account Stats:Assets:FR:CCF:Compte-Joint
-account Stats:Liabilities:FR:CCF:Mortgage
-account Stats:Expenses:Finance:Bank
-account Stats:Expenses:Finance:Mortgage
-account Stats:Expenses:Finance:Mortgage:Interest
-account Stats:Expenses:Finance:Mortgage:Insurance
-account Stats:Expenses:Home:Utilities:Electricity
-account Stats:Expenses:Property:ServiceCharges
-account Stats:Funding
-account Stats:Funding:External
+account Stats:Assets:Property                                          ; type: A
+account Stats:Assets:FR:CCF:Compte-Joint                               ; type: A
+account Stats:Liabilities:FR:CCF:Mortgage                              ; type: L
+account Stats:Expenses:Finance:Bank                                    ; type: X
+account Stats:Expenses:Finance:Mortgage                                ; type: X
+account Stats:Expenses:Finance:Mortgage:Interest                       ; type: X
+account Stats:Expenses:Finance:Mortgage:Insurance                      ; type: X
+account Stats:Expenses:Home:Utilities:Electricity                      ; type: X
+account Stats:Expenses:Property:ServiceCharges                         ; type: X
+account Stats:Funding                                                  ; type: E
+account Stats:Funding:External                                         ; type: R
 
 account Liabilities:FR:CCF:Mortgage:Jean                               ; type: L
 account Liabilities:FR:CCF:Mortgage:Aurelie                            ; type: L

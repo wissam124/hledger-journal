@@ -17,7 +17,7 @@
     Expenses:Home                              31.14 EUR
     Liabilities:FR:Amex:Gold
 
-2026-03-06 * Amex gold subscription
+n2026-03-06 * Amex gold subscription
     Expenses:Finance:CreditCard                   16 EUR
     Liabilities:FR:Amex:Gold
 
@@ -76,9 +76,30 @@
     Expenses:Entertainment:Social:Bars         33.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-06 * Transfer to CCF current account
+2026-03-07 * Transfer to CCF current account
     Assets:FR:CCF:Compte-Courant                1422 EUR
     Assets:FR:BforBank:Compte-Courant
+
+2026-03-07 * Cash withdrawal
+    Assets:Cash:EUR                               80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-07 * G20
+    Expenses:Food:Groceries                    33.83 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+* Cash transactions
+2026-03-07 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-03-07 * Cafe
+    Expenses:Food:Cafe                          1.50 EUR
+    Assets:Cash:EUR
+
+2026-03-07 * Therapy
+    Expenses:Health:Therapy                       60 EUR
+    Assets:Cash:EUR
 
 * CCF transactions
 2026-03-02 * Frais cotisation
@@ -101,6 +122,11 @@
 2026-03-05 * La Poste
     Expenses:Misc                               9.33 EUR
     Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-03-08 * Trasnsfer to Flexible Cash Funds
+    Assets:FR:Revolut:Personal:Flexible:GBP     2800 GBP
+    Assets:FR:Revolut:Personal:GBP
 
 * Liabilities/Receivables
 2026-03-03 * Jacques settlement

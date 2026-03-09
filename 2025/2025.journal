@@ -1,4 +1,4 @@
-include ../accounts.journal
+include accts25.journal
 include PLQQ25.journal
 include PGBP25.journal
 

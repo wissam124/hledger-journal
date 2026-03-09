@@ -1,4 +1,4 @@
-include ../accounts.journal
+include accts24.journal
 
 2024-03-31 * Opening balance BforBank Compte-Courant
     ; Set to match Apr'24-Sep-24 cumulated leftover cash

@@ -88,6 +88,11 @@
     Expenses:Food:Groceries                    33.83 EUR
     Assets:FR:BforBank:Compte-Courant
 
+* Bimpli transactions
+2026-03-09 * Loss of bimpli credits
+    Assets:FR:Bimpli                             = 0 EUR
+    Expenses:Taxes
+
 * Cash transactions
 2026-03-07 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR

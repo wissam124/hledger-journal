@@ -1,0 +1,22 @@
+;; -*- mode: ledger -*-
+#+hledger-lots avg_cost:false, check:true
+#+hledger-lots no_desc:
+include accounts.journal
+include PGBP.journal
+include PLQQ.journal
+include ./2024/2024.journal
+include ./2025/202501.journal
+include ./2025/202502.journal
+include ./2025/202503.journal
+include ./2025/202504.journal
+include ./2025/202505.journal
+include ./2025/202506.journal
+include ./2025/202507.journal
+include ./2025/202508.journal
+include ./2025/202509.journal
+include ./2025/202510.journal
+include ./2025/202511.journal
+include ./2025/202512.journal
+include ./2026/202601.journal
+include ./2026/202602.journal
+include ./2026/202603.journal

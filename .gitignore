@@ -4,6 +4,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
+# Notebooks
+.ipynb_checkpoints
+
 # Org-mode latex preview
 /ltximg
 

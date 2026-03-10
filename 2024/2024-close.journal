@@ -1,0 +1,82 @@
+2024-12-31 * retain earnings  ; retain:
+    Expenses:Cigarettes                          -1,935.48 EUR = 0.00 EUR
+    Expenses:Education                                -399 EUR = 0 EUR
+    Expenses:Entertainment                           -12.6 EUR = 0.0 EUR
+    Expenses:Entertainment:Events                      -56 EUR = 0 EUR
+    Expenses:Entertainment:Events:Cinema            -72.55 EUR = 0.00 EUR
+    Expenses:Entertainment:Events:Concerts         -111.65 EUR = 0.00 EUR
+    Expenses:Entertainment:Events:Sports            -243.6 EUR = 0.0 EUR
+    Expenses:Entertainment:Reading:Books             -38.9 EUR = 0.0 EUR
+    Expenses:Entertainment:Reading:Magazines         -16.2 EUR = 0.0 EUR
+    Expenses:Entertainment:Social:Bars            -1,098.1 EUR = 0.0 EUR
+    Expenses:GiftsCharity:Charity                     -105 EUR = 0 EUR
+    Expenses:GiftsCharity:Gifts                    -887.18 EUR = 0.00 EUR
+    Expenses:Home                                   -69.11 EUR = 0.00 EUR
+    Expenses:Home:Furniture                         -98.78 EUR = 0.00 EUR
+    Expenses:Home:Maintenance                      -270.70 EUR = 0.00 EUR
+    Expenses:Home:Rent                          -11,613.02 EUR = 0.00 EUR
+    Expenses:Home:Utilities:Electricity            -561.44 EUR = 0.00 EUR
+    Expenses:Home:Utilities:MobilePhone            -175.67 EUR = 0.00 EUR
+    Expenses:Misc                                  -101.29 EUR = 0.00 EUR
+    Expenses:Misc:Unaccounted                      -386.98 EUR = 0.00 EUR
+    Expenses:Resale                                 -19.41 EUR = 0.00 EUR
+    Expenses:Shopping                              -308.14 EUR = 0.00 EUR
+    Expenses:Shopping:Clothes                    -1,667.93 EUR = 0.00 EUR
+    Expenses:Shopping:Electronics                -2,675.31 EUR = 0.00 EUR
+    Expenses:Shopping:Sport                        -243.05 EUR = 0.00 EUR
+    Expenses:Subscriptions                          -28.64 EUR = 0.00 EUR
+    Expenses:Subscriptions:Software                -416.88 EUR = 0.00 EUR
+    Expenses:Taxes                                    -944 EUR = 0 EUR
+    Expenses:Finance:Bank                           -18.01 EUR = 0.00 EUR
+    Expenses:Finance:CreditCard                       -120 EUR = 0 EUR
+    Expenses:Food:Cafe                             -261.66 EUR = 0.00 EUR
+    Expenses:Food:Delivery                         -382.08 EUR = 0.00 EUR
+    Expenses:Food:FastFood                         -267.53 EUR = 0.00 EUR
+    Expenses:Food:Groceries                      -1,444.78 EUR = 0.00 EUR
+    Expenses:Food:OfficeLunch                      -156.48 EUR = 0.00 EUR
+    Expenses:Food:Restaurants                    -1,180.66 EUR = 0.00 EUR
+    Expenses:Food:Snack                            -456.30 EUR = 0.00 EUR
+    Expenses:Health:Doctor                            -200 EUR = 0 EUR
+    Expenses:Health:Gym                            -1,611. EUR = 0 EUR
+    Expenses:Health:Pharmacy                       -140.77 EUR = 0.00 EUR
+    Expenses:Health:Supplements                    -142.97 EUR = 0.00 EUR
+    Expenses:Health:Therapy                        -1,502. EUR = 0 EUR
+    Expenses:Insurance:Home                        -140.84 EUR = 0.00 EUR
+    Expenses:PersonalCare:Grooming                   -11.9 EUR = 0.0 EUR
+    Expenses:PersonalCare:Discretionary               -830 EUR = 0 EUR
+    Expenses:PersonalCare:Hair                      -777.8 EUR = 0.0 EUR
+    Expenses:PersonalCare:Tailoring                    -40 EUR = 0 EUR
+    Expenses:Transportation:Bikesharing            -113.91 EUR = 0.00 EUR
+    Expenses:Transportation:CarRental              -923.66 EUR = 0.00 EUR
+    Expenses:Transportation:PublicTransport        -829.67 EUR = 0.00 EUR
+    Expenses:Transportation:Taxi                   -191.63 EUR = 0.00 EUR
+    Expenses:Travel:Flights                           -642 EUR = 0 EUR
+    Expenses:Travel:Holidays                     -2,594.02 EUR = 0.00 EUR
+    Expenses:Travel:Train                             -265 EUR = 0 EUR
+    Income:Resale                                   205.28 EUR = 0.00 EUR
+    Income:Resale:Vinted                            238.25 EUR = 0.00 EUR
+    Income:FR:111Capital:Abondement              10,048.81 EUR = 0.00 EUR
+    Income:FR:111Capital:Participation            3,406.15 EUR = 0.00 EUR
+    Income:FR:111Capital:Salary                  44,242.35 EUR = 0.00 EUR
+    Income:FR:BforBank:LivretA                      353.08 EUR = 0.00 EUR
+    Equity:Retained-Earnings                    -18,692.64 EUR
+
+2024-12-31 * closing balances  ; clopen:2025
+    Assets:FR:BforBank:LivretA                        -12,017.78 EUR = 0.00 EUR
+    Assets:FR:BourseDirect:Cash                           -25.42 EUR = 0.00 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ         -1 LQQ @ 1,037.90 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ         -1 LQQ @ 1,082.90 EUR = 0 LQQ
+    Assets:FR:Epsor:PEI                               -54,886.46 EUR = 0.00 EUR
+    Assets:FR:Epsor:PER                               -35,962.29 EUR = 0.00 EUR
+    Assets:UK:Moneyfarm                               -48,795.22 GBP = 0.00 GBP
+    Equity:Retained-Earnings                           18,692.64 EUR = 0.00 EUR
+    Equity:Conversion:EUR-LQQ:EUR                      -2,120.80 EUR = 0.00 EUR
+    Equity:Conversion:EUR-LQQ:LQQ                              2 LQQ = 0 LQQ
+    Equity:UnrealisedCapitalGains:Moneyfarm             4,753.92 GBP = 0.00 GBP
+    Equity:UnrealisedCapitalGains:Epsor:PEI             6,646.10 EUR = 0.00 EUR
+    Equity:UnrealisedCapitalGains:Epsor:PER             1,242.42 EUR = 0.00 EUR
+    Equity:Opening-Balances                            78,431.59 EUR
+    Equity:Opening-Balances                            44,041.30 GBP
+    Equity:Opening-Balances                                   -2 LQQ
+    Equity:Opening-Balances                     1 LQQ @ 1,037.90 EUR
+    Equity:Opening-Balances                     1 LQQ @ 1,082.90 EUR

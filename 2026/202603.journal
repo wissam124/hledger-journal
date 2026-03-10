@@ -27,6 +27,22 @@
     Expenses:Food:Groceries                   -24.49 EUR
     Liabilities:Payables:Aurelie               24.49 EUR
 
+2026-03-07 * ChatGPT subscription
+    Expenses:Subscriptions:Software               23 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-09 ID Card Holder
+    Expenses:Misc                               2.29 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-09 Mop replacements
+    Expenses:Home:Maintenance                   8.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-09 Ikea table lamps
+    Expenses:Home:Furniture                    44.98
+    Liabilities:FR:Amex:Gold
+
 * Bforbank transactions
 2026-03-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.46 EUR
@@ -88,6 +104,35 @@
     Expenses:Food:Groceries                    33.83 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-09 * Transfer Revolut
+    Assets:FR:Revolut:Personal:EUR              2000 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-09 * Carrefour City
+    Expenses:Food:Snack                            2 EUR
+    Expenses:Food:Groceries                     7.23 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-09 * Le Bab
+    Expenses:Entertainment:Social:Bars         32.20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-09 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-09 * Tennis Ville de Paris
+    Expenses:Health:Sport:Tennis                  87 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-09 * Euromillions
+    Expenses:Entertainment                         5 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-09 * Transfer Revolut
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-03-09 * Loss of bimpli credits
     Assets:FR:Bimpli                             = 0 EUR
@@ -128,9 +173,23 @@
     Expenses:Misc                               9.33 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-03-09 * Transfer IBKR
+    Assets:FR:IBKR:CTO:Cash                     2000 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-09 * Tennis lesson Barcelona
+    Expenses:Health:Sport:Tennis                 100 EUR
+    Expenses:Health:Sport:Tennis                 -50 EUR
+    Expenses:GiftsCharity:Gifts                   50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Revolut GBP transactions
 2026-03-08 * Trasnsfer to Flexible Cash Funds
     Assets:FR:Revolut:Personal:Flexible:GBP     2800 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-03-09 * Lebara mobile
+    Expenses:Home:Utilities:MobilePhone            5 GBP
     Assets:FR:Revolut:Personal:GBP
 
 * Liabilities/Receivables

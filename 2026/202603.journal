@@ -174,7 +174,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-03-09 * Transfer IBKR
-    Assets:FR:IBKR:CTO:Cash                     2000 EUR
+    Assets:FR:IBKR:CTO:Cash:EUR                 2000 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-03-09 * Tennis lesson Barcelona
@@ -196,3 +196,12 @@
 2026-03-03 * Jacques settlement
     Assets:FR:BforBank:Compte-Courant         252.19 EUR
     Assets:Receivables
+
+* Investments
+2026-03-09 * Sell EUR for USD
+    Assets:FR:IBKR:CTO:Cash:USD              1282.63 USD @@ 1108.29 EUR
+    Assets:FR:IBKR:CTO:Cash:EUR
+
+2026-03-09 * Buy Venture Global
+    Assets:FR:IBKR:CTO:VG                        100 VG @@ 1282.63 USD
+    Assets:FR:IBKR:CTO:Cash:USD

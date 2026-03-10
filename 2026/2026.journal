@@ -1,9 +1,9 @@
 include accts26.journal
 include iaccts26.journal
+include comms26.journal
 include PLQQ26.journal
 include PGBP26.journal
 
-; Opening balances from 2025
 include 2026-open.journal
 include 202601.journal
 include 202602.journal

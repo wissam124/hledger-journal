@@ -1,0 +1,44 @@
+; Opening balances from 2025
+2026-01-01 * opening balances  ; clopen:2026
+    Assets:Cash:EUR                              58.70 EUR = 58.70 EUR
+    Equity:Opening-Balances                     -58.70 EUR
+    Assets:FR:Bimpli                            104.33 EUR = 104.33 EUR
+    Equity:Opening-Balances                    -104.33 EUR
+    Assets:FR:BforBank:Compte-Courant        81,321.65 EUR = 81,321.65 EUR
+    Equity:Opening-Balances                 -81,321.65 EUR
+    Assets:FR:BforBank:LivretA                   10.00 EUR = 10.00 EUR
+    Equity:Opening-Balances                     -10.00 EUR
+    Assets:FR:BourseDirect:Cash               1,093.92 EUR = 1,093.92 EUR
+    Equity:Opening-Balances                  -1,093.92 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ @ 1,597.70 EUR = 1 LQQ
+    Equity:Opening-Balances                          -1 LQQ @ 1,597.70 EUR
+    Assets:FR:BoursoBank:Compte-Courant          10.66 EUR = 10.66 EUR
+    Equity:Opening-Balances                     -10.66 EUR
+    Assets:FR:CCF:Compte-Courant              9,965.48 EUR = 9,965.48 EUR
+    Equity:Opening-Balances                  -9,965.48 EUR
+    Assets:FR:CCF:LDDS                           10.04 EUR = 10.04 EUR
+    Equity:Opening-Balances                     -10.04 EUR
+    Assets:FR:Epsor:PEI                      29,257.10 EUR = 29,257.10 EUR
+    Equity:Opening-Balances                 -29,257.10 EUR
+    Assets:FR:Epsor:PER                       9,317.01 EUR = 9,317.01 EUR
+    Equity:Opening-Balances                  -9,317.01 EUR
+    Assets:UK:Moneyfarm                           1.82 GBP = 1.82 GBP
+    Equity:Opening-Balances                      -1.82 GBP
+    Assets:UK:Revolut:Personal:EUR              275.43 EUR = 275.43 EUR
+    Equity:Opening-Balances                    -275.43 EUR
+    Assets:UK:Revolut:Personal:GBP            2,991.45 GBP = 2,991.45 GBP
+    Equity:Opening-Balances                  -2,991.45 GBP
+    Equity:Retained-Earnings               -135,864.12 EUR = -135,864.12 EUR
+    Equity:Opening-Balances                 135,864.12 EUR
+    Equity:Retained-Earnings                 -6,010.02 GBP = -6,010.02 GBP
+    Equity:Opening-Balances                   6,010.02 GBP
+    Equity:Conversion:EUR-LQQ:EUR             1,597.70 EUR = 1,597.70 EUR
+    Equity:Opening-Balances                  -1,597.70 EUR
+    Equity:Conversion:EUR-LQQ:LQQ                   -1 LQQ = -1 LQQ
+    Equity:Opening-Balances                          1 LQQ
+    Equity:Capital:Huchon:Jean              140,270.07 EUR = 140,270.07 EUR
+    Equity:Opening-Balances                -140,270.07 EUR
+    Liabilities:FR:Amex:Gold                 -4,125.65 EUR = -4,125.65 EUR
+    Equity:Opening-Balances                   4,125.65 EUR
+    Liabilities:Payables:Aurelie               -728.45 EUR = -728.45 EUR
+    Equity:Opening-Balances                     728.45 EUR

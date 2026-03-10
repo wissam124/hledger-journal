@@ -1,0 +1,134 @@
+2025-12-31 * retain earnings  ; retain:
+    Expenses:Cigarettes                           -3,368.30 EUR = 0.00 EUR
+    Expenses:Cigarettes                              -70.26 GBP = 0.00 GBP
+    Expenses:Education:Books                         -45.69 EUR = 0.00 EUR
+    Expenses:Entertainment                             -183 EUR = 0 EUR
+    Expenses:Entertainment:Digital                  -102.88 EUR = 0.00 EUR
+    Expenses:Entertainment:Events                   -330.80 EUR = 0.00 EUR
+    Expenses:Entertainment:Events:Cinema             -83.20 EUR = 0.00 EUR
+    Expenses:Entertainment:Events:Concerts               -3 EUR = 0 EUR
+    Expenses:Entertainment:Events:Sports            -361.44 EUR = 0.00 EUR
+    Expenses:Entertainment:Reading:Books              -8.90 EUR = 0.00 EUR
+    Expenses:Entertainment:Reading:Magazines          -5.90 EUR = 0.00 EUR
+    Expenses:Entertainment:Social:Bars            -1,962.33 EUR = 0.00 EUR
+    Expenses:Entertainment:Social:Bars               -16.70 GBP = 0.00 GBP
+    Expenses:Entertainment:Social:Sports            -346.41 EUR = 0.00 EUR
+    Expenses:Entertainment:Social:Sports                -80 GBP = 0 GBP
+    Expenses:GiftsCharity:Charity                    -23.59 EUR = 0.00 EUR
+    Expenses:GiftsCharity:Gifts                   -1,671.95 EUR = 0.00 EUR
+    Expenses:Home                                   -408.71 EUR = 0.00 EUR
+    Expenses:Home:Furniture                       -2,340.64 EUR = 0.00 EUR
+    Expenses:Home:Improvements                    -4,884.90 EUR = 0.00 EUR
+    Expenses:Home:Laundry                             -5.20 EUR = 0.00 EUR
+    Expenses:Home:Maintenance                     -2,964.56 EUR = 0.00 EUR
+    Expenses:Home:Rent                             -14,350. EUR = 0 EUR
+    Expenses:Home:Utilities:Electricity             -566.33 EUR = 0.00 EUR
+    Expenses:Home:Utilities:MobilePhone             -217.70 EUR = 0.00 EUR
+    Expenses:Home:Utilities:MobilePhone                 -10 GBP = 0 GBP
+    Expenses:Misc                                    -71.51 EUR = 0.00 EUR
+    Expenses:Misc                                     -0.20 GBP = 0.00 GBP
+    Expenses:Misc:Unaccounted                       -130.43 EUR = 0.00 EUR
+    Expenses:Resale                                   -4.33 EUR = 0.00 EUR
+    Expenses:Shopping                                -86.99 EUR = 0.00 EUR
+    Expenses:Shopping:Clothes                       -683.67 EUR = 0.00 EUR
+    Expenses:Shopping:Electronics                   -472.66 EUR = 0.00 EUR
+    Expenses:Shopping:Sport                         -788.49 EUR = 0.00 EUR
+    Expenses:Subscriptions                           -11.99 EUR = 0.00 EUR
+    Expenses:Subscriptions:Software                 -840.70 EUR = 0.00 EUR
+    Expenses:Subscriptions:Software                  -48.92 GBP = 0.00 GBP
+    Expenses:Taxes                                -2,483.05 EUR = 0.00 EUR
+    Expenses:Finance:ATM                              -4.70 EUR = 0.00 EUR
+    Expenses:Finance:Bank                            -35.50 EUR = 0.00 EUR
+    Expenses:Finance:Bank                             -7.99 GBP = 0.00 GBP
+    Expenses:Finance:CreditCard                        -189 EUR = 0 EUR
+    Expenses:Food:Cafe                              -708.05 EUR = 0.00 EUR
+    Expenses:Food:Cafe                               -27.61 GBP = 0.00 GBP
+    Expenses:Food:Delivery                          -718.13 EUR = 0.00 EUR
+    Expenses:Food:FastFood                          -353.06 EUR = 0.00 EUR
+    Expenses:Food:FastFood                           -23.90 GBP = 0.00 GBP
+    Expenses:Food:Groceries                       -2,110.82 EUR = 0.00 EUR
+    Expenses:Food:Groceries                          -35.95 GBP = 0.00 GBP
+    Expenses:Food:OfficeLunch                       -882.10 EUR = 0.00 EUR
+    Expenses:Food:Restaurants                     -2,062.84 EUR = 0.00 EUR
+    Expenses:Food:Snack                             -575.83 EUR = 0.00 EUR
+    Expenses:Food:Snack                                  -5 GBP = 0 GBP
+    Expenses:Health:Doctor                          -159.38 EUR = 0.00 EUR
+    Expenses:Health:Eye                                -310 EUR = 0 EUR
+    Expenses:Health:Gym                           -2,499.09 EUR = 0.00 EUR
+    Expenses:Health:Gym                                  -1 GBP = 0 GBP
+    Expenses:Health:Pharmacy                        -181.21 EUR = 0.00 EUR
+    Expenses:Health:Sport                              -110 EUR = 0 EUR
+    Expenses:Health:Sport:Tennis                    -1,925. EUR = 0 EUR
+    Expenses:Health:Therapy                         -2,280. EUR = 0 EUR
+    Expenses:Insurance:Home                         -260.61 EUR = 0.00 EUR
+    Expenses:PersonalCare:Discretionary             -2,950. EUR = 0 EUR
+    Expenses:PersonalCare:Hair                      -585.93 EUR = 0.00 EUR
+    Expenses:PersonalCare:Laundry                        -8 EUR = 0 EUR
+    Expenses:PersonalCare:Tailoring                     -10 EUR = 0 EUR
+    Expenses:Transportation:Bikesharing             -311.25 EUR = 0.00 EUR
+    Expenses:Transportation:CarRental               -908.31 EUR = 0.00 EUR
+    Expenses:Transportation:PublicTransport       -1,099.04 EUR = 0.00 EUR
+    Expenses:Transportation:PublicTransport          -38.51 GBP = 0.00 GBP
+    Expenses:Transportation:Taxi                    -413.91 EUR = 0.00 EUR
+    Expenses:Transportation:Toll                      -2.50 EUR = 0.00 EUR
+    Expenses:Travel:Flights                         -1,399. EUR = 0 EUR
+    Expenses:Travel:Holidays                      -1,345.93 EUR = 0.00 EUR
+    Expenses:Travel:Holidays:Accommodation        -1,546.74 EUR = 0.00 EUR
+    Expenses:Travel:Train                              -677 EUR = 0 EUR
+    Income:Resale                                       300 EUR = 0 EUR
+    Income:Resale:Vinted                             162.25 EUR = 0.00 EUR
+    Income:CapitalGains:Moneyfarm                  6,376.06 GBP = 0.00 GBP
+    Income:CapitalGains:BourseDirect                 545.40 EUR = 0.00 EUR
+    Income:CapitalGains:Epsor:PEI                  8,754.21 EUR = 0.00 EUR
+    Income:CapitalGains:Epsor:PER                  2,636.17 EUR = 0.00 EUR
+    Income:FR:111Capital:Abondement               10,210.51 EUR = 0.00 EUR
+    Income:FR:111Capital:Interessement            22,546.10 EUR = 0.00 EUR
+    Income:FR:111Capital:Participation             5,817.50 EUR = 0.00 EUR
+    Income:FR:111Capital:Salary                  132,631.48 EUR = 0.00 EUR
+    Income:FR:CCF:LivretA                              0.04 EUR = 0.00 EUR
+    Equity:Retained-Earnings                    -117,171.48 EUR
+    Equity:Retained-Earnings                      -6,010.02 GBP
+
+2025-12-31 * closing balances  ; clopen:2026
+    Assets:Cash:EUR                           -58.70 EUR = 0.00 EUR
+    Equity:Opening-Balances                    58.70 EUR
+    Assets:FR:Bimpli                         -104.33 EUR = 0.00 EUR
+    Equity:Opening-Balances                   104.33 EUR
+    Assets:FR:BforBank:Compte-Courant     -81,321.65 EUR = 0.00 EUR
+    Equity:Opening-Balances                81,321.65 EUR
+    Assets:FR:BforBank:LivretA                -10.00 EUR = 0.00 EUR
+    Equity:Opening-Balances                    10.00 EUR
+    Assets:FR:BourseDirect:Cash            -1,093.92 EUR = 0.00 EUR
+    Equity:Opening-Balances                 1,093.92 EUR
+    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1,597.70 EUR = 0 LQQ
+    Equity:Opening-Balances                        1 LQQ @ 1,597.70 EUR
+    Assets:FR:BoursoBank:Compte-Courant       -10.66 EUR = 0.00 EUR
+    Equity:Opening-Balances                    10.66 EUR
+    Assets:FR:CCF:Compte-Courant           -9,965.48 EUR = 0.00 EUR
+    Equity:Opening-Balances                 9,965.48 EUR
+    Assets:FR:CCF:LDDS                        -10.04 EUR = 0.00 EUR
+    Equity:Opening-Balances                    10.04 EUR
+    Assets:FR:Epsor:PEI                   -29,257.10 EUR = 0.00 EUR
+    Equity:Opening-Balances                29,257.10 EUR
+    Assets:FR:Epsor:PER                    -9,317.01 EUR = 0.00 EUR
+    Equity:Opening-Balances                 9,317.01 EUR
+    Assets:UK:Moneyfarm                        -1.82 GBP = 0.00 GBP
+    Equity:Opening-Balances                     1.82 GBP
+    Assets:UK:Revolut:Personal:EUR           -275.43 EUR = 0.00 EUR
+    Equity:Opening-Balances                   275.43 EUR
+    Assets:UK:Revolut:Personal:GBP         -2,991.45 GBP = 0.00 GBP
+    Equity:Opening-Balances                 2,991.45 GBP
+    Equity:Retained-Earnings              135,864.12 EUR = 0.00 EUR
+    Equity:Opening-Balances              -135,864.12 EUR
+    Equity:Retained-Earnings                6,010.02 GBP = 0.00 GBP
+    Equity:Opening-Balances                -6,010.02 GBP
+    Equity:Conversion:EUR-LQQ:EUR          -1,597.70 EUR = 0.00 EUR
+    Equity:Opening-Balances                 1,597.70 EUR
+    Equity:Conversion:EUR-LQQ:LQQ                  1 LQQ = 0 LQQ
+    Equity:Opening-Balances                       -1 LQQ
+    Equity:Capital:Huchon:Jean           -140,270.07 EUR = 0.00 EUR
+    Equity:Opening-Balances               140,270.07 EUR
+    Liabilities:FR:Amex:Gold                4,125.65 EUR = 0.00 EUR
+    Equity:Opening-Balances                -4,125.65 EUR
+    Liabilities:Payables:Aurelie              728.45 EUR = 0.00 EUR
+    Equity:Opening-Balances                  -728.45 EUR

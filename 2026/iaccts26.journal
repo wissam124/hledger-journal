@@ -1,0 +1,5 @@
+; Investments accounts
+account Assets:FR:IBKR:PEA:Cash     ; type: A
+account Assets:FR:IBKR:PEA          ; type: A
+account Assets:FR:IBKR:CTO:Cash     ; type: C
+account Assets:FR:IBKR:CTO:VG       ; type: A

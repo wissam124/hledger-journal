@@ -1,9 +1,6 @@
 ;; -*- mode: ledger -*-
 #+hledger-lots avg_cost:false, check:true
 #+hledger-lots no_desc:
-include accounts.journal
-include PGBP.journal
-include PLQQ.journal
-include ./2024/2024-closed.journal
-include ./2025/2025-closed.journal
+include ./2024/2024.journal
+include ./2025/2025.journal
 include ./2026/2026.journal

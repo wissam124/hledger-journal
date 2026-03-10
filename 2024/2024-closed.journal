@@ -1,5 +1,3 @@
-include accts24.journal
-
 2024-03-31 * Opening balance BforBank Compte-Courant
     ; Set to match Apr'24-Sep-24 cumulated leftover cash
     Assets:FR:BforBank:Compte-Courant     -221.92 EUR  ; negative balance
@@ -3775,32 +3773,3 @@ include accts24.journal
     Income:FR:111Capital:Salary                  44,242.35 EUR = 0.00 EUR
     Income:FR:BforBank:LivretA                      353.08 EUR = 0.00 EUR
     Equity:Retained-Earnings                    -18,692.64 EUR
-
-
-2024-12-31 * closing balances  ; clopen:2025-closed
-    Assets:FR:BforBank:LivretA                        -12,017.78 EUR = 0.00 EUR
-    Equity:Opening-Balances                            12,017.78 EUR
-    Assets:FR:BourseDirect:Cash                           -25.42 EUR = 0.00 EUR
-    Equity:Opening-Balances                                25.42 EUR
-    Assets:FR:BourseDirect:PEA:ETF:LQQ         -1 LQQ @ 1,037.90 EUR
-    Equity:Opening-Balances                     1 LQQ @ 1,037.90 EUR
-    Assets:FR:BourseDirect:PEA:ETF:LQQ         -1 LQQ @ 1,082.90 EUR = 0 LQQ
-    Equity:Opening-Balances                     1 LQQ @ 1,082.90 EUR
-    Assets:FR:Epsor:PEI                               -54,886.46 EUR = 0.00 EUR
-    Equity:Opening-Balances                            54,886.46 EUR
-    Assets:FR:Epsor:PER                               -35,962.29 EUR = 0.00 EUR
-    Equity:Opening-Balances                            35,962.29 EUR
-    Assets:UK:Moneyfarm                               -48,795.22 GBP = 0.00 GBP
-    Equity:Opening-Balances                            48,795.22 GBP
-    Equity:Retained-Earnings                           18,692.64 EUR = 0.00 EUR
-    Equity:Opening-Balances                           -18,692.64 EUR
-    Equity:Conversion:EUR-LQQ:EUR                      -2,120.80 EUR = 0.00 EUR
-    Equity:Opening-Balances                             2,120.80 EUR
-    Equity:Conversion:EUR-LQQ:LQQ                              2 LQQ = 0 LQQ
-    Equity:Opening-Balances                                   -2 LQQ
-    Equity:UnrealisedCapitalGains:Moneyfarm             4,753.92 GBP = 0.00 GBP
-    Equity:Opening-Balances                            -4,753.92 GBP
-    Equity:UnrealisedCapitalGains:Epsor:PEI             6,646.10 EUR = 0.00 EUR
-    Equity:Opening-Balances                            -6,646.10 EUR
-    Equity:UnrealisedCapitalGains:Epsor:PER             1,242.42 EUR = 0.00 EUR
-    Equity:Opening-Balances                            -1,242.42 EUR

@@ -430,3 +430,12 @@ account Income:Notary                                                  ; type: R
     Liabilities:FR:CCF:Mortgage:Jean          858.39 EUR
     Expenses:Finance:Mortgage:Interest:Jean  1053.10 EUR
     Expenses:Finance:Mortgage:Insurance:Jean  120.97 EUR
+
+
+2026-03-09 * Facture EDF
+    [Stats:Assets:FR:CCF:Compte-Joint]           -49 EUR
+    [Stats:Expenses:Home:Utilities:Electricity]   49 EUR
+    Expenses:Home:Utilities:Electricity:Aurelie  24.50 EUR
+    Expenses:Home:Utilities:Electricity:Jean   24.50 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie        -24.50 EUR
+    Assets:FR:CCF:Compte-Joint:Jean           -24.50 EUR

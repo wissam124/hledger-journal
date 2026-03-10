@@ -9,8 +9,8 @@ drop the time dependence and set $N$ to $$\underset{u \leq t}{\sup N(u)}$$.
 At a given time $t$, a transaction $j$ is defined as $\Delta_{j,t} =
 (\Delta^i_{j,t})_{1 \leq i \leq N}$ where $\Delta^i_{j,t}$ is the
 transaction's posting against account $i$ at time $t$.  The fundamental
-accounting equation requires that the transaction is balanced i.e.: $$\forall j
-\sum_{i=1}^N\Delta^i_{j,t} = 0$$
+accounting equation requires that the transaction is balanced i.e.: for a
+transaction $j$ occurring at time $t$ we have $$\sum_{i=1}^N\Delta^i_{j,t} = 0$$
 
 At a given time $t$, there can be $n$ multiple transactions. For simplicity,
 let's roll all postings to the same account $i$ at time $t$ into a single

@@ -45,6 +45,14 @@
     Liabilities:FR:Amex:Gold                  -44.98 EUR
     Liabilities:Payables:Aurelie               22.49 EUR
 
+2026-03-10 * Shower gel
+    Expenses:Home                               9.57 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-11 * GS01 Pen
+    Expenses:Misc                               9.42 EUR
+    Liabilities:FR:Amex:Gold
+
 * Bforbank transactions
 2026-03-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.46 EUR
@@ -135,6 +143,22 @@
     Assets:FR:Revolut:Personal:EUR               100 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-10 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-10 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-11 * Fitness Park
+    Expenses:Health:Gym                        53.96 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-11 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-03-09 * Loss of bimpli credits
     Assets:FR:Bimpli                             = 0 EUR
@@ -183,6 +207,14 @@
     Expenses:Health:Sport:Tennis                 100 EUR
     Expenses:Health:Sport:Tennis                 -50 EUR
     Expenses:GiftsCharity:Gifts                   50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-10 * Refael Paz
+    Expenses:Health:Sport                      84.64 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-11 * Pay Alex
+    Expenses:Travel:Holidays                      76 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

@@ -31,15 +31,15 @@
     Expenses:Subscriptions:Software               23 EUR
     Liabilities:FR:Amex:Gold
 
-2026-03-09 ID Card Holder
+2026-03-09 * ID Card Holder
     Expenses:Misc                               2.29 EUR
     Liabilities:FR:Amex:Gold
 
-2026-03-09 Mop replacements
+2026-03-09 * Mop replacements
     Expenses:Home:Maintenance                   8.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-03-09 Ikea table lamps
+2026-03-09 * Ikea table lamps
     Expenses:Home:Furniture                    44.98 EUR
     Expenses:Home:Furniture                   -22.49 EUR
     Liabilities:FR:Amex:Gold                  -44.98 EUR
@@ -51,6 +51,20 @@
 
 2026-03-11 * GS01 Pen
     Expenses:Misc                               9.42 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-13 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-03-13 * Deliveroo
+    Expenses:Food:Delivery                     13.78 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-14 * Deliveroo
+    Expenses:Food:Delivery                     19.25 EUR
     Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
@@ -159,6 +173,46 @@
     Assets:FR:Revolut:Personal:EUR               100 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-11 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-11 * Google One
+    Expenses:Subscriptions:CloudStorage        19.99 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-11 * Aldi
+    Expenses:Food:Groceries                       11 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-12 * Franprix
+    Expenses:Food:Groceries                    11.84 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-13 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-13 * Drinks  ; aurelie:
+    Expenses:Entertainment:Social:Bars             7 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-14 * 4padel Paris 20
+    Expenses:Entertainment:Social:Sports          68 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-14 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-14 * Fisherman's Friend
+    Expenses:Food:Snack                         2.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-14 * Pret
+    Expenses:Food:Snack                        12.20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-03-09 * Loss of bimpli credits
     Assets:FR:Bimpli                             = 0 EUR
@@ -180,6 +234,10 @@
 * CCF transactions
 2026-03-02 * Frais cotisation
     Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-03-12 * Amex settlement
+    Liabilities:FR:Amex:Gold                    1422 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
@@ -215,6 +273,22 @@
 
 2026-03-11 * Pay Alex
     Expenses:Travel:Holidays                      76 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-12 * Cafe
+    Expenses:Food:Cafe                          1.80 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-14 * Maison B&b
+    Expenses:Food:Cafe                          3.20 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-15 * Lockit
+    Expenses:GiftsCharity:Charity               1.49 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-16 * Carrefour City
+    Expenses:Food:Groceries                     9.22 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

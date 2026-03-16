@@ -4,3 +4,5 @@ account Assets:FR:IBKR:PEA              ; type: A
 account Assets:FR:IBKR:CTO:Cash:EUR     ; type: C
 account Assets:FR:IBKR:CTO:Cash:USD     ; type: C
 account Assets:FR:IBKR:CTO:VG           ; type: A
+
+account Assets:FR:BourseDirect:PEA:ETF:WPEA  ; type: A

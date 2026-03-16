@@ -218,6 +218,11 @@
     Assets:FR:Bimpli                             = 0 EUR
     Expenses:Taxes
 
+* Bourse direct
+2026-03-12 * Buy WPEA
+    Assets:FR:BourseDirect:PEA:ETF:WPEA          176 WPEA @@ 1085.30 EUR
+    Assets:FR:BourseDirect:Cash
+
 * Cash transactions
 2026-03-07 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR

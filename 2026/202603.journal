@@ -213,6 +213,14 @@
     Expenses:Food:Snack                        12.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-16 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-17 * Au P'tit Caprice
+    Expenses:Food:OfficeLunch                     11 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-03-09 * Loss of bimpli credits
     Assets:FR:Bimpli                             = 0 EUR
@@ -234,6 +242,14 @@
 
 2026-03-07 * Therapy
     Expenses:Health:Therapy                       60 EUR
+    Assets:Cash:EUR
+
+2026-03-17 * Drinks Le Trouville
+    Expenses:Entertainment:Social:Bars             7 EUR
+    Assets:Cash:EUR
+
+2026-03-17 * Give cash to Aurelie  ; aurelie:
+    Expenses:GiftsCharity:Gifts                    3 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -296,6 +312,10 @@
     Expenses:Food:Groceries                     9.22 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-03-18 * Pharmacie  ; aurelie:
+    Expenses:Health:Pharmacy                    8.90 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Revolut GBP transactions
 2026-03-08 * Trasnsfer to Flexible Cash Funds
     Assets:FR:Revolut:Personal:Flexible:GBP     2800 GBP
@@ -303,6 +323,10 @@
 
 2026-03-09 * Lebara mobile
     Expenses:Home:Utilities:MobilePhone            5 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-03-18 * Trasnsfer to Flexible Cash Funds
+    Assets:FR:Revolut:Personal:Flexible:GBP      100 GBP
     Assets:FR:Revolut:Personal:GBP
 
 * Liabilities/Receivables

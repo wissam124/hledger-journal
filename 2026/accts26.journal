@@ -10,6 +10,7 @@ tag aurelie
 tag claim-tax
 tag flat-vincennes
 tag per-tax-deferred
+tag bcn-trip
 
 ; Assets: things I own (cash, bank account, investments)
 account Assets:Cash:EUR                           ; type: C
@@ -44,6 +45,7 @@ account Assets:Receivables:Florent                ; type: A
 ; Liabilities: money I owe (loans, credit card debt, etc.)
 account Liabilities:FR:Amex:Gold                  ; type: L
 account Liabilities:FR:CCF:Mortgage               ; type: L
+account Liabilities:Payables                      ; type: L
 account Liabilities:Payables:Aurelie              ; type: L
 account Liabilities:Payables:Glenn                ; type: L
 account Liabilities:Payables:Iskander             ; type: L

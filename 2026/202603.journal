@@ -41,9 +41,9 @@
 
 2026-03-09 * Ikea table lamps
     Expenses:Home:Furniture                    44.98 EUR
-    Expenses:Home:Furniture                   -22.49 EUR
+    Expenses:Home:Furniture                   -22.48 EUR
     Liabilities:FR:Amex:Gold                  -44.98 EUR
-    Liabilities:Payables:Aurelie               22.49 EUR
+    Liabilities:Payables:Aurelie               22.48 EUR
 
 2026-03-10 * Shower gel
     Expenses:Home                               9.57 EUR
@@ -221,6 +221,91 @@
     Expenses:Food:OfficeLunch                     11 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-18 * Cigarettes
+    Expenses:Cigarettes                        13.80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-18 * Franprix
+    Expenses:Food:Groceries                     9.54 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-19 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean                596.79 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-20 * McDonald's
+    Expenses:Food:FastFood                     31.70 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-20 * Cash withdrawal
+    Assets:Cash:EUR                              120 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-21 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               150 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-21 * Mp Exptravesse  ; bcn-trip:
+    Expenses:Misc:Unaccounted                   8.55 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-21 * Gats restaurant  ; aurelie:bcn-trip:
+    Expenses:Food:Restaurants                  68.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-21 * Sweet Lima  ; aurelie:bcn-trip:
+    Expenses:Food:Cafe                          7.10 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-21 * Cent X 100 Laie drinks tennis club bcn  ; aurelie:bcn-trip:
+    Expenses:Entertainment:Social:Bars          6.35 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-21 * Metro Barcelona  ; aurelie:bcn-trip:
+    Expenses:Transportation:PublicTransport     7.80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-22 * Almanac Barcelona  ; aurelie:bcn-trip:
+    Expenses:Entertainment:Social:Bars            25 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-22 * Hotel Pulitzer  ; aurelie:bcn-trip:
+    Expenses:Entertainment:Social:Bars            29 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-22 * Cash withdrawal
+    Assets:Cash:EUR                               50 EUR
+    Expenses:Finance:ATM                        2.65 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-22 * Balcon de Miram ice cream  ; aurelie:bcn-trip:
+    Expenses:Food:Snack                           10 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-23 * McDonald's  ;bcn-trip:
+    Expenses:Food:FastFood                     15.60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-23 * Ptx Telefe Montjuic  ; bcn-trip:
+    Expenses:Transportation:PublicTransport       24 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-23 * Aelia Aerop Bar  ; bcn-trip:
+    Expenses:Food:Snack                         9.73 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-23 * Ticket Orly-Paris  ; bcn-trip
+    Expenses:Transportation:PublicTransport       14 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-23 * Transfer from Jacques  ; bcn-trip:
+    Assets:FR:BforBank:Compte-Courant             86 EUR
+    Liabilities:Payables
+
+2026-03-24 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-03-09 * Loss of bimpli credits
     Assets:FR:Bimpli                             = 0 EUR
@@ -250,6 +335,34 @@
 
 2026-03-17 * Give cash to Aurelie  ; aurelie:
     Expenses:GiftsCharity:Gifts                    3 EUR
+    Assets:Cash:EUR
+
+2026-03-19 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash:EUR
+
+2026-03-20 * Cigarettes
+    Expenses:Cigarettes                         6.25 EUR
+    Assets:Cash:EUR
+
+2026-03-20 * Water bottle
+    Expenses:Food:Snack                         1.95 EUR
+    Assets:Cash:EUR
+
+2026-03-20 * Charity barceloneta
+    Expenses:GiftsCharity:Charity               0.50 EUR
+    Assets:Cash:EUR
+
+2026-03-21 * Cigarettes
+    Expenses:Cigarettes                         6.25 EUR
+    Assets:Cash:EUR
+
+2026-03-22 * Cigarettes
+    Expenses:Cigarettes                         6.25 EUR
+    Assets:Cash:EUR
+
+2026-03-23 * Baguette
+    Expenses:Food:Groceries                     1.35 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -316,6 +429,62 @@
     Expenses:Health:Pharmacy                    8.90 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-03-19 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-19 * Fisherman's Friend
+    Expenses:Food:Snack                            2 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-19 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-20 * Ticket Orly-Paris  ; bcn-trip:
+    Expenses:Transportation:PublicTransport       14 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-21 * Cooltra  ; bcn-trip:
+    Expenses:Transportation:Bikesharing         7.84 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-21 * Cafe Barceloneta  ; aurelie:bcn-trip:
+    Expenses:Food:Cafe                          6.05 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-21 * Kiosco Pasarela  ; bcn-trip:
+    Expenses:Food:Snack                         6.70 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-22 * Cooltra  ; bcn-trip
+    Expenses:Transportation:Bikesharing         2.80 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-22 * Aerobus Barcelona  ; bcn-trip:
+    Expenses:Transportation:PublicTransport    15.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-22 * Franprix
+    Expenses:Food:Groceries                    24.91 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-23 * Ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-23 * Ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-23 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-26 * Transfer to Alex on behalf of Jacques
+    Liabilities:Payables                          86 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Revolut GBP transactions
 2026-03-08 * Trasnsfer to Flexible Cash Funds
     Assets:FR:Revolut:Personal:Flexible:GBP     2800 GBP
@@ -329,10 +498,26 @@
     Assets:FR:Revolut:Personal:Flexible:GBP      100 GBP
     Assets:FR:Revolut:Personal:GBP
 
+2026-03-20 * Donkey Republic
+    Expenses:Transportation:Bikesharing         3.47 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-03-20 * TMB
+    Expenses:Transportation:PublicTransport     2.53 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-03-20 * TMB
+    Expenses:Transportation:PublicTransport     2.56 GBP
+    Assets:FR:Revolut:Personal:GBP
+
 * Liabilities/Receivables
 2026-03-03 * Jacques settlement
     Assets:FR:BforBank:Compte-Courant         252.19 EUR
     Assets:Receivables
+
+2026-03-18 * Aurelie's settlement
+    Assets:FR:BforBank:Compte-Courant         985.82 EUR
+    Liabilities:Payables:Aurelie
 
 * Investments
 2026-03-09 * Sell EUR for USD

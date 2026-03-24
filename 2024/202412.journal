@@ -410,7 +410,7 @@
     Income:FR:BforBank:LivretA               -353.08 EUR
 
 2024-12-31 * Unaccounted expenses
-    Expenses:Misc:Unaccounted                  54.49 EUR
+    Expenses:Misc:Unclassified                  54.49 EUR
     Assets:FR:BforBank:Compte-Courant         -54.49 EUR
 
 2024-12-31 * Transfer Livret

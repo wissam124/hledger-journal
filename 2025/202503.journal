@@ -8,7 +8,7 @@
     Equity:Opening-Balances
 
 2025-03-01 * BforBank adjustment
-    Expenses:Misc:Unaccounted                   7.52 EUR
+    Expenses:Misc:Unclassified                   7.52 EUR
     Assets:FR:BforBank:Compte-Courant
 
 ; Boursobank expenses

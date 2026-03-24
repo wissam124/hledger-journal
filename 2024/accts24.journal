@@ -136,7 +136,7 @@ account Expenses:Home:Vincennes:ServiceCharges             ; type: X
 account Expenses:Insurance:Health                          ; type: X
 account Expenses:Insurance:Home                            ; type: X
 account Expenses:Misc                                      ; type: X
-account Expenses:Misc:Unaccounted                          ; type: X
+account Expenses:Misc:Unclassified                         ; type: X
 account Expenses:PersonalCare:Grooming                     ; type: X
 account Expenses:PersonalCare:Discretionary                ; type: X
 account Expenses:PersonalCare:Hair                         ; type: X

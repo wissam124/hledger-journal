@@ -453,7 +453,7 @@
     Assets:FR:BforBank:Compte-Courant        -150 EUR
 
 2025-02-28 * Unaccounted expenses
-    Expenses:Misc:Unaccounted                  23.27 EUR
+    Expenses:Misc:Unclassified                  23.27 EUR
     Assets:FR:BforBank:Compte-Courant         -23.27 EUR
 
 ; Amex expenses

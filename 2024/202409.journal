@@ -413,7 +413,7 @@
     Assets:FR:BforBank:Compte-Courant          -17 EUR
 
 2024-09-30 * Unaccounted expenses
-    Expenses:Misc:Unaccounted                  28.36 EUR
+    Expenses:Misc:Unclassified                  28.36 EUR
     Assets:FR:BforBank:Compte-Courant         -28.36 EUR
 
 ; Manual entries

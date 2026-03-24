@@ -93,7 +93,7 @@
     Assets:Cash:EUR
 
 2025-09-30 * Unaccounted cash expenses
-    Expenses:Misc:Unaccounted              24.25 EUR
+    Expenses:Misc:Unclassified              24.25 EUR
     Assets:Cash:EUR
 
 * Bimpli meal card
@@ -123,7 +123,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-01 * Kosiavas Koyzio
-    Expenses:Misc:Unaccounted               4.50 EUR
+    Expenses:Misc:Unclassified               4.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-02 * Rent Citeaux
@@ -135,7 +135,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-02 * 121006187
-    Expenses:Misc:Unaccounted              22.95 EUR
+    Expenses:Misc:Unclassified              22.95 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-05 * ChatGPT subscription for mum

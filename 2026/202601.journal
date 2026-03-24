@@ -260,7 +260,7 @@
 
 2026-01-23 * Cash balance assertion
     Assets:Cash:EUR                         == 12.11 EUR
-    Expenses:Misc:Unaccounted
+    Expenses:Misc:Unclassified
 
 2026-01-24 * Cafe
     Expenses:Food:Cafe                          2.30 EUR

@@ -1,2 +1,2 @@
-((ledger-mode . ((ledger-accounts-file . ("~/Syncthing/finance/2026/accts26.journal"
-                                          "~/Syncthing/finance/2026/iaccts26.journal")))))
+((ledger-mode . ((ledger-accounts-file . ("./accts26.journal"
+                                          "./iaccts26.journal")))))

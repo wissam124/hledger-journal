@@ -365,6 +365,10 @@
     Expenses:Food:Groceries                     1.35 EUR
     Assets:Cash:EUR
 
+2026-03-23 * Manual adjustment for cash balance
+    Expenses:Misc:Unclassified                 22.99 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-03-02 * Frais cotisation
     Expenses:Finance:Bank                       8.75 EUR

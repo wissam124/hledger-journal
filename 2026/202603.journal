@@ -67,6 +67,20 @@
     Expenses:Food:Delivery                     19.25 EUR
     Liabilities:FR:Amex:Gold
 
+2026-03-20 * Powerbeats
+    Expenses:Shopping:Electronics             150.19 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-20 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-03-20 * Breakfast Orly  ; bcn-trip:
+    Expenses:Food:Snack                        15.05 EUR
+    Liabilities:FR:Amex:Gold
+
 * Bforbank transactions
 2026-03-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.46 EUR
@@ -298,12 +312,16 @@
     Expenses:Transportation:PublicTransport       14 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-23 * Transfer from Jacques  ; bcn-trip:
+2026-03-24 * Transfer from Jacques
     Assets:FR:BforBank:Compte-Courant             86 EUR
     Liabilities:Payables
 
 2026-03-24 * Transfer to Revolut
     Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-24 * Veterinaire
+    Liabilities:Payables:Aurelie               49.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Bimpli transactions

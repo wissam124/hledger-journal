@@ -503,8 +503,37 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-26 * Transfer to Alex on behalf of Jacques
+2026-03-24 * Transfer to Alex on behalf of Jacques
     Liabilities:Payables                          86 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-24 * Le Petit Gourmet
+    Expenses:Food:OfficeLunch                  20.26 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-24 * Carrefour
+    Expenses:Food:Groceries                     8.59 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-25 * Torbox
+    Expenses:Subscriptions:Streaming            4.34 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-26 * Carrefour
+    Expenses:Home:Maintenance                   4.50 EUR
+    Expenses:Food:Snack                         5.33 EUR
+    Assets:FR:Revolut:Personal:EUR             -9.83 EUR
+
+2026-03-26 * Ajc Conc.aut
+    Expenses:Home:Laundry                       6.60 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-26 * Ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-26 * Ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

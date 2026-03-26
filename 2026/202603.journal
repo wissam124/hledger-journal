@@ -396,6 +396,10 @@
     Liabilities:FR:Amex:Gold                    1422 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-03-23 * Navigo Liberte
+    Expenses:Transportation:PublicTransport    75.08 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut transactions
 2026-03-03 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR

@@ -81,6 +81,10 @@
     Expenses:Food:Snack                        15.05 EUR
     Liabilities:FR:Amex:Gold
 
+2026-03-27 Kobo
+    Expenses:Shopping:Electronics             159.23 EUR
+    Liabilities:FR:Amex:Gold
+
 * Bforbank transactions
 2026-03-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.46 EUR
@@ -324,6 +328,18 @@
     Liabilities:Payables:Aurelie               49.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-28 * Le 164
+    Expenses:Entertainment:Social:Bars         10.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-28 * Cash withdrawal
+    Assets:Cash:EUR                              120 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-03-09 * Loss of bimpli credits
     Assets:FR:Bimpli                             = 0 EUR
@@ -385,6 +401,26 @@
 
 2026-03-23 * Manual adjustment for cash balance
     Expenses:Misc:Unclassified                 22.99 EUR
+    Assets:Cash:EUR
+
+2026-03-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-03-27 * Tennis lesson with Joris
+    Expenses:Health:Sport:Tennis                  40 EUR
+    Assets:Cash:EUR
+
+2026-03-27 * Lunch with Florent
+    Expenses:Food:Restaurants                     20 EUR
+    Assets:Cash:EUR
+
+2026-03-28 * Cafe  ; aurelie:
+    Expenses:Food:Cafe                          8.20 EUR
+    Assets:Cash:EUR
+
+2026-03-28 * Therapy
+    Expenses:Health:Therapy                       60 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -538,6 +574,10 @@
 
 2026-03-26 * Ajc Conc.aut
     Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-27 * Master Poulet
+    Expenses:Food:FastFood                      8.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

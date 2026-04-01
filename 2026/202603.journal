@@ -81,8 +81,18 @@
     Expenses:Food:Snack                        15.05 EUR
     Liabilities:FR:Amex:Gold
 
-2026-03-27 Kobo
+2026-03-27 * Kobo
     Expenses:Shopping:Electronics             159.23 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-03-29 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-03-31 * Deliveroo
+    Expenses:Food:Delivery                     32.59 EUR
     Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
@@ -340,6 +350,18 @@
     Assets:Cash:EUR                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-03-30 * Cash withdrawal
+    Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-30 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-03-31 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bimpli transactions
 2026-03-09 * Loss of bimpli credits
     Assets:FR:Bimpli                             = 0 EUR
@@ -411,16 +433,16 @@
     Expenses:Health:Sport:Tennis                  40 EUR
     Assets:Cash:EUR
 
-2026-03-27 * Lunch with Florent
+2026-03-28 * Therapy
+    Expenses:Health:Therapy                       60 EUR
+    Assets:Cash:EUR
+
+2026-03-28 * Lunch with Florent
     Expenses:Food:Restaurants                     20 EUR
     Assets:Cash:EUR
 
 2026-03-28 * Cafe  ; aurelie:
     Expenses:Food:Cafe                          8.20 EUR
-    Assets:Cash:EUR
-
-2026-03-28 * Therapy
-    Expenses:Health:Therapy                       60 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -434,6 +456,10 @@
 
 2026-03-23 * Navigo Liberte
     Expenses:Transportation:PublicTransport    75.08 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-03-27 * SFR
+    Expenses:Home:Utilities:MobilePhone        11.99 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
@@ -578,6 +604,10 @@
 
 2026-03-27 * Master Poulet
     Expenses:Food:FastFood                      8.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-03-30 * Carrefour
+    Expenses:Food:Groceries                     5.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

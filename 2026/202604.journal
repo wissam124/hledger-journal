@@ -31,10 +31,18 @@
     Assets:FR:BforBank:Compte-Courant
 
 * Cash transactions
+2026-04-01 * Baguettes
+    Expenses:Food:Groceries                     2.05 EUR
+    Assets:Cash:EUR
+
 2026-04-02 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:Cash:EUR
 
 2026-04-03 * Pain au chocolat
     Expenses:Food:Snack                         3.80 EUR
+    Assets:Cash:EUR
+
+2026-04-03 * Adjustment cash balance for unclassified
+    Expenses:Misc:Unclassified                 13.08 EUR
     Assets:Cash:EUR

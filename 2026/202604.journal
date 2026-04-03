@@ -1,6 +1,40 @@
 * Amex transactions
+2026-04-01 Amazon USB cable
+    Expenses:Shopping:Electronics               9.89 EUR
+    Liabilities:FR:Amex:Gold
 
-* Bforbank transactions
+2026-04-01 Zara Home
+    Expenses:Home:Furniture                    19.94 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-04-02 HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-04-02 Velib
+    Expenses:Transportation:Bikesharing            8 EUR
+    Liabilities:FR:Amex:Gold
+
+* bforbank transactions
 2026-04-01 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.19 EUR
     Assets:FR:BforBank:Compte-Courant
+
+2026-04-01 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-02 * Cash withdrawal
+    Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+* Cash transactions
+2026-04-02 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-04-03 * Pain au chocolat
+    Expenses:Food:Snack                         3.80 EUR
+    Assets:Cash:EUR

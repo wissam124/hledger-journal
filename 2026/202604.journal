@@ -3,21 +3,33 @@
     Expenses:Shopping:Electronics               9.89 EUR
     Liabilities:FR:Amex:Gold
 
-2026-04-01 Zara Home
+2026-04-01 * Zara Home
     Expenses:Home:Furniture                    19.94 EUR
     Liabilities:FR:Amex:Gold
 
-2026-04-02 HelloFresh
+2026-04-02 * HelloFresh
     Expenses:Food:Groceries                    48.98 EUR
     Liabilities:FR:Amex:Gold                  -48.98 EUR
     Expenses:Food:Groceries                   -24.49 EUR
     Liabilities:Payables:Aurelie               24.49 EUR
 
-2026-04-02 Velib
+2026-04-02 * Velib
     Expenses:Transportation:Bikesharing            8 EUR
     Liabilities:FR:Amex:Gold
 
-* bforbank transactions
+2026-04-03 * Deliveroo
+    Expenses:Food:Delivery                     18.04 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-04-04 * The Blue Guy
+    Expenses:Health:Sport                      28.53 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-04-04 * Amex gold subscription
+    Expenses:Finance:CreditCard                   16 EUR
+    Liabilities:FR:Amex:Gold
+
+* Bforbank transactions
 2026-04-01 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               2032.19 EUR
     Assets:FR:BforBank:Compte-Courant
@@ -28,6 +40,22 @@
 
 2026-04-02 * Cash withdrawal
     Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-04 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-04 * Franprix
+    Expenses:Food:Groceries                    21.58 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-04 * Cash withdrawal
+    Assets:Cash:EUR                               40 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-05 * MacroFactor
+    Expenses:Subscriptions                     13.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Cash transactions
@@ -46,3 +74,8 @@
 2026-04-03 * Adjustment cash balance for unclassified
     Expenses:Misc:Unclassified                 13.08 EUR
     Assets:Cash:EUR
+
+* CCF transactions
+2026-04-01 * Frais cotisation
+    Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant

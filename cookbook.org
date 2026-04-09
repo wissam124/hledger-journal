@@ -368,11 +368,22 @@ hledger -f huchon.journal bal exp.*interest:jean
 #+begin_src sh
 hledger -f huchon.journal bal equity:.
 #+end_src
+** Compute monthly report for e-mail
+Balance sheet:
+
+#+begin_src sh
+hledger -f huchon.journal --real close --retain --close-acct=Equity:Retained-Earnings | hledger -f huchon.journal -f - bse -I --layout=tall --real -o test.html
+#+end_src
+
+Income statement:
+#+begin_src sh
+hledger -f huchon.journal is --layout=tall --real -o test.html
+#+end_src
 
 * Useful commands
 ** Report balance sheet with earnings retained on the fly
 #+begin_src sh
-hledger -f all.journal close --retain --clost-acct=Equity:Retained-Earnings | hledger -f all.journal -f - bse -I --layout=tall
+hledger -f all.journal close --retain --close-acct=Equity:Retained-Earnings | hledger -f all.journal -f - bse -I --layout=tall
 #+end_src
 
 * General ressources

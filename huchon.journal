@@ -431,7 +431,6 @@ account Income:Notary                                                  ; type: R
     Expenses:Finance:Mortgage:Interest:Jean  1053.10 EUR
     Expenses:Finance:Mortgage:Insurance:Jean  120.97 EUR
 
-
 2026-03-09 * Facture EDF
     [Stats:Assets:FR:CCF:Compte-Joint]           -49 EUR
     [Stats:Expenses:Home:Utilities:Electricity]   49 EUR
@@ -459,3 +458,38 @@ account Income:Notary                                                  ; type: R
     Assets:FR:CCF:Compte-Joint:Aurelie       -596.78 EUR
     Expenses:Property:ServiceCharges:Jean     596.79 EUR
     Expenses:Property:ServiceCharges:Aurelie  596.78 EUR
+
+2026-03-31 * Virement Aurelie CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]        757.88 EUR
+    [Stats:Funding]                          -757.88 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie        757.88 EUR
+    Equity:Capital:Aurelie                   -757.88 EUR
+
+2026-04-01 * Virement Jean CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]        2032.19 EUR
+    [Stats:Funding]                          -2032.19 EUR
+    Assets:FR:CCF:Compte-Joint:Jean           2032.19 EUR
+    Equity:Capital:Huchon:Jean               -2032.19 EUR
+
+2026-03-06 * Echeancier pret Apr'26
+    [Stats:Assets:FR:CCF:Compte-Joint]      -2548.66 EUR
+    [Stats:Liabilities:FR:CCF:Mortgage]      1147.62 EUR
+    [Stats:Expenses:Finance:Mortgage:Interest]  1401.04 EUR
+    [Stats:Assets:FR:CCF:Compte-Joint]       -241.41 EUR
+    [Stats:Expenses:Finance:Mortgage:Insurance]  241.41 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie       -757.88 EUR
+    Liabilities:FR:CCF:Mortgage:Aurelie       286.91 EUR
+    Expenses:Finance:Mortgage:Interest:Aurelie  350.26 EUR
+    Expenses:Finance:Mortgage:Insurance:Aurelie  120.71 EUR
+    Assets:FR:CCF:Compte-Joint:Jean         -2032.19 EUR
+    Liabilities:FR:CCF:Mortgage:Jean          860.71 EUR
+    Expenses:Finance:Mortgage:Interest:Jean  1050.78 EUR
+    Expenses:Finance:Mortgage:Insurance:Jean  120.70 EUR
+
+2026-04-08 * Facture EDF
+    [Stats:Assets:FR:CCF:Compte-Joint]           -49 EUR
+    [Stats:Expenses:Home:Utilities:Electricity]   49 EUR
+    Expenses:Home:Utilities:Electricity:Aurelie  24.50 EUR
+    Expenses:Home:Utilities:Electricity:Jean   24.50 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie        -24.50 EUR
+    Assets:FR:CCF:Compte-Joint:Jean           -24.50 EUR

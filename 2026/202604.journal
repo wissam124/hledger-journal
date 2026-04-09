@@ -1,5 +1,5 @@
 * Amex transactions
-2026-04-01 Amazon USB cable
+2026-04-01 * Amazon USB cable
     Expenses:Shopping:Electronics               9.89 EUR
     Liabilities:FR:Amex:Gold
 
@@ -58,6 +58,29 @@
     Expenses:Subscriptions                     13.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-04-07 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant                 800 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-07 * Villages Nature
+    Expenses:Food:Snack                        10.34 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-07 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-07 * Drinks with Aurelie's family
+    Expenses:Entertainment:Social:Bars         27.45 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-07 * On Air
+    Expenses:Health:Gym                        43.96 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-04-09 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               200 EUR
+    Assets:FR:BforBank:Compte-Courant
 * Cash transactions
 2026-04-01 * Baguettes
     Expenses:Food:Groceries                     2.05 EUR
@@ -75,7 +98,24 @@
     Expenses:Misc:Unclassified                 13.08 EUR
     Assets:Cash:EUR
 
+2026-04-08 * Spasfon
+    Expenses:Health:Pharmacy                    3.16 EUR
+    Assets:Cash:EUR
+
+2026-04-08 * Pain aux raisins
+    Expenses:Food:Snack                         2.40 EUR
+    Assets:Cash:EUR
+
+2026-04-08 * Import tax etsy order
+    Expenses:Misc                                 10 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-04-01 * Frais cotisation
     Expenses:Finance:Bank                       8.75 EUR
     Assets:FR:CCF:Compte-Courant
+
+* Revolut transactions
+2026-04-07 * Drinks  ; aurelie:
+    Expenses:Entertainment:Social:Bars            14 EUR
+    Assets:FR:Revolut:Personal:EUR

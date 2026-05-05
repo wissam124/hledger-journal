@@ -328,7 +328,7 @@
 
 2026-03-24 * Transfer from Jacques
     Assets:FR:BforBank:Compte-Courant             86 EUR
-    Liabilities:Payables
+    Assets:Receivables
 
 2026-03-24 * Transfer to Revolut
     Assets:FR:Revolut:Personal:EUR               100 EUR
@@ -570,7 +570,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-03-24 * Transfer to Alex on behalf of Jacques
-    Liabilities:Payables                          86 EUR
+    Assets:Receivables                            86 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-03-24 * Le Petit Gourmet

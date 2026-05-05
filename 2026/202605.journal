@@ -1,0 +1,72 @@
+* Income transactions
+2026-05-03 * Sell bench on LeBonCoin
+    Assets:Cash:EUR                               90 EUR
+    Income:Resale
+
+* Amex transactions
+2026-05-03 * Velib
+    Expenses:Transportation:Bikesharing            6 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-03 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+* Bforbank transactions
+2026-05-01 * Refund TC12
+    Assets:FR:BforBank:Compte-Courant            120 EUR
+    Expenses:Health:Sport:Tennis
+
+2026-05-01 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-01 * Google Play Tennis
+    Expenses:Entertainment:Digital              2.09 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-01 * Cash withdrawal
+    Assets:Cash:EUR                              120 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-02 * Ch Bao
+    Expenses:Cigarettes                        15.10 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-03 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean               2031.93 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-04 * Au P'tit Caprice
+    Expenses:Food:OfficeLunch                  12.60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-04 * Jean Trogneux
+    Expenses:GiftsCharity:Gifts                15.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-04 * Carrefour
+    Expenses:Food:Groceries                    16.60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-05 * Travaux Jardin Huchon
+    Expenses:Home:Improvements                  1185 EUR
+    Assets:FR:BforBank:Compte-Courant          -1185 EUR
+    Liabilities:Payables:Aurelie              592.50 EUR
+    Expenses:Home:Improvements               -592.50 EUR
+
+* CCF transactions
+2026-05-03 * Frais cotisation
+    Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+* Revolut EUR transactions
+2026-05-04 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-04 * Magali Saint Mande  ; aurelie:
+    Expenses:Food:OfficeLunch                     14 EUR
+    Assets:FR:Revolut:Personal:EUR

@@ -3,6 +3,14 @@
     Assets:Cash:EUR                               90 EUR
     Income:Resale
 
+2026-05-01 * Gift Tennis Lessons with Joris
+    Assets:Prepaid:Tennis                         15 TL
+    Income:Gifts
+
+2026-05-01 * Used Tennis Lessons
+    Expenses:Health:Sport:Tennis                   3 TL
+    Assets:Prepaid:Tennis
+
 * Amex transactions
 2026-05-03 * Velib
     Expenses:Transportation:Bikesharing            6 EUR
@@ -13,6 +21,24 @@
     Liabilities:FR:Amex:Gold                  -48.98 EUR
     Expenses:Food:Groceries                   -24.49 EUR
     Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-05-06 * Amex gold subscription
+    Expenses:Finance:CreditCard                   16 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-06 * Deliveroo
+    Expenses:Food:Delivery                     29.79 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-06 Leroy Merlin  ; flat-vincennes:
+    Expenses:Home:Maintenance                  25.80 EUR
+    Liabilities:FR:Amex:Gold                  -25.80 EUR
+    Expenses:Home:Maintenance                 -12.90 EUR
+    Liabilities:Payables:Aurelie               12.90 EUR
+
+2026-05-06 Amazon Prime
+    Expenses:Subscriptions                     69.90 EUR
+    Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
 2026-05-01 * Refund TC12
@@ -57,6 +83,35 @@
     Liabilities:Payables:Aurelie              592.50 EUR
     Expenses:Home:Improvements               -592.50 EUR
 
+2026-05-05 * MacroFactor
+    Expenses:Subscriptions                     13.99 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-05 * Cash withdrawal
+    Assets:Cash:EUR                               80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-06 * Rounding liability Aurelie
+    Expenses:Home:Improvements                 0.93 EUR
+    Liabilities:Payables:Aurelie
+
+2026-05-06 * Aurelie Settlement
+    Assets:FR:BforBank:Compte-Courant           1041 EUR
+    Liabilities:Payables:Aurelie
+
+2026-05-06 * On Air
+    Expenses:Health:Gym                        43.96 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-06 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+* Cash transactions
+2026-05-06 * Raspeberries
+    Expenses:Food:Groceries                        6 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-05-03 * Frais cotisation
     Expenses:Finance:Bank                       8.75 EUR
@@ -70,3 +125,20 @@
 2026-05-04 * Magali Saint Mande  ; aurelie:
     Expenses:Food:OfficeLunch                     14 EUR
     Assets:FR:Revolut:Personal:EUR
+
+2026-05-05 * Boulanger Magali
+    Expenses:Food:OfficeLunch                   6.60 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-05 * Franprix
+    Expenses:Food:Groceries                     5.85 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-06 * Vapored
+    Expenses:Food:OfficeLunch                      9 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+* Other liabilities
+2026-05-05 * Train Ticket Touquet
+    Expenses:Travel:Train                         40 EUR
+    Liabilities:Payables:Aurelie

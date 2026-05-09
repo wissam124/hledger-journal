@@ -843,7 +843,7 @@
     Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-02-26 * Deliveroo fees
-    Expenses:Food:OfficeLunch                2.15 EUR
+    Expenses:Food:Lunch                2.15 EUR
     Assets:FR:BforBank:Compte-Courant       -2.15 EUR
 
 2025-02-26 * Fisherman's Friend
@@ -883,7 +883,7 @@
     Assets:FR:BforBank:Compte-Courant        -10.5 EUR
 
 2025-02-28 * Office lunch - Mr Garden (swile empty)
-    Expenses:Food:OfficeLunch                14.9 EUR
+    Expenses:Food:Lunch                14.9 EUR
     Assets:FR:BforBank:Compte-Courant       -14.9 EUR
 
 2025-02-28 * Savings Livret A
@@ -1367,7 +1367,7 @@
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-03-27 * Ilia office lunch
-    Expenses:Food:OfficeLunch            14.60 EUR
+    Expenses:Food:Lunch            14.60 EUR
     Assets:UK:Revolut:Personal:EUR      -14.60 EUR
 
 2025-03-27 * Cigarettes
@@ -1379,7 +1379,7 @@
     Assets:UK:Revolut:Personal:EUR         -17 EUR
 
 2025-03-28 * Ilia office lunch
-    Expenses:Food:OfficeLunch            15.10 EUR
+    Expenses:Food:Lunch            15.10 EUR
     Assets:UK:Revolut:Personal:EUR      -15.10 EUR
 
 2025-03-28 * Euromillions
@@ -1451,7 +1451,7 @@
     Liabilities:FR:Amex:Gold        -100 EUR
 
 2025-03-31 * Deliveroo Bagnard
-    Expenses:Food:OfficeLunch       19.25 EUR
+    Expenses:Food:Lunch       19.25 EUR
     Liabilities:FR:Amex:Gold       -19.25 EUR
 
 2025-03-31 * Deliveroo Pizza Chez Antoine
@@ -1659,7 +1659,7 @@
     Assets:UK:Revolut:Personal:EUR          -9 EUR
 
 2025-04-10 * Deliveroo fee
-    Expenses:Food:OfficeLunch                  1.56 EUR
+    Expenses:Food:Lunch                  1.56 EUR
     Assets:FR:BoursoBank:Compte-Courant       -1.56 EUR
 
 2025-04-10 * Cafe Nuances and pain au chocolat
@@ -1755,7 +1755,7 @@
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-04-14 * Deliveroo fee
-    Expenses:Food:OfficeLunch             2.15 EUR
+    Expenses:Food:Lunch             2.15 EUR
     Assets:UK:Revolut:Personal:EUR       -2.15 EUR
 
 2025-04-15 * Cash withdrawal
@@ -2039,7 +2039,7 @@
     Assets:Receivables:Aurelie         -31.5 EUR
 
 2025-04-28 * Kayser Office Lunch
-    Expenses:Food:OfficeLunch            13.40 EUR
+    Expenses:Food:Lunch            13.40 EUR
     Assets:UK:Revolut:Personal:EUR      -13.40 EUR
 
 2025-04-28 * Cigarettes
@@ -2047,7 +2047,7 @@
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-04-29 * Le Petit Panda
-    Expenses:Food:OfficeLunch               13 EUR
+    Expenses:Food:Lunch               13 EUR
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-04-29 * Deliveroo Amorino
@@ -2067,7 +2067,7 @@
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-04-30 * Ilya
-    Expenses:Food:OfficeLunch            14.60 EUR
+    Expenses:Food:Lunch            14.60 EUR
     Assets:UK:Revolut:Personal:EUR      -14.60 EUR
 
 2025-05-01 * 111 Wage
@@ -2211,7 +2211,7 @@
     Liabilities:FR:Amex:Gold            -16 EUR
 
 2025-05-06 * Deliveroo Five Guys
-    Expenses:Food:OfficeLunch       28.69 EUR
+    Expenses:Food:Lunch       28.69 EUR
     Liabilities:FR:Amex:Gold       -28.69 EUR
 
 2025-05-06 * Settlement Halifax Clarity
@@ -2315,7 +2315,7 @@
     Assets:FR:BoursoBank:Compte-Courant       -1.60 EUR
 
 2025-05-13 * Uber eats fees
-    Expenses:Food:OfficeLunch        2.85 EUR
+    Expenses:Food:Lunch        2.85 EUR
     Liabilities:FR:Amex:Gold        -2.85 EUR
 
 2025-05-13 * Hyrox
@@ -2583,7 +2583,7 @@
     Assets:FR:BforBank:Compte-Courant        -12.06 EUR
 
 2025-05-23 * Delivero fee
-    Expenses:Food:OfficeLunch        2.22 EUR
+    Expenses:Food:Lunch        2.22 EUR
     Liabilities:FR:Amex:Gold        -2.22 EUR
 
 2025-05-23 * Padel court booking Sportfield
@@ -2647,7 +2647,7 @@
     Assets:FR:BforBank:Compte-Courant          -5 EUR
 
 2025-05-26 * Kayser lunch
-    Expenses:Food:OfficeLunch                  16 EUR
+    Expenses:Food:Lunch                  16 EUR
     Assets:FR:BforBank:Compte-Courant         -16 EUR
 
 2025-05-27 * Cafe Nuances and pain au chocolat
@@ -2663,7 +2663,7 @@
     Assets:FR:BforBank:Compte-Courant       -4.49 EUR
 
 2025-05-27 * Deliveroo Cut
-    Expenses:Food:OfficeLunch        7.13 EUR
+    Expenses:Food:Lunch        7.13 EUR
     Liabilities:FR:Amex:Gold        -7.13 EUR
 
 2025-05-27 * Hockney Louis Vuitton
@@ -2675,7 +2675,7 @@
     Assets:FR:BforBank:Compte-Courant          -9 EUR
 
 2025-05-28 * Deliveroo Chlew
-    Expenses:Food:OfficeLunch       17.60 EUR
+    Expenses:Food:Lunch       17.60 EUR
     Liabilities:FR:Amex:Gold       -17.60 EUR
 
 2025-05-28 * Vans
@@ -2803,7 +2803,7 @@
     Liabilities:FR:Amex:Gold      -34.99 EUR
 
 2025-06-04 * Deliveroo fees
-    Expenses:Food:OfficeLunch        1.90 EUR
+    Expenses:Food:Lunch        1.90 EUR
     Liabilities:FR:Amex:Gold        -1.90 EUR
 
 2025-06-05 * MacroFactor subscription
@@ -2903,7 +2903,7 @@
     Liabilities:FR:Amex:Gold      -10.27 EUR
 
 2025-06-09 * Deliveroo fees
-    Expenses:Food:OfficeLunch        2.22 EUR
+    Expenses:Food:Lunch        2.22 EUR
     Liabilities:FR:Amex:Gold        -2.22 EUR
 
 2025-06-10 * Refund EDF
@@ -3039,7 +3039,7 @@
     Assets:FR:BforBank:Compte-Courant       -7.99 EUR
 
 2025-06-20 * Deliveroo fees
-    Expenses:Food:OfficeLunch                  1.60 EUR
+    Expenses:Food:Lunch                  1.60 EUR
     Assets:FR:BoursoBank:Compte-Courant       -1.60 EUR
 
 2025-06-20 * Cigarettes
@@ -3051,7 +3051,7 @@
     Liabilities:FR:Amex:Gold                      -8 EUR
 
 2025-06-20 * Deliveroo Five Guys
-    Expenses:Food:OfficeLunch       11.48 EUR
+    Expenses:Food:Lunch       11.48 EUR
     Liabilities:FR:Amex:Gold       -11.48 EUR
 
 2025-06-20 * Exercise balls for Mum
@@ -3143,7 +3143,7 @@
     Assets:UK:Revolut:Personal:EUR             -18 EUR
 
 2025-06-24 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch               15.10 EUR
+    Expenses:Food:Lunch               15.10 EUR
     Assets:FR:BforBank:Compte-Courant      -15.10 EUR
 
 2025-06-24 * Revolut transfer
@@ -3159,7 +3159,7 @@
     Assets:UK:Revolut:Personal:EUR        -4.34 EUR
 
 2025-06-24 * Le Petit Panda
-    Expenses:Food:OfficeLunch               11 EUR
+    Expenses:Food:Lunch               11 EUR
     Assets:UK:Revolut:Personal:EUR         -11 EUR
 
 2025-06-25 * Baguette and pain au chocolat
@@ -3195,11 +3195,11 @@
     Assets:FR:BforBank:Compte-Courant     -119.99 EUR
 
 2025-06-26 * Lunch Kayser
-    Expenses:Food:OfficeLunch                  16 EUR
+    Expenses:Food:Lunch                  16 EUR
     Assets:FR:BforBank:Compte-Courant         -16 EUR
 
 2025-06-27 * Lunch Kayser
-    Expenses:Food:OfficeLunch                  16 EUR
+    Expenses:Food:Lunch                  16 EUR
     Assets:FR:BforBank:Compte-Courant         -16 EUR
 
 2025-06-27 * Cigarettes
@@ -3365,11 +3365,11 @@
     Assets:FR:BforBank:Compte-Courant      -21.99 EUR
 
 2025-07-03 * Deliveroo Fee
-    Expenses:Food:OfficeLunch                  2.15 EUR
+    Expenses:Food:Lunch                  2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant       -2.15 EUR
 
 2025-07-03 * Blend burger
-    Expenses:Food:OfficeLunch            13.30 EUR
+    Expenses:Food:Lunch            13.30 EUR
     Assets:UK:Revolut:Personal:EUR      -13.30 EUR
 
 2025-07-03 * Drinks with Aurelie
@@ -3483,7 +3483,7 @@
     Assets:FR:BforBank:Compte-Courant      -38.94 EUR
 
 2025-07-08 * Deliveroo Fee
-    Expenses:Food:OfficeLunch                  2.15 EUR
+    Expenses:Food:Lunch                  2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant       -2.15 EUR
 
 2025-07-08 * Cafe Nuances
@@ -3625,7 +3625,7 @@
     Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-07-16 * Deliveroo Fee
-    Expenses:Food:OfficeLunch                  2.15 EUR
+    Expenses:Food:Lunch                  2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant       -2.15 EUR
 
 2025-07-17 * Cigarettes
@@ -3641,7 +3641,7 @@
     Assets:UK:Revolut:Personal:EUR       -6.30 EUR
 
 2025-07-17 * Julot Lunch Isky GBP
-    Expenses:Food:OfficeLunch            17.43 EUR
+    Expenses:Food:Lunch            17.43 EUR
     Assets:UK:Revolut:Personal:EUR      -17.43 EUR
 
 2025-07-18 * Durum
@@ -3833,15 +3833,15 @@
     Assets:FR:BforBank:Compte-Courant       -1.99 EUR
 
 2025-07-30 * Lunch Kayser
-    Expenses:Food:OfficeLunch               15.90 EUR
+    Expenses:Food:Lunch               15.90 EUR
     Assets:FR:BforBank:Compte-Courant      -15.90 EUR
 
 2025-07-31 * Dessert Cojean
-    Expenses:Food:OfficeLunch                5.30 EUR
+    Expenses:Food:Lunch                5.30 EUR
     Assets:FR:BforBank:Compte-Courant       -5.30 EUR
 
 2025-07-31 * Bistropolis Office Lunch
-    Expenses:Food:OfficeLunch               15.90 EUR
+    Expenses:Food:Lunch               15.90 EUR
     Assets:FR:BforBank:Compte-Courant      -15.90 EUR
 
 2025-07-31 * Google Play Head 2 Ball
@@ -4199,7 +4199,7 @@
     Assets:FR:BforBank:Compte-Courant    -4,027.51 EUR
 
 2025-08-12 * Mister Garden
-    Expenses:Food:OfficeLunch               18.60 EUR
+    Expenses:Food:Lunch               18.60 EUR
     Assets:FR:BforBank:Compte-Courant      -18.60 EUR
 
 2025-08-12 * Beeminder fine
@@ -4247,7 +4247,7 @@
     Expenses:Travel:Holidays       -7.80 EUR
 
 2025-08-13 * Deliveroo fee
-    Expenses:Food:OfficeLunch        2.22 EUR
+    Expenses:Food:Lunch        2.22 EUR
     Liabilities:FR:Amex:Gold        -2.22 EUR
 
 2025-08-14 * Charity
@@ -4271,7 +4271,7 @@
     Assets:Cash:EUR                            -150 EUR
 
 2025-08-15 * Cojean
-    Expenses:Food:OfficeLunch               10.60 EUR
+    Expenses:Food:Lunch               10.60 EUR
     Assets:FR:BforBank:Compte-Courant      -10.60 EUR
 
 2025-08-15 * Intermarche
@@ -4415,7 +4415,7 @@
     Assets:UK:Revolut:Personal:EUR          -9 EUR
 
 2025-08-22 * Bagnard
-    Expenses:Food:OfficeLunch                  19 EUR
+    Expenses:Food:Lunch                  19 EUR
     Assets:FR:BforBank:Compte-Courant         -19 EUR
 
 2025-08-22 * Beeminder fine
@@ -5007,7 +5007,7 @@
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-09-12 * Poke Go
-    Expenses:Food:OfficeLunch            12.90 EUR
+    Expenses:Food:Lunch            12.90 EUR
     Assets:UK:Revolut:Personal:EUR      -12.90 EUR
 
 2025-09-12 * HelloFresh
@@ -5139,7 +5139,7 @@
     Liabilities:FR:Amex:Gold      -26.65 EUR
 
 2025-09-19 * Lunch
-    Expenses:Food:OfficeLunch       12.90 EUR
+    Expenses:Food:Lunch       12.90 EUR
     Assets:FR:Bimpli               -12.90 EUR
 
 2025-09-19 * Cigarettes
@@ -5233,7 +5233,7 @@
     Assets:UK:Revolut:Personal:EUR       -5.50 EUR
 
 2025-09-22 * Deliveroo fee
-    Expenses:Food:OfficeLunch        2.15 EUR
+    Expenses:Food:Lunch        2.15 EUR
     Liabilities:FR:Amex:Gold        -2.15 EUR
 
 2025-09-22 * Dott ride
@@ -5295,7 +5295,7 @@
     Expenses:Transportation:CarRental         -75 EUR
 
 2025-09-25 * Poke Go
-    Expenses:Food:OfficeLunch            15.90 EUR
+    Expenses:Food:Lunch            15.90 EUR
     Assets:UK:Revolut:Personal:EUR      -15.90 EUR
 
 2025-09-25 * HelloFresh
@@ -5371,7 +5371,7 @@
     Assets:Cash:EUR               -1.35 EUR
 
 2025-09-29 * Lunch
-    Expenses:Food:OfficeLunch          16 EUR
+    Expenses:Food:Lunch          16 EUR
     Assets:FR:Bimpli                  -16 EUR
 
 2025-09-29 * Cash withdrawal
@@ -5384,7 +5384,7 @@
 
 2025-09-29 * Swile ex-lunchr credit
     Assets:FR:BforBank:Compte-Courant        0.30 EUR
-    Expenses:Food:OfficeLunch               -0.30 EUR
+    Expenses:Food:Lunch               -0.30 EUR
 
 2025-09-29 * Beeminder fine
     Expenses:Subscriptions:Software        4.30 EUR
@@ -5411,7 +5411,7 @@
     Assets:Cash:EUR                -24.25 EUR
 
 2025-09-30 * Lunch
-    Expenses:Food:OfficeLunch          11 EUR
+    Expenses:Food:Lunch          11 EUR
     Assets:FR:Bimpli                  -11 EUR
 
 2025-09-30 * Cafe Nuances
@@ -5487,7 +5487,7 @@
     Liabilities:FR:Amex:Gold                  -1.75 EUR
 
 2025-10-03 * Deliveroo Five Guys
-    Expenses:Food:OfficeLunch       19.20 EUR
+    Expenses:Food:Lunch       19.20 EUR
     Liabilities:FR:Amex:Gold       -19.20 EUR
 
 2025-10-04 * Crepe
@@ -5579,7 +5579,7 @@
     Liabilities:FR:Amex:Gold            -16 EUR
 
 2025-10-06 * Deliveroo fee
-    Expenses:Food:OfficeLunch        2.15 EUR
+    Expenses:Food:Lunch        2.15 EUR
     Liabilities:FR:Amex:Gold        -2.15 EUR
 
 2025-10-06 * Wooden floors deposit  ; flat-vincennes:
@@ -5591,7 +5591,7 @@
     Assets:Receivables:Aurelie               -500 EUR
 
 2025-10-07 * Lunch
-    Expenses:Food:OfficeLunch          11 EUR
+    Expenses:Food:Lunch          11 EUR
     Assets:FR:Bimpli                  -11 EUR
 
 2025-10-07 * Kine Boetie
@@ -5677,7 +5677,7 @@
     Assets:FR:BforBank:Compte-Courant     -958.82 EUR
 
 2025-10-10 * Deliveroo fee
-    Expenses:Food:OfficeLunch        2.22 EUR
+    Expenses:Food:Lunch        2.22 EUR
     Liabilities:FR:Amex:Gold        -2.22 EUR
 
 2025-10-10 * HelloFresh
@@ -5717,7 +5717,7 @@
     Assets:Cash:EUR               -1.35 EUR
 
 2025-10-13 * Lunch Kayser
-    Expenses:Food:OfficeLunch          16 EUR
+    Expenses:Food:Lunch          16 EUR
     Assets:FR:Bimpli                  -16 EUR
 
 2025-10-13 * Tennis court booking Paris Tennis for lesson
@@ -5737,7 +5737,7 @@
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-10-14 * Lunch becchi
-    Expenses:Food:OfficeLunch       21.30 EUR
+    Expenses:Food:Lunch       21.30 EUR
     Assets:FR:Bimpli               -21.30 EUR
 
 2025-10-14 * Refund Alan physiotherapy
@@ -5769,7 +5769,7 @@
     Liabilities:FR:Amex:Gold         -95 EUR
 
 2025-10-15 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch       18.80 EUR
+    Expenses:Food:Lunch       18.80 EUR
     Assets:FR:Bimpli               -18.80 EUR
 
 2025-10-15 * Refund CPAM
@@ -5797,7 +5797,7 @@
     Assets:Cash:EUR                             -5 EUR
 
 2025-10-16 * Lunch Bistropolitain
-    Expenses:Food:OfficeLunch       12.90 EUR
+    Expenses:Food:Lunch       12.90 EUR
     Assets:FR:Bimpli               -12.90 EUR
 
 2025-10-16 * Cigarettes
@@ -5887,7 +5887,7 @@
     Assets:UK:Revolut:Personal:EUR           -8.50 EUR
 
 2025-10-20 * Lunch Bistropolitain
-    Expenses:Food:OfficeLunch       12.90 EUR
+    Expenses:Food:Lunch       12.90 EUR
     Assets:FR:Bimpli               -12.90 EUR
 
 2025-10-20 * Beeminder fine
@@ -5907,11 +5907,11 @@
     Assets:UK:Revolut:Personal:EUR       -2.80 EUR
 
 2025-10-20 * cojean - yoghurt dessert
-    Expenses:Food:OfficeLunch             5.30 EUR
+    Expenses:Food:Lunch             5.30 EUR
     Assets:UK:Revolut:Personal:EUR       -5.30 EUR
 
 2025-10-21 * Lunch Petit Panda
-    Expenses:Food:OfficeLunch          11 EUR
+    Expenses:Food:Lunch          11 EUR
     Assets:FR:Bimpli                  -11 EUR
 
 2025-10-21 * Tennis court booking Paris Tennis 10-hour package
@@ -5977,7 +5977,7 @@
     Liabilities:Payables:Iskander     -9,900. EUR
 
 2025-10-22 * Lunch at Bagnard with Anne
-    Expenses:Food:OfficeLunch               30 EUR
+    Expenses:Food:Lunch               30 EUR
     Assets:UK:Revolut:Personal:EUR         -30 EUR
 
 2025-10-22 * Cigarettes
@@ -5993,7 +5993,7 @@
     Assets:Cash:EUR             -13 EUR
 
 2025-10-23 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch       15.30 EUR
+    Expenses:Food:Lunch       15.30 EUR
     Assets:FR:Bimpli               -15.30 EUR
 
 2025-10-23 * Transfer to CCF joint-account
@@ -6053,7 +6053,7 @@
     Liabilities:FR:Amex:Gold                  -1.75 EUR
 
 2025-10-24 * Deliveroo fee
-    Expenses:Food:OfficeLunch        2.22 EUR
+    Expenses:Food:Lunch        2.22 EUR
     Liabilities:FR:Amex:Gold        -2.22 EUR
 
 2025-10-25 * Unaccounted cash expenses
@@ -6119,12 +6119,12 @@
     Liabilities:FR:Amex:Gold                  -1.75 EUR
 
 2025-10-27 * Lunch Bagnard
-    Expenses:Food:OfficeLunch          18 EUR
+    Expenses:Food:Lunch          18 EUR
     Assets:FR:Bimpli                  -18 EUR
 
 2025-10-27 * Balance assignment as seen on receipt from Bagnard
     Assets:FR:Bimpli                -3.10 EUR = 301.08 EUR
-    Expenses:Food:OfficeLunch        3.10 EUR
+    Expenses:Food:Lunch        3.10 EUR
 
 2025-10-27 * Repay loan from Isky
     Liabilities:Payables:Iskander         24,900. EUR
@@ -6135,7 +6135,7 @@
     Assets:UK:Revolut:Personal:EUR          -4 EUR
 
 2025-10-28 * Lunch Petit Panda
-    Expenses:Food:OfficeLunch          11 EUR
+    Expenses:Food:Lunch          11 EUR
     Assets:FR:Bimpli                  -11 EUR
 
 2025-10-28 * Repay loan from Mum
@@ -6201,12 +6201,12 @@
     Assets:FR:BforBank:Compte-Courant         -10 EUR
 
 2025-10-30 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch       20.30 EUR
+    Expenses:Food:Lunch       20.30 EUR
     Assets:FR:Bimpli               -20.30 EUR
 
 2025-10-30 * Balance assignment as seen on receipt from Mister Garden
     Assets:FR:Bimpli                -2.40 EUR = 267.38 EUR
-    Expenses:Food:OfficeLunch        2.40 EUR
+    Expenses:Food:Lunch        2.40 EUR
 
 2025-10-30 * Cigarettes
     Expenses:Cigarettes                     13 EUR
@@ -6325,7 +6325,7 @@
     Assets:FR:BforBank:Compte-Courant     -1,050. EUR
 
 2025-11-03 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch       17.60 EUR
+    Expenses:Food:Lunch       17.60 EUR
     Assets:FR:Bimpli               -17.60 EUR
 
 2025-11-03 * 111 Capital wage
@@ -6353,7 +6353,7 @@
     Liabilities:FR:Amex:Gold      -30.29 EUR
 
 2025-11-04 * Lunch Lebanese
-    Expenses:Food:OfficeLunch       15.95 EUR
+    Expenses:Food:Lunch       15.95 EUR
     Assets:FR:Bimpli               -15.95 EUR
 
 2025-11-04 * Big Fernand
@@ -6465,11 +6465,11 @@
     Assets:FR:BforBank:Compte-Courant        -220 EUR
 
 2025-11-07 * Chez Julau
-    Expenses:Food:OfficeLunch               17.10 EUR
+    Expenses:Food:Lunch               17.10 EUR
     Assets:FR:BforBank:Compte-Courant      -17.10 EUR
 
 2025-11-07 * Lunch Kayser
-    Expenses:Food:OfficeLunch       13.70 EUR
+    Expenses:Food:Lunch       13.70 EUR
     Assets:FR:Bimpli               -13.70 EUR
 
 2025-11-07 * Cigarettes
@@ -6573,7 +6573,7 @@
     Assets:UK:Revolut:Personal:GBP               -5 GBP
 
 2025-11-10 * Uber Eats fees
-    Expenses:Food:OfficeLunch        2.67 EUR
+    Expenses:Food:Lunch        2.67 EUR
     Liabilities:FR:Amex:Gold        -2.67 EUR
 
 2025-11-11 * Pain au chocolat
@@ -6601,7 +6601,7 @@
     Assets:Cash:EUR             -13 EUR
 
 2025-11-12 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch       18.40 EUR
+    Expenses:Food:Lunch       18.40 EUR
     Assets:FR:Bimpli               -18.40 EUR
 
 2025-11-12 * Stamps
@@ -6613,12 +6613,12 @@
     Liabilities:FR:Amex:Gold                  -1.75 EUR
 
 2025-11-13 * Lunch Kayser
-    Expenses:Food:OfficeLunch          16 EUR
+    Expenses:Food:Lunch          16 EUR
     Assets:FR:Bimpli                  -16 EUR
 
 2025-11-13 * Balance assignment from Kayser receipt
     Assets:FR:Bimpli               -13.90 EUR = 171.83 EUR
-    Expenses:Food:OfficeLunch       13.90 EUR
+    Expenses:Food:Lunch       13.90 EUR
 
 2025-11-13 * Le Berlioz  ; aurelie:
     Expenses:Entertainment:Social:Bars           8 EUR
@@ -6705,7 +6705,7 @@
     Assets:UK:Revolut:Personal:EUR         -13 EUR
 
 2025-11-17 * Lunch Bistropolitain
-    Expenses:Food:OfficeLunch       15.90 EUR
+    Expenses:Food:Lunch       15.90 EUR
     Assets:FR:Bimpli               -15.90 EUR
 
 2025-11-17 * Cigarettes
@@ -6721,7 +6721,7 @@
     Assets:FR:BforBank:Compte-Courant        -52.69 EUR
 
 2025-11-18 * Lunch Kayser
-    Expenses:Food:OfficeLunch       15.70 EUR
+    Expenses:Food:Lunch       15.70 EUR
     Assets:FR:Bimpli               -15.70 EUR
 
 2025-11-18 * Cafe De La Place drinks with Aurelie  ; aurelie:
@@ -6733,7 +6733,7 @@
     Assets:Cash:EUR             -13 EUR
 
 2025-11-19 * Lunck Petit Panda fruits
-    Expenses:Food:OfficeLunch        2.40 EUR
+    Expenses:Food:Lunch        2.40 EUR
     Assets:Cash:EUR                 -2.40 EUR
 
 2025-11-19 * Cafe Nuances
@@ -6785,7 +6785,7 @@
     Assets:FR:BforBank:Compte-Courant         -40 EUR  ; date: 2025-11-24
 
 2025-11-21 * Deliveroo fee
-    Expenses:Food:OfficeLunch                  2.15 EUR
+    Expenses:Food:Lunch                  2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant       -2.15 EUR
 
 2025-11-21 * Cigarettes
@@ -6861,7 +6861,7 @@
     Liabilities:FR:Amex:Gold                    -10 EUR
 
 2025-11-25 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch       18.60 EUR
+    Expenses:Food:Lunch       18.60 EUR
     Assets:FR:Bimpli               -18.60 EUR
 
 2025-11-25 * Cigarettes
@@ -6881,7 +6881,7 @@
     Expenses:Health:Doctor                    -58 EUR
 
 2025-11-26 * Lunch Kayser
-    Expenses:Food:OfficeLunch       17.30 EUR
+    Expenses:Food:Lunch       17.30 EUR
     Assets:FR:Bimpli               -17.30 EUR
 
 2025-11-26 * Cigarettes
@@ -7048,7 +7048,7 @@
     Liabilities:FR:Amex:Gold                     -4 EUR
 
 2025-12-03 * Deliveroo fees
-    Expenses:Food:OfficeLunch                  1.74 EUR
+    Expenses:Food:Lunch                  1.74 EUR
     Assets:FR:BoursoBank:Compte-Courant       -1.74 EUR
 
 2025-12-03 * 111 Cap wages
@@ -7311,7 +7311,7 @@
     Liabilities:FR:Amex:Gold                  -1.75 EUR
 
 2025-12-12 * Deliveroo Fees
-    Expenses:Food:OfficeLunch        2.15 EUR
+    Expenses:Food:Lunch        2.15 EUR
     Liabilities:FR:Amex:Gold        -2.15 EUR
 
 2025-12-12 * Dott ride
@@ -7682,7 +7682,7 @@
     Expenses:Food:FastFood                           -23.90 GBP = 0.00 GBP
     Expenses:Food:Groceries                       -2,110.82 EUR = 0.00 EUR
     Expenses:Food:Groceries                          -35.95 GBP = 0.00 GBP
-    Expenses:Food:OfficeLunch                       -882.10 EUR = 0.00 EUR
+    Expenses:Food:Lunch                       -882.10 EUR = 0.00 EUR
     Expenses:Food:Restaurants                     -2,062.84 EUR = 0.00 EUR
     Expenses:Food:Snack                             -575.83 EUR = 0.00 EUR
     Expenses:Food:Snack                                  -5 GBP = 0 GBP

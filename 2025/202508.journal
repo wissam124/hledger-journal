@@ -242,11 +242,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-12 * Mister Garden
-    Expenses:Food:OfficeLunch                  18.60 EUR
+    Expenses:Food:Lunch                  18.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-15 * Cojean
-    Expenses:Food:OfficeLunch                  10.60 EUR
+    Expenses:Food:Lunch                  10.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-15 * Intermarche
@@ -302,7 +302,7 @@
     Expenses:Home:Maintenance
 
 2025-08-22 * Bagnard
-    Expenses:Food:OfficeLunch                     19 EUR
+    Expenses:Food:Lunch                     19 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-23 * Drinks with Aurelie
@@ -656,7 +656,7 @@
     Expenses:Travel:Holidays
 
 2025-08-13 * Deliveroo fee
-    Expenses:Food:OfficeLunch                   2.22 EUR
+    Expenses:Food:Lunch                   2.22 EUR
     Liabilities:FR:Amex:Gold
 
 2025-08-14 * Restaurant Lagano

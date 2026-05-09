@@ -208,7 +208,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-14 * Vapored
-    Expenses:Food:OfficeLunch                  10.50 EUR
+    Expenses:Food:Lunch                  10.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-15 * McDonald's
@@ -220,7 +220,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-16 * Les Cookettes
-    Expenses:Food:OfficeLunch                     15 EUR
+    Expenses:Food:Lunch                     15 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-17 * Cigarettes
@@ -260,7 +260,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-21 * Au P'tit Caprice
-    Expenses:Food:OfficeLunch                     11 EUR
+    Expenses:Food:Lunch                     11 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-21 * Cash withdrawal
@@ -276,7 +276,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-23 * Vapored
-    Expenses:Food:OfficeLunch                  10.50 EUR
+    Expenses:Food:Lunch                  10.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-23 * G20
@@ -336,7 +336,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-28 * Au P'tit Caprice  ; aurelie:
-    Expenses:Food:OfficeLunch                  19.30 EUR
+    Expenses:Food:Lunch                  19.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-29 * Cigarettes
@@ -459,7 +459,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-04-21 * Val de Font
-    Expenses:Food:OfficeLunch                   7.75 EUR
+    Expenses:Food:Lunch                   7.75 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-04-21 * Carrefour

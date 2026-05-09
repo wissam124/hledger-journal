@@ -101,7 +101,7 @@
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-12-03 * Deliveroo fees
-    Expenses:Food:OfficeLunch               1.74 EUR
+    Expenses:Food:Lunch               1.74 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-12-07 * Dryer for bed linen
@@ -535,7 +535,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-12-12 * Deliveroo Fees
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Liabilities:FR:Amex:Gold
 
 2025-12-12 * Dott ride

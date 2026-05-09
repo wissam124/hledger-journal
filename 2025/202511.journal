@@ -86,7 +86,7 @@
     Assets:Cash:EUR
 
 2025-11-19 * Lunck Petit Panda fruits
-    Expenses:Food:OfficeLunch               2.40 EUR
+    Expenses:Food:Lunch               2.40 EUR
     Assets:Cash:EUR
 
 2025-11-20 * Cigarettes
@@ -171,7 +171,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-07 * Chez Julau
-    Expenses:Food:OfficeLunch              17.10 EUR
+    Expenses:Food:Lunch              17.10 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-10 * Cash withdrawal
@@ -249,43 +249,43 @@
 
 * Bimpli transactions
 2025-11-03 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch              17.60 EUR
+    Expenses:Food:Lunch              17.60 EUR
     Assets:FR:Bimpli
 
 2025-11-04 * Lunch Lebanese
-    Expenses:Food:OfficeLunch              15.95 EUR
+    Expenses:Food:Lunch              15.95 EUR
     Assets:FR:Bimpli
 
 2025-11-07 * Lunch Kayser
-    Expenses:Food:OfficeLunch              13.70 EUR
+    Expenses:Food:Lunch              13.70 EUR
     Assets:FR:Bimpli
 
 2025-11-12 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch              18.40 EUR
+    Expenses:Food:Lunch              18.40 EUR
     Assets:FR:Bimpli
 
 2025-11-13 * Lunch Kayser
-    Expenses:Food:OfficeLunch                 16 EUR
+    Expenses:Food:Lunch                 16 EUR
     Assets:FR:Bimpli
 
 2025-11-13 * Balance assignment from Kayser receipt
     Assets:FR:Bimpli                       = 171.83 EUR
-    Expenses:Food:OfficeLunch
+    Expenses:Food:Lunch
 
 2025-11-17 * Lunch Bistropolitain
-    Expenses:Food:OfficeLunch              15.90 EUR
+    Expenses:Food:Lunch              15.90 EUR
     Assets:FR:Bimpli
 
 2025-11-18 * Lunch Kayser
-    Expenses:Food:OfficeLunch              15.70 EUR
+    Expenses:Food:Lunch              15.70 EUR
     Assets:FR:Bimpli
 
 2025-11-25 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch              18.60 EUR
+    Expenses:Food:Lunch              18.60 EUR
     Assets:FR:Bimpli
 
 2025-11-26 * Lunch Kayser
-    Expenses:Food:OfficeLunch              17.30 EUR
+    Expenses:Food:Lunch              17.30 EUR
     Assets:FR:Bimpli
 
 * Boursobank transactions
@@ -294,7 +294,7 @@
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-11-21 * Deliveroo fee
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-11-28 * Boursobank fees
@@ -567,7 +567,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-11-10 * Uber Eats fees
-    Expenses:Food:OfficeLunch               2.67 EUR
+    Expenses:Food:Lunch               2.67 EUR
     Liabilities:FR:Amex:Gold
 
 2025-11-11 * Dott ride

@@ -246,7 +246,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-17 * Au P'tit Caprice
-    Expenses:Food:OfficeLunch                     11 EUR
+    Expenses:Food:Lunch                     11 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-18 * Cigarettes
@@ -574,7 +574,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-03-24 * Le Petit Gourmet
-    Expenses:Food:OfficeLunch                  20.26 EUR
+    Expenses:Food:Lunch                  20.26 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-03-24 * Carrefour

@@ -98,15 +98,15 @@
 
 * Bimpli meal card
 2025-09-19 * Lunch
-    Expenses:Food:OfficeLunch              12.90 EUR
+    Expenses:Food:Lunch              12.90 EUR
     Assets:FR:Bimpli
 
 2025-09-29 * Lunch
-    Expenses:Food:OfficeLunch                 16 EUR
+    Expenses:Food:Lunch                 16 EUR
     Assets:FR:Bimpli
 
 2025-09-30 * Lunch
-    Expenses:Food:OfficeLunch                 11 EUR
+    Expenses:Food:Lunch                 11 EUR
     Assets:FR:Bimpli
 
 * BforBank transactions
@@ -324,7 +324,7 @@
 
 2025-09-29 * Swile ex-lunchr credit
     Assets:FR:BforBank:Compte-Courant       0.30 EUR
-    Expenses:Food:OfficeLunch
+    Expenses:Food:Lunch
 
 * Boursobank transactions
 2025-09-06 * Transfer to BforBank
@@ -518,7 +518,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-12 * Poke Go
-    Expenses:Food:OfficeLunch              12.90 EUR
+    Expenses:Food:Lunch              12.90 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-13 * Pain au chocolat and cafe
@@ -606,7 +606,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-25 * Poke Go
-    Expenses:Food:OfficeLunch              15.90 EUR
+    Expenses:Food:Lunch              15.90 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-27 * Beeminder fine
@@ -749,7 +749,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-09-22 * Deliveroo fee
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Liabilities:FR:Amex:Gold
 
 2025-09-22 * Dott ride

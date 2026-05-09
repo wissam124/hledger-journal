@@ -81,35 +81,35 @@
 
 * Bimpli meal card
 2025-10-07 * Lunch
-    Expenses:Food:OfficeLunch                 11 EUR
+    Expenses:Food:Lunch                 11 EUR
     Assets:FR:Bimpli
 
 2025-10-13 * Lunch Kayser
-    Expenses:Food:OfficeLunch                 16 EUR
+    Expenses:Food:Lunch                 16 EUR
     Assets:FR:Bimpli
 
 2025-10-14 * Lunch becchi
-    Expenses:Food:OfficeLunch              21.30 EUR
+    Expenses:Food:Lunch              21.30 EUR
     Assets:FR:Bimpli
 
 2025-10-15 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch              18.80 EUR
+    Expenses:Food:Lunch              18.80 EUR
     Assets:FR:Bimpli
 
 2025-10-16 * Lunch Bistropolitain
-    Expenses:Food:OfficeLunch              12.90 EUR
+    Expenses:Food:Lunch              12.90 EUR
     Assets:FR:Bimpli
 
 2025-10-20 * Lunch Bistropolitain
-    Expenses:Food:OfficeLunch              12.90 EUR
+    Expenses:Food:Lunch              12.90 EUR
     Assets:FR:Bimpli
 
 2025-10-21 * Lunch Petit Panda
-    Expenses:Food:OfficeLunch                 11 EUR
+    Expenses:Food:Lunch                 11 EUR
     Assets:FR:Bimpli
 
 2025-10-23 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch              15.30 EUR
+    Expenses:Food:Lunch              15.30 EUR
     Assets:FR:Bimpli
 
 2025-10-24 * Durum Saint-Michel
@@ -117,24 +117,24 @@
     Assets:FR:Bimpli
 
 2025-10-27 * Lunch Bagnard
-    Expenses:Food:OfficeLunch                 18 EUR
+    Expenses:Food:Lunch                 18 EUR
     Assets:FR:Bimpli
 
 2025-10-27 * Balance assignment as seen on receipt from Bagnard
     Assets:FR:Bimpli  = 301.08 EUR
-    Expenses:Food:OfficeLunch
+    Expenses:Food:Lunch
 
 2025-10-28 * Lunch Petit Panda
-    Expenses:Food:OfficeLunch                 11 EUR
+    Expenses:Food:Lunch                 11 EUR
     Assets:FR:Bimpli
 
 2025-10-30 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch              20.30 EUR
+    Expenses:Food:Lunch              20.30 EUR
     Assets:FR:Bimpli
 
 2025-10-30 * Balance assignment as seen on receipt from Mister Garden
     Assets:FR:Bimpli  = 267.38 EUR
-    Expenses:Food:OfficeLunch
+    Expenses:Food:Lunch
 
 * BforBank transactions
 2025-10-01 * Cigarettes
@@ -562,7 +562,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-20 * cojean - yoghurt dessert
-    Expenses:Food:OfficeLunch               5.30 EUR
+    Expenses:Food:Lunch               5.30 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-21 * Cigarettes
@@ -578,7 +578,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-22 * Lunch at Bagnard with Anne
-    Expenses:Food:OfficeLunch                 30 EUR
+    Expenses:Food:Lunch                 30 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-22 * Cigarettes
@@ -675,7 +675,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-10-03 * Deliveroo Five Guys
-    Expenses:Food:OfficeLunch              19.20 EUR
+    Expenses:Food:Lunch              19.20 EUR
     Liabilities:FR:Amex:Gold
 
 2025-10-04 * R2 Training
@@ -699,7 +699,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-10-06 * Deliveroo fee
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Liabilities:FR:Amex:Gold
 
 2025-10-06 * Wooden floors deposit  ; flat-vincennes:
@@ -727,7 +727,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-10 * Deliveroo fee
-    Expenses:Food:OfficeLunch               2.22 EUR
+    Expenses:Food:Lunch               2.22 EUR
     Liabilities:FR:Amex:Gold
 
 2025-10-10 * HelloFresh
@@ -767,7 +767,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-10-24 * Deliveroo fee
-    Expenses:Food:OfficeLunch               2.22 EUR
+    Expenses:Food:Lunch               2.22 EUR
     Liabilities:FR:Amex:Gold
 
 2025-10-25 * Vente Unique bed  ; flat-vincennes:

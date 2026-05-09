@@ -237,15 +237,15 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-30 * Lunch Kayser
-    Expenses:Food:OfficeLunch              15.90 EUR
+    Expenses:Food:Lunch              15.90 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-31 * Dessert Cojean
-    Expenses:Food:OfficeLunch               5.30 EUR
+    Expenses:Food:Lunch               5.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-31 * Bistropolis Office Lunch
-    Expenses:Food:OfficeLunch              15.90 EUR
+    Expenses:Food:Lunch              15.90 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-31 * Google Play Head 2 Ball
@@ -258,15 +258,15 @@
 
 * Boursobank transactions
 2025-07-03 * Deliveroo Fee
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-07-08 * Deliveroo Fee
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-07-16 * Deliveroo Fee
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Revolut transactions
@@ -283,7 +283,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-03 * Blend burger
-    Expenses:Food:OfficeLunch              13.30 EUR
+    Expenses:Food:Lunch              13.30 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-03 * Drinks with Aurelie
@@ -411,7 +411,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-17 * Julot Lunch Isky GBP
-    Expenses:Food:OfficeLunch              17.43 EUR
+    Expenses:Food:Lunch              17.43 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-20 * Beeminder fine

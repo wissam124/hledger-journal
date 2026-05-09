@@ -185,7 +185,7 @@
     Assets:FR:BforBank:Compte-Courant             -5 EUR
 
 2024-09-11 * Lunch
-    Expenses:Food:OfficeLunch                13.5 EUR
+    Expenses:Food:Lunch                13.5 EUR
     Assets:FR:BforBank:Compte-Courant       -13.5 EUR
 
 2024-09-12 * Cigarettes
@@ -261,7 +261,7 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-09-18 * Deliveroo fees
-    Expenses:Food:OfficeLunch                1.69 EUR
+    Expenses:Food:Lunch                1.69 EUR
     Assets:FR:BforBank:Compte-Courant       -1.69 EUR
 
 2024-09-18 * EDF subscription
@@ -317,7 +317,7 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-09-23 * Deliveroo fees
-    Expenses:Food:OfficeLunch                2.49 EUR
+    Expenses:Food:Lunch                2.49 EUR
     Assets:FR:BforBank:Compte-Courant       -2.49 EUR
 
 2024-09-24 * Carrefour City groceries
@@ -333,7 +333,7 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-09-25 * Deliveroo fees
-    Expenses:Food:OfficeLunch                   1 EUR
+    Expenses:Food:Lunch                   1 EUR
     Assets:FR:BforBank:Compte-Courant          -1 EUR
 
 2024-09-26 * Drinks IASD

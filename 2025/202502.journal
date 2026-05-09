@@ -405,7 +405,7 @@
     Assets:FR:BforBank:Compte-Courant         -13 EUR
 
 2025-02-26 * Deliveroo fees
-    Expenses:Food:OfficeLunch                2.15 EUR
+    Expenses:Food:Lunch                2.15 EUR
     Assets:FR:BforBank:Compte-Courant       -2.15 EUR
 
 2025-02-26 * Fisherman's Friend
@@ -445,7 +445,7 @@
     Assets:FR:BforBank:Compte-Courant        -10.5 EUR
 
 2025-02-28 * Office lunch - Mr Garden (swile empty)
-    Expenses:Food:OfficeLunch                14.9 EUR
+    Expenses:Food:Lunch                14.9 EUR
     Assets:FR:BforBank:Compte-Courant       -14.9 EUR
 
 2025-02-28 * Savings Livret A

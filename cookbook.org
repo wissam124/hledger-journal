@@ -178,7 +178,7 @@ Even easier with a balance assignment:
     Income:Capitalgains:Epsor:PEI
 #+end_src
 
-* Track ETF trading
+* Track trading
 ** Conversion accounts and multi-commodity balancing
 Suppose we use the below representation to record the purchase of 1 LQQ ETF with
 euros.

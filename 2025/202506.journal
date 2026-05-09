@@ -243,7 +243,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-24 * Lunch Mister Garden
-    Expenses:Food:OfficeLunch                  15.10 EUR
+    Expenses:Food:Lunch                  15.10 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-24 * Revolut transfer
@@ -283,11 +283,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-26 * Lunch Kayser
-    Expenses:Food:OfficeLunch                     16 EUR
+    Expenses:Food:Lunch                     16 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-27 * Lunch Kayser
-    Expenses:Food:OfficeLunch                     16 EUR
+    Expenses:Food:Lunch                     16 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-27 * Cigarettes
@@ -348,7 +348,7 @@
 
 * Boursorama transactions
 2025-06-20 * Deliveroo fees
-    Expenses:Food:OfficeLunch                   1.60 EUR
+    Expenses:Food:Lunch                   1.60 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Revolut transactions
@@ -445,7 +445,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-06-24 * Le Petit Panda
-    Expenses:Food:OfficeLunch                     11 EUR
+    Expenses:Food:Lunch                     11 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-06-27 * Doowap Carrefour
@@ -470,7 +470,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-06-04 * Deliveroo fees
-    Expenses:Food:OfficeLunch                   1.90 EUR
+    Expenses:Food:Lunch                   1.90 EUR
     Liabilities:FR:Amex:Gold
 
 2025-06-05 * Restaurant Le Petit Verdot
@@ -506,7 +506,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-06-09 * Deliveroo fees
-    Expenses:Food:OfficeLunch                   2.22 EUR
+    Expenses:Food:Lunch                   2.22 EUR
     Liabilities:FR:Amex:Gold
 
 2025-06-13 * Deliveroo Ice Cream
@@ -526,7 +526,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-06-20 * Deliveroo Five Guys
-    Expenses:Food:OfficeLunch                  11.48 EUR
+    Expenses:Food:Lunch                  11.48 EUR
     Liabilities:FR:Amex:Gold
 
 2025-06-20 * Exercise balls for Mum

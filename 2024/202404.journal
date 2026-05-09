@@ -181,7 +181,7 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-04-17 * Deliveroo fees
-    Expenses:Food:OfficeLunch                2.48 EUR
+    Expenses:Food:Lunch                2.48 EUR
     Assets:FR:BforBank:Compte-Courant       -2.48 EUR
 
 2024-04-17 * Sale Ikea shelves
@@ -225,11 +225,11 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-04-22 * Deliveroo
-    Expenses:Food:OfficeLunch                   2 EUR
+    Expenses:Food:Lunch                   2 EUR
     Assets:FR:BforBank:Compte-Courant          -2 EUR
 
 2024-04-22 * Deliveroo
-    Expenses:Food:OfficeLunch                2.48 EUR
+    Expenses:Food:Lunch                2.48 EUR
     Assets:FR:BforBank:Compte-Courant       -2.48 EUR
 
 2024-04-23 * Cigarettes

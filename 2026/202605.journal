@@ -66,7 +66,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-04 * Au P'tit Caprice
-    Expenses:Food:OfficeLunch                  12.60 EUR
+    Expenses:Food:Lunch                  12.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-04 * Jean Trogneux
@@ -123,11 +123,11 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-05-04 * Magali Saint Mande  ; aurelie:
-    Expenses:Food:OfficeLunch                     14 EUR
+    Expenses:Food:Lunch                     14 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-05-05 * Boulanger Magali
-    Expenses:Food:OfficeLunch                   6.60 EUR
+    Expenses:Food:Lunch                   6.60 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-05-05 * Franprix
@@ -135,7 +135,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-05-06 * Vapored
-    Expenses:Food:OfficeLunch                      9 EUR
+    Expenses:Food:Lunch                      9 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Other liabilities

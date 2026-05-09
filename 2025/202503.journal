@@ -464,7 +464,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-03-27 * Ilia office lunch
-    Expenses:Food:OfficeLunch                  14.60 EUR
+    Expenses:Food:Lunch                  14.60 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-03-27 * Cigarettes
@@ -476,7 +476,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-03-28 * Ilia office lunch
-    Expenses:Food:OfficeLunch                  15.10 EUR
+    Expenses:Food:Lunch                  15.10 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-03-28 * Euromillions
@@ -563,7 +563,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-03-31 * Deliveroo Bagnard
-    Expenses:Food:OfficeLunch                  19.25 EUR
+    Expenses:Food:Lunch                  19.25 EUR
     Liabilities:FR:Amex:Gold
 
 2025-03-31 * Deliveroo Pizza Chez Antoine

@@ -117,7 +117,7 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-05-06 * Deliveroo fees
-    Expenses:Food:OfficeLunch                2.48 EUR
+    Expenses:Food:Lunch                2.48 EUR
     Assets:FR:BforBank:Compte-Courant       -2.48 EUR
 
 2024-05-06 * Donation Le Monde Diplomatique
@@ -157,7 +157,7 @@
     Assets:FR:BforBank:Compte-Courant        -9.5 EUR
 
 2024-05-09 * Chipotle
-    Expenses:Food:OfficeLunch               16.55 EUR
+    Expenses:Food:Lunch               16.55 EUR
     Assets:FR:BforBank:Compte-Courant      -16.55 EUR
 
 2024-05-09 * Cigarettes
@@ -217,7 +217,7 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-05-14 * Office lunch - WeCantine
-    Expenses:Food:OfficeLunch                  12 EUR
+    Expenses:Food:Lunch                  12 EUR
     Assets:FR:BforBank:Compte-Courant         -12 EUR
 
 2024-05-15 * Auchan groceries
@@ -429,7 +429,7 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-05-30 * Deliveroo fees
-    Expenses:Food:OfficeLunch                1.49 EUR
+    Expenses:Food:Lunch                1.49 EUR
     Assets:FR:BforBank:Compte-Courant       -1.49 EUR
 
 2024-05-30 * Settlement Aurelie holidays Madeira

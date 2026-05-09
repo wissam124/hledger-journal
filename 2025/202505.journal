@@ -219,7 +219,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-26 * Kayser lunch
-    Expenses:Food:OfficeLunch                 16 EUR
+    Expenses:Food:Lunch                 16 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-27 * Cafe Nuances and pain au chocolat
@@ -514,7 +514,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-05-06 * Deliveroo Five Guys
-    Expenses:Food:OfficeLunch              28.69 EUR
+    Expenses:Food:Lunch              28.69 EUR
     Liabilities:FR:Amex:Gold
 
 2025-05-08 * Uber
@@ -534,7 +534,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-05-13 * Uber eats fees
-    Expenses:Food:OfficeLunch               2.85 EUR
+    Expenses:Food:Lunch               2.85 EUR
     Liabilities:FR:Amex:Gold
 
 2025-05-13 * Hyrox
@@ -570,7 +570,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-05-23 * Delivero fee
-    Expenses:Food:OfficeLunch               2.22 EUR
+    Expenses:Food:Lunch               2.22 EUR
     Liabilities:FR:Amex:Gold
 
 2025-05-23 * Padel court booking Sportfield
@@ -582,7 +582,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-05-27 * Deliveroo Cut
-    Expenses:Food:OfficeLunch               7.13 EUR
+    Expenses:Food:Lunch               7.13 EUR
     Liabilities:FR:Amex:Gold
 
 2025-05-27 * Hockney Louis Vuitton
@@ -590,7 +590,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-05-28 * Deliveroo Chlew
-    Expenses:Food:OfficeLunch              17.60 EUR
+    Expenses:Food:Lunch              17.60 EUR
     Liabilities:FR:Amex:Gold
 
 2025-05-28 * Vans

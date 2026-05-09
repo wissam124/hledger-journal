@@ -35,7 +35,7 @@
 
 * Boursobank expenses
 2025-04-10 * Deliveroo fee
-    Expenses:Food:OfficeLunch               1.56 EUR
+    Expenses:Food:Lunch               1.56 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Bforbank expenses
@@ -337,7 +337,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-14 * Deliveroo fee
-    Expenses:Food:OfficeLunch               2.15 EUR
+    Expenses:Food:Lunch               2.15 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-15 * Lebara Mobile
@@ -433,7 +433,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-28 * Kayser Office Lunch
-    Expenses:Food:OfficeLunch              13.40 EUR
+    Expenses:Food:Lunch              13.40 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-28 * Cigarettes
@@ -441,7 +441,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-29 * Le Petit Panda
-    Expenses:Food:OfficeLunch                 13 EUR
+    Expenses:Food:Lunch                 13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-30 * Beeminder fine
@@ -453,7 +453,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-04-30 * Ilya
-    Expenses:Food:OfficeLunch              14.60 EUR
+    Expenses:Food:Lunch              14.60 EUR
     Assets:UK:Revolut:Personal:EUR
 
 * Cash expenses

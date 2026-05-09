@@ -114,7 +114,7 @@ account Expenses:Food:Cafe                                 ; type: X
 account Expenses:Food:Delivery                             ; type: X
 account Expenses:Food:FastFood                             ; type: X
 account Expenses:Food:Groceries                            ; type: X
-account Expenses:Food:OfficeLunch                          ; type: X
+account Expenses:Food:      Lunch                          ; type: X
 account Expenses:Food:Restaurants                          ; type: X
 account Expenses:Food:Snack                                ; type: X
 account Expenses:GiftsCharity                              ; type: X

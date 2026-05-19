@@ -266,13 +266,43 @@
     Assets:FR:BforBank:Compte-Courant
 
 * Cash transactions
-2026-05-06 * Raspeberries
+2026-05-02 * Lost cash for tennis class
+    Expenses:Misc                                 80 EUR
+    Assets:Cash:EUR
+
+2026-05-06 * Raspberries
     Expenses:Food:Groceries                        6 EUR
+    Assets:Cash:EUR
+
+2026-05-14 * Paraphernalia
+    Expenses:PersonalCare:Discretionary           60 EUR
+    Assets:Cash:EUR                              -60 EUR
+    Expenses:PersonalCare:Discretionary          -40 EUR
+    Assets:Receivables:Florent                    40 EUR
+
+2026-05-16 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash:EUR
+
+2026-05-18 * Charity
+    Expenses:GiftsCharity:Gifts                 0.50 EUR
+    Assets:Cash:EUR
+
+2026-05-18 * Baguette
+    Expenses:Food:Groceries                     1.30 EUR
     Assets:Cash:EUR
 
 * CCF transactions
 2026-05-03 * Frais cotisation
     Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-05-07 * Cash withdrawal
+    Assets:Cash:EUR                              200 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-05-15 * Navigo
+    Expenses:Transportation:PublicTransport    63.24 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut EUR transactions
@@ -327,6 +357,11 @@
 2026-05-19 * Mon Petit Poulet
     Expenses:Food:Lunch                         6.50 EUR
     Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-05-09 * Lebara Mobile
+    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Assets:FR:Revolut:Personal:GBP
 
 * Other liabilities
 2026-05-05 * Train Ticket Touquet

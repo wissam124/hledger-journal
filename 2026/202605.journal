@@ -107,6 +107,114 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-05-07 * Transfer to CCF current-account
+    Assets:FR:CCF:Compte-Courant                1300 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-08 * G20
+    Expenses:Food:Groceries                    39.06 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-08 * Cigarettes
+    Expenses:Cigarettes                        26.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-08 * Cash withdrawal
+    Assets:Cash:EUR                               50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-08 * Cash withdrawal
+    Assets:Cash:EUR                              500 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-08 * Travaux jardin Huchon  ; flat-vincennes:
+    Expenses:Home:Improvements                  1120 EUR
+    Expenses:Home:Improvements                   845 EUR
+    Assets:FR:BforBank:Compte-Courant          -1120 EUR
+    Assets:Cash:EUR                             -845 EUR
+    Expenses:Home:Improvements               -982.50 EUR
+    Liabilities:Payables:Aurelie              982.50 EUR
+
+2026-05-11 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-12 * Ajs Concept
+    Expenses:Home:Laundry                       6.60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-12 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-13 * Malik Afzali
+    Expenses:Food:Lunch                           11 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-13 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-13 * Fisherman's Friend
+    Expenses:Food:Snack                         2.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-14 * G20
+    Expenses:Food:Groceries                    38.01 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-14 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-15 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-15 * Paraphernalia
+    Expenses:Cigarettes                         4.70 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-15 * RATP
+    Expenses:Transportation:PublicTransport     5.10 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-15 * Cash withdrawal
+    Assets:Cash:EUR                              210 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-15 * Le Trouville  ; aurelie:
+    Expenses:Entertainment:Social:Bars            32 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-15 * Au P'tit Caprice  ; aurelie:
+    Expenses:Food:Lunch                        16.60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-15 * Cocolis
+    Expenses:Home:Furniture                       40 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-16 * Cash withdrawal
+    Assets:Cash:EUR                              140 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-16 * Corcoran's
+    Expenses:Entertainment:Social:Bars         17.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-16 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-18 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-18 * Cafe
+    Expenses:Food:Cafe                          2.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Cash transactions
 2026-05-06 * Raspeberries
     Expenses:Food:Groceries                        6 EUR
@@ -123,22 +231,59 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-05-04 * Magali Saint Mande  ; aurelie:
-    Expenses:Food:Lunch                     14 EUR
+    Expenses:Food:Lunch                           14 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-05-05 * Boulanger Magali
-    Expenses:Food:Lunch                   6.60 EUR
+    Expenses:Food:Lunch                         6.60 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-05-05 * Franprix
     Expenses:Food:Groceries                     5.85 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-05-06 * Vapored
-    Expenses:Food:Lunch                      9 EUR
+2026-05-07 * Vapored
+    Expenses:Food:Lunch                            9 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-09 * Maison B&b
+    Expenses:Food:Cafe                          4.70 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-11 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-11 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-14 * RATP
+    Expenses:Transportation:PublicTransport     2.55 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-15 * Majov Restauration
+    Expenses:Food:Snack                            5 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-15 * Florent settlement paraphernalia
+    Assets:FR:Revolut:Personal:EUR                40 EUR
+    Assets:Receivables:Florent
+
+2026-05-16 * Maison B&b
+    Expenses:Food:Cafe                          3.20 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-19 * Mon Petit Poulet
+    Expenses:Food:Lunch                         6.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Other liabilities
 2026-05-05 * Train Ticket Touquet
     Expenses:Travel:Train                         40 EUR
     Liabilities:Payables:Aurelie
+
+2026-05-08 * Travaux Jardin Huchon paid by Aurelie  ; flat-vincennes:
+    Expenses:Home:Improvements                   800 EUR
+    Expenses:Home:Improvements                  -400 EUR
+    Liabilities:Payables:Aurelie                -400 EUR

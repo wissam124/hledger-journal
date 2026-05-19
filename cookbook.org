@@ -3,30 +3,30 @@
 
 * Formalise transactions and balances
 ** Transactions
-Let's note $N(t)$ the total number of accounts at time $t$. For simplicity let's
-drop the time dependence and set $N$ to $$\underset{u \leq t}{\sup N(u)}$$.
+Let's note \(N(t)\) the total number of accounts at time \(t\). For simplicity let's
+drop the time dependence and set \(N\) to \(\sup_{u \leq t}N(u)\).
 
-At a given time $t$, a transaction $j$ is defined as $\Delta_{j,t} =
-(\Delta^{i}_{j,t})_{1 \leq i \leq N}$ where $\Delta^{i}_{j,t}$ is the
-transaction's posting against account $i$ at time $t$.  The fundamental
+At a given time \(t\), a transaction \(j\) is defined as \(\Delta_{j,t} =
+(\Delta^{i}_{j,t})_{1 \leq i \leq N}\) where \(\Delta^{i}_{j,t}\) is the
+transaction's posting against account \(i\) at time \(t\).  The fundamental
 accounting equation requires that the transaction is balanced i.e.: for a
-transaction $j$ occurring at time $t$ we have \[\sum_{i=1}^N\Delta^{i}_{j,t} =
+transaction \(j\) occurring at time \(t\) we have \[\sum_{i=1}^N\Delta^{i}_{j,t} =
 0\]
 
 
-At a given time $t$, there can be $n$ multiple transactions. For simplicity,
-let's roll all postings to the same account $i$ at time $t$ into a single
-posting $$\Delta^i_t = \sum_{j=1}^n\Delta^{i}_{j,t}$$
+At a given time \(t\), there can be \(n\) multiple transactions. For simplicity,
+let's roll all postings to the same account \(i\) at time \(t\) into a single
+posting \[\Delta^i_t = \sum_{j=1}^n\Delta^{i}_{j,t}\]
 
-Trivally, we have $\sum_{i=1}^{N}\Delta^{i}_{t} = 0$
+Trivally, we have \(\sum_{i=1}^{N}\Delta^{i}_{t} = 0\)
 
 ** Trial balance
-The trial balance of an account $i$ at time $t$ is defined as: $$B_{i,t} =
-\sum_{u \leq t}\Delta^{i}_{u}$$
+The trial balance of an account \(i\) at time \(t\) is defined as: \[B_{i,t} =
+\sum_{u \leq t}\Delta^{i}_{u}\]
 By construction, we have:
 
-$\sum_{i=1}^N B_{i,t} = \sum_{i=1}^{N}\sum_{u \leq t}\Delta^i_u = \sum_{u \leq
-t}\sum_{i=1}^{N}\Delta^i_u = 0$
+\(\sum_{i=1}^N B_{i,t} = \sum_{i=1}^{N}\sum_{u \leq t}\Delta^i_u = \sum_{u \leq
+t}\sum_{i=1}^{N}\Delta^i_u = 0\)
 
 *At any time, the sum of balances across all accounts must be 0.*
 * The fundamental accounting equation
@@ -34,8 +34,8 @@ t}\sum_{i=1}^{N}\Delta^i_u = 0$
 The fundamental rule of double-entry accounting requires every debit to be
 matched with a credit of equal value.
 
-With signed quantities, the fundamental accounting equation is $$A + L + E =
-0$$.
+With signed quantities, the fundamental accounting equation is \[A + L + E =
+0\].
 
 This means that every new transaction must maintain this balance.  For example,
 an increase in assets must be offset by either:
@@ -126,8 +126,8 @@ P 2025-01-01 EURPER EUR 1.1
 #+end_src
 
 This is cumbersome because it requires to calculate a price inferred from the
-valuation of the plan at time $t$ divided by the contributions.  Additionnally,
-contributions made at times $t_1$ and $t_{2}$ should not be valued with the same
+valuation of the plan at time \(t\) divided by the contributions.  Additionnally,
+contributions made at times \(t_1\) and \(t_{2}\) should not be valued with the same
 price because they have grown with different returns.
 
 For valuation purposes it is easier to use a balance assignment using the
@@ -328,10 +328,10 @@ else.
 
 #+begin_src ledger
 2026-03-03 * Tap Air Portugal
-    Expenses:Travel:Flights                   504.38 EUR
-    Expenses:Travel:Flights                  -252.19 EUR
-    Liabilities:FR:Amex:Gold                 -504.38 EUR
-    Assets:Receivables                        252.19 EUR
+    Expenses:Travel:Flights                   504.38 EUR   ; posting with full expense
+    Expenses:Travel:Flights                  -252.19 EUR   ; remove from the full expense the part owed by borrower
+    Liabilities:FR:Amex:Gold                 -504.38 EUR   ; posting with the source of assets and the full amount
+    Assets:Receivables                        252.19 EUR   ; posting to a receivables account with the amount owed by borrower
 #+end_src
 
 * Country prefix

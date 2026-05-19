@@ -30,14 +30,68 @@
     Expenses:Food:Delivery                     29.79 EUR
     Liabilities:FR:Amex:Gold
 
-2026-05-06 Leroy Merlin  ; flat-vincennes:
+2026-05-06 * Leroy Merlin  ; flat-vincennes:
     Expenses:Home:Maintenance                  25.80 EUR
     Liabilities:FR:Amex:Gold                  -25.80 EUR
     Expenses:Home:Maintenance                 -12.90 EUR
     Liabilities:Payables:Aurelie               12.90 EUR
 
-2026-05-06 Amazon Prime
+2026-05-06 * Amazon Prime
     Expenses:Subscriptions                     69.90 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-08 * Carrefour City
+    Expenses:Food:Groceries                    20.41 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-08 * Franprix
+    Expenses:Food:Groceries                    11.15 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-10 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-05-11 * Amex settlement
+    Liabilities:FR:Amex:Gold                  925.77 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-05-14 * Deliveroo
+    Expenses:Food:Delivery                     30.34 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-15 * Franprix
+    Expenses:Food:Groceries                    16.74 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-15 * easyJet flights to Venice
+    Expenses:Travel:Flights                   277.29 EUR
+    Liabilities:FR:Amex:Gold                 -277.29 EUR
+    Expenses:Travel:Flights                  -138.64 EUR
+    Liabilities:Payables:Aurelie              138.64 EUR
+
+2026-05-15 * easyJet flights Milano to Paris
+    Expenses:Travel:Flights                   147.47 EUR
+    Liabilities:FR:Amex:Gold                 -147.47 EUR
+    Expenses:Travel:Flights                   -73.74 EUR
+    Liabilities:Payables:Aurelie               73.74 EUR
+
+2026-05-16 * Airbnb Auronzo
+    Expenses:Travel:Holidays:Accommodation       620 EUR
+    Liabilities:FR:Amex:Gold                    -620 EUR
+    Expenses:Travel:Holidays:Accommodation      -310 EUR
+    Liabilities:Payables:Aurelie                 310 EUR
+
+2026-05-17 HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-05-18 Deliveroo
+    Expenses:Food:Delivery                     19.49 EUR
     Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
@@ -77,7 +131,7 @@
     Expenses:Food:Groceries                    16.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-05-05 * Travaux Jardin Huchon
+2026-05-05 * Travaux Jardin Huchon  ; flat-vincennes:
     Expenses:Home:Improvements                  1185 EUR
     Assets:FR:BforBank:Compte-Courant          -1185 EUR
     Liabilities:Payables:Aurelie              592.50 EUR
@@ -90,10 +144,6 @@
 2026-05-05 * Cash withdrawal
     Assets:Cash:EUR                               80 EUR
     Assets:FR:BforBank:Compte-Courant
-
-2026-05-06 * Rounding liability Aurelie
-    Expenses:Home:Improvements                 0.93 EUR
-    Liabilities:Payables:Aurelie
 
 2026-05-06 * Aurelie Settlement
     Assets:FR:BforBank:Compte-Courant           1041 EUR
@@ -286,4 +336,12 @@
 2026-05-08 * Travaux Jardin Huchon paid by Aurelie  ; flat-vincennes:
     Expenses:Home:Improvements                   800 EUR
     Expenses:Home:Improvements                  -400 EUR
-    Liabilities:Payables:Aurelie                -400 EUR
+    Liabilities:Payables:Aurelie
+
+2026-05-15 * Hotel Venice
+    Expenses:Travel:Holidays:Accommodation     93.29 EUR
+    Liabilities:Payables:Aurelie
+
+2026-05-15 * Hotel Bolzano
+    Expenses:Travel:Holidays:Accommodation     89.50 EUR
+    Liabilities:Payables:Aurelie

@@ -1,8 +1,12 @@
 include accts26.journal
 include iaccts26.journal
 include comms26.journal
+
 include PLQQ26.journal
 include PGBP26.journal
+include PVG26.journal
+include PWPEA26.journal
+include PUSD26.journal
 
 include 2026-open.journal
 include 202601.journal

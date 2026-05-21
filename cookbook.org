@@ -178,20 +178,22 @@ Even easier with a balance assignment:
     Income:Capitalgains:Epsor:PEI
 #+end_src
 
-* Track trading
+* Trading
 ** Conversion accounts and multi-commodity balancing
 Suppose we use the below representation to record the purchase of 1 LQQ ETF with
 euros.
+
 #+begin_src ledger
 2024-09-18 * Buy LQQ
     Assets:FR:BourseDirect:PEA:ETF:LQQ             1 LQQ
     Assets:FR:BourseDirect:Cash             -1037.90 EUR
 #+end_src
+
 In a standard double-entry transaction, the total sum of the transaction must be
-zero.  If you buy LQQ with EUR you are effectively adding 1 LQQ and removing X
-EUR.  The sum of the postings above is 1 LQQ + (-X EUR) which technically does
-not add up to 0 -> the books do not balance!  It looks like 1 LQQ was created
-out of thin air while X EUR were destroyed.
+zero. If you buy LQQ with EUR you are effectively adding 1 LQQ and removing X
+EUR. The sum of the postings above is 1 LQQ + (-X EUR) which technically does
+not add up to 0 -> the books do not balance! It looks like 1 LQQ was created out
+of thin air while X EUR were destroyed.
 
 Equity conversion accounts is the rigorous way to handle multi-commodity
 transactions (e.g. buying a stock with cash).  It ensures that books are
@@ -220,10 +222,11 @@ commodity.  This enforces a strict accounting style where books must balance not
 only in value but in every specific commodity involved in a transaction.
 
 ** Recording a purchase/sale with cost
+*** Purchase
 The most important thing is not just the record of the purchase (resp. sale) but
 the price paid (resp. received).
 
-It is preferable to use the  @ UNITCOST notation rather than @@ TOTALCOST.
+It is preferable to use the =@ UNITCOST= notation rather than =@@ TOTALCOST=.
 
 #+begin_src ledger
 2024-09-18 * Buy LQQ ETF
@@ -231,6 +234,7 @@ It is preferable to use the  @ UNITCOST notation rather than @@ TOTALCOST.
     Assets:FR:BourseDirect:Cash             -1037.90 EUR
 #+end_src
 
+*** Sale
 hledger has no notion of lots or attached cost-basis.  The sale must be recorded
 as follows:
 - use the original cost price.
@@ -241,7 +245,7 @@ as follows:
     Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1037.90 EUR  ; the original cost
     Assets:FR:BourseDirect:Cash              1197.50 EUR
     Expenses:Finance:Fees                       2.50 EUR
-    Income:CapitalGains                      -162.10 EUR  ; the capitain gain from the sale
+    Income:CapitalGains                      -162.10 EUR  ; the capital gain from the sale
 #+end_src
 
 ** Lot-tracking

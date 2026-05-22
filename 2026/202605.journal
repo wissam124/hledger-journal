@@ -265,6 +265,18 @@
     Expenses:Food:Cafe                          2.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-05-19 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-20 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-21 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bourse Direct transactions
 2026-05-07 * Sell LQQ ETF
     Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1597.70 EUR
@@ -287,6 +299,10 @@
 
 2026-05-06 * Raspberries
     Expenses:Food:Groceries                        6 EUR
+    Assets:Cash:EUR
+
+2026-05-14 * Desktronic
+    Expenses:Home:Furniture                      150 EUR
     Assets:Cash:EUR
 
 2026-05-14 * Paraphernalia
@@ -371,6 +387,18 @@
 
 2026-05-19 * Mon Petit Poulet
     Expenses:Food:Lunch                         6.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-19 * Franprix
+    Expenses:Food:Groceries                    13.90 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-19 * Boulanger Magali
+    Expenses:Food:Groceries                     7.42 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-21 * Mon Petit Poulet
+    Expenses:Food:Lunch                         7.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

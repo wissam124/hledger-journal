@@ -11,6 +11,7 @@ tag claim-tax
 tag flat-vincennes
 tag per-tax-deferred
 tag bcn-trip
+tag italy-holiday-2026
 
 ; Assets: things I own (cash, bank account, investments)
 account Assets:Cash:EUR                           ; type: C
@@ -27,6 +28,7 @@ account Assets:FR:Epsor:PEI                       ; type: A
 account Assets:FR:Epsor:PER                       ; type: A
 account Assets:FR:Revolut:Personal:EUR            ; type: C
 account Assets:FR:Revolut:Personal:GBP            ; type: C
+account Assets:FR:Revolut:Personal:USD            ; type: C
 account Assets:FR:Revolut:Personal:Flexible:GBP   ; type: C
 account Assets:Home:Vincennes                     ; type: A
 account Assets:UK:HSBC:Current-Account            ; type: C
@@ -130,6 +132,7 @@ account Expenses:Home                                      ; type: X
 account Expenses:Home:Furniture                            ; type: X
 account Expenses:Home:Improvements                         ; type: X
 account Expenses:Home:Laundry                              ; type: X
+account Expenses:Home:Legal                                ; type: X
 account Expenses:Home:Maintenance                          ; type: X
 account Expenses:Home:Rent                                 ; type: X
 account Expenses:Home:Utilities:Electricity                ; type: X

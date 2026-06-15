@@ -11,6 +11,10 @@
     Expenses:Health:Sport:Tennis                   3 TL
     Assets:Prepaid:Tennis
 
+2026-05-29 * Tennis lesson with Joris
+    Expenses:Health:Sport:Tennis                   1 TL
+    Assets:Prepaid:Tennis
+
 * Amex transactions
 2026-05-03 * Velib
     Expenses:Transportation:Bikesharing            6 EUR
@@ -58,7 +62,7 @@
     Liabilities:FR:Amex:Gold                  925.77 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-05-14 * Deliveroo
+2026-05-14 * Deliveroo  ; aurelie:
     Expenses:Food:Delivery                     30.34 EUR
     Liabilities:FR:Amex:Gold
 
@@ -66,33 +70,87 @@
     Expenses:Food:Groceries                    16.74 EUR
     Liabilities:FR:Amex:Gold
 
-2026-05-15 * easyJet flights to Venice
+2026-05-15 * easyJet flights to Venice  ; italy-holiday-2026
     Expenses:Travel:Flights                   277.29 EUR
     Liabilities:FR:Amex:Gold                 -277.29 EUR
     Expenses:Travel:Flights                  -138.64 EUR
     Liabilities:Payables:Aurelie              138.64 EUR
 
-2026-05-15 * easyJet flights Milano to Paris
+2026-05-15 * easyJet flights Milano to Paris  ; italy-holiday-2026
     Expenses:Travel:Flights                   147.47 EUR
     Liabilities:FR:Amex:Gold                 -147.47 EUR
     Expenses:Travel:Flights                   -73.74 EUR
     Liabilities:Payables:Aurelie               73.74 EUR
 
-2026-05-16 * Airbnb Auronzo
+2026-05-16 * Airbnb Auronzo  ; italy-holiday-2026
     Expenses:Travel:Holidays:Accommodation       620 EUR
     Liabilities:FR:Amex:Gold                    -620 EUR
     Expenses:Travel:Holidays:Accommodation      -310 EUR
     Liabilities:Payables:Aurelie                 310 EUR
 
-2026-05-17 HelloFresh
+2026-05-17 * HelloFresh
     Expenses:Food:Groceries                    48.98 EUR
     Liabilities:FR:Amex:Gold                  -48.98 EUR
     Expenses:Food:Groceries                   -24.49 EUR
     Liabilities:Payables:Aurelie               24.49 EUR
 
-2026-05-18 Deliveroo
+2026-05-18 * Deliveroo  ; aurelie:
     Expenses:Food:Delivery                     19.49 EUR
     Liabilities:FR:Amex:Gold
+
+2026-05-21 * Franprix
+    Expenses:Food:Groceries                    25.11 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-22 * Uber
+    Expenses:Transportation:Taxi               16.97 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-22 * Uber
+    Expenses:Transportation:Taxi               13.94 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-22 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-05-25 * Club Hotel Olivi  ; italy-holiday-2026
+    Expenses:Travel:Holidays:Accommodation    560.81 EUR
+    Liabilities:FR:Amex:Gold                 -560.81 EUR
+    Expenses:Travel:Holidays:Accommodation   -280.40 EUR
+    Liabilities:Payables:Aurelie              280.40 EUR
+
+2026-05-26 * Deliveroo  ; aurelie:
+    Expenses:Food:Delivery                     28.29 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-26 * Deliveroo tip
+    Expenses:Food:Delivery                      2.58 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-28 * Deliveroo
+    Expenses:Food:Delivery                     19.25 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-29 * Carrefour City
+    Expenses:Food:Groceries                     8.90 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-31 * Carrefour City
+    Expenses:Food:Groceries                     8.58 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-31 * Monoprix
+    Expenses:Food:Groceries                    43.84 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-05-31 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
 
 * Bforbank transactions
 2026-05-01 * Refund TC12
@@ -120,7 +178,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-04 * Au P'tit Caprice
-    Expenses:Food:Lunch                  12.60 EUR
+    Expenses:Food:Lunch                        12.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-04 * Jean Trogneux
@@ -197,7 +255,7 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-05-13 * Malik Afzali
+2026-05-13 * O'Poulet
     Expenses:Food:Lunch                           11 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -277,6 +335,86 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-05-22 * Cash withdrawal
+    Assets:Cash:EUR                              200 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-23 * McDonald's  ; aurelie:
+    Expenses:Food:FastFood                     25.05 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-23 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-24 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-25 * Padel rackets rental
+    Expenses:Entertainment:Social:Sports           8 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-26 * Carrefour City
+    Expenses:Food:Groceries                    20.72 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-26 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-26 * Cash withdrawal
+    Assets:Cash:EUR                               60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-26 * Ratp
+    Expenses:Transportation:PublicTransport     2.55 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-26 * Ratp
+    Expenses:Transportation:PublicTransport     2.55 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-27 * O'Poulet
+    Expenses:Food:Lunch                         6.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-28 * Fisherman's Friend
+    Expenses:Food:Snack                         2.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-29 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-30 * La Brasserie 1901  ; aurelie:
+    Expenses:Entertainment:Social:Bars         29.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-30 * Maison B&b
+    Expenses:Food:Snack                         3.90 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-30 * McDonald's
+    Expenses:Food:FastFood                      9.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-30 * Cash withdrawal
+    Assets:Cash:EUR                               80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-05-31 * Monoprix Julien
+    Expenses:Food:Groceries                    19.06 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Bourse Direct transactions
 2026-05-07 * Sell LQQ ETF
     Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1597.70 EUR
@@ -323,6 +461,18 @@
     Expenses:Food:Groceries                     1.30 EUR
     Assets:Cash:EUR
 
+2026-05-22 * Treatment
+    Expenses:PersonalCare:Discretionary          200 EUR
+    Assets:Cash:EUR
+
+2026-05-23 * Therapy
+    Expenses:Health:Therapy                       60 EUR
+    Assets:Cash:EUR
+
+2026-05-30 * Therapy
+    Expenses:Health:Therapy                       60 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-05-03 * Frais cotisation
     Expenses:Finance:Bank                       8.75 EUR
@@ -334,6 +484,10 @@
 
 2026-05-15 * Navigo
     Expenses:Transportation:PublicTransport    63.24 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-05-27 * SFR
+    Expenses:Home:Utilities:MobilePhone        11.99 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut EUR transactions
@@ -401,6 +555,14 @@
     Expenses:Food:Lunch                         7.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-05-23 * Maison B&b
+    Expenses:Food:Cafe                          3.20 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-05-25 * Torbox
+    Expenses:Subscriptions:Streaming            4.32 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Revolut GBP transactions
 2026-05-09 * Lebara Mobile
     Expenses:Home:Utilities:MobilePhone            5 GBP
@@ -416,10 +578,18 @@
     Expenses:Home:Improvements                  -400 EUR
     Liabilities:Payables:Aurelie
 
-2026-05-15 * Hotel Venice
+2026-05-09 * Plantes Truffaut
+    Expenses:Home:Improvements                126.26 EUR
+    Liabilities:Payables:Aurelie
+
+2026-05-15 * Hotel Venice  ; italy-holiday-2026:
     Expenses:Travel:Holidays:Accommodation     93.29 EUR
     Liabilities:Payables:Aurelie
 
-2026-05-15 * Hotel Bolzano
+2026-05-15 * Hotel Bolzano  ; italy-holiday-2026:
     Expenses:Travel:Holidays:Accommodation     89.50 EUR
+    Liabilities:Payables:Aurelie
+
+2026-05-30 * Leroy Merlin
+    Expenses:Home:Maintenance                  60.50 EUR
     Liabilities:Payables:Aurelie

@@ -1,0 +1,271 @@
+* Amex transactions
+2026-06-02 * Carrefour Paris Auteil
+    Expenses:Food:Snack                         7.84 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-03 * Velib
+    Expenses:Transportation:Bikesharing            4 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-05 * Carrefour
+    Expenses:Food:Groceries                    15.33 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-06 * Amex subscription
+    Expenses:Finance:CreditCard                   16 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-08 * Rackets Pro Academy EU Lisboa
+    Expenses:Health:Sport:Tennis                  28 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-08 * Amazon order
+    Expenses:Shopping:Sport                    14.90 EUR
+    Expenses:Home:Maintenance                   5.37 EUR
+    Expenses:Home:Furniture                     6.99 EUR
+    Expenses:Home:Maintenance                  11.99 EUR
+    Liabilities:FR:Amex:Gold                  -39.25 EUR
+
+2026-06-09 * Carrefour City
+    Expenses:Food:Groceries                    13.94 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-10 * Refund Rackets Pro Academy EUL
+    Expenses:Health:Sport:Tennis              -26.38 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-10 Amex settlement
+    Liabilities:FR:Amex:Gold                 2205.95 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-06-10 * Deliveroo
+    Expenses:Food:Delivery                     18.04 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-10 Decathlon
+    Expenses:Shopping:Sport                    22.48 EUR
+    Liabilities:FR:Amex:Gold
+
+* Bforbank transactions
+2026-06-01 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-01 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-02 * Refund Mr Bricolage
+    Expenses:Home:Maintenance                  75.80 EUR  ; garden hose
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-02 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-03 * On Air
+    Expenses:Health:Gym                        43.96 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-03 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-03 * Gift Isky electronic cig
+    Expenses:GiftsCharity:Gifts                    8 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-04 * Lunch O'Poulet
+    Expenses:Food:Lunch                            8 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-04 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-05 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean               2031.66 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-05 * MacroFactor
+    Expenses:Subscriptions:Software            13.99 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-05 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-05 * Le Trouville
+    Expenses:Entertainment:Social:Bars            20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-05 * Allee Viet
+    Expenses:Food:Lunch                         16.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-06 * Lunch O'Poulet
+    Expenses:Food:Lunch                         6.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-06 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                          1 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Maison B&b
+    Expenses:Food:Snack                         3.20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Refund Mr Bricolage
+    Expenses:Home:Maintenance                 -48.20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Creme  ; aurelie:
+    Expenses:Food:Snack                           10 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                       6.60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-08 * Ajs Concept
+    Expenses:Home:Laundry                       1.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-09 * Transfer to Revolut account
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-09 * Tennis racket restringing
+    Expenses:Shopping:Sport                       25 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-09 * On Air pass replacement
+    Expenses:Health:Gym                           15 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-09 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-09 * Cash withdrawal
+    Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-10 * Transfer to Revolut account
+    Assets:FR:Revolut:Personal:EUR              6000 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-10 * Lawyer for Huchon Garden
+    Expenses:Home:Legal                         792 EUR
+    Assets:FR:BforBank:Compte-Courant           -792 EUR
+    Expenses:Home:Legal                        -396 EUR
+    Liabilities:Payables:Aurelie                 396 EUR
+
+2026-06-10  * Creme  ; aurelie:
+    Expenses:Food:Snack                        19.40 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-10 * Transfer to CCF current-account
+    Assets:FR:CCF:Compte-Courant             2205.95 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-11 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-11 * Cash withdrawal
+    Assets:Cash:EUR                              120 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+* Cash transactions
+2026-06-08 * Hairdresser
+    Expenses:PersonalCare:Hair                    12 EUR
+    Assets:Cash:EUR
+
+2026-06-09 * Cigarettes
+    Expenses:PersonalCare:Hair                 13.50 EUR
+    Assets:Cash:EUR
+
+2026-06-05 * Tennis lesson with Joris
+    Expenses:Health:Sport:Tennis                   1 TL
+    Assets:Prepaid:Tennis
+
+2026-06-10 * Baguette
+    Expenses:Food:Groceries                     1.30 EUR
+    Assets:Cash:EUR
+
+* CCF transactions
+2026-06-01 * Cotisation
+    Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+* Revolut EUR transactions
+2026-06-09 * Tennis lesson Lisbon
+    Expenses:Health:Sport:Tennis                  70 EUR
+    Assets:FR:Revolut:Personal:EUR               -70 EUR
+    Expenses:Health:Sport:Tennis                 -35 EUR
+    Assets:Receivables                            35 EUR
+
+2026-06-10 * Buy USD
+    Assets:FR:Revolut:Personal:USD           5764.42 USD @@ 5000 EUR
+    Expenses:Finance:Brokerage                 40.04 EUR
+    Assets:FR:Revolut:Personal:EUR          -5040.04 EUR
+
+2026-06-10 * Transfer to Revolut brokerage account
+    Assets:FR:Revolut:Brokerage:Cash:USD     5764.42 USD
+    Assets:FR:Revolut:Personal:USD
+
+2026-06-10 * Ratp
+    Expenses:Transportation:PublicTransport     5.10 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-10 * Ajc Conc.aut
+    Expenses:Home:Laundry                        4.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-10 * Ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-10 * Ajc Conc.aut
+    Expenses:Home:Laundry                        1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-11 * Transfer to BForBank current-account
+    Assets:FR:BforBank:Compte-Courant         900.45 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-06-08 * Lebara mobile
+    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+* Other liabilities

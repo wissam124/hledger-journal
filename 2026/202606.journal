@@ -74,6 +74,10 @@
     Expenses:Home:Maintenance                 -21.36 EUR
     Liabilities:Payables:Aurelie               21.36 EUR
 
+2026-06-16 Tennis Warehouse
+    Expenses:Shopping:Sport                    69.52 EUR
+    Liabilities:FR:Amex:Gold
+
 * Bforbank transactions
 2026-06-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
@@ -375,6 +379,10 @@
 
 2026-06-11 * Transfer to BForBank current-account
     Assets:FR:BforBank:Compte-Courant         900.45 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-16 * Vapored
+    Expenses:Food:Restaurants                  10.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

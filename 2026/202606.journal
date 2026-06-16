@@ -78,6 +78,44 @@
     Expenses:Shopping:Sport                    69.52 EUR
     Liabilities:FR:Amex:Gold
 
+2026-06-16 Decathlon
+    Expenses:Shopping:Sport                    33.97 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-16 Anybuddy
+    Expenses:Health:Sport:Tennis                  18 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-16 Discover Car Hire
+    Expenses:Transportation:CarRental         460.15 EUR
+    Liabilities:FR:Amex:Gold                 -460.15 EUR
+    Expenses:Transportation:CarRental        -230.08 EUR
+    Liabilities:Payables:Aurelie              230.08 EUR
+
+2026-06-16 Amazon shoe storage
+    Expenses:Home:Furniture                    25.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-16 Amazon bike key shower gel
+    Expenses:Home:Maintenance                  26.53 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-16 Amazon moth trap
+    Expenses:Home:Maintenance                  12.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-16 Easyjet luggage Paris Venice  ; trip:italy-2026
+    Expenses:Travel:Flights                    45.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-16 Easyjet luggage Milan Paris  ; trip:italy-2026
+    Expenses:Travel:Flights                    32.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-16 Share easyjet luggage expenses  ; trip:italy-2026
+    Expenses:Travel:Flights                   -39.49 EUR
+    Liabilities:Payables:Aurelie
+
 * Bforbank transactions
 2026-06-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
@@ -326,6 +364,10 @@
     Expenses:Health:Therapy                      120 EUR
     Assets:Cash:EUR
 
+2026-06-12 * Cafe Tennis club Lisbon
+    Expenses:Food:Cafe                         10.50 EUR
+    Assets:Cash:EUR
+
 2026-06-12 * Padel court and gear
     Expenses:Entertainment:Social:Sports          42 EUR
     Assets:Cash:EUR
@@ -336,6 +378,10 @@
 
 2026-06-13 * Lend cash to Jacques for surfing
     Liabilities:Payables                          50 EUR
+    Assets:Cash:EUR
+
+2026-06-16 * Baguette
+    Expenses:Food:Groceries                     1.30 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -385,9 +431,16 @@
     Expenses:Food:Restaurants                  10.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-06-16 * Sp Larbre Vert
+    Expenses:Home:Maintenance                  33.79 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Revolut GBP transactions
 2026-06-08 * Lebara mobile
     Expenses:Home:Utilities:MobilePhone            5 GBP
     Assets:FR:Revolut:Personal:GBP
 
 * Other liabilities
+2026-06-16 * Lisbon expenses paid by Jacques  ; trip:lisbon-2026
+    Expenses:Travel:Holidays                   43.50 EUR
+    Liabilities:Payables

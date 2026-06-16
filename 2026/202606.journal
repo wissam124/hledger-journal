@@ -46,15 +46,15 @@
     Expenses:Shopping:Sport                    22.48 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-12 * Uber  ; lisbon-we-2026:
+2026-06-12 * Uber  ; trip:lisbon-2026
     Expenses:Transportation:Taxi               21.96 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-12 * Uber  ; lisbon-we-2026
+2026-06-12 * Uber  ; trip:lisbon-2026
     Expenses:Transportation:Taxi               29.98 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-14 * Uber  ; lisbon-we-2026
+2026-06-14 * Uber  ; trip:lisbon-2026
     Expenses:Transportation:Taxi               14.98 EUR
     Liabilities:FR:Amex:Gold
 
@@ -285,7 +285,7 @@
     Expenses:Transportation:PublicTransport       14 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-06-15 * Gifts Lisbon Aurelie
+2026-06-15 * Gifts Lisbon Aurelie  ; trip:lisbon-2026
     Expenses:GiftsCharity:Gifts                   15 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -330,6 +330,10 @@
     Expenses:Food:Snack                         3.90 EUR
     Assets:Cash:EUR
 
+2026-06-13 * Lend cash to Jacques for surfing
+    Liabilities:Payables                          50 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-06-01 * Cotisation
     Expenses:Finance:Bank                       8.75 EUR
@@ -340,7 +344,7 @@
     Assets:FR:CCF:Compte-Courant
 
 * Revolut EUR transactions
-2026-06-09 * Tennis lesson Lisbon with Jacques
+2026-06-09 * Tennis lesson Lisbon with Jacques  ; trip:lisbon-2026
     Expenses:Health:Sport:Tennis                  70 EUR
     Assets:FR:Revolut:Personal:EUR
 

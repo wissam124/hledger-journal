@@ -34,7 +34,7 @@
     Expenses:Health:Sport:Tennis              -26.38 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-10 Amex settlement
+2026-06-10 * Amex settlement
     Liabilities:FR:Amex:Gold                 2205.95 EUR
     Assets:FR:CCF:Compte-Courant
 
@@ -42,9 +42,37 @@
     Expenses:Food:Delivery                     18.04 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-10 Decathlon
+2026-06-10 * Decathlon
     Expenses:Shopping:Sport                    22.48 EUR
     Liabilities:FR:Amex:Gold
+
+2026-06-12 * Uber  ; lisbon-we-2026:
+    Expenses:Transportation:Taxi               21.96 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-12 * Uber  ; lisbon-we-2026
+    Expenses:Transportation:Taxi               29.98 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-14 * Uber  ; lisbon-we-2026
+    Expenses:Transportation:Taxi               14.98 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-14 * HelloFresh
+    Expenses:Food:Groceries                    44.08 EUR
+    Liabilities:FR:Amex:Gold                  -44.08 EUR
+    Expenses:Food:Groceries                   -22.04 EUR
+    Liabilities:Payables:Aurelie               22.04 EUR
+
+2026-06-15 Carrefour City
+    Expenses:Food:Groceries                     6.65 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-15 Garden hose
+    Expenses:Home:Maintenance                  42.72 EUR
+    Liabilities:FR:Amex:Gold                  -42.72 EUR
+    Expenses:Home:Maintenance                 -21.36 EUR
+    Liabilities:Payables:Aurelie               21.36 EUR
 
 * Bforbank transactions
 2026-06-01 * Cigarettes
@@ -55,7 +83,7 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-06-02 * Refund Mr Bricolage
+2026-06-02 * Mr Bricolage
     Expenses:Home:Maintenance                  75.80 EUR  ; garden hose
     Assets:FR:BforBank:Compte-Courant
 
@@ -184,9 +212,9 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-10 * Lawyer for Huchon Garden
-    Expenses:Home:Legal                         792 EUR
+    Expenses:Home:Legal                          792 EUR
     Assets:FR:BforBank:Compte-Courant           -792 EUR
-    Expenses:Home:Legal                        -396 EUR
+    Expenses:Home:Legal                         -396 EUR
     Liabilities:Payables:Aurelie                 396 EUR
 
 2026-06-10  * Creme  ; aurelie:
@@ -203,6 +231,74 @@
 
 2026-06-11 * Cash withdrawal
     Assets:Cash:EUR                              120 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-12 * Cash withdrawal
+    Assets:Cash:EUR                               50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-12 * Cash withdrawal
+    Assets:Cash:EUR                              200 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-12 * Le Trouville  ; aurelie:
+    Expenses:Entertainment:Social:Bars            28 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-13 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-13 * Cigarettes  ; trip:lisbon-2026
+    Expenses:Cigarettes                         6.20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-13 * Versailles l-ro
+    Expenses:Misc:Unclassified                  8.95 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-13 * Relay  ; trip:lisbon-2026
+    Expenses:Food:Snack                         4.90 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-14 * Papeleria Da Herdade  ; trip:lisbon-2026
+    Expenses:Cigarettes                        12.40 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-14 * Pizza slices Lisbon  ; trip:lisbon-2026
+    Expenses:Food:FastFood                         5 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-14 * Cabana Beach Bar  ; trip:lisbon-2026
+    Expenses:Food:Restaurants                     20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-15 * Sardine Mirror  ; trip:lisbon-2026
+    Expenses:Entertainment:Social:Bars         49.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-15 * Cigarettes  ; trip:lisbon-2026
+    Expenses:Cigarettes                         6.20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-15 * Ticket Orly  ; trip:lisbon-2026
+    Expenses:Transportation:PublicTransport       14 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-15 * Gifts Lisbon Aurelie
+    Expenses:GiftsCharity:Gifts                   15 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-15 * Transfer Florent
+    Assets:FR:BforBank:Compte-Courant           3000 EUR
+    Liabilities:Payables
+
+2026-06-15 * Transfer Florent back
+    Liabilities:Payables                         100 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-15 * Transfer Florent back
+    Liabilities:Payables                        2900 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Cash transactions
@@ -222,17 +318,31 @@
     Expenses:Food:Groceries                     1.30 EUR
     Assets:Cash:EUR
 
+2026-06-11 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash:EUR
+
+2026-06-12 * Padel court and gear
+    Expenses:Entertainment:Social:Sports          42 EUR
+    Assets:Cash:EUR
+
+2026-06-12 * Crisps and Coke Zero
+    Expenses:Food:Snack                         3.90 EUR
+    Assets:Cash:EUR
+
 * CCF transactions
 2026-06-01 * Cotisation
     Expenses:Finance:Bank                       8.75 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-06-15 * Navigo
+    Expenses:Transportation:PublicTransport    60.80 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut EUR transactions
-2026-06-09 * Tennis lesson Lisbon
+2026-06-09 * Tennis lesson Lisbon with Jacques
     Expenses:Health:Sport:Tennis                  70 EUR
-    Assets:FR:Revolut:Personal:EUR               -70 EUR
-    Expenses:Health:Sport:Tennis                 -35 EUR
-    Assets:Receivables                            35 EUR
+    Assets:FR:Revolut:Personal:EUR
 
 2026-06-10 * Buy USD
     Assets:FR:Revolut:Personal:USD           5764.42 USD @@ 5000 EUR

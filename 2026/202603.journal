@@ -1,5 +1,5 @@
 * Amex transactions
-2026-03-03 * Tap Air Portugal
+2026-03-03 * Tap Air Portugal  ; trip:lisbon-2026
     Expenses:Travel:Flights                   504.38 EUR
     Expenses:Travel:Flights                  -252.19 EUR
     Liabilities:FR:Amex:Gold                 -504.38 EUR
@@ -467,7 +467,7 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-03 * Transfer Alex sardine fest
+2026-03-03 * Transfer Alex sardine fest  ; trip:lisbon-2026
     Expenses:Travel:Holidays                      10 EUR
     Assets:FR:Revolut:Personal:EUR
 
@@ -493,7 +493,7 @@
     Expenses:Health:Sport                      84.64 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-11 * Pay Alex
+2026-03-11 * Pay Alex  ; trip:lisbon-2026
     Expenses:Travel:Holidays                      76 EUR
     Assets:FR:Revolut:Personal:EUR
 

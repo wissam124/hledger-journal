@@ -582,11 +582,11 @@
     Expenses:Home:Improvements                126.26 EUR
     Liabilities:Payables:Aurelie
 
-2026-05-15 * Hotel Venice  ; italy-holiday-2026:
+2026-05-15 * Hotel Venice  ; trip:italy-2026
     Expenses:Travel:Holidays:Accommodation     93.29 EUR
     Liabilities:Payables:Aurelie
 
-2026-05-15 * Hotel Bolzano  ; italy-holiday-2026:
+2026-05-15 * Hotel Bolzano  ; trip:italy-2026
     Expenses:Travel:Holidays:Accommodation     89.50 EUR
     Liabilities:Payables:Aurelie
 

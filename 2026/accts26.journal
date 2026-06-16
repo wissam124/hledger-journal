@@ -10,8 +10,7 @@ tag aurelie
 tag claim-tax
 tag flat-vincennes
 tag per-tax-deferred
-tag bcn-trip
-tag italy-holiday-2026
+tag trip
 
 ; Assets: things I own (cash, bank account, investments)
 account Assets:Cash:EUR                           ; type: C

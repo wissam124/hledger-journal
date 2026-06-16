@@ -273,31 +273,31 @@
     Assets:FR:Revolut:Personal:EUR               150 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-21 * Mp Exptravesse  ; bcn-trip:
+2026-03-21 * Mp Exptravesse  ; trip:bcn-2026
     Expenses:Misc:Unclassified                   8.55 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-21 * Gats restaurant  ; aurelie:, bcn-trip:
+2026-03-21 * Gats restaurant  ; aurelie:, trip:bcn-2026
     Expenses:Food:Restaurants                  68.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-21 * Sweet Lima  ; aurelie:, bcn-trip:
+2026-03-21 * Sweet Lima  ; aurelie:, trip:bcn-2026
     Expenses:Food:Cafe                          7.10 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-21 * Cent X 100 Laie drinks tennis club bcn  ; aurelie:, bcn-trip:
+2026-03-21 * Cent X 100 Laie drinks tennis club bcn  ; aurelie:, trip:bcn-2026
     Expenses:Entertainment:Social:Bars          6.35 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-21 * Metro Barcelona  ; aurelie:, bcn-trip:
+2026-03-21 * Metro Barcelona  ; aurelie:, trip:bcn-2026
     Expenses:Transportation:PublicTransport     7.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-22 * Almanac Barcelona  ; aurelie:, bcn-trip:
+2026-03-22 * Almanac Barcelona  ; aurelie:, trip:bcn-2026
     Expenses:Entertainment:Social:Bars            25 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-22 * Hotel Pulitzer  ; aurelie:, bcn-trip:
+2026-03-22 * Hotel Pulitzer  ; aurelie:, trip:bcn-2026
     Expenses:Entertainment:Social:Bars            29 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -306,23 +306,23 @@
     Expenses:Finance:ATM                        2.65 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-22 * Balcon de Miram ice cream  ; aurelie:, bcn-trip:
+2026-03-22 * Balcon de Miram ice cream  ; aurelie:, trip:bcn-2026
     Expenses:Food:Snack                           10 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-23 * McDonald's  ;bcn-trip:
+2026-03-23 * McDonald's  ;trip:bcn-2026
     Expenses:Food:FastFood                     15.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-23 * Ptx Telefe Montjuic  ; bcn-trip:
+2026-03-23 * Ptx Telefe Montjuic  ; trip:bcn-2026
     Expenses:Transportation:PublicTransport       24 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-23 * Aelia Aerop Bar  ; bcn-trip:
+2026-03-23 * Aelia Aerop Bar  ; trip:bcn-2026
     Expenses:Food:Snack                         9.73 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-03-23 * Ticket Orly-Paris  ; bcn-trip
+2026-03-23 * Ticket Orly-Paris  ; trip:bcn-2026
     Expenses:Transportation:PublicTransport       14 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -529,19 +529,19 @@
     Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-20 * Ticket Orly-Paris  ; bcn-trip:
+2026-03-20 * Ticket Orly-Paris  ; trip:bcn-2026
     Expenses:Transportation:PublicTransport       14 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-21 * Cooltra  ; bcn-trip:
+2026-03-21 * Cooltra  ; trip:bcn-2026
     Expenses:Transportation:Bikesharing         7.84 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-21 * Cafe Barceloneta  ; aurelie:bcn-trip:
+2026-03-21 * Cafe Barceloneta  ; aurelie:, trip:bcn-2026
     Expenses:Food:Cafe                          6.05 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-21 * Kiosco Pasarela  ; bcn-trip:
+2026-03-21 * Kiosco Pasarela  ; trip:bcn-2026
     Expenses:Food:Snack                         6.70 EUR
     Assets:FR:Revolut:Personal:EUR
 
@@ -549,7 +549,7 @@
     Expenses:Transportation:Bikesharing         2.80 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-03-22 * Aerobus Barcelona  ; bcn-trip:
+2026-03-22 * Aerobus Barcelona  ; trip:bcn-2026
     Expenses:Transportation:PublicTransport    15.50 EUR
     Assets:FR:Revolut:Personal:EUR
 

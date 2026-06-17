@@ -64,7 +64,7 @@
     Expenses:Food:Groceries                   -22.04 EUR
     Liabilities:Payables:Aurelie               22.04 EUR
 
-2026-06-15 Carrefour City
+2026-06-15 * Carrefour City
     Expenses:Food:Groceries                     6.65 EUR
     Liabilities:FR:Amex:Gold
 
@@ -74,7 +74,7 @@
     Expenses:Home:Maintenance                 -21.36 EUR
     Liabilities:Payables:Aurelie               21.36 EUR
 
-2026-06-16 Tennis Warehouse
+2026-06-16 * Tennis Warehouse
     Expenses:Shopping:Sport                    69.52 EUR
     Liabilities:FR:Amex:Gold
 
@@ -82,11 +82,11 @@
     Expenses:Shopping:Sport                    33.97 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Anybuddy
+2026-06-16 * Anybuddy
     Expenses:Health:Sport:Tennis                  18 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Discover Car Hire
+2026-06-16 * Discover Car Hire
     Expenses:Transportation:CarRental         460.15 EUR
     Liabilities:FR:Amex:Gold                 -460.15 EUR
     Expenses:Transportation:CarRental        -230.08 EUR
@@ -115,6 +115,10 @@
 2026-06-16 Share easyjet luggage expenses  ; trip:italy-2026
     Expenses:Travel:Flights                   -39.49 EUR
     Liabilities:Payables:Aurelie
+
+2026-06-16 Carrefour City
+    Expenses:Food:Groceries                    16.46 EUR
+    Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
 2026-06-01 * Cigarettes
@@ -343,6 +347,14 @@
     Liabilities:Payables                        2900 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-06-16 * Au P'tit Caprice
+    Expenses:Food:Lunch                        10.20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-16 Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Cash transactions
 2026-06-08 * Hairdresser
     Expenses:PersonalCare:Hair                    12 EUR
@@ -441,6 +453,6 @@
     Assets:FR:Revolut:Personal:GBP
 
 * Other liabilities
-2026-06-16 * Lisbon expenses paid by Jacques  ; trip:lisbon-2026
-    Expenses:Travel:Holidays                   43.50 EUR
-    Liabilities:Payables
+2026-06-16 * Aurelie settlement
+    Assets:FR:BforBank:Compte-Courant        1796.99 EUR
+    Liabilities:Payables:Aurelie

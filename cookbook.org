@@ -29,6 +29,7 @@ By construction, we have:
 t}\sum_{i=1}^{N}\Delta^i_u = 0\)
 
 *At any time, the sum of balances across all accounts must be 0.*
+
 * The fundamental accounting equation
 ** The fundamental accounting equation
 The fundamental rule of double-entry accounting requires every debit to be
@@ -293,6 +294,7 @@ Suppose I buy EURs with GBPs.
     Assets:Revolut:EUR      20000 EUR @@ 17300 GBP
     Assets:Revolut:GBP
 #+end_src
+
 * Record refunds
 ** Refunds
 As a general rule, should be logged as a transaction with a negative expense
@@ -341,20 +343,20 @@ else.
 * Country prefix
 - For receivables and payables, what matters is the counterparty, not the
   country. A receivable is a receivable, regardless of whether your mother is in
-  France or you repay a friend in London.  -> no need for a country prefix
-  here - it does not add semantic value.
+  France or you repay a friend in London. -> no need for a country prefix here -
+  it does not add semantic value.
 * Tracking property Vincennes
 ** Design choices
-- Use child accounts for each partner for assets, liabilities and expenses
-  e.g. Liabilities:FR:CCF:Mortgage:Jean
+- Use child accounts for each partner for assets, liabilities and expenses e.g.
+  Liabilities:FR:CCF:Mortgage:Jean
 - Use balanced virtual postings to track the property as a single asset
-  regardless of ownership.  This allows easy matching with bank statements for
+  regardless of ownership. This allows easy matching with bank statements for
   monthly transactions.
 - The use of child accounts allows accurate reporting of what belongs to whom in
   joint-account. However, joint-account should be considered as a common pool of
-  money and not something that is subdivided.  The child division makes it
-  easier to report on split of property-related expenses such as service
-  charges, interest payments, etc.
+  money and not something that is subdivided. The child division makes it easier
+  to report on split of property-related expenses such as service charges,
+  interest payments, etc.
 
 ** Compute total equity accumulated
 #+begin_src sh

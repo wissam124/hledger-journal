@@ -68,7 +68,7 @@
     Expenses:Food:Groceries                     6.65 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-15 Garden hose
+2026-06-15 * Garden hose
     Expenses:Home:Maintenance                  42.72 EUR
     Liabilities:FR:Amex:Gold                  -42.72 EUR
     Expenses:Home:Maintenance                 -21.36 EUR
@@ -78,7 +78,7 @@
     Expenses:Shopping:Sport                    69.52 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Decathlon
+2026-06-16 * Decathlon
     Expenses:Shopping:Sport                    33.97 EUR
     Liabilities:FR:Amex:Gold
 
@@ -92,11 +92,11 @@
     Expenses:Transportation:CarRental        -230.08 EUR
     Liabilities:Payables:Aurelie              230.08 EUR
 
-2026-06-16 Amazon shoe storage
+2026-06-16 * Amazon shoe storage
     Expenses:Home:Furniture                    25.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Amazon bike key shower gel
+2026-06-16 * Amazon bike key shower gel
     Expenses:Home:Maintenance                  26.53 EUR
     Liabilities:FR:Amex:Gold
 
@@ -104,20 +104,24 @@
     Expenses:Home:Maintenance                  12.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Easyjet luggage Paris Venice  ; trip:italy-2026
+2026-06-16 * Easyjet luggage Paris Venice  ; trip:italy-2026
     Expenses:Travel:Flights                    45.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Easyjet luggage Milan Paris  ; trip:italy-2026
+2026-06-16 * Easyjet luggage Milan Paris  ; trip:italy-2026
     Expenses:Travel:Flights                    32.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Share easyjet luggage expenses  ; trip:italy-2026
+2026-06-16 * Share easyjet luggage expenses  ; trip:italy-2026
     Expenses:Travel:Flights                   -39.49 EUR
     Liabilities:Payables:Aurelie
 
-2026-06-16 Carrefour City
+2026-06-16 * Carrefour City
     Expenses:Food:Groceries                    16.46 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-17 Deliveroo
+    Expenses:Food:Delivery                     15.63 EUR
     Liabilities:FR:Amex:Gold
 
 * Bforbank transactions

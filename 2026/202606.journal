@@ -178,7 +178,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-05 * Allee Viet
-    Expenses:Food:Lunch                         16.50 EUR
+    Expenses:Food:Lunch                        16.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-06 * Lunch O'Poulet
@@ -436,7 +436,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-06-10 * Ajc Conc.aut
-    Expenses:Home:Laundry                        4.50 EUR
+    Expenses:Home:Laundry                       4.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-06-10 * Ajc Conc.aut
@@ -444,7 +444,7 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-06-10 * Ajc Conc.aut
-    Expenses:Home:Laundry                        1.30 EUR
+    Expenses:Home:Laundry                       1.30 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-06-11 * Transfer to BForBank current-account

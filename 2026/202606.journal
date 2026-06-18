@@ -355,8 +355,12 @@
     Expenses:Food:Lunch                        10.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-06-16 Cigarettes
+2026-06-16 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-17 * Transfer to Revolut account
+    Assets:FR:Revolut:Personal:EUR               100 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Cash transactions
@@ -451,6 +455,10 @@
     Expenses:Home:Maintenance                  33.79 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-06-17 * Drinks with Arnaud
+    Expenses:Entertainment:Social:Bars          5.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Revolut GBP transactions
 2026-06-08 * Lebara mobile
     Expenses:Home:Utilities:MobilePhone            5 GBP
@@ -460,3 +468,11 @@
 2026-06-16 * Aurelie settlement
     Assets:FR:BforBank:Compte-Courant        1796.99 EUR
     Liabilities:Payables:Aurelie
+
+2026-06-16 * Lisbon expenses paid by Jacques
+    Expenses:Travel:Holidays                   43.50 EUR
+    Liabilities:Payables
+
+2026-06-16 * Settlement to Jacques
+    Liabilities:Payables                       43.50 EUR
+    Assets:FR:Revolut:Personal:EUR

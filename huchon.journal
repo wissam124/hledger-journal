@@ -590,3 +590,11 @@ account Income:Notary                                                  ; type: R
     Expenses:Home:Utilities:Electricity:Jean   24.50 EUR
     Assets:FR:CCF:Compte-Joint:Aurelie        -24.50 EUR
     Assets:FR:CCF:Compte-Joint:Jean           -24.50 EUR
+
+2026-03-19 * Charges de copropriete
+    [Stats:Assets:FR:CCF:Compte-Joint]       -784.34 EUR
+    [Stats:Expenses:Property:ServiceCharges]  784.34 EUR
+    Assets:FR:CCF:Compte-Joint:Jean          -392.17 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie       -392.17 EUR
+    Expenses:Property:ServiceCharges:Jean     392.17 EUR
+    Expenses:Property:ServiceCharges:Aurelie  392.17 EUR

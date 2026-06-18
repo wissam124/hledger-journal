@@ -363,6 +363,10 @@
     Assets:FR:Revolut:Personal:EUR               100 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-06-18 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean                392.17 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Cash transactions
 2026-06-08 * Hairdresser
     Expenses:PersonalCare:Hair                    12 EUR

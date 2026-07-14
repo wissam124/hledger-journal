@@ -159,7 +159,12 @@ account Expenses:Subscriptions:Software                    ; type: X
 account Expenses:Subscriptions:Streaming                   ; type: X
 account Expenses:Taxes                                     ; type: X
 account Expenses:Transportation:Bikesharing                ; type: X
-account Expenses:Transportation:CarRental                  ; type: X
+account Expenses:Transportation:Car:Cleaning               ; type: X
+account Expenses:Transportation:Car:Damage                 ; type: X
+account Expenses:Transportation:Car:Fuel                   ; type: X
+account Expenses:Transportation:Car:Parking                ; type: X
+account Expenses:Transportation:Car:Rental                 ; type: X
+account Expenses:Transportation:Car:Tolls                  ; type: X
 account Expenses:Transportation:PublicTransport            ; type: X
 account Expenses:Transportation:Taxi                       ; type: X
 account Expenses:Transportation:Toll                       ; type: X

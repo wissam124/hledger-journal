@@ -71,8 +71,6 @@
 2026-06-15 * Garden hose
     Expenses:Home:Maintenance                  42.72 EUR
     Liabilities:FR:Amex:Gold                  -42.72 EUR
-    Expenses:Home:Maintenance                 -21.36 EUR
-    Liabilities:Payables:Aurelie               21.36 EUR
 
 2026-06-16 * Tennis Warehouse
     Expenses:Shopping:Sport                    69.52 EUR
@@ -100,7 +98,7 @@
     Expenses:Home:Maintenance                  26.53 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-16 Amazon moth trap
+2026-06-16 * Amazon moth trap
     Expenses:Home:Maintenance                  12.99 EUR
     Liabilities:FR:Amex:Gold
 
@@ -120,9 +118,69 @@
     Expenses:Food:Groceries                    16.46 EUR
     Liabilities:FR:Amex:Gold
 
-2026-06-17 Deliveroo
+2026-06-17 * Deliveroo
     Expenses:Food:Delivery                     15.63 EUR
     Liabilities:FR:Amex:Gold
+
+2026-06-19 * Carrefour City
+    Expenses:Food:Groceries                    11.10 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-20 * Franprix
+    Expenses:Food:Groceries                    21.49 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-20 * Refund Anybuddy
+    Expenses:Health:Sport:Tennis                 -18 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-21 * HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-06-23 * Anybuddy
+    Expenses:Health:Sport:Tennis                  18 EUR
+    Liabilities:FR:Amex:Gold                     -18 EUR
+    Expenses:Health:Sport:Tennis                 -10 EUR
+    Assets:Receivables:Florent                    10 EUR
+
+2026-06-23 * Fingers extension tool
+    Expenses:Shopping:Sport                     9.90 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-25 * Velib
+    Expenses:Transportation:Bikesharing           98 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-26 * Garden hose
+    Expenses:Home:Maintenance                  58.92 EUR
+    Liabilities:FR:Amex:Gold                  -58.92 EUR
+    Expenses:Home:Maintenance                 -29.46 EUR
+    Liabilities:Payables:Aurelie               29.46 EUR
+
+2026-06-28 * Le Cherche Midi
+    Expenses:Food:Restaurants                     50 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-29 * Deliveroo
+    Expenses:Food:Delivery                     26.40 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-30 * Carrefour City
+    Expenses:Food:Groceries                    13.10 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-30 * Deliveroo
+    Expenses:Food:Delivery                     14.80 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-06-30 * Laundry baskets
+    Expenses:Home:Maintenance                  76.12 EUR
+    Liabilities:FR:Amex:Gold                  -76.12 EUR
+    Expenses:Home:Maintenance                 -38.06 EUR
+    Liabilities:Payables:Aurelie               38.06 EUR
 
 * Bforbank transactions
 2026-06-01 * Cigarettes
@@ -355,7 +413,7 @@
     Expenses:Food:Lunch                        10.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-06-16 * Cigarettes
+2026-06-17 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -365,6 +423,90 @@
 
 2026-06-18 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean                392.17 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-19 * Musiam Paris BNF
+    Expenses:Food:Snack                            6 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-20 * Cigarettes
+    Expenses:Cigarettes                           13 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-20 * Cafe de la Place
+    Expenses:Food:Restaurants                  77.80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-20 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-22 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-22 * Maison de la presse
+    Expenses:Cigarettes                        14.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-22 * Chez Marianne
+    Expenses:Food:Restaurants                  77.90 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-22 * Rosa Bonheur
+    Expenses:Entertainment:Social:Bars         29.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-24 * Le Balto
+    Expenses:Cigarettes                        13.80 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-26 * Biscornu Opera
+    Expenses:Entertainment:Social:Bars            40 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-26 * Biscornu Opera
+    Expenses:Entertainment:Social:Bars            15 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-26 * Biscornu Opera
+    Expenses:Entertainment:Social:Bars            14 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-26 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-26 * Cash withdrawal
+    Assets:Cash:EUR                               20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-29 * Crepe
+    Expenses:Food:Snack                            5 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-29 * Carrefour City
+    Expenses:Food:Groceries                     8.99 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-30 * Cash withdrawal
+    Assets:Cash:EUR                              120 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-30 * Mon Petit Poule
+    Expenses:Food:Lunch                         6.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-06-30 * Aldi
+    Expenses:Food:Groceries                        8 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Cash transactions
@@ -406,6 +548,42 @@
 
 2026-06-16 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
+    Assets:Cash:EUR
+
+2026-06-17 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-06-20 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-06-21 * Groceries market
+    Expenses:Food:Groceries                    24.80 EUR
+    Assets:Cash:EUR
+
+2026-06-23 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-06-26 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash:EUR
+
+2026-06-27 * Pain au chocolat
+    Expenses:Food:Snack                         1.30 EUR
+    Assets:Cash:EUR
+
+2026-06-27 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash:EUR
+
+2026-06-28 * Refund Florent Anybuddy
+    Assets:Cash:EUR                               10 EUR
+    Assets:Receivables:Florent
+
+2026-06-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:Cash:EUR
 
 * CCF transactions
@@ -461,6 +639,30 @@
 
 2026-06-17 * Drinks with Arnaud
     Expenses:Entertainment:Social:Bars          5.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-18 * Chez Flo
+    Expenses:Food:Snack                         3.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-18 * Soferest
+    Expenses:Food:Lunch                         7.10 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-19 * Boun Thai
+    Expenses:Food:Lunch                        12.80 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-19 * Globe BNF
+    Expenses:Food:Cafe                          1.80 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-20 * RATP
+    Expenses:Transportation:PublicTransport     5.10 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-20 * Maison B&b
+    Expenses:Food:Cafe                          3.20 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

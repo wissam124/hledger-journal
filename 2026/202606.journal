@@ -85,9 +85,9 @@
     Liabilities:FR:Amex:Gold
 
 2026-06-16 * Discover Car Hire
-    Expenses:Transportation:CarRental         460.15 EUR
+    Expenses:Transportation:Car:Rental         460.15 EUR
     Liabilities:FR:Amex:Gold                 -460.15 EUR
-    Expenses:Transportation:CarRental        -230.08 EUR
+    Expenses:Transportation:Car:Rental        -230.08 EUR
     Liabilities:Payables:Aurelie              230.08 EUR
 
 2026-06-16 * Amazon shoe storage

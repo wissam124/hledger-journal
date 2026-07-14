@@ -115,7 +115,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-01 * Car rental damage
-    Expenses:Transportation:CarRental        350 EUR
+    Expenses:Transportation:Car:Rental        350 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-01 * Snack Orly airport
@@ -302,9 +302,9 @@
 
 2025-09-25 * Car Rental Insurance
     Assets:FR:BforBank:Compte-Courant        200 EUR
-    Expenses:Transportation:CarRental       -200 EUR
+    Expenses:Transportation:Car:Rental       -200 EUR
     Liabilities:Payables:Aurelie           75 EUR
-    Expenses:Transportation:CarRental        -75 EUR
+    Expenses:Transportation:Car:Rental        -75 EUR
 
 2025-09-26 * SFR
     Expenses:Home:Utilities:MobilePhone    11.99 EUR

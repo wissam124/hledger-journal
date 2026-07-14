@@ -212,20 +212,20 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-26 * Car Rental cleaning
-    Expenses:Transportation:CarRental          6 EUR
+    Expenses:Transportation:Car:Rental          6 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-26 * Car Rental cleaning receivable
     Assets:Receivables:Aurelie              3 EUR
-    Expenses:Transportation:CarRental
+    Expenses:Transportation:Car:Rental
 
 2025-04-26 * Car Rental fuel
-    Expenses:Transportation:CarRental      47.50 EUR
+    Expenses:Transportation:Car:Rental      47.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-26 * Car Rental fuel receivable
     Assets:Receivables:Aurelie          23.75 EUR
-    Expenses:Transportation:CarRental
+    Expenses:Transportation:Car:Rental
 
 2025-04-30 * Durum with Aurelie
     Expenses:Food:FastFood                    17 EUR
@@ -575,7 +575,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-04-17 * Car Rental
-    Expenses:Transportation:CarRental        253 EUR
+    Expenses:Transportation:Car:Rental        253 EUR
     Liabilities:FR:Amex:Gold
 
 2025-04-23 * Super U groceries
@@ -599,7 +599,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-04-23 * Car Rental damages fine
-    Expenses:Transportation:CarRental        285 EUR
+    Expenses:Transportation:Car:Rental        285 EUR
     Liabilities:FR:Amex:Gold
 
 2025-04-29 * Deliveroo Amorino

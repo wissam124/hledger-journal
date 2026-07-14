@@ -14,9 +14,9 @@
     Liabilities:FR:Amex:Gold
 
 2026-07-04 * Noleggiare car rental balance  ; trip:italy-2026
-    Expenses:Transportation:CarRental         147.03 EUR
+    Expenses:Transportation:Car:Rental         147.03 EUR
     Liabilities:FR:Amex:Gold                 -147.03 EUR
-    Expenses:Transportation:CarRental         -73.52 EUR
+    Expenses:Transportation:Car:Rental         -73.52 EUR
     Liabilities:Payables:Aurelie               73.52 EUR
 
 2026-07-04 * Murani Di Penso Riccardo  ; trip:italy-2026
@@ -149,9 +149,9 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-09 * Oil Italia Srl     ; trip:italy-2026
-    Expenses:Transportation:CarRental          49.09 EUR
+    Expenses:Transportation:Car:Rental          49.09 EUR
     Assets:FR:BforBank:Compte-Courant         -49.09 EUR
-    Expenses:Transportation:CarRental         -24.54 EUR
+    Expenses:Transportation:Car:Rental         -24.54 EUR
     Liabilities:Payables:Aurelie               24.54 EUR
 
 2026-07-09 * Nya Parking Mac    ; trip:italy-2026

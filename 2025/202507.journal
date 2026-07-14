@@ -117,11 +117,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-06 * Fuel car rental
-    Expenses:Transportation:CarRental      43.37 EUR
+    Expenses:Transportation:Car:Rental      43.37 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-08 * Vinci autoroutes
-    Expenses:Transportation:CarRental       8.60 EUR
+    Expenses:Transportation:Car:Rental       8.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-08 * HelloFresh
@@ -484,7 +484,7 @@
     Liabilities:FR:Amex:Gold
 
 2025-07-06 * Virtuo fuel fine
-    Expenses:Transportation:CarRental      47.35 EUR
+    Expenses:Transportation:Car:Rental      47.35 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-06 * Deliveroo Chez Antoine
@@ -493,7 +493,7 @@
 
 2025-07-06 * Florent share Virtuo
     Assets:Receivables                       102 EUR
-    Expenses:Transportation:CarRental       -102 EUR
+    Expenses:Transportation:Car:Rental       -102 EUR
     Assets:FR:BforBank:Compte-Courant        102 EUR
     Assets:Receivables                      -102 EUR
 

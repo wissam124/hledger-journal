@@ -124,7 +124,7 @@
 
 2025-05-08 * Car rental insurance claim
     Assets:FR:BforBank:Compte-Courant        175 EUR
-    Expenses:Transportation:CarRental
+    Expenses:Transportation:Car:Rental
 
 2025-05-09 * Minoxidil
     Expenses:Health:Pharmacy               23.17 EUR
@@ -490,7 +490,7 @@
 
 * Amex Gold transactions
 2025-05-01 * Car Rental damages fine outstanding
-    Expenses:Transportation:CarRental         40 EUR
+    Expenses:Transportation:Car:Rental         40 EUR
     Liabilities:FR:Amex:Gold
 
 2025-05-02 * Taxi to Maison de la radio

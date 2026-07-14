@@ -13,7 +13,7 @@
     Assets:FR:BforBank:Compte-Courant          -10.1 EUR
 
 2024-07-01 * AMEX - 2024-06-14 - Madeira car rental
-    Expenses:Transportation:CarRental         577.01 EUR
+    Expenses:Transportation:Car:Rental         577.01 EUR
     Assets:FR:BforBank:Compte-Courant        -577.01 EUR
 
 2024-07-01 * AMEX - 2024-06-17 - Savoy resort Madeira
@@ -29,7 +29,7 @@
     Assets:FR:BforBank:Compte-Courant         -42.69 EUR
 
 2024-07-01 * AMEX - 2024-06-30 - Car rental Agadir
-    Expenses:Transportation:CarRental         166.77 EUR
+    Expenses:Transportation:Car:Rental         166.77 EUR
     Assets:FR:BforBank:Compte-Courant        -166.77 EUR
 
 2024-07-01 * AMEX - 2024-06-30 - Hyatt Regency

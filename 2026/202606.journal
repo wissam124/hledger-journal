@@ -595,6 +595,10 @@
     Expenses:Transportation:PublicTransport    60.80 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-06-26 * SFR
+    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut EUR transactions
 2026-06-09 * Tennis lesson Lisbon with Jacques  ; trip:lisbon-2026
     Expenses:Health:Sport:Tennis                  70 EUR

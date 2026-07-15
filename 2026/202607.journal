@@ -244,6 +244,14 @@
     Expenses:Food:Lunch                        11.70 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-07-15 * Lawn Tennis de Saint Mande
+    Expenses:Food:Restaurants                 145.20 EUR
+    Assets:FR:BforBank:Compte-Courant        -145.20 EUR
+    Expenses:Food:Restaurants                 -72.60 EUR  ; Thomas and Julie share
+    Assets:Receivables                         72.60 EUR
+    Expenses:Food:Restaurants                 -36.30 EUR  ; Aurelie share
+    Liabilities:Payables:Aurelie               36.30 EUR
+
 * Cash transactions
 2026-07-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
@@ -269,7 +277,11 @@
     Expenses:Misc                                  1 EUR
     Assets:Cash:EUR
 
-2026-07-06 * Cappuccino Tre Cime  ; trip:italy-2026
+2026-07-06 * Cafe Rifugio Auronzo  ; trip:italy-2026
+    Expenses:Food:Cafe                             2 EUR
+    Assets:Cash:EUR
+
+2026-07-06 * Cappuccino Rifugio Locatelli  ; trip:italy-2026
     Expenses:Food:Cafe                          3.90 EUR
     Assets:Cash:EUR
 
@@ -287,8 +299,27 @@
     Expenses:Health:Sport:Tennis                 -25 EUR
     Liabilities:Payables:Aurelie                  25 EUR
 
-* CCF transactions
+2026-07-15 * Baguette
+    Expenses:Food:Groceries                     1.30 EUR
+    Assets:Cash:EUR
 
+* CCF compte courant transactions
+2026-07-01 * Cotisation CCF
+    Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-07-15 * Allocation France Travail
+    Assets:FR:CCF:Compte-Courant             2086.56 EUR
+    Income:FR:FranceTravail
+
+* CCF LDDS
+2026-07-02 * Transfer to CCF compte-courant
+    Assets:FR:CCF:Compte-Courant                2000 EUR
+    Assets:FR:CCF:LDDS
+
+2026-07-13 * Transfer to CCF compte-courant
+    Assets:FR:CCF:Compte-Courant             1675.57 EUR
+    Assets:FR:CCF:LDDS
 
 * HSBC transactions
 2026-07-09 * Pay Simo for Lisbon Splitwise  ; trip:lisbon-2026
@@ -406,3 +437,18 @@
     Expenses:Travel:Holidays                      64 EUR
     Expenses:Travel:Holidays                     -32 EUR
     Liabilities:Payables:Aurelie
+
+* Liabilities
+2026-07-15 * Thomas and Julie Lawn Tennis Saint Mande settlement
+    Assets:FR:BforBank:Compte-Courant          72.60 EUR
+    Assets:Receivables
+
+2026-07-15 * Jacques Lisbon settlement  ; trip:lisbon-2026
+    Assets:FR:BforBank:Compte-Courant          43.50 EUR
+    Liabilities:Payables
+
+2026-07-15 * Jacques Lisbon GBP settlement  ; trip:lisbon-2026
+    Liabilities:Payables                        -152 GBP
+    Equity:Conversion:EUR-GBP:GBP                152 GBP
+    Equity:Conversion:EUR-GBP:EUR               -179 EUR
+    Assets:FR:BforBank:Compte-Courant            179 EUR

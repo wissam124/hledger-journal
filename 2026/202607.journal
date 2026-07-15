@@ -45,7 +45,7 @@
     Expenses:Food:Groceries                    21.41 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-15 * Carrefour City
+2026-07-15 Carrefour City
     Expenses:Food:Groceries                    15.33 EUR
     Liabilities:FR:Amex:Gold
 
@@ -273,7 +273,7 @@
     Expenses:Food:Cafe                          3.90 EUR
     Assets:Cash:EUR
 
-2026-07-07 * Drinks refuge sorapis        ; trip:italy-2026
+2026-07-07 * Drinks refuge sorapis  ; trip:italy-2026
     Expenses:Food:Snack                            5 EUR
     Assets:Cash:EUR
 
@@ -289,6 +289,29 @@
 
 * CCF transactions
 
+
+* HSBC transactions
+2026-07-09 * Pay Simo for Lisbon Splitwise  ; trip:lisbon-2026
+    Expenses:Travel:Holidays                   41.45 GBP
+    Assets:UK:HSBC:Current-Account
+
+2026-07-09 * Pay Simo for Lisbon Splitwise on behalf of Jacques
+    Liabilities:Payables                         152 GBP
+    Assets:UK:HSBC:Current-Account
+
+* Revolut transactions
+2026-07-08 * Lebara Mobile
+    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-07-08 * Transfer from Flexible GBP
+    Assets:FR:Revolut:Personal:GBP            193.45 GBP
+    Assets:FR:Revolut:Personal:Flexible:GBP
+
+2026-07-08 * Transfer to HSBC
+    Assets:UK:HSBC:Current-Account            193.45 GBP
+    Expenses:Finance:Bank                       0.59 GBP
+    Assets:FR:Revolut:Personal:GBP           -194.04 GBP
 
 * Aggregate Italy 2026 holidays expenses
 2026-07-12 * Tolls settlement  ; trip:italy-2026

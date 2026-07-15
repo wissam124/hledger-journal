@@ -665,6 +665,30 @@
     Expenses:Food:Cafe                          3.20 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-06-23 * Burger King
+    Expenses:Food:FastFood                      9.05 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-23 * Soferest snack BnF
+    Expenses:Food:Snack                         5.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-25 * Jooaan
+    Expenses:Food:Lunch                         8.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-25 * Torbox
+    Expenses:Subscriptions:Streaming            4.42 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-26 * Restaurant Pere
+    Expenses:Food:Lunch                           16 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-06-27 * Carrefour
+    Expenses:Food:Groceries                     8.27 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Revolut GBP transactions
 2026-06-08 * Lebara mobile
     Expenses:Home:Utilities:MobilePhone            5 GBP
@@ -675,10 +699,10 @@
     Assets:FR:BforBank:Compte-Courant        1796.99 EUR
     Liabilities:Payables:Aurelie
 
-2026-06-16 * Lisbon expenses paid by Jacques
-    Expenses:Travel:Holidays                   43.50 EUR
-    Liabilities:Payables
-
-2026-06-16 * Settlement to Jacques
+2026-06-16 * Transfer to Jacques
     Liabilities:Payables                       43.50 EUR
     Assets:FR:Revolut:Personal:EUR
+
+2026-06-16 * Settlement with Jacques
+    Expenses:Travel:Holidays                      50 EUR
+    Liabilities:Payables

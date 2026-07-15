@@ -75,6 +75,7 @@ account Income:FR:111Capital:AnnualBonus          ; type: R
 account Income:FR:111Capital:Interessement        ; type: R
 account Income:FR:111Capital:Participation        ; type: R
 account Income:FR:111Capital:Salary               ; type: R
+account Income:FR:FranceTravail                   ; type: R
 account Income:FR:BforBank:LivretA                ; type: R
 account Income:FR:CCF:LivretA                     ; type: R
 account Income:Gifts                              ; type: R

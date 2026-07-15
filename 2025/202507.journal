@@ -1,77 +1,77 @@
 ;; -*- mode: ledger; coding: utf-8 -*-
 
 2025-07-01 * 111 Capital wage
-    Assets:FR:BforBank:Compte-Courant    6371.58 EUR
+    Assets:FR:BforBank:Compte-Courant        6371.58 EUR
     Income:FR:111Capital:Salary
 
 * Cash transactions
 2025-07-06 * Cigarettes
-    Expenses:Cigarettes                    10.80 EUR
+    Expenses:Cigarettes                        10.80 EUR
     Assets:Cash:EUR
 
 2025-07-04 * Therapy
-    Expenses:Health:Therapy                  120 EUR
+    Expenses:Health:Therapy                      120 EUR
     Assets:Cash:EUR
 
 2025-07-04 * Charity
-    Expenses:GiftsCharity:Charity           0.50 EUR
+    Expenses:GiftsCharity:Charity               0.50 EUR
     Assets:Cash:EUR
 
 2025-07-04 * MS Therapy
-    Expenses:PersonalCare:Discretionary                    200 EUR
+    Expenses:PersonalCare:Discretionary          200 EUR
     Assets:Cash:EUR
 
 2025-07-13 * Lighter
-    Expenses:Cigarettes                     1.50 EUR
+    Expenses:Cigarettes                         1.50 EUR
     Assets:Cash:EUR
 
 2025-07-12 * Casino Touquet
-    Expenses:Entertainment                   100 EUR
+    Expenses:Entertainment                       100 EUR
     Assets:Cash:EUR
 
 2025-07-17 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:Cash:EUR
 
 2025-07-19 * Cafe pain au chocolat
-    Expenses:Food:Snack                     2.80 EUR
+    Expenses:Food:Snack                         2.80 EUR
     Assets:Cash:EUR
 
 2025-07-19 * Therapy
-    Expenses:Health:Therapy                  120 EUR
+    Expenses:Health:Therapy                      120 EUR
     Assets:Cash:EUR
 
 2025-07-21 * Hairdresser
-    Expenses:PersonalCare:Hair                22 EUR
+    Expenses:PersonalCare:Hair                    22 EUR
     Assets:Cash:EUR
 
 2025-07-21 * Baguette Vincennes
-    Expenses:Food:Groceries                 1.35 EUR
+    Expenses:Food:Groceries                     1.35 EUR
     Assets:Cash:EUR
 
 2025-07-25 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:Cash:EUR
 
 2025-07-25 * Pain au chocolat
-    Expenses:Food:Snack                     1.30 EUR
+    Expenses:Food:Snack                         1.30 EUR
     Assets:Cash:EUR
 
 2025-07-29 * MS Therapy
-    Expenses:PersonalCare:Discretionary                    250 EUR
+    Expenses:PersonalCare:Discretionary          250 EUR
     Assets:Cash:EUR
 
 2025-07-29 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:Cash:EUR
 
 * BforBank transactions
 2025-07-01 * Navigo
-    Expenses:Transportation:PublicTransport  88.80 EUR
+    Expenses:Transportation:PublicTransport    88.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-01 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-01 * Promesse de vente
@@ -81,269 +81,269 @@
     Assets:Receivables:Aurelie                   225 EUR
 
 2025-07-02 * Transfer Revolut
-    Assets:UK:Revolut:Personal:EUR           200 EUR
+    Assets:UK:Revolut:Personal:EUR               200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-02 * Rent Citeaux
-    Expenses:Home:Rent                      1330 EUR
+    Expenses:Home:Rent                          1330 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-03 * ChatGPT subscription for mum
-    Expenses:GiftsCharity:Gifts            21.99 EUR
+    Expenses:GiftsCharity:Gifts                21.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-05 * Cash withdrawal
-    Assets:Cash:EUR                           150 EUR
+    Assets:Cash:EUR                              150 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-05 * Durum
-    Expenses:Food:FastFood                    11 EUR
+    Expenses:Food:FastFood                        11 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-05 * MacroFactor
-    Expenses:Subscriptions:Software        13.99 EUR
+    Expenses:Subscriptions:Software            13.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-05 * Cash withdrawal
-    Assets:Cash:EUR                            50 EUR
+    Assets:Cash:EUR                               50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-05 * Cash withdrawal
-    Assets:Cash:EUR                           120 EUR
+    Assets:Cash:EUR                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-05 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-07-06 * Fuel car rental
-    Expenses:Transportation:Car:Rental      43.37 EUR
+2025-07-06 * Car rental Virtuo fuel
+    Expenses:Transportation:Car:Fuel           43.37 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-08 * Vinci autoroutes
-    Expenses:Transportation:Car:Rental       8.60 EUR
+    Expenses:Transportation:Car:Tolls           8.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-08 * HelloFresh
-    Expenses:Food:Groceries                38.94 EUR
+    Expenses:Food:Groceries                    38.94 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-09 * Amex Settlement
-    Liabilities:FR:Amex:Gold              818.86 EUR
+    Liabilities:FR:Amex:Gold                  818.86 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-10 * Google Play Head 2 Ball
-    Expenses:Entertainment:Digital          1.99 EUR
+    Expenses:Entertainment:Digital              1.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-11 * Le Transistor bar with Julien
-    Expenses:Entertainment:Social:Bars     28.45 EUR
+    Expenses:Entertainment:Social:Bars         28.45 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-12 * Gift wedding anniversary Henri
-    Expenses:GiftsCharity:Gifts              150 EUR
+    Expenses:GiftsCharity:Gifts                  150 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-12 * Cash withdrawal
-    Assets:Cash:EUR                           100 EUR
+    Assets:Cash:EUR                              100 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-14 * Velib
-    Expenses:Transportation:Bikesharing        6 EUR
+    Expenses:Transportation:Bikesharing            6 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-15 * EDF subscription
-    Expenses:Home:Utilities:Electricity    52.69 EUR
+    Expenses:Home:Utilities:Electricity        52.69 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-16 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-18 * Durum
-    Expenses:Food:FastFood                     9 EUR
+    Expenses:Food:FastFood                         9 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-18 * Google Play Head 2 Ball
-    Expenses:Entertainment:Digital         19.99 EUR
+    Expenses:Entertainment:Digital             19.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-18 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash:EUR                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-19 * Drinks with Aurelie
-    Expenses:Entertainment:Social:Bars     19.50 EUR  ; 2025-07-18
+    Expenses:Entertainment:Social:Bars         19.50 EUR  ; 2025-07-18
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-19 * Drinks with Aurelie
-    Expenses:Entertainment:Social:Bars     12.00 EUR  ; 2025-07-18
+    Expenses:Entertainment:Social:Bars         12.00 EUR  ; 2025-07-18
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-20 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-20 * Haribo's
-    Expenses:Food:Snack                       1 EUR
+    Expenses:Food:Snack                            1 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-20 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-19 * Cash withdrawal
-    Assets:Cash:EUR                            70 EUR
+    Assets:Cash:EUR                               70 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-19 * Cash withdrawal
-    Assets:Cash:EUR                            60 EUR
+    Assets:Cash:EUR                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-21 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-21 * HelloFresh
-    Expenses:Food:Groceries                48.94 EUR
+    Expenses:Food:Groceries                    48.94 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-21 * Transfer Livret A
-    Assets:FR:BforBank:Compte-Courant      22940 EUR
+    Assets:FR:BforBank:Compte-Courant          22940 EUR
     Assets:FR:BforBank:LivretA
 
 2025-07-21 * Deposit flat Vincennes
-    Equity:Capital:Huchon:Jean                  32500 EUR
+    Equity:Capital:Huchon:Jean                 32500 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-22 * Cash witdrawal
-    Assets:Cash:EUR                            30 EUR
+    Assets:Cash:EUR                               30 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-25 * SFR
-    Expenses:Home:Utilities:MobilePhone    11.99 EUR
+    Expenses:Home:Utilities:MobilePhone        11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-26 * Drinks Le Drapeau Vincennes
-    Expenses:Entertainment:Social:Bars     40.40 EUR  ; 2025-07-25
+    Expenses:Entertainment:Social:Bars         40.40 EUR  ; 2025-07-25
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-29 * Cash withdrawal
-    Assets:Cash:EUR                           250 EUR
+    Assets:Cash:EUR                              250 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-30 * Google Play Head 2 Ball
-    Expenses:Entertainment:Digital          1.99 EUR
+    Expenses:Entertainment:Digital              1.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-30 * Lunch Kayser
-    Expenses:Food:Lunch              15.90 EUR
+    Expenses:Food:Lunch                        15.90 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-31 * Dessert Cojean
-    Expenses:Food:Lunch               5.30 EUR
+    Expenses:Food:Lunch                         5.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-31 * Bistropolis Office Lunch
-    Expenses:Food:Lunch              15.90 EUR
+    Expenses:Food:Lunch                        15.90 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-31 * Google Play Head 2 Ball
-    Expenses:Entertainment:Digital          6.99 EUR
+    Expenses:Entertainment:Digital              6.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-07-31 * Google Play Head 2 Ball
-    Expenses:Entertainment:Digital          5.99 EUR
+    Expenses:Entertainment:Digital              5.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
 2025-07-03 * Deliveroo Fee
-    Expenses:Food:Lunch               2.15 EUR
+    Expenses:Food:Lunch                         2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-07-08 * Deliveroo Fee
-    Expenses:Food:Lunch               2.15 EUR
+    Expenses:Food:Lunch                         2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-07-16 * Deliveroo Fee
-    Expenses:Food:Lunch               2.15 EUR
+    Expenses:Food:Lunch                         2.15 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Revolut transactions
 2025-07-01 * Carrefour City
-    Expenses:Food:Groceries                 2.77 EUR
+    Expenses:Food:Groceries                     2.77 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-02 * Cafe Nuances
-    Expenses:Food:Cafe                      8.28 EUR
+    Expenses:Food:Cafe                          8.28 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-02 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-03 * Blend burger
-    Expenses:Food:Lunch              13.30 EUR
+    Expenses:Food:Lunch                        13.30 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-03 * Drinks with Aurelie
-    Expenses:Entertainment:Social:Bars    17.50 EUR
+    Expenses:Entertainment:Social:Bars         17.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-03 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-05 * Kayser gare de lyon
-    Expenses:Food:Snack                     10.60 EUR
+    Expenses:Food:Snack                        10.60 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-06 * Coca Chateau De la Borde
-    Expenses:Food:Snack                        6 EUR
+    Expenses:Food:Snack                            6 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-06 * Snack shell petrol station
-    Expenses:Food:Snack                    10.80 EUR
+    Expenses:Food:Snack                        10.80 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-07 * Beeminder fine
-    Expenses:Subscriptions:Software         4.27 EUR
+    Expenses:Subscriptions:Software             4.27 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-07 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-07 * Fisherman's Friend
-    Expenses:Food:Snack                     2.20 EUR
+    Expenses:Food:Snack                         2.20 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-07 * ChatGPT subscription
-    Expenses:Subscriptions:Software        19.17 EUR
+    Expenses:Subscriptions:Software            19.17 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-08 * Cafe Nuances
-    Expenses:Food:Cafe                      4.50 EUR
+    Expenses:Food:Cafe                          4.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-08 * La Creme de Paris crepe
-    Expenses:Food:Snack                        5 EUR
+    Expenses:Food:Snack                            5 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-08 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-09 * Snack Relay
-    Expenses:Food:Snack                     5.10 EUR
+    Expenses:Food:Snack                         5.10 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-09 * Carrefour City
-    Expenses:Food:Groceries                 3.05 EUR
+    Expenses:Food:Groceries                     3.05 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-10 * Cafe Nuances
-    Expenses:Food:Cafe                      8.55 EUR
+    Expenses:Food:Cafe                          8.55 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-10 * Isky's settlement for cooking hob
@@ -351,194 +351,194 @@
     Assets:Receivables:Iskander
 
 2025-07-10 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-10 * Taxi to Therapist
-    Expenses:Transportation:Taxi               26 EUR
+    Expenses:Transportation:Taxi                  26 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-11 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-12 * Beeminder fine
-    Expenses:Subscriptions:Software         4.34 EUR
+    Expenses:Subscriptions:Software             4.34 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-12 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-13 * Beeminder fine
-    Expenses:Subscriptions:Software         4.34 EUR
+    Expenses:Subscriptions:Software             4.34 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-13 * Beeminder fine
-    Expenses:Subscriptions:Software         4.34 EUR
+    Expenses:Subscriptions:Software             4.34 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-13 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone     5.86 EUR
+    Expenses:Home:Utilities:MobilePhone         5.86 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-13 * Cafe with Aurelie
-    Expenses:Food:Cafe                      7.50 EUR
+    Expenses:Food:Cafe                          7.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-13 * Cafe Touquet plage
-    Expenses:Food:Cafe                      5.60 EUR
+    Expenses:Food:Cafe                          5.60 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-13 * Bonbons Touquet
-    Expenses:Food:Snack                     6.33 EUR
+    Expenses:Food:Snack                         6.33 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-14 * Cigarettes
-    Expenses:Cigarettes                    12.50 EUR
+    Expenses:Cigarettes                        12.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-15 * Financier Kayser
-    Expenses:Food:Snack                     3.60 EUR
+    Expenses:Food:Snack                         3.60 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-17 * Beeminder fine
-    Expenses:Subscriptions:Software         4.32 EUR
+    Expenses:Subscriptions:Software             4.32 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-17 * Cafe Boulangerie Ounissi
-    Expenses:Food:Cafe                      6.30 EUR
+    Expenses:Food:Cafe                          6.30 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-17 * Julot Lunch Isky GBP
-    Expenses:Food:Lunch              17.43 EUR
+    Expenses:Food:Lunch                        17.43 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-20 * Beeminder fine
-    Expenses:Subscriptions:Software         4.36 EUR
+    Expenses:Subscriptions:Software             4.36 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-21 * Carrefour City Doowap
-    Expenses:Food:Snack                     3.13 EUR
+    Expenses:Food:Snack                         3.13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-22 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-22 * Cafe Nuances
-    Expenses:Food:Cafe                         5 EUR
+    Expenses:Food:Cafe                             5 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-23 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-24 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-25 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-25 * Fisherman's Friend
-    Expenses:Food:Snack                     2.50 EUR
+    Expenses:Food:Snack                         2.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-26 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-26 * Le Voltigeur Aurelie Isky
-    Expenses:Entertainment:Social:Bars     50.60 EUR
+    Expenses:Entertainment:Social:Bars         50.60 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-27 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-27 * Bar Florent
-    Expenses:Entertainment:Social:Bars     20.40 EUR
+    Expenses:Entertainment:Social:Bars         20.40 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-28 * Cigarettes
-    Expenses:Cigarettes                       13 EUR
+    Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-29 * Transfer
-    Assets:FR:BforBank:Compte-Courant       1100 EUR
+    Assets:FR:BforBank:Compte-Courant           1100 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-07-31 * Beeminder fine
-    Expenses:Subscriptions:Software         4.40 EUR
+    Expenses:Subscriptions:Software             4.40 EUR
     Assets:UK:Revolut:Personal:EUR
 
 * Amex gold transactions
 2025-07-05 * R2 Training
-    Expenses:Health:Gym                      179 EUR
+    Expenses:Health:Gym                          179 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-06 * Amex subscription
-    Expenses:Finance:CreditCard                  16 EUR
+    Expenses:Finance:CreditCard                   16 EUR
     Liabilities:FR:Amex:Gold
 
-2025-07-06 * Virtuo fuel fine
-    Expenses:Transportation:Car:Rental      47.35 EUR
+2025-07-06 * Car rental Virtuo fuel fine
+    Expenses:Transportation:Car:Fuel           47.35 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-06 * Deliveroo Chez Antoine
-    Expenses:Food:Delivery                 26.89 EUR
+    Expenses:Food:Delivery                     26.89 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-06 * Florent share Virtuo
-    Assets:Receivables                       102 EUR
-    Expenses:Transportation:Car:Rental       -102 EUR
-    Assets:FR:BforBank:Compte-Courant        102 EUR
-    Assets:Receivables                      -102 EUR
+    Expenses:Transportation:Car:Rental          -102 EUR
+    Assets:Receivables                           102 EUR
+    Assets:FR:BforBank:Compte-Courant            102 EUR
+    Assets:Receivables                          -102 EUR
 
 2025-07-09 * Cooking hob for mum
-    Expenses:Home:Furniture              1412.12 EUR
-    Liabilities:FR:Amex:Gold            -1412.12 EUR
-    Assets:Receivables:Iskander          1412 EUR
-    Expenses:Home:Furniture             -1412 EUR
+    Expenses:Home:Furniture                  1412.12 EUR
+    Liabilities:FR:Amex:Gold                -1412.12 EUR
+    Assets:Receivables:Iskander                 1412 EUR
+    Expenses:Home:Furniture                    -1412 EUR
 
 2025-07-11 * Uber to Gare du Nord
-    Expenses:Transportation:Taxi            18.97 EUR
+    Expenses:Transportation:Taxi               18.97 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-11 * Champagne gift
-    Expenses:GiftsCharity:Gifts               38 EUR
+    Expenses:GiftsCharity:Gifts                   38 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-14 * Deliveroo McDonald's
-    Expenses:Food:Delivery                 29.79 EUR
+    Expenses:Food:Delivery                     29.79 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-19 * Restaurant Jamrock Aurelie
-    Expenses:Food:Restaurants              56.70 EUR
+    Expenses:Food:Restaurants                  56.70 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-19 * Deliveroo Pizzou
-    Expenses:Food:Delivery                 27.39 EUR
-    Liabilities:FR:Amex:Gold              -27.39 EUR
-    Assets:Receivables:Aurelie                27 EUR
-    Expenses:Food:Delivery                   -27 EUR
-    Assets:FR:BforBank:Compte-Courant         27 EUR
-    Assets:Receivables:Aurelie               -27 EUR
+    Expenses:Food:Delivery                     27.39 EUR
+    Liabilities:FR:Amex:Gold                  -27.39 EUR
+    Assets:Receivables:Aurelie                    27 EUR
+    Expenses:Food:Delivery                       -27 EUR
+    Assets:FR:BforBank:Compte-Courant             27 EUR
+    Assets:Receivables:Aurelie                   -27 EUR
 
 2025-07-23 * Dott pass
-    Expenses:Transportation:Bikesharing     4.99 EUR
+    Expenses:Transportation:Bikesharing         4.99 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-23 * Dott ride
-    Expenses:Transportation:Bikesharing     1.75 EUR
+    Expenses:Transportation:Bikesharing         1.75 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-23 * Dott ride
-    Expenses:Transportation:Bikesharing     1.75 EUR
+    Expenses:Transportation:Bikesharing         1.75 EUR
     Liabilities:FR:Amex:Gold
 
 2025-07-31 * Dott ride
-    Expenses:Transportation:Bikesharing     1.75 EUR
+    Expenses:Transportation:Bikesharing         1.75 EUR
     Liabilities:FR:Amex:Gold

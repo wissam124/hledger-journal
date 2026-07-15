@@ -13,10 +13,10 @@
     Expenses:Travel:Holidays                    9.50 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-04 * Noleggiare car rental balance  ; trip:italy-2026
-    Expenses:Transportation:Car:Rental         147.03 EUR
+2026-07-04 * Car rental Italy Noleggiare outstanding  ; trip:italy-2026
+    Expenses:Transportation:Car:Rental        147.03 EUR
     Liabilities:FR:Amex:Gold                 -147.03 EUR
-    Expenses:Transportation:Car:Rental         -73.52 EUR
+    Expenses:Transportation:Car:Rental        -73.52 EUR
     Liabilities:Payables:Aurelie               73.52 EUR
 
 2026-07-04 * Murani Di Penso Riccardo  ; trip:italy-2026
@@ -78,7 +78,7 @@
     Expenses:Food:Snack                         7.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-04 * Caffe Castello     ; trip:italy-2026
+2026-07-04 * Caffe Castello  ; trip:italy-2026
     Expenses:Entertainment:Social:Bars            29 EUR
     Assets:FR:BforBank:Compte-Courant            -29 EUR
     Expenses:Entertainment:Social:Bars        -14.50 EUR
@@ -92,35 +92,35 @@
     Expenses:Cigarettes                         6.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-05 * Aspit Venezia      ; trip:italy-2026
-    Expenses:Transportation:Toll                8.70 EUR
+2026-07-05 * Aspit Venezia  ; trip:italy-2026
+    Expenses:Transportation:Car:Tolls                8.70 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-05 * MacroFactor
     Expenses:Subscriptions:Software            13.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-06 * Pizzeria Europa    ; trip:italy-2026
+2026-07-06 * Pizzeria Europa  ; trip:italy-2026
     Expenses:Food:Restaurants                     37 EUR
     Assets:FR:BforBank:Compte-Courant            -37 EUR
     Expenses:Food:Restaurants                 -18.50 EUR
     Liabilities:Payables:Aurelie               18.50 EUR
 
-2026-07-06 * Pragser Wildsee    ; trip:italy-2026
+2026-07-06 * Pragser Wildsee  ; trip:italy-2026
     Expenses:Food:Cafe                             7 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-06 * Supermercati Pa    ; trip:italy-2026
+2026-07-06 * Supermercati Pa  ; trip:italy-2026
     Expenses:Food:Groceries                    13.68 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-06 * Lts Soc Coop parking lago di braies  ; trip:italy-2026
-    Expenses:Travel:Holidays                      44 EUR
+    Expenses:Transportation:Car:Parking           44 EUR
     Assets:FR:BforBank:Compte-Courant            -44 EUR
-    Expenses:Travel:Holidays                     -22 EUR
+    Expenses:Transportation:Car:Parking          -22 EUR
     Liabilities:Payables:Aurelie                  22 EUR
 
-2026-07-06 * Pasta Pasta        ; trip:italy-2026
+2026-07-06 * Pasta Pasta  ; trip:italy-2026
     Expenses:Food:FastFood                        20 EUR
     Assets:FR:BforBank:Compte-Courant            -20 EUR
     Expenses:Food:FastFood                       -10 EUR
@@ -136,29 +136,29 @@
     Expenses:Transportation:PublicTransport     8.40 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-08 * Bolzano Nord       ; trip:italy-2026
-    Expenses:Transportation:Toll                3.10 EUR
+2026-07-08 * Bolzano Nord  ; trip:italy-2026
+    Expenses:Transportation:Car:Tolls                3.10 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-08 * Rovereto Sud       ; trip:italy-2026
-    Expenses:Transportation:Toll                7.20 EUR
+2026-07-08 * Rovereto Sud  ; trip:italy-2026
+    Expenses:Transportation:Car:Tolls                7.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-09 * Dolomitibus        ; trip:italy-2026
+2026-07-09 * Dolomitibus  ; trip:italy-2026
     Expenses:Transportation:PublicTransport       20 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-09 * Oil Italia Srl     ; trip:italy-2026
-    Expenses:Transportation:Car:Rental          49.09 EUR
+2026-07-09 * Oil Italia Srl  ; trip:italy-2026
+    Expenses:Transportation:Car:Fuel           49.09 EUR
     Assets:FR:BforBank:Compte-Courant         -49.09 EUR
-    Expenses:Transportation:Car:Rental         -24.54 EUR
+    Expenses:Transportation:Car:Fuel          -24.54 EUR
     Liabilities:Payables:Aurelie               24.54 EUR
 
-2026-07-09 * Nya Parking Mac    ; trip:italy-2026
+2026-07-09 * Nya Parking Mac  ; trip:italy-2026
     Expenses:Transportation:Car:Parking         0.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-09 * Nya Parking Mac    ; trip:italy-2026
+2026-07-09 * Nya Parking Mac  ; trip:italy-2026
     Expenses:Transportation:Car:Parking         6.00 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -172,11 +172,11 @@
     Expenses:Food:Cafe                         13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-09 * Despar Bolzano     ; trip:italy-2026
+2026-07-09 * Despar Bolzano  ; trip:italy-2026
     Expenses:Food:Groceries                      9.12 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-10 * Gelateria          ; trip:italy-2026
+2026-07-10 * Gelateria  ; trip:italy-2026
     Expenses:Food:Snack                         7.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -184,15 +184,15 @@
     Expenses:Cigarettes                         6.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-11 * Hotel Du Lac       ; trip:italy-2026
+2026-07-11 * Hotel Du Lac  ; trip:italy-2026
     Expenses:Entertainment:Social:Bars         12.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-11 * El Botegher        ; trip:italy-2026
+2026-07-11 * El Botegher  ; trip:italy-2026
     Expenses:Food:Snack                           18 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-11 * Pedro Secondo      ; trip:italy-2026
+2026-07-11 * Pedro Secondo  ; trip:italy-2026
     Expenses:Food:Restaurants                  51.30 EUR
     Assets:FR:BforBank:Compte-Courant         -51.30 EUR
     Expenses:Food:Restaurants                 -25.65 EUR
@@ -206,11 +206,11 @@
     Expenses:Cigarettes                         6.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-13 * Illy lmb Linate    ; trip:italy-2026
+2026-07-13 * Illy lmb Linate  ; trip:italy-2026
     Expenses:Food:Cafe                          7.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-13 * Illy lmb Linate    ; trip:italy-2026
+2026-07-13 * Illy lmb Linate  ; trip:italy-2026
     Expenses:Food:Cafe                          5.80 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -225,7 +225,7 @@
     Liabilities:Payables:Aurelie               13.88 EUR
 
 2026-07-13 * Societa di Pro  ; trip:italy-2026
-    Expenses:Transportation:Toll               13.60 EUR
+    Expenses:Transportation:Car:Tolls               13.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-13 * Cigarettes
@@ -233,7 +233,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-13 * Societa di Pro  ; trip:italy-2026
-    Expenses:Transportation:Toll                5.30 EUR
+    Expenses:Transportation:Car:Tolls                5.30 EUR
     Assets:FR:BforBank:Compte-Courant
     
 2026-07-14 * Tradition Gourmet
@@ -249,11 +249,11 @@
     Expenses:Food:Snack                         1.30 EUR
     Assets:Cash:EUR
 
-2026-07-03 * Venise city tax    ; trip:italy-2026
+2026-07-03 * Venise city tax  ; trip:italy-2026
     Expenses:Travel:Holidays                       4 EUR
     Assets:Cash:EUR
 
-2026-07-06 * Dolomitibus        ; trip:italy-2026
+2026-07-06 * Dolomitibus  ; trip:italy-2026
     Expenses:Transportation:PublicTransport    10.80 EUR
     Assets:Cash:EUR
 
@@ -261,11 +261,11 @@
     Expenses:Cigarettes                         6.80 EUR
     Assets:Cash:EUR
 
-2026-07-06 * Toilets            ; trip:italy-2026
+2026-07-06 * Toilets  ; trip:italy-2026
     Expenses:Misc                                  1 EUR
     Assets:Cash:EUR
 
-2026-07-06 * Cappuccino Tre Cime        ; trip:italy-2026
+2026-07-06 * Cappuccino Tre Cime  ; trip:italy-2026
     Expenses:Food:Cafe                          3.90 EUR
     Assets:Cash:EUR
 
@@ -273,7 +273,7 @@
     Expenses:Food:Snack                            5 EUR
     Assets:Cash:EUR
 
-2026-07-10 * Cafe Malcesine     ; trip:italy-2026
+2026-07-10 * Cafe Malcesine  ; trip:italy-2026
     Expenses:Food:Cafe                          7.20 EUR
     Assets:Cash:EUR
 
@@ -288,7 +288,7 @@
 
 * Aggregate Italy 2026 holidays expenses
 2026-07-12 * Tolls settlement  ; trip:italy-2026
-    Expenses:Transportation:Toll              -18.95 EUR
+    Expenses:Transportation:Car:Tolls              -18.95 EUR
     Liabilities:Payables:Aurelie
 
 2026-07-12 * Dolomitibus settlement  ; trip:italy-2026

@@ -161,7 +161,6 @@ account Expenses:Transportation:Car:Rental                 ; type: X
 account Expenses:Transportation:Car:Tolls                  ; type: X
 account Expenses:Transportation:PublicTransport            ; type: X
 account Expenses:Transportation:Taxi                       ; type: X
-account Expenses:Transportation:Toll                       ; type: X
 account Expenses:Travel:Flights                            ; type: X
 account Expenses:Travel:Holidays                           ; type: X
 account Expenses:Travel:Holidays:Accommodation             ; type: X

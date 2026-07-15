@@ -122,9 +122,9 @@
     Expenses:Cigarettes                       13 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-05-08 * Car rental insurance claim
-    Assets:FR:BforBank:Compte-Courant        175 EUR
-    Expenses:Transportation:Car:Rental
+2025-05-08 * Car rental Avignon insurance claim
+    Expenses:Transportation:Car:Damage          -175 EUR
+    Assets:FR:BforBank:Compte-Courant
 
 2025-05-09 * Minoxidil
     Expenses:Health:Pharmacy               23.17 EUR
@@ -489,8 +489,8 @@
     Assets:UK:Revolut:Personal:EUR
 
 * Amex Gold transactions
-2025-05-01 * Car Rental damages fine outstanding
-    Expenses:Transportation:Car:Rental         40 EUR
+2025-05-01 * Car rental Avignon damages outstanding
+    Expenses:Transportation:Car:Damage            40 EUR
     Liabilities:FR:Amex:Gold
 
 2025-05-02 * Taxi to Maison de la radio

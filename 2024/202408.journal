@@ -52,7 +52,7 @@
     Expenses:Shopping:Clothes               106.9 EUR
     Assets:FR:BforBank:Compte-Courant      -106.9 EUR
 
-2024-08-01 * AMEX - 2024-07-29 - Car Rental Brest
+2024-08-01 * AMEX - 2024-07-29 - Car rental Brest
     Expenses:Transportation:Car:Rental      125.99 EUR
     Assets:FR:BforBank:Compte-Courant     -125.99 EUR
 
@@ -364,8 +364,8 @@
     Expenses:Travel:Holidays                    1 EUR
     Assets:FR:BforBank:Compte-Courant          -1 EUR
 
-2024-08-25 * Car fuel Brest
-    Expenses:Travel:Holidays                31.36 EUR
+2024-08-25 * Car rental Brest fuel
+    Expenses:Transportation:Car:Fuel        31.36 EUR
     Assets:FR:BforBank:Compte-Courant      -31.36 EUR
 
 2024-08-25 * McDonald's Brest

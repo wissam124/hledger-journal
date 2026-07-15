@@ -310,7 +310,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-24 * Toll Greece
-    Expenses:Transportation:Toll                2.50 EUR
+    Expenses:Transportation:Car:Tolls           2.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-25 * Breakfast Athens
@@ -321,7 +321,7 @@
     Expenses:Home:Utilities:MobilePhone        13.56 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-26 * Car rental balance
+2025-08-26 * Car rental Greece outstanding
     Expenses:Transportation:Car:Rental             40 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -586,10 +586,10 @@
     Expenses:Travel:Flights                     -574 EUR
 
 2025-08-03 * Car rental Greece
-    Expenses:Transportation:Car:Rental         168.49 EUR
+    Expenses:Transportation:Car:Rental        168.49 EUR
     Liabilities:FR:Amex:Gold                 -168.49 EUR
     Assets:Receivables:Aurelie                 84.25 EUR
-    Expenses:Transportation:Car:Rental         -84.25 EUR
+    Expenses:Transportation:Car:Rental        -84.25 EUR
 
 2025-08-03 * Ferries Greece
     Expenses:Travel:Holidays                  387.10 EUR

@@ -12,7 +12,7 @@
     Expenses:Food:Snack                         10.1 EUR
     Assets:FR:BforBank:Compte-Courant          -10.1 EUR
 
-2024-07-01 * AMEX - 2024-06-14 - Madeira car rental
+2024-07-01 * AMEX - 2024-06-14 - Car rental Madeira outstanding
     Expenses:Transportation:Car:Rental         577.01 EUR
     Assets:FR:BforBank:Compte-Courant        -577.01 EUR
 
@@ -28,7 +28,7 @@
     Expenses:GiftsCharity:Gifts                42.69 EUR
     Assets:FR:BforBank:Compte-Courant         -42.69 EUR
 
-2024-07-01 * AMEX - 2024-06-30 - Car rental Agadir
+2024-07-01 * AMEX - 2024-06-30 - Car rental Agadir outstanding
     Expenses:Transportation:Car:Rental         166.77 EUR
     Assets:FR:BforBank:Compte-Courant        -166.77 EUR
 
@@ -56,8 +56,8 @@
     Assets:FR:BforBank:LivretA                  1000 EUR
     Assets:FR:BforBank:Compte-Courant          -1000 EUR
 
-2024-07-03 * Gas Agadir
-    Expenses:Travel:Holidays                   36.83 EUR
+2024-07-03 * Car rental Agadir fuel
+    Expenses:Transportation:Car:Fuel           36.83 EUR
     Assets:FR:BforBank:Compte-Courant         -36.83 EUR
 
 2024-07-04 * HelloFresh

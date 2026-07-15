@@ -4,7 +4,7 @@
     Assets:FR:BforBank:Compte-Courant     4783.99 EUR
     Income:FR:111Capital:Salary          -4783.99 EUR
 
-2024-09-01 * AMEX - 2024-08-06 - Penn Arr ferry
+2024-09-01 * AMEX - 2024-08-06 - Penn Arr ferry  ; trip:brittany-2024
     Expenses:Travel:Holidays                 79.6 EUR
     Assets:FR:BforBank:Compte-Courant       -79.6 EUR
 
@@ -28,21 +28,23 @@
     Expenses:Finance:CreditCard                   15 EUR
     Assets:FR:BforBank:Compte-Courant         -15 EUR
 
-2024-09-01 * AMEX - 2024-08-24 - Hôtel Sainte Barbe
-    Expenses:Travel:Holidays                846.6 EUR
+2024-09-01 * AMEX - 2024-08-24 - Hotel Sainte Barbe  ; trip:brittany-2024
+    Expenses:Travel:Holidays:Accommodation     846.6 EUR
     Assets:FR:BforBank:Compte-Courant      -846.6 EUR
 
-2024-09-01 * AMEX - 2024-08-25 - Logis Hôtel Vent d'Iroise
-    Expenses:Travel:Holidays               119.69 EUR
+2024-09-01 * AMEX - 2024-08-25 - Hotel Logis Vent d'Iroise  ; trip:brittany-2024
+    Expenses:Travel:Holidays:Accommodation    119.69 EUR
     Assets:FR:BforBank:Compte-Courant     -119.69 EUR
 
 2024-09-01 * AMEX - 2024-08-30 - Refund Bonne Gueule
     Assets:FR:BforBank:Compte-Courant         305 EUR
     Expenses:Shopping:Clothes                -305 EUR
 
-2024-09-01 * AMEX - 2024-08-08 - Vol Transavia France
-    Expenses:Travel:Holidays                 361 EUR
-    Assets:FR:BforBank:Compte-Courant
+2024-09-01 * AMEX - 2024-08-08 - Flight Transavia Paris->Nice for mum
+    Expenses:Travel:Flights                      361 EUR
+    Assets:FR:BforBank:Compte-Courant           -361 EUR
+    Expenses:Travel:Flights                     -361 EUR
+    Liabilities:Payables:Mum                     361 EUR
 
 2024-09-01 * AMEX - 2024-08-31 - Dott ride
     Expenses:Transportation:Bikesharing        9.24 EUR
@@ -417,9 +419,6 @@
     Assets:FR:BforBank:Compte-Courant         -28.36 EUR
 
 ; Manual entries
-2024-09-01 * Settle transavia flight mum
-    Liabilities:Payables:Mum              361 EUR
-    Expenses:Travel:Holidays
 
 2024-09-18 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
     Assets:FR:BourseDirect:PEA:ETF:LQQ    1 LQQ @ 1037.90 EUR

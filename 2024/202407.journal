@@ -8,15 +8,15 @@
     Expenses:Food:Snack                         32.1 EUR
     Assets:FR:BforBank:Compte-Courant          -32.1 EUR
 
-2024-07-01 * AMEX - 2024-06-12 - Drinks on Madeira plane
+2024-07-01 * AMEX - 2024-06-12 - Drinks on Madeira plane  ; trip:madeira-2024
     Expenses:Food:Snack                         10.1 EUR
     Assets:FR:BforBank:Compte-Courant          -10.1 EUR
 
-2024-07-01 * AMEX - 2024-06-14 - Car rental Madeira outstanding
+2024-07-01 * AMEX - 2024-06-14 - Car rental Madeira outstanding  ; trip:madeira-2024
     Expenses:Transportation:Car:Rental         577.01 EUR
     Assets:FR:BforBank:Compte-Courant        -577.01 EUR
 
-2024-07-01 * AMEX - 2024-06-17 - Savoy resort Madeira
+2024-07-01 * AMEX - 2024-06-17 - Savoy resort Madeira  ; trip:madeira-2024
     Expenses:Travel:Holidays                      55 EUR
     Assets:FR:BforBank:Compte-Courant            -55 EUR
 
@@ -28,23 +28,23 @@
     Expenses:GiftsCharity:Gifts                42.69 EUR
     Assets:FR:BforBank:Compte-Courant         -42.69 EUR
 
-2024-07-01 * AMEX - 2024-06-30 - Car rental Agadir outstanding
+2024-07-01 * AMEX - 2024-06-30 - Car rental Agadir outstanding  ; trip:agadir-2024
     Expenses:Transportation:Car:Rental         166.77 EUR
     Assets:FR:BforBank:Compte-Courant        -166.77 EUR
 
-2024-07-01 * AMEX - 2024-06-30 - Hyatt Regency
-    Expenses:Travel:Holidays                  617.45 EUR
+2024-07-01 * AMEX - 2024-06-30 - Hyatt Regency  ; trip:agadir-2024
+    Expenses:Travel:Holidays:Accommodation    617.45 EUR
     Assets:FR:BforBank:Compte-Courant        -617.45 EUR
 
-2024-07-01 * AMEX - 2024-06-30 - Hyatt Regency expenses
-    Expenses:Travel:Holidays                  127.46 EUR
+2024-07-01 * AMEX - 2024-06-30 - Hyatt Regency expenses  ; trip:agadir-2024
+    Expenses:Travel:Holidays:Accommodation    127.46 EUR
     Assets:FR:BforBank:Compte-Courant        -127.46 EUR
 
-2024-07-01 * AMEX - 2024-06-30 - Snack Agadir flight
+2024-07-01 * AMEX - 2024-06-30 - Snack Agadir flight  ; trip:agadir-2024
     Expenses:Food:Snack                          2.9 EUR
     Assets:FR:BforBank:Compte-Courant           -2.9 EUR
 
-2024-07-01 * AMEX - 2024-06-30 - Uber to Orly airport
+2024-07-01 * AMEX - 2024-06-30 - Uber to Orly airport  ; trip:agadir-2024
     Expenses:Transportation:Taxi               39.65 EUR
     Assets:FR:BforBank:Compte-Courant         -39.65 EUR
 
@@ -56,7 +56,7 @@
     Assets:FR:BforBank:LivretA                  1000 EUR
     Assets:FR:BforBank:Compte-Courant          -1000 EUR
 
-2024-07-03 * Car rental Agadir fuel
+2024-07-03 * Car rental Agadir fuel  ; trip:agadir-2024
     Expenses:Transportation:Car:Fuel           36.83 EUR
     Assets:FR:BforBank:Compte-Courant         -36.83 EUR
 
@@ -76,7 +76,7 @@
     Expenses:Transportation:PublicTransport     86.4 EUR
     Assets:FR:BforBank:Compte-Courant          -86.4 EUR
 
-2024-07-07 * Breakfast Agadir airport
+2024-07-07 * Breakfast Agadir airport  ; trip:agadir-2024
     Expenses:Food:Snack                           11 EUR
     Assets:FR:BforBank:Compte-Courant            -11 EUR
 
@@ -84,7 +84,7 @@
     Expenses:Cigarettes                           36 EUR
     Assets:FR:BforBank:Compte-Courant            -36 EUR
 
-2024-07-07 * In-flight café Agadir->Paris
+2024-07-07 * In-flight café Agadir->Paris  ; trip:agadir-2024
     Expenses:Food:Snack                          2.9 EUR
     Assets:FR:BforBank:Compte-Courant           -2.9 EUR
 
@@ -92,7 +92,7 @@
     Expenses:Food:Restaurants                     21 EUR
     Assets:FR:BforBank:Compte-Courant            -21 EUR
 
-2024-07-07 * Snack Agadir airport
+2024-07-07 * Snack Agadir airport  ; trip:agadir-2024
     Expenses:Food:Snack                            4 EUR
     Assets:FR:BforBank:Compte-Courant             -4 EUR
 
@@ -144,7 +144,7 @@
     Expenses:Food:FastFood                         9 EUR
     Assets:FR:BforBank:Compte-Courant             -9 EUR
 
-2024-07-13 * Settle balance witk Iskander holiday
+2024-07-13 * Settle balance witk Iskander holiday  ; trip:agadir-2024
     Expenses:Travel:Holidays                   44.26 EUR
     Assets:FR:BforBank:Compte-Courant         -44.26 EUR
 

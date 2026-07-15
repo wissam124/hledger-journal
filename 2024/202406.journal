@@ -28,7 +28,7 @@
     Expenses:Health:Supplements                83.34 EUR
     Assets:FR:BforBank:Compte-Courant         -83.34 EUR
 
-2024-06-01 * AMEX - 2024-05-25 - Plane tickets Agadir
+2024-06-01 * AMEX - 2024-05-25 - Plane tickets Agadir  ; trip:agadir-2024
     Expenses:Travel:Flights                      642 EUR
     Assets:FR:BforBank:Compte-Courant           -642 EUR
 
@@ -36,7 +36,7 @@
     Expenses:Transportation:Taxi               12.14 EUR
     Assets:FR:BforBank:Compte-Courant         -12.14 EUR
 
-2024-06-01 * AMEX - 2024-05-31 - Car rental Agadir booking fee
+2024-06-01 * AMEX - 2024-05-31 - Car rental Agadir booking fee  ; trip:agadir-2024
     Expenses:Transportation:Car:Rental           9.61 EUR
     Assets:FR:BforBank:Compte-Courant          -9.61 EUR
 
@@ -164,59 +164,59 @@
     Expenses:Health:Therapy                       60 EUR
     Assets:FR:BforBank:Compte-Courant            -60 EUR
 
-2024-06-12 * Dinner Funchal - BFB - 2024-06-17
-    Expenses:Travel:Holidays                    51.8 EUR
+2024-06-12 * Dinner Funchal - BFB - 2024-06-17  ; trip:madeira-2024
+    Expenses:Food:Restaurants                   51.8 EUR
     Assets:FR:BforBank:Compte-Courant          -51.8 EUR
 
-2024-06-12 * Snacks CDG airport
+2024-06-12 * Snacks CDG airport  ; trip:madeira-2024
     Expenses:Food:Snack                          5.8 EUR
     Assets:FR:BforBank:Compte-Courant           -5.8 EUR
 
-2024-06-12 * Wine night out Funchal
-    Expenses:Travel:Holidays                      15 EUR
+2024-06-12 * Wine night out Funchal  ; trip:madeira-2024
+    Expenses:Entertainment:Social:Bars            15 EUR
     Assets:FR:BforBank:Compte-Courant            -15 EUR
 
-2024-06-13 * Botanical garden Funchal - BFB - 2024-06-14
+2024-06-13 * Botanical garden Funchal - BFB - 2024-06-14  ; trip:madeira-2024
     Expenses:Travel:Holidays                      30 EUR
     Assets:FR:BforBank:Compte-Courant            -30 EUR
 
-2024-06-13 * Burger Funchal - BFB - 2024-06-14
-    Expenses:Travel:Holidays                    28.6 EUR
+2024-06-13 * Burger Funchal - BFB - 2024-06-14  ; trip:madeira-2024
+    Expenses:Food:FastFood                      28.6 EUR
     Assets:FR:BforBank:Compte-Courant          -28.6 EUR
 
-2024-06-13 * Funiculaire Funchal - BFB - 2024-06-14
+2024-06-13 * Funiculaire Funchal - BFB - 2024-06-14  ; trip:madeira-2024
     Expenses:Travel:Holidays                      25 EUR
     Assets:FR:BforBank:Compte-Courant            -25 EUR
 
-2024-06-13 * Taxi Jardim Tropical Funcahl
-    Expenses:Travel:Holidays                      20 EUR
+2024-06-13 * Taxi Jardim Tropical Funchal  ; trip:madeira-2024
+    Expenses:Transportation:Taxi                  20 EUR
     Assets:FR:BforBank:Compte-Courant            -20 EUR
 
-2024-06-14 * Dinner Sao Cristovao - BFB - 2024-06-17
-    Expenses:Travel:Holidays                    43.2 EUR
+2024-06-14 * Dinner Sao Cristovao - BFB - 2024-06-17  ; trip:madeira-2024
+    Expenses:Food:Restaurants                   43.2 EUR
     Assets:FR:BforBank:Compte-Courant          -43.2 EUR
 
-2024-06-14 * Taxi Pico Ruivo to Pico Ariero
-    Expenses:Travel:Holidays                      40 EUR
+2024-06-14 * Taxi Pico Ruivo to Pico Ariero  ; trip:madeira-2024
+    Expenses:Transportation:Taxi                  40 EUR
     Assets:FR:BforBank:Compte-Courant            -40 EUR
 
-2024-06-15 * Surf Madeira
+2024-06-15 * Surf Madeira  ; trip:madeira-2024
     Expenses:Travel:Holidays                     110 EUR
     Assets:FR:BforBank:Compte-Courant           -110 EUR
 
-2024-06-16 * Lunch O Farol Ponta Do Pargo - BFB - 2024-06-17
-    Expenses:Travel:Holidays                      33 EUR
+2024-06-16 * Lunch O Farol Ponta Do Pargo - BFB - 2024-06-17  ; trip:madeira-2024
+    Expenses:Food:Restaurants                     33 EUR
     Assets:FR:BforBank:Compte-Courant            -33 EUR
 
-2024-06-18 * Diesel - BFB - 2024-06-19
+2024-06-18 * Diesel - BFB - 2024-06-19  19  ; trip:madeira-2024
     Expenses:Transportation:Car:Fuel              35 EUR
     Assets:FR:BforBank:Compte-Courant            -35 EUR
 
-2024-06-18 * Dinner Sao Vicente - BFB - 2024-06-19
-    Expenses:Travel:Holidays                    53.6 EUR
+2024-06-18 * Dinner Sao Vicente - BFB - 2024-06-19  ; trip:madeira-2024
+    Expenses:Food:Restaurants                   53.6 EUR
     Assets:FR:BforBank:Compte-Courant          -53.6 EUR
 
-2024-06-19 * Car wash Funchal
+2024-06-19 * Car wash Funchal  ; trip:madeira-2024
     Expenses:Transportation:Car:Cleaning         9.5 EUR
     Assets:FR:BforBank:Compte-Courant           -9.5 EUR
 
@@ -224,19 +224,19 @@
     Expenses:Home:Utilities:Electricity         2.31 EUR
     Assets:FR:BforBank:Compte-Courant          -2.31 EUR
 
-2024-06-19 * Pizza Madeira Airport - BFB - 2024-06-20
-    Expenses:Travel:Holidays                     3.7 EUR
+2024-06-19 * Pizza Madeira Airport - BFB - 2024-06-20  ; trip:madeira-2024
+    Expenses:Food:Snack                          3.7 EUR
     Assets:FR:BforBank:Compte-Courant           -3.7 EUR
 
-2024-06-19 * Sweets Madeira Airport - BFB - 2024-06-20
-    Expenses:Travel:Holidays                    3.95 EUR
+2024-06-19 * Sweets Madeira Airport - BFB - 2024-06-20  ; trip:madeira-2024
+    Expenses:Food:Snack                         3.95 EUR
     Assets:FR:BforBank:Compte-Courant          -3.95 EUR
 
-2024-06-19 * Taxi CDG to Vincennes
-    Expenses:Travel:Holidays                      56 EUR
+2024-06-19 * Taxi CDG to Vincennes  ; trip:madeira-2024
+    Expenses:Transportation:Taxi                  56 EUR
     Assets:FR:BforBank:Compte-Courant            -56 EUR
 
-2024-06-19 * Various unaccounted cash expenses
+2024-06-19 * Various unaccounted cash expenses  ; trip:madeira-2024
     Expenses:Travel:Holidays                      20 EUR
     Assets:FR:BforBank:Compte-Courant            -20 EUR
 

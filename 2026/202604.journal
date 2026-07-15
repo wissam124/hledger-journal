@@ -422,12 +422,12 @@
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
-2026-04-07 * Drinks  ; aurelie:
+2026-04-07 * Drinks
     Expenses:Entertainment:Social:Bars            14 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-04-09 * Pay Alex
-    Expenses:Travel:Holidays                     102 EUR
+2026-04-09 * Pay Alex for Lisbon golf hotel outstanding  ; trip:lisbon-2026
+    Expenses:Travel:Holidays:Accommodation       102 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-04-09 * Pay Alex on behalf of Jacques

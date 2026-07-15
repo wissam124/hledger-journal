@@ -175,13 +175,11 @@
     Expenses:Transportation:Bikesharing            6 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-24 * Bargalia Cafe Gordes
+2025-04-24 * Bargalia Cafe Gordes  ; trip:avignon-2025
     Expenses:Food:Cafe                             4 EUR
-    Assets:FR:BforBank:Compte-Courant
-
-2025-04-24 * Bargalia Cafe Gordes Receivable
+    Assets:FR:BforBank:Compte-Courant             -4 EUR
+    Expenses:Food:Cafe                            -2 EUR
     Assets:Receivables:Aurelie                     2 EUR
-    Expenses:Food:Cafe
 
 2025-04-24 * Cigarettes
     Expenses:Cigarettes                           13 EUR
@@ -191,15 +189,13 @@
     Expenses:Food:Snack                         2.40 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-24 * Gordes Castle
-    Expenses:Entertainment:Events                 12 EUR
-    Assets:FR:BforBank:Compte-Courant
-
-2025-04-24 * Gordes Castle Receivable
+2025-04-24 * Gordes Castle  ; trip:avignon-2025
+    Expenses:Travel:Holidays                      12 EUR
+    Assets:FR:BforBank:Compte-Courant            -12 EUR
+    Expenses:Travel:Holidays                      -6 EUR
     Assets:Receivables:Aurelie                     6 EUR
-    Expenses:Entertainment:Events
 
-2025-04-25 * Ice Cream Rousillon
+2025-04-25 * Ice Cream Rousillon  ; trip:avignon-2025
     Expenses:Food:Snack                        17.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -211,7 +207,7 @@
     Expenses:Food:Groceries                    48.94 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-04-26 * Car rental cleaning
+2025-04-26 * Car rental cleaning  ; trip:avignon-2025
     Expenses:Transportation:Car:Cleaning           6 EUR
     Assets:FR:BforBank:Compte-Courant             -6 EUR
     Expenses:Transportation:Car:Cleaning          -3 EUR
@@ -392,15 +388,13 @@
     Assets:Receivables:Aurelie                  1.75 EUR
     Expenses:Food:Snack
 
-2025-04-23 * Coffee Brioche Train
+2025-04-23 * Coffee Brioche Train  ; trip:avignon-2025
     Expenses:Food:Snack                         7.30 EUR
-    Assets:UK:Revolut:Personal:EUR
-
-2025-04-23 * Coffee Brioche Train receivable
+    Assets:UK:Revolut:Personal:EUR             -7.30 EUR
+    Expenses:Food:Snack                        -3.65 EUR
     Assets:Receivables:Aurelie                  3.65 EUR
-    Expenses:Food:Snack
 
-2025-04-23 * Toilets Avignon Train Station
+2025-04-23 * Toilets Avignon Train Station  ; trip:avignon-2025
     Expenses:Misc                                  1 EUR
     Assets:UK:Revolut:Personal:EUR
 
@@ -408,13 +402,11 @@
     Expenses:Cigarettes                           13 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-04-27 * Cafe Kayser Avignon Station
+2025-04-27 * Cafe Kayser Avignon Station  ; trip:avignon-2025
     Expenses:Food:Cafe                          6.90 EUR
-    Assets:UK:Revolut:Personal:EUR
-
-2025-04-27 * Cafe Kayser Avignon Station
+    Assets:UK:Revolut:Personal:EUR             -6.90 EUR
+    Expenses:Food:Cafe                         -3.45 EUR
     Assets:Receivables:Aurelie                  3.45 EUR
-    Expenses:Food:Cafe
 
 2025-04-27 * Cigarettes
     Expenses:Cigarettes                           13 EUR
@@ -570,31 +562,31 @@
     Expenses:Food:Delivery                     15.39 EUR
     Liabilities:FR:Amex:Gold
 
-2025-04-17 * Car rental Avignon
+2025-04-17 * Car rental Avignon  ; trip:avignon-2025
     Expenses:Transportation:Car:Rental           253 EUR
     Liabilities:FR:Amex:Gold
 
-2025-04-23 * Super U groceries
+2025-04-23 * Super U groceries  ; trip:avignon-2025
     Expenses:Food:Groceries                    51.13 EUR
     Liabilities:FR:Amex:Gold
 
-2025-04-23 * Super U groceries receivables
+2025-04-23 * Super U groceries receivables  ; trip:avignon-2025
     Assets:Receivables:Aurelie                 25.57 EUR
     Expenses:Food:Groceries
 
-2025-04-23 * Butcher La Provencale
+2025-04-23 * Butcher La Provencale  ; trip:avignon-2025
     Expenses:Food:Groceries                    39.06 EUR
     Liabilities:FR:Amex:Gold
 
-2025-04-23 * Butcher La Provencale Receivables
+2025-04-23 * Butcher La Provencale Receivables  ; trip:avignon-2025
     Assets:Receivables:Aurelie                 19.53 EUR
     Expenses:Food:Groceries
 
-2025-04-26 * Hameau des Baux restaurant and drinks
-    Expenses:Travel:Holidays                  155.48 EUR
+2025-04-26 * Hameau des Baux restaurant and drinks  ; trip:avignon-2025
+    Expenses:Food:Restaurants                 155.48 EUR
     Liabilities:FR:Amex:Gold
 
-2025-04-23 * Car rental Avignon damage
+2025-04-23 * Car rental Avignon damage  ; trip:avignon-2025
     Expenses:Transportation:Car:Damage           285 EUR
     Liabilities:FR:Amex:Gold
 
@@ -603,7 +595,7 @@
     Liabilities:FR:Amex:Gold
 
 * Payables
-2025-04-27 * Holidays payables
+2025-04-27 * Holidays payables  ; trip:avignon-2025
     Expenses:Travel:Holidays                    31.5 EUR
     Liabilities:Payables:Aurelie
 

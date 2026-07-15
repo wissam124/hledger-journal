@@ -52,7 +52,7 @@
     Expenses:Shopping:Clothes               106.9 EUR
     Assets:FR:BforBank:Compte-Courant      -106.9 EUR
 
-2024-08-01 * AMEX - 2024-07-29 - Car rental Brest
+2024-08-01 * AMEX - 2024-07-29 - Car rental Brest  ; trip:brittany-2024
     Expenses:Transportation:Car:Rental      125.99 EUR
     Assets:FR:BforBank:Compte-Courant     -125.99 EUR
 
@@ -297,94 +297,94 @@
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
 2024-08-22 * Café Montparnasse
-    Expenses:Travel:Holidays                  7.6 EUR
-    Assets:FR:BforBank:Compte-Courant        -7.6 EUR
+    Expenses:Food:Cafe                           7.6 EUR
+    Assets:FR:BforBank:Compte-Courant           -7.6 EUR
 
-2024-08-22 * Crêpes Brest
-    Expenses:Travel:Holidays                 38.9 EUR
-    Assets:FR:BforBank:Compte-Courant       -38.9 EUR
+2024-08-22 * Crêpes Brest  ; trip:brittany-2024
+    Expenses:Food:Restaurants                   38.9 EUR
+    Assets:FR:BforBank:Compte-Courant          -38.9 EUR
 
-2024-08-22 * Relay Montparnasse
-    Expenses:Travel:Holidays                  7.6 EUR
-    Assets:FR:BforBank:Compte-Courant        -7.6 EUR
+2024-08-22 * Relay Montparnasse  ; trip:brittany-2024
+    Expenses:Food:Snack                          7.6 EUR
+    Assets:FR:BforBank:Compte-Courant           -7.6 EUR
 
-2024-08-22 * Restaurant Relais du Vieux Port Le Conquet
-    Expenses:Travel:Holidays                   56 EUR
+2024-08-22 * Restaurant Relais du Vieux Port Le Conquet  ; trip:brittany-2024
+    Expenses:Food:Restaurants                     56 EUR
     Assets:FR:BforBank:Compte-Courant         -56 EUR
 
-2024-08-22 * Snack Train Brest
-    Expenses:Travel:Holidays                  5.8 EUR
+2024-08-22 * Snack Train Brest  ; trip:brittany-2024
+    Expenses:Food:Snack                          5.8 EUR
     Assets:FR:BforBank:Compte-Courant        -5.8 EUR
 
-2024-08-22 * Uber Montparnasse
-    Expenses:Travel:Holidays                12.17 EUR
+2024-08-22 * Uber Montparnasse  ; trip:brittany-2024
+    Expenses:Transportation:Taxi               12.17 EUR
     Assets:FR:BforBank:Compte-Courant      -12.17 EUR
 
-2024-08-23 * Café Ouessant
-    Expenses:Travel:Holidays                  7.5 EUR
-    Assets:FR:BforBank:Compte-Courant        -7.5 EUR
+2024-08-23 * Café Ouessant  ; trip:brittany-2024
+    Expenses:Food:Cafe                           7.5 EUR
+    Assets:FR:BforBank:Compte-Courant           -7.5 EUR
 
-2024-08-23 * Crêperie Le Conquet Louise de Bretagne
-    Expenses:Travel:Holidays                 49.6 EUR
+2024-08-23 * Crêperie Le Conquet Louise de Bretagne  ; trip:brittany-2024
+    Expenses:Food:Restaurants                   49.6 EUR
     Assets:FR:BforBank:Compte-Courant       -49.6 EUR
 
-2024-08-23 * Location vélo Ouessant
+2024-08-23 * Location vélo Ouessant  ; trip:brittany-2024
     Expenses:Travel:Holidays                   40 EUR
     Assets:FR:BforBank:Compte-Courant         -40 EUR
 
-2024-08-23 * SPAR groceries
-    Expenses:Travel:Holidays                 9.55 EUR
+2024-08-23 * SPAR groceries  ; trip:brittany-2024
+    Expenses:Food:Groceries                     9.55 EUR
     Assets:FR:BforBank:Compte-Courant       -9.55 EUR
 
-2024-08-23 * Van Lampaul Ouessant
-    Expenses:Travel:Holidays                    5 EUR
+2024-08-23 * Van Lampaul Ouessant  ; trip:brittany-2024
+    Expenses:Food:Cafe                             5 EUR
     Assets:FR:BforBank:Compte-Courant          -5 EUR
 
-2024-08-24 * Café Crozon
-    Expenses:Travel:Holidays                    4 EUR
+2024-08-24 * Café Crozon  ; trip:brittany-2024
+    Expenses:Food:Cafe                             4 EUR
     Assets:FR:BforBank:Compte-Courant          -4 EUR
 
 2024-08-24 * Cigarettes
     Expenses:Cigarettes                      12.5 EUR
     Assets:FR:BforBank:Compte-Courant       -12.5 EUR
 
-2024-08-24 * Dinner Crozon
-    Expenses:Travel:Holidays                 38.3 EUR
-    Assets:FR:BforBank:Compte-Courant       -38.3 EUR
+2024-08-24 * Dinner Crozon  ; trip:brittany-2024
+    Expenses:Food:Restaurants                   38.3 EUR
+    Assets:FR:BforBank:Compte-Courant          -38.3 EUR
 
-2024-08-24 * Exposition Cartier Bresson
+2024-08-24 * Exposition Cartier Bresson  ; trip:brittany-2024
     Expenses:Travel:Holidays                   10 EUR
     Assets:FR:BforBank:Compte-Courant         -10 EUR
 
-2024-08-24 * Postcards Cartier Bresson
+2024-08-24 * Postcards Cartier Bresson  ; trip:brittany-2024
     Expenses:GiftsCharity:Gifts               5.5 EUR
     Assets:FR:BforBank:Compte-Courant        -5.5 EUR
 
-2024-08-25 * Aspirateur voiture
-    Expenses:Travel:Holidays                    1 EUR
-    Assets:FR:BforBank:Compte-Courant          -1 EUR
+2024-08-25 * Aspirateur voiture  ; trip:brittany-2024
+    Expenses:Transportation:Car:Cleaning           1 EUR
+    Assets:FR:BforBank:Compte-Courant             -1 EUR
 
-2024-08-25 * Car rental Brest fuel
+2024-08-25 * Car rental Brest fuel  ; trip:brittany-2024
     Expenses:Transportation:Car:Fuel        31.36 EUR
     Assets:FR:BforBank:Compte-Courant      -31.36 EUR
 
-2024-08-25 * McDonald's Brest
+2024-08-25 * McDonald's Brest  ; trip:brittany-2024
     Expenses:Food:FastFood                   24.8 EUR
     Assets:FR:BforBank:Compte-Courant       -24.8 EUR
 
-2024-08-25 * McDonald's Brest - Sunday
+2024-08-25 * McDonald's Brest - Sunday  ; trip:brittany-2024
     Expenses:Food:FastFood                    3.2 EUR
     Assets:FR:BforBank:Compte-Courant        -3.2 EUR
 
-2024-08-25 * Relay Brest
-    Expenses:Travel:Holidays                  5.4 EUR
+2024-08-25 * Relay Brest  ; trip:brittany-2024
+    Expenses:Food:Snack                          5.4 EUR
     Assets:FR:BforBank:Compte-Courant        -5.4 EUR
 
-2024-08-25 * Snack Train Brest -> Paris
+2024-08-25 * Snack Train Brest -> Paris  ; trip:brittany-2024
     Expenses:Food:Snack                        11 EUR
     Assets:FR:BforBank:Compte-Courant         -11 EUR
 
-2024-08-25 * Surf Crozon
+2024-08-25 * Surf Crozon  ; trip:brittany-2024
     Expenses:Travel:Holidays                   55 EUR
     Assets:FR:BforBank:Compte-Courant         -55 EUR
 
@@ -465,7 +465,7 @@
     Assets:FR:BforBank:Compte-Courant        -294.26 EUR
 
 ; Manual entries
-2024-08-31 * Settlement Aurelie holidays Brittany
+2024-08-31 * Settlement Aurelie holidays Brittany  ; trip:brittany-2024
     Assets:Receivables:Aurelie               487 EUR
     Expenses:Travel:Holidays                -487 EUR
     Assets:FR:BforBank:Compte-Courant        487 EUR

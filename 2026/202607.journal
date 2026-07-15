@@ -24,7 +24,7 @@
     Liabilities:FR:Amex:Gold
 
 2026-07-04 * Boat Venice  ; trip:italy-2026
-    Expenses:Travel:Holidays     15.50 EUR
+    Expenses:Travel:Holidays                   15.50 EUR
     Liabilities:FR:Amex:Gold
 
 2026-07-06 * Amex Gold
@@ -41,8 +41,12 @@
     Expenses:Food:Groceries                   -24.49 EUR
     Liabilities:Payables:Aurelie               24.49 EUR
 
-2026-07-13 Carrefour City
+2026-07-13 * Carrefour City
     Expenses:Food:Groceries                    21.41 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-15 * Carrefour City
+    Expenses:Food:Groceries                    15.33 EUR
     Liabilities:FR:Amex:Gold
 
 * BforBank transactions
@@ -93,7 +97,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-05 * Aspit Venezia  ; trip:italy-2026
-    Expenses:Transportation:Car:Tolls                8.70 EUR
+    Expenses:Transportation:Car:Tolls           8.70 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-05 * MacroFactor
@@ -137,11 +141,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-08 * Bolzano Nord  ; trip:italy-2026
-    Expenses:Transportation:Car:Tolls                3.10 EUR
+    Expenses:Transportation:Car:Tolls           3.10 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-08 * Rovereto Sud  ; trip:italy-2026
-    Expenses:Transportation:Car:Tolls                7.20 EUR
+    Expenses:Transportation:Car:Tolls           7.20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-09 * Dolomitibus  ; trip:italy-2026
@@ -173,7 +177,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-09 * Despar Bolzano  ; trip:italy-2026
-    Expenses:Food:Groceries                      9.12 EUR
+    Expenses:Food:Groceries                     9.12 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-10 * Gelateria  ; trip:italy-2026
@@ -225,7 +229,7 @@
     Liabilities:Payables:Aurelie               13.88 EUR
 
 2026-07-13 * Societa di Pro  ; trip:italy-2026
-    Expenses:Transportation:Car:Tolls               13.60 EUR
+    Expenses:Transportation:Car:Tolls          13.60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-13 * Cigarettes
@@ -233,7 +237,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-13 * Societa di Pro  ; trip:italy-2026
-    Expenses:Transportation:Car:Tolls                5.30 EUR
+    Expenses:Transportation:Car:Tolls           5.30 EUR
     Assets:FR:BforBank:Compte-Courant
     
 2026-07-14 * Tradition Gourmet
@@ -288,7 +292,7 @@
 
 * Aggregate Italy 2026 holidays expenses
 2026-07-12 * Tolls settlement  ; trip:italy-2026
-    Expenses:Transportation:Car:Tolls              -18.95 EUR
+    Expenses:Transportation:Car:Tolls         -18.95 EUR
     Liabilities:Payables:Aurelie
 
 2026-07-12 * Dolomitibus settlement  ; trip:italy-2026
@@ -375,7 +379,7 @@
     Expenses:Transportation:Taxi              -23.50 EUR
     Liabilities:Payables:Aurelie
 
-2026-07-02 * Shuttle airport Venice  ; trip:italy-2026
+2026-07-02 * Boat shuttle Venice airport  ; trip:italy-2026
     Expenses:Travel:Holidays                      64 EUR
     Expenses:Travel:Holidays                     -32 EUR
     Liabilities:Payables:Aurelie

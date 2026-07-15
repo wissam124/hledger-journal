@@ -516,11 +516,11 @@
     Expenses:Health:Gym                          179 EUR
     Liabilities:FR:Amex:Gold
 
-2025-03-09 * SNCF
+2025-03-09 * SNCF  ; trip:avignon-2025
     Expenses:Travel:Train                        216 EUR
     Liabilities:FR:Amex:Gold
 
-2025-03-16 * AMEX - Les Petites Maisons Hotel Alpilles
+2025-03-16 * AMEX - Hotel Les Petites Maisons Alpilles  ; trip:avignon-2025
     Expenses:Travel:Holidays:Accommodation       252 EUR
     Liabilities:FR:Amex:Gold                    -252 EUR
     Assets:Receivables:Aurelie                   126 EUR

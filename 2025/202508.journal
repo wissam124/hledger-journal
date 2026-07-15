@@ -55,15 +55,15 @@
     Expenses:Cigarettes                         4.80 EUR
     Assets:Cash:EUR
 
-2025-08-23 * Cocktails Athens
+2025-08-23 * Cocktails Athens  ; trip:greece-2025
     Expenses:Entertainment:Social:Bars            24 EUR
     Assets:Cash:EUR
 
-2025-08-24 * Acropole Athens
+2025-08-24 * Acropole Athens  ; trip:greece-2025
     Expenses:Travel:Holidays                      40 EUR
     Assets:Cash:EUR
 
-2025-08-25 * Restaurant Lo & La Skiathos
+2025-08-25 * Restaurant Lo & La Skiathos  ; trip:greece-2025
     Expenses:Food:Restaurants                     50 EUR
     Assets:Cash:EUR
 
@@ -71,15 +71,15 @@
     Expenses:Cigarettes                         4.80 EUR
     Assets:Cash:EUR
 
-2025-08-25 * Water bottle
+2025-08-25 * Water bottle  ; trip:greece-2025
     Expenses:Food:Snack                            1 EUR
     Assets:Cash:EUR
 
-2025-08-26 * Drinks Vrolominos
+2025-08-26 * Drinks Vrolominos  ; trip:greece-2025
     Expenses:Entertainment:Social:Bars            10 EUR
     Assets:Cash:EUR
 
-2025-08-26 * Snacks
+2025-08-26 * Snacks  ; trip:greece-2025
     Expenses:Food:Snack                            6 EUR
     Assets:Cash:EUR
 
@@ -91,11 +91,11 @@
     Expenses:Cigarettes                         4.80 EUR
     Assets:Cash:EUR
 
-2025-08-29 * Sweets
+2025-08-29 * Sweets  ; trip:greece-2025
     Expenses:Food:Snack                         1.10 EUR
     Assets:Cash:EUR
 
-2025-08-29 * Water bottle
+2025-08-29 * Water bottle  ; trip:greece-2025
     Expenses:Food:Snack                            1 EUR
     Assets:Cash:EUR
 
@@ -309,11 +309,11 @@
     Expenses:Entertainment:Social:Bars         19.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-24 * Toll Greece
+2025-08-24 * Toll Greece  ; trip:greece-2025
     Expenses:Transportation:Car:Tolls           2.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-25 * Breakfast Athens
+2025-08-25 * Breakfast Athens  ; trip:greece-2025
     Expenses:Food:Restaurants                  27.90 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -321,7 +321,7 @@
     Expenses:Home:Utilities:MobilePhone        13.56 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2025-08-26 * Car rental Greece outstanding
+2025-08-26 * Car rental Greece outstanding  ; trip:greece-2025
     Expenses:Transportation:Car:Rental             40 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -486,11 +486,11 @@
     Expenses:Subscriptions:Software             4.33 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-23 * Selecta coffee Orly airport
+2025-08-23 * Selecta coffee Orly airport  ; trip:greece-2025
     Expenses:Food:Cafe                             2 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-23 * Selecta coffee Orly airport
+2025-08-23 * Selecta coffee Orly airport  ; trip:greece-2025
     Expenses:Food:Cafe                          2.80 EUR
     Assets:UK:Revolut:Personal:EUR
 
@@ -502,31 +502,31 @@
     Assets:UK:Revolut:Personal:EUR               957 EUR
     Assets:Receivables:Iskander
 
-2025-08-26 * Coffee Vrolominos
+2025-08-26 * Coffee Vrolominos  ; trip:greece-2025
     Expenses:Food:Cafe                            22 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-26 * Mam Souvlaki - Lunch Skiathos Old Town
+2025-08-26 * Mam Souvlaki - Lunch Skiathos Old Town  ; trip:greece-2025
     Expenses:Food:Restaurants                  16.10 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-26 * Euronet Car Hire - Bicycle rental
+2025-08-26 * Euronet Car Hire - Bicycle rental  ; trip:greece-2025
     Expenses:Travel:Holidays                      40 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-26 * Skiathos Palace Hotel - Sunbeds
+2025-08-26 * Skiathos Palace Hotel - Sunbeds  ; trip:greece-2025
     Expenses:Travel:Holidays                      30 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-26 * Skiathos Palace Hotel - Drinks
+2025-08-26 * Skiathos Palace Hotel - Drinks  ; trip:greece-2025
     Expenses:Entertainment:Social:Bars         19.50 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-26 * Miliore E.e.
+2025-08-26 * Miliore E.e.  ; trip:greece-2025
     Expenses:Food:Restaurants                  48.70 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-26 * The Grocery Store - Ice Cream
+2025-08-26 * The Grocery Store - Ice Cream  ; trip:greece-2025
     Expenses:Food:Snack                            8 EUR
     Assets:UK:Revolut:Personal:EUR
 
@@ -538,35 +538,35 @@
     Expenses:Subscriptions:Software             8.63 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-27 * Coffee Vrolominos
+2025-08-27 * Coffee Vrolominos  ; trip:greece-2025
     Expenses:Food:Cafe                            22 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-27 * Padel court booking Anatoli Skiathos
+2025-08-27 * Padel court booking Anatoli Skiathos  ; trip:greece-2025
     Expenses:Entertainment:Social:Sports          30 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-27 * Stafylos - Dinner Skopelos
+2025-08-27 * Stafylos - Dinner Skopelos  ; trip:greece-2025
     Expenses:Food:Restaurants                  60.90 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-28 * Karavia Cafe
+2025-08-28 * Karavia Cafe  ; trip:greece-2025
     Expenses:Food:Restaurants                  23.80 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-28 * Pension Sir Kotos - Drinks Kastani Beach Club
+2025-08-28 * Pension Sir Kotos - Drinks Kastani Beach Club  ; trip:greece-2025
     Expenses:Entertainment:Social:Bars            23 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-30 * Mercurious Cocktail Bar - Glysteri Beach Club
+2025-08-30 * Mercurious Cocktail Bar - Glysteri Beach Club  ; trip:greece-2025
     Expenses:Entertainment:Social:Bars            61 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-30 * Olympus Plaza Catering - Snack Ferry
+2025-08-30 * Olympus Plaza Catering - Snack Ferry  ; trip:greece-2025
     Expenses:Food:Snack                        13.90 EUR
     Assets:UK:Revolut:Personal:EUR
 
-2025-08-31 * Veneti - Snack airport
+2025-08-31 * Veneti - Snack airport  ; trip:greece-2025
     Expenses:Food:Snack                        13.40 EUR
     Assets:UK:Revolut:Personal:EUR
 
@@ -579,19 +579,19 @@
     Expenses:Food:Restaurants                     42 EUR
     Liabilities:FR:Amex:Gold
 
-2025-08-03 * Flights Athens
+2025-08-03 * Flights Athens  ; trip:greece-2025
     Expenses:Travel:Flights                     1148 EUR
     Liabilities:FR:Amex:Gold                   -1148 EUR
     Assets:Receivables:Aurelie                   574 EUR
     Expenses:Travel:Flights                     -574 EUR
 
-2025-08-03 * Car rental Greece
+2025-08-03 * Car rental Greece  ; trip:greece-2025
     Expenses:Transportation:Car:Rental        168.49 EUR
     Liabilities:FR:Amex:Gold                 -168.49 EUR
-    Assets:Receivables:Aurelie                 84.25 EUR
     Expenses:Transportation:Car:Rental        -84.25 EUR
+    Assets:Receivables:Aurelie                 84.25 EUR
 
-2025-08-03 * Ferries Greece
+2025-08-03 * Ferries Greece  ; trip:greece-2025
     Expenses:Travel:Holidays                  387.10 EUR
     Liabilities:FR:Amex:Gold                 -387.10 EUR
     Assets:Receivables:Aurelie                193.55 EUR
@@ -601,7 +601,7 @@
     Expenses:Food:Groceries                     9.62 EUR
     Liabilities:FR:Amex:Gold
 
-2025-08-04 * Airbnb Greece
+2025-08-04 * AirBnB Greece  ; trip:greece-2025
     Expenses:Travel:Holidays:Accommodation       420 EUR
     Liabilities:FR:Amex:Gold                    -420 EUR
     Assets:Receivables:Aurelie                   210 EUR
@@ -639,7 +639,7 @@
     Expenses:Food:Delivery                     19.36 EUR
     Liabilities:FR:Amex:Gold
 
-2025-08-11 * Ferries Greece
+2025-08-11 * Ferries Greece  ; trip:greece-2025
     Expenses:Travel:Holidays                  432.10 EUR
     Liabilities:FR:Amex:Gold
 
@@ -647,11 +647,11 @@
     Expenses:GiftsCharity:Gifts                30.49 EUR
     Liabilities:FR:Amex:Gold
 
-2025-08-12 * Ferries refund
+2025-08-12 * Ferries refund  ; trip:greece-2025
     Liabilities:FR:Amex:Gold                  373.30 EUR
     Expenses:Travel:Holidays
 
-2025-08-13 * Ferries refund
+2025-08-13 * Ferries refund  ; trip:greece-2025
     Liabilities:FR:Amex:Gold                    7.80 EUR
     Expenses:Travel:Holidays
 
@@ -730,7 +730,7 @@
     Liabilities:FR:Amex:Gold
 
 * Other liabilities
-2025-08-03 * Hotel Skiatos
+2025-08-03 * Hotel Skiatos  ; trip:greece-2025
     Expenses:Travel:Holidays:Accommodation    141.80 EUR
     Liabilities:Payables:Aurelie
 
@@ -742,15 +742,15 @@
     Liabilities:Payables:Aurelie              141.80 EUR
     Assets:Receivables:Aurelie
 
-2025-08-11 * Hotel Athens arrival
+2025-08-11 * Hotel Athens arrival  ; trip:greece-2025
     Expenses:Travel:Holidays:Accommodation     53.38 EUR
     Liabilities:Payables:Aurelie
 
-2025-08-11 * Hotel wedding
+2025-08-11 * Hotel wedding  ; trip:greece-2025
     Expenses:Travel:Holidays:Accommodation        69 EUR
     Liabilities:Payables:Aurelie
 
-2025-08-11 * Hotel Spata
+2025-08-11 * Hotel Spata  ; trip:greece-2025
     Expenses:Travel:Holidays:Accommodation     44.86 EUR
     Liabilities:Payables:Aurelie
 

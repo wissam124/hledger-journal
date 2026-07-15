@@ -28,12 +28,12 @@
     Expenses:Finance:CreditCard                   15 EUR
     Assets:FR:BforBank:Compte-Courant         -15 EUR
 
-2024-05-01 * AMEX - 2024-04-21 - Car rental Madeira booking fee
+2024-05-01 * AMEX - 2024-04-21 - Car rental Madeira booking fee  ; trip:madeira-2024
     Expenses:Transportation:Car:Rental       44.28 EUR
     Assets:FR:BforBank:Compte-Courant      -44.28 EUR
 
-2024-05-01 * AMEX - 2024-04-24 - Airbnb Madeira
-    Expenses:Travel:Holidays                  754 EUR
+2024-05-01 * AMEX - 2024-04-24 - AirBnB Madeira  ; trip:madeira-2024
+    Expenses:Travel:Holidays:Accommodation       754 EUR
     Assets:FR:BforBank:Compte-Courant        -754 EUR
 
 2024-05-01 * AMEX - 2024-05-04 - Deliveroo fee
@@ -432,7 +432,7 @@
     Expenses:Food:Lunch                1.49 EUR
     Assets:FR:BforBank:Compte-Courant       -1.49 EUR
 
-2024-05-30 * Settlement Aurelie holidays Madeira
+2024-05-30 * Settlement Aurelie holidays Madeira  ; trip:madeira-2024
     Assets:Receivables:Aurelie               563 EUR
     Expenses:Travel:Holidays                -563 EUR
     Assets:FR:BforBank:Compte-Courant        563 EUR

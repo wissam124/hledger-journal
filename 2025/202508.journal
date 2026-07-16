@@ -5,8 +5,8 @@
 
 * BourseDirect
 2025-08-12 * Sell LQQ ETF
-    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1037.90 EUR
-    Assets:FR:BourseDirect:PEA:ETF:LQQ            -1 LQQ @ 1082.90 EUR
+    Assets:FR:BourseDirect:PEA:LQQ            -1 LQQ @ 1037.90 EUR
+    Assets:FR:BourseDirect:PEA:LQQ            -1 LQQ @ 1082.90 EUR
     Assets:FR:BourseDirect:Cash                 2670 EUR
     Income:CapitalGains:BourseDirect         -549.20 EUR
     Assets:FR:BourseDirect:Cash                -3.80 EUR

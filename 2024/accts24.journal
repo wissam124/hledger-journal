@@ -17,7 +17,7 @@ account Assets:FR:BforBank:Compte-Courant         ; type: C
 account Assets:FR:BforBank:LivretA                ; type: C
 account Assets:FR:Bimpli                          ; type: C
 account Assets:FR:BourseDirect:Cash               ; type: C
-account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
+account Assets:FR:BourseDirect:PEA:LQQ            ; type: A
 account Assets:FR:BoursoBank:Compte-Courant       ; type: C
 account Assets:FR:CCF:Compte-Courant              ; type: C
 account Assets:FR:CCF:LivretA                     ; type: C

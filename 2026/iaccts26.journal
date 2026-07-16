@@ -5,7 +5,7 @@ account Assets:FR:IBKR:CTO:Cash:EUR           ; type: C
 account Assets:FR:IBKR:CTO:Cash:USD           ; type: C
 account Assets:FR:IBKR:CTO:VG                 ; type: A
 
-account Assets:FR:BourseDirect:PEA:ETF:WPEA   ; type: A
+account Assets:FR:BourseDirect:PEA:WPEA       ; type: A
 
 account Assets:FR:Revolut:Brokerage:Cash:USD  ; type: C
 account Assets:FR:Revolut:Brokerage:SPCX      ; type: A

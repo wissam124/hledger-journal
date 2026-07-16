@@ -369,7 +369,7 @@
 
 * Bourse direct
 2026-03-12 * Buy WPEA
-    Assets:FR:BourseDirect:PEA:ETF:WPEA          176 WPEA @@ 1082.40 EUR
+    Assets:FR:BourseDirect:PEA:WPEA          176 WPEA @@ 1082.40 EUR
     Expenses:Finance:Brokerage                  2.90 EUR
     Assets:FR:BourseDirect:Cash             -1085.30 EUR
 

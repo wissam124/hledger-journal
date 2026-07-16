@@ -252,6 +252,10 @@
     Expenses:Food:Restaurants                 -36.30 EUR  ; Aurelie share
     Liabilities:Payables:Aurelie               36.30 EUR
 
+2026-07-15 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Cash transactions
 2026-07-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR

@@ -605,7 +605,9 @@
     Assets:FR:Revolut:Personal:EUR
 
 2026-06-10 * Buy USD
-    Assets:FR:Revolut:Personal:USD           5764.42 USD @@ 5000 EUR
+    Assets:FR:Revolut:Personal:USD           5764.42 USD
+    Equity:Conversion:EUR-USD               -5764.42 USD
+    Equity:Conversion:EUR-USD                   5000 EUR
     Expenses:Finance:Brokerage                 40.04 EUR
     Assets:FR:Revolut:Personal:EUR          -5040.04 EUR
 
@@ -697,6 +699,17 @@
 2026-06-08 * Lebara mobile
     Expenses:Home:Utilities:MobilePhone            5 GBP
     Assets:FR:Revolut:Personal:GBP
+
+* Revolut trading
+2026-06-12 * Buy SPCX
+    Assets:FR:Revolut:Brokerage:SPCX               4 SPCX @ 135 USD
+    Assets:FR:Revolut:Brokerage:Cash:USD        -540 USD
+    Expenses:Finance:Brokerage                     0 USD
+
+2026-06-12 * Buy SPCX
+    Assets:FR:Revolut:Brokerage:SPCX           31.98 SPCX @@ 5223.25 USD
+    Expenses:Finance:Brokerage                  1.16 USD
+    Assets:FR:Revolut:Brokerage:Cash:USD    -5224.41 USD
 
 * Other liabilities
 2026-06-16 * Aurelie settlement

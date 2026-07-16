@@ -6,7 +6,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-04 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-05 * MacroFactor subscription
@@ -22,7 +22,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-08 * Cash withdrawal
-    Assets:Cash:EUR                          600 EUR
+    Assets:Cash                          600 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-08 * Franprix
@@ -38,15 +38,15 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-13 * Cash withdrawal
-    Assets:Cash:EUR                          120 EUR
+    Assets:Cash                          120 EUR
     Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-16
 
 2025-12-14 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-16
 
 2025-12-15 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-16
 
 2025-12-15 * Le 164
@@ -62,7 +62,7 @@
     Income:FR:111Capital:Salary
 
 2025-12-20 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-22 * Refund taxi 111
@@ -70,11 +70,11 @@
     Income:FR:111Capital:Salary
 
 2025-12-23 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-23 * Cash withdrawal
-    Assets:Cash:EUR                           60 EUR
+    Assets:Cash                           60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-23 * Pharmacie Vincennes Saint Mande  ; aurelie:
@@ -88,7 +88,7 @@
     Liabilities:Payables:Aurelie             120 EUR
 
 2025-12-24 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-30 * SFR
@@ -115,70 +115,70 @@
 * Cash expenses
 2025-12-02 * Charity
     Expenses:GiftsCharity:Charity              1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-04 * Charity
     Expenses:GiftsCharity:Charity              2 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-07 * Cash
     Expenses:Home:Improvements              1400 EUR
-    Assets:Cash:EUR                        -1400 EUR
+    Assets:Cash                        -1400 EUR
     Expenses:Home:Improvements              -700 EUR
     Liabilities:Payables:Aurelie             700 EUR
 
 2025-12-07 * Van hire Nadir
     Expenses:Home                             75 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-07 * Sold TV
-    Assets:Cash:EUR                          250 EUR
+    Assets:Cash                          250 EUR
     Income:Resale
 
 2025-12-07 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-08 * Treatment
     Expenses:PersonalCare:Discretionary      180 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-08 * Yoojo cartons
     Expenses:Home                             10 EUR
-    Assets:Cash:EUR                          -10 EUR
+    Assets:Cash                          -10 EUR
 
 2025-12-12 * Cali class with Kevin
     Expenses:GiftsCharity:Gifts               15 EUR  ; aurelie:
     Expenses:Health:Gym                       35 EUR
-    Assets:Cash:EUR                          -50 EUR
+    Assets:Cash                          -50 EUR
 
 2025-12-13 * Therapy
     Expenses:Health:Therapy                  120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-14 * Hairdresser
     Expenses:PersonalCare:Hair             12.95 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-15 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-20 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-20 * Therapy
     Expenses:Health:Therapy                   60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-23 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-12-24 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF transactions
 2025-12-01 * Fees CCF

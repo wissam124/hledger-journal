@@ -132,7 +132,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-02 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-04 * Transfer to Revolut
@@ -144,7 +144,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-04 * Cash withdrawal
-    Assets:Cash:EUR                               40 EUR
+    Assets:Cash                               40 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-05 * MacroFactor
@@ -180,7 +180,7 @@
     Assets:Receivables
 
 2026-04-09 * Cash withdrawal
-    Assets:Cash:EUR                              150 EUR
+    Assets:Cash                              150 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-09 * G20
@@ -228,7 +228,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-17 * Cash withdrawal
-    Assets:Cash:EUR                               10 EUR
+    Assets:Cash                               10 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-18 * Cigarettes
@@ -240,7 +240,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-18 * Cash withdrawal
-    Assets:Cash:EUR                              200 EUR
+    Assets:Cash                              200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-19 * Cigarettes
@@ -256,7 +256,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-21 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-21 * Au P'tit Caprice
@@ -264,7 +264,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-21 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-04-22 * Sarah Rose  ; aurelie:
@@ -354,55 +354,55 @@
 * Cash transactions
 2026-04-01 * Baguettes
     Expenses:Food:Groceries                     2.05 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-02 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-03 * Pain au chocolat
     Expenses:Food:Snack                         3.80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-03 * Adjustment cash balance for unclassified
     Expenses:Misc:Unclassified                 13.08 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-08 * Spasfon
     Expenses:Health:Pharmacy                    3.16 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-08 * Pain aux raisins
     Expenses:Food:Snack                         2.40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-08 * Import tax etsy order
     Expenses:Misc                                 10 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-09 * Treatment
     Expenses:PersonalCare:Discretionary          150 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-16 * Hairdresser
     Expenses:PersonalCare:Hair                    12 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-17 * Treatment
     Expenses:PersonalCare:Discretionary          200 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-18 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-30 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-04-30 * Charity
     Expenses:GiftsCharity:Charity               0.20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF transactions
 2026-04-01 * Frais cotisation

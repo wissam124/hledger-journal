@@ -3,119 +3,119 @@
 * Cash expenses
 2025-11-01 * MS Therapy
     Expenses:PersonalCare:Discretionary      220 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-01 * Cafe
     Expenses:Food:Cafe                         2 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-01 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-05 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-05 * Wooden floors delivery
     Expenses:Home:Improvements               100 EUR
-    Assets:Cash:EUR                         -100 EUR
+    Assets:Cash                         -100 EUR
     Liabilities:Payables:Aurelie              50 EUR
     Expenses:Home:Improvements               -50 EUR
 
 2025-11-05 * Charity
     Expenses:GiftsCharity:Charity              1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-06 * Home improvements  ; flat-vincennes:
     Expenses:Home:Improvements              2000 EUR
-    Assets:Cash:EUR                        -2000 EUR
+    Assets:Cash                        -2000 EUR
     Liabilities:Payables:Aurelie            1000 EUR
     Expenses:Home:Improvements             -1000 EUR
 
 2025-11-06 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-07 * Tennis lesson
     Expenses:Health:Sport:Tennis              40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-08 * Baguette
     Expenses:Food:Groceries                 1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-08 * Hairdresser
     Expenses:PersonalCare:Hair                12 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-08 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-09 * MS Therapy
     Expenses:PersonalCare:Discretionary      250 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-11 * Pain au chocolat
     Expenses:Food:Snack                     1.40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-12 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-14 * Tennis lesson
     Expenses:Health:Sport:Tennis              40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-15 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-15 * Therapy
     Expenses:Health:Therapy                  120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-16 * Unaccounted cash expenses
     Expenses:Misc:Unclassified              14.40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-19 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-19 * Lunck Petit Panda fruits
     Expenses:Food:Lunch               2.40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-20 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-21 * Tennis lesson
     Expenses:Health:Sport:Tennis              40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-23 * Charity
     Expenses:GiftsCharity:Charity              1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-26 * Crepes
     Expenses:Food:Snack                        6 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-29 * Cafe and pain aux raisins
     Expenses:Food:Cafe                      3.70 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-29 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-11-29 * Therapy
     Expenses:Health:Therapy                  120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * BforBank transactions
 2025-11-03 * Rent Citeaux
@@ -123,15 +123,15 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-01 * Cash withdrawal
-    Assets:Cash:EUR                           40 EUR
+    Assets:Cash                           40 EUR
     Assets:FR:BforBank:Compte-Courant  ; date:2025-11-02
 
 2025-11-01 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant  ; date:2025-11-02
 
 2025-11-02 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-04
 
 2025-11-05 * Transfer
@@ -155,11 +155,11 @@
     Expenses:Health:Doctor
 
 2025-11-06 * Cash withdrawal
-    Assets:Cash:EUR                          200 EUR
+    Assets:Cash                          200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-06 * Cash withdrawal
-    Assets:Cash:EUR                          400 EUR
+    Assets:Cash                          400 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-07 * Refund CPAM
@@ -175,19 +175,19 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-10 * Cash withdrawal
-    Assets:Cash:EUR                          250 EUR
+    Assets:Cash                          250 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-10 * Cash withdrawal
-    Assets:Cash:EUR                          40 EUR
+    Assets:Cash                          40 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-10 * Cash withdrawal
-    Assets:Cash:EUR                          40 EUR
+    Assets:Cash                          40 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-10 * Cash withdrawal
-    Assets:Cash:EUR                          20 EUR
+    Assets:Cash                          20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-14 * Amex settlement
@@ -199,11 +199,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-15 * Cash withdrawal La Banque Postale
-    Assets:Cash:EUR                          160 EUR
+    Assets:Cash                          160 EUR
     Assets:FR:BforBank:Compte-Courant  ;date: 2025-11-18
 
 2025-11-16 * Cash withdrawal Bnp
-    Assets:Cash:EUR                           40 EUR
+    Assets:Cash                           40 EUR
     Assets:FR:BforBank:Compte-Courant  ;date: 2025-11-18
 
 2025-11-18 * EDF
@@ -211,11 +211,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-20 * Cash withdrawal BNP
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-21 * Cash withdrawal La Banque Postale
-    Assets:Cash:EUR                           40 EUR
+    Assets:Cash                           40 EUR
     Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-24
 
 2025-11-22 * Cigarettes
@@ -290,7 +290,7 @@
 
 * Boursobank transactions
 2025-11-06 * Cash withdrawal
-    Assets:Cash:EUR                         1000 EUR
+    Assets:Cash                         1000 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-11-21 * Deliveroo fee
@@ -302,7 +302,7 @@
     Assets:FR:BoursoBank:Compte-Courant
 
 2025-11-28 * Cash withdrawal
-    Assets:Cash:EUR                          900 EUR
+    Assets:Cash                          900 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * CCF transactions
@@ -315,11 +315,11 @@
     Assets:FR:CCF:Compte-Courant
 
 2025-11-06 * Cash withdrawal
-    Assets:Cash:EUR                          500 EUR
+    Assets:Cash                          500 EUR
     Assets:FR:CCF:Compte-Courant
 
 2025-11-29 * Cash withdrawal
-    Assets:Cash:EUR                          100 EUR
+    Assets:Cash                          100 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions

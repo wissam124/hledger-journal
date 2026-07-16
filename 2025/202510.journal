@@ -11,71 +11,71 @@
 * Cash expenses
 2025-10-02 * Gave cash to mum
     Expenses:GiftsCharity:Gifts                2 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-04 * Crepe
     Expenses:Food:Snack                        4 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-04 * Therapy
     Expenses:Health:Therapy                  120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-04 * Charity
     Expenses:GiftsCharity:Charity           0.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-04 * Hairdresser
     Expenses:PersonalCare:Hair                12 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-13 * Baguette
     Expenses:Food:Groceries                 1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-16 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-16 * Therapy
     Expenses:Health:Therapy                  120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-16 * Beer
     Expenses:Entertainment:Social:Bars         5 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-17 * Tennis lesson with Joris
     Expenses:Health:Sport:Tennis              40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-23 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-25 * Unaccounted cash expenses
     Expenses:Misc:Unclassified               8.10 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-26 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-26 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-31 * Therapy
     Expenses:Health:Therapy                  120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-31 * Pain au chocolat
     Expenses:Food:Snack                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-10-31 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * Bimpli meal card
 2025-10-07 * Lunch
@@ -176,7 +176,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-04 * Cash withdrawal
-    Assets:Cash:EUR                           140 EUR
+    Assets:Cash                           140 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-06 * Transfer to CCF joint-account
@@ -236,7 +236,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-16 * Cash withdrawal
-    Assets:Cash:EUR                          160 EUR
+    Assets:Cash                          160 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-17 * Tennis lesson Touquet Tennis Club
@@ -258,7 +258,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-17 * Cash witdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-21 * Tennis court booking Paris Tennis 10-hour package
@@ -276,7 +276,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-23 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-24 * Transfer to CCF joint-account
@@ -296,11 +296,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-26 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-29 * Cash withdrawal
-    Assets:Cash:EUR                           20 EUR
+    Assets:Cash                           20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-29 * Sandwich Saint Mande
@@ -328,7 +328,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-10-31 * Cash withdrawal
-    Assets:Cash:EUR                          300 EUR
+    Assets:Cash                          300 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions

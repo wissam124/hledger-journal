@@ -6,95 +6,95 @@
 * Cash transactions
 2025-09-01 * Sandals for mum
     Expenses:GiftsCharity:Gifts             5.95 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-01 * MS Therapy
     Expenses:PersonalCare:Discretionary      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-01 * Valencia Tennis Center racket rental
     Expenses:Health:Sport:Tennis               5 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-02 * Valencia Tennis Center racket rental
     Expenses:Health:Sport:Tennis               5 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-04 * MS Therapy
     Expenses:PersonalCare:Discretionary      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-05 * Praia beach bar Valencia
     Expenses:Entertainment:Social:Bars        12 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-06 * Estimated cigarettes in Valencia
     Expenses:Cigarettes                       30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-06 * Estimated cafes paid in cash
     Expenses:Food:Cafe                      3.60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-06 * Unaccounted holidays cash expenses
     Expenses:Travel:Holidays               64.44 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-08 * Pain au chocolat
     Expenses:Food:Snack                     1.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-08 * Cigarettes and matches
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-10 * Baguette
     Expenses:Food:Groceries                 1.25 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-13 * Therapy
     Expenses:Health:Therapy                   60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-13 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-20 * Charity
     Expenses:GiftsCharity:Charity              1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-20 * Therapy
     Expenses:Health:Therapy                   60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-21 * Crepe
     Expenses:Food:Snack                        4 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-25 * Baguette and Pain au chocolat
     Expenses:Food:Groceries                 2.60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-26 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-26 * MS Terapy
     Expenses:PersonalCare:Discretionary      200 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-27 * Scouts Calendar
     Expenses:GiftsCharity:Charity              5 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-29 * Baguette
     Expenses:Food:Groceries                 1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-09-30 * Unaccounted cash expenses
     Expenses:Misc:Unclassified              24.25 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * Bimpli meal card
 2025-09-19 * Lunch
@@ -147,7 +147,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-06 * Cash witdrawal
-    Assets:Cash:EUR                           200 EUR
+    Assets:Cash                           200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-06 * Cash withdrawal fee
@@ -205,7 +205,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-15 * Cash withdrawal therapy
-    Assets:Cash:EUR                            60 EUR
+    Assets:Cash                            60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-15 * Google Play Head 2 Ball
@@ -233,7 +233,7 @@
     Assets:FR:BforBank:Compte-Courant    EUR - 39.60
     Assets:Receivables:Arnaud              10 EUR
     Expenses:Entertainment:Social:Bars       -10 EUR
-    Assets:Cash:EUR                            10 EUR
+    Assets:Cash                            10 EUR
     Assets:Receivables:Arnaud             -10 EUR
 
 2025-09-18 * Crepe Creme De Paris
@@ -265,7 +265,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-22 * Cash withdrawal
-    Assets:Cash:EUR                            60 EUR
+    Assets:Cash                            60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-22 * Refund Alan
@@ -315,11 +315,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-29 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash                            20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-29 * Cash withdrawal
-    Assets:Cash:EUR                           200 EUR
+    Assets:Cash                           200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-29 * Swile ex-lunchr credit

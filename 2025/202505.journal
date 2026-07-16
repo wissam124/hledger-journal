@@ -7,79 +7,79 @@
 * Cash transactions
 2025-05-03 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-04 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-05 * Baguette
     Expenses:Food:Groceries                 1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-09 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-10 * Tips waiter
     Expenses:Food:Restaurants               1.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-12 * Baguette
     Expenses:Food:Groceries                 1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-13 * Baguette
     Expenses:Food:Groceries                 1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-15 * Hairdresser
     Expenses:PersonalCare:Hair                22 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-15 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-22 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-22 * Fisherman's Friend
     Expenses:Food:Snack                     1.70 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-22 * MS Therapy
     Expenses:PersonalCare:Discretionary                    250 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-22 * Financier Kayser
     Expenses:Food:Snack                     3.60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-24 * Therapy
     Expenses:Health:Therapy                   120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-24 * Croissant
     Expenses:Food:Snack                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-24 * Cigarettes
     Expenses:Cigarettes                       13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-25 * Unaccounted cash expenses
     Expenses:Misc:Unclassified               1.60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-26 * Baguette
     Expenses:Food:Groceries                 1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-05-30 * Pain au chocolat
     Expenses:Food:Snack                     1.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * Bforbank transactions
 2025-05-01 * Rent Citeaux
@@ -87,11 +87,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-03 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash                            20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-04 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash                            20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-04 * Transfer to Revolut
@@ -155,11 +155,11 @@
     Expenses:Health:Doctor
 
 2025-05-15 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash                            20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-15 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash                            20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-16 * EDF subscription
@@ -179,15 +179,15 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-22 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash                            20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-22 * Cash withdrawal
-    Assets:Cash:EUR                            200 EUR
+    Assets:Cash                            200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-22 * Cash withdrawal
-    Assets:Cash:EUR                            50 EUR
+    Assets:Cash                            50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-23 * Drinks with Aurelie
@@ -195,11 +195,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-23 * Cash withdrawal
-    Assets:Cash:EUR                           120 EUR
+    Assets:Cash                           120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-23 * Cash withdrawal
-    Assets:Cash:EUR                            20 EUR
+    Assets:Cash                            20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-23 * SFR mobile phone
@@ -453,7 +453,7 @@
     Assets:UK:Revolut:Personal:EUR            -5 EUR
     Assets:Receivables                         5 EUR
     Expenses:Transportation:PublicTransport   -5 EUR
-    Assets:Cash:EUR                             5 EUR
+    Assets:Cash                             5 EUR
     Assets:Receivables                        -5 EUR
 
 2025-05-25 * Beeminder fine

@@ -112,7 +112,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-02 * Cash withdrawal
-    Assets:Cash:EUR                              180 EUR  ; date: 2026-02-03
+    Assets:Cash                              180 EUR  ; date: 2026-02-03
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-04 * Cigarettes
@@ -136,7 +136,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-07 * Cash withdrawal
-    Assets:Cash:EUR                               60 EUR
+    Assets:Cash                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-08 * Transfer to CCF current account
@@ -222,7 +222,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-17 * Cash withdrawal
-    Assets:Cash:EUR                              320 EUR
+    Assets:Cash                              320 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-18 * Loan repayment
@@ -246,11 +246,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-20 * Cash withdrawal
-    Assets:Cash:EUR                              100 EUR
+    Assets:Cash                              100 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-20 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-20 * Euromillions
@@ -278,7 +278,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-24 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-25 * Transfer to CCF current account
@@ -318,7 +318,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-27 * Cash withdrawal
-    Assets:Cash:EUR                               80 EUR
+    Assets:Cash                               80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-27 * G20
@@ -330,7 +330,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-28 * Cash withdrawal
-    Assets:Cash:EUR                              170 EUR
+    Assets:Cash                              170 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Bimpli transactions
@@ -350,83 +350,83 @@
 * Cash transactions
 2026-02-02 * Treatment
     Expenses:PersonalCare:Discretionary          130 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-02 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-03 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-04 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-07 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-11 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-17 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-19 * Cigarettes
     Expenses:Cigarettes                        11.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-19 * Tennis classes Match Point
     Expenses:Health:Sport:Tennis                 200 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-20 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-20 * Charity
     Expenses:GiftsCharity:Gifts                 0.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-20 * Tennis lesson with Joris
     Expenses:Health:Sport:Tennis                  80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-21 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-21 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-22 * Baguette
     Expenses:Food:Groceries                     1.05 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-27 * Treatment
     Expenses:PersonalCare:Discretionary          200 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-28 * Maison B&b
     Expenses:Food:Cafe                          3.10 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-28 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-28 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-02-28 * Cafe
     Expenses:Food:Cafe                          0.40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF transactions
 2026-02-02 * Transfer to CCF joint-account

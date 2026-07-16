@@ -89,7 +89,7 @@
     Liabilities:Payables:Aurelie               14.50 EUR
 
 2026-07-04 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-05 * Cigarettes
@@ -259,53 +259,53 @@
 * Cash transactions
 2026-07-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-02 * Pain au chocolat
     Expenses:Food:Snack                         1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-03 * Venise city tax  ; trip:italy-2026
     Expenses:Travel:Holidays                       4 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-06 * Dolomitibus  ; trip:italy-2026
     Expenses:Transportation:PublicTransport    10.80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-06 * Cigarettes
     Expenses:Cigarettes                         6.80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-06 * Toilets  ; trip:italy-2026
     Expenses:Misc                                  1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-06 * Cafe Rifugio Auronzo  ; trip:italy-2026
     Expenses:Food:Cafe                             2 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-06 * Cappuccino Rifugio Locatelli  ; trip:italy-2026
     Expenses:Food:Cafe                          3.90 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-07 * Drinks refuge sorapis  ; trip:italy-2026
     Expenses:Food:Snack                            5 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-10 * Cafe Malcesine  ; trip:italy-2026
     Expenses:Food:Cafe                          7.20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-07-11 * Tennis lessons Club Olivi  ; trip:italy-2026
     Expenses:Health:Sport:Tennis                  50 EUR
-    Assets:Cash:EUR                              -50 EUR
+    Assets:Cash                              -50 EUR
     Expenses:Health:Sport:Tennis                 -25 EUR
     Liabilities:Payables:Aurelie                  25 EUR
 
 2026-07-15 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF compte courant transactions
 2026-07-01 * Cotisation CCF

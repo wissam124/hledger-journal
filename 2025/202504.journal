@@ -40,7 +40,7 @@
 
 * Bforbank expenses
 2025-04-01 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-01 * Navigo
@@ -68,7 +68,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-03 * Cash withdrawal
-    Assets:Cash:EUR                              150 EUR
+    Assets:Cash                              150 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-03 * Drinks with Arnaud
@@ -76,7 +76,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-05 * Cash withdrawal
-    Assets:Cash:EUR                               60 EUR
+    Assets:Cash                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-05 * Hellofresh
@@ -108,7 +108,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-11 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-12 * Hellofresh
@@ -128,7 +128,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-15 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-15 * Cigarettes
@@ -148,11 +148,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-17 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-17 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-18 * EDF subscription
@@ -160,15 +160,15 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-18 * Cash withdrawal
-    Assets:Cash:EUR                              230 EUR
+    Assets:Cash                              230 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-21 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-04-21 * Cash withdrawal
-    Assets:Cash:EUR                              150 EUR
+    Assets:Cash                              150 EUR
     Assets:FR:BforBank:Compte-Courant  ; date:2025-04-21
 
 2025-04-21 * Velib
@@ -447,63 +447,63 @@
 * Cash expenses
 2025-04-01 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-03 * MS Therapy
     Expenses:PersonalCare:Discretionary          150 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-05 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-05 * Pain au chocolat
     Expenses:Food:Snack                         1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-08 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-11 * Pain aux raisins
     Expenses:Food:Snack                         1.65 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-11 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-12 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-15 * Hairdresser
     Expenses:PersonalCare:Hair                    12 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-17 * Therapist
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-17 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-18 * Fisherman's Friend and sweets
     Expenses:Food:Snack                         3.20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-18 * MS Therapy
     Expenses:PersonalCare:Discretionary          210 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-21 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-04-21 * MS Therapy
     Expenses:PersonalCare:Discretionary          180 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * Amex Gold expenses
 2025-04-01 * Deliveroo Smash Burger

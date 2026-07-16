@@ -4,7 +4,7 @@
 2025-03-01 * Opening balances
     Assets:UK:Revolut:Personal:EUR              0.50 EUR
     Assets:FR:BoursoBank:Compte-Courant         8.09 EUR
-    Assets:Cash:EUR                             2.30 EUR
+    Assets:Cash                             2.30 EUR
     Equity:Opening-Balances
 
 2025-03-01 * BforBank adjustment
@@ -30,7 +30,7 @@
     Assets:FR:BforBank:Compte-Courant  ; date:2025-03-03
 
 2025-03-01 * Drinks Ground Control consigne
-    Assets:Cash:EUR                             1.50 EUR
+    Assets:Cash                             1.50 EUR
     Expenses:Entertainment:Social:Bars
 
 2025-03-02 * Cigarettes Civette Radio
@@ -86,11 +86,11 @@
     Assets:FR:BforBank:Compte-Courant  ; date:2025-03-05
 
 2025-03-05 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-06 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-05 * Gift Alexandre leaving drinks
@@ -114,7 +114,7 @@
     Assets:FR:BforBank:Compte-Courant  ; date:2025-03-10
 
 2025-03-07 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant  ; date:2025-03-10
 
 2025-03-07 * Cigarettes
@@ -174,15 +174,15 @@
     Assets:FR:BforBank:Compte-Courant  ; date:2025-03-17
 
 2025-03-15 * Cash withdrawal
-    Assets:Cash:EUR                              180 EUR
+    Assets:Cash                              180 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-15 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-15 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-18 * EDF utility
@@ -198,7 +198,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-21 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-21 * Sale heater on le bon coin
@@ -210,7 +210,7 @@
     Assets:Receivables:Iskander
 
 2025-03-22 * Cash withdrawal
-    Assets:Cash:EUR                               70 EUR
+    Assets:Cash                               70 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-22 * Restaurant Luxembourg with Arnaud
@@ -230,7 +230,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-29 * Cash withdrawal
-    Assets:Cash:EUR                               60 EUR
+    Assets:Cash                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-30 * Baguette and Banana bread
@@ -240,83 +240,83 @@
 ; Cash expenses
 2025-03-02 * Cafe with Aurélie
     Expenses:Food:Cafe                             5 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-02 * Viennoise chocolat
     Expenses:Food:Snack                         1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-03 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-04 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-06 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-08 * Crepe Le Touquet
     Expenses:Food:Snack                         4.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-09 * Water bottle
     Expenses:Food:Groceries                     1.20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-15 * Therapist
     Expenses:Health:Therapy                      180 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-15 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-15 * Hairdresser
     Expenses:PersonalCare:Hair                    12 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-15 * Trousers tailoring
     Expenses:PersonalCare:Tailoring               10 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-16 * Crepe Nutella Jardin des plantes
     Expenses:Food:Snack                         3.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-16 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-21 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-22 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-22 * Therapist
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-29 * Therapist
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-30 * Consigne Les Nautes
-    Assets:Cash:EUR                                2 EUR
+    Assets:Cash                                2 EUR
     Expenses:Entertainment:Social:Bars
 
 2025-03-31 * Charity to homeless man
     Expenses:GiftsCharity:Charity                  1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-03-31 * Baguette + pain au chocolat
     Expenses:Food:Snack                         2.90 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 ; Revolut expenses
 2025-03-06 * Beeminder fine

@@ -117,11 +117,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-03 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-04 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-05 * Refund alan
@@ -149,7 +149,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-07 * Cash withdrawal
-    Assets:Cash:EUR                               80 EUR
+    Assets:Cash                               80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-07 * G20
@@ -266,7 +266,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-20 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-21 * Transfer to Revolut
@@ -302,7 +302,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-22 * Cash withdrawal
-    Assets:Cash:EUR                               50 EUR
+    Assets:Cash                               50 EUR
     Expenses:Finance:ATM                        2.65 EUR
     Assets:FR:BforBank:Compte-Courant
 
@@ -347,11 +347,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-28 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-30 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-03-30 * Cigarettes
@@ -376,75 +376,75 @@
 * Cash transactions
 2026-03-07 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-07 * Cafe
     Expenses:Food:Cafe                          1.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-07 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-17 * Drinks Le Trouville
     Expenses:Entertainment:Social:Bars             7 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-17 * Give cash to Aurelie  ; aurelie:
     Expenses:GiftsCharity:Gifts                    3 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-19 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-20 * Cigarettes
     Expenses:Cigarettes                         6.25 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-20 * Water bottle
     Expenses:Food:Snack                         1.95 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-20 * Charity barceloneta
     Expenses:GiftsCharity:Charity               0.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-21 * Cigarettes
     Expenses:Cigarettes                         6.25 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-22 * Cigarettes
     Expenses:Cigarettes                         6.25 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-23 * Baguette
     Expenses:Food:Groceries                     1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-23 * Manual adjustment for cash balance
     Expenses:Misc:Unclassified                 22.99 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-27 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-27 * Tennis lesson with Joris
     Expenses:Health:Sport:Tennis                  40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-28 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-28 * Lunch with Florent
     Expenses:Food:Restaurants                     20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-03-28 * Cafe  ; aurelie:
     Expenses:Food:Cafe                          8.20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF transactions
 2026-03-02 * Frais cotisation

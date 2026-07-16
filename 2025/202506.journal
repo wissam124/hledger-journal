@@ -7,71 +7,71 @@
 * Cash transactions
 2025-06-04 * Charity
     Expenses:GiftsCharity:Charity               0.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-07 * Pain au chocolat
     Expenses:Food:Snack                         1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-07 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-09 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-14 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-16 * Baguette
     Expenses:Food:Groceries                     1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-21 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-21 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-21 * Charity
     Expenses:GiftsCharity:Charity               0.20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-21 * Cafe
     Expenses:Food:Cafe                          1.40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-23 * Unaccounted cash expenses
     Expenses:Misc:Unclassified                   0.26 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-22 * Hairdresser
     Expenses:PersonalCare:Hair                    15 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-22 * Ice Cream
     Expenses:Food:Snack                         4.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-23 * Charity
     Expenses:GiftsCharity:Charity               0.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-25 * Baguette and pain au chocolat
     Expenses:Food:Snack                         2.75 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-28 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-06-28 * Paname Comedy Club tickets
     Expenses:Entertainment:Events                 30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * BforBank transactions
 2025-06-01 * Rent Citeaux
@@ -123,7 +123,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-07 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-09 * Hellofresh
@@ -195,7 +195,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-16 * Cash withdrawal
-    Assets:Cash:EUR                               60 EUR
+    Assets:Cash                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-16 * Cafe Nuances
@@ -231,7 +231,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-23 * Cash withdrawal
-    Assets:Cash:EUR                               80 EUR
+    Assets:Cash                               80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-23 * Taxi G7 to Padel
@@ -251,7 +251,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-24 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-25 * Cigarettes
@@ -307,7 +307,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-28 * Cash withdrawal
-    Assets:Cash:EUR                               60 EUR
+    Assets:Cash                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-28 * The Gate VR

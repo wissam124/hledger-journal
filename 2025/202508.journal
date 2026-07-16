@@ -15,87 +15,87 @@
 * Cash transactions
 2025-08-05 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-05 * Baguette
     Expenses:Food:Groceries                     1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-09 * Tennis lesson Touquet Tennis Club
     Expenses:Health:Sport:Tennis                  50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-11 * Baguette
     Expenses:Food:Groceries                     1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-14 * Charity
     Expenses:GiftsCharity:Charity               1.20 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-15 * MS Therapy
     Expenses:PersonalCare:Discretionary          150 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-16 * Cigarettes
     Expenses:Cigarettes                           13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-21 * Hairdresser
     Expenses:PersonalCare:Hair                    22 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-23 * Restaurant Athens
     Expenses:Food:Restaurants                     45 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-23 * Cigarettes
     Expenses:Cigarettes                         4.80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-23 * Cocktails Athens  ; trip:greece-2025
     Expenses:Entertainment:Social:Bars            24 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-24 * Acropole Athens  ; trip:greece-2025
     Expenses:Travel:Holidays                      40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-25 * Restaurant Lo & La Skiathos  ; trip:greece-2025
     Expenses:Food:Restaurants                     50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-25 * Cigarettes
     Expenses:Cigarettes                         4.80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-25 * Water bottle  ; trip:greece-2025
     Expenses:Food:Snack                            1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-26 * Drinks Vrolominos  ; trip:greece-2025
     Expenses:Entertainment:Social:Bars            10 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-26 * Snacks  ; trip:greece-2025
     Expenses:Food:Snack                            6 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-28 * Cigarettes
     Expenses:Cigarettes                            5 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-29 * Cigarettes
     Expenses:Cigarettes                         4.80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-29 * Sweets  ; trip:greece-2025
     Expenses:Food:Snack                         1.10 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2025-08-29 * Water bottle  ; trip:greece-2025
     Expenses:Food:Snack                            1 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * Boursobank transactions
 2025-08-21 * Cigarettes
@@ -172,7 +172,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-05 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-05 * MRI Knee
@@ -208,7 +208,7 @@
     Expenses:Health:Doctor
 
 2025-08-09 * Cash withdrawal
-    Assets:Cash:EUR                               60 EUR
+    Assets:Cash                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-09 * Google Play Head 2 Ball
@@ -264,7 +264,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-15 * Cash withdrawal
-    Assets:Cash:EUR                              150 EUR
+    Assets:Cash                              150 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-16 * EDF subscription
@@ -272,7 +272,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-16 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-16 * Window blind replacement
@@ -288,7 +288,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-20 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant  ; date:2025-08-21
 
 2025-08-21 * Window blind replacement balance
@@ -324,7 +324,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-26 * Cash withdrawal
-    Assets:Cash:EUR                              200 EUR
+    Assets:Cash                              200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-26 * Cash withdrawal fee
@@ -336,7 +336,7 @@
     Expenses:Health:Doctor
 
 2025-08-27 * Cash witdrawal
-    Assets:Cash:EUR                              200 EUR
+    Assets:Cash                              200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-30 * Boursobank transfer

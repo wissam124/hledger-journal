@@ -312,7 +312,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-09 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-10 * Transfer to Revolut account
@@ -338,15 +338,15 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-11 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-12 * Cash withdrawal
-    Assets:Cash:EUR                               50 EUR
+    Assets:Cash                               50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-12 * Cash withdrawal
-    Assets:Cash:EUR                              200 EUR
+    Assets:Cash                              200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-12 * Le Trouville  ; aurelie:
@@ -478,7 +478,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-26 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-27 * Cigarettes
@@ -498,7 +498,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-30 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-06-30 * Mon Petit Poule
@@ -512,11 +512,11 @@
 * Cash transactions
 2026-06-08 * Hairdresser
     Expenses:PersonalCare:Hair                    12 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-09 * Cigarettes
     Expenses:PersonalCare:Hair                 13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-05 * Tennis lesson with Joris
     Expenses:Health:Sport:Tennis                   1 TL
@@ -524,67 +524,67 @@
 
 2026-06-10 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-11 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-12 * Cafe Tennis club Lisbon
     Expenses:Food:Cafe                         10.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-12 * Padel court and gear
     Expenses:Entertainment:Social:Sports          42 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-12 * Crisps and Coke Zero
     Expenses:Food:Snack                         3.90 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-13 * Lend cash to Jacques for surfing
     Liabilities:Payables                          50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-16 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-17 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-20 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-21 * Groceries market
     Expenses:Food:Groceries                    24.80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-23 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-26 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-27 * Pain au chocolat
     Expenses:Food:Snack                         1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-27 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-06-28 * Refund Florent Anybuddy
-    Assets:Cash:EUR                               10 EUR
+    Assets:Cash                               10 EUR
     Assets:Receivables:Florent
 
 2026-06-28 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF transactions
 2026-06-01 * Cotisation

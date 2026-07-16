@@ -1,6 +1,6 @@
 * Income transactions
 2026-05-03 * Sell bench on LeBonCoin
-    Assets:Cash:EUR                               90 EUR
+    Assets:Cash                               90 EUR
     Income:Resale
 
 2026-05-01 * Gift Tennis Lessons with Joris
@@ -166,7 +166,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-01 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-02 * Ch Bao
@@ -200,7 +200,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-05 * Cash withdrawal
-    Assets:Cash:EUR                               80 EUR
+    Assets:Cash                               80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-06 * Aurelie Settlement
@@ -228,18 +228,18 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-08 * Cash withdrawal
-    Assets:Cash:EUR                               50 EUR
+    Assets:Cash                               50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-08 * Cash withdrawal
-    Assets:Cash:EUR                              500 EUR
+    Assets:Cash                              500 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-08 * Travaux jardin Huchon  ; flat-vincennes:
     Expenses:Home:Improvements                  1120 EUR
     Expenses:Home:Improvements                   845 EUR
     Assets:FR:BforBank:Compte-Courant          -1120 EUR
-    Assets:Cash:EUR                             -845 EUR
+    Assets:Cash                             -845 EUR
     Expenses:Home:Improvements               -982.50 EUR
     Liabilities:Payables:Aurelie              982.50 EUR
 
@@ -288,7 +288,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-15 * Cash withdrawal
-    Assets:Cash:EUR                              210 EUR
+    Assets:Cash                              210 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-15 * Le Trouville  ; aurelie:
@@ -304,7 +304,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-16 * Cash withdrawal
-    Assets:Cash:EUR                              140 EUR
+    Assets:Cash                              140 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-16 * Corcoran's
@@ -336,7 +336,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-22 * Cash withdrawal
-    Assets:Cash:EUR                              200 EUR
+    Assets:Cash                              200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-23 * McDonald's  ; aurelie:
@@ -364,7 +364,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-26 * Cash withdrawal
-    Assets:Cash:EUR                               60 EUR
+    Assets:Cash                               60 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-26 * Ratp
@@ -408,7 +408,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-30 * Cash withdrawal
-    Assets:Cash:EUR                               80 EUR
+    Assets:Cash                               80 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-05-31 * Monoprix Julien
@@ -433,45 +433,45 @@
 * Cash transactions
 2026-05-02 * Lost cash for tennis class
     Expenses:Misc                                 80 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-06 * Raspberries
     Expenses:Food:Groceries                        6 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-14 * Desktronic
     Expenses:Home:Furniture                      150 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-14 * Paraphernalia
     Expenses:PersonalCare:Discretionary           60 EUR
-    Assets:Cash:EUR                              -60 EUR
+    Assets:Cash                              -60 EUR
     Expenses:PersonalCare:Discretionary          -40 EUR
     Assets:Receivables:Florent                    40 EUR
 
 2026-05-16 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-18 * Charity
     Expenses:GiftsCharity:Gifts                 0.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-18 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-22 * Treatment
     Expenses:PersonalCare:Discretionary          200 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-23 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-05-30 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF transactions
 2026-05-03 * Frais cotisation
@@ -479,7 +479,7 @@
     Assets:FR:CCF:Compte-Courant
 
 2026-05-07 * Cash withdrawal
-    Assets:Cash:EUR                              200 EUR
+    Assets:Cash                              200 EUR
     Assets:FR:CCF:Compte-Courant
 
 2026-05-15 * Navigo

@@ -63,7 +63,7 @@
     Expenses:Health:Doctor
 
 2026-01-13 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-14 * Fitness Park
@@ -75,7 +75,7 @@
     Expenses:Taxes
 
 2026-01-16 * Cash withdrawal
-    Assets:Cash:EUR                              300 EUR
+    Assets:Cash                              300 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-16 * Cigarettes
@@ -163,7 +163,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-25 * Cash withdrawal
-    Assets:Cash:EUR                               20 EUR
+    Assets:Cash                               20 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-26 * Services charges Q1'26
@@ -229,7 +229,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-31 * Cash withdrawal
-    Assets:Cash:EUR                              120 EUR
+    Assets:Cash                              120 EUR
     Assets:FR:BforBank:Compte-Courant  ; date: 2026-01-03
 
 * Boursobank transactions
@@ -240,56 +240,56 @@
 * Cash transactions
 2026-01-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-10 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-16 * Tennis lesson with Joris
     Expenses:Health:Sport:Tennis                  40 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-16 * Therapy
     Expenses:Health:Therapy                       60 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-16 * Treatment
     Expenses:PersonalCare:Discretionary          200 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-23 * Cash balance assertion
-    Assets:Cash:EUR                         == 12.11 EUR
+    Assets:Cash                         == 12.11 EUR
     Expenses:Misc:Unclassified
 
 2026-01-24 * Cafe
     Expenses:Food:Cafe                          2.30 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-24 * Baguette
     Expenses:Food:Groceries                     1.35 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-24 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-24 * Sale stepladder
-    Assets:Cash:EUR                               30 EUR
+    Assets:Cash                               30 EUR
     Income:Resale
 
 2026-01-27 * Hairdresser
     Expenses:PersonalCare:Hair                    13 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-30 * Cali class with Kevin
     Expenses:Health:Gym                           15 EUR
     Expenses:GiftsCharity:Gifts                   15 EUR  ; aurelie:
-    Assets:Cash:EUR
+    Assets:Cash
 
 2026-01-31 * Therapy
     Expenses:Health:Therapy                      120 EUR
-    Assets:Cash:EUR
+    Assets:Cash
 
 * CCF transactions
 2026-01-03 * Transfer to CCF joint-account

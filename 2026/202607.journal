@@ -453,6 +453,6 @@
 
 2026-07-15 * Jacques Lisbon GBP settlement  ; trip:lisbon-2026
     Liabilities:Payables                        -152 GBP
-    Equity:Conversion:EUR-GBP                    152 GBP
-    Equity:Conversion:EUR-GBP                   -179 EUR
+    Equity:Conversion:EUR-GBP:GBP                152 GBP
+    Equity:Conversion:EUR-GBP:EUR               -179 EUR
     Assets:FR:BforBank:Compte-Courant            179 EUR

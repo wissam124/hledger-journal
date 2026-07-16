@@ -18,7 +18,7 @@ account Assets:FR:BforBank:Compte-Courant         ; type: C
 account Assets:FR:BforBank:LivretA                ; type: C
 account Assets:FR:Bimpli                          ; type: C
 account Assets:FR:BourseDirect:Cash               ; type: C
-account Assets:FR:BourseDirect:PEA:ETF:LQQ        ; type: A
+account Assets:FR:BourseDirect:PEA:LQQ            ; type: A
 account Assets:FR:BoursoBank:Compte-Courant       ; type: C
 account Assets:FR:CCF:Compte-Courant              ; type: C
 account Assets:FR:CCF:LivretA                     ; type: C
@@ -60,9 +60,12 @@ account Equity:Retained-Earnings                  ; type: E
 account Equity:Opening-Balances                   ; type: E
 account Equity:Closing-Balances                   ; type: E
 account Equity:Conversion                         ; type: V
-account Equity:Conversion:EUR-LQQ                 ; type: V
-account Equity:Conversion:EUR-GBP                 ; type: V
-account Equity:Conversion:EUR-USD                 ; type: V
+account Equity:Conversion:EUR-GBP:EUR             ; type: V
+account Equity:Conversion:EUR-GBP:GBP             ; type: V
+account Equity:Conversion:EUR-LQQ:EUR             ; type: V
+account Equity:Conversion:EUR-LQQ:LQQ             ; type: V
+account Equity:Conversion:EUR-USD:EUR             ; type: V
+account Equity:Conversion:EUR-USD:USD             ; type: V
 account Equity:UnrealisedCapitalGains:Epsor:PEI   ; type: E
 account Equity:UnrealisedCapitalGains:Epsor:PER   ; type: E
 account Equity:UnrealisedCapitalGains:Moneyfarm   ; type: E

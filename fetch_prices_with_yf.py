@@ -33,8 +33,7 @@ TICKERS_CONFIG = [
         commodity="GBP",
         quote="EUR",
         start="2024-01-01",
-        end="2026-12-31",
-
+        end=TODAY,
     ),
     TickerConfig(
         ticker="USDEUR=X",
@@ -64,6 +63,13 @@ TICKERS_CONFIG = [
         start="2026-03-01",
         end="2026-05-10",
     ),
+    TickerConfig(
+        ticker="SPCX",
+        commodity="SPCX",
+        quote="USD",
+        start="2026-06-01",
+        end=TODAY,
+    )
 ]
 
 

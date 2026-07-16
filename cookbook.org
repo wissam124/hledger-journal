@@ -191,6 +191,11 @@ commodity.  This enforces a strict accounting style where books must balance not
 only in value but in every specific com modity involved in a transaction.
 
 ** Recording a purchase/sale with cost
+While the use of conversion accounts guarantees the strict verification of the
+balancing equation, it is cumbersome to maintain. The postings to conversion
+accounts can always be generated with ~--infer-equity~. The following representations
+will be used instead:
+
 *** Purchase
 The most important thing is not just the record of the purchase (resp. sale) but
 the price paid (resp. received).
@@ -289,12 +294,18 @@ hledger -f 2025-closed.journal close --open type:ALEV not:acct:Equity:Conversion
 #+end_src
 
 * Currency exchange
-Suppose I buy EURs with GBPs.
+Suppose I buy EURs with GBPs. This can be represented as a trade as discussed above.
 #+begin_src ledger
 2025-10-07 * Buy EUR with GBP
     Assets:Revolut:EUR      20000 EUR @@ 17300 GBP
     Assets:Revolut:GBP
 #+end_src
+
+However, this will attach a cost to the account and as a result a potential gain
+when using bal --gain.
+
+This is where it may make sense to use equity postings to represent a simple
+physical swap of cash.
 
 * Record refunds
 ** Refunds

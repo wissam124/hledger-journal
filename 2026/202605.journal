@@ -418,16 +418,16 @@
 * Bourse Direct transactions
 2026-05-07 * Sell LQQ ETF
     Assets:FR:BourseDirect:PEA:LQQ            -1 LQQ @ 1597.70 EUR
-    Assets:FR:BourseDirect:Cash                 1843 EUR
+    Assets:FR:BourseDirect:Cash:EUR                 1843 EUR
     Income:CapitalGains:BourseDirect         -245.30 EUR
-    Assets:FR:BourseDirect:Cash                -2.90 EUR
+    Assets:FR:BourseDirect:Cash:EUR                -2.90 EUR
     Expenses:Finance:Brokerage                  2.90 EUR
 
 2026-05-07 * Sell WPEA ETF
     Assets:FR:BourseDirect:PEA:WPEA         -176 WPEA @@ 1082.40 EUR
-    Assets:FR:BourseDirect:Cash              1154.91 EUR
+    Assets:FR:BourseDirect:Cash:EUR              1154.91 EUR
     Income:CapitalGains:BourseDirect          -72.51 EUR
-    Assets:FR:BourseDirect:Cash                -2.90 EUR
+    Assets:FR:BourseDirect:Cash:EUR                -2.90 EUR
     Expenses:Finance:Brokerage                  2.90 EUR
 
 * Cash transactions

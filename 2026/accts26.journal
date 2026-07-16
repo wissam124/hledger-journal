@@ -13,7 +13,7 @@ tag per-tax-deferred
 tag trip
 
 ; Assets: things I own (cash, bank account, investments)
-account Assets:Cash:EUR                           ; type: C
+account Assets:Cash                               ; type: C
 account Assets:FR:BforBank:Compte-Courant         ; type: C
 account Assets:FR:BforBank:LivretA                ; type: C
 account Assets:FR:Bimpli                          ; type: C

@@ -4,7 +4,7 @@
 * Formalise transactions and balances
 ** Transactions
 Let's note \(N(t)\) the total number of accounts at time \(t\). For simplicity let's
-drop the time dependence and set \(N\) to \(\sup_{u \leq t}N(u)\).
+drop the time dependence and refer to the number of accounts with \(N\).
 
 At a given time \(t\), a transaction \(j\) is defined as \(\Delta_{j,t} =
 (\Delta^{i}_{j,t})_{1 \leq i \leq N}\) where \(\Delta^{i}_{j,t}\) is the
@@ -13,7 +13,6 @@ accounting equation requires that the transaction is balanced i.e.: for a
 transaction \(j\) occurring at time \(t\) we have \[\sum_{i=1}^N\Delta^{i}_{j,t} =
 0\]
 
-
 At a given time \(t\), there can be \(n\) multiple transactions. For simplicity,
 let's roll all postings to the same account \(i\) at time \(t\) into a single
 posting \[\Delta^i_t = \sum_{j=1}^n\Delta^{i}_{j,t}\]
@@ -21,8 +20,8 @@ posting \[\Delta^i_t = \sum_{j=1}^n\Delta^{i}_{j,t}\]
 Trivally, we have \(\sum_{i=1}^{N}\Delta^{i}_{t} = 0\)
 
 ** Trial balance
-The trial balance of an account \(i\) at time \(t\) is defined as: \[B_{i,t} =
-\sum_{u \leq t}\Delta^{i}_{u}\]
+The trial balance of an account \(i\) at time \(t\) is defined as
+\[B_{i,t} = \sum_{u \leq t}\Delta^{i}_{u}\]
 By construction, we have:
 
 \(\sum_{i=1}^N B_{i,t} = \sum_{i=1}^{N}\sum_{u \leq t}\Delta^i_u = \sum_{u \leq
@@ -47,19 +46,21 @@ an increase in assets must be offset by either:
 Examples:
 - I buy a coffee for 5 EUR with my credit card. My assets do not change.
   However my liabilities increase by 5 EUR and they are matched by a decrease in
-  net worth, i.e. a decrease in equity in absolute terms.
+  net worth, i.e. a decrease in equity in absolute terms. In practice, the
+  coffee expense will be booked against an equity retained earnings account as a
+  positive posting, i.e. a reduction in equity in absolute terms.
 - I buy a coffee for 5 EUR with my debit card. My assets decrease by EUR 5.
   This is an expense that decreases my overall net worth, hence an equity
   decrease in absolute terms of 5 EUR.
 
 ** Clearing income/expenses
-Revenues and expenses are technically part of equity.  They are categorised
+Revenues and expenses are technically part of equity. They are categorised
 separately for reporting purposes but in traditional accounting, business
 consolidate them into equity at the end of the reporting period.
 
-This is done by creating a transaction that will move the balance held in
-income and expenses accounts into an equity account (traditionally called
-retained earnings).
+This is done by creating a transaction that will move the balance held in income
+and expenses accounts into an equity account (traditionally called retained
+earnings).
 
 This ensures that the fundamental accounting equation is verified.
 
@@ -73,39 +74,6 @@ This ensures that the fundamental accounting equation is verified.
   by the equity. So it "owes" money to the owner whose stake is materialised in
   the equity account.
 - A positive equity means the owner owes the creditors of the entity.
-
-* Closing yearly journals
-Check first that the sum of all balances is equal to zero.
-#+begin_src
-hledger -f 2024.journal bal -V
-#+end_src
-
-If not, most likely it is due to missing equity postings.
-To identify missing equity postings, use:
-#+begin_src sh
-hledger -f 2024.journal bal --gain
-#+end_src
-
-To ensure the accounting equation is verified, income and expenses must be
-consolidated into equity (retaining earnings).
-#+begin_src sh
-hledger -f 2024.journal close --retain --close-acct=Equity:Retained-Earnings -e 2025 -x
-#+end_src
-
-Check the net is zero
-#+begin_src sh
-hledger -f 2024.journal bse --layout=tall
-#+end_src
-
-Close the year
-#+begin_src
-hledger -f 2025-closed.journal close --close type:ALEV not:acct:Equity:Conversion:EUR-GBP --close-acct=Equity:Opening-Balances -e 2026 -x --show-costs
-#+end_src
-
-Open the next year
-#+begin_src sh
-hledger -f 2025-closed.journal close --open type:ALEV not:acct:Equity:Conversion:EUR-GBP --close-acct=Equity:Opening-Balances -e 2026 -x --show-costs
-#+end_src
 
 * Track 111 company investment plan
 ** Difficulties
@@ -191,13 +159,13 @@ euros.
 #+end_src
 
 In a standard double-entry transaction, the total sum of the transaction must be
-zero. If you buy LQQ with EUR you are effectively adding 1 LQQ and removing X
-EUR. The sum of the postings above is 1 LQQ + (-X EUR) which technically does
-not add up to 0 -> the books do not balance! It looks like 1 LQQ was created out
+zero. If you buy 1 LQQ with X EUR you are effectively adding 1 LQQ and removing
+X EUR. The sum of the postings above is 1 LQQ + (-X EUR) which technically does
+not add up to 0. *The books do not balance!* It looks like 1 LQQ was created out
 of thin air while X EUR were destroyed.
 
 Equity conversion accounts is the rigorous way to handle multi-commodity
-transactions (e.g. buying a stock with cash).  It ensures that books are
+transactions (e.g. buying a stock with cash). It ensures that books are
 rigorously balanced (i.e. sum of the postings = 0) across different units, not
 just in value.
 
@@ -220,7 +188,7 @@ allows for strict checks.
 
 Using conversion accounts forces the balancing to be explicit for each
 commodity.  This enforces a strict accounting style where books must balance not
-only in value but in every specific commodity involved in a transaction.
+only in value but in every specific com modity involved in a transaction.
 
 ** Recording a purchase/sale with cost
 *** Purchase
@@ -286,6 +254,39 @@ hledger bal --gain
 
 ** Ressources
 http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/
+
+* Closing yearly journals
+Check first that the sum of all balances is equal to zero.
+#+begin_src
+hledger -f 2024.journal bal -V
+#+end_src
+
+If not, most likely it is due to missing equity postings.
+To identify missing equity postings, use:
+#+begin_src sh
+hledger -f 2024.journal bal --gain
+#+end_src
+
+To ensure the accounting equation is verified, income and expenses must be
+consolidated into equity (retaining earnings).
+#+begin_src sh
+hledger -f 2024.journal close --retain --close-acct=Equity:Retained-Earnings -e 2025 -x
+#+end_src
+
+Check the net is zero
+#+begin_src sh
+hledger -f 2024.journal bse --layout=tall
+#+end_src
+
+Close the year
+#+begin_src
+hledger -f 2025-closed.journal close --close type:ALEV not:acct:Equity:Conversion:EUR-GBP --close-acct=Equity:Opening-Balances -e 2026 -x --show-costs
+#+end_src
+
+Open the next year
+#+begin_src sh
+hledger -f 2025-closed.journal close --open type:ALEV not:acct:Equity:Conversion:EUR-GBP --close-acct=Equity:Opening-Balances -e 2026 -x --show-costs
+#+end_src
 
 * Currency exchange
 Suppose I buy EURs with GBPs.

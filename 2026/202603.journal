@@ -371,7 +371,7 @@
 2026-03-12 * Buy WPEA
     Assets:FR:BourseDirect:PEA:WPEA          176 WPEA @@ 1082.40 EUR
     Expenses:Finance:Brokerage                  2.90 EUR
-    Assets:FR:BourseDirect:Cash             -1085.30 EUR
+    Assets:FR:BourseDirect:Cash:EUR             -1085.30 EUR
 
 * Cash transactions
 2026-03-07 * Cigarettes

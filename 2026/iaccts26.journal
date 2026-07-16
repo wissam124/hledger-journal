@@ -1,10 +1,12 @@
 ; Investments accounts
-account Assets:FR:IBKR:PEA:Cash               ; type: A
+account Assets:FR:BourseDirect:Cash:EUR       ; type: C
+account Assets:FR:BourseDirect:PEA:LQQ        ; type: A
+account Assets:FR:BourseDirect:PEA:WPEA       ; type: A
+
+account Assets:FR:IBKR:PEA:Cash:EUR           ; type: C
 account Assets:FR:IBKR:CTO:Cash:EUR           ; type: C
 account Assets:FR:IBKR:CTO:Cash:USD           ; type: C
 account Assets:FR:IBKR:CTO:VG                 ; type: A
-
-account Assets:FR:BourseDirect:PEA:WPEA       ; type: A
 
 account Assets:FR:Revolut:Brokerage:Cash:USD  ; type: C
 account Assets:FR:Revolut:Brokerage:SPCX      ; type: A

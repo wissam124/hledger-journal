@@ -81,11 +81,11 @@
     Assets:FR:BforBank:Compte-Courant       -2.05 EUR
 
 2024-10-02 * Investments BourseDirect
-    Assets:FR:BourseDirect:Cash               770 EUR
+    Assets:FR:BourseDirect:Cash:EUR               770 EUR
     Assets:FR:BforBank:Compte-Courant       -770 EUR
 
 2024-10-02 * Investments BourseDirect
-    Assets:FR:BourseDirect:Cash               70 EUR
+    Assets:FR:BourseDirect:Cash:EUR               70 EUR
     Assets:FR:BforBank:LivretA              -70 EUR
 
 2024-10-03 * Cigarettes
@@ -386,4 +386,4 @@
 
 2024-10-02 * Buy LQQ ETF (Amundi Nasdaq-100 Daily (2x))
     Assets:FR:BourseDirect:PEA:LQQ             1 LQQ @ 1082.90 EUR
-    Assets:FR:BourseDirect:Cash             -1082.90 EUR
+    Assets:FR:BourseDirect:Cash:EUR             -1082.90 EUR

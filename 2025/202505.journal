@@ -297,8 +297,10 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-05-04 * Buy GBP with Revolut
-    Assets:UK:Revolut:Personal:GBP         37.86 GBP @@ 44.59 EUR
-    Assets:UK:Revolut:Personal:EUR
+    Assets:UK:Revolut:Personal:GBP             37.86 GBP
+    Equity:Conversion:EUR-GBP:GBP             -37.86 GBP
+    Equity:Conversion:EUR-GBP:EUR              44.59 EUR
+    Assets:UK:Revolut:Personal:EUR            -44.59 EUR
 
 2025-05-05 * Transfer GBP to Halifax Current Account
     Assets:UK:Halifax:Current-Account      37.86 GBP
@@ -405,16 +407,20 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-05-20 * Buy GBP with Revolut
-    Assets:UK:Revolut:Personal:GBP        169.75 GBP @@ 202.42 EUR
-    Assets:UK:Revolut:Personal:EUR
+    Assets:UK:Revolut:Personal:GBP            169.75 GBP
+    Equity:Conversion:EUR-GBP:GBP            -169.75 GBP
+    Equity:Conversion:EUR-GBP:EUR             202.42 EUR
+    Assets:UK:Revolut:Personal:EUR           -202.42 EUR
 
 2025-05-20 * Transfer GBP to Halifax Current Account
     Assets:UK:Halifax:Current-Account      169.75 GBP
     Assets:UK:Revolut:Personal:GBP
 
 2025-05-20 * Buy GBP with Revolut
-    Assets:UK:Revolut:Personal:GBP         79.30 GBP @@ 94.58 EUR
-    Assets:UK:Revolut:Personal:EUR
+    Assets:UK:Revolut:Personal:GBP             79.30 GBP
+    Equity:Conversion:EUR-GBP:GBP             -79.30 GBP
+    Equity:Conversion:EUR-GBP:EUR              94.58 EUR
+    Assets:UK:Revolut:Personal:EUR            -94.58 EUR
 
 2025-05-17 * Refund from Brera (drinks)
     Assets:UK:Revolut:Personal:GBP          7.50 GBP

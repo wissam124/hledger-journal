@@ -424,8 +424,10 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-07 * Buy EUR with GBP
-    Assets:UK:Revolut:Personal:EUR      19898.42 EUR @@ 17300 GBP
-    Assets:UK:Revolut:Personal:GBP
+    Assets:UK:Revolut:Personal:EUR          19898.42 EUR
+    Equity:Conversion:EUR-GBP:EUR          -19898.42 EUR
+    Equity:Conversion:EUR-GBP:GBP              17300 GBP
+    Assets:UK:Revolut:Personal:GBP            -17300 GBP
 
 2025-10-07 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean                   100 EUR
@@ -568,8 +570,10 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-10-21 * Buy EUR with GBP
-    Assets:UK:Revolut:Personal:EUR      34098.53 EUR @@ 29632.18 GBP
-    Assets:UK:Revolut:Personal:GBP
+    Assets:UK:Revolut:Personal:EUR          34098.53 EUR
+    Equity:Conversion:EUR-GBP:EUR          -34098.53 EUR
+    Equity:Conversion:EUR-GBP:GBP           29632.18 GBP
+    Assets:UK:Revolut:Personal:GBP         -29632.18 GBP
 
 2025-10-21 * Transfer to CCF
     Equity:Capital:Huchon:Jean              34098.53 EUR

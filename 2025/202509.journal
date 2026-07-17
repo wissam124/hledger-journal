@@ -333,8 +333,10 @@
 
 * HSBC transactions
 2025-09-22 * Buy AW Bimpli card credit
-    Assets:FR:Bimpli                      490.18 EUR @@ 425 GBP
-    Assets:UK:HSBC:Current-Account
+    Assets:FR:Bimpli                          490.18 EUR
+    Equity:Conversion:EUR-GBP:EUR            -490.18 EUR
+    Equity:Conversion:EUR-GBP:EUR                425 GBP
+    Assets:UK:HSBC:Current-Account              -425 GBP
 
 * Revolut transactions
 2025-09-01 * Valencia Tennis Center latte
@@ -790,8 +792,10 @@
     Expenses:Travel:Holidays
 
 2025-09-08 * Buy GBP with Revolut
-    Assets:UK:Revolut:Personal:GBP         12.22 GBP @@ 14.15 EUR
-    Assets:UK:Revolut:Personal:EUR
+    Assets:UK:Revolut:Personal:GBP             12.22 GBP
+    Equity:Conversion:EUR-GBP:GBP             -12.22 GBP
+    Equity:Conversion:EUR-GBP:EUR              14.15 EUR
+    Assets:UK:Revolut:Personal:EUR            -14.15 EUR
 
 2025-09-08 * Pay back Halifax Credit Card
     Liabilities:UK:Halifax:Clarity         12.22 GBP

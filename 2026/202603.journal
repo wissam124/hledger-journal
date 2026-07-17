@@ -647,8 +647,10 @@
 
 * Investments
 2026-03-09 * Sell EUR for USD
-    Assets:FR:IBKR:CTO:Cash:USD              1282.63 USD @@ 1108.29 EUR
-    Assets:FR:IBKR:CTO:Cash:EUR
+    Assets:FR:IBKR:CTO:Cash:USD              1282.63 USD
+    Equity:Conversion:EUR-USD:USD           -1282.63 USD
+    Equity:Conversion:EUR-USD:EUR            1108.29 EUR
+    Assets:FR:IBKR:CTO:Cash:EUR             -1108.29 EUR
 
 2026-03-09 * Buy Venture Global
     Assets:FR:IBKR:CTO:VG                        100 VG @@ 1282.63 USD

@@ -773,6 +773,6 @@
     Equity:UnrealisedCapitalGains:Moneyfarm      = 0 GBP
     Income:CapitalGains:Moneyfarm
 
-2025-08-07 * Liquidation of Moneyfarm portfolio
-    Assets:UK:HSBC:Current-Account          50415.54 GBP
+2025-08-07 * Transfer Moneyfarm to HSBC
+    Assets:UK:HSBC:Current-Account             50400 GBP
     Assets:UK:Moneyfarm

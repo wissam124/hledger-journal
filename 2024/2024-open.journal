@@ -22,7 +22,7 @@
 ; - Amundi PEA EURO COURT TERME UC FR0013346681
 ; The cash amount is the result of the sale of the two ETFs above.
 2024-03-31 * Opening balance PEA
-    Assets:FR:BourseDirect:Cash          1306.22 EUR
+    Assets:FR:BourseDirect:Cash:EUR          1306.22 EUR
     Equity:Opening-Balances
 
 ; Opening balance for PER/PEI
@@ -45,4 +45,9 @@
 ; Net contributions
 2024-03-31 * Moneyfarm opening balance
     Assets:UK:Moneyfarm                44041.30 GBP
+    Equity:Opening-Balances
+
+; HSBC UK opening balances
+2024-03-31 * HSBC opening balance
+    Assets:UK:HSBC:Current-Account             15.54 GBP
     Equity:Opening-Balances

@@ -317,8 +317,8 @@
     Income:FR:FranceTravail
 
 * CCF LDDS
-2026-07-02 * Transfer to CCF compte-courant
-    Assets:FR:CCF:Compte-Courant                2000 EUR
+2026-07-02 * Transfer to CCF compte-joint
+    Equity:Capital:Huchon:Jean                  2000 EUR
     Assets:FR:CCF:LDDS
 
 2026-07-13 * Transfer to CCF compte-courant

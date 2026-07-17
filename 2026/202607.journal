@@ -45,8 +45,16 @@
     Expenses:Food:Groceries                    21.41 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-15 Carrefour City
+2026-07-14 * G7
+    Expenses:Transportation:Taxi               46.80 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-15 * Carrefour City
     Expenses:Food:Groceries                    15.33 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-15 * Deliveroo
+    Expenses:Food:Delivery                     25.49 EUR
     Liabilities:FR:Amex:Gold
 
 * BforBank transactions
@@ -315,7 +323,12 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:Cash
 
-* CCF compte courant transactions
+2026-07-17 * Match cash balance in wallet
+    Expenses:Misc                             127.98 EUR
+    Assets:Cash
+
+
+* Ccf compte courant transactions
 2026-07-01 * Cotisation CCF
     Expenses:Finance:Bank                       8.75 EUR
     Assets:FR:CCF:Compte-Courant

@@ -256,6 +256,10 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-07-16 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * Cash transactions
 2026-07-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
@@ -305,6 +309,10 @@
 
 2026-07-15 * Baguette
     Expenses:Food:Groceries                     1.30 EUR
+    Assets:Cash
+
+2026-07-16 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:Cash
 
 * CCF compte courant transactions

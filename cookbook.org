@@ -371,23 +371,28 @@ else.
   interest payments, etc.
 
 ** Compute total equity accumulated
+
 #+begin_src sh
-hledger -f huchon.journal bal ^assets:property:jean ^liabilities.*jean
+hledger -f huchon.journal bal '^assets:property:jean' '^liabilities.*jean'
 #+end_src
 
 ** Compute total mortgage repayment for principal
+Sum contributions towards liabilities.
+
 #+begin_src sh
-hledger -f huchon.journal bal liabilities.*jean not:desc:signature
+hledger -f huchon.journal bal 'liabilities.*jean' not:desc:signature
 #+end_src
 
 ** Compute running interest/service charges
 #+begin_src sh
 hledger -f huchon.journal bal exp.*interest:jean
 #+end_src
+
 ** Compute total capital contributed
 #+begin_src sh
 hledger -f huchon.journal bal equity:.
 #+end_src
+
 ** Compute monthly report for e-mail
 Balance sheet:
 

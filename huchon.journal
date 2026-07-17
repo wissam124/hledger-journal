@@ -618,3 +618,15 @@ account Income:Notary                                                  ; type: R
     Expenses:Home:Utilities:Electricity:Jean   24.50 EUR
     Assets:FR:CCF:Compte-Joint:Aurelie        -24.50 EUR
     Assets:FR:CCF:Compte-Joint:Jean           -24.50 EUR
+
+2026-07-17 * Virement CCF compte-joint vers Jean CCF compte-courant
+    [Stats:Assets:FR:CCF:Compte-Joint]       -314.54 EUR
+    [Stats:Funding]                           314.54 EUR
+    Assets:FR:CCF:Compte-Joint:Jean          -314.54 EUR
+    Equity:Capital:Huchon:Jean                314.54 EUR
+
+2026-07-17 * Virement CCF compte-joint vers Jean CCF compte-courant
+    [Stats:Assets:FR:CCF:Compte-Joint]       -316.25 EUR
+    [Stats:Funding]                           316.25 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie       -316.25 EUR
+    Equity:Capital:Aurelie                    316.25 EUR

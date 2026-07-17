@@ -348,6 +348,15 @@
     Expenses:Finance:Bank                       0.59 GBP
     Assets:FR:Revolut:Personal:GBP           -194.04 GBP
 
+* Interactive Brokers
+2026-07-13 * Transfer PEA BourseDirect to IBKR
+    Assets:FR:IBKR:PEA:Cash:EUR              2996.64 EUR
+    Assets:FR:BourseDirect:Cash:EUR
+
+2026-07-14 * Fees Transfer PEA BourseDirect
+    Assets:FR:BourseDirect:Cash:EUR              = 0 EUR
+    Expenses:Finance:Brokerage
+
 * Aggregate Italy 2026 holidays expenses
 2026-07-12 * Tolls settlement  ; trip:italy-2026
     Expenses:Transportation:Car:Tolls         -18.95 EUR

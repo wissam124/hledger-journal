@@ -703,8 +703,8 @@
 * Revolut trading
 2026-06-12 * Buy SPCX
     Assets:FR:Revolut:Brokerage:SPCX               4 SPCX @ 135 USD
-    Assets:FR:Revolut:Brokerage:Cash:USD        -540 USD
     Expenses:Finance:Brokerage                     0 USD
+    Assets:FR:Revolut:Brokerage:Cash:USD        -540 USD
 
 2026-06-12 * Buy SPCX
     Assets:FR:Revolut:Brokerage:SPCX           31.98 SPCX @@ 5223.25 USD

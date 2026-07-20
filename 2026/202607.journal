@@ -57,6 +57,28 @@
     Expenses:Food:Delivery                     25.49 EUR
     Liabilities:FR:Amex:Gold
 
+2026-07-19 Flexbar
+    Expenses:Shopping:Sport                    21.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-19 Drawer organizer
+    Expenses:Home:Furniture                    14.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-19 HelloFresh
+    Expenses:Food:Groceries                    48.98 EUR
+    Liabilities:FR:Amex:Gold                  -48.98 EUR
+    Expenses:Food:Groceries                   -24.49 EUR
+    Liabilities:Payables:Aurelie               24.49 EUR
+
+2026-07-20 Pan lid
+    Expenses:GiftsCharity:Gifts                10.22 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-20 Tennis Luxembourg
+    Expenses:Health:Sport:Tennis                  18 EUR
+    Liabilities:FR:Amex:Gold
+
 * BforBank transactions
 2026-07-01 * On Air
     Expenses:Health:Gym                        31.96 EUR
@@ -268,6 +290,39 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-07-17 * Transfer to BoursoBank
+    Assets:FR:BoursoBank:Compte-Courant          500 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-17 Lunch Bento
+    Expenses:Food:Lunch                        15.30 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-18 * GP consultation
+    Expenses:Health:Doctor                        78 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-20 Cash withdrawal
+    Assets:Cash                                   20 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+* BoursoBank transactions
+2026-07-17 * Drinks with Aurelie
+    Expenses:Entertainment:Social:Bars         33.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-18 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-18 * Cafe
+    Expenses:Food:Cafe                          2.30 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-19 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
 * Cash transactions
 2026-07-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
@@ -327,8 +382,19 @@
     Expenses:Misc                             127.98 EUR
     Assets:Cash
 
+2026-07-19 * Fruits greengrocer
+    Expenses:Food:Groceries                    11.38 EUR
+    Assets:Cash
 
-* Ccf compte courant transactions
+2026-07-19 * Baguette and pain au chocolat
+    Expenses:Food:Groceries                     2.90 EUR
+    Assets:Cash
+
+2026-07-20 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash
+
+* CCF compte courant transactions
 2026-07-01 * Cotisation CCF
     Expenses:Finance:Bank                       8.75 EUR
     Assets:FR:CCF:Compte-Courant

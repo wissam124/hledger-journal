@@ -306,6 +306,10 @@
     Expenses:Food:Lunch                        15.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-07-21 Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR                50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * BoursoBank transactions
 2026-07-17 * Drinks with Aurelie
     Expenses:Entertainment:Social:Bars         33.50 EUR
@@ -454,6 +458,10 @@
     Assets:UK:HSBC:Current-Account            193.45 GBP
     Expenses:Finance:Bank                       0.59 GBP
     Assets:FR:Revolut:Personal:GBP           -194.04 GBP
+
+2026-07-21 * Order joint-account card
+    Expenses:Finance:Bank                      11.98 EUR
+    Assets:FR:Revolut:Personal:EUR
 
 * Interactive Brokers
 2026-07-13 * Transfer PEA BourseDirect to IBKR

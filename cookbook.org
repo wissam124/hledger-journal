@@ -410,6 +410,11 @@ hledger -f huchon.journal is --layout=tall --real -o test.html
 #+begin_src sh
 hledger -f all.journal close --retain --close-acct=Equity:Retained-Earnings | hledger -f all.journal -f - bse -I --layout=tall
 #+end_src
-
+* Tags
+List expenses related to the value of a particular tag, for example tag =trip=
+with value =lisbon-2026=
+#+begin_src sh
+hledger reg tag:trip=lisbon-2026
+#+end_src
 * General ressources
 [[https://lalitm.com/post/one-number-i-trust/][One Number I Trust: Plain-Text Accounting for Multi-Currency Household]]

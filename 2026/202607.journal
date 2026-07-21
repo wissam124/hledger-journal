@@ -65,18 +65,18 @@
     Expenses:Home:Furniture                    14.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-19 HelloFresh
+2026-07-19 * HelloFresh
     Expenses:Food:Groceries                    48.98 EUR
     Liabilities:FR:Amex:Gold                  -48.98 EUR
     Expenses:Food:Groceries                   -24.49 EUR
     Liabilities:Payables:Aurelie               24.49 EUR
 
-2026-07-20 Pan lid
-    Expenses:GiftsCharity:Gifts                10.22 EUR
+2026-07-20 * Tennis Luxembourg
+    Expenses:Health:Sport:Tennis                  18 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-20 Tennis Luxembourg
-    Expenses:Health:Sport:Tennis                  18 EUR
+2026-07-20 Pan lid
+    Expenses:GiftsCharity:Gifts                10.22 EUR
     Liabilities:FR:Amex:Gold
 
 * BforBank transactions
@@ -294,10 +294,6 @@
     Assets:FR:BoursoBank:Compte-Courant          500 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-17 Lunch Bento
-    Expenses:Food:Lunch                        15.30 EUR
-    Assets:FR:BforBank:Compte-Courant
-
 2026-07-18 * GP consultation
     Expenses:Health:Doctor                        78 EUR
     Assets:FR:BforBank:Compte-Courant
@@ -305,6 +301,10 @@
 2026-07-20 Cash withdrawal
     Assets:Cash                                   20 EUR
     Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-20 * Lunch Bento
+    Expenses:Food:Lunch                        15.30 EUR
+    Assets:FR:BforBank:Compte-Courant
 
 * BoursoBank transactions
 2026-07-17 * Drinks with Aurelie
@@ -321,6 +321,18 @@
 
 2026-07-19 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-21 * Tradition Gourmet  ; aurelie:
+    Expenses:Food:Lunch                        15.10 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-21 * Frais inactivite
+    Expenses:Finance:Bank                          9 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-21 * Frais inactivite
+    Expenses:Finance:Bank                          9 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Cash transactions
@@ -392,6 +404,10 @@
 
 2026-07-20 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash
+
+2026-07-20 * Hairdresser
+    Expenses:PersonalCare:Hair                    12 EUR
     Assets:Cash
 
 * CCF compte courant transactions

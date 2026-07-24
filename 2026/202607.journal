@@ -57,11 +57,11 @@
     Expenses:Food:Delivery                     25.49 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-19 Flexbar
+2026-07-19 * Flexbar
     Expenses:Shopping:Sport                    21.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-19 Drawer organizer
+2026-07-19 * Drawer organizer
     Expenses:Home:Furniture                    14.99 EUR
     Liabilities:FR:Amex:Gold
 
@@ -75,8 +75,20 @@
     Expenses:Health:Sport:Tennis                  18 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-20 Pan lid
+2026-07-20 * Pan lid
     Expenses:GiftsCharity:Gifts                10.22 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-21 * Franprix
+    Expenses:Food:Groceries                     9.25 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-22 * Monoprix
+    Expenses:Food:Groceries                     6.39 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-23 Carrefour City
+    Expenses:Food:Groceries                    21.09 EUR
     Liabilities:FR:Amex:Gold
 
 * BforBank transactions
@@ -298,16 +310,36 @@
     Expenses:Health:Doctor                        78 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-20 Cash withdrawal
-    Assets:Cash                                   20 EUR
-    Assets:FR:BoursoBank:Compte-Courant
-
 2026-07-20 * Lunch Bento
     Expenses:Food:Lunch                        15.30 EUR
     Assets:FR:BforBank:Compte-Courant
 
-2026-07-21 Transfer to Revolut
+2026-07-21 * Cash withdrawal
+    Assets:Cash                                   20 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-21 * Cash withdrawal
+    Assets:Cash                                   60 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-22 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-22 * Fisherman's Friend
+    Expenses:Food:Snack                            2 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-22 * Physio
+    Expenses:Health:Doctor                        70 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-22 * Transfer to Revolut
     Assets:FR:Revolut:Personal:EUR                50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-23 * Cash withdrawal
+    AssetsCash                                   200 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * BoursoBank transactions
@@ -323,20 +355,42 @@
     Expenses:Food:Cafe                          2.30 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-19 * Cigarettes
+2026-07-21 * Frais inactivite
+    Expenses:Finance:Bank                          9 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-21 * Frais inactivite
+    Expenses:Finance:Bank                          9 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-21 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-21 * Tradition Gourmet  ; aurelie:
+2026-07-22 * Tradition Gourmet  ; aurelie:
     Expenses:Food:Lunch                        15.10 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-21 * Frais inactivite
-    Expenses:Finance:Bank                          9 EUR
+2026-07-22 Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-21 * Frais inactivite
-    Expenses:Finance:Bank                          9 EUR
+2026-07-23 * Mon Petit Poulet
+    Expenses:Food:Lunch                         6.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-23 Cigarettes
+    Expenses:Cigarettes                           27 EUR
+    Assets:FR:BoursoBank:Compte-Courant          -27 EUR
+    Expenses:Cigarettes                       -13.50 EUR
+    Assets:Cash                                13.50 EUR
+
+2026-07-23 Lunch Pita
+    Expenses:Food:Lunch                         8.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-24 Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
 * Cash transactions
@@ -412,6 +466,10 @@
 
 2026-07-20 * Hairdresser
     Expenses:PersonalCare:Hair                    12 EUR
+    Assets:Cash
+
+2026-07-22 * Treatment
+    Expenses:PersonalCare:Discretionary          200 EUR
     Assets:Cash
 
 * CCF compte courant transactions

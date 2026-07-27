@@ -87,8 +87,16 @@
     Expenses:Food:Groceries                     6.39 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-23 Carrefour City
+2026-07-23 * Carrefour City
     Expenses:Food:Groceries                    21.09 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-25 * Cafe   ; aurelie:
+    Expenses:Food:Cafe                            13 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-26 Carrefour
+    Expenses:Food:Groceries                    14.62 EUR
     Liabilities:FR:Amex:Gold
 
 * BforBank transactions
@@ -339,7 +347,11 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-23 * Cash withdrawal
-    AssetsCash                                   200 EUR
+    Assets:Cash                                   200 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-07-26 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * BoursoBank transactions
@@ -371,25 +383,37 @@
     Expenses:Food:Lunch                        15.10 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-22 Cigarettes
-    Expenses:Cigarettes                        13.50 EUR
-    Assets:FR:BoursoBank:Compte-Courant
-
 2026-07-23 * Mon Petit Poulet
     Expenses:Food:Lunch                         6.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-23 Cigarettes
+2026-07-24 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-24 * Lunch Pita
+    Expenses:Food:Lunch                         8.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-24 * Cigarettes
     Expenses:Cigarettes                           27 EUR
     Assets:FR:BoursoBank:Compte-Courant          -27 EUR
     Expenses:Cigarettes                       -13.50 EUR
     Assets:Cash                                13.50 EUR
 
-2026-07-23 Lunch Pita
-    Expenses:Food:Lunch                         8.50 EUR
+2026-07-24 Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-24 Cigarettes
+2026-07-25 Restaurant with Arnaud
+    Expenses:Food:Restaurants                     33 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-25 Mumbai Cafe
+    Expenses:Food:Restaurants                  39.87 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-26 Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
@@ -485,6 +509,14 @@
     Assets:FR:CCF:Compte-Courant              314.54 EUR
     Equity:Capital:Huchon:Jean
 
+2026-07-22 * Navigo
+    Expenses:Transportation:PublicTransport    59.16 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-07-24 * CPAM
+    Expenses:Health:Doctor                    -20.92 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * CCF LDDS
 2026-07-02 * Transfer to CCF compte-joint
     Equity:Capital:Huchon:Jean                  2000 EUR
@@ -519,6 +551,34 @@
 
 2026-07-21 * Order joint-account card
     Expenses:Finance:Bank                      11.98 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-24 * RATP
+    Expenses:Transportation:PublicTransport     5.10 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-24 * RATP
+    Expenses:Transportation:PublicTransport     2.55 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-25 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-25 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-25 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-25 * Torbox
+    Expenses:Subscriptions:Streaming            4.46 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-26 * Paris Tennis
+    Expenses:Health:Sport:Tennis                   7 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Interactive Brokers
@@ -638,3 +698,8 @@
     Equity:Conversion:EUR-GBP:GBP                152 GBP
     Equity:Conversion:EUR-GBP:EUR               -179 EUR
     Assets:FR:BforBank:Compte-Courant            179 EUR
+
+* Interactive Brokers
+2026-07-21 * Buy LQQ
+    Assets:FR:IBKR:PEA:LQQ                       310 LQQ @@ 2911.55 EUR
+    Assets:FR:IBKR:PEA:Cash:EUR

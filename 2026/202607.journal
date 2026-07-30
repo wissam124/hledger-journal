@@ -1,3 +1,12 @@
+* Income
+2026-07-15 * Allocation France Travail
+    Assets:FR:CCF:Compte-Courant             2086.56 EUR
+    Income:FR:FranceTravail
+
+2026-07-29 * Sale Ikea Lamp
+    Assets:Cash                                   10 EUR
+    Income:Resale
+
 * Amex transactions
 2026-07-02 * Carrefour City
     Expenses:Food:Groceries                    13.31 EUR
@@ -95,8 +104,24 @@
     Expenses:Food:Cafe                            13 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-26 Carrefour
+2026-07-26 * Carrefour
     Expenses:Food:Groceries                    14.62 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-26 Drawer organiser
+    Expenses:Home:Furniture                    14.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-26 Theraband Flexbar
+    Expenses:Shopping:Sport                    25.63 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-28 * Refund Amazon
+    Expenses:Shopping:Sport                   -21.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-29 * Mon Petit Poulet
+    Expenses:Food:Lunch                         9.50 EUR
     Liabilities:FR:Amex:Gold
 
 * BforBank transactions
@@ -354,6 +379,10 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-07-28 * On Air
+    Expenses:Health:Gym                        31.96 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * BoursoBank transactions
 2026-07-17 * Drinks with Aurelie
     Expenses:Entertainment:Social:Bars         33.50 EUR
@@ -401,19 +430,39 @@
     Expenses:Cigarettes                       -13.50 EUR
     Assets:Cash                                13.50 EUR
 
-2026-07-24 Cigarettes
+2026-07-24 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-25 Restaurant with Arnaud
+2026-07-25 * Restaurant with Arnaud
     Expenses:Food:Restaurants                     33 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-25 Mumbai Cafe
+2026-07-25 * Mumbai Cafe
     Expenses:Food:Restaurants                  39.87 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-26 Cigarettes
+2026-07-28 * Fees for card unuse
+    Expenses:Finance:Bank                          9 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-28 * Fees for card unuse
+    Expenses:Finance:Bank                          9 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-28 * Geste commercial
+    Expenses:Finance:Bank                         -18 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-07-29 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
@@ -476,6 +525,10 @@
     Expenses:Misc                             127.98 EUR
     Assets:Cash
 
+2026-07-18 * Therapy
+    Expenses:Health:Therapy                       60 EUR
+    Assets:Cash
+
 2026-07-19 * Fruits greengrocer
     Expenses:Food:Groceries                    11.38 EUR
     Assets:Cash
@@ -496,14 +549,18 @@
     Expenses:PersonalCare:Discretionary          200 EUR
     Assets:Cash
 
+2026-07-24 * Desktronic cable organiser
+    Expenses:Home:Furniture                       15 EUR
+    Assets:Cash
+
+2026-07-26 * Greengrocer
+    Expenses:Food:Groceries                     7.16 EUR
+    Assets:Cash
+
 * CCF compte courant transactions
 2026-07-01 * Cotisation CCF
     Expenses:Finance:Bank                       8.75 EUR
     Assets:FR:CCF:Compte-Courant
-
-2026-07-15 * Allocation France Travail
-    Assets:FR:CCF:Compte-Courant             2086.56 EUR
-    Income:FR:FranceTravail
 
 2026-07-17 * Transfer CCF compte-joint to CCF compte-courant
     Assets:FR:CCF:Compte-Courant              314.54 EUR
@@ -515,6 +572,22 @@
 
 2026-07-24 * CPAM
     Expenses:Health:Doctor                    -20.92 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-07-26 * Cash withdrawal
+    Assets:Cash                                   30 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-07-27 * SFR
+    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-07-29 * Transfer to Revolut
+    Assets:FR:Revolut:Personal:EUR               100 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-07-30 * Refund Alan
+    Expenses:Health:Doctor                   -123.08 EUR
     Assets:FR:CCF:Compte-Courant
 
 * CCF LDDS
@@ -579,6 +652,10 @@
 
 2026-07-26 * Paris Tennis
     Expenses:Health:Sport:Tennis                   7 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-28 * McDonald's
+    Expenses:Food:Lunch                        12.45 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Interactive Brokers

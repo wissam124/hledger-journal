@@ -108,11 +108,11 @@
     Expenses:Food:Groceries                    14.62 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-26 Drawer organiser
+2026-07-26 * Drawer organiser
     Expenses:Home:Furniture                    14.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-26 Theraband Flexbar
+2026-07-26 * Theraband Flexbar
     Expenses:Shopping:Sport                    25.63 EUR
     Liabilities:FR:Amex:Gold
 
@@ -122,6 +122,10 @@
 
 2026-07-29 * Mon Petit Poulet
     Expenses:Food:Lunch                         9.50 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-07-30 Drawer organiser
+    Expenses:Home:Furniture                    14.99 EUR
     Liabilities:FR:Amex:Gold
 
 * BforBank transactions
@@ -164,7 +168,7 @@
     Liabilities:Payables:Aurelie               14.50 EUR
 
 2026-07-04 * Cash withdrawal
-    Assets:Cash                              120 EUR
+    Assets:Cash                                  120 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-07-05 * Cigarettes
@@ -383,6 +387,10 @@
     Expenses:Health:Gym                        31.96 EUR
     Assets:FR:BforBank:Compte-Courant
 
+2026-07-30 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:BforBank:Compte-Courant
+
 * BoursoBank transactions
 2026-07-17 * Drinks with Aurelie
     Expenses:Entertainment:Social:Bars         33.50 EUR
@@ -557,6 +565,10 @@
     Expenses:Food:Groceries                     7.16 EUR
     Assets:Cash
 
+2026-07-30 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash
+
 * CCF compte courant transactions
 2026-07-01 * Cotisation CCF
     Expenses:Finance:Bank                       8.75 EUR
@@ -588,6 +600,10 @@
 
 2026-07-30 * Refund Alan
     Expenses:Health:Doctor                   -123.08 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-07-30 Cash withdrawal
+    Assets:Cash                                  120 EUR
     Assets:FR:CCF:Compte-Courant
 
 * CCF LDDS
@@ -658,6 +674,26 @@
     Expenses:Food:Lunch                        12.45 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-07-30 * Lunch boulangerie
+    Expenses:Food:Lunch                        12.35 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-30 * Drinks with Isky
+    Expenses:Entertainment:Social:Bars         12.35 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-30 * Drinks with Aurelie  ; aurelie:
+    Expenses:Entertainment:Social:Bars         11.10 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-31 * Boulangerie
+    Expenses:Food:Snack                            6 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-07-31 * Coca
+    Expenses:Food:Groceries                     4.70 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 * Interactive Brokers
 2026-07-13 * Transfer PEA BourseDirect to IBKR
     Assets:FR:IBKR:PEA:Cash:EUR              2996.64 EUR
@@ -666,6 +702,10 @@
 2026-07-14 * Fees Transfer PEA BourseDirect
     Assets:FR:BourseDirect:Cash:EUR              = 0 EUR
     Expenses:Finance:Brokerage
+
+2026-07-21 * Buy LQQ
+    Assets:FR:IBKR:PEA:LQQ                       310 LQQ @@ 2911.55 EUR
+    Assets:FR:IBKR:PEA:Cash:EUR
 
 * Aggregate Italy 2026 holidays expenses
 2026-07-12 * Tolls settlement  ; trip:italy-2026
@@ -775,8 +815,3 @@
     Equity:Conversion:EUR-GBP:GBP                152 GBP
     Equity:Conversion:EUR-GBP:EUR               -179 EUR
     Assets:FR:BforBank:Compte-Courant            179 EUR
-
-* Interactive Brokers
-2026-07-21 * Buy LQQ
-    Assets:FR:IBKR:PEA:LQQ                       310 LQQ @@ 2911.55 EUR
-    Assets:FR:IBKR:PEA:Cash:EUR

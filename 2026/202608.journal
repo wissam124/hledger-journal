@@ -185,8 +185,8 @@
 2026-08-30 HelloFresh
     Expenses:Food:Groceries                    49.98 EUR
     Liabilities:FR:Amex:Gold                  -49.98 EUR
-    Expenses:Food:Groceries                   -24.99 EUR
-    Liabilities:Payables:Aurelie               24.99 EUR
+    Expenses:Food:Groceries                   -24.98 EUR
+    Liabilities:Payables:Aurelie               24.98 EUR
 
 2026-08-31 Google Fitbit air
     Expenses:Shopping:Electronics              99.99 EUR
@@ -436,6 +436,10 @@
     Equity:Capital:Huchon:Jean                 24.50 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-08-31 * Transfer to Revolut joint-account
+    Expenses:Home:Shared                         150 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut transactions
 2026-08-01 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
@@ -521,3 +525,8 @@
 2026-08-07 * Lebara
     Expenses:Home:Utilities:MobilePhone            5 GBP
     Assets:FR:Revolut:Personal:GBP
+
+* Other liabilities
+2026-08-31 * Aurelie settlement
+    Assets:FR:CCF:Compte-Courant              824.84 EUR
+    Liabilities:Payables:Aurelie

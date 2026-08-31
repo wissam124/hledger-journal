@@ -124,7 +124,7 @@
     Expenses:Food:Lunch                         9.50 EUR
     Liabilities:FR:Amex:Gold
 
-2026-07-30 Drawer organiser
+2026-07-31 * Drawer organiser
     Expenses:Home:Furniture                    14.99 EUR
     Liabilities:FR:Amex:Gold
 
@@ -438,15 +438,15 @@
     Expenses:Cigarettes                       -13.50 EUR
     Assets:Cash                                13.50 EUR
 
-2026-07-24 * Cigarettes
+2026-07-27 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-25 * Restaurant with Arnaud
+2026-07-27 * Restaurant with Arnaud
     Expenses:Food:Restaurants                     33 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-25 * Mumbai Cafe
+2026-07-27 * Mumbai Cafe
     Expenses:Food:Restaurants                  39.87 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
@@ -470,7 +470,7 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
-2026-07-29 * Cigarettes
+2026-07-30 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
@@ -569,12 +569,20 @@
     Expenses:Health:Therapy                      120 EUR
     Assets:Cash
 
+2026-07-30 * Drinks with Isky
+    Expenses:Entertainment:Social:Bars          6.50 EUR
+    Assets:Cash
+
+2026-07-31 * Tennis lesson with Joris
+    Expenses:Health:Sport:Tennis                   1 TL
+    Assets:Prepaid:Tennis
+
 * CCF compte courant transactions
 2026-07-01 * Cotisation CCF
     Expenses:Finance:Bank                       8.75 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-07-17 * Transfer CCF compte-joint to CCF compte-courant
+2026-07-17 * Settle CCF joint-account balance
     Assets:FR:CCF:Compte-Courant              314.54 EUR
     Equity:Capital:Huchon:Jean
 
@@ -602,7 +610,7 @@
     Expenses:Health:Doctor                   -123.08 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-07-30 Cash withdrawal
+2026-07-30 * Cash withdrawal
     Assets:Cash                                  120 EUR
     Assets:FR:CCF:Compte-Courant
 
@@ -678,8 +686,8 @@
     Expenses:Food:Lunch                        12.35 EUR
     Assets:FR:Revolut:Personal:EUR
 
-2026-07-30 * Drinks with Isky
-    Expenses:Entertainment:Social:Bars         12.35 EUR
+2026-07-30 * La Perle drinks with Isky
+    Expenses:Entertainment:Social:Bars         18.40 EUR
     Assets:FR:Revolut:Personal:EUR
 
 2026-07-30 * Drinks with Aurelie  ; aurelie:
@@ -693,6 +701,17 @@
 2026-07-31 * Coca
     Expenses:Food:Groceries                     4.70 EUR
     Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-07-18 * Transfer Aurelie Revolut balance
+    Assets:FR:Revolut:Personal:GBP                10 GBP
+    Liabilities:Payables:Aurelie
+
+2026-07-18 * Conversion GBP liability
+    Liabilities:Payables:Aurelie                 +10 GBP
+    Equity:Conversion:EUR-GBP:GBP                -10 GBP
+    Equity:Conversion:EUR-GBP:EUR               8.51 EUR
+    Liabilities:Payables:Aurelie               -8.51 EUR
 
 * Interactive Brokers
 2026-07-13 * Transfer PEA BourseDirect to IBKR

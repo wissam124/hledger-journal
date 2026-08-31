@@ -27,7 +27,6 @@ account Assets:FR:Revolut:Personal:EUR            ; type: C
 account Assets:FR:Revolut:Personal:GBP            ; type: C
 account Assets:FR:Revolut:Personal:USD            ; type: C
 account Assets:FR:Revolut:Personal:Flexible:GBP   ; type: C
-account Assets:Home:Vincennes                     ; type: A
 account Assets:UK:HSBC:Current-Account            ; type: C
 account Assets:UK:Halifax:Current-Account         ; type: C
 account Assets:UK:Moneyfarm                       ; type: A
@@ -135,11 +134,11 @@ account Expenses:Home:Laundry                              ; type: X
 account Expenses:Home:Legal                                ; type: X
 account Expenses:Home:Maintenance                          ; type: X
 account Expenses:Home:Rent                                 ; type: X
+account Expenses:Home:Shared                               ; type: X
 account Expenses:Home:Utilities:Electricity                ; type: X
 account Expenses:Home:Utilities:Internet                   ; type: X
 account Expenses:Home:Utilities:MobilePhone                ; type: X
 account Expenses:Home:Utilities:Water                      ; type: X
-account Expenses:Home:Vincennes:ServiceCharges             ; type: X
 account Expenses:Insurance:Health                          ; type: X
 account Expenses:Insurance:Home                            ; type: X
 account Expenses:Misc                                      ; type: X

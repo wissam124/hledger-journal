@@ -188,6 +188,10 @@
     Expenses:Food:Groceries                   -24.99 EUR
     Liabilities:Payables:Aurelie               24.99 EUR
 
+2026-08-31 Google Fitbit air
+    Expenses:Shopping:Electronics              99.99 EUR
+    Liabilities:FR:Amex:Gold
+
 * BforBank transactions
 2026-08-04 * Le Trouville
     Expenses:Entertainment:Social:Bars            34 EUR
@@ -423,6 +427,14 @@
     Assets:FR:CCF:Compte-Courant              -49.70 EUR
     Expenses:Transportation:Car:Fuel          -49.70 EUR
     Assets:Receivables:Mum                     49.70 EUR
+
+2026-08-31 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean               1393.69 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-08-31 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean                 24.50 EUR
+    Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
 2026-08-01 * Cigarettes

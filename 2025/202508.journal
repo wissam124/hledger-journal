@@ -316,7 +316,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-26 * SFR
-    Expenses:Home:Utilities:MobilePhone        13.56 EUR
+    Expenses:Subscriptions:MobilePhone        13.56 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-08-26 * Car rental Greece outstanding  ; trip:greece-2025
@@ -401,7 +401,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-08-12 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone         5.82 EUR
+    Expenses:Subscriptions:MobilePhone         5.82 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-08-13 * Beeminder fine

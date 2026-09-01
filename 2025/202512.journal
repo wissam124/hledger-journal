@@ -92,7 +92,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-12-30 * SFR
-    Expenses:Home:Utilities:MobilePhone    11.99 EUR
+    Expenses:Subscriptions:MobilePhone    11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
@@ -428,7 +428,7 @@
     Assets:UK:Revolut:Personal:GBP
 
 2025-12-10 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone        5 GBP
+    Expenses:Subscriptions:MobilePhone        5 GBP
     Assets:UK:Revolut:Personal:GBP
 
 2025-12-15 * Beeminder fine

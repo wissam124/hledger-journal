@@ -418,7 +418,7 @@
     Assets:FR:CCF:Compte-Courant
 
 2026-04-27 * SFR
-    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Expenses:Subscriptions:MobilePhone        11.99 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
@@ -480,5 +480,5 @@
 
 * Revolut GBP transactions
 2026-04-09 * Lebara Mobile
-    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Expenses:Subscriptions:MobilePhone            5 GBP
     Assets:FR:Revolut:Personal:GBP

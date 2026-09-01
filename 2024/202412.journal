@@ -245,7 +245,7 @@
     Assets:FR:BforBank:Compte-Courant          -12.5 EUR
 
 2024-12-15 * Lebara phone plan
-    Expenses:Home:Utilities:MobilePhone            5 EUR
+    Expenses:Subscriptions:MobilePhone            5 EUR
     Assets:FR:BforBank:Compte-Courant             -5 EUR
 
 2024-12-15 * McDonald's
@@ -397,7 +397,7 @@
     Assets:FR:BforBank:Compte-Courant          -2.22 EUR
 
 2024-12-30 * Red by SFR
-    Expenses:Home:Utilities:MobilePhone        17.98 EUR
+    Expenses:Subscriptions:MobilePhone        17.98 EUR
     Assets:FR:BforBank:Compte-Courant         -17.98 EUR
 
 2024-12-31 * Cigarettes

@@ -226,7 +226,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-26 * Red by SFR
-    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Expenses:Subscriptions:MobilePhone        11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-03-29 * Cash withdrawal
@@ -384,7 +384,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-03-16 * Lebara
-    Expenses:Home:Utilities:MobilePhone         6.03 EUR
+    Expenses:Subscriptions:MobilePhone         6.03 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-03-16 * Euromillions

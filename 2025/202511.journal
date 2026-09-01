@@ -231,7 +231,7 @@
     Assets:FR:BforBank:Compte-Courant  ; date: 2025-11-26
 
 2025-11-26 * SFR
-    Expenses:Home:Utilities:MobilePhone    11.99 EUR
+    Expenses:Subscriptions:MobilePhone    11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-11-26 * Refund Alan
@@ -392,7 +392,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-11-10 * Lebara
-    Expenses:Home:Utilities:MobilePhone        5 GBP
+    Expenses:Subscriptions:MobilePhone        5 GBP
     Assets:UK:Revolut:Personal:GBP
 
 2025-11-11 * Cigarettes

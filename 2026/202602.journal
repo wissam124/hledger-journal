@@ -294,7 +294,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-26 * SFR
-    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Expenses:Subscriptions:MobilePhone        11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-02-26 * Transfer to CCF current account
@@ -564,7 +564,7 @@
 
 * Revolut GBP transactions
 2026-02-22 * Lebara Mobile
-    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Expenses:Subscriptions:MobilePhone            5 GBP
     Assets:FR:Revolut:Personal:GBP
 
 2026-02-22 * Ajc Conc.aut  ; dryer uniqlo down jacket

@@ -257,7 +257,7 @@
     Assets:FR:BforBank:Compte-Courant            -4 EUR
 
 2025-01-15 * Lebara phone plan
-    Expenses:Home:Utilities:MobilePhone        5.96 EUR
+    Expenses:Subscriptions:MobilePhone        5.96 EUR
     Assets:FR:BforBank:Compte-Courant         -5.96 EUR
 
 2025-01-16 * Beeminder fine
@@ -365,7 +365,7 @@
     Assets:FR:BforBank:Compte-Courant      -48.94 EUR
 
 2025-01-27 * Red by SFR
-    Expenses:Home:Utilities:MobilePhone       19.17 EUR
+    Expenses:Subscriptions:MobilePhone       19.17 EUR
     Assets:FR:BforBank:Compte-Courant        -19.17 EUR
 
 2025-01-29 * Beeminder fine

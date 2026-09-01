@@ -307,7 +307,7 @@
     Liabilities:Payables:Aurelie                  75 EUR
 
 2025-09-26 * SFR
-    Expenses:Home:Utilities:MobilePhone    11.99 EUR
+    Expenses:Subscriptions:MobilePhone    11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-09-26 * Ticket PSG
@@ -512,7 +512,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-11 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone     5.81 EUR
+    Expenses:Subscriptions:MobilePhone     5.81 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-09-12 * Cigarettes

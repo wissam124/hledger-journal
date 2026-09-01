@@ -177,7 +177,7 @@
     Income:Resale
 
 2026-01-27 * SFR
-    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Expenses:Subscriptions:MobilePhone        11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2026-01-27 * G20
@@ -440,7 +440,7 @@
 
 * Revolut GBP transactions
 2026-01-09 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Expenses:Subscriptions:MobilePhone            5 GBP
     Assets:UK:Revolut:Personal:GBP
 
 2026-01-17 * Le Berlioz

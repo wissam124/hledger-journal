@@ -129,7 +129,6 @@ account Expenses:Home:Maintenance                          ; type: X
 account Expenses:Home:Rent                                 ; type: X
 account Expenses:Home:Utilities:Electricity                ; type: X
 account Expenses:Home:Utilities:Internet                   ; type: X
-account Expenses:Home:Utilities:MobilePhone                ; type: X
 account Expenses:Home:Utilities:Water                      ; type: X
 account Expenses:Insurance:Health                          ; type: X
 account Expenses:Insurance:Home                            ; type: X
@@ -147,6 +146,7 @@ account Expenses:Shopping:Electronics                      ; type: X
 account Expenses:Shopping:Sport                            ; type: X
 account Expenses:Subscriptions                             ; type: X
 account Expenses:Subscriptions:CloudStorage                ; type: X
+account Expenses:Subscriptions:MobilePhone                 ; type: X
 account Expenses:Subscriptions:Software                    ; type: X
 account Expenses:Subscriptions:Streaming                   ; type: X
 account Expenses:Taxes                                     ; type: X

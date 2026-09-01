@@ -203,7 +203,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-23 * SFR mobile phone
-    Expenses:Home:Utilities:MobilePhone    12.06 EUR
+    Expenses:Subscriptions:MobilePhone    12.06 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-05-24 * Ticket RER
@@ -367,7 +367,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-05-15 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone     5.97 EUR
+    Expenses:Subscriptions:MobilePhone     5.97 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-05-16 * Padel rackets & balls rental London

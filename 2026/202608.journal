@@ -391,7 +391,7 @@
     Assets:FR:CCF:Compte-Courant
 
 2026-08-26 * SFR
-    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Expenses:Subscriptions:MobilePhone        11.99 EUR
     Assets:FR:CCF:Compte-Courant
 
 2026-08-27 * Cigarettes
@@ -523,7 +523,7 @@
 
 * Revolut GBP transactions
 2026-08-07 * Lebara
-    Expenses:Home:Utilities:MobilePhone            5 GBP
+    Expenses:Subscriptions:MobilePhone            5 GBP
     Assets:FR:Revolut:Personal:GBP
 
 * Other liabilities

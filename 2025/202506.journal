@@ -267,7 +267,7 @@
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-26 * SFR subscription
-    Expenses:Home:Utilities:MobilePhone        11.99 EUR
+    Expenses:Subscriptions:MobilePhone        11.99 EUR
     Assets:FR:BforBank:Compte-Courant
 
 2025-06-26 * Cigarettes
@@ -385,7 +385,7 @@
     Assets:UK:Revolut:Personal:EUR
 
 2025-06-13 * Lebara mobile
-    Expenses:Home:Utilities:MobilePhone         5.90 EUR
+    Expenses:Subscriptions:MobilePhone         5.90 EUR
     Assets:UK:Revolut:Personal:EUR
 
 2025-06-14 * Cafe and Pain au chocolat

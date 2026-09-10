@@ -1,3 +1,112 @@
 * Income
+2026-09-08 * Allocation France Travail
+    Assets:FR:CCF:Compte-Courant             4521.90 EUR
+    Income:FR:FranceTravail
+
+* Amex transactions
+2026-09-01 * CO DES GLANDS
+    Expenses:Food:Restaurants                     68 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-05 * Dott
+    Expenses:Transportation:Bikesharing         3.15 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-05 * Dott
+    Expenses:Transportation:Bikesharing         1.75 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-05 Tennis Dauphine
+    Expenses:Health:Sport:Tennis                  20 EUR
+    Liabilities:FR:Amex:Gold                     -20 EUR
+    Expenses:Health:Sport:Tennis                 -20 EUR
+    Assets:Receivables                           +20 EUR
+
+2026-09-06 * Amex subscription
+    Expenses:Finance:CreditCard                   16 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-06 * Anybuddy
+    Expenses:Health:Sport:Tennis                  25 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-07 * Pronator
+    Expenses:Shopping:Sport                    80.71 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-07 * HelloFresh
+    Expenses:Food:Groceries                    45.68 EUR
+    Liabilities:FR:Amex:Gold                  -45.68 EUR
+    Expenses:Food:Groceries                   -22.84 EUR
+    Liabilities:Payables:Aurelie               22.84 EUR
+
+2026-09-08 * Anybuddy
+    Expenses:Health:Sport:Tennis                 -25 EUR
+    Liabilities:FR:Amex:Gold
+
+* Boursobank transactions
+2026-09-07 * Maison B&b
+    Expenses:Food:Cafe                          3.40 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+* Cash transactions
+2026-09-03 * MS Therapy
+    Expenses:PersonalCare:Discretionary          150 EUR
+    Assets:Cash
 
 * CCF transactions
+2026-09-01 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-01 * CCF cotisation
+    Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-02 * Settlement Cabourg
+    Assets:FR:CCF:Compte-Courant                 232 EUR
+    Assets:Receivables:Mum
+
+2026-09-02 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-03 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-03 * Settlement Tennis Dauphine
+    Assets:FR:CCF:Compte-Courant                  20 EUR
+    Expenses:Health:Sport:Tennis
+
+2026-09-03 * Cash withdrawal
+    Assets:Cash                                  150 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-07 * Carrefour Express
+    Expenses:Food:Groceries                    11.66 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-07 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-07 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-08 * Paris Tennis
+    Expenses:Health:Sport:Tennis                  48 EUR
+    Assets:FR:CCF:Compte-Courant                 -48 EUR
+    Expenses:Health:Sport:Tennis                 -24 EUR
+    Liabilities:Payables:Aurelie                  24 EUR
+
+* Revolut transactions
+2026-09-02 * La Poste driving license mail
+    Expenses:Misc                              10.82 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-09-06 * Lebara
+    Expenses:Subscriptions:MobilePhone             5 GBP
+    Assets:FR:Revolut:Personal:GBP

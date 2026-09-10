@@ -177,18 +177,20 @@
     Liabilities:FR:Amex:Gold                  -60.04 EUR
     Expenses:Travel:Holidays:Accommodation    -11.72 EUR
     Assets:Receivables:Mum                     11.72 EUR
+    Expenses:Travel:Holidays:Accommodation     -0.33 EUR
+    Assets:Receivables:Mum                      0.33 EUR
 
-2026-08-30 Deliveroo
+2026-08-30 * Deliveroo
     Expenses:Food:Delivery                     17.08 EUR
     Liabilities:FR:Amex:Gold
 
-2026-08-30 HelloFresh
+2026-08-30 * HelloFresh
     Expenses:Food:Groceries                    49.98 EUR
     Liabilities:FR:Amex:Gold                  -49.98 EUR
     Expenses:Food:Groceries                   -24.98 EUR
     Liabilities:Payables:Aurelie               24.98 EUR
 
-2026-08-31 Google Fitbit air
+2026-08-31 * Google Fitbit air
     Expenses:Shopping:Electronics              99.99 EUR
     Liabilities:FR:Amex:Gold
 

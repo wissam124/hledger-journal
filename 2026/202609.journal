@@ -119,6 +119,10 @@
     Assets:FR:BoursoBank:Compte-Courant
 
 * Cash transactions
+2026-09-02 * Hairdresser
+    Expenses:PersonalCare:Hair                    12 EUR
+    Assets:Cash
+
 2026-09-03 * MS Therapy
     Expenses:PersonalCare:Discretionary          150 EUR
     Assets:Cash
@@ -136,6 +140,10 @@
 
 2026-09-19 * Maison B&b
     Expenses:Food:Snack                         1.90 EUR
+    Assets:Cash
+
+2026-09-25 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:Cash
 
 * CCF transactions
@@ -300,6 +308,18 @@
 2026-09-25 * Transfer to LDDS
     Assets:FR:CCF:LDDS                          1000 EUR
     Assets:FR:CCF:Compte-Courant
+
+2026-09-25 Drinks with Alexandre
+    Expenses:Entertainment:Social:Bars         16.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-25 Drinks with Alexandre
+    Expenses:Entertainment:Social:Bars            19 EUR
+    Assets:FR:CCF:Compte-Courant                 -19 EUR
+    Expenses:Entertainment:Social:Bars            -9 EUR
+    Assets:Receivables                             9 EUR
+    Assets:Receivables                            -9 EUR
+    Assets:Cash                                    9 EUR
 
 * Revolut transactions
 2026-09-02 * La Poste driving license mail

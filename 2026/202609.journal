@@ -58,7 +58,7 @@
     Expenses:Health:Sport:Tennis                  20 EUR
     Liabilities:FR:Amex:Gold                     -20 EUR
     Expenses:Health:Sport:Tennis                 -20 EUR
-    Assets:Receivables                           +20 EUR
+    Liabilities:Payables                         +20 EUR
 
 2026-09-14 * Roulez Jeunesse
     Expenses:Home:Maintenance                     53 EUR
@@ -96,6 +96,10 @@
 2026-09-24 * Birthday gift from Isky to pay back bike
     Assets:FR:BforBank:Compte-Courant            400 EUR
     Assets:Receivables:Iskander
+
+2026-09-25 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant                 580 EUR
+    Assets:FR:BforBank:Compte-Courant
 
 * Boursobank transactions
 2026-09-07 * Maison B&b
@@ -289,6 +293,14 @@
     Expenses:Cigarettes                        13.70 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-09-25 * Transfer back from CCF joint-account
+    Assets:FR:CCF:Compte-Courant              715.50 EUR
+    Equity:Capital:Huchon:Jean
+
+2026-09-25 * Transfer to LDDS
+    Assets:FR:CCF:LDDS                          1000 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut transactions
 2026-09-02 * La Poste driving license mail
     Expenses:Misc                              10.82 EUR
@@ -310,3 +322,8 @@
 2026-09-06 * Lebara
     Expenses:Subscriptions:MobilePhone             5 GBP
     Assets:FR:Revolut:Personal:GBP
+
+* Other
+2026-09-18 * Tennis Lesson with Joris
+    Expenses:Health:Sport:Tennis                   1 TL
+    Assets:Prepaid:Tennis

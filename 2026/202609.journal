@@ -16,12 +16,6 @@
     Expenses:Transportation:Bikesharing         1.75 EUR
     Liabilities:FR:Amex:Gold
 
-2026-09-05 Tennis Dauphine
-    Expenses:Health:Sport:Tennis                  20 EUR
-    Liabilities:FR:Amex:Gold                     -20 EUR
-    Expenses:Health:Sport:Tennis                 -20 EUR
-    Assets:Receivables                           +20 EUR
-
 2026-09-06 * Amex subscription
     Expenses:Finance:CreditCard                   16 EUR
     Liabilities:FR:Amex:Gold
@@ -44,14 +38,100 @@
     Expenses:Health:Sport:Tennis                 -25 EUR
     Liabilities:FR:Amex:Gold
 
+2026-09-10 * Amex settlement
+    Liabilities:FR:Amex:Gold                 1874.30 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-11 * Deliveroo
+    Expenses:Food:Delivery                     30.29 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-12 * Dott
+    Expenses:Transportation:Bikesharing         0.70 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-12 * Dott
+    Expenses:Transportation:Bikesharing         3.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-14 * Tennis Dauphine
+    Expenses:Health:Sport:Tennis                  20 EUR
+    Liabilities:FR:Amex:Gold                     -20 EUR
+    Expenses:Health:Sport:Tennis                 -20 EUR
+    Assets:Receivables                           +20 EUR
+
+2026-09-14 * Roulez Jeunesse
+    Expenses:Home:Maintenance                     53 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-14 * HelloFresh
+    Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold                  -49.98 EUR
+    Expenses:Food:Groceries                   -24.99 EUR
+    Liabilities:Payables:Aurelie               24.99 EUR
+
+2026-09-14 * Anybuddy
+    Expenses:Health:Sport:Tennis                 18 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-16 * Hexlox Anti Theft
+    Expenses:Shopping                         106.20 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-20 * HelloFresh
+    Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold                  -49.98 EUR
+    Expenses:Food:Groceries                   -24.99 EUR
+    Liabilities:Payables:Aurelie               24.99 EUR
+
+* Bforbank transactions
+2026-09-11 * Cash withdrawal
+    Assets:Cash                                  500 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-09-11 * Cash withdrawal
+    Assets:Cash                                  120 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-09-24 * Birthday gift from Isky to pay back bike
+    Assets:FR:BforBank:Compte-Courant            400 EUR
+    Assets:Receivables:Iskander
+
 * Boursobank transactions
 2026-09-07 * Maison B&b
     Expenses:Food:Cafe                          3.40 EUR
     Assets:FR:BoursoBank:Compte-Courant
 
+2026-09-11 * Transfer to BforBank
+    Assets:FR:BforBank:Compte-Courant            400 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-09-21 * Mon Petit Poulet
+    Expenses:Food:Lunch                           11 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-09-22 * Boun Thai
+    Expenses:Food:Lunch                        12.30 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
 * Cash transactions
 2026-09-03 * MS Therapy
     Expenses:PersonalCare:Discretionary          150 EUR
+    Assets:Cash
+
+2026-09-10 * Buy bike
+    Expenses:Shopping                            800 EUR
+    Assets:Cash                                 -800 EUR
+    Expenses:Shopping                           -800 EUR
+    Assets:Receivables:Iskander                  400 EUR
+    Assets:Receivables:Mum                       400 EUR
+
+2026-09-12 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash
+
+2026-09-19 * Maison B&b
+    Expenses:Food:Snack                         1.90 EUR
     Assets:Cash
 
 * CCF transactions
@@ -75,9 +155,9 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-09-03 * Settlement Tennis Dauphine
+2026-09-03 * Tennis Dauphine Chiheb contribution
     Assets:FR:CCF:Compte-Courant                  20 EUR
-    Expenses:Health:Sport:Tennis
+    Liabilities:Payables
 
 2026-09-03 * Cash withdrawal
     Assets:Cash                                  150 EUR
@@ -101,9 +181,129 @@
     Expenses:Health:Sport:Tennis                 -24 EUR
     Liabilities:Payables:Aurelie                  24 EUR
 
+2026-09-10 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-10 * Transfer to BforBank
+    Assets:FR:BforBank:Compte-Courant            400 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-10 * Transfer to Boursobank
+    Assets:FR:BoursoBank:Compte-Courant          400 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-10 * Cash withdrawal
+    Assets:Cash                                  300 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-11 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-12 * Bike air chamber
+    Expenses:Shopping                           9.99 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-12 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-14 * Maison B&b
+    Expenses:Food:Cafe                          3.40 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-14 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-14 * Carrefour
+    Expenses:Food:Groceries                    16.33 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-14 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean               1260.49 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-15 * Birthday gift from Mum to pay back bike
+    Assets:FR:CCF:Compte-Courant                 350 EUR
+    Assets:Receivables:Mum
+
+2026-09-15 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-16 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-16 * Navigo Liberte
+    Expenses:Transportation:PublicTransport    34.68 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-17 * Mon Petit Poulet
+    Expenses:Food:Lunch                         7.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-17 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-17 * Fisherman's Friend
+    Expenses:Food:Snack                         2.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-18 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-21 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-21 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-21 * Cafe Madame Paris
+    Expenses:Food:Restaurants                  25.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-22 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-23 * Mon Petit Poulet
+    Expenses:Food:Lunch                         6.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-23 * On Air
+    Expenses:Health:Gym                        31.96 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-24 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-24 * Cigarettes
+    Expenses:Cigarettes                        13.70 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * Revolut transactions
 2026-09-02 * La Poste driving license mail
     Expenses:Misc                              10.82 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-09-11 * Boun Thai
+    Expenses:Food:Lunch                        13.80 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-09-14 * Custom fees for pronator
+    Expenses:Shopping:Sport                       20 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-09-25 * Beeminder fine
+    Expenses:Subscriptions:Software             4.42 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

@@ -98,8 +98,12 @@
     Expenses:Entertainment:Events:Concerts   -151.50 EUR
     Liabilities:Payables:Aurelie              151.50 EUR
 
-2026-09-26 * HelloFresh
+2026-09-27 HelloFresh
     Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-09-28 Carrefour City
+    Expenses:Food:Groceries                    13.78 EUR
     Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
@@ -351,8 +355,24 @@
     Expenses:Entertainment:Social:Bars         16.50 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-09-26 * Transfer to Revolut joint-account
-    Expenses:Home:Shared                         150 EUR
+2026-09-26 * Transfer To Revolut current account
+    Assets:FR:Revolut:Personal:EUR               150 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-28 * Paris Tennis
+    Expenses:Health:Sport:Tennis                  87 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-09-28 * SFR
+    Expenses:Subscriptions:MobilePhone         11.99 EUR
     Assets:FR:CCF:Compte-Courant
 
 * Revolut transactions
@@ -370,6 +390,10 @@
 
 2026-09-25 * Beeminder fine
     Expenses:Subscriptions:Software             4.42 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-09-29 * Transfer to Revolut joint-account
+    Expenses:Home:Shared                         150 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

@@ -90,7 +90,9 @@
 
 2026-09-25 * Anybuddy
     Expenses:Health:Sport:Tennis               18.86 EUR
-    Liabilities:FR:Amex:Gold
+    Liabilities:FR:Amex:Gold                  -18.86 EUR
+    Expenses:Health:Sport:Tennis               -9.43 EUR
+    Liabilities:Payables:Aurelie                9.43 EUR
 
 2026-09-26 * Ticketnet
     Expenses:Entertainment:Events:Concerts    302.99 EUR
@@ -389,14 +391,18 @@
     Expenses:Entertainment:Social:Bars         33.50 EUR
     Assets:FR:CCF:Compte-Courant
 
-* CCF livret A
+2026-09-30 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+* CCF LDDS
 2026-09-30 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               1393.41 EUR
-    Assets:FR:CCF:Compte-Courant
+    Assets:FR:CCF:LDDS
 
 2026-09-30 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean                 24.50 EUR
-    Assets:FR:CCF:Compte-Courant
+    Assets:FR:CCF:LDDS
 
 * Revolut transactions
 2026-09-02 * La Poste driving license mail
@@ -415,8 +421,20 @@
     Expenses:Subscriptions:Software             4.42 EUR
     Assets:FR:Revolut:Personal:EUR
 
+2026-09-25 * Torbox
+    Expenses:Subscriptions:Streaming            4.41 EUR
+    Assets:FR:Revolut:Personal:EUR
+
 2026-09-29 * Transfer to Revolut joint-account
     Expenses:Home:Shared                         150 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-09-29 * Mon Petit Poulet
+    Expenses:Food:Lunch                         6.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-09-30 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Revolut GBP transactions

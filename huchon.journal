@@ -766,6 +766,69 @@ account Income:Notary                                                  ; type: R
     Assets:FR:CCF:Compte-Joint:Jean                        4 EUR
     Equity:Capital:Huchon:Jean                            -4 EUR
 
+2026-09-30 * Virement Jean CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]               1393.41 EUR
+    [Stats:Funding]                                 -1393.41 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                  1393.41 EUR
+    Equity:Capital:Huchon:Jean                      -1393.41 EUR
+
+2026-09-30 * Virement Jean CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]                 24.50 EUR
+    [Stats:Funding]                                   -24.50 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                    24.50 EUR
+    Equity:Capital:Huchon:Jean                        -24.50 EUR
+
+2026-09-30 * Virement Aurelie CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]               1421.93 EUR
+    [Stats:Funding]                                 -1421.93 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie               1421.93 EUR
+    Equity:Capital:Aurelie                          -1421.93 EUR
+
+2026-10-01 * Assurance Kereis
+    [Stats:Assets:FR:CCF:Compte-Joint]               -238.18 EUR
+    [Stats:Expenses:Finance:Mortgage:Insurance]       238.18 EUR
+    Expenses:Finance:Mortgage:Insurance:Aurelie       119.09 EUR
+    Expenses:Finance:Mortgage:Insurance:Jean          119.09 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie               -119.09 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                  -119.09 EUR
+
+2026-10-03 * Echeancier pret Septembre 2026
+    [Stats:Assets:FR:CCF:Compte-Joint]              -2548.66 EUR
+    [Stats:Liabilities:FR:CCF:Mortgage]              1166.39 EUR
+    [Stats:Expenses:Finance:Mortgage:Interest]       1382.27 EUR
+    Liabilities:FR:CCF:Mortgage:Aurelie               583.19 EUR
+    Liabilities:FR:CCF:Mortgage:Jean                  583.19 EUR
+    Expenses:Finance:Mortgage:Interest:Aurelie        691.13 EUR
+    Expenses:Finance:Mortgage:Interest:Jean           691.13 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie              -1274.32 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                 -1274.32 EUR
+
+2026-10-07 * Facture EDF
+    [Stats:Assets:FR:CCF:Compte-Joint]                   -49 EUR
+    [Stats:Expenses:Home:Utilities:Electricity]           49 EUR
+    Expenses:Home:Utilities:Electricity:Aurelie        24.50 EUR
+    Expenses:Home:Utilities:Electricity:Jean           24.50 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie                -24.50 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                   -24.50 EUR
+
+2026-10-12 * Virement Jean CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]                715.50 EUR
+    [Stats:Funding]                                  -715.50 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                   715.50 EUR
+    Equity:Capital:Huchon:Jean                       -715.50 EUR
+
+2026-11-02 * Virement Jean CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]               1393.13 EUR
+    [Stats:Funding]                                 -1393.13 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                  1393.13 EUR
+    Equity:Capital:Huchon:Jean                      -1393.13 EUR
+
+2026-11-02 * Virement Aurelie CCF compte-joint
+    [Stats:Assets:FR:CCF:Compte-Joint]               1393.16 EUR
+    [Stats:Funding]                                 -1393.16 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie               1393.16 EUR
+    Equity:Capital:Aurelie                          -1393.16 EUR
+
 ; Local Variables:
 ; ledger-post-amount-alignment-column: 60
 ; End:

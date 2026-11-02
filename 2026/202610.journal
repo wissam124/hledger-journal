@@ -1,0 +1,464 @@
+* Income
+2026-10-02 * Allocation France Travail
+    Assets:FR:CCF:Compte-Courant             4521.90 EUR
+    Income:FR:FranceTravail
+
+* Amex transactions
+2026-10-02 * Deliveroo
+    Expenses:Food:Delivery                     23.49 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-02 * Anybuddy
+    Expenses:Health:Sport:Tennis               18.86 EUR
+    Liabilities:FR:Amex:Gold                  -18.86 EUR
+    Expenses:Health:Sport:Tennis               -9.43 EUR
+    Liabilities:Payables:Aurelie                9.43 EUR
+
+2026-10-05 * HelloFresh
+    Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold                  -49.98 EUR
+    Expenses:Food:Groceries                   -24.99 EUR
+    Liabilities:Payables:Aurelie               24.99 EUR
+
+2026-10-06 * Amex gold subscription fees
+    Expenses:Finance:CreditCard                   16 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-06 * Deliveroo
+    Expenses:Food:Delivery                     14.28 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-07 * Linvosges
+    Expenses:Home:Furniture                    70.20 EUR
+    Liabilities:FR:Amex:Gold                  -70.20 EUR
+
+2026-10-07 * Anybuddy
+    Expenses:Health:Sport:Tennis                  35 EUR
+    Liabilities:FR:Amex:Gold                     -35 EUR
+    Expenses:Health:Sport:Tennis                 -20 EUR
+    Assets:Receivables:Florent                    20 EUR
+
+2026-10-08 * SNCF Carte Avantage
+    Expenses:Travel:Train                         30 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-08 * Ikea
+    Expenses:Home:Furniture                    16.97 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-08 * Deliveroo
+    Expenses:Food:Delivery                     18.04 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-09 * Anybuddy
+    Expenses:Health:Sport:Tennis               18.86 EUR
+    Liabilities:FR:Amex:Gold                  -18.86 EUR
+    Expenses:Health:Sport:Tennis               -9.43 EUR
+    Liabilities:Payables:Aurelie                9.43 EUR
+
+2026-10-09 * Amazon | Theragun adapter
+    Expenses:Shopping:Electronics              21.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-10 * Velib
+    Expenses:Transportation:Bikesharing            6 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-10 * Maison B&B
+    Expenses:Food:Cafe                          3.40 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-17 * Deliveroo
+    Expenses:Food:Delivery                     21.83 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-17 * Deliveroo tip
+    Expenses:Food:Delivery                      1.96 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-18 * HelloFresh
+    Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold                  -49.98 EUR
+    Expenses:Food:Groceries                   -24.99 EUR
+    Liabilities:Payables:Aurelie               24.99 EUR
+
+2026-10-24 * Monoprix
+    Expenses:Food:Groceries                    55.97 EUR
+    Liabilities:FR:Amex:Gold                  -55.97 EUR
+    Expenses:Food:Groceries                   -27.98 EUR
+    Liabilities:Payables:Aurelie               27.98 EUR
+
+2026-10-26 HelloFresh
+    Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold                  -49.98 EUR
+    Expenses:Food:Groceries                   -24.99 EUR
+    Liabilities:Payables:Aurelie               24.99 EUR
+
+2026-10-30 * Deliveroo
+    Expenses:Food:Delivery                     17.79 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-31 * Bonus Le Bon Coin
+    Expenses:Resale                             7.90 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-31 * Deliveroo
+    Expenses:Food:Delivery                     23.43 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-31 Steam | Tennis Elbow 4
+    Expenses:Entertainment:Digital             29.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-10-31 Steam | Tennis Elbow 4
+    Expenses:Entertainment:Digital             29.99 EUR
+    Liabilities:FR:Amex:Gold                  -29.99 EUR
+    Expenses:Entertainment:Digital            -29.99 EUR
+    Liabilities:FR:Amex:Gold                   29.99 EUR
+
+* Bforbank transactions
+2026-10-07 * Transfer from Florent
+    Assets:FR:BforBank:Compte-Courant           1600 EUR
+    Assets:Receivables:Florent
+
+2026-10-07 * Transfer back to Florent
+    Assets:Receivables:Florent                  1600 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+2026-10-10 * Refund Tennis Joinville Florent
+    Assets:FR:BforBank:Compte-Courant             20 EUR
+    Assets:Receivables:Florent
+
+2026-10-30 * Allianz
+    Expenses:Insurance:Home                   180.35 EUR
+    Assets:FR:BforBank:Compte-Courant        -180.35 EUR
+    Expenses:Insurance:Home                   -90.18 EUR
+    Liabilities:Payables:Aurelie               90.18 EUR
+
+2026-10-30 * Overdraft fees
+    Expenses:Finance:Bank                       0.14 EUR
+    Assets:FR:BforBank:Compte-Courant
+
+* Boursobank transactions
+2026-10-14 * Boulangerie Magali
+    Expenses:Food:Groceries                     3.30 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+2026-10-23 * Boulangerie Magali
+    Expenses:Food:Groceries                     2.70 EUR
+    Assets:FR:BoursoBank:Compte-Courant
+
+* Cash transactions
+2026-10-10 * Therapy
+    Expenses:Health:Therapy                       120 EUR
+    Assets:Cash
+
+2026-10-12 * Hairdresser
+    Expenses:PersonalCare:Hair                    15 EUR
+    Assets:Cash
+
+2026-10-13 * Therapy
+    Expenses:Health:Therapy                       60 EUR
+    Assets:Cash
+
+2026-10-31 * Cigarettes undated cash purchases
+    Expenses:Cigarettes                           27 EUR
+    Assets:Cash
+
+* CCF transactions
+2026-10-01 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-01 * Boun Thai
+    Expenses:Food:Lunch                        10.80 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-01 * CCF cotisation
+    Expenses:Finance:Bank                       8.75 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-03 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-03 * Trouville
+    Expenses:Entertainment:Social:Bars            47 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-05 * Transfer from mum
+    Assets:FR:CCF:Compte-Courant                 270 EUR
+    Assets:Receivables:Mum
+
+2026-10-05 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-06 * English class for mum
+    Assets:Receivables:Mum                       220 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-06 * Cash withdrawal
+    Assets:Cash                                   20 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-07 * Gift for Aurelie's birthday
+    Expenses:GiftsCharity:Gifts                  425 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-07 * Trouville
+    Expenses:Entertainment:Social:Bars            29 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-09 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-10 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-10 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-10 * Cash withdrawal
+    Assets:Cash                                  120 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-12 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-12 * Fisherman's Friend
+    Expenses:Food:Snack                         2.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-12 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-12 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean                715.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-12 * Cash withdrawal
+    Assets:Cash                                   80 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-13 * Cash withdrawal
+    Assets:Cash                                   20 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-14 * Jolis Momes
+    Expenses:Food:Cafe                             4 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-14 * Transfer to Revolut joint-account
+    Expenses:Home:Shared                         150 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-14 * Amex settlement
+    Liabilities:FR:Amex:Gold                  982.76 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-14 * Flouve Montreuil  ; aurelie:
+    Expenses:Food:Cafe                         18.90 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-14 * Aeroparis balloon  ; aurelie:
+    Expenses:GiftsCharity:Gifts                   40 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-14 * Restaurant La-Bas Montreuil
+    Expenses:Food:Restaurants                    109 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-16 * Voie 15
+    Expenses:Entertainment:Social:Bars             9 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-16 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-17 * Cafe Gare du Nord
+    Expenses:Food:Cafe                            12 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-19 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-19 * Navigo
+    Expenses:Transportation:PublicTransport    27.36 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-20 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-21 * GP consultation
+    Expenses:Health:Doctor                         9 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-21 * Au P'tit Caprice
+    Expenses:Food:Lunch                        11.80 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-21 * On Air
+    Expenses:Health:Gym                        31.96 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-21 * Navigo
+    Expenses:Transportation:PublicTransport    51.84 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-22 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-22 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-24 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-24 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-24 * Transfer to Revolut joint-account
+    Expenses:Home:Shared                          50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-26 * Transfer to Revolut current account
+    Assets:FR:Revolut:Personal:EUR                50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-26 * Transfer to Revolut current account
+    Assets:FR:Revolut:Personal:EUR                20 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-26 * 2025 tax outstanding second payment
+    Expenses:Taxes                              2439 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-27 * SFR
+    Expenses:Subscriptions:MobilePhone         11.99 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-28 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-29 * Anthropic
+    Expenses:Subscriptions:Software            21.60 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-30 * Le Paris Cafe
+    Expenses:Entertainment:Social:Bars         17.80 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-30 * Trouville
+    Expenses:Entertainment:Social:Bars            23 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-31 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-31 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-10-31 * Transfer to BforBank current account
+    Assets:FR:BforBank:Compte-Courant         160.49 EUR
+    Assets:FR:CCF:Compte-Courant
+
+* CCF LDDS
+2026-10-23 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant                1000 EUR
+    Assets:FR:CCF:LDDS
+
+2026-10-25 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant                 100 EUR
+    Assets:FR:CCF:LDDS
+
+2026-10-28 * Transfer to CCF current account
+    Assets:FR:CCF:Compte-Courant                 500 EUR
+    Assets:FR:CCF:LDDS
+
+* Revolut EUR transactions
+2026-10-03 * Boulangerie Magali
+    Expenses:Food:Groceries                     2.70 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-05 * Beeminder fine
+    Expenses:Subscriptions:Software             4.47 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-06 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-06 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-06 * ajc Conc.aut
+    Expenses:Home:Laundry                       1.30 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-07 * Beeminder fine
+    Expenses:Subscriptions:Software             4.47 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-13 * Beeminder fine
+    Expenses:Subscriptions:Software             4.51 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-25 * Beeminder fine
+    Expenses:Subscriptions:Software             4.53 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-25 * Torbox
+    Expenses:Subscriptions:Streaming            4.53 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-25 * Beeminder fine
+    Expenses:Subscriptions:Software             4.53 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-10-27 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+* Revolut GBP transactions
+2026-10-06 * Lebara mobile
+    Expenses:Subscriptions:MobilePhone             5 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-10-09 * McDonald's
+    Expenses:Food:FastFood                     11.35 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+2026-10-09 * Beeminder fine
+    Expenses:Subscriptions:Software             3.80 GBP
+    Assets:FR:Revolut:Personal:GBP
+
+* Other
+2026-10-02 * Tennis Lesson with Joris
+    Expenses:Health:Sport:Tennis                   1 TL
+    Assets:Prepaid:Tennis
+
+2026-10-09 * Tennis Lesson with Joris
+    Expenses:Health:Sport:Tennis                   1 TL
+    Assets:Prepaid:Tennis
+

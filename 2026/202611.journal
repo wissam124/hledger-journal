@@ -1,0 +1,29 @@
+* Amex transactions
+2026-11-01 Europcam | Ajax alarm system
+    Expenses:Home                             821.25 EUR
+    Liabilities:FR:Amex:Gold                 -821.25 EUR
+    Expenses:Home                            -410.62 EUR
+    Liabilities:Payables:Aurelie              410.62 EUR
+
+2026-11-01 HelloFresh
+    Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold                  -49.98 EUR
+    Expenses:Food:Groceries                   -24.99 EUR
+    Liabilities:Payables:Aurelie               24.99 EUR
+
+* Cash transactions
+2026-11-01 Tennis lesson with Edgard
+    Expenses:Health:Sport:Tennis                  40 EUR
+    Assets:Cash                                  -40 EUR
+    Expenses:Health:Sport:Tennis                 -20 EUR
+    Liabilities:Payables:Aurelie                  20 EUR
+
+* CCF transactions
+2026-11-01 Cash withdrawal
+    Assets:Cash                                   40 EUR
+    Assets:FR:CCF:Compte-Courant
+
+* CCF LDDS transactions
+2026-11-02 * Transfer to CCF joint-account
+    Equity:Capital:Huchon:Jean               1393.13 EUR
+    Assets:FR:CCF:LDDS

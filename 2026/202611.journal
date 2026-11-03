@@ -1,5 +1,5 @@
 * Amex transactions
-2026-11-01 Europcam | Ajax alarm system
+2026-11-01 * Europcam | Ajax alarm system
     Expenses:Home                             821.25 EUR
     Liabilities:FR:Amex:Gold                 -821.25 EUR
     Expenses:Home                            -410.62 EUR
@@ -12,15 +12,31 @@
     Liabilities:Payables:Aurelie               24.99 EUR
 
 * Cash transactions
-2026-11-01 Tennis lesson with Edgard
+2026-11-01 * Tennis lesson with Edgard
     Expenses:Health:Sport:Tennis                  40 EUR
     Assets:Cash                                  -40 EUR
     Expenses:Health:Sport:Tennis                 -20 EUR
     Liabilities:Payables:Aurelie                  20 EUR
 
+2026-11-01 Carrefour City
+    Expenses:Food:Groceries                     3.97 EUR
+    Assets:Cash
+
 * CCF transactions
 2026-11-01 Cash withdrawal
     Assets:Cash                                   40 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-01 * Cash withdrawal
+    Assets:Cash                                   20 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-02 * L'arsenic Paris Alexandra's Birthday
+    Expenses:Entertainment:Social:Bars          8.90 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-02 * CCF cotisation
+    Expenses:Finance:Bank                       8.75 EUR
     Assets:FR:CCF:Compte-Courant
 
 * CCF LDDS transactions

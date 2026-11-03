@@ -601,14 +601,14 @@ account Income:Notary                                                  ; type: R
     [Stats:Expenses:Finance:Mortgage:Interest]       1391.69 EUR
     [Stats:Assets:FR:CCF:Compte-Joint]               -239.79 EUR
     [Stats:Expenses:Finance:Mortgage:Insurance]       239.79 EUR
-    Assets:FR:CCF:Compte-Joint:Aurelie               -757.06 EUR
     Liabilities:FR:CCF:Mortgage:Aurelie               289.24 EUR
-    Expenses:Finance:Mortgage:Interest:Aurelie        347.92 EUR
-    Expenses:Finance:Mortgage:Insurance:Aurelie       119.90 EUR
-    Assets:FR:CCF:Compte-Joint:Jean                 -2031.39 EUR
     Liabilities:FR:CCF:Mortgage:Jean                  867.73 EUR
-    Expenses:Finance:Mortgage:Interest:Jean          1043.77 EUR
+    Expenses:Finance:Mortgage:Insurance:Aurelie       119.90 EUR
+    Expenses:Finance:Mortgage:Interest:Aurelie        347.92 EUR
     Expenses:Finance:Mortgage:Insurance:Jean          119.89 EUR
+    Expenses:Finance:Mortgage:Interest:Jean          1043.77 EUR
+    Assets:FR:CCF:Compte-Joint:Aurelie               -757.06 EUR
+    Assets:FR:CCF:Compte-Joint:Jean                 -2031.39 EUR
 
 2026-07-07 * Facture EDF
     [Stats:Assets:FR:CCF:Compte-Joint]                   -49 EUR

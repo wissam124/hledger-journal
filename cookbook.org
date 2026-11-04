@@ -371,14 +371,12 @@ else.
   interest payments, etc.
 
 ** Compute total equity accumulated
-
 #+begin_src sh
 hledger -f huchon.journal bal '^assets:property:jean' '^liabilities.*jean'
 #+end_src
 
 ** Compute total mortgage repayment for principal
 Sum contributions towards liabilities.
-
 #+begin_src sh
 hledger -f huchon.journal bal 'liabilities.*jean' not:desc:signature
 #+end_src
@@ -416,5 +414,5 @@ with value =lisbon-2026=
 #+begin_src sh
 hledger reg tag:trip=lisbon-2026
 #+end_src
-* General ressources
+* General resources
 [[https://lalitm.com/post/one-number-i-trust/][One Number I Trust: Plain-Text Accounting for Multi-Currency Household]]

@@ -88,7 +88,7 @@
     Expenses:Food:Groceries                   -27.98 EUR
     Liabilities:Payables:Aurelie               27.98 EUR
 
-2026-10-26 HelloFresh
+2026-10-26 * HelloFresh
     Expenses:Food:Groceries                    49.98 EUR
     Liabilities:FR:Amex:Gold                  -49.98 EUR
     Expenses:Food:Groceries                   -24.99 EUR
@@ -106,15 +106,9 @@
     Expenses:Food:Delivery                     23.43 EUR
     Liabilities:FR:Amex:Gold
 
-2026-10-31 Steam | Tennis Elbow 4
+2026-10-31 * Steam | Tennis Elbow 4
     Expenses:Entertainment:Digital             29.99 EUR
     Liabilities:FR:Amex:Gold
-
-2026-10-31 Steam | Tennis Elbow 4
-    Expenses:Entertainment:Digital             29.99 EUR
-    Liabilities:FR:Amex:Gold                  -29.99 EUR
-    Expenses:Entertainment:Digital            -29.99 EUR
-    Liabilities:FR:Amex:Gold                   29.99 EUR
 
 * Bforbank transactions
 2026-10-07 * Transfer from Florent

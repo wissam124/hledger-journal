@@ -1,3 +1,8 @@
+* Income
+2026-11-05 * Allocation France Travail
+    Assets:FR:CCF:Compte-Courant             4521.90 EUR
+    Income:FR:FranceTravail
+
 * Amex transactions
 2026-11-01 * HelloFresh
     Expenses:Food:Groceries                    49.98 EUR
@@ -10,6 +15,15 @@
     Liabilities:FR:Amex:Gold                 -821.25 EUR
     Expenses:Home                            -410.62 EUR
     Liabilities:Payables:Aurelie              410.62 EUR
+
+* Bforbank transactions
+2026-11-02 * Overdraft interest adjustment
+    Assets:FR:BforBank:Compte-Courant           0.07 EUR
+    Expenses:Finance:Bank
+
+2026-11-06 * Transfert to Revolut
+    Assets:FR:Revolut:Personal:EUR              5.07 EUR
+    Expenses:Finance:Bank
 
 * Cash transactions
 2026-11-01 * Tennis lesson with Edgard
@@ -55,6 +69,10 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-11-05 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * CCF LDDS transactions
 2026-11-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               1393.13 EUR
@@ -63,3 +81,12 @@
 20226-11-05 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean                 42.50 EUR
     Assets:FR:CCF:LDDS
+
+* Revolut transactions
+2026-11-05 * Lebara Mobile
+    Expenses:Subscriptions:MobilePhone          6.02 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-11-06 * Transfer to Bforbank
+    Assets:FR:BforBank:Compte-Courant              5 EUR
+    Assets:FR:Revolut:Personal:EUR

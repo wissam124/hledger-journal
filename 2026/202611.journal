@@ -16,6 +16,28 @@
     Expenses:Home                            -410.62 EUR
     Liabilities:Payables:Aurelie              410.62 EUR
 
+2026-11-06 * Amex gold subscription
+    Expenses:Finance:CreditCard                   16 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-07 Amazon order usb adapter and yoga straps
+    Expenses:Shopping                          14.58 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-07 Showa 451 gloves
+    Expenses:Shopping:Sport                    11.03 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-08 HelloFresh
+    Expenses:Food:Groceries                    49.98 EUR
+    Liabilities:FR:Amex:Gold                  -49.98 EUR
+    Expenses:Food:Groceries                   -24.99 EUR
+    Liabilities:Payables:Aurelie               24.99 EUR
+
+2026-11-09 Amazon cable organiser
+    Expenses:Home                              16.99 EUR
+    Liabilities:FR:Amex:Gold
+
 * Bforbank transactions
 2026-11-02 * Overdraft interest adjustment
     Assets:FR:BforBank:Compte-Courant           0.07 EUR
@@ -23,7 +45,7 @@
 
 2026-11-06 * Transfert to Revolut
     Assets:FR:Revolut:Personal:EUR              5.07 EUR
-    Expenses:Finance:Bank
+    Assets:FR:BforBank:Compte-Courant
 
 * Cash transactions
 2026-11-01 * Tennis lesson with Edgard
@@ -39,6 +61,30 @@
 2026-11-03 * Cigarettes
     Expenses:Cigarettes                        13.50 EUR
     Assets:Cash
+
+2026-11-07 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:Cash
+
+2026-11-07 * Charity
+    Expenses:GiftsCharity:Charity               0.50 EUR
+    Assets:Cash
+
+2026-11-07 * Therapy
+    Expenses:Health:Therapy                      120 EUR
+    Assets:Cash
+
+2026-11-09 * Tennis lesson RCTJ
+    Expenses:Health:Sport:Tennis                  40 EUR
+    Assets:Cash                                  -40 EUR
+    Expenses:Health:Sport:Tennis                 -20 EUR
+    Liabilities:Payables:Aurelie                  20 EUR
+
+2026-11-09 * Cleaning lady
+    Expenses:Home:Maintenance                     30 EUR
+    Assets:Cash                                  -30 EUR
+    Expenses:Home:Maintenance                    -15 EUR
+    Liabilities:Payables:Aurelie                  15 EUR
 
 * CCF transactions
 2026-11-01 * Cash withdrawal
@@ -73,6 +119,30 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-11-06 * Restaurant Chiheb
+    Expenses:Food:Restaurants                     24 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-07 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-07 * Aux Fourreurs
+    Expenses:Entertainment:Social:Bars            29 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-08 * Transfer to Revolut joint-account
+    Expenses:Home:Shared                         150 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-07 Cash withdrawal
+    Assets:Cash                                  140 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-08 Cash withdrawal
+    Assets:Cash                                   70 EUR
+    Assets:FR:CCF:Compte-Courant
+
 * CCF LDDS transactions
 2026-11-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               1393.13 EUR
@@ -90,3 +160,23 @@
 2026-11-06 * Transfer to Bforbank
     Assets:FR:BforBank:Compte-Courant              5 EUR
     Assets:FR:Revolut:Personal:EUR
+
+2026-11-08 * Beeminder fine
+    Expenses:Subscriptions:Software             4.57 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+* Other liabilities
+2026-11-08 * Deco Sklum
+    Expenses:Home:Furniture                    75.84 EUR
+    Expenses:Home:Furniture                   -37.92 EUR
+    Liabilities:Payables:Aurelie
+
+2026-11-08 * Tapis veranda
+    Expenses:Home:Furniture                       59 EUR
+    Expenses:Home:Furniture                   -29.50 EUR
+    Liabilities:Payables:Aurelie
+
+2026-11-08 * Table basse
+    Expenses:Home:Furniture                   822.86 EUR
+    Expenses:Home:Furniture                  -411.43 EUR
+    Liabilities:Payables:Aurelie

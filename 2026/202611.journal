@@ -1,3 +1,20 @@
+* Future transactions
+2026-11-11 Sale desk on Leboncoin
+    Income:Resale                                350 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-11 Amex settlement
+    Liabilities:FR:Amex:Gold                 1380.80 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-26 Income tax outstanding
+    Expenses:Taxes                              2439 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-11 Aurelie settlement
+    Assets:FR:CCF:Compte-Courant              531.48 EUR
+    Liabilities:Payables:Aurelie
+
 * Income
 2026-11-05 * Allocation France Travail
     Assets:FR:CCF:Compte-Courant             4521.90 EUR
@@ -20,15 +37,15 @@
     Expenses:Finance:CreditCard                   16 EUR
     Liabilities:FR:Amex:Gold
 
-2026-11-07 Amazon order usb adapter and yoga straps
+2026-11-08 Amazon order usb adapter and yoga straps
     Expenses:Shopping                          14.58 EUR
     Liabilities:FR:Amex:Gold
 
-2026-11-07 Showa 451 gloves
+2026-11-08 Showa 451 gloves
     Expenses:Shopping:Sport                    11.03 EUR
     Liabilities:FR:Amex:Gold
 
-2026-11-08 HelloFresh
+2026-11-08 * HelloFresh
     Expenses:Food:Groceries                    49.98 EUR
     Liabilities:FR:Amex:Gold                  -49.98 EUR
     Expenses:Food:Groceries                   -24.99 EUR
@@ -36,6 +53,10 @@
 
 2026-11-09 Amazon cable organiser
     Expenses:Home                              16.99 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-09 Deliveroo
+    Expenses:Food:Delivery                     22.97 EUR
     Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
@@ -131,16 +152,28 @@
     Expenses:Entertainment:Social:Bars            29 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-11-07 * Cash withdrawal
+    Assets:Cash                                  140 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-08 * Cash withdrawal
+    Assets:Cash                                   70 EUR
+    Assets:FR:CCF:Compte-Courant
+
 2026-11-08 * Transfer to Revolut joint-account
     Expenses:Home:Shared                         150 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-11-07 Cash withdrawal
-    Assets:Cash                                  140 EUR
+2026-11-09 * Water bottle Rolex Masters
+    Expenses:Food:Snack                            3 EUR
     Assets:FR:CCF:Compte-Courant
 
-2026-11-08 Cash withdrawal
-    Assets:Cash                                   70 EUR
+2026-11-09 * Beers Rolex Masters
+    Expenses:Entertainment:Social:Bars            24 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-09 * Cigarettes
+    Expenses:Cigarettes                        13.50 EUR
     Assets:FR:CCF:Compte-Courant
 
 * CCF LDDS transactions

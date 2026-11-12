@@ -1,19 +1,11 @@
 * Future transactions
-2026-11-11 Sale desk on Leboncoin
-    Income:Resale                                350 EUR
-    Assets:FR:CCF:Compte-Courant
+; 2026-11-11 Sale desk on Leboncoin
+;     Income:Resale                                350 EUR
+;     Assets:FR:CCF:Compte-Courant
 
-2026-11-11 Amex settlement
-    Liabilities:FR:Amex:Gold                 1380.80 EUR
-    Assets:FR:CCF:Compte-Courant
-
-2026-11-26 Income tax outstanding
-    Expenses:Taxes                              2439 EUR
-    Assets:FR:CCF:Compte-Courant
-
-2026-11-11 Aurelie settlement
-    Assets:FR:CCF:Compte-Courant              531.48 EUR
-    Liabilities:Payables:Aurelie
+; 2026-11-26 Income tax outstanding
+;     Expenses:Taxes                              2439 EUR
+;     Assets:FR:CCF:Compte-Courant
 
 * Income
 2026-11-05 * Allocation France Travail
@@ -37,26 +29,38 @@
     Expenses:Finance:CreditCard                   16 EUR
     Liabilities:FR:Amex:Gold
 
-2026-11-08 Amazon order usb adapter and yoga straps
-    Expenses:Shopping                          14.58 EUR
-    Liabilities:FR:Amex:Gold
-
-2026-11-08 Showa 451 gloves
-    Expenses:Shopping:Sport                    11.03 EUR
-    Liabilities:FR:Amex:Gold
-
-2026-11-08 * HelloFresh
+2026-11-09 * HelloFresh
     Expenses:Food:Groceries                    49.98 EUR
     Liabilities:FR:Amex:Gold                  -49.98 EUR
     Expenses:Food:Groceries                   -24.99 EUR
     Liabilities:Payables:Aurelie               24.99 EUR
 
-2026-11-09 Amazon cable organiser
+2026-11-09 * Deliveroo
+    Expenses:Food:Delivery                     22.97 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-10 Amex settlement
+    Liabilities:FR:Amex:Gold                 1380.80 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-10 * Amazon cable organiser
     Expenses:Home                              16.99 EUR
     Liabilities:FR:Amex:Gold
 
-2026-11-09 Deliveroo
-    Expenses:Food:Delivery                     22.97 EUR
+2026-11-10 * Amazon order usb adapter and yoga straps
+    Expenses:Shopping                          14.58 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-10 * Showa 451 gloves
+    Expenses:Shopping:Sport                    11.03 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-10 Cable clips
+    Expenses:Shopping                          15.95 EUR
+    Liabilities:FR:Amex:Gold
+
+2026-11-11 * Velib
+    Expenses:Transportation:Bikesharing            4 EUR
     Liabilities:FR:Amex:Gold
 
 * Bforbank transactions
@@ -106,6 +110,10 @@
     Assets:Cash                                  -30 EUR
     Expenses:Home:Maintenance                    -15 EUR
     Liabilities:Payables:Aurelie                  15 EUR
+
+2026-11-10 * Cigarettes
+    Expenses:Cigarettes                        13.80 EUR
+    Assets:Cash
 
 * CCF transactions
 2026-11-01 * Cash withdrawal
@@ -176,6 +184,22 @@
     Expenses:Cigarettes                        13.50 EUR
     Assets:FR:CCF:Compte-Courant
 
+2026-11-09 * Cash withdrawal
+    Assets:Cash                                   40 EUR
+    Assets:FR:CCF:Compte-Courant
+
+2026-11-10 * Refund cups Plenitude Arena
+    Assets:FR:CCF:Compte-Courant                   2 EUR
+    Expenses:Entertainment:Social:Bars
+
+2026-11-10 * Refund cups Plenitude Arena
+    Assets:FR:CCF:Compte-Courant                   2 EUR
+    Expenses:Entertainment:Social:Bars
+
+2026-11-10 * Aurelie settlement
+    Assets:FR:CCF:Compte-Courant              531.48 EUR
+    Liabilities:Payables:Aurelie
+
 * CCF LDDS transactions
 2026-11-02 * Transfer to CCF joint-account
     Equity:Capital:Huchon:Jean               1393.13 EUR
@@ -196,6 +220,10 @@
 
 2026-11-08 * Beeminder fine
     Expenses:Subscriptions:Software             4.57 EUR
+    Assets:FR:Revolut:Personal:EUR
+
+2026-11-11 * Paris Tennis
+    Expenses:Health:Sport:Tennis                   7 EUR
     Assets:FR:Revolut:Personal:EUR
 
 * Other liabilities
